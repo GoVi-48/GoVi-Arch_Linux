@@ -1,0 +1,215 @@
+#
+
+# =============================================================================
+#                              Backups
+# =============================================================================
+
+tar cvzf configs.bak.tgz .config/
+mv -fv configs.bak.tgz /media/Media/[SaveData]/Linux
+
+
+# =============================================================================
+#                             Install Packages
+# =============================================================================
+
+# Packages
+sudo pacman -S terminator exa latte-dock conky gimp inkscape kdenlive audacity mediainfo python3-pip youtube-dl ffmpeg obs-studio transmission-qt virtualbox unrar wget
+
+# Kodi
+sudo pacman -S kodi
+yay -S kodi-addon-pvr-iptvsimple
+yay -S brave
+
+# Flatpaks
+sudo pacman -S flatpak
+flatpak install flathub com.spotify.Client
+flatpak install flathub com.dropbox.Client
+flatpak install flathub com.discordapp.Discord
+flatpak install flathub com.skype.Client
+
+# Clean Packages
+sudo pacman -Rns $(pacman -Qtdq)
+
+
+# Games +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+sudo pacman -S lutris
+
+# Drivers & Packages
+sudo pacman -S lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader vulkan-tools
+sudo pacman -S giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs
+
+# Enable Vulkan for R9 200/300 Series
+echo "blacklist radeon" | sudo tee --append /etc/modprobe.d/blacklist.conf
+echo "options amdgpu si_support=1 cik_support=1" | sudo tee --append /etc/modprobe.d/amdgpu.conf
+#sudo update-initramfs -u
+
+# Esync
+sudo vim /etc/systemd/system.conf
+sudo vim /etc/systemd/user.conf
+----------------------------------------------------
+DefaultLimitNOFILE=524288
+----------------------------------------------------
+ulimit -Hn
+
+
+# Wine ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+sudo vim /etc/pacman.conf
+----------------------------------------------------
+[multilib]
+Include = /etc/pacman.d/mirrorlist
+----------------------------------------------------
+sudo pacman -Syu
+sudo pacman -S wine-staging
+winecfg
+
+# Winetricks
+cd ~/Descargas
+wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+chmod +x winetricks
+sh winetricks corefonts vcrun6
+
+# Wine TKG
+cd ~/Descargas
+sudo pacman -U wine-tkg-staging-fsync-vkd3d-git-5.9.r0.g7b5a0e5a-272-x86_64.pkg.tar.zst
+
+# Create WINEPREFIX
+WINEPREFIX=~/Games/Wine/.newprefix winecfg
+WINEPREFIX=~/Games/Wine/.new32prefix WINEARCH="win32" winecfg
+
+# Launch WINEPREFIX
+ WINEPREFIX=~/Games/Wine/wineprefixname wine $HOME'/Games/game.exe'
+ WINEPREFIX=~/Games/Wine/wine-dxvk_1.7 ~/Games/Wine/wine-5.9_build-tkg-fsync-vkd3d/usr/bin/wine64 '/Media/Games/PC/Game/game.exe'
+
+# Launch Custom wine version
+~/Games/Wine/wine_5.6-2_build/bin/wine $HOME'/Games/Emulators/Cemu/Cemu.exe'
+WINEPREFIX=~/Games/Wine/wine-dxvk ~/Games/Wine/wine-5.9_build-tkg-fsync-vkd3d/usr/bin/wine64 '/Media/Games/PC/Game/game.exe'
+
+# Theme
+wine regedit wine-breeze-dark.reg
+
+
+# Build from source
+git clone git://source.winehq.org/git/wine.git ~/wine-dirs/wine-source
+cd ~/wine-dirs/wine-source
+./configure --enable-win64
+./configure --prefix=~/Games/Wine/wine-5.9_Build
+make
+sudo make install
+
+
+# Steam ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+sudo pacman -S ttf-liberation
+
+# =============================================================================
+#                             Automount Drives
+# =============================================================================
+
+lsblk
+sudo blkid
+sudo vim /etc/fstab
+----------------------------------------------------
+# Datos (/dev/sdb1)
+UUID=01D1D88E4B400EE0   /Datos       ntfs    defaults        0       0
+
+# Media (/dev/sdc1)
+UUID=94F0F35BF0F34252   /Media       ntfs    defaults        0       0
+
+# Windows (/dev/sda4)
+UUID=2AE63D01E63CCF37   /Windows    ntfs    defaults        0       0
+----------------------------------------------------
+
+sudo mkdir /Datos
+sudo mkdir /Media
+sudo mkdir /Windows
+sudo chown govi:govi /Datos/
+sudo chown govi:govi /Media/
+sudo chown govi:govi /Windows/
+ls -l /
+
+
+# =============================================================================
+#                             Crontab Jobs
+# =============================================================================
+
+EDITOR=$(type -p vim)
+VISUAL="$EDITOR"
+export EDITOR VISUAL
+
+crontab -e
+----------------------------------------------------
+MAILTO=""
+00 00 * * * ~/Scripts/Bash/Webgrab_Update_to_GIT.sh >> ~/Scripts/Logs/Cron/crontab.log 2>&1
+05 00 * * * export DISPLAY=:0 && kate ~/Scripts/Logs/Cron/crontab.log
+00 12 * * * ~/Scripts/Bash/Webgrab_Update_to_GIT.sh >> ~/Scripts/Logs/Cron/crontab.log 2>&1
+05 12 * * * export DISPLAY=:0 && kate ~/Scripts/Logs/Cron/crontab.log
+----------------------------------------------------
+crontab -l
+
+
+# =============================================================================
+#                               Bashrc 
+# =============================================================================
+
+# .bashrc
+vim ~/.bashrc
+----------------------------------------------------
+shopt -s autocd
+
+alias sv='sudo vim'
+alias l='exa -al --color=always --group-directories-first'
+alias spm='sudo pacman'
+alias yt='youtube-dl --add-metadata -ic'
+alias pyc='pycharm.sh'
+
+export TERMINAL='terminator'
+export EDITOR='vim'
+export BROWSER='brave-browser'
+export PATH=$PATH:$HOME/Scripts/Bash/
+export PATH=$PATH:$HOME/Programas/Pycharm/bin/
+
+neofetch
+----------------------------------------------------
+
+# sudoers
+sudo su -
+vim /etc/sudoers
+----------------------------------------------------
+Defaults env_editor,editor=/usr/bin/vi:/usr/bin/nano:/usr/bin/vim
+Defaults env_reset,pwfeedback
+----------------------------------------------------
+
+
+# =============================================================================
+#                               Mouse 
+# =============================================================================
+
+sudo pacmab -S imwheel
+xprop WM_CLASS | grep -o '"[^"]*"' | head -n 1 ## click on window for output ##
+sudo vim ~/.imwheelrc
+----------------------------------------------------
+"^brave-browser$"
+    None, Up, Button4, 2
+    None, Down, Button5, 2
+    Shift_L,   Up,   Shift_L|Button4, 4
+    Shift_L,   Down, Shift_L|Button5, 4
+    Control_L, Up,   Control_L|Button4
+    Control_L, Down, Control_L|Button5
+----------------------------------------------------    
+killall imwheel
+imwheel -b 45
+sudo vim ~/.config/autostart/imwheel.desktop
+----------------------------------------------------
+[Desktop Entry]
+Name=imwheel
+Exec=~/Scripts/Bash/imwheel.sh
+InitialPreference=1
+StartupNotify=true
+Terminal=false
+Type=Application
+X-DBUS-StartupType=unique
+X-KDE-StartupNotify=false
+X-KDE-SubstituteUID=false
+----------------------------------------------------

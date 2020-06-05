@@ -1,0 +1,99 @@
+double_buffer yes
+update_interval 2
+background yes
+
+own_window yes
+
+# own_window_type desktop
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+#own_window_type override
+own_window_argb_visual true
+own_window_argb_value 160
+out_to_console no
+own_window_transparent no
+own_window_class conky-semi
+use_xft yes
+xftfont cure:size=10
+
+#use_xft yes
+#xftfont Sansation:size=9
+xftfont Rounded Elegance:size=10
+xftalpha 0
+update_interval 2
+cpu_avg_samples 2
+net_avg_samples 2
+double_buffer yes
+maximum_width 320
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders yes
+stippled_borders 1
+border_width 0
+default_color white
+default_shade_color white
+default_outline_color white
+alignment top_right
+
+use_spacer left
+no_buffers yes
+uppercase no
+
+color0 white
+
+color2 white
+color3 1793d0
+
+
+pad_percents 2
+top_name_width 10
+minimum_size 320 100
+
+
+gap_x 745
+gap_y 50
+
+lua_load allcombined.lua
+
+TEXT
+${image img/hard_drive.png -p 0,0 -s 30x30}
+${offset 35}${font Good Times:size=12}${color Tan1}DISK USAGE ${color}${hr 2}${font}
+
+ ${color}/
+${lua gradbar {6, 70, "${fs_used_perc /}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /}% used
+ /dev/sda6 = 38G (${fs_type /})${color}${alignr}${offset -5}${fs_free /} free
+${color}${hr 1}
+
+${image img/trans-bg240.png -p 4,65 -s 226x11} ${color}/home
+${lua gradbar {6, 145, "${fs_used_perc /home}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /home}% used
+ /dev/sda7 = 55G (${fs_type /home})${color}${alignr}${offset -5}${fs_free /home} free
+${color}${hr 1}
+
+${image img/trans-bg240.png -p 4,140 -s 226x11} ${color}/boot_Windows
+${lua gradbar {6, 220, "${fs_used_perc /boot_Windows}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /boot_Windows}% used
+ /dev/sda2 = 96M (${fs_type /boot_Windows})${color}${alignr}${offset -5}${fs_free /boot_Windows} free
+${color}${hr 1}
+
+${image img/trans-bg240.png -p 4,215 -s 226x11} ${color}/boot
+${lua gradbar {6, 295, "${fs_used_perc /boot}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /boot}% used
+ /dev/sda5 = 511M (${fs_type /boot})${color}${alignr}${offset -5}${fs_free /boot} free
+${color}${hr 1}
+
+${image img/trans-bg240.png -p 4,290 -s 226x11} ${color}/Datos
+${lua gradbar {6, 370, "${fs_used_perc /Datos}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /Datos}% used
+ /dev/sdb1 = 899G (${fs_type /Datos})${color}${alignr}${offset -5}${fs_free /Datos} free
+${color}${hr 1}
+
+${image img/trans-bg240.png -p 4,365 -s 226x11} ${color}/Media
+${lua gradbar {6, 445, "${fs_used_perc /Media}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /Media}% used
+ /dev/sdc1 = 3,7T (${fs_type /Media})${color}${alignr}${offset -5}${fs_free /Media} free
+${color}${hr 1}
+
+${image img/trans-bg240.png -p 4,440 -s 226x11} ${color}/Windows
+${lua gradbar {6, 520, "${fs_used_perc /Windows}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /Windows}% used
+ /dev/sda4 = 135G (${fs_type /Windows})${color}${alignr}${offset -5}${fs_free /Windows} free
+${color}${hr 1}
+
+${image img/trans-bg240.png -p 4,515 -s 226x11}
+${color lightgrey}Read: $color${diskio_read}${alignr}${color lightgrey}Write: ${color}${diskio_write}
+${color #000000}${diskiograph_read 12,145 000000 EEEEEE}${alignr}${color #000000}${diskiograph_write 12,145 000000 EEEEEE}

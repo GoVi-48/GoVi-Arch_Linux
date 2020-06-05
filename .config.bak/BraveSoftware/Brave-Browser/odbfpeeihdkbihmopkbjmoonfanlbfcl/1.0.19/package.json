@@ -1,0 +1,61 @@
+{
+  "_args": [
+    [
+      "ethereum-remote-client@0.1.54",
+      "/Users/jenkins/jenkins/workspace/brave-core-ext-ethereum-remote-client-update-publish"
+    ]
+  ],
+  "_from": "ethereum-remote-client@0.1.54",
+  "_id": "ethereum-remote-client@0.1.54",
+  "_inBundle": false,
+  "_integrity": "sha512-q07IM65uKG2fuGfBouNAkCKjn2nE9BXb8o8wsR1REpiGNxxM/mHaLqZdcZ5Xt8urBEsdx/I+M2DVloc7xT5jiQ==",
+  "_location": "/ethereum-remote-client",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "ethereum-remote-client@0.1.54",
+    "name": "ethereum-remote-client",
+    "escapedName": "ethereum-remote-client",
+    "rawSpec": "0.1.54",
+    "saveSpec": null,
+    "fetchSpec": "0.1.54"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ethereum-remote-client/-/ethereum-remote-client-0.1.54.tgz",
+  "_spec": "0.1.54",
+  "_where": "/Users/jenkins/jenkins/workspace/brave-core-ext-ethereum-remote-client-update-publish",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": "^10.16.0",
+    "yarn": "^1.16.0"
+  },
+  "name": "ethereum-remote-client",
+  "resolutions": {
+    "braces": "^2.3.2",
+    "handlebars": "^4.4.5",
+    "https-proxy-agent": "^2.2.3",
+    "3box/ipfs/ipld-zcash/zcash-bitcore-lib/lodash": "^4.17.12",
+    "marked": "^0.7.0",
+    "mem": "^4.0.0",
+    "pubnub/superagent-proxy": "^2.0.0",
+    "set-value": "2.0.1",
+    "serialize-javascript": "2.1.1",
+    "tree-kill": "^1.2.2",
+    "@hapi/hapi": "^18.4.1",
+    "@hapi/ammo": "^3.1.2",
+    "qs": "^6.3.2",
+    "acorn": "^7.1.1",
+    "swarm-js": "^0.1.40",
+    "minimist": "^1.2.3",
+    "node-sass": "^4.13.1",
+    "kind-of": "^6.0.3",
+    "decompress": "^4.2.1",
+    "yargs-parser": "^13.1.2"
+  },
+  "scripts": {},
+  "version": "0.1.54"
+}

@@ -1,0 +1,15 @@
+2020/06/01-22:02:59.847 13788 Reusing MANIFEST /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.lenovo.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/01-22:02:59.847 13788 Recovering log #23
+2020/06/01-22:02:59.848 13788 Reusing old log /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.lenovo.com_0.indexeddb.leveldb/000023.log 
+2020/06/01-22:03:41.179 1034 Level-0 table #28: started
+2020/06/01-22:03:41.184 1034 Level-0 table #28: 1098 bytes OK
+2020/06/01-22:03:41.193 1034 Delete type=0 #23
+2020/06/01-22:03:41.193 1034 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/01-22:03:41.194 1034 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x05\x00s\x00t\x00a\x00t\x00e' @ 183 : 1
+2020/06/01-22:03:41.194 1034 Compacting 1@1 + 1@2 files
+2020/06/01-22:03:41.202 1034 Generated table #29@1: 20 keys, 910 bytes
+2020/06/01-22:03:41.202 1034 Compacted 1@1 + 1@2 files => 910 bytes
+2020/06/01-22:03:41.207 1034 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/01-22:03:41.207 1034 Delete type=2 #25
+2020/06/01-22:03:41.207 1034 Delete type=2 #28
+2020/06/01-22:03:41.207 1034 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x05\x00s\x00t\x00a\x00t\x00e' @ 183 : 1 .. (end); will stop at (end)

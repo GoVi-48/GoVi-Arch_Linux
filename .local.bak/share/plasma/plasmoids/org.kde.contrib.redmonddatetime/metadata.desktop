@@ -1,0 +1,17 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Redmond Date and Time
+Type=Service
+Icon=preferences-system-time
+Comment=Small-font (Redmond-like) time and date on 2 lines
+X-KDE-PluginInfo-Author=J. Rutkowski (modified by Azuma Hazuki)
+X-KDE-PluginInfo-Email=zbeptz@gmail.com (contact modder at wanderinghazuki@gmail.com)
+X-KDE-PluginInfo-License=GPL
+X-KDE-PluginInfo-Name=org.kde.contrib.redmonddatetime
+X-Plasma-Provides=org.kde.plasma.time,org.kde.plasma.date
+X-KDE-PluginInfo-Category=Date and Time
+X-KDE-PluginInfo-Version=1.1
+X-KDE-ServiceTypes=Plasma/Applet
+X-Plasma-API=declarativeappletscript
+X-Plasma-MainScript=ui/main.qml
+X-KDE-PluginInfo-Category=Date and Time

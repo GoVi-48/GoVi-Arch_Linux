@@ -1,0 +1,15 @@
+2020/05/28-07:50:11.030 ff3 Reusing MANIFEST /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_help.nextcloud.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/28-07:50:11.030 ff3 Recovering log #4
+2020/05/28-07:50:11.030 ff3 Reusing old log /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_help.nextcloud.com_0.indexeddb.leveldb/000004.log 
+2020/05/28-07:51:13.021 112d Level-0 table #8: started
+2020/05/28-07:51:13.028 112d Level-0 table #8: 3731 bytes OK
+2020/05/28-07:51:13.030 112d Delete type=0 #4
+2020/05/28-07:51:13.030 112d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/28-07:51:13.030 112d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00 \xb6P\x9d%wB\x00\x01q\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00h\x00e\x00l\x00p\x00.\x00n\x00e\x00x\x00t\x00c\x00l\x00o\x00u\x00d\x00.\x00c\x00o\x00m\x00/\x00u\x00p\x00l\x00o\x00a\x00d\x00s\x00/\x00d\x00e\x00f\x00a\x00u\x00l\x00t\x00/\x00o\x00r\x00i\x00g\x00i\x00n\x00a\x00l\x00/\x002\x00X\x00/\x004\x00/\x004\x00d\x00e\x006\x008\x004\x003\x00a\x006\x003\x007\x00b\x001\x008\x00a\x00a\x00c\x009\x00c\x00f\x009\x003\x001\x001\x000\x000\x006\x008\x00b\x007\x00b\x005\x00a\x008\x00c\x003\x00c\x007\x003\x005\x00.\x00p\x00n\x00g' @ 1419 : 1
+2020/05/28-07:51:13.031 112d Compacting 1@1 + 1@2 files
+2020/05/28-07:51:13.035 112d Generated table #9@1: 321 keys, 37161 bytes
+2020/05/28-07:51:13.035 112d Compacted 1@1 + 1@2 files => 37161 bytes
+2020/05/28-07:51:13.037 112d compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/05/28-07:51:13.037 112d Delete type=2 #5
+2020/05/28-07:51:13.037 112d Delete type=2 #8
+2020/05/28-07:51:13.038 112d Manual compaction at level-1 from '\x00\x01\x01 \x03\x00 \xb6P\x9d%wB\x00\x01q\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00h\x00e\x00l\x00p\x00.\x00n\x00e\x00x\x00t\x00c\x00l\x00o\x00u\x00d\x00.\x00c\x00o\x00m\x00/\x00u\x00p\x00l\x00o\x00a\x00d\x00s\x00/\x00d\x00e\x00f\x00a\x00u\x00l\x00t\x00/\x00o\x00r\x00i\x00g\x00i\x00n\x00a\x00l\x00/\x002\x00X\x00/\x004\x00/\x004\x00d\x00e\x006\x008\x004\x003\x00a\x006\x003\x007\x00b\x001\x008\x00a\x00a\x00c\x009\x00c\x00f\x009\x003\x001\x001\x000\x000\x006\x008\x00b\x007\x00b\x005\x00a\x008\x00c\x003\x00c\x007\x003\x005\x00.\x00p\x00n\x00g' @ 1419 : 1 .. (end); will stop at (end)

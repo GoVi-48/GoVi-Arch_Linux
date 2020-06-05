@@ -1,0 +1,31 @@
+# settings
+
+(GimpGegl-gegl-long-shadow-config "2020-05-25 20:27:51"
+    (time 1590431271)
+    (style fading-fixed-length)
+    (angle 90)
+    (length 13.800000000000001)
+    (midpoint 100)
+    (midpoint-rel 0.48599999999999999)
+    (color (color-rgba 0 0 0 1))
+    (composition shadow-minus-image))
+(GimpGegl-gegl-long-shadow-config "2020-05-23 21:16:39"
+    (time 1590261399)
+    (style fading-fixed-length)
+    (angle 45)
+    (length 14.899999999999999)
+    (midpoint 100)
+    (midpoint-rel 0.57399999999999995)
+    (color (color-rgba 0 0 0 1))
+    (composition shadow-minus-image))
+(GimpGegl-gegl-long-shadow-config "folder"
+    (time 0)
+    (style fading-fixed-length)
+    (angle 45)
+    (length 14.899999999999999)
+    (midpoint 100)
+    (midpoint-rel 0.57399999999999995)
+    (color (color-rgba 0 0 0 1))
+    (composition shadow-minus-image))
+
+# end of settings

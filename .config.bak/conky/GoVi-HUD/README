@@ -1,0 +1,31 @@
+BOX WIDGET by Wlourf 27/01/2011
+
+This widget draw a box (a rectangle in fact) in your conky window.
+
+It can be use as a background or anything you like to do with !
+
+Some examples of configuration here :
+http://u-scripts.blogspot.com/2011/01/box-widget_27.html
+
+
+-------
+
+In the conkyrc file, set the path to the lua script here :
+	lua_load ~/conky/box.lua
+and call the main function with 
+	lua_draw_hook_pre main_box
+
+And leave at least one line (blank or not) after TEXT
+
+And for betters effects, use :
+own_window_transparent yes
+own_window_argb_visual yes (needed for use with the composite operator)
+
+You need at least conky 1.8 with Lua bindings enabled to run it
+
+-------
+In the Lua script, follow the instructions to set up your graphs,
+a lot of examples with pictures in the link above !
+
+Happy Conkying !
+

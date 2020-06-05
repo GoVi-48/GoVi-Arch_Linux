@@ -1,0 +1,288 @@
+<!DOCTYPE Menu PUBLIC '-//freedesktop//DTD Menu 1.0//EN' 'http://www.freedesktop.org/standards/menu-spec/1.0/menu.dtd'>
+<Menu>
+ <Menu>
+  <Name>Science</Name>
+  <Deleted/>
+ </Menu>
+ <Menu>
+  <Name>Education</Name>
+  <Deleted/>
+ </Menu>
+ <Exclude>
+  <Filename>org.kde.Help.desktop</Filename>
+  <Filename>Documentos-2.desktop</Filename>
+  <Filename>Documentos.desktop</Filename>
+  <Filename>THC.desktop</Filename>
+  <Filename>Wine.desktop</Filename>
+ </Exclude>
+ <Menu>
+  <Name>.hidden</Name>
+  <Include>
+   <Filename>org.kde.Help.desktop</Filename>
+   <Filename>Documentos-2.desktop</Filename>
+   <Filename>Documentos.desktop</Filename>
+   <Filename>THC.desktop</Filename>
+   <Filename>cemu.desktop</Filename>
+  </Include>
+ </Menu>
+ <Menu>
+  <Name>Games</Name>
+  <Include/>
+  <Exclude>
+   <Filename>THC.desktop</Filename>
+   <Filename>Wine.desktop</Filename>
+   <Filename>cemu.desktop</Filename>
+  </Exclude>
+  <Menu>
+   <Name>Wine</Name>
+   <Directory>Wine.directory</Directory>
+   <Include>
+    <Filename>Ori and the Will of the Wisps.desktop</Filename>
+    <Filename>Green Hell.desktop</Filename>
+    <Filename>Ori.desktop</Filename>
+   </Include>
+   <Menu>
+    <Name>Ori and the Will of the Wisps</Name>
+    <Directory>Ori and the Will of the Wisps.directory</Directory>
+    <Deleted/>
+   </Menu>
+   <Layout>
+    <Merge type="files"/>
+    <Filename>Ori.desktop</Filename>
+    <Filename>Green Hell.desktop</Filename>
+   </Layout>
+  </Menu>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Wine</Menuname>
+   <Merge type="files"/>
+   <Filename>Games-cemu.desktop</Filename>
+   <Filename>net.lutris.Lutris.desktop</Filename>
+   <Menuname>Arcade</Menuname>
+   <Menuname>Card</Menuname>
+   <Menuname>Logic</Menuname>
+   <Menuname>Board</Menuname>
+   <Menuname>Kidsgames</Menuname>
+   <Menuname>TacticStrategy</Menuname>
+  </Layout>
+ </Menu>
+ <Include/>
+ <Menu>
+  <Name>Documentos</Name>
+  <Directory>Documentos.directory</Directory>
+  <Directory>Documentos-2.directory</Directory>
+  <Deleted/>
+ </Menu>
+ <Menu>
+  <Name>Documentos-2</Name>
+  <Directory>Documentos-3.directory</Directory>
+  <Deleted/>
+ </Menu>
+ <Menu>
+  <Name>Multimedia</Name>
+  <NotDeleted/>
+ </Menu>
+ <Menu>
+  <Name>Applications</Name>
+  <Deleted/>
+ </Menu>
+ <Menu>
+  <Name>Documentos-3</Name>
+  <Directory>Documentos-4.directory</Directory>
+  <Deleted/>
+ </Menu>
+ <Menu>
+  <Name>THC</Name>
+  <Directory>THC.directory</Directory>
+  <Include>
+   <Filename>Documentos.desktop</Filename>
+   <Filename>Proyectos.desktop</Filename>
+   <Filename>Multimedia.desktop</Filename>
+   <Filename>Kodi Backup.desktop</Filename>
+   <Filename>.desktop</Filename>
+   <Filename>Config Backup.desktop</Filename>
+  </Include>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>Config Backup.desktop</Filename>
+   <Filename>Kodi Backup.desktop</Filename>
+   <Filename>Documentos.desktop</Filename>
+   <Filename>Multimedia.desktop</Filename>
+   <Filename>Proyectos.desktop</Filename>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>wine-wine</Name>
+  <Menu>
+   <Name>wine-Programs</Name>
+   <Include>
+    <Filename>Photoshop-2.desktop</Filename>
+   </Include>
+   <Exclude>
+    <Filename>Wine.desktop</Filename>
+   </Exclude>
+   <Layout>
+    <Merge type="files"/>
+    <Filename>Photoshop-2.desktop</Filename>
+    <Merge type="menus"/>
+    <Menuname>wine-Programs-Green Hell</Menuname>
+    <Menuname>wine-Programs-Ori and the Will of the Wisps</Menuname>
+   </Layout>
+  </Menu>
+  <Include>
+   <Filename>Wine.desktop</Filename>
+   <Filename>winetricks.desktop</Filename>
+  </Include>
+  <Exclude/>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>wine-Programs</Menuname>
+   <Merge type="files"/>
+   <Filename>Wine.desktop</Filename>
+   <Filename>winetricks.desktop</Filename>
+  </Layout>
+ </Menu>
+ <Menu>
+  <Name>Utilities</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>XUtilities</Menuname>
+   <Merge type="files"/>
+   <Filename>org.kde.ark.desktop</Filename>
+   <Filename>org.kde.akonadiimportwizard.desktop</Filename>
+   <Filename>Config backup.desktop</Filename>
+   <Filename>onboard-settings.desktop</Filename>
+   <Filename>org.kde.kalarm.desktop</Filename>
+   <Filename>org.kde.kate.desktop</Filename>
+   <Filename>org.kde.kcalc.desktop</Filename>
+   <Filename>org.kde.kcharselect.desktop</Filename>
+   <Filename>org.kde.kfind.desktop</Filename>
+   <Filename>org.kde.kfloppy.desktop</Filename>
+   <Filename>org.kde.kgpg.desktop</Filename>
+   <Filename>org.kde.kleopatra.desktop</Filename>
+   <Filename>org.kde.kmag.desktop</Filename>
+   <Filename>org.kde.kmousetool.desktop</Filename>
+   <Filename>org.kde.kmouth.desktop</Filename>
+   <Filename>org.kde.knotes.desktop</Filename>
+   <Filename>Kodi backup.desktop</Filename>
+   <Filename>org.kde.kteatime.desktop</Filename>
+   <Filename>org.kde.ktnef.desktop</Filename>
+   <Filename>org.kde.latte-dock.desktop</Filename>
+   <Filename>onboard.desktop</Filename>
+   <Filename>org.kde.plasma.emojier.desktop</Filename>
+   <Filename>org.kde.spectacle.desktop</Filename>
+   <Filename>org.kde.sweeper.desktop</Filename>
+   <Filename>terminator.desktop</Filename>
+   <Filename>vim.desktop</Filename>
+   <Filename>Webgrab to GIT.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>winetricks.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>Graphics</Name>
+  <Menu>
+   <Name>More</Name>
+   <Exclude>
+    <Filename>org.kde.kcolorchooser.desktop</Filename>
+    <Filename>org.kde.kruler.desktop</Filename>
+   </Exclude>
+   <Deleted/>
+  </Menu>
+  <Include>
+   <Filename>org.kde.kcolorchooser.desktop</Filename>
+   <Filename>org.kde.kruler.desktop</Filename>
+  </Include>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>gimp.desktop</Filename>
+   <Filename>org.kde.gwenview.desktop</Filename>
+   <Filename>org.inkscape.Inkscape.desktop</Filename>
+   <Filename>org.kde.kolourpaint.desktop</Filename>
+   <Filename>libreoffice-draw.desktop</Filename>
+   <Filename>org.kde.okular.desktop</Filename>
+   <Filename>org.kde.kcolorchooser.desktop</Filename>
+   <Filename>org.kde.kruler.desktop</Filename>
+  </Layout>
+ </Menu>
+ <Layout>
+  <Merge type="menus"/>
+  <Menuname>Development</Menuname>
+  <Menuname>Graphics</Menuname>
+  <Menuname>Internet</Menuname>
+  <Menuname>Games</Menuname>
+  <Menuname>Multimedia</Menuname>
+  <Menuname>Office</Menuname>
+  <Menuname>Settingsmenu</Menuname>
+  <Menuname>System</Menuname>
+  <Menuname>Utilities</Menuname>
+  <Menuname>THC</Menuname>
+  <Menuname>wine-wine-2</Menuname>
+ </Layout>
+ <Menu>
+  <Name>wine-wine-2</Name>
+  <NotDeleted/>
+  <Menu>
+   <Name>Games</Name>
+   <Layout>
+    <Merge type="files"/>
+    <Filename>wine-Programs-Green Hell-Green Hell.desktop</Filename>
+    <Filename>wine-Programs-Ori and the Will of the Wisps-Ori and the Will of the Wisps.desktop</Filename>
+   </Layout>
+   <Directory>Games-2.directory</Directory>
+   <Include>
+    <Filename>wine-Programs-Green Hell-Green Hell.desktop</Filename>
+    <Filename>wine-Programs-Ori and the Will of the Wisps-Ori and the Will of the Wisps.desktop</Filename>
+   </Include>
+  </Menu>
+  <Menu>
+   <Name>wine-Programs</Name>
+   <Layout>
+    <Merge type="files"/>
+    <Filename>Photoshop-2.desktop</Filename>
+   </Layout>
+   <Menu>
+    <Name>wine-Programs-Green Hell</Name>
+    <Exclude>
+     <Filename>wine-Programs-Green Hell-Green Hell.desktop</Filename>
+    </Exclude>
+    <Include/>
+    <Deleted/>
+   </Menu>
+   <Include/>
+   <Menu>
+    <Name>wine-Programs-Ori and the Will of the Wisps</Name>
+    <Exclude>
+     <Filename>wine-Programs-Ori and the Will of the Wisps-Ori and the Will of the Wisps.desktop</Filename>
+    </Exclude>
+    <Deleted/>
+   </Menu>
+   <Exclude>
+    <Filename>wine-Programs-Green Hell-Green Hell.desktop</Filename>
+   </Exclude>
+  </Menu>
+  <Include>
+   <Filename>Wine regedit.desktop</Filename>
+   <Filename>Winetricks.desktop</Filename>
+  </Include>
+  <Exclude>
+   <Filename>wine-Programs-Ori and the Will of the Wisps-Ori and the Will of the Wisps.desktop</Filename>
+  </Exclude>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Games</Menuname>
+   <Menuname>wine-Programs</Menuname>
+   <Merge type="files"/>
+   <Filename>Wine.desktop</Filename>
+   <Filename>Wine regedit.desktop</Filename>
+   <Filename>Winetricks.desktop</Filename>
+  </Layout>
+ </Menu>
+ <Move>
+  <Old>wine-wine</Old>
+  <New>wine-wine-2</New>
+ </Move>
+</Menu>

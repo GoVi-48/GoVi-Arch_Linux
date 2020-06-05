@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0
+      http://www.kde.org/standards/kcfg/1.0/kcfg.xsd" >
+    <kcfgfile name=""/>
+    <group name="General">
+        <entry name="availableWidth" type="int">
+            <default>800</default>
+        </entry>
+        <entry name="availableHeight" type="int">
+            <default>600</default>
+        </entry>
+        <entry name="speed" type="int">
+            <default>5</default>
+        </entry>
+        <entry name="type" type="string">
+            <default>penguin</default>
+        </entry>        
+        
+        <entry name="shellRotationLevel" type="int">
+            <default>10</default>
+        </entry>
+        <entry name="xCursorPos" type="int">
+            <default>0</default>
+        </entry>
+        <entry name="yCursorPos" type="int">
+            <default>0</default>
+        </entry>
+        <entry name="first_start" type="int">
+           <default>1</default>
+        </entry>
+    </group>
+</kcfg>

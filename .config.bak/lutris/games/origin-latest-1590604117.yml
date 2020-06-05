@@ -1,0 +1,18 @@
+game:
+  exe: drive_c/Program Files (x86)/Origin/Origin.exe
+  prefix: /home/govi/Games/Origin
+system:
+  env:
+    DXVK_CONFIG_FILE: /home/govi/Games/Origin/dxvk.conf
+    STAGING_SHARED_MEMORY: '0'
+    __GL_SHADER_DISK_CACHE: '1'
+    __GL_SHADER_DISK_CACHE_PATH: /home/govi/Games/Origin/nv-shaders
+  exclude_processes: QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe
+  manual_command: /home/govi/Games/Origin/drive_c/Program Files (x86)/Origin/updateorigin.sh
+wine:
+  dxvk: false
+  esync: true
+  overrides:
+    nvapi,nvapi64: disabled
+  version: system
+  vkd3d: true

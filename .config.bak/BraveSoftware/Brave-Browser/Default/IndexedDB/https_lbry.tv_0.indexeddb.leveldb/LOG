@@ -1,0 +1,15 @@
+2020/05/18-18:01:16.785 1fa9b Reusing MANIFEST /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_lbry.tv_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/18-18:01:16.785 1fa9b Recovering log #4
+2020/05/18-18:01:16.785 1fa9b Reusing old log /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_lbry.tv_0.indexeddb.leveldb/000004.log 
+2020/05/18-18:06:51.749 866 Level-0 table #8: started
+2020/05/18-18:06:51.754 866 Level-0 table #8: 80338 bytes OK
+2020/05/18-18:06:51.756 866 Delete type=0 #4
+2020/05/18-18:06:51.756 866 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/18-18:06:51.756 866 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0a\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00v\x000' @ 693 : 1
+2020/05/18-18:06:51.757 866 Compacting 1@1 + 1@2 files
+2020/05/18-18:06:51.759 866 Generated table #9@1: 29 keys, 2720 bytes
+2020/05/18-18:06:51.759 866 Compacted 1@1 + 1@2 files => 2720 bytes
+2020/05/18-18:06:51.761 866 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/05/18-18:06:51.761 866 Delete type=2 #5
+2020/05/18-18:06:51.761 866 Delete type=2 #8
+2020/05/18-18:06:51.761 866 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0a\x00p\x00e\x00r\x00s\x00i\x00s\x00t\x00:\x00v\x000' @ 693 : 1 .. (end); will stop at (end)

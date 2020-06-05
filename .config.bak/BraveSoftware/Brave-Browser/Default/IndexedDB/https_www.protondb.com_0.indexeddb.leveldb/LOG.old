@@ -1,0 +1,15 @@
+2020/06/01-16:49:37.390 6d95 Reusing MANIFEST /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.protondb.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/01-16:49:37.390 6d95 Recovering log #4
+2020/06/01-16:49:37.390 6d95 Reusing old log /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.protondb.com_0.indexeddb.leveldb/000004.log 
+2020/06/01-16:52:43.850 1034 Level-0 table #8: started
+2020/06/01-16:52:43.852 1034 Level-0 table #8: 516 bytes OK
+2020/06/01-16:52:43.854 1034 Delete type=0 #4
+2020/06/01-16:52:43.855 1034 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/01-16:52:43.855 1034 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x006\x002\x004\x000\x008\x001\x007\x008\x008' @ 63 : 1
+2020/06/01-16:52:43.855 1034 Compacting 1@1 + 1@2 files
+2020/06/01-16:52:43.860 1034 Generated table #9@1: 18 keys, 555 bytes
+2020/06/01-16:52:43.860 1034 Compacted 1@1 + 1@2 files => 555 bytes
+2020/06/01-16:52:43.862 1034 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/01-16:52:43.862 1034 Delete type=2 #5
+2020/06/01-16:52:43.862 1034 Delete type=2 #8
+2020/06/01-16:52:43.862 1034 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x006\x002\x004\x000\x008\x001\x007\x008\x008' @ 63 : 1 .. (end); will stop at (end)

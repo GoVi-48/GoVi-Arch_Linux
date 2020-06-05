@@ -1,0 +1,114 @@
+double_buffer yes
+update_interval 2
+background yes
+
+own_window yes
+
+# own_window_type desktop
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+#own_window_type override
+own_window_argb_visual true
+own_window_argb_value 160
+out_to_console no
+own_window_transparent no
+own_window_class conky-semi
+use_xft yes
+xftfont cure:size=10
+
+#use_xft yes
+#xftfont Sansation:size=9
+xftfont Rounded Elegance:size=10
+xftalpha 0
+update_interval 2
+cpu_avg_samples 2
+net_avg_samples 2
+double_buffer yes
+maximum_width 320
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders yes
+stippled_borders 1
+border_width 0
+default_color white
+default_shade_color white
+default_outline_color white
+alignment top_right
+
+use_spacer left
+no_buffers yes
+uppercase no
+
+color0 white
+
+color2 white
+color3 1793d0
+
+
+pad_percents 2
+top_name_width 10
+minimum_size 320 100
+
+#==============================================================================
+#                               conkyrc_orange
+#
+#  author  : SLK
+#  version : v2011011601
+#  license : Distributed under the terms of GNU GPL version 2 or later
+#
+#==============================================================================
+
+
+
+gap_x 15
+gap_y 160
+
+alignment top_right
+update_interval 1
+lua_load clock.lua
+lua_draw_hook_post main
+
+color1 white #Month color
+color2 white #Year  color
+color3 white #Weekdays color
+color4 FFE3A0 #Current weekday color
+color5 white  #Days of month color
+color6 ff0000 #Current day color
+double_buffer true
+
+
+TEXT
+${image img/calendar_clock.png -p 0,0 -s 30x30}#
+#${image img/calendar.png -p 10,40 -s 140x120}
+${image img/flip_background.png -p 5,40 -s 160x130}
+#${image img/background.png -p 5,70 -s 160x100}
+${offset 35}${font Good Times:size=12}${color Tan1}TIME - DATE  ${color}${hr 2}${font}
+
+#${goto 20}${voffset 0}${color}${font Rounded Elegance:size=14:weight=bold}${time %B}#
+#${alignr 180}${font Rounded Elegance:size=9:weight=normal}${time %Y}
+#${voffset 10}${alignc 80}${color 000000}${font Rounded Elegance:size=14}${time %A}
+#${alignc 80}${color FF0000}${font Rounded Elegance:size=45:weight=bold}${time %d}${font Rounded Elegance:size=10:weight=normal}
+
+${voffset 0}
+${font Liquid Crystal:size=25}${color FF0000}${goto 228}${time %H}${goto 263}${blink :}${goto 272}${time %M}${color}
+${font Liquid Crystal:size=15}
+${image img/unnamed.png -p 209,41 -s 110x110}
+${image img/v.png -p 10,50 -s 19x19}#
+${image img/i.png -p 29,50 -s 19x19}#
+${image img/e.png -p 48,50 -s 19x19}#
+${image img/r.png -p 67,50 -s 19x19}#
+${image img/n.png -p 86,50 -s 19x19}#
+${image img/e.png -p 105,50 -s 19x19}#
+${image img/s.png -p 124,50 -s 19x19}#
+${image img/empty.png -p 143,50 -s 19x19}#
+${image img/0.png -p 25,75 -s 60x60}#
+${image img/5.png -p 85,75 -s 60x60}#
+${image img/j.png -p 10,140 -s 15x15}#
+${image img/u.png -p 25,140 -s 15x15}#
+${image img/n.png -p 40,140 -s 15x15}#
+${image img/i.png -p 55,140 -s 15x15}#
+${image img/o.png -p 70,140 -s 15x15}#
+${image img/2.png -p 100,140 -s 15x15}#
+${image img/0.png -p 115,140 -s 15x15}#
+${image img/2.png -p 130,140 -s 15x15}#
+${image img/0.png -p 145,140 -s 15x15}#

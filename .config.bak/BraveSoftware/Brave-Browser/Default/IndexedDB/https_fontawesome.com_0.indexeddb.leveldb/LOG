@@ -1,0 +1,15 @@
+2020/06/02-19:40:07.615 f61c Reusing MANIFEST /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/02-19:40:07.615 f61c Recovering log #4
+2020/06/02-19:40:07.615 f61c Reusing old log /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/000004.log 
+2020/06/02-19:40:12.531 71a Level-0 table #8: started
+2020/06/02-19:40:12.537 71a Level-0 table #8: 2985 bytes OK
+2020/06/02-19:40:12.544 71a Delete type=0 #4
+2020/06/02-19:40:12.545 71a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/02-19:40:12.545 71a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x01\x11\x00s\x00h\x00o\x00w\x00A\x00f\x00t\x00e\x00r\x00:\x00u\x00s\x00e\x00l\x00e\x00s\x00s' @ 260 : 1
+2020/06/02-19:40:12.545 71a Compacting 1@1 + 1@2 files
+2020/06/02-19:40:12.547 71a Generated table #9@1: 53 keys, 1188 bytes
+2020/06/02-19:40:12.547 71a Compacted 1@1 + 1@2 files => 1188 bytes
+2020/06/02-19:40:12.549 71a compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/02-19:40:12.550 71a Delete type=2 #5
+2020/06/02-19:40:12.550 71a Delete type=2 #8
+2020/06/02-19:40:12.550 71a Manual compaction at level-1 from '\x00\x02\x01\x02\x01\x11\x00s\x00h\x00o\x00w\x00A\x00f\x00t\x00e\x00r\x00:\x00u\x00s\x00e\x00l\x00e\x00s\x00s' @ 260 : 1 .. (end); will stop at (end)

@@ -1,0 +1,20 @@
+<!DOCTYPE Menu PUBLIC "-//freedesktop//DTD Menu 1.0//EN"
+"http://www.freedesktop.org/standards/menu-spec/menu-1.0.dtd">
+<Menu>
+  <Name>Applications</Name>
+  <Menu>
+    <Name>wine-wine</Name>
+    <Directory>wine-wine.directory</Directory>
+  <Menu>
+    <Name>wine-Programs</Name>
+    <Directory>wine-Programs.directory</Directory>
+  <Menu>
+    <Name>wine-Programs-Ori and the Will of the Wisps</Name>
+    <Directory>wine-Programs-Ori and the Will of the Wisps.directory</Directory>
+    <Include>
+      <Filename>wine-Programs-Ori and the Will of the Wisps-== ElAmigos Releases and Updates @ pastebin ==.desktop</Filename>
+    </Include>
+  </Menu>
+  </Menu>
+  </Menu>
+</Menu>

@@ -1,0 +1,86 @@
+double_buffer yes
+update_interval 2
+background yes
+
+own_window yes
+own_window_transparent no
+# own_window_type desktop
+own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+own_window_argb_visual true
+own_window_argb_value 100
+out_to_console no
+use_xft yes
+xftfont cure:size=10
+
+#use_xft yes
+#xftfont Sansation:size=9
+xftfont Rounded Elegance:size=10
+xftalpha 0
+update_interval 2
+cpu_avg_samples 2
+net_avg_samples 2
+double_buffer yes
+maximum_width 320
+draw_shades no
+draw_outline no
+draw_borders no
+stippled_borders 1
+border_width 0
+default_color white
+default_shade_color white
+default_outline_color white
+alignment top_left
+
+use_spacer left
+no_buffers yes
+uppercase no
+
+color0 white
+color2 white
+color3 1793d0
+
+
+pad_percents 2
+top_name_width 10
+minimum_size 320 100
+
+#==============================================================================
+#                               conkyrc_orange
+#
+#  author  : SLK
+#  version : v2011011601
+#  license : Distributed under the terms of GNU GPL version 2 or later
+#
+#==============================================================================
+
+
+gap_x 5
+gap_y 10
+
+alignment top_right
+update_interval 1
+lua_load clock.lua
+lua_draw_hook_post main
+
+color1 white #Month color
+color2 white #Year  color
+color3 white #Weekdays color
+color4 FFE3A0 #Current weekday color
+color5 white  #Days of month color
+color6 ff0000 #Current day color
+double_buffer true
+
+
+TEXT
+${image img/calendar_clock.png -p 0,0 -s 30x30}#
+${image img/fond.jpg -p 10,40 -s 30x30}
+${offset 35}${font Good Times:size=12}${color Tan1}TEMPS - DATE ${color}${hr 2}${font}
+
+
+${color FF0000}${font Rounded Elegance:size=55:weight=bold}${time %d}#
+${color}${goto 95}${voffset -45}${font Rounded Elegance:size=16}${time %A}
+${goto 95}${color}${font Rounded Elegance:size=14:weight=normal}${time %B}
+${goto 95}${font Rounded Elegance:size=11:weight=normal}${time %Y}
+${voffset -65}
+${font Liquid Crystal:size=25}${color FF0000}${goto 228}${time %H}${goto 263}${blink :}${goto 272}${time %M}${color}
+${image img/unnamed.png -p 209,41 -s 110x110}

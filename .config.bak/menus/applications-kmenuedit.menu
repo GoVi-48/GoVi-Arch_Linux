@@ -285,4 +285,55 @@
   <Old>wine-wine</Old>
   <New>wine-wine-2</New>
  </Move>
+ <Menu>
+  <Name>Development</Name>
+  <Menu>
+   <Name>Qt</Name>
+   <Layout>
+    <Merge type="files"/>
+    <Filename>assistant.desktop</Filename>
+    <Filename>designer.desktop</Filename>
+    <Filename>linguist.desktop</Filename>
+    <Filename>qdbusviewer.desktop</Filename>
+   </Layout>
+   <Directory>Qt.directory</Directory>
+   <Include>
+    <Filename>assistant.desktop</Filename>
+    <Filename>designer.desktop</Filename>
+    <Filename>linguist.desktop</Filename>
+    <Filename>qdbusviewer.desktop</Filename>
+   </Include>
+  </Menu>
+  <Exclude>
+   <Filename>assistant.desktop</Filename>
+   <Filename>designer.desktop</Filename>
+   <Filename>linguist.desktop</Filename>
+   <Filename>qdbusviewer.desktop</Filename>
+  </Exclude>
+  <Include/>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Web Development</Menuname>
+   <Menuname>Qt</Menuname>
+   <Menuname>Translation</Menuname>
+   <Merge type="files"/>
+   <Filename>org.kde.cervisia.desktop</Filename>
+   <Filename>cmake-gui.desktop</Filename>
+   <Filename>org.kde.akonadiconsole.desktop</Filename>
+   <Filename>UserFeedbackConsole.desktop</Filename>
+   <Filename>org.kde.cuttlefish.desktop</Filename>
+   <Filename>org.kde.plasmaengineexplorer.desktop</Filename>
+   <Filename>org.kde.plasma.themeexplorer.desktop</Filename>
+   <Filename>org.kde.plasma.lookandfeelexplorer.desktop</Filename>
+   <Filename>org.kde.kirigami2.gallery.desktop</Filename>
+   <Filename>org.kde.kapptemplate.desktop</Filename>
+   <Filename>org.kde.kcachegrind.desktop</Filename>
+   <Filename>org.kde.kdevelop.desktop</Filename>
+   <Filename>org.kde.kdevelop_ps.desktop</Filename>
+   <Filename>org.kde.kompare.desktop</Filename>
+   <Filename>org.kde.kuiviewer.desktop</Filename>
+   <Filename>Pycharm.desktop</Filename>
+   <Filename>org.kde.umbrello.desktop</Filename>
+  </Layout>
+ </Menu>
 </Menu>

@@ -127,7 +127,7 @@ alias wp-dxvk='WINEPREFIX=~/Games/Wine/wine-dxvk'
 alias wp-tkg='WINEPREFIX=~/Games/Wine/wine-tkg'
 alias wb-5.9='~/Games/Wine/wine-5.9_build/bin/wine64'
 alias wb-5.9tkg='~/Games/Wine/wine-5.9_build-tkg-fsync-vkd3d/usr/bin/wine64'
-alias Mh='mangohud'
+alias mh='mangohud'
 
 # Git aliases
 alias ga='git add'
@@ -140,6 +140,7 @@ export EDITOR='$VISUAL'
 export BROWSER='brave-browser'
 
 export PATH=$PATH:$HOME/Scripts/Bash/
+export PATH=$PATH:$HOME/Scripts/Bash/Games/
 export PATH=$PATH:$HOME/Programas/Pycharm/bin/
 
 neofetch

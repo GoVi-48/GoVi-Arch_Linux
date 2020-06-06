@@ -15,6 +15,21 @@ mv -fv configs.bak.tgz /media/Media/[SaveData]/Linux
 # Packages
 sudo pacman -S terminator exa latte-dock conky gimp inkscape kdenlive audacity mediainfo python3-pip youtube-dl ffmpeg obs-studio transmission-qt virtualbox unrar wget
 
+# Antivirus
+sudo pacman -S clamav
+sudo freshclam
+sudo systemctl start clamav-freshclam.service
+sudo systemctl enable clamav-freshclam.service
+sudo systemctl start clamav-demon.service
+sudo systemctl enable clamav-demon.service
+sudo pacman -S clamtk
+
+# Firewall
+sudo pacman -S -firewalld
+systemctl start firewalld
+systemctl enable firewalld
+firewall-config
+
 # Kodi
 sudo pacman -S kodi
 yay -S kodi-addon-pvr-iptvsimple

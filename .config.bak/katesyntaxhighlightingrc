@@ -58,10 +58,10 @@ Others=fff8f8f2,fff8f8f2,,,,,-,-,,---
 Preprocessor=ff27ae60,ff27ae60,,,,,-,-,,---
 Region Marker=ff0057ae,ff00316e,,,,,ffe0e9f8,-,,---
 Special Character=ff3daee9,fffcfcfc,,,,,-,-,,---
-Special String=ffda4453,ffda4453,,,,,-,-,,---
+Special String=fffe4e60,ffda4453,,,,,-,-,,---
 String=ffe6db74,ffe6db74,,,,,-,-,,---
 Variable=ff2980b9,fffdbc4b,,,,,-,-,,---
-Verbatim String=ffda4453,ffda4453,,,,,-,-,,---
+Verbatim String=fffe4e60,ffda4453,,,,,-,-,,---
 Warning=ffda4453,ffda4453,,,,,-,-,,---
 
 [Default Item Styles - Schema Normal]
@@ -15021,7 +15021,7 @@ Modelines:Option ON=29,,,,,,,,,,---
 Modelines:String=12,,,,,,,,,,---
 Modelines:Value=29,,,,,,,,,,---
 Modelines:Variable=24,,,,,,,,,,---
-XML:Attribute=9,,,,,,,,,,---
+XML:Attribute=9,ff38b3ff,fffdbc4b,,,,,,,,---
 XML:CDATA=4,,,1,,,,,,,---
 XML:Comment=8,,,,,,,,,,---
 XML:Doctype=2,,,1,,,,,,,---
@@ -15032,7 +15032,7 @@ XML:Normal Text=0,,,,,,,,,,---
 XML:Other Text=0,,,,,,,,,,---
 XML:PEntityRef=3,,,,,,,,,,---
 XML:Processing Instruction=1,,,,,,,,,,---
-XML:Value=7,ffaa0000,,,,,,,,,---
+XML:Value=7,ffbcff63,ffeff0f1,0,,,,,,,---
 
 [Highlighting XML - Schema Normal]
 Alerts:Alert Level 1=28,ffe85848,ffe85848,1,,,,ff451e1a,ff000000,,---

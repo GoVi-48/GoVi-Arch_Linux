@@ -246,7 +246,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Git Ignore
 Mode Set By User=false
-Time=2020,6,6,11,7,37
+Time=2020,6,6,11,16,56
 URL=file:///Datos/THC/Proyectos/Github/GoVi-Arch-Linux/.gitignore
 
 [file:///Datos/THC/Sistema/Programas/Linux/Howto Arch]
@@ -438,7 +438,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,6,6,4,42,23
+Time=2020,6,6,11,48,8
 URL=file:///home/govi/.bashrc
 
 [file:///home/govi/.cemu/wine/user.reg]
@@ -1635,14 +1635,14 @@ URL=file:///home/govi/.local/share/applications/Enlace a aplicación.desktop
 
 [file:///home/govi/.local/share/applications/Games-cemu.desktop]
 Bookmarks=
-Checksum=c4e3e471beb73229def7d668507673edd59a924a
+Checksum=b30c62692f6bd984a69c06ba07d1eaa5ba6f5c7b
 Encoding=UTF-8
 Highlighting=.desktop
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=.desktop
 Mode Set By User=false
-Time=2020,6,4,14,58,50
+Time=2020,6,6,12,32,1
 URL=file:///home/govi/.local/share/applications/Games-cemu.desktop
 
 [file:///home/govi/.local/share/applications/Games/Green Hell.desktop]
@@ -1671,14 +1671,14 @@ URL=file:///home/govi/.local/share/applications/Games/Ori and the Will of the Wi
 
 [file:///home/govi/.local/share/applications/Green Hell.desktop]
 Bookmarks=
-Checksum=470923ffad9e2080eea104e29c6ef023549559b1
+Checksum=58d16efc6a3e6cd1f183ddd936242fe302329193
 Encoding=UTF-8
 Highlighting=.desktop
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=.desktop
 Mode Set By User=false
-Time=2020,6,4,18,56,5
+Time=2020,6,6,13,25,18
 URL=file:///home/govi/.local/share/applications/Green Hell.desktop
 
 [file:///home/govi/.local/share/applications/Kodi Backup.desktop]
@@ -1705,16 +1705,28 @@ Mode Set By User=false
 Time=2020,5,30,18,45,22
 URL=file:///home/govi/.local/share/applications/Kodi backup.desktop
 
-[file:///home/govi/.local/share/applications/Ori.desktop]
+[file:///home/govi/.local/share/applications/Ori and the Will of the Wisps.desktop]
 Bookmarks=
-Checksum=04931ebab9f034ec754690abd0f231c150bdb445
+Checksum=0e7d743e21445780cc74778f31ac7cca743a8977
 Encoding=UTF-8
 Highlighting=.desktop
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=.desktop
 Mode Set By User=false
-Time=2020,6,4,18,56,22
+Time=2020,6,6,13,28,21
+URL=file:///home/govi/.local/share/applications/Ori and the Will of the Wisps.desktop
+
+[file:///home/govi/.local/share/applications/Ori.desktop]
+Bookmarks=
+Checksum=0e9ec65a505ace4e149f39e3f6042aee3094e998
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Mode Set By User=false
+Time=2020,6,6,12,59,39
 URL=file:///home/govi/.local/share/applications/Ori.desktop
 
 [file:///home/govi/.local/share/applications/Photoshop.desktop]
@@ -1726,7 +1738,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=.desktop
 Mode Set By User=false
-Time=2020,6,4,18,56,38
+Time=2020,6,6,12,45,51
 URL=file:///home/govi/.local/share/applications/Photoshop.desktop
 
 [file:///home/govi/.local/share/applications/Pycharm.desktop]
@@ -6805,6 +6817,30 @@ Mode Set By User=false
 Time=2020,5,15,20,46,56
 URL=file:///home/govi/Programas/Webgrab++/.wg++/WebGrab++.log.txt
 
+[file:///home/govi/Programas/Webgrab++/.wg++/siteini.user/movistarplus.es.channels.xml]
+Bookmarks=
+Checksum=98e29f9f5f6c46ba0e7ffc4c0ac277dbb5ba8a17
+Encoding=UTF-8
+Highlighting=XML
+Highlighting Set By User=false
+Indentation Mode=xml
+Mode=XML
+Mode Set By User=false
+Time=2020,6,6,12,40,51
+URL=file:///home/govi/Programas/Webgrab++/.wg++/siteini.user/movistarplus.es.channels.xml
+
+[file:///home/govi/Programas/Webgrab++/.wg++/siteini.user/sincroguia-tv.com.E.channels.xml]
+Bookmarks=
+Checksum=fb895a37a0ed2f544608b61399057cd32dcd512e
+Encoding=UTF-8
+Highlighting=XML
+Highlighting Set By User=false
+Indentation Mode=xml
+Mode=XML
+Mode Set By User=false
+Time=2020,6,6,12,31,40
+URL=file:///home/govi/Programas/Webgrab++/.wg++/siteini.user/sincroguia-tv.com.E.channels.xml
+
 [file:///home/govi/Programas/Webgrab++/.wg++/xmltv.xml]
 Bookmarks=
 Checksum=9fe8980e854511b0a0384599283974fcaff9c284
@@ -6879,38 +6915,62 @@ URL=file:///home/govi/Scripts/Bash/Conky_start.sh
 
 [file:///home/govi/Scripts/Bash/Games/Green Hell.sh]
 Bookmarks=
-Checksum=ef76d0597e1f2ce8ba27dedc48c7e2eaf8bc48a4
+Checksum=3a253a9102ca02a052be5927f0d9bfcdf2da82d2
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,6,6,3,27,30
+Time=2020,6,6,12,6,24
 URL=file:///home/govi/Scripts/Bash/Games/Green Hell.sh
+
+[file:///home/govi/Scripts/Bash/Games/Green_Hell.sh]
+Bookmarks=
+Checksum=3a253a9102ca02a052be5927f0d9bfcdf2da82d2
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,6,6,12,57,9
+URL=file:///home/govi/Scripts/Bash/Games/Green_Hell.sh
 
 [file:///home/govi/Scripts/Bash/Games/Ori and the Will of the Wisps.sh]
 Bookmarks=
-Checksum=e0817f68b681d2b8947a0d9c359eb5e2c27329cd
+Checksum=b024ca3774d8ad251998c94a4378a3ec0fd6a677
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,6,6,3,27,28
+Time=2020,6,6,13,0,14
 URL=file:///home/govi/Scripts/Bash/Games/Ori and the Will of the Wisps.sh
+
+[file:///home/govi/Scripts/Bash/Games/Ori_2.sh]
+Bookmarks=
+Checksum=b024ca3774d8ad251998c94a4378a3ec0fd6a677
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,6,6,13,24,6
+URL=file:///home/govi/Scripts/Bash/Games/Ori_2.sh
 
 [file:///home/govi/Scripts/Bash/Home.bak.sh]
 Bookmarks=
-Checksum=b8496cd78c0a3ae42b791f0aa2d94966a14b982c
+Checksum=47eaf1fee7f7bb426f20d785d62f0535e5075d1c
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,6,6,3,4,57
+Time=2020,6,6,11,17,4
 URL=file:///home/govi/Scripts/Bash/Home.bak.sh
 
 [file:///home/govi/Scripts/Bash/Kodi backup.desktop]

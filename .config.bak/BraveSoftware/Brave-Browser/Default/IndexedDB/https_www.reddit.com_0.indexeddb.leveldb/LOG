@@ -1,15 +1,15 @@
-2020/06/04-19:20:34.351 3df94 Reusing MANIFEST /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/04-19:20:34.351 3df94 Recovering log #427
-2020/06/04-19:20:34.351 3df94 Reusing old log /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000427.log 
-2020/06/04-19:21:07.585 8c47 Level-0 table #432: started
-2020/06/04-19:21:07.592 8c47 Level-0 table #432: 1260 bytes OK
-2020/06/04-19:21:07.597 8c47 Delete type=0 #427
-2020/06/04-19:21:07.597 8c47 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/06/04-19:21:07.597 8c47 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 1534 : 1
-2020/06/04-19:21:07.597 8c47 Compacting 1@1 + 1@2 files
-2020/06/04-19:21:07.601 8c47 Generated table #433@1: 20 keys, 1301 bytes
-2020/06/04-19:21:07.601 8c47 Compacted 1@1 + 1@2 files => 1301 bytes
-2020/06/04-19:21:07.608 8c47 compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/06/04-19:21:07.608 8c47 Delete type=2 #429
-2020/06/04-19:21:07.608 8c47 Delete type=2 #432
-2020/06/04-19:21:07.608 8c47 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 1534 : 1 .. (end); will stop at (end)
+2020/06/06-01:12:44.139 6d98 Reusing MANIFEST /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/06-01:12:44.140 6d98 Recovering log #467
+2020/06/06-01:12:44.140 6d98 Reusing old log /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000467.log 
+2020/06/06-01:13:17.028 60de Level-0 table #472: started
+2020/06/06-01:13:17.030 60de Level-0 table #472: 1300 bytes OK
+2020/06/06-01:13:17.032 60de Delete type=0 #467
+2020/06/06-01:13:17.032 60de Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/06-01:13:17.032 60de Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 1679 : 1
+2020/06/06-01:13:17.032 60de Compacting 1@1 + 1@2 files
+2020/06/06-01:13:17.036 60de Generated table #473@1: 20 keys, 1287 bytes
+2020/06/06-01:13:17.036 60de Compacted 1@1 + 1@2 files => 1287 bytes
+2020/06/06-01:13:17.038 60de compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/06-01:13:17.038 60de Delete type=2 #469
+2020/06/06-01:13:17.038 60de Delete type=2 #472
+2020/06/06-01:13:17.038 60de Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 1679 : 1 .. (end); will stop at (end)

@@ -5,7 +5,7 @@ switch-to-activity-4b5c25e3-7963-4c20-a2e2-6a98060a637b=none,none,Cambiar a la a
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to Español=none,none,Cambiar la distribución del teclado a Español
 Switch to Next Keyboard Layout=none,none,Cambiar a la siguiente distribución del teclado
-_k_friendly_name=KDE Daemon
+_k_friendly_name=Preferencias del sistema
 
 [brave-browser.desktop]
 _k_friendly_name=Lanzar Brave
@@ -50,7 +50,7 @@ _k_friendly_name=KDE Daemon
 display=Display\t,Display\tMeta+P,Cambiar pantalla
 
 [khotkeys]
-_k_friendly_name=KDE Daemon
+_k_friendly_name=Preferencias del sistema
 {01f1067a-4298-4491-b8bd-2be9c82ace79}=none,none,Acción nueva
 {51678489-bb32-48b0-93b4-1579d06f56dc}=none,none,Launch Konsole
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Búsqueda
@@ -195,11 +195,11 @@ _launch=\t\tSearch,none,KRunner
 
 [ksmserver]
 Halt Without Confirmation=none,none,Apagar sin confirmación
-Lock Session=Meta+L\tCtrl+Alt+L,Meta+L\tCtrl+Alt+L\tScreensaver,Bloquear la sesión
+Lock Session=Meta+L\tCtrl+Alt+L,Meta+L\tCtrl+Alt+L\tScreensaver,Lock Session
 Log Out=none,none,Cerrar la sesión
 Log Out Without Confirmation=none,none,Cerrar la sesión sin confirmación
 Reboot Without Confirmation=none,none,Reiniciar sin confirmación
-_k_friendly_name=ksmserver
+_k_friendly_name=Preferencias del sistema
 
 [kwin]
 Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Activar la ventana que necesite atención
@@ -472,7 +472,7 @@ cycleNextAction=none,none,Siguiente elemento del historial
 cyclePrevAction=none,none,Anterior elemento del historial
 edit_clipboard=none,none,Editar el contenido...
 manage activities=,Meta+Q,Actividades...
-next activity=none,Meta+Tab,Recorrer las actividades
+next activity=Meta+Tab,Meta+Tab,Recorrer las actividades
 previous activity=none,Meta+Shift+Tab,Recorrer las actividades (en orden inverso)
 repeat_action=Ctrl+Alt+R,Ctrl+Alt+R,Invocar manualmente la acción en el portapapeles actual
 show dashboard=Ctrl+F12,Ctrl+F12,Mostrar el escritorio

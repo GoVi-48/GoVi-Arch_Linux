@@ -213,3 +213,9 @@ X-DBUS-StartupType=unique
 X-KDE-StartupNotify=false
 X-KDE-SubstituteUID=false
 ----------------------------------------------------
+
+# Gestures
+qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.shortcutNames
+qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut "Cube"
+
+

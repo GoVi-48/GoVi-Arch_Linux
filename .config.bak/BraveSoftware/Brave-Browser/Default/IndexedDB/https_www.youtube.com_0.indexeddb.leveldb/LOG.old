@@ -1,15 +1,8 @@
-2020/06/04-20:25:53.951 2491 Reusing MANIFEST /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/04-20:25:53.952 2491 Recovering log #614
-2020/06/04-20:25:53.952 2491 Reusing old log /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000614.log 
-2020/06/04-20:32:40.380 2872 Level-0 table #619: started
-2020/06/04-20:32:40.382 2872 Level-0 table #619: 7928 bytes OK
-2020/06/04-20:32:40.383 2872 Delete type=0 #614
-2020/06/04-20:32:40.384 2872 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/06/04-20:32:40.384 2872 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x16\x00a\x00p\x00p\x00l\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00_\x00s\x00e\x00r\x00v\x00e\x00r\x00_\x00k\x00e\x00y' @ 8339 : 1
-2020/06/04-20:32:40.384 2872 Compacting 1@1 + 1@2 files
-2020/06/04-20:32:40.386 2872 Generated table #620@1: 46 keys, 1851 bytes
-2020/06/04-20:32:40.386 2872 Compacted 1@1 + 1@2 files => 1851 bytes
-2020/06/04-20:32:40.390 2872 compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/06/04-20:32:40.390 2872 Delete type=2 #616
-2020/06/04-20:32:40.390 2872 Delete type=2 #619
-2020/06/04-20:32:40.390 2872 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x16\x00a\x00p\x00p\x00l\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00_\x00s\x00e\x00r\x00v\x00e\x00r\x00_\x00k\x00e\x00y' @ 8339 : 1 .. (end); will stop at (end)
+2020/06/06-01:18:43.000 6355 Reusing MANIFEST /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/06-01:18:43.001 6355 Recovering log #669
+2020/06/06-01:18:43.001 6355 Reusing old log /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000669.log 
+2020/06/06-01:18:45.287 60de Level-0 table #673: started
+2020/06/06-01:18:45.287 60de Level-0 table #673: 0 bytes OK
+2020/06/06-01:18:45.292 60de Delete type=0 #669
+2020/06/06-01:18:45.292 60de Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/06-01:18:45.292 60de Manual compaction at level-1 from (begin) .. (end); will stop at (end)

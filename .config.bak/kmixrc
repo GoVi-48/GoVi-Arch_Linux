@@ -1,6 +1,10 @@
 [$Version]
 update_info=disable_kmix.upd:PlasmaVolume_DisableKMixAutostart
 
+[Configurar]
+Height 1080=501
+Width 1920=886
+
 [Global]
 AutoUseMultimediaKeys=true
 ConfigVersion=3
@@ -156,6 +160,9 @@ Split=false
 Split=false
 
 [View.PulseAudio.Flujos_de_reproducción.1.default.PulseAudio::Playback_Streams:1.restore:sink-input-by-media-role:event]
+Split=false
+
+[View.PulseAudio.Flujos_de_reproducción.1.default.PulseAudio::Playback_Streams:1.stream:0]
 Split=false
 
 [View.PulseAudio.Flujos_de_reproducción.1.default.PulseAudio::Playback_Streams:1.stream:1]

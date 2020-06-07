@@ -94,12 +94,12 @@ WINEPREFIX=~/Games/Wine/.newprefix winecfg
 WINEPREFIX=~/Games/Wine/.new32prefix WINEARCH="win32" winecfg
 
 # Launch WINEPREFIX
- WINEPREFIX=~/Games/Wine/wineprefixname wine $HOME'/Games/game.exe'
- WINEPREFIX=~/Games/Wine/wine-dxvk_1.7 ~/Games/Wine/wine-5.9_build-tkg-fsync-vkd3d/usr/bin/wine64 '/Media/Games/PC/Game/game.exe'
+ WINEPREFIX=~/Games/Wine/wineprefixname wine $HOME"/Games/game.exe"
+ WINEPREFIX=~/Games/Wine/wine-dxvk_1.7 ~/Games/Wine/wine-5.9_build-tkg-fsync-vkd3d/usr/bin/wine64 "/Media/Games/PC/Game/game.exe"
 
 # Launch Custom wine version
-~/Games/Wine/wine_5.6-2_build/bin/wine $HOME'/Games/Emulators/Cemu/Cemu.exe'
-WINEPREFIX=~/Games/Wine/wine-dxvk ~/Games/Wine/wine-5.9_build-tkg-fsync-vkd3d/usr/bin/wine64 '/Media/Games/PC/Game/game.exe'
+~/Games/Wine/wine_5.6-2_build/bin/wine $HOME"/Games/Emulators/Cemu/Cemu.exe"
+WINEPREFIX=~/Games/Wine/wine-dxvk ~/Games/Wine/wine-5.9_build-tkg-fsync-vkd3d/usr/bin/wine64 "/Media/Games/PC/Game/game.exe"
 
 # Theme
 wine regedit wine-breeze-dark.reg
@@ -173,15 +173,15 @@ vim ~/.bashrc
 ----------------------------------------------------
 shopt -s autocd
 
-alias sv='sudo vim'
-alias l='exa -al --color=always --group-directories-first'
-alias spm='sudo pacman'
-alias yt='youtube-dl --add-metadata -ic'
-alias pyc='pycharm.sh'
+alias sv="sudo vim"
+alias l="exa -al --color=always --group-directories-first"
+alias spm="sudo pacman"
+alias yt="youtube-dl --add-metadata -ic"
+alias pyc="pycharm.sh"
 
-export TERMINAL='terminator'
-export EDITOR='vim'
-export BROWSER='brave-browser'
+export TERMINAL="terminator"
+export EDITOR="vim"
+export BROWSER="brave-browser"
 export PATH=$PATH:$HOME/Scripts/Bash/
 export PATH=$PATH:$HOME/Programas/Pycharm/bin/
 
@@ -202,7 +202,7 @@ Defaults env_reset,pwfeedback
 # =============================================================================
 
 sudo pacmab -S imwheel
-xprop WM_CLASS | grep -o '"[^"]*"' | head -n 1 ## click on window for output ##
+xprop WM_CLASS | grep -o ""[^"]*"" | head -n 1 ## click on window for output ##
 sudo vim ~/.imwheelrc
 ----------------------------------------------------
 "^brave-browser$"

@@ -115,29 +115,29 @@ fi
 
 shopt -s autocd
 
-alias sv='sudo vim'
-alias l='exa -al --color=always --group-directories-first'
-alias spm='sudo pacman'
-alias pm='pacman'
-alias yt='youtube-dl --add-metadata -ic'
-alias pyc='pycharm.sh'
+alias sv="sudo vim"
+alias l="exa -al --color=always --group-directories-first"
+alias spm="sudo pacman"
+alias pm="pacman"
+alias yt="youtube-dl --add-metadata -ic"
+alias pyc="pycharm.sh"
 
 # Wine aliases
-alias wp-dxvk='WINEPREFIX=~/Games/Wine/wine-dxvk'
-alias wp-tkg='WINEPREFIX=~/Games/Wine/wine-tkg'
-alias wb-5.9='~/Games/Wine/wine-5.9_build/bin/wine64'
-alias wb-5.9tkg='~/Games/Wine/wine-5.9_build-tkg-fsync-vkd3d/usr/bin/wine64'
-alias mh='mangohud'
+alias wp-dxvk="WINEPREFIX=~/Games/Wine/wine-dxvk"
+alias wp-tkg="WINEPREFIX=~/Games/Wine/wine-tkg"
+alias wb-5.9="~/Games/Wine/wine-5.9_build/bin/wine64"
+alias wb-5.9tkg="~/Games/Wine/wine-5.9_build-tkg-fsync-vkd3d/usr/bin/wine64"
+alias mh="mangohud"
 
 # Git aliases
-alias ga='git add'
-alias gc='git commit -m "Updated"'
-alias gp='git push -u origin master'
+alias ga="git add"
+alias gc="git commit -m "Updated""
+alias gp="git push -u origin master"
 
-export TERMINAL='terminator'
-export VISUAL='vim'
-export EDITOR='$VISUAL'
-export BROWSER='brave-browser'
+export TERMINAL="terminator"
+export VISUAL="vim"
+export EDITOR="$VISUAL"
+export BROWSER="brave-browser"
 
 export PATH=$PATH:$HOME/Scripts/Bash/
 export PATH=$PATH:$HOME/Scripts/Bash/Games/

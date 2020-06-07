@@ -1,4 +1,5 @@
 [Added Associations]
+application/x-bittorrent=transmission-qt.desktop;org.kde.kget.desktop;
 application/x-shellscript=bash.desktop;org.kde.kate.desktop;org.kde.kwrite.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;wine-extension-txt.desktop;
 application/x-wine-extension-inf=org.kde.kate.desktop;
 application/x-wine-extension-ini=org.kde.kate.desktop;wine-extension-ini.desktop;
@@ -16,6 +17,7 @@ video/x-matroska=vlc.desktop;org.kde.dragonplayer.desktop;
 x-scheme-handler/magnet=userapp-transmission-gtk-4418J0.desktop;
 
 [Default Applications]
+application/x-bittorrent=transmission-qt.desktop;
 application/x-shellscript=bash.desktop;
 application/x-wine-extension-inf=org.kde.kate.desktop;
 application/x-wine-extension-ini=org.kde.kate.desktop;

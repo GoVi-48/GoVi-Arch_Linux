@@ -5,7 +5,7 @@
 # =============================================================================
 
 tar cvzf configs.bak.tgz .config/
-mv -fv configs.bak.tgz /media/Media/[SaveData]/Linux
+mv -fv configs.bak.tgz /Media/[SaveData]/Linux
 
 
 # =============================================================================
@@ -48,8 +48,6 @@ sudo pacman -Rns $(pacman -Qtdq)
 
 # Games +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-sudo pacman -S lutris
-
 # Drivers & Packages
 sudo pacman -S lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader vulkan-tools
 sudo pacman -S giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs
@@ -66,6 +64,19 @@ sudo vim /etc/systemd/user.conf
 DefaultLimitNOFILE=524288
 ----------------------------------------------------
 ulimit -Hn
+
+# Gamemode
+git clone https://github.com/FeralInteractive/gamemode.git
+cd gamemode
+git checkout 1.5.1 # omit to build the master branch
+./bootstrap.sh
+
+# Lutris
+sudo pacman -S lutris
+
+# Steam
+sudu  pacman -S steam
+sudo pacman -S ttf-liberation
 
 
 # Wine ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -101,9 +112,12 @@ WINEPREFIX=~/Games/Wine/.new32prefix WINEARCH="win32" winecfg
 ~/Games/Wine/wine_5.6-2_build/bin/wine $HOME"/Games/Emulators/Cemu/Cemu.exe"
 WINEPREFIX=~/Games/Wine/wine-dxvk ~/Games/Wine/wine-5.9_build-tkg-fsync-vkd3d/usr/bin/wine64 "/Media/Games/PC/Game/game.exe"
 
+# Cemuhook
+winecfg >> Library >> Add
+dbghelp.dll
+
 # Theme
 wine regedit wine-breeze-dark.reg
-
 
 # Build from source
 git clone git://source.winehq.org/git/wine.git ~/wine-dirs/wine-source
@@ -113,10 +127,6 @@ cd ~/wine-dirs/wine-source
 make
 sudo make install
 
-
-# Steam ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-sudo pacman -S ttf-liberation
 
 # =============================================================================
 #                             Automount Drives
@@ -233,4 +243,13 @@ X-KDE-SubstituteUID=false
 qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.shortcutNames
 qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut "Cube"
 
+# Tuning PulseAudio
+/etc/pulse/daemon.conf
+----------------------------------------------------
+high-priority = yes
+nice-level = -11
+
+realtime-scheduling = yes
+realtime-priority = 5
+----------------------------------------------------
 

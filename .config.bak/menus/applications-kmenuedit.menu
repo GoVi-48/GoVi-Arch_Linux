@@ -56,7 +56,9 @@
    <Merge type="menus"/>
    <Menuname>Wine</Menuname>
    <Merge type="files"/>
+   <Filename>steam.desktop</Filename>
    <Filename>Games-cemu.desktop</Filename>
+   <Menuname>Cemu Games</Menuname>
    <Filename>net.lutris.Lutris.desktop</Filename>
    <Menuname>Arcade</Menuname>
    <Menuname>Card</Menuname>
@@ -65,6 +67,17 @@
    <Menuname>Kidsgames</Menuname>
    <Menuname>TacticStrategy</Menuname>
   </Layout>
+  <Menu>
+   <Name>Cemu Games</Name>
+   <Directory>Cemu Games.directory</Directory>
+   <Layout>
+    <Merge type="files"/>
+    <Filename>Zelda BOTW.desktop</Filename>
+   </Layout>
+   <Include>
+    <Filename>Zelda BOTW.desktop</Filename>
+   </Include>
+  </Menu>
  </Menu>
  <Include/>
  <Menu>

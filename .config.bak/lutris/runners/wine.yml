@@ -1,8 +1,9 @@
 system:
-  game_path: ~/Games
+  game_path: ~/Games/Lutris
   prefer_system_libs: false
 wine:
   esync: true
   system_winetricks: false
   version: system
   vkd3d: true
+  x360ce-xinput9: true

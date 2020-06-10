@@ -13,7 +13,7 @@ mv -fv configs.bak.tgz /Media/[SaveData]/Linux
 # =============================================================================
 
 # Packages
-sudo pacman -S terminator exa latte-dock conky gimp inkscape kdenlive audacity mediainfo python3-pip youtube-dl ffmpeg obs-studio transmission-qt virtualbox unrar wget
+sudo pacman -S terminator exa htop latte-dock conky gimp inkscape kdenlive audacity mediainfo python3-pip youtube-dl ffmpeg obs-studio transmission-qt virtualbox unrar wget
 
 # Antivirus
 sudo pacman -S clamav

@@ -173,7 +173,7 @@ Toggle mute  - Rear Mic Boost, HDA Intel PCH=none,none,Activar/desactivar silenc
 Toggle mute  - Rear Mic, HDA Intel PCH=none,none,Activar/desactivar silencio
 Toggle mute  - Side, HDA Intel PCH=none,none,Activar/desactivar silencio
 Toggle mute  - Surround, HDA Intel PCH=none,none,Activar/desactivar silencio
-_k_friendly_name=KMix
+_k_friendly_name=Volumen del sonido
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Bajar el volumen del micrófono
 decrease_volume=Volume Down,Volume Down,Bajar el volumen
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Subir el volumen del micrófono
@@ -195,11 +195,11 @@ _launch=\t\tSearch,none,KRunner
 
 [ksmserver]
 Halt Without Confirmation=none,none,Apagar sin confirmación
-Lock Session=Meta+L\tCtrl+Alt+L,Meta+L\tCtrl+Alt+L\tScreensaver,Lock Session
+Lock Session=Meta+L\tCtrl+Alt+L,Meta+L\tCtrl+Alt+L\tScreensaver,Bloquear la sesión
 Log Out=none,none,Cerrar la sesión
 Log Out Without Confirmation=none,none,Cerrar la sesión sin confirmación
 Reboot Without Confirmation=none,none,Reiniciar sin confirmación
-_k_friendly_name=Preferencias del sistema
+_k_friendly_name=Gestión de sesiones
 
 [kwin]
 Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Activar la ventana que necesite atención

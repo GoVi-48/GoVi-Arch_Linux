@@ -1,5 +1,6 @@
 [Added Associations]
 application/x-bittorrent=transmission-qt.desktop;org.kde.kget.desktop;
+application/x-mozilla-bookmarks=org.kde.kate.desktop;org.kde.kimagemapeditor.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;brave-browser.desktop;vivaldi-stable.desktop;vim.desktop;wine-extension-txt.desktop;
 application/x-shellscript=bash.desktop;org.kde.kate.desktop;org.kde.kwrite.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;wine-extension-txt.desktop;
 application/x-wine-extension-inf=org.kde.kate.desktop;
 application/x-wine-extension-ini=org.kde.kate.desktop;wine-extension-ini.desktop;
@@ -9,15 +10,18 @@ image/svg+xml=org.inkscape.Inkscape.desktop;gimp.desktop;org.kde.kate.desktop;br
 image/svg+xml-compressed=org.inkscape.Inkscape.desktop;org.kde.kolourpaint.desktop;org.kde.ark.desktop;
 image/vnd.adobe.photoshop=Photoshop-2.desktop;org.kde.gwenview.desktop;org.kde.kolourpaint.desktop;okularApplication_kimgio.desktop;gimp.desktop;
 image/x-xcf=gimp.desktop;okularApplication_kimgio.desktop;
+message/rfc822=userapp-Thunderbird-P4BTL0.desktop;
 text/x-python=Pycharm.desktop;org.kde.kate.desktop;org.kde.kwrite.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;wine-extension-txt.desktop;
 text/x-python3=org.kde.kate.desktop;org.kde.kwrite.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;wine-extension-txt.desktop;
 video/mp4=vlc.desktop;org.kde.dragonplayer.desktop;
 video/webm=vlc.desktop;org.kde.dragonplayer.desktop;
 video/x-matroska=vlc.desktop;org.kde.dragonplayer.desktop;
 x-scheme-handler/magnet=userapp-transmission-gtk-4418J0.desktop;
+x-scheme-handler/mailto=userapp-Thunderbird-P4BTL0.desktop;
 
 [Default Applications]
 application/x-bittorrent=transmission-qt.desktop;
+application/x-mozilla-bookmarks=org.kde.kate.desktop;
 application/x-shellscript=bash.desktop;
 application/x-wine-extension-inf=org.kde.kate.desktop;
 application/x-wine-extension-ini=org.kde.kate.desktop;
@@ -27,6 +31,7 @@ image/svg+xml=org.inkscape.Inkscape.desktop;
 image/svg+xml-compressed=org.inkscape.Inkscape.desktop;
 image/vnd.adobe.photoshop=Photoshop-2.desktop;
 image/x-xcf=gimp.desktop;
+message/rfc822=userapp-Thunderbird-P4BTL0.desktop
 text/html=org.kde.kimagemapeditor.desktop
 text/x-python=Pycharm.desktop;
 text/x-python3=org.kde.kate.desktop;
@@ -36,7 +41,7 @@ video/x-matroska=vlc.desktop;
 x-scheme-handler/http=brave-browser.desktop;
 x-scheme-handler/https=brave-browser.desktop;
 x-scheme-handler/magnet=userapp-transmission-gtk-4418J0.desktop
-x-scheme-handler/mailto=org.kde.kmail2.desktop
+x-scheme-handler/mailto=userapp-Thunderbird-P4BTL0.desktop
 
 [Removed Associations]
 application/x-shellscript=org.kde.konsole.desktop;terminator.desktop;

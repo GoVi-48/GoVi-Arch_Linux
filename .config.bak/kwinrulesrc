@@ -1,3 +1,6 @@
+[$Version]
+update_info=kwinrules.upd:replace-placement-string-to-enum
+
 [1]
 Description=Preferencias para la aplicación transmission
 clientmachine=localhost
@@ -162,7 +165,7 @@ wmclassmatch=1
 Description=Preferencias para la aplicación spectacle
 clientmachine=localhost
 clientmachinematch=0
-position=73,34
+position=69,0
 positionrule=4
 size=1016,463
 sizerule=4
@@ -174,7 +177,7 @@ wmclassmatch=1
 Description=Preferencias para la aplicación winecfg.exe
 clientmachine=localhost
 clientmachinematch=0
-position=1230,158
+position=624,175
 positionrule=4
 wmclass=winecfg.exe
 wmclasscomplete=false
@@ -184,7 +187,7 @@ wmclassmatch=1
 Description=Preferencias para la aplicación dolphin
 clientmachine=localhost
 clientmachinematch=0
-position=285,211
+position=68,153
 positionrule=4
 wmclass=dolphin
 wmclasscomplete=false

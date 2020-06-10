@@ -31,9 +31,11 @@ systemctl enable firewalld
 firewall-config
 
 # Kodi
-sudo pacman -S kodi
+sudo pacman -S kodi kodi-x11
 yay -S kodi-addon-pvr-iptvsimple
-yay -S brave
+
+# Web Browser
+yay -S vivaldi
 
 # Flatpaks
 sudo pacman -S flatpak
@@ -120,10 +122,11 @@ dbghelp.dll
 wine regedit wine-breeze-dark.reg
 
 # Build from source
-git clone git://source.winehq.org/git/wine.git ~/wine-dirs/wine-source
+git clone git://source.winehq.org/git/wine.git ~/Escritorio/wine-dirs/wine-source
 cd ~/wine-dirs/wine-source
 ./configure --enable-win64
-./configure --prefix=~/Games/Wine/wine-5.9_Build
+mkdir ~/Games/Wine/wine-5.9_Build
+./configure --prefix=$HOME/Games/Wine/wine-5.9_Build
 make
 sudo make install
 
@@ -166,9 +169,9 @@ export EDITOR VISUAL
 crontab -e
 ----------------------------------------------------
 MAILTO=""
-00 00 * * * ~/Scripts/Bash/Webgrab_Update_to_GIT.sh >> ~/Scripts/Logs/Cron/crontab.log 2>&1
+00 00 * * * ~/Scripts/Bash/Webgrab_Update_to_GIT.sh > ~/Scripts/Logs/Cron/crontab.log 2>&1
 05 00 * * * export DISPLAY=:0 && kate ~/Scripts/Logs/Cron/crontab.log
-00 12 * * * ~/Scripts/Bash/Webgrab_Update_to_GIT.sh >> ~/Scripts/Logs/Cron/crontab.log 2>&1
+00 12 * * * ~/Scripts/Bash/Webgrab_Update_to_GIT.sh > ~/Scripts/Logs/Cron/crontab.log 2>&1
 05 12 * * * export DISPLAY=:0 && kate ~/Scripts/Logs/Cron/crontab.log
 ----------------------------------------------------
 crontab -l

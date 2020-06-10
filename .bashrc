@@ -121,6 +121,9 @@ alias spm="sudo pacman"
 alias pm="pacman"
 alias yt="youtube-dl --add-metadata -ic"
 alias pyc="pycharm.sh"
+alias ka="killall"
+alias du1="du --max-depth=1 -h " 
+alias st="sort -h"
 
 # Wine aliases
 alias wp-dxvk="WINEPREFIX=~/Games/Wine/wine-dxvk"

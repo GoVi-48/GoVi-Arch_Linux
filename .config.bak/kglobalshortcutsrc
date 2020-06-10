@@ -5,7 +5,7 @@ switch-to-activity-4b5c25e3-7963-4c20-a2e2-6a98060a637b=none,none,Cambiar a la a
 [KDE Keyboard Layout Switcher]
 Switch keyboard layout to Español=none,none,Cambiar la distribución del teclado a Español
 Switch to Next Keyboard Layout=none,none,Cambiar a la siguiente distribución del teclado
-_k_friendly_name=Preferencias del sistema
+_k_friendly_name=Selector de distribución del teclado
 
 [brave-browser.desktop]
 _k_friendly_name=Lanzar Brave
@@ -42,7 +42,7 @@ _k_friendly_name=Accesibilidad
 Disable Touchpad=Touchpad Off,Touchpad Off,Desactivar el panel táctil
 Enable Touchpad=Touchpad On,Touchpad On,Activar el panel táctil
 Toggle Touchpad=Touchpad Toggle,Touchpad Toggle,Conmutar el panel táctil
-_k_friendly_name=KDE Daemon
+_k_friendly_name=Panel táctil
 
 [kded5]
 Show System Activity=Ctrl+Esc,Ctrl+Esc,Mostrar la actividad del sistema
@@ -173,7 +173,7 @@ Toggle mute  - Rear Mic Boost, HDA Intel PCH=none,none,Activar/desactivar silenc
 Toggle mute  - Rear Mic, HDA Intel PCH=none,none,Activar/desactivar silencio
 Toggle mute  - Side, HDA Intel PCH=none,none,Activar/desactivar silencio
 Toggle mute  - Surround, HDA Intel PCH=none,none,Activar/desactivar silencio
-_k_friendly_name=Volumen del sonido
+_k_friendly_name=KMix
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Bajar el volumen del micrófono
 decrease_volume=Volume Down,Volume Down,Bajar el volumen
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Subir el volumen del micrófono
@@ -195,11 +195,11 @@ _launch=\t\tSearch,none,KRunner
 
 [ksmserver]
 Halt Without Confirmation=none,none,Apagar sin confirmación
-Lock Session=Meta+L\tCtrl+Alt+L,Meta+L\tCtrl+Alt+L\tScreensaver,Bloquear la sesión
+Lock Session=Meta+L\tCtrl+Alt+L,Meta+L\tCtrl+Alt+L\tScreensaver,Lock Session
 Log Out=none,none,Cerrar la sesión
 Log Out Without Confirmation=none,none,Cerrar la sesión sin confirmación
 Reboot Without Confirmation=none,none,Reiniciar sin confirmación
-_k_friendly_name=ksmserver
+_k_friendly_name=Preferencias del sistema
 
 [kwin]
 Activate Window Demanding Attention=Ctrl+Alt+A,Ctrl+Alt+A,Activar la ventana que necesite atención
@@ -447,6 +447,7 @@ Decrease Screen Brightness=Monitor Brightness Down,Monitor Brightness Down,Dismi
 Hibernate=Hibernate,Hibernate,Hibernar
 Increase Keyboard Brightness=Keyboard Brightness Up,Keyboard Brightness Up,Aumentar el brillo del teclado
 Increase Screen Brightness=Monitor Brightness Up,Monitor Brightness Up,Aumentar el brillo de la pantalla
+PowerDown=Power Down,Power Down,Apagado completo
 PowerOff=Power Off,Power Off,Apagar
 Sleep=Sleep,Sleep,Suspender
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Conmutar la luz trasera del teclado
@@ -482,6 +483,10 @@ stop current activity=,Meta+S,Detener la actividad actual
 switch to next activity=none,none,Cambiar a la actividad siguiente
 switch to previous activity=none,none,Cambiar a la actividad anterior
 toggle do not disturb=none,none,Conmutar no molestar
+
+[systemsettings.desktop]
+_k_friendly_name=Preferencias del sistema
+_launch=Tools,Tools,Preferencias del sistema
 
 [terminator.desktop]
 _k_friendly_name=Lanzar Terminator

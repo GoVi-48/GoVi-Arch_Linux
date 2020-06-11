@@ -17,6 +17,10 @@ new-window=none,none,New Window
 _k_friendly_name=Cemu
 _launch=none,none,Lanzar Cemu
 
+[epic games launcher.desktop]
+_k_friendly_name=Epic Games Launcher
+_launch=none,none,Lanzar Epic Games Launcher
+
 [gimp.desktop]
 _k_friendly_name=Lanzar GIMP
 _launch=Meta+G,none,Lanzar GIMP
@@ -491,6 +495,18 @@ _launch=Tools,Tools,Preferencias del sistema
 [terminator.desktop]
 _k_friendly_name=Lanzar Terminator
 _launch=Meta+T,none,Lanzar Terminator
+
+[wine regedit.desktop]
+_k_friendly_name=Wineregedit
+_launch=none,none,Lanzar Wineregedit
+
+[wine.desktop]
+_k_friendly_name=Winecfg
+_launch=none,none,Lanzar Winecfg
+
+[winetricks.desktop]
+_k_friendly_name=Winetricks
+_launch=none,none,Lanzar Winetricks
 
 [yakuake]
 _k_friendly_name=Yakuake

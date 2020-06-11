@@ -23,15 +23,19 @@
    <Filename>Documentos.desktop</Filename>
    <Filename>THC.desktop</Filename>
    <Filename>cemu.desktop</Filename>
+   <Filename>wine-Programs-Epic Games Launcher.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
   <Name>Games</Name>
-  <Include/>
+  <Include>
+   <Filename>Epic Games-2.desktop</Filename>
+  </Include>
   <Exclude>
    <Filename>THC.desktop</Filename>
    <Filename>Wine.desktop</Filename>
    <Filename>cemu.desktop</Filename>
+   <Filename>Games-cemu.desktop</Filename>
   </Exclude>
   <Menu>
    <Name>Wine</Name>
@@ -52,21 +56,6 @@
     <Filename>Green Hell.desktop</Filename>
    </Layout>
   </Menu>
-  <Layout>
-   <Merge type="menus"/>
-   <Menuname>Wine</Menuname>
-   <Merge type="files"/>
-   <Filename>steam.desktop</Filename>
-   <Filename>Games-cemu.desktop</Filename>
-   <Menuname>Cemu Games</Menuname>
-   <Filename>net.lutris.Lutris.desktop</Filename>
-   <Menuname>Arcade</Menuname>
-   <Menuname>Card</Menuname>
-   <Menuname>Logic</Menuname>
-   <Menuname>Board</Menuname>
-   <Menuname>Kidsgames</Menuname>
-   <Menuname>TacticStrategy</Menuname>
-  </Layout>
   <Menu>
    <Name>Cemu Games</Name>
    <Directory>Cemu Games.directory</Directory>
@@ -78,6 +67,42 @@
     <Filename>Zelda BOTW.desktop</Filename>
    </Include>
   </Menu>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Cemu</Menuname>
+   <Merge type="files"/>
+   <Filename>Epic Games.desktop</Filename>
+   <Filename>net.lutris.Lutris.desktop</Filename>
+   <Filename>steam.desktop</Filename>
+   <Menuname>Wine</Menuname>
+   <Menuname>Arcade</Menuname>
+   <Menuname>Card</Menuname>
+   <Menuname>Logic</Menuname>
+   <Menuname>Board</Menuname>
+   <Menuname>Kidsgames</Menuname>
+   <Menuname>TacticStrategy</Menuname>
+  </Layout>
+  <Menu>
+   <Name>Cemu</Name>
+   <Layout>
+    <Merge type="files"/>
+    <Filename>Games-cemu.desktop</Filename>
+    <Merge type="menus"/>
+    <Menuname>Cemu Games</Menuname>
+   </Layout>
+   <Directory>Cemu-2.directory</Directory>
+   <Include>
+    <Filename>Games-cemu.desktop</Filename>
+   </Include>
+   <Menu>
+    <Name>Cemu Games</Name>
+    <NotDeleted/>
+   </Menu>
+  </Menu>
+  <Move>
+   <Old>Cemu Games</Old>
+   <New>Cemu/Cemu Games</New>
+  </Move>
  </Menu>
  <Include/>
  <Menu>
@@ -221,23 +246,8 @@
    <Filename>org.kde.kruler.desktop</Filename>
   </Layout>
  </Menu>
- <Layout>
-  <Merge type="menus"/>
-  <Menuname>Development</Menuname>
-  <Menuname>Graphics</Menuname>
-  <Menuname>Internet</Menuname>
-  <Menuname>Games</Menuname>
-  <Menuname>Multimedia</Menuname>
-  <Menuname>Office</Menuname>
-  <Menuname>Settingsmenu</Menuname>
-  <Menuname>System</Menuname>
-  <Menuname>Utilities</Menuname>
-  <Menuname>THC</Menuname>
-  <Menuname>wine-wine-2</Menuname>
- </Layout>
  <Menu>
   <Name>wine-wine-2</Name>
-  <NotDeleted/>
   <Menu>
    <Name>Games</Name>
    <Layout>
@@ -253,10 +263,6 @@
   </Menu>
   <Menu>
    <Name>wine-Programs</Name>
-   <Layout>
-    <Merge type="files"/>
-    <Filename>Photoshop-2.desktop</Filename>
-   </Layout>
    <Menu>
     <Name>wine-Programs-Green Hell</Name>
     <Exclude>
@@ -275,7 +281,9 @@
    </Menu>
    <Exclude>
     <Filename>wine-Programs-Green Hell-Green Hell.desktop</Filename>
+    <Filename>wine-Programs-Epic Games Launcher.desktop</Filename>
    </Exclude>
+   <Layout/>
   </Menu>
   <Include>
    <Filename>Wine regedit.desktop</Filename>
@@ -293,6 +301,7 @@
    <Filename>Wine regedit.desktop</Filename>
    <Filename>Winetricks.desktop</Filename>
   </Layout>
+  <Deleted/>
  </Menu>
  <Move>
   <Old>wine-wine</Old>
@@ -349,4 +358,17 @@
    <Filename>org.kde.umbrello.desktop</Filename>
   </Layout>
  </Menu>
+ <Layout>
+  <Merge type="menus"/>
+  <Menuname>Development</Menuname>
+  <Menuname>Graphics</Menuname>
+  <Menuname>Internet</Menuname>
+  <Menuname>Games</Menuname>
+  <Menuname>Multimedia</Menuname>
+  <Menuname>Office</Menuname>
+  <Menuname>Settingsmenu</Menuname>
+  <Menuname>System</Menuname>
+  <Menuname>Utilities</Menuname>
+  <Menuname>THC</Menuname>
+ </Layout>
 </Menu>

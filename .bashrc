@@ -129,7 +129,7 @@ alias st="sort -h"
 alias wp-dxvk="WINEPREFIX=~/Games/Wine/wine-dxvk"
 alias wp-tkg="WINEPREFIX=~/Games/Wine/wine-tkg"
 alias wb-5.9="~/Games/Wine/wine-5.9_build/bin/wine64"
-alias wb-5.9tkg="~/Games/Wine/wine-5.9_build-tkg-fsync-vkd3d/usr/bin/wine64"
+alias wb-5.9tkg="~/Games/Wine/wine-5.9_build-tkg/usr/bin/wine64"
 alias mh="mangohud"
 
 # Git aliases

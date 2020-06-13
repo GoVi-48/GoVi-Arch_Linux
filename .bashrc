@@ -113,37 +113,54 @@ if ! shopt -oq posix; then
 fi
 
 
+# Autocd
 shopt -s autocd
 
+# Aliases
 alias sv="sudo vim"
 alias l="exa -al --color=always --group-directories-first"
 alias spm="sudo pacman"
 alias pm="pacman"
-alias yt="youtube-dl --add-metadata -ic"
-alias pyc="pycharm.sh"
+alias cp="cp -rfv"
+alias mv="mv -fv"
+alias rm="rm -rfv"
 alias ka="killall"
 alias du1="du --max-depth=1 -h " 
 alias st="sort -h"
+alias ff="find . -type f -iname "
+alias fd="find . -type d -iname "
+alias 2n="2> /dev/null"
+alias yt="youtube-dl --add-metadata -ic"
+alias pyc="pycharm.sh"
 
-# Wine aliases
-alias wp-dxvk="WINEPREFIX=~/Games/Wine/wine-dxvk"
-alias wp-tkg="WINEPREFIX=~/Games/Wine/wine-tkg"
-alias wb-5.9="~/Games/Wine/wine-5.9_build/bin/wine64"
-alias wb-5.9tkg="~/Games/Wine/wine-5.9_build-tkg/usr/bin/wine64"
+# Games aliases
 alias mh="mangohud"
+alias gm="gamemoderun"
+
+# Wine prefix aliases
+alias wp_5.10='WINEPREFIX=~/Wine/wine-pfx_5.10'
+alias wp_5.10-dxvk='WINEPREFIX=~/Wine/wine-pfx_dxvk'
+alias wp_5.10-tkg='WINEPREFIX=~/Wine/wine-pfx_tkg'
+
+# Wine build aliases
+alias wb_5.9="~/Wine/wine-build_5.9/bin/wine64"
+alias wb_5.9-tkg="~/Wine/wine-build_5.9-tkg/usr/bin/wine64"
+alias wb_5.10="~/Wine/wine-build_5.10/bin/wine64"
+alias wb_5.10-tkg="~/Wine/wine-build_5.10-tkg/bin/wine64"
 
 # Git aliases
 alias ga="git add"
 alias gc="git commit -m "Updated""
-alias gp="git push -u origin master"
+alias gpm="git push -u origin master"
 
+# Environment
 export TERMINAL="terminator"
 export VISUAL="vim"
 export EDITOR="$VISUAL"
-export BROWSER="brave-browser"
-
+export BROWSER="vivaldi-stable"
 export PATH=$PATH:$HOME/Scripts/Bash/
-export PATH=$PATH:$HOME/Scripts/Bash/Games/
+export PATH=$PATH:$HOME/Games/-Shortcuts
 export PATH=$PATH:$HOME/Programas/Pycharm/bin/
 
+# System Info
 neofetch

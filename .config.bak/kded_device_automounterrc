@@ -59,6 +59,12 @@ Icon=drive-harddisk
 LastNameSeen=Media
 LastSeenMounted=true
 
+[Devices][/org/freedesktop/UDisks2/block_devices/sdd]
+EverMounted=true
+Icon=drive-removable-media-usb
+LastNameSeen=USB30FD
+LastSeenMounted=false
+
 [Devices][/org/freedesktop/UDisks2/block_devices/sdd1]
 EverMounted=true
 ForceAttachAutomount=false

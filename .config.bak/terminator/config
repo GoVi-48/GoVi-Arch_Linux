@@ -1,4 +1,5 @@
 [global_config]
+  focus = mouse
   always_on_top = True
 [keybindings]
   copy = <Primary>c
@@ -12,7 +13,6 @@
     show_titlebar = False
     scrollbar_position = hidden
     palette = "#0d6278:#c34d70:#57dc2b:#e2df93:#729fcf:#d33682:#94d9ee:#eee8d5:#05647d:#cb4b16:#8cb0bc:#8098a1:#839496:#6c71c4:#93a1a1:#fdf6e3"
-    rewrap_on_resize = False
 [layouts]
   [[default]]
     [[[window0]]]

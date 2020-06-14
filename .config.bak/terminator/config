@@ -1,6 +1,7 @@
 [global_config]
   focus = mouse
   always_on_top = True
+  suppress_multiple_term_dialog = True
 [keybindings]
   copy = <Primary>c
   paste = <Primary>v
@@ -12,7 +13,7 @@
     foreground_color = "#ffffff"
     show_titlebar = False
     scrollbar_position = hidden
-    palette = "#0d6278:#c34d70:#57dc2b:#e2df93:#729fcf:#d33682:#94d9ee:#eee8d5:#05647d:#cb4b16:#8cb0bc:#8098a1:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    palette = "#ffffff:#c34d70:#57dc2b:#8a9ee1:#729fcf:#d33682:#94d9ee:#eee8d5:#729fcf:#cb4b16:#8cb0bc:#8098a1:#839496:#6c71c4:#93a1a1:#fdf6e3"
 [layouts]
   [[default]]
     [[[window0]]]

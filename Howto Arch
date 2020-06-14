@@ -100,11 +100,22 @@ sudo pacman -Syu
 sudo pacman -S wine-staging
 winecfg
 
+# Fonts
+cd ${WINEPREFIX:-$HOME/Wine/wine-pfx_name}/drive_c/windows/Fonts && for i in /usr/share/fonts/**/*.{ttf,otf}; do ln -s "$i"; done
+
 # Winetricks
-cd ~/Descargas
-wget  https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
-chmod +x winetricks
+wget  -P ~/Escritorio https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+chmod +x ~/Escritorio/winetricks
+cd ~/Escritorio/winetricks
 sh winetricks corefonts vcrun6
+
+# DXVK
+wget -P ~/Escritorio https://github.com/doitsujin/dxvk/releases/download/v1.7/dxvk-1.7.tar.gz
+tar xvzf ~/Escritorio/dxvk-1.7.tar.gz -C ~/Escritorio
+mkdir ~/Escritorio/wine-pfx_dxvk
+cp ~/.wine/* ~/Escritorio/wine-pfx_dxvk
+cd ~/Escritorio/dxvk-1.7
+./setup_dxvk.sh install
 
 # Wine TKG
 git clone https://github.com/Frogging-Family/wine-tkg-git.git ~/Escritorio/wine-tkg
@@ -113,7 +124,7 @@ vim customization.cfg
 ----------------------------------------------------
 _nomakepkg_prefix_path="~/Escritorio/wine-tkg-build"
 ----------------------------------------------------
-mkdir ~/Escritorio/wine-tkg_builg
+mkdir $HOME/Escritorio/wine-tkg_build
 ./non-makepkg-build.sh
 
 # Create WINEPREFIX
@@ -127,6 +138,7 @@ WINEPREFIX=~/Wine/.new32prefix WINEARCH="win32" winecfg
 # Launch Custom wine version
 ~/Games/Wine/wine_5.6-2_build/bin/wine $HOME"/Games/Emulators/Cemu/Cemu.exe"
 WINEPREFIX=~/Games/Wine/wine-dxvk ~/Games/Wine/wine-5.9_build-tkg-fsync-vkd3d/usr/bin/wine64 "/Media/Games/PC/Game/game.exe"
+WINEPREFIX=~/.steam/root/compatibilitytools.d/Proton-5.9-GE-2-MF/dist/share/default_pfx ~/.steam/root/compatibilitytools.d/Proton-5.9-GE-2-MF/dist/bin/wine64 "/Games/game.exe"
 
 # Cemuhook
 winecfg >> Library >> Add
@@ -195,20 +207,56 @@ crontab -l
 # .bashrc
 vim ~/.bashrc
 ----------------------------------------------------
+# Autocd
 shopt -s autocd
 
+# Aliases
 alias sv="sudo vim"
 alias l="exa -al --color=always --group-directories-first"
 alias spm="sudo pacman"
+alias pm="pacman"
+alias cp="cp -rfv"
+alias mv="mv -fv"
+alias rm="rm -rfv"
+alias ka="killall"
+alias du1="du --max-depth=1 -h " 
+alias st="sort -h"
+alias ff="find . -type f -iname "
+alias fd="find . -type d -iname "
+alias 2n="2> /dev/null"
+alias dp="dolphin"
 alias yt="youtube-dl --add-metadata -ic"
 alias pyc="pycharm.sh"
 
+# Games aliases
+alias mh="mangohud"
+alias gm="gamemoderun"
+
+# Wine prefix aliases
+alias wp='WINEPREFIX'
+alias wp_5.10='WINEPREFIX=~/Wine/wine-pfx_5.10'
+alias wp_5.10-dxvk='WINEPREFIX=~/Wine/wine-pfx_dxvk'
+alias wp_5.10-tkg='WINEPREFIX=~/Wine/wine-pfx_tkg'
+
+# Wine build aliases
+alias wb_5.10="~/Wine/wine-build_5.10/bin/wine64"
+alias wb_5.10-tkg="~/Wine/wine-build_5.10-tkg/bin/wine64"
+
+# Git aliases
+alias ga="git add"
+alias gc="git commit -m "Updated""
+alias gpm="git push -u origin master"
+
+# Environment
 export TERMINAL="terminator"
-export EDITOR="vim"
-export BROWSER="brave-browser"
+export VISUAL="vim"
+export EDITOR="$VISUAL"
+export BROWSER="vivaldi-stable"
 export PATH=$PATH:$HOME/Scripts/Bash/
+export PATH=$PATH:$HOME/Games/-Shortcuts
 export PATH=$PATH:$HOME/Programas/Pycharm/bin/
 
+# System Info
 neofetch
 ----------------------------------------------------
 

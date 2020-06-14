@@ -130,6 +130,7 @@ alias st="sort -h"
 alias ff="find . -type f -iname "
 alias fd="find . -type d -iname "
 alias 2n="2> /dev/null"
+alias dp="dolphin"
 alias yt="youtube-dl --add-metadata -ic"
 alias pyc="pycharm.sh"
 
@@ -138,13 +139,12 @@ alias mh="mangohud"
 alias gm="gamemoderun"
 
 # Wine prefix aliases
+alias wp='WINEPREFIX'
 alias wp_5.10='WINEPREFIX=~/Wine/wine-pfx_5.10'
 alias wp_5.10-dxvk='WINEPREFIX=~/Wine/wine-pfx_dxvk'
 alias wp_5.10-tkg='WINEPREFIX=~/Wine/wine-pfx_tkg'
 
 # Wine build aliases
-alias wb_5.9="~/Wine/wine-build_5.9/bin/wine64"
-alias wb_5.9-tkg="~/Wine/wine-build_5.9-tkg/usr/bin/wine64"
 alias wb_5.10="~/Wine/wine-build_5.10/bin/wine64"
 alias wb_5.10-tkg="~/Wine/wine-build_5.10-tkg/bin/wine64"
 

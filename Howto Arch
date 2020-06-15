@@ -34,15 +34,15 @@ firewall-config
 sudo pacman -S kodi kodi-x11
 yay -S kodi-addon-pvr-iptvsimple
 
-# Web Browser
+# AUR packages
 yay -S vivaldi
+yay -S skype
+yay -S discord
+yay -S dropbox
+yay -S spotify
 
 # Flatpaks
 sudo pacman -S flatpak
-flatpak install flathub com.spotify.Client
-flatpak install flathub com.dropbox.Client
-flatpak install flathub com.discordapp.Discord
-flatpak install flathub com.skype.Client
 
 # Clean Packages
 sudo pacman -Rns $(pacman -Qtdq)
@@ -87,6 +87,10 @@ sudo pacman -S lutris
 # Steam
 sudu  pacman -S steam
 sudo pacman -S ttf-liberation
+
+# Retro Games
+sudo pacman -S retroarch
+yay -S emulationstation
 
 
 # Wine ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

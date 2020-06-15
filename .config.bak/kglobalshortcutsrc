@@ -7,14 +7,6 @@ Switch keyboard layout to Español=none,none,Cambiar la distribución del tecla
 Switch to Next Keyboard Layout=none,none,Cambiar a la siguiente distribución del teclado
 _k_friendly_name=Selector de distribución del teclado
 
-[cemu.desktop]
-_k_friendly_name=Cemu
-_launch=none,none,Lanzar Cemu
-
-[epic games launcher.desktop]
-_k_friendly_name=Epic Games Launcher
-_launch=none,none,Lanzar Epic Games Launcher
-
 [gimp.desktop]
 _k_friendly_name=Lanzar GIMP
 _launch=Meta+G,none,Lanzar GIMP
@@ -171,7 +163,7 @@ Toggle mute  - Rear Mic Boost, HDA Intel PCH=none,none,Activar/desactivar silenc
 Toggle mute  - Rear Mic, HDA Intel PCH=none,none,Activar/desactivar silencio
 Toggle mute  - Side, HDA Intel PCH=none,none,Activar/desactivar silencio
 Toggle mute  - Surround, HDA Intel PCH=none,none,Activar/desactivar silencio
-_k_friendly_name=KMix
+_k_friendly_name=Volumen del sonido
 decrease_microphone_volume=Microphone Volume Down,Microphone Volume Down,Bajar el volumen del micrófono
 decrease_volume=Volume Down,Volume Down,Bajar el volumen
 increase_microphone_volume=Microphone Volume Up,Microphone Volume Up,Subir el volumen del micrófono
@@ -361,7 +353,7 @@ activate entry 10=,Meta+0,Activar la entrada 10
 activate entry 11=Meta+Z,Meta+Z,Activar la entrada 11
 activate entry 12=Meta+X,Meta+X,Activar la entrada 12
 activate entry 13=Meta+C,Meta+C,Activar la entrada 13
-activate entry 14=Meta+V,Meta+V,Activar la entrada 14
+activate entry 14=,Meta+V,Activar la entrada 14
 activate entry 15=Meta+Alt+B,Meta+B,Activar la entrada 15
 activate entry 16=Meta+N,Meta+N,Activar la entrada 16
 activate entry 17=Meta+M,Meta+M,Activar la entrada 17
@@ -490,17 +482,11 @@ _launch=Tools,Tools,Preferencias del sistema
 _k_friendly_name=Lanzar Terminator
 _launch=Meta+T,none,Lanzar Terminator
 
-[wine regedit.desktop]
-_k_friendly_name=Wineregedit
-_launch=none,none,Lanzar Wineregedit
-
-[wine.desktop]
-_k_friendly_name=Winecfg
-_launch=none,none,Lanzar Winecfg
-
-[winetricks.desktop]
-_k_friendly_name=Winetricks
-_launch=none,none,Lanzar Winetricks
+[vivaldi-stable.desktop]
+_k_friendly_name=Vivaldi
+_launch=Meta+V,,Vivaldi
+new-private-window=,,Nueva ventana privada
+new-window=,,Nueva ventana
 
 [yakuake]
 _k_friendly_name=Yakuake

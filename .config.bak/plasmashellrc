@@ -1,3 +1,7 @@
+[DownloadDialog Settings]
+Height 1080=494
+Width 1920=700
+
 [KFileDialog Settings]
 Recent Files[$e]=Archlinux.svg,file:$HOME/Imágenes/Icons/archlinux.png
 Recent URLs[$e]=file:$HOME/Imágenes/Icons/
@@ -23,16 +27,24 @@ pluginWhiteList=services,shell,bookmarks,baloosearch,locations
 PreloadWeight=0
 
 [PlasmaViews][Panel 2]
+alignment=1
 panelVisibility=0
 
 [PlasmaViews][Panel 2][Defaults]
+maxLength=1920
+minLength=1920
 thickness=36
 
 [PlasmaViews][Panel 2][Horizontal1024]
 thickness=36
 
 [PlasmaViews][Panel 2][Horizontal1920]
+maxLength=1920
+minLength=1920
 thickness=36
+
+[PlasmaViews][Panel 2][Vertical1080]
+thickness=42
 
 [PlasmaViews][Panel 27]
 alignment=132
@@ -64,6 +76,39 @@ thickness=36
 
 [PlasmaViews][Panel 62][Vertical1080]
 thickness=36
+
+[PlasmaViews][Panel 88]
+alignment=132
+
+[PlasmaViews][Panel 88][Defaults]
+thickness=38
+
+[PlasmaViews][Panel 88][Horizontal1920]
+thickness=27
+
+[PlasmaViews][Panel 88][Vertical1080]
+thickness=38
+
+[PlasmaViews][Panel 93]
+alignment=2
+
+[PlasmaViews][Panel 93][Defaults]
+maxLength=1884
+minLength=1049
+offset=0
+thickness=38
+
+[PlasmaViews][Panel 93][Horizontal1920]
+maxLength=1884
+minLength=1884
+offset=0
+thickness=36
+
+[PlasmaViews][Panel 93][Vertical1080]
+maxLength=1053
+minLength=1049
+offset=0
+thickness=38
 
 [ScreenConnectors]
 0=HDMI-A-2

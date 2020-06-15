@@ -1,12 +1,3 @@
-#
-
-# =============================================================================
-#                              Backups
-# =============================================================================
-
-tar cvzf configs.bak.tgz .config/
-mv -fv configs.bak.tgz /Media/[SaveData]/Linux
-
 
 # =============================================================================
 #                             Install Packages
@@ -123,26 +114,19 @@ cd ~/Escritorio/dxvk-1.7
 
 # Wine TKG
 git clone https://github.com/Frogging-Family/wine-tkg-git.git ~/Escritorio/wine-tkg
-cd ~/Escritorio/wine-tkg/wine-tkg-git
-vim customization.cfg
+vim ~/Escritorio/wine-tkg/wine-tkg-git/customization.cfg
 ----------------------------------------------------
 _nomakepkg_prefix_path="~/Escritorio/wine-tkg-build"
 ----------------------------------------------------
 mkdir $HOME/Escritorio/wine-tkg_build
-./non-makepkg-build.sh
+~/Escritorio/wine-tkg/wine-tkg-git/./non-makepkg-build.sh
 
 # Create WINEPREFIX
 WINEPREFIX=~/Wine/.newprefix winecfg
 WINEPREFIX=~/Wine/.new32prefix WINEARCH="win32" winecfg
 
-# Launch WINEPREFIX
- WINEPREFIX=~/Games/Wine/wineprefixname wine $HOME"/Games/game.exe"
- WINEPREFIX=~/Games/Wine/wine-dxvk_1.7 ~/Games/Wine/wine-5.9_build-tkg-fsync-vkd3d/usr/bin/wine64 "/Media/Games/PC/Game/game.exe"
-
-# Launch Custom wine version
-~/Games/Wine/wine_5.6-2_build/bin/wine $HOME"/Games/Emulators/Cemu/Cemu.exe"
-WINEPREFIX=~/Games/Wine/wine-dxvk ~/Games/Wine/wine-5.9_build-tkg-fsync-vkd3d/usr/bin/wine64 "/Media/Games/PC/Game/game.exe"
-WINEPREFIX=~/.steam/root/compatibilitytools.d/Proton-5.9-GE-2-MF/dist/share/default_pfx ~/.steam/root/compatibilitytools.d/Proton-5.9-GE-2-MF/dist/bin/wine64 "/Games/game.exe"
+# Launch Custom Wine
+ WINEPREFIX=~/Games/Wine/wine-pfx ~/Games/Wine/wine-build/bin/wine64 "/Media/Games/PC/Game/game.exe"
 
 # Cemuhook
 winecfg >> Library >> Add
@@ -264,14 +248,6 @@ export PATH=$PATH:$HOME/Programas/Pycharm/bin/
 neofetch
 ----------------------------------------------------
 
-# sudoers
-sudo su -
-vim /etc/sudoers
-----------------------------------------------------
-Defaults env_editor,editor=/usr/bin/vi:/usr/bin/nano:/usr/bin/vim
-Defaults env_reset,pwfeedback
-----------------------------------------------------
-
 
 # =============================================================================
 #                               Mouse 
@@ -288,7 +264,8 @@ sudo vim ~/.imwheelrc
     Shift_L,   Down, Shift_L|Button5, 4
     Control_L, Up,   Control_L|Button4
     Control_L, Down, Control_L|Button5
-----------------------------------------------------    
+----------------------------------------------------
+
 killall imwheel
 imwheel -b 45
 sudo vim ~/.config/autostart/imwheel.desktop
@@ -308,6 +285,19 @@ X-KDE-SubstituteUID=false
 # Gestures
 qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.shortcutNames
 qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut "Cube"
+
+
+# =============================================================================
+#                               Extra 
+# =============================================================================
+
+# Sudoers
+sudo su -
+vim /etc/sudoers
+----------------------------------------------------
+Defaults env_editor,editor=/usr/bin/vi:/usr/bin/nano:/usr/bin/vim
+Defaults env_reset,pwfeedback
+----------------------------------------------------
 
 # Tuning PulseAudio
 /etc/pulse/daemon.conf

@@ -1,0 +1,11 @@
+game:
+  arch: win64
+  exe: /Datos/Portables/Adobe/Adobe Photoshop 2020/Photoshop.exe
+  prefix: ~/Escritorio/wtf
+system: {}
+wine:
+  dxvk: false
+  esync: true
+  system_winetricks: true
+  version: Proton-5.9-GE-2-MF
+  vkd3d: true

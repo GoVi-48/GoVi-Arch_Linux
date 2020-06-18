@@ -92,7 +92,7 @@ sudo vim /etc/pacman.conf
 Include = /etc/pacman.d/mirrorlist
 ----------------------------------------------------
 sudo pacman -Syu
-sudo pacman -S wine-staging
+sudo pacman -S wine-staging wine-nine
 winecfg
 
 # Fonts
@@ -186,67 +186,6 @@ MAILTO=""
 05 12 * * * export DISPLAY=:0 && kate ~/Scripts/Logs/Cron/crontab.log
 ----------------------------------------------------
 crontab -l
-
-
-# =============================================================================
-#                               Bashrc 
-# =============================================================================
-
-# .bashrc
-vim ~/.bashrc
-----------------------------------------------------
-# Autocd
-shopt -s autocd
-
-# Aliases
-alias sv="sudo vim"
-alias l="exa -al --color=always --group-directories-first"
-alias spm="sudo pacman"
-alias pm="pacman"
-alias cp="cp -rfv"
-alias mv="mv -fv"
-alias rm="rm -rfv"
-alias ka="killall"
-alias du1="du --max-depth=1 -h " 
-alias st="sort -h"
-alias ff="find . -type f -iname "
-alias fd="find . -type d -iname "
-alias 2n="2> /dev/null"
-alias dp="dolphin"
-alias yt="youtube-dl --add-metadata -ic"
-alias pyc="pycharm.sh"
-
-# Games aliases
-alias mh="mangohud"
-alias gm="gamemoderun"
-
-# Wine prefix aliases
-alias wp='WINEPREFIX'
-alias wp_5.10='WINEPREFIX=~/Wine/wine-pfx_5.10'
-alias wp_5.10-dxvk='WINEPREFIX=~/Wine/wine-pfx_dxvk'
-alias wp_5.10-tkg='WINEPREFIX=~/Wine/wine-pfx_tkg'
-
-# Wine build aliases
-alias wb_5.10="~/Wine/wine-build_5.10/bin/wine64"
-alias wb_5.10-tkg="~/Wine/wine-build_5.10-tkg/bin/wine64"
-
-# Git aliases
-alias ga="git add"
-alias gc="git commit -m "Updated""
-alias gpm="git push -u origin master"
-
-# Environment
-export TERMINAL="terminator"
-export VISUAL="vim"
-export EDITOR="$VISUAL"
-export BROWSER="vivaldi-stable"
-export PATH=$PATH:$HOME/Scripts/Bash/
-export PATH=$PATH:$HOME/Games/-Shortcuts
-export PATH=$PATH:$HOME/Programas/Pycharm/bin/
-
-# System Info
-neofetch
-----------------------------------------------------
 
 
 # =============================================================================

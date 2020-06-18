@@ -2,20 +2,51 @@
 update_info=kwinrules.upd:replace-placement-string-to-enum
 
 [1]
-Description=Preferencias para la aplicación transmission
-clientmachine=localhost
+Description=Preferencias para la aplicación ksysguard
 clientmachinematch=0
-position=679,142
+position=-4,36
 positionrule=4
-size=912,633
+size=958,1037
 sizerule=4
-wmclass=transmission-qt transmission
-wmclasscomplete=true
+types=1
+wmclass=ksysguard
 wmclassmatch=1
 
 [10]
-Description=Preferencias para la aplicación polkit-kde-authentication-agent-1
+Description=Preferencias para la aplicación dolphin
 above=false
+clientmachine=localhost
+clientmachinematch=0
+position=47,122
+positionrule=4
+wmclass=dolphin
+wmclassmatch=1
+
+[11]
+Description=Preferencias para la aplicación gwenview
+clientmachine=localhost
+clientmachinematch=0
+position=-4,171
+positionrule=4
+size=1261,764
+sizerule=4
+wmclass=gwenview
+wmclassmatch=1
+
+[12]
+Description=Preferencias para la aplicación inkscape
+clientmachine=localhost
+clientmachinematch=0
+position=912,87
+positionrule=4
+size=876,454
+sizerule=4
+wmclass=org.inkscape.inkscape inkscape
+wmclasscomplete=true
+wmclassmatch=1
+
+[13]
+Description=Preferencias para la aplicación polkit-kde-authentication-agent-1
 aboverule=2
 clientmachine=localhost
 clientmachinematch=0
@@ -23,7 +54,7 @@ wmclass=polkit-kde-authentication-agent-1
 wmclasscomplete=false
 wmclassmatch=1
 
-[11]
+[14]
 Description=Preferencias de la ventana de kodi
 clientmachine=govi-pc
 clientmachinematch=0
@@ -38,7 +69,7 @@ wmclass=kodi
 wmclasscomplete=false
 wmclassmatch=1
 
-[12]
+[15]
 Description=Preferencias de la ventana de virtualbox machine
 clientmachine=localhost
 clientmachinematch=0
@@ -53,7 +84,7 @@ wmclass=virtualbox machine
 wmclasscomplete=false
 wmclassmatch=1
 
-[13]
+[16]
 Description=Preferencias para la aplicación virtualbox manager
 clientmachine=localhost
 clientmachinematch=0
@@ -65,7 +96,7 @@ wmclass=virtualbox manager
 wmclasscomplete=false
 wmclassmatch=1
 
-[14]
+[17]
 Description=Preferencias para la aplicación kfind
 clientmachine=localhost
 clientmachinematch=0
@@ -77,7 +108,7 @@ wmclass=kfind
 wmclasscomplete=false
 wmclassmatch=1
 
-[15]
+[18]
 Description=Preferencias para la aplicación kodi
 clientmachine=govi-pc
 clientmachinematch=0
@@ -89,10 +120,9 @@ wmclass=kodi
 wmclasscomplete=false
 wmclassmatch=1
 
-[16]
+[19]
 Description=Preferencias para la aplicación brave-browser
 clientmachine=govi-pc
-clientmachinematch=0
 maximizehoriz=true
 maximizehorizrule=4
 maximizevert=true
@@ -102,34 +132,63 @@ positionrule=4
 size=1536,850
 sizerule=4
 wmclass=brave-browser
-wmclasscomplete=false
-wmclassmatch=1
-
-[17]
-Description=Preferencias para la aplicación kate
-clientmachine=localhost
-clientmachinematch=0
-position=0,36
-positionrule=4
-size=1150,759
-sizerule=4
-wmclass=kate
-wmclasscomplete=false
-wmclassmatch=1
-
-[18]
-Description=Preferencias para la aplicación terminator
-clientmachine=govi-pc
-clientmachinematch=0
-position=1142,36
-positionrule=4
-size=782,791
-sizerule=4
-wmclass=terminator
-wmclasscomplete=false
 wmclassmatch=1
 
 [2]
+Description=Preferencias para la aplicación ksysguard
+clientmachinematch=0
+position=-4,36
+positionrule=4
+size=958,1037
+sizerule=4
+types=1
+wmclass=ksysguard
+wmclassmatch=1
+
+[20]
+Description=Preferencias para la aplicación kate
+position=-4,36
+positionrule=4
+size=1150,1048
+sizerule=4
+types=1
+wmclass=kate
+wmclassmatch=1
+
+[21]
+Description=Preferencias para la aplicación terminator
+clientmachine=govi-pc
+position=1142,265
+positionrule=4
+size=782,581
+sizerule=4
+wmclass=terminator
+wmclassmatch=1
+
+[3]
+Description=Preferencias para la aplicación ksysguard
+clientmachinematch=0
+position=0,36
+positionrule=1
+size=958,1037
+sizerule=1
+types=1
+wmclass=ksysguard
+wmclassmatch=1
+
+[4]
+Description=Preferencias para la aplicación transmission
+clientmachine=localhost
+clientmachinematch=0
+position=679,142
+positionrule=4
+size=912,633
+sizerule=4
+wmclass=transmission-qt transmission
+wmclasscomplete=true
+wmclassmatch=1
+
+[5]
 Description=Preferencias para la aplicación systemmonitor
 clientmachine=localhost
 clientmachinematch=0
@@ -141,7 +200,7 @@ wmclass=systemmonitor
 wmclasscomplete=false
 wmclassmatch=1
 
-[3]
+[6]
 Description=Preferencias para la aplicación vlc
 clientmachine=localhost
 clientmachinematch=0
@@ -151,71 +210,36 @@ wmclass=vlc
 wmclasscomplete=false
 wmclassmatch=1
 
-[4]
+[7]
 Description=Preferencias para la aplicación cemu.exe
 clientmachine=localhost
 clientmachinematch=0
-position=0,94
+position=0,36
 positionrule=4
 wmclass=cemu.exe
 wmclasscomplete=false
 wmclassmatch=1
 
-[5]
+[8]
 Description=Preferencias para la aplicación spectacle
 clientmachine=localhost
 clientmachinematch=0
-position=65,0
+position=643,187
 positionrule=4
-size=1016,463
+size=1017,463
 sizerule=4
 wmclass=spectacle
 wmclasscomplete=false
 wmclassmatch=1
 
-[6]
+[9]
 Description=Preferencias para la aplicación winecfg.exe
 clientmachine=localhost
 clientmachinematch=0
 position=496,319
 positionrule=4
 wmclass=winecfg.exe
-wmclasscomplete=false
-wmclassmatch=1
-
-[7]
-Description=Preferencias para la aplicación dolphin
-clientmachine=localhost
-clientmachinematch=0
-position=35,36
-positionrule=4
-wmclass=dolphin
-wmclasscomplete=false
-wmclassmatch=1
-
-[8]
-Description=Preferencias para la aplicación gwenview
-clientmachine=localhost
-clientmachinematch=0
-position=-4,171
-positionrule=4
-size=1261,764
-sizerule=4
-wmclass=gwenview
-wmclasscomplete=false
-wmclassmatch=1
-
-[9]
-Description=Preferencias para la aplicación inkscape
-clientmachine=localhost
-clientmachinematch=0
-position=912,87
-positionrule=4
-size=876,454
-sizerule=4
-wmclass=org.inkscape.inkscape inkscape
-wmclasscomplete=true
 wmclassmatch=1
 
 [General]
-count=18
+count=21

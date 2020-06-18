@@ -26,6 +26,11 @@ sudo pacman -S kodi kodi-x11
 yay -S kodi-addon-pvr-iptvsimple
 
 # AUR packages
+git clone https://aur.archlinux.org/yay.git
+cd yay
+makepkg -si PKGBUILD
+yay -S ttf-ms-fonts
+yay -S timeshift
 yay -S vivaldi
 yay -S skype
 yay -S discord
@@ -49,6 +54,12 @@ sudo pacman -S giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnu
 echo "blacklist radeon" | sudo tee --append /etc/modprobe.d/blacklist.conf
 echo "options amdgpu si_support=1 cik_support=1" | sudo tee --append /etc/modprobe.d/amdgpu.conf
 #sudo update-initramfs -u
+
+# ACO "AMD Compiler"
+vim ~/.profile
+----------------------------------------------------
+export RADV_PERFTEST=aco
+----------------------------------------------------
 
 # Esync
 sudo vim /etc/systemd/system.conf

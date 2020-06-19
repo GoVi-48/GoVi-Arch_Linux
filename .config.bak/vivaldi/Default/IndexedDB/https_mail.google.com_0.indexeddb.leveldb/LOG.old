@@ -1,9 +1,21 @@
-2020/06/18-04:35:21.596 2a426 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/18-04:35:21.596 2a426 Recovering log #54
-2020/06/18-04:35:21.597 2a426 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000054.log 
-2020/06/18-04:35:26.310 2a559 Compacting 1@1 + 1@2 files
-2020/06/18-04:35:26.315 2a559 Generated table #57@1: 150 keys, 89002 bytes
-2020/06/18-04:35:26.315 2a559 Compacted 1@1 + 1@2 files => 89002 bytes
-2020/06/18-04:35:26.317 2a559 compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/06/18-04:35:26.317 2a559 Delete type=2 #52
-2020/06/18-04:35:26.317 2a559 Delete type=2 #55
+2020/06/19-02:49:13.592 6a0 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/19-02:49:13.592 6a0 Recovering log #59
+2020/06/19-02:49:13.594 6a0 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000059.log 
+2020/06/19-02:49:17.881 727 Compacting 1@1 + 1@2 files
+2020/06/19-02:49:17.889 727 Generated table #62@1: 179 keys, 106885 bytes
+2020/06/19-02:49:17.889 727 Compacted 1@1 + 1@2 files => 106885 bytes
+2020/06/19-02:49:17.894 727 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/19-02:49:17.894 727 Delete type=2 #60
+2020/06/19-02:49:17.894 727 Delete type=2 #57
+2020/06/19-04:22:21.078 727 Level-0 table #64: started
+2020/06/19-04:22:21.097 727 Level-0 table #64: 1155711 bytes OK
+2020/06/19-04:22:21.100 727 Delete type=0 #59
+2020/06/19-04:22:21.100 727 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/19-04:22:21.100 727 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x001\x00/' @ 50147 : 1
+2020/06/19-04:22:21.100 727 Compacting 1@1 + 1@2 files
+2020/06/19-04:22:21.105 727 Generated table #65@1: 109 keys, 44227 bytes
+2020/06/19-04:22:21.105 727 Compacted 1@1 + 1@2 files => 44227 bytes
+2020/06/19-04:22:21.107 727 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/19-04:22:21.107 727 Delete type=2 #62
+2020/06/19-04:22:21.107 727 Delete type=2 #64
+2020/06/19-04:22:21.107 727 Manual compaction at level-1 from '\x00\x08\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x001\x00/' @ 50147 : 1 .. (end); will stop at (end)

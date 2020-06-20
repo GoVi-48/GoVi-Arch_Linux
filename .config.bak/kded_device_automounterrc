@@ -32,7 +32,7 @@ EverMounted=true
 ForceAttachAutomount=false
 ForceLoginAutomount=false
 Icon=drive-harddisk-root
-LastNameSeen=Disco duro de 32,0 GiB
+LastNameSeen=Disco duro de 30,3 GiB
 LastSeenMounted=true
 
 [Devices][/org/freedesktop/UDisks2/block_devices/sda7]
@@ -40,8 +40,13 @@ EverMounted=true
 ForceAttachAutomount=false
 ForceLoginAutomount=false
 Icon=drive-harddisk
-LastNameSeen=Disco duro de 55,8 GiB
+LastNameSeen=Disco duro de 63,6 GiB
 LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda9]
+Icon=drive-harddisk
+LastNameSeen=Disco duro de 6,0 GiB
+LastSeenMounted=false
 
 [Devices][/org/freedesktop/UDisks2/block_devices/sdb1]
 EverMounted=true
@@ -71,7 +76,7 @@ ForceAttachAutomount=false
 ForceLoginAutomount=false
 Icon=drive-removable-media-usb-pendrive
 LastNameSeen=ARCH_202005
-LastSeenMounted=false
+LastSeenMounted=true
 
 [Devices][/org/freedesktop/UDisks2/block_devices/sdd2]
 Icon=drive-removable-media-usb-pendrive

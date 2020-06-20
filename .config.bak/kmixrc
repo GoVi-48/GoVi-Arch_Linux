@@ -5,16 +5,20 @@ update_info=disable_kmix.upd:PlasmaVolume_DisableKMixAutostart
 Height 1080=501
 Width 1920=886
 
+[DialogSelectMaster]
+Height 1080=553
+Width 1920=704
+
 [Global]
 AutoUseMultimediaKeys=true
 ConfigVersion=3
 DefaultCardOnStart=PulseAudio.Dispositivos_de_reproducción.1.default
 MasterMixer=PulseAudio::Playback_Devices:1
-MasterMixerDevice=alsa_output.pci-0000_05_00.0.analog-stereo
+MasterMixerDevice=alsa_output.pci-0000_00_1b.0.analog-stereo
 Menubar=true
 MixerIgnoreExpression=Modem
 Position=0,0
-Size=640,480
+Size=640,482
 Soundmenu.Mixers=
 Visible=false
 
@@ -151,6 +155,9 @@ Split=false
 Split=false
 
 [View.PulseAudio.Dispositivos_de_captura.1.default.PulseAudio::Capture_Devices:1.alsa_input.usb-046d_0990_A4AF4528-02.mono-fallback]
+Split=false
+
+[View.PulseAudio.Dispositivos_de_captura.1.default.PulseAudio::Capture_Devices:1.alsa_input.usb-046d_0990_A4AF4528-02.multichannel-input]
 Split=false
 
 [View.PulseAudio.Dispositivos_de_reproducción.1.default.PulseAudio::Playback_Devices:1.alsa_output.pci-0000_00_1b.0.analog-stereo]

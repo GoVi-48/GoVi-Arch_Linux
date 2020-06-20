@@ -4,7 +4,8 @@
 # =============================================================================
 
 # Packages
-sudo pacman -S terminator exa htop latte-dock conky gimp inkscape kdenlive audacity python3-pip youtube-dl ffmpeg obs-studio transmission-qt virtualbox unrar wget
+sudo pacman -S terminator neofetch exa htop cron kate kcalc kdialog plasma-nm spectacle latte-dock conky gimp inkscape kdenlive audacity youtube-dl ffmpeg vlc obs-studio transmission-qt virtualbox ark unrar wget
+
 
 # Antivirus
 sudo pacman -S clamav
@@ -30,8 +31,8 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si PKGBUILD
 yay -S ttf-ms-fonts
-yay -S timeshift
 yay -S vivaldi
+yay -S timeshift
 yay -S skype
 yay -S discord
 yay -S dropbox
@@ -47,7 +48,7 @@ sudo pacman -Rns $(pacman -Qtdq)
 # Games +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Drivers & Packages
-sudo pacman -S lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader vulkan-tools
+sudo pacman -S kmix pulseaudio pulseaudio-alsa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader vulkan-tools
 sudo pacman -S giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs
 
 # Enable Vulkan for R9 200/300 Series
@@ -209,7 +210,7 @@ sudo vim ~/.imwheelrc
 ----------------------------------------------------
 "^brave-browser$"
     None, Up, Button4, 2
-    None, Down, Button5, 2
+    None, Down, Button5, 2imwheel -b 45
     Shift_L,   Up,   Shift_L|Button4, 4
     Shift_L,   Down, Shift_L|Button5, 4
     Control_L, Up,   Control_L|Button4
@@ -250,7 +251,7 @@ Defaults env_reset,pwfeedback
 ----------------------------------------------------
 
 # Tuning PulseAudio
-/etc/pulse/daemon.conf
+vim /etc/pulse/daemon.conf
 ----------------------------------------------------
 high-priority = yes
 nice-level = -11

@@ -1,15 +1,8 @@
-2020/06/19-02:48:41.666 699 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/19-02:48:41.666 699 Recovering log #130
-2020/06/19-02:48:41.666 699 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000130.log 
-2020/06/19-02:48:43.671 727 Level-0 table #134: started
-2020/06/19-02:48:43.675 727 Level-0 table #134: 188 bytes OK
-2020/06/19-02:48:43.677 727 Delete type=0 #130
-2020/06/19-02:48:43.678 727 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/06/19-02:48:43.678 727 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x02' @ 4 : 1
-2020/06/19-02:48:43.678 727 Compacting 1@1 + 1@2 files
-2020/06/19-02:48:43.680 727 Generated table #135@1: 3 keys, 217 bytes
-2020/06/19-02:48:43.680 727 Compacted 1@1 + 1@2 files => 217 bytes
-2020/06/19-02:48:43.682 727 compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/06/19-02:48:43.683 727 Delete type=2 #134
-2020/06/19-02:48:43.683 727 Delete type=2 #5
-2020/06/19-02:48:43.683 727 Manual compaction at level-1 from '\x00\x00\x00\x00\x02' @ 4 : 1 .. (end); will stop at (end)
+2020/06/20-02:49:25.976 1f26 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/20-02:49:25.976 1f26 Recovering log #152
+2020/06/20-02:49:25.976 1f26 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/chrome-extension_cjpalhdlnbpafiamejdnhcphjbkeiagm_0.indexeddb.leveldb/000152.log 
+2020/06/20-02:49:27.986 1fcd Level-0 table #156: started
+2020/06/20-02:49:27.986 1fcd Level-0 table #156: 0 bytes OK
+2020/06/20-02:49:28.024 1fcd Delete type=0 #152
+2020/06/20-02:49:28.024 1fcd Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/20-02:49:28.024 1fcd Manual compaction at level-1 from (begin) .. (end); will stop at (end)

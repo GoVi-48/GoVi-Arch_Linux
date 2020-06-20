@@ -61,39 +61,29 @@ ${offset 35}${font Good Times:size=12}${color Tan1}DISK USAGE ${color}${hr 2}${f
 
  ${color}/
 ${lua gradbar {6, 70, "${fs_used_perc /}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /}% used
- /dev/sda6 = 38G (${fs_type /})${color}${alignr}${offset -5}${fs_free /} free
+ /dev/sda6 = 32G (${fs_type /})${color}${alignr}${offset -5}${fs_free /} free
 ${color}${hr 1}
 
-${image img/trans-bg240.png -p 4,65 -s 226x11} ${color}/home
-${lua gradbar {6, 145, "${fs_used_perc /home}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /home}% used
- /dev/sda7 = 55G (${fs_type /home})${color}${alignr}${offset -5}${fs_free /home} free
-${color}${hr 1}
-
-${image img/trans-bg240.png -p 4,140 -s 226x11} ${color}/boot
-${lua gradbar {6, 220, "${fs_used_perc /boot}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /boot}% used
+${image img/trans-bg240.png -p 4,65 -s 226x11} ${color}/boot
+${lua gradbar {6, 145, "${fs_used_perc /boot}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /boot}% used
  /dev/sda5 = 511M (${fs_type /boot})${color}${alignr}${offset -5}${fs_free /boot} free
 ${color}${hr 1}
 
-${image img/trans-bg240.png -p 4,215 -s 226x11} ${color}/boot_Windows
-${lua gradbar {6, 295, "${fs_used_perc /boot_Windows}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /boot_Windows}% used
- /dev/sda2 = 96M (${fs_type /boot_Windows})${color}${alignr}${offset -5}${fs_free /boot_Windows} free
+${image img/trans-bg240.png -p 4,140 -s 226x11} ${color}/home
+${lua gradbar {6, 220, "${fs_used_perc /home}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /home}% used
+ /dev/sda7 = 55G (${fs_type /home})${color}${alignr}${offset -5}${fs_free /home} free
 ${color}${hr 1}
 
-${image img/trans-bg240.png -p 4,290 -s 226x11} ${color}/Windows
-${lua gradbar {6, 370, "${fs_used_perc /Windows}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /Windows}% used
- /dev/sda4 = 135G (${fs_type /Windows})${color}${alignr}${offset -5}${fs_free /Windows} free
+${image img/trans-bg240.png -p 4,215 -s 226x11} ${color}/run/media/govi/Media
+${lua gradbar {6, 295, "${fs_used_perc /run/media/govi/Media}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /run/media/govi/Media}% used
+ /dev/sdc1 = 3,7T (${fs_type /run/media/govi/Media})${color}${alignr}${offset -5}${fs_free /run/media/govi/Media} free
 ${color}${hr 1}
 
-${image img/trans-bg240.png -p 4,365 -s 226x11} ${color}/Datos
-${lua gradbar {6, 445, "${fs_used_perc /Datos}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /Datos}% used
- /dev/sdb1 = 899G (${fs_type /Datos})${color}${alignr}${offset -5}${fs_free /Datos} free
+${image img/trans-bg240.png -p 4,290 -s 226x11} ${color}/run/media/govi/Datos
+${lua gradbar {6, 370, "${fs_used_perc /run/media/govi/Datos}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /run/media/govi/Datos}% used
+ /dev/sdb1 = 899G (${fs_type /run/media/govi/Datos})${color}${alignr}${offset -5}${fs_free /run/media/govi/Datos} free
 ${color}${hr 1}
 
-${image img/trans-bg240.png -p 4,440 -s 226x11} ${color}/Media
-${lua gradbar {6, 520, "${fs_used_perc /Media}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /Media}% used
- /dev/sdc1 = 3,7T (${fs_type /Media})${color}${alignr}${offset -5}${fs_free /Media} free
-${color}${hr 1}
-
-${image img/trans-bg240.png -p 4,515 -s 226x11}
+${image img/trans-bg240.png -p 4,365 -s 226x11}
 ${color lightgrey}Read: $color${diskio_read}${alignr}${color lightgrey}Write: ${color}${diskio_write}
 ${color #000000}${diskiograph_read 12,145 000000 EEEEEE}${alignr}${color #000000}${diskiograph_write 12,145 000000 EEEEEE}

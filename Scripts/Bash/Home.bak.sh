@@ -19,8 +19,6 @@ cp -rfv ~/Games/-Shortcuts-/* "/Datos/THC/Proyectos/Github/GoVi-Arch-Linux/Games
 cp -rfv ~/.bashrc "/Datos/THC/Proyectos/Github/GoVi-Arch-Linux/"
 cp -rfv ~/.vimrc "/Datos/THC/Proyectos/Github/GoVi-Arch-Linux/"
 
-cp -rfv "/Datos/THC/Sistema/Programas/Linux/Howto Arch" "/Datos/THC/Proyectos/Github/GoVi-Arch-Linux/"
-
 cd /Datos/THC/Proyectos/Github/GoVi-Arch-Linux
 git add .
 git commit -m "Updated"

@@ -133,6 +133,7 @@ alias 2n="2> /dev/null"
 alias dp="dolphin"
 alias yt="youtube-dl --add-metadata -ic"
 alias pyc="pycharm.sh"
+alias -s md=vim
 
 # Games aliases
 alias mh="mangohud"

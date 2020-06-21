@@ -12,21 +12,18 @@ Include = /etc/pacman.d/mirrorlist
 $ sudo pacman -Syu
 
 # Packages
-$ sudo pacman -S terminator neofetch exa htop lm_sensors conky cron kate kcalc kdialog spectacle latte-dock gimp inkscape kdenlive audacity youtube-dl ffmpeg vlc obs-studio transmission-qt virtualbox ark unrar wget
-
+$ sudo pacman -S terminator neofetch exa htop lm_sensors latte-dock gimp inkscape kdenlive audacity youtube-dl ffmpeg vlc obs-studio transmission-qt virtualbox
+$ sudo pacman -S ark conky cron gparted kate kcalc kdialog okular spectacle unrar wget
 
 # Antivirus
 $ sudo pacman -S clamav
 $ sudo freshclam
-$ sudo systemctl start clamav-freshclam.service
 $ sudo systemctl enable clamav-freshclam.service
-$ sudo systemctl start clamav-demon.service
 $ sudo systemctl enable clamav-demon.service
 $ sudo pacman -S clamtk
 
 # Firewall
 $ sudo pacman -S firewalld
-$ systemctl start firewalld
 $ systemctl enable firewalld
 $ firewall-config
 
@@ -39,12 +36,12 @@ $ git clone https://aur.archlinux.org/$ yay.git
 $ cd yay
 $ makepkg -si PKGBUILD
 $ yay -S ttf-ms-fonts
-$ yay -S vivaldi
-$ yay -S timeshift
-$ yay -S skype
 $ yay -S discord
 $ yay -S dropbox
+$ yay -S skype
 $ yay -S spotify
+$ yay -S timeshift
+$ yay -S vivaldi
 
 # Flatpaks
 $ sudo pacman -S flatpak
@@ -120,12 +117,8 @@ $ ./setup_dxvk.sh install
 
 # Wine TKG
 $ git clone https://github.com/Frogging-Family/wine-tkg-git.git ~/Escritorio/wine-tkg
-$ vim ~/Escritorio/wine-tkg/wine-tkg-git/customization.cfg
-# -----------------------------------------------------------------------------
-_nomakepkg_prefix_path="~/Escritorio/wine-tkg-build"
-# -----------------------------------------------------------------------------
-$ mkdir $HOME/Escritorio/wine-tkg_build
-$ ~/Escritorio/wine-tkg/wine-tkg-git/./non-makepkg-build.sh
+$ cd ~/Escritorio/wine-tkg/wine-tkg-git/
+$ makepkg -si
 
 # Create WINEPREFIX
 $ WINEPREFIX=~/Wine/.newprefix winecfg

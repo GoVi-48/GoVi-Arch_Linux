@@ -1,48 +1,90 @@
-2020/06/20-22:31:44.790 234a Reusing MANIFEST /home/govi/.config/vivaldi/Default/Sync Data/LevelDB/MANIFEST-000001
-2020/06/20-22:31:44.790 234a Recovering log #530
-2020/06/20-22:31:44.791 234a Reusing old log /home/govi/.config/vivaldi/Default/Sync Data/LevelDB/000530.log 
-2020/06/21-00:04:14.023 113e6 Level-0 table #535: started
-2020/06/21-00:04:14.028 113e6 Level-0 table #535: 434929 bytes OK
-2020/06/21-00:04:14.030 113e6 Delete type=0 #530
-2020/06/21-00:50:56.970 113e6 Level-0 table #537: started
-2020/06/21-00:50:56.975 113e6 Level-0 table #537: 447005 bytes OK
-2020/06/21-00:50:56.977 113e6 Delete type=0 #534
-2020/06/21-00:51:22.606 113e6 Level-0 table #539: started
-2020/06/21-00:51:22.613 113e6 Level-0 table #539: 521291 bytes OK
-2020/06/21-00:51:22.614 113e6 Delete type=0 #536
-2020/06/21-02:49:45.688 113e6 Level-0 table #541: started
-2020/06/21-02:49:45.692 113e6 Level-0 table #541: 427194 bytes OK
-2020/06/21-02:49:45.694 113e6 Delete type=0 #538
-2020/06/21-02:49:45.694 113e6 Compacting 4@0 + 1@1 files
-2020/06/21-02:49:45.700 113e6 Generated table #542@0: 138 keys, 46748 bytes
-2020/06/21-02:49:45.700 113e6 Compacted 4@0 + 1@1 files => 46748 bytes
-2020/06/21-02:49:45.701 113e6 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/06/21-02:49:45.701 113e6 Delete type=2 #532
-2020/06/21-02:49:45.701 113e6 Delete type=2 #537
-2020/06/21-02:49:45.701 113e6 Delete type=2 #539
-2020/06/21-02:49:45.701 113e6 Delete type=2 #541
-2020/06/21-02:49:45.701 113e6 Delete type=2 #535
-2020/06/21-02:53:59.019 113e6 Level-0 table #544: started
-2020/06/21-02:53:59.027 113e6 Level-0 table #544: 545008 bytes OK
-2020/06/21-02:53:59.029 113e6 Delete type=0 #540
-2020/06/21-02:55:51.774 113e6 Level-0 table #546: started
-2020/06/21-02:55:51.793 113e6 Level-0 table #546: 532302 bytes OK
-2020/06/21-02:55:51.804 113e6 Delete type=0 #543
-2020/06/21-02:56:57.601 113e6 Level-0 table #548: started
-2020/06/21-02:56:57.606 113e6 Level-0 table #548: 532947 bytes OK
-2020/06/21-02:56:57.608 113e6 Delete type=0 #545
-2020/06/21-06:00:11.679 113e6 Level-0 table #550: started
-2020/06/21-06:00:11.685 113e6 Level-0 table #550: 522429 bytes OK
-2020/06/21-06:00:11.687 113e6 Delete type=0 #547
-2020/06/21-06:00:11.687 113e6 Compacting 4@0 + 1@1 files
-2020/06/21-06:00:11.694 113e6 Generated table #551@0: 138 keys, 38903 bytes
-2020/06/21-06:00:11.694 113e6 Compacted 4@0 + 1@1 files => 38903 bytes
-2020/06/21-06:00:11.696 113e6 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/06/21-06:00:11.696 113e6 Delete type=2 #548
-2020/06/21-06:00:11.696 113e6 Delete type=2 #546
-2020/06/21-06:00:11.696 113e6 Delete type=2 #544
-2020/06/21-06:00:11.696 113e6 Delete type=2 #550
-2020/06/21-06:00:11.696 113e6 Delete type=2 #542
-2020/06/21-16:14:18.656 113e6 Level-0 table #553: started
-2020/06/21-16:14:18.661 113e6 Level-0 table #553: 319683 bytes OK
-2020/06/21-16:14:18.663 113e6 Delete type=0 #549
+2020/06/21-16:30:00.449 4e6 Reusing MANIFEST /home/govi/.config/vivaldi/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/06/21-16:30:00.450 4e6 Recovering log #552
+2020/06/21-16:30:00.452 4e6 Reusing old log /home/govi/.config/vivaldi/Default/Sync Data/LevelDB/000552.log 
+2020/06/21-16:31:45.245 a90 Level-0 table #556: started
+2020/06/21-16:31:45.260 a90 Level-0 table #556: 517522 bytes OK
+2020/06/21-16:31:45.267 a90 Delete type=0 #552
+2020/06/21-17:29:03.007 a90 Level-0 table #558: started
+2020/06/21-17:29:03.012 a90 Level-0 table #558: 521221 bytes OK
+2020/06/21-17:29:03.014 a90 Delete type=0 #555
+2020/06/21-18:13:51.398 a90 Level-0 table #560: started
+2020/06/21-18:13:51.424 a90 Level-0 table #560: 489398 bytes OK
+2020/06/21-18:13:51.432 a90 Delete type=0 #557
+2020/06/21-18:13:51.433 a90 Compacting 4@0 + 1@1 files
+2020/06/21-18:13:51.440 a90 Generated table #561@0: 138 keys, 71512 bytes
+2020/06/21-18:13:51.440 a90 Compacted 4@0 + 1@1 files => 71512 bytes
+2020/06/21-18:13:51.452 a90 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/06/21-18:13:51.452 a90 Delete type=2 #556
+2020/06/21-18:13:51.452 a90 Delete type=2 #551
+2020/06/21-18:13:51.452 a90 Delete type=2 #560
+2020/06/21-18:13:51.452 a90 Delete type=2 #558
+2020/06/21-18:13:51.452 a90 Delete type=2 #553
+2020/06/21-18:56:55.279 a90 Level-0 table #563: started
+2020/06/21-18:56:55.290 a90 Level-0 table #563: 508326 bytes OK
+2020/06/21-18:56:55.297 a90 Delete type=0 #559
+2020/06/21-20:42:50.710 a90 Level-0 table #565: started
+2020/06/21-20:42:50.719 a90 Level-0 table #565: 528034 bytes OK
+2020/06/21-20:42:50.724 a90 Delete type=0 #562
+2020/06/21-22:31:32.422 a90 Level-0 table #567: started
+2020/06/21-22:31:32.441 a90 Level-0 table #567: 430066 bytes OK
+2020/06/21-22:31:32.453 a90 Delete type=0 #564
+2020/06/21-23:49:58.181 a90 Level-0 table #569: started
+2020/06/21-23:49:58.195 a90 Level-0 table #569: 335820 bytes OK
+2020/06/21-23:49:58.204 a90 Delete type=0 #566
+2020/06/21-23:49:58.204 a90 Compacting 4@0 + 1@1 files
+2020/06/21-23:49:58.216 a90 Generated table #570@0: 138 keys, 96433 bytes
+2020/06/21-23:49:58.216 a90 Compacted 4@0 + 1@1 files => 96433 bytes
+2020/06/21-23:49:58.220 a90 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/06/21-23:49:58.220 a90 Delete type=2 #569
+2020/06/21-23:49:58.220 a90 Delete type=2 #565
+2020/06/21-23:49:58.220 a90 Delete type=2 #567
+2020/06/21-23:49:58.220 a90 Delete type=2 #563
+2020/06/21-23:49:58.220 a90 Delete type=2 #561
+2020/06/22-00:36:04.884 a90 Level-0 table #572: started
+2020/06/22-00:36:04.894 a90 Level-0 table #572: 258131 bytes OK
+2020/06/22-00:36:04.901 a90 Delete type=0 #568
+2020/06/22-01:28:43.704 a90 Level-0 table #574: started
+2020/06/22-01:28:43.719 a90 Level-0 table #574: 488090 bytes OK
+2020/06/22-01:28:43.721 a90 Delete type=0 #571
+2020/06/22-02:50:05.347 a90 Level-0 table #576: started
+2020/06/22-02:50:05.353 a90 Level-0 table #576: 499235 bytes OK
+2020/06/22-02:50:05.358 a90 Delete type=0 #573
+2020/06/22-03:33:45.601 a90 Level-0 table #578: started
+2020/06/22-03:33:45.615 a90 Level-0 table #578: 525263 bytes OK
+2020/06/22-03:33:45.620 a90 Delete type=0 #575
+2020/06/22-03:33:45.620 a90 Compacting 4@0 + 1@1 files
+2020/06/22-03:33:45.629 a90 Generated table #579@0: 138 keys, 60296 bytes
+2020/06/22-03:33:45.629 a90 Compacted 4@0 + 1@1 files => 60296 bytes
+2020/06/22-03:33:45.633 a90 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/06/22-03:33:45.633 a90 Delete type=2 #578
+2020/06/22-03:33:45.633 a90 Delete type=2 #576
+2020/06/22-03:33:45.633 a90 Delete type=2 #572
+2020/06/22-03:33:45.633 a90 Delete type=2 #574
+2020/06/22-03:33:45.633 a90 Delete type=2 #570
+2020/06/22-04:15:09.573 a90 Level-0 table #581: started
+2020/06/22-04:15:09.577 a90 Level-0 table #581: 524914 bytes OK
+2020/06/22-04:15:09.579 a90 Delete type=0 #577
+2020/06/22-05:15:00.305 a90 Level-0 table #583: started
+2020/06/22-05:15:00.361 a90 Level-0 table #583: 521387 bytes OK
+2020/06/22-05:15:00.371 a90 Delete type=0 #580
+2020/06/22-05:17:55.443 a90 Level-0 table #585: started
+2020/06/22-05:17:55.452 a90 Level-0 table #585: 317216 bytes OK
+2020/06/22-05:17:55.454 a90 Delete type=0 #582
+2020/06/22-05:43:21.014 a90 Level-0 table #587: started
+2020/06/22-05:43:21.022 a90 Level-0 table #587: 395488 bytes OK
+2020/06/22-05:43:21.024 a90 Delete type=0 #584
+2020/06/22-05:43:21.024 a90 Compacting 4@0 + 1@1 files
+2020/06/22-05:43:21.027 a90 Generated table #588@0: 138 keys, 36799 bytes
+2020/06/22-05:43:21.027 a90 Compacted 4@0 + 1@1 files => 36799 bytes
+2020/06/22-05:43:21.031 a90 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/06/22-05:43:21.031 a90 Delete type=2 #585
+2020/06/22-05:43:21.031 a90 Delete type=2 #579
+2020/06/22-05:43:21.031 a90 Delete type=2 #583
+2020/06/22-05:43:21.031 a90 Delete type=2 #581
+2020/06/22-05:43:21.031 a90 Delete type=2 #587
+2020/06/22-13:57:57.969 a90 Level-0 table #590: started
+2020/06/22-13:57:57.972 a90 Level-0 table #590: 434504 bytes OK
+2020/06/22-13:57:57.974 a90 Delete type=0 #586
+2020/06/22-14:13:20.742 a90 Level-0 table #592: started
+2020/06/22-14:13:20.753 a90 Level-0 table #592: 487960 bytes OK
+2020/06/22-14:13:20.755 a90 Delete type=0 #589

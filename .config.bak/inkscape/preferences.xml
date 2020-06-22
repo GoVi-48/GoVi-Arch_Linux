@@ -633,7 +633,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/govi/Escritorio"
+       path="/home/govi/Imágenes/GoVi-Theme/Psd"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -978,11 +978,11 @@
     <group
        id="rendering" />
     <group
-       id="defaultwindowsize"
-       value="2" />
+       value="2"
+       id="defaultwindowsize" />
     <group
-       id="font"
-       unitType="2" />
+       unitType="2"
+       id="font" />
   </group>
   <group
      id="extensions"
@@ -1017,8 +1017,8 @@
     <group
        width="868"
        height="527"
-       x="912"
-       y="87"
+       x="926"
+       y="100"
        fullscreen="0"
        id="geometry"
        maximized="0" />
@@ -1119,23 +1119,23 @@
      id="ui"
      language="" />
   <group
-     id="theme"
-     defaultTheme="Breeze"
-     defaultIconTheme="GoVi-Ic"
-     gtkTheme="Breeze"
-     iconTheme="breeze"
-     menuIcons_canvas="0"
-     menuIcons_layers="0"
-     menuIcons_objects="0"
-     preferDarkTheme="1"
-     darkTheme="1"
+     symbolicDefaultColors="1"
      symbolicIcons="1"
-     symbolicDefaultColors="1">
+     darkTheme="1"
+     preferDarkTheme="1"
+     menuIcons_objects="0"
+     menuIcons_layers="0"
+     menuIcons_canvas="0"
+     iconTheme="breeze"
+     gtkTheme="Breeze"
+     defaultIconTheme="GoVi-Ic"
+     defaultTheme="Breeze"
+     id="theme">
     <group
-       id="breeze"
-       symbolicBaseColor="4025545215"
-       symbolicSuccessColor="665739519"
+       symbolicErrorColor="3661911039"
        symbolicWarningColor="4134797567"
-       symbolicErrorColor="3661911039" />
+       symbolicSuccessColor="665739519"
+       symbolicBaseColor="4025545215"
+       id="breeze" />
   </group>
 </inkscape>

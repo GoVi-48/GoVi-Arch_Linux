@@ -9,13 +9,13 @@ echo
 echo
 echo -Remplazando xmltv.xml
 echo
-cp -rfv ~/Programas/Webgrab++/.wg++/xmltv.xml /Datos/THC/Proyectos/Github/GoVi-EPG/
+cp -rfv ~/Programas/Webgrab++/.wg++/xmltv.xml /Datos/GoVi/Proyectos/Github/GoVi-EPG/
 echo
-
+echo ====================================================================================
 echo
 echo -Subiendo a Github
 
-cd /Datos/THC/Proyectos/Github/GoVi-EPG/
+cd ~/Proyectos/Github/GoVi-EPG/
 
 # git config --global credential.helper store
 

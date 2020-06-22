@@ -140,13 +140,13 @@ alias gm="gamemoderun"
 
 # Wine prefix aliases
 alias wp='WINEPREFIX'
-alias wp_5.10='WINEPREFIX=~/Wine/wine-pfx_5.10'
-alias wp_5.10-dxvk='WINEPREFIX=~/Wine/wine-pfx_dxvk'
-alias wp_5.10-tkg='WINEPREFIX=~/Wine/wine-pfx_tkg'
+alias wp-5.10='WINEPREFIX=~/Wine/wine-pfx_5.10'
+alias wp-dxvk='WINEPREFIX=~/Wine/wine-pfx_dxvk'
+alias wp-tkg='WINEPREFIX=~/Wine/wine-pfx_tkg'
 
 # Wine build aliases
-alias wb_5.10="~/Wine/wine-build_5.10/bin/wine64"
-alias wb_5.10-tkg="~/Wine/wine-build_5.10-tkg/bin/wine64"
+alias wb-5.10="~/Wine/wine-build_5.10/bin/wine64"
+alias wb-5.10-tkg="~/Wine/wine-build_5.10-tkg/bin/wine64"
 
 # Git aliases
 alias ga="git add"

@@ -1,93 +1,45 @@
-2020/06/21-16:30:00.461 4e6 Reusing MANIFEST /home/govi/.config/vivaldi/Default/Local Storage/leveldb/MANIFEST-000001
-2020/06/21-16:30:00.461 4e6 Recovering log #468
-2020/06/21-16:30:00.461 4e6 Reusing old log /home/govi/.config/vivaldi/Default/Local Storage/leveldb/000468.log 
-2020/06/21-17:31:27.830 99d8 Level-0 table #473: started
-2020/06/21-17:31:27.836 99d8 Level-0 table #473: 89480 bytes OK
-2020/06/21-17:31:27.850 99d8 Delete type=0 #468
-2020/06/21-18:16:27.830 99d8 Level-0 table #475: started
-2020/06/21-18:16:27.837 99d8 Level-0 table #475: 87798 bytes OK
-2020/06/21-18:16:27.839 99d8 Delete type=0 #472
-2020/06/21-18:18:27.829 99d8 Level-0 table #477: started
-2020/06/21-18:18:27.833 99d8 Level-0 table #477: 83648 bytes OK
-2020/06/21-18:18:27.835 99d8 Delete type=0 #474
-2020/06/21-18:24:27.829 99d8 Level-0 table #479: started
-2020/06/21-18:24:27.835 99d8 Level-0 table #479: 83822 bytes OK
-2020/06/21-18:24:27.842 99d8 Delete type=0 #476
-2020/06/21-18:24:27.842 99d8 Compacting 4@0 + 1@1 files
-2020/06/21-18:24:27.872 99d8 Generated table #480@0: 856 keys, 1029420 bytes
-2020/06/21-18:24:27.872 99d8 Compacted 4@0 + 1@1 files => 1029420 bytes
-2020/06/21-18:24:27.876 99d8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/06/21-18:24:27.876 99d8 Delete type=2 #477
-2020/06/21-18:24:27.876 99d8 Delete type=2 #475
-2020/06/21-18:24:27.876 99d8 Delete type=2 #479
-2020/06/21-18:24:27.876 99d8 Delete type=2 #473
-2020/06/21-18:24:27.876 99d8 Delete type=2 #470
-2020/06/21-22:23:00.589 99d8 Level-0 table #482: started
-2020/06/21-22:23:00.599 99d8 Level-0 table #482: 16548 bytes OK
-2020/06/21-22:23:00.603 99d8 Delete type=0 #478
-2020/06/21-22:34:54.524 99d8 Level-0 table #484: started
-2020/06/21-22:34:54.531 99d8 Level-0 table #484: 17309 bytes OK
-2020/06/21-22:34:54.535 99d8 Delete type=0 #481
-2020/06/21-23:50:27.829 99d8 Level-0 table #486: started
-2020/06/21-23:50:27.837 99d8 Level-0 table #486: 17373 bytes OK
-2020/06/21-23:50:27.840 99d8 Delete type=0 #483
-2020/06/22-00:52:38.480 99d8 Level-0 table #488: started
-2020/06/22-00:52:38.497 99d8 Level-0 table #488: 17513 bytes OK
-2020/06/22-00:52:38.503 99d8 Delete type=0 #485
-2020/06/22-00:52:38.503 99d8 Compacting 4@0 + 1@1 files
-2020/06/22-00:52:38.534 99d8 Generated table #489@0: 860 keys, 1030126 bytes
-2020/06/22-00:52:38.534 99d8 Compacted 4@0 + 1@1 files => 1030126 bytes
-2020/06/22-00:52:38.536 99d8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/06/22-00:52:38.536 99d8 Delete type=2 #482
-2020/06/22-00:52:38.536 99d8 Delete type=2 #488
-2020/06/22-00:52:38.536 99d8 Delete type=2 #480
-2020/06/22-00:52:38.536 99d8 Delete type=2 #484
-2020/06/22-00:52:38.536 99d8 Delete type=2 #486
-2020/06/22-03:26:27.831 99d8 Level-0 table #491: started
-2020/06/22-03:26:27.851 99d8 Level-0 table #491: 18831 bytes OK
-2020/06/22-03:26:27.856 99d8 Delete type=0 #487
-2020/06/22-05:51:28.998 99d8 Level-0 table #493: started
-2020/06/22-05:51:29.004 99d8 Level-0 table #493: 16807 bytes OK
-2020/06/22-05:51:29.009 99d8 Delete type=0 #490
-2020/06/22-06:07:30.220 99d8 Level-0 table #495: started
-2020/06/22-06:07:30.224 99d8 Level-0 table #495: 15768 bytes OK
-2020/06/22-06:07:30.228 99d8 Delete type=0 #492
-2020/06/22-07:53:42.225 99d8 Level-0 table #497: started
-2020/06/22-07:53:42.232 99d8 Level-0 table #497: 14447 bytes OK
-2020/06/22-07:53:42.235 99d8 Delete type=0 #494
-2020/06/22-07:53:42.235 99d8 Compacting 4@0 + 1@1 files
-2020/06/22-07:53:42.263 99d8 Generated table #498@0: 863 keys, 1030337 bytes
-2020/06/22-07:53:42.263 99d8 Compacted 4@0 + 1@1 files => 1030337 bytes
-2020/06/22-07:53:42.265 99d8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/06/22-07:53:42.265 99d8 Delete type=2 #489
-2020/06/22-07:53:42.265 99d8 Delete type=2 #491
-2020/06/22-07:53:42.265 99d8 Delete type=2 #493
-2020/06/22-07:53:42.265 99d8 Delete type=2 #495
-2020/06/22-07:53:42.265 99d8 Delete type=2 #497
-2020/06/22-08:17:35.120 99d8 Level-0 table #500: started
-2020/06/22-08:17:35.126 99d8 Level-0 table #500: 19034 bytes OK
-2020/06/22-08:17:35.133 99d8 Delete type=0 #496
-2020/06/22-08:26:54.231 99d8 Level-0 table #502: started
-2020/06/22-08:26:54.263 99d8 Level-0 table #502: 11820 bytes OK
-2020/06/22-08:26:54.267 99d8 Delete type=0 #499
-2020/06/22-10:09:19.216 99d8 Level-0 table #504: started
-2020/06/22-10:09:19.220 99d8 Level-0 table #504: 15070 bytes OK
-2020/06/22-10:09:19.222 99d8 Delete type=0 #501
-2020/06/22-13:53:44.700 99d8 Level-0 table #506: started
-2020/06/22-13:53:44.704 99d8 Level-0 table #506: 15085 bytes OK
-2020/06/22-13:53:44.708 99d8 Delete type=0 #503
-2020/06/22-13:53:44.709 99d8 Compacting 4@0 + 1@1 files
-2020/06/22-13:53:44.728 99d8 Generated table #507@0: 864 keys, 1030400 bytes
-2020/06/22-13:53:44.728 99d8 Compacted 4@0 + 1@1 files => 1030400 bytes
-2020/06/22-13:53:44.730 99d8 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/06/22-13:53:44.730 99d8 Delete type=2 #504
-2020/06/22-13:53:44.730 99d8 Delete type=2 #498
-2020/06/22-13:53:44.730 99d8 Delete type=2 #506
-2020/06/22-13:53:44.730 99d8 Delete type=2 #500
-2020/06/22-13:53:44.731 99d8 Delete type=2 #502
-2020/06/22-13:57:57.537 99d8 Level-0 table #509: started
-2020/06/22-13:57:57.541 99d8 Level-0 table #509: 9477 bytes OK
-2020/06/22-13:57:57.546 99d8 Delete type=0 #505
-2020/06/22-14:13:32.553 99d8 Level-0 table #511: started
-2020/06/22-14:13:32.571 99d8 Level-0 table #511: 12943 bytes OK
-2020/06/22-14:13:32.573 99d8 Delete type=0 #508
+2020/06/22-15:12:09.317 2a1b Reusing MANIFEST /home/govi/.config/vivaldi/Default/Local Storage/leveldb/MANIFEST-000001
+2020/06/22-15:12:09.317 2a1b Recovering log #510
+2020/06/22-15:12:09.318 2a1b Reusing old log /home/govi/.config/vivaldi/Default/Local Storage/leveldb/000510.log 
+2020/06/22-15:47:14.139 890c Level-0 table #514: started
+2020/06/22-15:47:14.144 890c Level-0 table #514: 17259 bytes OK
+2020/06/22-15:47:14.148 890c Delete type=0 #510
+2020/06/22-16:44:41.121 890c Level-0 table #516: started
+2020/06/22-16:44:41.125 890c Level-0 table #516: 15966 bytes OK
+2020/06/22-16:44:41.134 890c Delete type=0 #513
+2020/06/22-16:44:41.134 890c Compacting 4@0 + 1@1 files
+2020/06/22-16:44:41.159 890c Generated table #517@0: 869 keys, 1031898 bytes
+2020/06/22-16:44:41.159 890c Compacted 4@0 + 1@1 files => 1031898 bytes
+2020/06/22-16:44:41.160 890c compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/06/22-16:44:41.160 890c Delete type=2 #509
+2020/06/22-16:44:41.160 890c Delete type=2 #516
+2020/06/22-16:44:41.160 890c Delete type=2 #507
+2020/06/22-16:44:41.160 890c Delete type=2 #511
+2020/06/22-16:44:41.161 890c Delete type=2 #514
+2020/06/22-18:18:41.122 890c Level-0 table #519: started
+2020/06/22-18:18:41.126 890c Level-0 table #519: 14116 bytes OK
+2020/06/22-18:18:41.129 890c Delete type=0 #515
+2020/06/22-19:26:17.239 890c Level-0 table #521: started
+2020/06/22-19:26:17.244 890c Level-0 table #521: 14606 bytes OK
+2020/06/22-19:26:17.249 890c Delete type=0 #518
+2020/06/22-20:47:41.122 890c Level-0 table #523: started
+2020/06/22-20:47:41.159 890c Level-0 table #523: 15742 bytes OK
+2020/06/22-20:47:41.166 890c Delete type=0 #520
+2020/06/22-21:01:45.837 890c Level-0 table #525: started
+2020/06/22-21:01:45.839 890c Level-0 table #525: 12155 bytes OK
+2020/06/22-21:01:45.841 890c Delete type=0 #522
+2020/06/22-21:01:45.841 890c Compacting 4@0 + 1@1 files
+2020/06/22-21:01:45.857 890c Generated table #526@0: 875 keys, 1033610 bytes
+2020/06/22-21:01:45.857 890c Compacted 4@0 + 1@1 files => 1033610 bytes
+2020/06/22-21:01:45.859 890c compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/06/22-21:01:45.859 890c Delete type=2 #519
+2020/06/22-21:01:45.859 890c Delete type=2 #525
+2020/06/22-21:01:45.859 890c Delete type=2 #517
+2020/06/22-21:01:45.859 890c Delete type=2 #521
+2020/06/22-21:01:45.859 890c Delete type=2 #523
+2020/06/22-21:34:53.445 890c Level-0 table #528: started
+2020/06/22-21:34:53.449 890c Level-0 table #528: 14054 bytes OK
+2020/06/22-21:34:53.451 890c Delete type=0 #524
+2020/06/22-22:44:31.340 890c Level-0 table #530: started
+2020/06/22-22:44:31.379 890c Level-0 table #530: 20980 bytes OK
+2020/06/22-22:44:31.384 890c Delete type=0 #527

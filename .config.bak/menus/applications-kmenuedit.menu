@@ -24,6 +24,7 @@
    <Filename>THC.desktop</Filename>
    <Filename>cemu.desktop</Filename>
    <Filename>wine-Programs-Epic Games Launcher.desktop</Filename>
+   <Filename>libreoffice-draw.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -236,15 +237,14 @@
   </Include>
   <Layout>
    <Merge type="files"/>
+   <Filename>Photoshop.desktop</Filename>
    <Filename>gimp.desktop</Filename>
-   <Filename>org.kde.gwenview.desktop</Filename>
    <Filename>org.inkscape.Inkscape.desktop</Filename>
-   <Filename>org.kde.kolourpaint.desktop</Filename>
-   <Filename>libreoffice-draw.desktop</Filename>
    <Filename>org.kde.okular.desktop</Filename>
-   <Filename>org.kde.kcolorchooser.desktop</Filename>
-   <Filename>org.kde.kruler.desktop</Filename>
   </Layout>
+  <Exclude>
+   <Filename>libreoffice-draw.desktop</Filename>
+  </Exclude>
  </Menu>
  <Menu>
   <Name>wine-wine-2</Name>

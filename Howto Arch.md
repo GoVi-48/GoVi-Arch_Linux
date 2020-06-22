@@ -12,8 +12,8 @@ Include = /etc/pacman.d/mirrorlist
 $ sudo pacman -Syu
 
 # Packages
-$ sudo pacman -S terminator neofetch exa htop lm_sensors latte-dock gimp inkscape kdenlive audacity youtube-dl ffmpeg vlc obs-studio transmission-qt virtualbox
-$ sudo pacman -S ark conky cron gparted kate kcalc kdialog okular spectacle unrar wget
+$ sudo pacman -S terminator neofetch exa htop lm_sensors latte-dock virtualbox gimp inkscape kdenlive audacity youtube-dl ffmpeg vlc elisa obs-studio mono transmission-qt
+$ sudo pacman -S ark conky cron gparted kate kcalc kdialog okular spectacle unrar zip wget
 
 # Antivirus
 $ sudo pacman -S clamav
@@ -38,9 +38,11 @@ $ makepkg -si PKGBUILD
 $ yay -S ttf-ms-fonts
 $ yay -S discord
 $ yay -S dropbox
+$ yay -S picard
 $ yay -S skype
 $ yay -S spotify
 $ yay -S timeshift
+$ yay -S tiny-media-manager
 $ yay -S vivaldi
 
 # Flatpaks

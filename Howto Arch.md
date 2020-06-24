@@ -13,7 +13,7 @@ $ sudo pacman -Syu
 
 # Packages
 $ sudo pacman -S terminator neofetch exa htop lm_sensors latte-dock virtualbox gimp inkscape kdenlive audacity youtube-dl ffmpeg vlc elisa obs-studio mono transmission-qt
-$ sudo pacman -S ark conky cron gparted kate kcalc kdialog okular spectacle unrar zip wget
+$ sudo pacman -S ark conky gparted kate kcalc kdialog okular spectacle unrar zip wget
 
 # Antivirus
 $ sudo pacman -S clamav
@@ -73,6 +73,7 @@ export RADV_PERFTEST=aco
 $ git clone https://github.com/FeralInteractive/gamemode.git
 $ cd gamemode
 $ git checkout 1.5.1 # omit to build the master branch
+$ sudo pacman -S meson systemd git dbus
 $ ./bootstrap.sh
 
 # Mangohud
@@ -175,6 +176,8 @@ $ ls -l /
                             # Crontab Jobs #
 # =============================================================================
 
+$ pacman -S cronie
+$ systemctl enable --now cronie.service
 $ crontab -e
 # -----------------------------------------------------------------------------
 MAILTO=""

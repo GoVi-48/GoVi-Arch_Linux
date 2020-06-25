@@ -5,7 +5,9 @@
 
 $ sudo vim /etc/pacman.conf
 # -----------------------------------------------------------------------------
-[multilib]
+[Color
+
+multilib]
 Include = /etc/pacman.d/mirrorlist
 # -----------------------------------------------------------------------------
 
@@ -231,16 +233,15 @@ qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invoke
                                # Extra #
 # =============================================================================
 
-# sudoers
-$ sudo su -
+# Sudoers
 $ sudo vim /etc/sudoers
 # -----------------------------------------------------------------------------
-Defaults env_editor,editor=/usr/bin/vi:/usr/bin/nano:/usr/bin/vim
+%wheel ALL=(ALL) ALL
 Defaults env_reset,pwfeedback
 # -----------------------------------------------------------------------------
 
 # Tuning PulseAudio
-$ vim /etc/pulse/daemon.conf
+$ sudo vim /etc/pulse/daemon.conf
 # -----------------------------------------------------------------------------
 high-priority = yes
 nice-level = -11

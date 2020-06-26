@@ -5,9 +5,9 @@
 
 $ sudo vim /etc/pacman.conf
 # -----------------------------------------------------------------------------
-[Color
+Color
 
-multilib]
+[multilib]
 Include = /etc/pacman.d/mirrorlist
 # -----------------------------------------------------------------------------
 
@@ -34,7 +34,7 @@ $ sudo pacman -S kodi kodi-x11
 $ $ yay -S kodi-addon-pvr-iptvsimple
 
 # AUR packages
-$ git clone https://aur.archlinux.org/$ yay.git
+$ git clone https://aur.archlinux.org/yay.git
 $ cd yay
 $ makepkg -si PKGBUILD
 $ yay -S ttf-ms-fonts

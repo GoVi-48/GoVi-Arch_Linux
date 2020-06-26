@@ -71,14 +71,14 @@ URL=file:///Datos/GoVi/Documentos/Web/WebGrab.txt
 
 [file:///Datos/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch.md]
 Bookmarks=
-Checksum=80fee8f7589eb9bbc7cb56a67ebc9586c6c6d0c2
+Checksum=bd3aeea4980f9577b2a383da305e64e129dd4c89
 Encoding=UTF-8
 Highlighting=Markdown
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Markdown
 Mode Set By User=false
-Time=2020,6,25,17,20,24
+Time=2020,6,26,15,45,53
 URL=file:///Datos/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch.md
 
 [file:///Datos/GoVi/Sistema/Programas/Linux/Howto Arch]
@@ -741,18 +741,6 @@ Mode Set By User=false
 Time=2020,5,30,13,30,1
 URL=file:///etc/X11/xorg.conf.d/xorg.conf
 
-[file:///etc/bash.bashrc]
-Bookmarks=
-Checksum=c484b2bc771691e2f4462271efaaf3da9ef9adfd
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,5,26,2,41,59
-URL=file:///etc/bash.bashrc
-
 [file:///etc/fstab]
 Bookmarks=
 Checksum=ff8093029eba1b4fe278c0071d30074a372bc56a
@@ -776,18 +764,6 @@ Mode=Normal
 Mode Set By User=false
 Time=2020,6,8,16,47,13
 URL=file:///etc/pulse/daemon.conf
-
-[file:///etc/services]
-Bookmarks=
-Checksum=8292a2841f66c0d6ad148b3044614e915c2a0f6e
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,26,4,33,4
-URL=file:///etc/services
 
 [file:///etc/systemd/system/imwheel.service]
 Bookmarks=
@@ -813,16 +789,28 @@ Mode Set By User=false
 Time=2020,5,30,15,20,58
 URL=file:///etc/systemd/user/imwheel.service
 
-[file:///home/govi/.bashrc]
+[file:///home/govi/.bash_profile]
 Bookmarks=
-Checksum=e786c63267f014df91c577eb206361f537be2e7d
+Checksum=397907bab84332e03903331e8764cc9e9c88d16a
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,6,22,22,28,44
+Time=2020,6,26,15,17,54
+URL=file:///home/govi/.bash_profile
+
+[file:///home/govi/.bashrc]
+Bookmarks=
+Checksum=ca49947c81344002305e362e23d562eba7bb5d04
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,6,26,15,45,53
 URL=file:///home/govi/.bashrc
 
 [file:///home/govi/.cemu/wine/user.reg]
@@ -1065,18 +1053,6 @@ Mode Set By User=false
 Time=2020,5,30,12,56,14
 URL=file:///home/govi/.config/kdeglobals
 
-[file:///home/govi/.config/neofetch/config.conf]
-Bookmarks=
-Checksum=852ab3bd7121a8925391ba58321a2296086f7794
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,26,16,31,28
-URL=file:///home/govi/.config/neofetch/config.conf
-
 [file:///home/govi/.config/okularrc]
 Bookmarks=
 Checksum=2913bcee50e8a3c41b4b3e07c497722ec8912123
@@ -1088,18 +1064,6 @@ Mode=.desktop
 Mode Set By User=false
 Time=2020,6,21,14,23,41
 URL=file:///home/govi/.config/okularrc
-
-[file:///home/govi/.git-credentials]
-Bookmarks=
-Checksum=9514b8a8e253ad5d4b17b8b6a118e23e78e121a1
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,26,4,27,48
-URL=file:///home/govi/.git-credentials
 
 [file:///home/govi/.imwheelrc]
 Bookmarks=
@@ -1665,30 +1629,6 @@ Mode Set By User=false
 Time=2020,5,29,14,13,22
 URL=file:///home/govi/.local/share/icons/PlasmaXLight/index.theme
 
-[file:///home/govi/.local/share/onboard/themes/Droid.theme]
-Bookmarks=
-Checksum=6bf3a749a7cfd92bf02b118f530429012139e21d
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,26,5,57,33
-URL=file:///home/govi/.local/share/onboard/themes/Droid.theme
-
-[file:///home/govi/.local/share/onboard/themes/ModelM.theme]
-Bookmarks=
-Checksum=07b8b57fbb9fa8f48f24a284510ea176b004a4fa
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,26,5,57,20
-URL=file:///home/govi/.local/share/onboard/themes/ModelM.theme
-
 [file:///home/govi/.local/share/plasma/desktoptheme/Breeze-Noir-Dark/metadata.desktop]
 Bookmarks=
 Checksum=c13c955394f7a7615dd62c8cb43c2a6eb4046d72
@@ -1926,7 +1866,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,6,18,2,35,26
+Time=2020,6,26,15,20,55
 URL=file:///home/govi/.profile
 
 [file:///home/govi/.viminfo]
@@ -2180,42 +2120,6 @@ Mode=Normal
 Mode Set By User=false
 Time=2020,5,28,21,20,48
 URL=file:///home/govi/Backups/GoVi Theme/breeze-dark/colors
-
-[file:///home/govi/Backups/GoVi.kateschema]
-Bookmarks=
-Checksum=91d527669ad7125d8477e9bd3f2501f2dd2bd476
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,26,2,30,25
-URL=file:///home/govi/Backups/GoVi.kateschema
-
-[file:///home/govi/Backups/Theme Onboard/rute]
-Bookmarks=
-Checksum=ff101e7c47de98a9c74f70afb4c5b44d965c91c3
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,26,6,58,52
-URL=file:///home/govi/Backups/Theme Onboard/rute
-
-[file:///home/govi/Descargas/florence-master/INSTALL]
-Bookmarks=
-Checksum=7d1c323beae76333f523f6df31c47a87f5597edb
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,26,5,47,19
-URL=file:///home/govi/Descargas/florence-master/INSTALL
 
 [file:///home/govi/Descargas/photoshopCClinux-master/scripts/PhotoshopSetup.sh]
 Bookmarks=
@@ -3179,14 +3083,14 @@ URL=file:///home/govi/Scripts/Bash/imwheel.sh
 
 [file:///home/govi/Scripts/Logs/Cron/crontab.log]
 Bookmarks=
-Checksum=48a753f46d318d46915860e9dc69d7cd2226fece
+Checksum=4051b2826890f05ab8831464b9b9f66c8f26830f
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,6,19,12,40,12
+Time=2020,6,26,11,52,32
 URL=file:///home/govi/Scripts/Logs/Cron/crontab.log
 
 [file:///home/govi/Wine/wine-pfx_5.10/user.reg]
@@ -3332,30 +3236,6 @@ Mode=Bash
 Mode Set By User=false
 Time=2020,5,28,6,2,17
 URL=file:///home/govi/photoshopCClinux/setup.sh
-
-[file:///media/Datos/THC/Documentos/Social/Discord.txt]
-Bookmarks=
-Checksum=d53c9562812b25ace07b297a5fa332bee1874f85
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,26,22,56,15
-URL=file:///media/Datos/THC/Documentos/Social/Discord.txt
-
-[file:///media/Datos/THC/Documentos/Social/Google-Gmail.txt]
-Bookmarks=
-Checksum=695f1fa2dbb8f4b31f15530add3e598a596f4a4c
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,26,18,19,49
-URL=file:///media/Datos/THC/Documentos/Social/Google-Gmail.txt
 
 [file:///media/Datos/THC/Sistema/Programas/Linux/Howto Arch]
 Bookmarks=
@@ -3513,30 +3393,6 @@ Mode Set By User=false
 Time=2020,5,27,16,12,44
 URL=file:///usr/share/doc/sudo/examples/sudoers
 
-[file:///usr/share/florence/florence.conf]
-Bookmarks=
-Checksum=0ed4641cbc92cceb3f087241cf497c1616d9951e
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,26,5,47,23
-URL=file:///usr/share/florence/florence.conf
-
-[file:///usr/share/florence/florence.rnc]
-Bookmarks=
-Checksum=2b6c1840e1a2a3e8050cac09ebbbcc099fe85b24
-Encoding=UTF-8
-Highlighting=RelaxNG-Compact
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=RelaxNG-Compact
-Mode Set By User=false
-Time=2020,5,26,5,47,20
-URL=file:///usr/share/florence/florence.rnc
-
 [file:///usr/share/gtk-3.0/settings.ini]
 Bookmarks=
 Checksum=921d1ddeec01656978e1a3c1a70491c10707ac62
@@ -3632,66 +3488,6 @@ Mode=.desktop
 Mode Set By User=false
 Time=2020,6,20,2,14,59
 URL=file:///usr/share/kservices5/ServiceMenus/skypeforlinux.desktop
-
-[file:///usr/share/onboard/layouts/Compact.onboard]
-Bookmarks=
-Checksum=c0279bf528d3d8e0a17d573dba8972e942118a20
-Encoding=UTF-8
-Highlighting=XML
-Highlighting Set By User=false
-Indentation Mode=xml
-Mode=XML
-Mode Set By User=false
-Time=2020,5,26,5,59,57
-URL=file:///usr/share/onboard/layouts/Compact.onboard
-
-[file:///usr/share/onboard/models/es_ES.lm]
-Bookmarks=
-Checksum=678355fe179690361289deff7a40fe74c9cbc35a
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,26,6,26,5
-URL=file:///usr/share/onboard/models/es_ES.lm
-
-[file:///usr/share/onboard/themes/HighContrast.colors]
-Bookmarks=
-Checksum=58dd2df636f96533646b8c377dbc3762d627afee
-Encoding=UTF-8
-Highlighting=XML
-Highlighting Set By User=false
-Indentation Mode=xml
-Mode=XML
-Mode Set By User=false
-Time=2020,5,26,6,55,1
-URL=file:///usr/share/onboard/themes/HighContrast.colors
-
-[file:///usr/share/onboard/themes/HighContrastInverse.theme]
-Bookmarks=
-Checksum=8ae394276f00c8a46233d756c273322369afbf65
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,5,26,6,31,16
-URL=file:///usr/share/onboard/themes/HighContrastInverse.theme
-
-[file:///usr/share/onboard/themes/ModelM.colors]
-Bookmarks=
-Checksum=5bccb8b153b1fc3f9c3dc3dd693d6bd7605b85c3
-Encoding=UTF-8
-Highlighting=XML
-Highlighting Set By User=false
-Indentation Mode=xml
-Mode=XML
-Mode Set By User=false
-Time=2020,5,26,6,54,58
-URL=file:///usr/share/onboard/themes/ModelM.colors
 
 [file:///usr/share/plasma/desktoptheme/air/metadata.desktop]
 Bookmarks=

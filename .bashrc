@@ -117,7 +117,8 @@ fi
 shopt -s autocd
 
 # Aliases
-alias sv="sudo vim"
+alias se="sudoedit"
+alias sv="sudo -E vim"
 alias l="exa -al --color=always --group-directories-first"
 alias spm="sudo pacman"
 alias pm="pacman"
@@ -140,27 +141,29 @@ alias gm="gamemoderun"
 
 # Wine prefix aliases
 alias wp='WINEPREFIX'
-alias wp-5.10='WINEPREFIX=~/Wine/wine-pfx_5.10'
+alias wp-5.11='WINEPREFIX=~/Wine/wine-pfx_5.11'
 alias wp-dxvk='WINEPREFIX=~/Wine/wine-pfx_dxvk'
 alias wp-tkg='WINEPREFIX=~/Wine/wine-pfx_tkg'
 
 # Wine build aliases
-alias wb-5.10="~/Wine/wine-build_5.10/bin/wine64"
-alias wb-5.10-tkg="~/Wine/wine-build_5.10-tkg/bin/wine64"
+alias wb-5.11="~/Wine/wine-build_5.110/bin/wine64"
+alias wb-5.11-tkg="~/Wine/wine-build_5.11-tkg/bin/wine64"
 
 # Git aliases
 alias ga="git add"
-alias gc="git commit -m "Updated""
+alias gc="git commit -m"
 alias gpm="git push -u origin master"
 
 # Environment
+EDITOR=vim
+VISUAL=$EDITOR
+export EDITOR VISUAL
 export TERMINAL="terminator"
-export VISUAL="vim"
-export EDITOR="$VISUAL"
 export BROWSER="vivaldi-stable"
 export PATH=$PATH:$HOME/Scripts/Bash/
 export PATH=$PATH:$HOME/Games/-Shortcuts
 export PATH=$PATH:$HOME/Programas/Pycharm/bin/
+
 
 # System Info
 neofetch

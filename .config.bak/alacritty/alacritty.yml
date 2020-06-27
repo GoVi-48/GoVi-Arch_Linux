@@ -182,16 +182,16 @@
     # The dimmed foreground color is calculated automatically if it is not present.
     # If the bright foreground color is not set, or `draw_bold_text_with_bright_colors`
     # is `false`, the normal foreground color will be used.
-    #dim_foreground: '#9a9a9a'
-    #bright_foreground: '#ffffff'
+     dim_foreground: '#9a9a9a'
+     bright_foreground: '#ffffff'
 
   # Cursor colors
   #
   # Colors which should be used to draw the terminal cursor. If these are unset,
   # the cursor color will be the inverse of the cell color.
-  #cursor:
-  #  text: '#000000'
-  #  cursor: '#ffffff'
+   cursor:
+     text: '#000000'
+     cursor: '#ffffff'
 
   # Selection colors
   #
@@ -217,8 +217,8 @@
    bright:
      black:   '#666666'
      red:     '#fe4e60'
-     green:   '#9ec400'
-     yellow:  '#e6c547'
+     green:   '#2ed473'
+     yellow:  '#fde47c'
      blue:    '#7aa6da'
      magenta: '#c397d8'
      cyan:    '#66d9ef'
@@ -502,8 +502,8 @@
 # at once.
  key_bindings:
   # (Windows, Linux, and BSD only)
-   - { key: V,        mods: Control,       action: Paste            }
-   - { key: C,        mods: Control,       action: Copy             }
+   - { key: V,        mods: Super,         action: Paste            }
+   - { key: C,        mods: Super,         action: Copy             }
    - { key: Insert,   mods: Shift,         action: PasteSelection   }
    - { key: Key0,     mods: Control,       action: ResetFontSize    }
    - { key: Equals,   mods: Control,       action: IncreaseFontSize }

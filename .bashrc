@@ -120,8 +120,10 @@ shopt -s autocd
 alias se="sudoedit"
 alias sv="sudo -E vim"
 alias l="exa -al --color=always --group-directories-first"
+alias ht="htop"
 alias spm="sudo pacman"
 alias pm="pacman"
+alias hy="history"
 alias cp="cp -rfv"
 alias mv="mv -fv"
 alias rm="rm -rfv"
@@ -130,7 +132,6 @@ alias du1="du -d1 -h"
 alias sth="sort -h"
 alias ff="find . -type f -iname "
 alias fd="find . -type d -iname "
-alias 2n="2> /dev/null"
 alias dp="dolphin"
 alias yt="youtube-dl --add-metadata -ic"
 alias pyc="pycharm.sh"
@@ -158,12 +159,11 @@ alias gpm="git push -u origin master"
 EDITOR=vim
 VISUAL=$EDITOR
 export EDITOR VISUAL
-export TERMINAL="terminator"
+export TERMINAL="alacritty"
 export BROWSER="vivaldi-stable"
 export PATH=$PATH:$HOME/Scripts/Bash/
 export PATH=$PATH:$HOME/Games/-Shortcuts
 export PATH=$PATH:$HOME/Programas/Pycharm/bin/
-
 
 # System Info
 neofetch

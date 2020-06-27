@@ -7,6 +7,11 @@ Switch keyboard layout to Español=none,none,Cambiar la distribución del tecla
 Switch to Next Keyboard Layout=none,none,Cambiar a la siguiente distribución del teclado
 _k_friendly_name=Selector de distribución del teclado
 
+[alacritty.desktop]
+New=Meta+T,,New Terminal
+_k_friendly_name=Alacritty
+_launch=,,Alacritty
+
 [gimp.desktop]
 _k_friendly_name=Lanzar GIMP
 _launch=Meta+G,none,Lanzar GIMP
@@ -483,10 +488,6 @@ toggle do not disturb=none,none,Conmutar no molestar
 [systemsettings.desktop]
 _k_friendly_name=Preferencias del sistema
 _launch=Tools,Tools,Preferencias del sistema
-
-[terminator.desktop]
-_k_friendly_name=Lanzar Terminator
-_launch=Meta+T,none,Lanzar Terminator
 
 [vivaldi-stable.desktop]
 _k_friendly_name=Vivaldi

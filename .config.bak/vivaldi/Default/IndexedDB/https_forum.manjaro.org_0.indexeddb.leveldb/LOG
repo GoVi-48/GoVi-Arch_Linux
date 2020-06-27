@@ -1,5 +1,15 @@
-2020/06/18-04:10:27.026 25f86 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/18-04:11:30.661 6ec Level-0 table #5: started
-2020/06/18-04:11:30.667 6ec Level-0 table #5: 55335 bytes OK
-2020/06/18-04:11:30.673 6ec Delete type=0 #3
-2020/06/18-04:11:30.673 6ec Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/27-02:28:25.355 51efd Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/MANIFEST-000001
+2020/06/27-02:28:25.355 51efd Recovering log #11
+2020/06/27-02:28:25.355 51efd Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_forum.manjaro.org_0.indexeddb.leveldb/000011.log 
+2020/06/27-02:31:22.638 514c8 Level-0 table #16: started
+2020/06/27-02:31:22.644 514c8 Level-0 table #16: 3870 bytes OK
+2020/06/27-02:31:22.647 514c8 Delete type=0 #11
+2020/06/27-02:31:22.647 514c8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/06/27-02:31:22.647 514c8 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\xe0m\xd52/wB\x00\x01Y\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00r\x00u\x00m\x00.\x00m\x00a\x00n\x00j\x00a\x00r\x00o\x00.\x00o\x00r\x00g\x00/\x00u\x00s\x00e\x00r\x00_\x00a\x00v\x00a\x00t\x00a\x00r\x00/\x00f\x00o\x00r\x00u\x00m\x00.\x00m\x00a\x00n\x00j\x00a\x00r\x00o\x00.\x00o\x00r\x00g\x00/\x00s\x00y\x00s\x00t\x00e\x00m\x00/\x002\x005\x00/\x005\x005\x007\x002\x006\x00_\x002\x00.\x00p\x00n\x00g' @ 2745 : 1
+2020/06/27-02:31:22.647 514c8 Compacting 1@1 + 1@2 files
+2020/06/27-02:31:22.654 514c8 Generated table #17@1: 357 keys, 44431 bytes
+2020/06/27-02:31:22.654 514c8 Compacted 1@1 + 1@2 files => 44431 bytes
+2020/06/27-02:31:22.656 514c8 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/06/27-02:31:22.656 514c8 Delete type=2 #13
+2020/06/27-02:31:22.656 514c8 Delete type=2 #16
+2020/06/27-02:31:22.657 514c8 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\xe0m\xd52/wB\x00\x01Y\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00r\x00u\x00m\x00.\x00m\x00a\x00n\x00j\x00a\x00r\x00o\x00.\x00o\x00r\x00g\x00/\x00u\x00s\x00e\x00r\x00_\x00a\x00v\x00a\x00t\x00a\x00r\x00/\x00f\x00o\x00r\x00u\x00m\x00.\x00m\x00a\x00n\x00j\x00a\x00r\x00o\x00.\x00o\x00r\x00g\x00/\x00s\x00y\x00s\x00t\x00e\x00m\x00/\x002\x005\x00/\x005\x005\x007\x002\x006\x00_\x002\x00.\x00p\x00n\x00g' @ 2745 : 1 .. (end); will stop at (end)

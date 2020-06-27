@@ -14,7 +14,7 @@ Include = /etc/pacman.d/mirrorlist
 $ sudo pacman -Syu
 
 # Packages
-$ sudo pacman -S terminator neofetch exa htop lm_sensors latte-dock virtualbox gimp inkscape kdenlive audacity youtube-dl ffmpeg vlc elisa obs-studio mono transmission-qt
+$ sudo pacman -S alacritty neofetch exa htop lm_sensors latte-dock virtualbox gimp inkscape kdenlive audacity youtube-dl ffmpeg vlc elisa obs-studio mono transmission-qt
 $ sudo pacman -S ark conky gparted kate kcalc kdialog okular spectacle unrar zip wget
 
 # Antivirus

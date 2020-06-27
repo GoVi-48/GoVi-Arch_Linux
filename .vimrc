@@ -7,4 +7,6 @@ set clipboard+=unnamedplus
 
 cmap º <C-C>
 imap º <Esc>
-nmap º :wq<CR>
+nmap W :w!<CR> 
+nmap Q :q!<CR>
+ 

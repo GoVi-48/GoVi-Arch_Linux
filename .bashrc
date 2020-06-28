@@ -134,6 +134,7 @@ alias du1="du -d1 -h"
 alias sth="sort -h"
 alias ff="find . -type f -iname "
 alias fd="find . -type d -iname "
+alias wrt="wrestool -x -t 14"
 alias dp="dolphin"
 alias yt="youtube-dl --add-metadata -ic"
 alias pyc="pycharm.sh"
@@ -164,7 +165,7 @@ export EDITOR VISUAL
 export TERMINAL="alacritty"
 export BROWSER="vivaldi-stable"
 export PATH=$PATH:$HOME/Scripts/Bash/
-export PATH=$PATH:$HOME/Games/-Shortcuts
+export PATH=$PATH:$HOME/Games/-Shortcuts-/
 export PATH=$PATH:$HOME/Programas/Pycharm/bin/
 
 # System Info

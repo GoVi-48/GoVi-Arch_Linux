@@ -137,25 +137,6 @@ DialogWidth=720
 immutability=1
 plugin=org.kde.plasma.pager
 
-[Containments][2][Applets][89]
-immutability=1
-plugin=org.kde.plasma.weather
-
-[Containments][2][Applets][89][Configuration]
-PreloadWeight=80
-showHumidityInTooltip=false
-showPressureInTooltip=false
-showTemperatureInCompactMode=true
-showTemperatureInTooltip=true
-showWindInTooltip=false
-source=wettercom|weather|Vigo, Galicia, ES|ES3105973;Vigo
-updateInterval=30
-weatherServiceProviders=wettercom
-
-[Containments][2][Applets][89][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
 [Containments][2][ConfigDialog]
 DialogHeight=84
 DialogWidth=1920
@@ -164,7 +145,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=18;88;5;56;6;89;8
+AppletOrder=18;88;5;56;6;8
 
 [Containments][7]
 activityId=
@@ -283,7 +264,7 @@ knownItems=org.kde.plasma.notifications,org.kde.plasma.devicenotifier,org.kde.di
 shownItems=KMix
 
 [Containments][87]
-ItemGeometriesHorizontal=Applet-93:48,560,96,96,0;
+ItemGeometriesHorizontal=
 activityId=4b5c25e3-7963-4c20-a2e2-6a98060a637b
 formfactor=0
 immutability=1
@@ -291,10 +272,6 @@ lastScreen=0
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.slideshow
-
-[Containments][87][Applets][93]
-immutability=1
-plugin=org.kde.plasma.timer
 
 [Containments][87][ConfigDialog]
 DialogHeight=631
@@ -316,7 +293,7 @@ toolTips=true
 Image=file:///home/govi/Imágenes/Wallpapers/ClarkLittleWaves_SS_08.jpg
 
 [Containments][87][Wallpaper][org.kde.slideshow][General]
-Image=file:///Media/Multimedia/Imágenes/Wallpapers/Desktop/milky-way-night4566832_49.jpg
+Image=file:///Media/Multimedia/Imágenes/Wallpapers/Desktop/Interstellar_6b5b9.jpg
 SlideInterval=660
 SlidePaths=/home/govi/Imágenes/Wallpapers/Desktop
 SlideshowMode=1

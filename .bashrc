@@ -113,7 +113,7 @@ if ! shopt -oq posix; then
 fi
 
 # Prompt colors
-export PS1="[\e[1;32m\]\u\e[0m\]@\e[1;32m\]\h\e[0;31m\]:\e[1;34m\]\w\e[0m\]]\e[1;37m\]$ \e[0m\]" 
+export PS1="[\[\e[1;32m\]\u\[\e[m\]@\[\e[1;32m\]\h\[\e[0;31m\]:\[\e[1;34m\]\w\[\e[m\]]\[\e[1;37m\]$ \[\e[m\]"
 
 # Autocd
 shopt -s autocd
@@ -141,17 +141,7 @@ alias pyc="pycharm.sh"
 
 # Games aliases
 alias mh="mangohud"
-alias gm="gamemoderun"
-
-# Wine prefix aliases
-alias wp='WINEPREFIX'
-alias wp-5.11='WINEPREFIX=~/Wine/wine-pfx_5.11'
-alias wp-dxvk='WINEPREFIX=~/Wine/wine-pfx_dxvk'
-alias wp-tkg='WINEPREFIX=~/Wine/wine-pfx_tkg'
-
-# Wine build aliases
-alias wb-5.11="~/Wine/wine-build_5.110/bin/wine64"
-alias wb-5.11-tkg="~/Wine/wine-build_5.11-tkg/bin/wine64"
+alias gmr="gamemoderun"
 
 # Git aliases
 alias ga="git add"

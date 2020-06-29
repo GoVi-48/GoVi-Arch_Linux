@@ -15,7 +15,7 @@ $ sudo pacman -Syu
 
 # Packages
 $ sudo pacman -S alacritty neofetch exa htop lm_sensors latte-dock virtualbox gimp inkscape kdenlive audacity youtube-dl ffmpeg vlc elisa obs-studio mono transmission-qt
-$ sudo pacman -S ark conky gparted icoutils kate kcalc kdialog okular spectacle unrar zip wget
+$ sudo pacman -S ark conky extra-cmake-modules gparted icoutils kate kcalc kdialog okular spectacle unrar zip wget
 
 # Antivirus
 $ sudo pacman -S clamav
@@ -116,9 +116,9 @@ $ sh winetricks corefonts vcrun6
 $ wget -P ~/Escritorio https://github.com/doitsujin/dxvk/releases/download/v1.7/dxvk-1.7.tar.gz
 $ tar xvzf ~/Escritorio/dxvk-1.7.tar.gz -C ~/Escritorio
 $ mkdir ~/Escritorio/wine-pfx_dxvk
-$ cp ~/.wine/* ~/Escritorio/wine-pfx_dxvk
-$ cd ~/Escritorio/dxvk-1.7
-$ ./setup_dxvk.sh install
+$ ~/Escritorio/dxvk-1.7/./setup_dxvk.sh install
+$ mv ~/.wine/ ~/Escritorio/wine-pfx_dxvk
+$ winecfg
 
 # Wine TKG
 $ git clone https://github.com/Frogging-Family/wine-tkg-git.git ~/Escritorio/wine-tkg

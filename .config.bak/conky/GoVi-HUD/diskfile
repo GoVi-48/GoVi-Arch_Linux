@@ -61,12 +61,12 @@ ${offset 35}${font Good Times:size=12}${color Tan1}DISK USAGE ${color}${hr 2}${f
 
  ${color}/
 ${lua gradbar {6, 70, "${fs_used_perc /}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /}% used
- /dev/sda6 = 32G (${fs_type /})${color}${alignr}${offset -5}${fs_free /} free
+ /dev/sda6 = 30G (${fs_type /})${color}${alignr}${offset -5}${fs_free /} free
 ${color}${hr 1}
 
 ${image img/trans-bg240.png -p 4,65 -s 226x11} ${color}/home
 ${lua gradbar {6, 145, "${fs_used_perc /home}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /home}% used
- /dev/sda7 = 55G (${fs_type /home})${color}${alignr}${offset -5}${fs_free /home} free
+ /dev/sda7 = 63G (${fs_type /home})${color}${alignr}${offset -5}${fs_free /home} free
 ${color}${hr 1}
 
 ${image img/trans-bg240.png -p 4,140 -s 226x11} ${color}/boot
@@ -89,11 +89,6 @@ ${lua gradbar {6, 445, "${fs_used_perc /Media}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.
  /dev/sdc1 = 3,7T (${fs_type /Media})${color}${alignr}${offset -5}${fs_free /Media} free
 ${color}${hr 1}
 
-${image img/trans-bg240.png -p 4,440 -s 226x11} ${color}/run/media/govi/ARCH_202005
-${lua gradbar {6, 520, "${fs_used_perc /run/media/govi/ARCH_202005}" ,100, 75, 2, 10, 1, 0xFFFFFF, 0.25, 0x00FF00, 1, 0xFFFF00, 1, 0xFF0000, 1}}${alignr}${offset -5}${fs_used_perc /run/media/govi/ARCH_202005}% used
- /dev/sdd1 = 652M (${fs_type /run/media/govi/ARCH_202005})${color}${alignr}${offset -5}${fs_free /run/media/govi/ARCH_202005} free
-${color}${hr 1}
-
-${image img/trans-bg240.png -p 4,515 -s 226x11}
+${image img/trans-bg240.png -p 4,440 -s 226x11}
 ${color lightgrey}Read: $color${diskio_read}${alignr}${color lightgrey}Write: ${color}${diskio_write}
 ${color #000000}${diskiograph_read 12,145 000000 EEEEEE}${alignr}${color #000000}${diskiograph_write 12,145 000000 EEEEEE}

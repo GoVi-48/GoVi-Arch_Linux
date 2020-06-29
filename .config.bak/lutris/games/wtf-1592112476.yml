@@ -5,7 +5,7 @@ game:
 system: {}
 wine:
   dxvk: false
-  esync: true
-  system_winetricks: true
+  esync: false
+  system_winetricks: false
   version: Proton-5.9-GE-2-MF
   vkd3d: true

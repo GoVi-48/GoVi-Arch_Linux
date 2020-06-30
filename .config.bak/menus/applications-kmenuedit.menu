@@ -25,6 +25,8 @@
    <Filename>cemu.desktop</Filename>
    <Filename>wine-Programs-Epic Games Launcher.desktop</Filename>
    <Filename>libreoffice-draw.desktop</Filename>
+   <Filename>Shadow of the Tomb Raider - The Path Home.desktop</Filename>
+   <Filename>DOOM Eternal.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -46,18 +48,20 @@
     <Filename>Green Hell.desktop</Filename>
     <Filename>Ori.desktop</Filename>
     <Filename>Among Trees.desktop</Filename>
-    <Filename>Shadow of the Tomb Raider - The Path Home.desktop</Filename>
-    <Filename>DOOM Eternal.desktop</Filename>
+    <Filename>DOOM Eternal-2.desktop</Filename>
    </Include>
    <Menu>
     <Name>Ori and the Will of the Wisps</Name>
     <Directory>Ori and the Will of the Wisps.directory</Directory>
     <Deleted/>
    </Menu>
+   <Exclude>
+    <Filename>Shadow of the Tomb Raider - The Path Home.desktop</Filename>
+    <Filename>DOOM Eternal.desktop</Filename>
+   </Exclude>
    <Layout>
     <Merge type="files"/>
-    <Filename>DOOM Eternal.desktop</Filename>
-    <Filename>Shadow of the Tomb Raider - The Path Home.desktop</Filename>
+    <Filename>DOOM Eternal-2.desktop</Filename>
     <Filename>Among Trees.desktop</Filename>
     <Filename>Ori and the Will of the Wisps.desktop</Filename>
     <Filename>Green Hell.desktop</Filename>

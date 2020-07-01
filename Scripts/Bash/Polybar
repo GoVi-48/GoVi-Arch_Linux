@@ -1,0 +1,1 @@
+/home/govi/.config/polybar/launch.sh

@@ -127,8 +127,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="6.23138"
-         height="7.31414" />
+         width="28.0543"
+         height="22.2261" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -163,7 +163,8 @@
          style="fill:red;"
          end="0"
          start="0"
-         usecurrent="1" />
+         usecurrent="1"
+         rx="1e+06" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -173,7 +174,8 @@
          id="spiral"
          style="fill:none;stroke:black"
          expansion="1"
-         usecurrent="0" />
+         usecurrent="0"
+         revolution="3" />
     </group>
     <group
        id="freehand"
@@ -337,8 +339,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="7.13258"
-       y="8"
+       x="145.623"
+       y="129.718"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -355,7 +357,8 @@
        doh="1"
        dos="1"
        dol="1"
-       doo="1" />
+       doo="1"
+       mode="0" />
     <eventcontext
        id="spray"
        selcue="1"
@@ -393,7 +396,8 @@
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
        selcue="1"
-       curvature="0" />
+       curvature="0"
+       orthogonal="0" />
     <eventcontext
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
@@ -540,7 +544,7 @@
        x="0"
        y="0"
        w="474"
-       h="487"
+       h="502"
        visible="1"
        state="2"
        placement="5" />
@@ -555,7 +559,7 @@
        x="0"
        y="0"
        w="474"
-       h="487"
+       h="502"
        visible="1"
        state="2"
        placement="5" />
@@ -566,7 +570,7 @@
        x="0"
        y="0"
        w="474"
-       h="487"
+       h="502"
        visible="1"
        state="2"
        placement="5" />
@@ -605,7 +609,7 @@
        x="0"
        y="0"
        w="474"
-       h="333"
+       h="256"
        visible="1"
        state="2"
        placement="2" />
@@ -617,7 +621,7 @@
        x="0"
        y="0"
        w="474"
-       h="487"
+       h="502"
        visible="1"
        state="2"
        placement="5">
@@ -633,7 +637,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/govi/Imágenes/GoVi-Theme/Psd"
+       path="/home/govi/Escritorio"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -659,7 +663,8 @@
        id="debug"
        redirect="0" />
     <group
-       id="clonetiler" />
+       id="clonetiler"
+       dotrace="0" />
     <group
        id="gridtiler" />
     <group
@@ -685,10 +690,10 @@
     <group
        id="trace"
        state="1"
-       x="594"
-       y="0"
-       w="1326"
-       h="744"
+       x="321"
+       y="207"
+       w="967"
+       h="583"
        visible="0"
        placement="1" />
     <group
@@ -1016,9 +1021,9 @@
      style="fill:#00ff00;stroke:#000000;fill-opacity:0">
     <group
        width="868"
-       height="527"
-       x="926"
-       y="100"
+       height="411"
+       x="387"
+       y="113"
        fullscreen="0"
        id="geometry"
        maximized="1" />

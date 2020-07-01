@@ -1,0 +1,26 @@
+2020/07/01-06:30:44.105 35629 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/http_fontello.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/01-06:30:44.105 35629 Recovering log #15
+2020/07/01-06:30:44.105 35629 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/http_fontello.com_0.indexeddb.leveldb/000015.log 
+2020/07/01-06:30:46.168 2eb0 Level-0 table #21: started
+2020/07/01-06:30:46.173 2eb0 Level-0 table #21: 486 bytes OK
+2020/07/01-06:30:46.175 2eb0 Delete type=0 #15
+2020/07/01-06:30:46.175 2eb0 Manual compaction at level-0 from '\x00\x05\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x06\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/07/01-07:51:16.416 2eb0 Level-0 table #23: started
+2020/07/01-07:51:16.418 2eb0 Level-0 table #23: 237 bytes OK
+2020/07/01-07:51:16.420 2eb0 Delete type=0 #20
+2020/07/01-07:51:16.420 2eb0 Manual compaction at level-0 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x05\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 163 : 0
+2020/07/01-07:51:16.420 2eb0 Compacting 1@0 + 1@1 files
+2020/07/01-07:51:16.422 2eb0 Generated table #24@0: 8 keys, 435 bytes
+2020/07/01-07:51:16.422 2eb0 Compacted 1@0 + 1@1 files => 435 bytes
+2020/07/01-07:51:16.425 2eb0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/07/01-07:51:16.425 2eb0 Delete type=2 #23
+2020/07/01-07:51:16.425 2eb0 Delete type=2 #21
+2020/07/01-07:51:16.425 2eb0 Manual compaction at level-0 from '\x00\x00\x00\x002\x02\x05\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 163 : 0 .. (end); will stop at (end)
+2020/07/01-07:51:16.425 2eb0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\xc9\x15\x00h\x00t\x00t\x00p\x00_\x00f\x00o\x00n\x00t\x00e\x00l\x00l\x00o\x00.\x00c\x00o\x00m\x00_\x000\x00@\x001\x0c\x00_\x00_\x00i\x00d\x00b\x00_\x00t\x00e\x00s\x00t\x00_\x00_' @ 153 : 0
+2020/07/01-07:51:16.425 2eb0 Compacting 1@1 + 1@2 files
+2020/07/01-07:51:16.439 2eb0 Generated table #25@1: 28 keys, 699345 bytes
+2020/07/01-07:51:16.439 2eb0 Compacted 1@1 + 1@2 files => 699345 bytes
+2020/07/01-07:51:16.441 2eb0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/01-07:51:16.441 2eb0 Delete type=2 #18
+2020/07/01-07:51:16.441 2eb0 Delete type=2 #24
+2020/07/01-07:51:16.441 2eb0 Manual compaction at level-1 from '\x00\x00\x00\x00\xc9\x15\x00h\x00t\x00t\x00p\x00_\x00f\x00o\x00n\x00t\x00e\x00l\x00l\x00o\x00.\x00c\x00o\x00m\x00_\x000\x00@\x001\x0c\x00_\x00_\x00i\x00d\x00b\x00_\x00t\x00e\x00s\x00t\x00_\x00_' @ 153 : 0 .. (end); will stop at (end)

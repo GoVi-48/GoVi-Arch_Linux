@@ -3,7 +3,6 @@ update_info=kwin.upd:replace-scalein-with-scale,kwin.upd:port-minimizeanimation-
 
 [Compositing]
 Backend=OpenGL
-Enabled=true
 GLCore=true
 GLPreferBufferSwap=a
 GLTextureFilter=2
@@ -83,17 +82,22 @@ CommandWindowWheel=Scroll
 [Plugins]
 cubeEnabled=true
 cubeslideEnabled=true
+desktopchangeosdEnabled=false
 glideEnabled=true
 highlightwindowEnabled=true
+kwin-script-tilingEnabled=false
 kwin4_effect_fadedesktopEnabled=false
 kwin4_effect_scaleEnabled=true
 kwin4_effect_squashEnabled=false
 kwin4_effect_translucencyEnabled=false
 magiclampEnabled=true
 magnifierEnabled=true
+minimizeallEnabled=false
 slideEnabled=false
 slidebackEnabled=true
+synchronizeskipswitcherEnabled=false
 touchpointsEnabled=true
+videowallEnabled=false
 windowgeometryEnabled=false
 zoomEnabled=false
 

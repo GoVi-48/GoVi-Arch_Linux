@@ -1,0 +1,15 @@
+2020/07/01-04:42:32.824 24564 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/01-04:42:32.824 24564 Recovering log #4
+2020/07/01-04:42:32.824 24564 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_fontawesome.com_0.indexeddb.leveldb/000004.log 
+2020/07/01-04:43:53.219 2eb0 Level-0 table #8: started
+2020/07/01-04:43:53.225 2eb0 Level-0 table #8: 2007 bytes OK
+2020/07/01-04:43:53.227 2eb0 Delete type=0 #4
+2020/07/01-04:43:53.227 2eb0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/01-04:43:53.227 2eb0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x05\x00s\x00t\x00a\x00t\x00e' @ 272 : 1
+2020/07/01-04:43:53.227 2eb0 Compacting 1@1 + 1@2 files
+2020/07/01-04:43:53.232 2eb0 Generated table #9@1: 53 keys, 1180 bytes
+2020/07/01-04:43:53.232 2eb0 Compacted 1@1 + 1@2 files => 1180 bytes
+2020/07/01-04:43:53.234 2eb0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/01-04:43:53.234 2eb0 Delete type=2 #5
+2020/07/01-04:43:53.234 2eb0 Delete type=2 #8
+2020/07/01-04:43:53.235 2eb0 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x05\x00s\x00t\x00a\x00t\x00e' @ 272 : 1 .. (end); will stop at (end)

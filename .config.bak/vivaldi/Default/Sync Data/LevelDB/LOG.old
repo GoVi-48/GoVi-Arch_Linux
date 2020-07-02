@@ -1,69 +1,18 @@
-2020/07/01-08:13:04.073 23dc Reusing MANIFEST /home/govi/.config/vivaldi/Default/Sync Data/LevelDB/MANIFEST-000001
-2020/07/01-08:13:04.073 23dc Recovering log #1049
-2020/07/01-08:13:04.076 23dc Reusing old log /home/govi/.config/vivaldi/Default/Sync Data/LevelDB/001049.log 
-2020/07/01-10:07:56.528 2403 Level-0 table #1053: started
-2020/07/01-10:07:56.540 2403 Level-0 table #1053: 422824 bytes OK
-2020/07/01-10:07:56.546 2403 Delete type=0 #1049
-2020/07/01-10:27:32.765 2403 Level-0 table #1055: started
-2020/07/01-10:27:32.778 2403 Level-0 table #1055: 500654 bytes OK
-2020/07/01-10:27:32.785 2403 Delete type=0 #1052
-2020/07/01-15:37:32.025 2403 Level-0 table #1057: started
-2020/07/01-15:37:32.030 2403 Level-0 table #1057: 449372 bytes OK
-2020/07/01-15:37:32.032 2403 Delete type=0 #1054
-2020/07/01-15:37:32.032 2403 Compacting 4@0 + 1@1 files
-2020/07/01-15:37:32.035 2403 Generated table #1058@0: 145 keys, 119872 bytes
-2020/07/01-15:37:32.035 2403 Compacted 4@0 + 1@1 files => 119872 bytes
-2020/07/01-15:37:32.037 2403 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/07/01-15:37:32.037 2403 Delete type=2 #1053
-2020/07/01-15:37:32.037 2403 Delete type=2 #1050
-2020/07/01-15:37:32.037 2403 Delete type=2 #1048
-2020/07/01-15:37:32.037 2403 Delete type=2 #1055
-2020/07/01-15:37:32.037 2403 Delete type=2 #1057
-2020/07/01-16:34:31.299 2403 Level-0 table #1060: started
-2020/07/01-16:34:31.303 2403 Level-0 table #1060: 478907 bytes OK
-2020/07/01-16:34:31.305 2403 Delete type=0 #1056
-2020/07/01-18:13:33.543 2403 Level-0 table #1062: started
-2020/07/01-18:13:33.551 2403 Level-0 table #1062: 376597 bytes OK
-2020/07/01-18:13:33.561 2403 Delete type=0 #1059
-2020/07/01-20:00:37.462 2403 Level-0 table #1064: started
-2020/07/01-20:00:37.468 2403 Level-0 table #1064: 269769 bytes OK
-2020/07/01-20:00:37.473 2403 Delete type=0 #1061
-2020/07/01-22:20:51.930 2403 Level-0 table #1066: started
-2020/07/01-22:20:51.935 2403 Level-0 table #1066: 345512 bytes OK
-2020/07/01-22:20:51.937 2403 Delete type=0 #1063
-2020/07/01-22:20:51.938 2403 Compacting 4@0 + 1@1 files
-2020/07/01-22:20:51.941 2403 Generated table #1067@0: 145 keys, 85265 bytes
-2020/07/01-22:20:51.941 2403 Compacted 4@0 + 1@1 files => 85265 bytes
-2020/07/01-22:20:51.943 2403 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/07/01-22:20:51.943 2403 Delete type=2 #1064
-2020/07/01-22:20:51.943 2403 Delete type=2 #1066
-2020/07/01-22:20:51.943 2403 Delete type=2 #1060
-2020/07/01-22:20:51.943 2403 Delete type=2 #1062
-2020/07/01-22:20:51.943 2403 Delete type=2 #1058
-2020/07/01-23:39:22.921 2403 Level-0 table #1069: started
-2020/07/01-23:39:22.930 2403 Level-0 table #1069: 295277 bytes OK
-2020/07/01-23:39:22.932 2403 Delete type=0 #1065
-2020/07/02-01:04:34.080 2403 Level-0 table #1071: started
-2020/07/02-01:04:34.085 2403 Level-0 table #1071: 356623 bytes OK
-2020/07/02-01:04:34.087 2403 Delete type=0 #1068
-2020/07/02-04:40:39.834 2403 Level-0 table #1073: started
-2020/07/02-04:40:39.874 2403 Level-0 table #1073: 293061 bytes OK
-2020/07/02-04:40:39.876 2403 Delete type=0 #1070
-2020/07/02-04:41:10.436 2403 Level-0 table #1075: started
-2020/07/02-04:41:10.443 2403 Level-0 table #1075: 419613 bytes OK
-2020/07/02-04:41:10.444 2403 Delete type=0 #1072
-2020/07/02-04:41:10.445 2403 Compacting 4@0 + 1@1 files
-2020/07/02-04:41:10.447 2403 Generated table #1076@0: 145 keys, 26880 bytes
-2020/07/02-04:41:10.447 2403 Compacted 4@0 + 1@1 files => 26880 bytes
-2020/07/02-04:41:10.449 2403 compacted to: files[ 0 1 1 0 0 0 0 ]
-2020/07/02-04:41:10.449 2403 Delete type=2 #1071
-2020/07/02-04:41:10.449 2403 Delete type=2 #1073
-2020/07/02-04:41:10.449 2403 Delete type=2 #1075
-2020/07/02-04:41:10.449 2403 Delete type=2 #1069
-2020/07/02-04:41:10.449 2403 Delete type=2 #1067
-2020/07/02-04:42:16.857 2403 Level-0 table #1078: started
-2020/07/02-04:42:16.891 2403 Level-0 table #1078: 421099 bytes OK
-2020/07/02-04:42:16.899 2403 Delete type=0 #1074
-2020/07/02-04:43:04.829 2403 Level-0 table #1080: started
-2020/07/02-04:43:04.855 2403 Level-0 table #1080: 420379 bytes OK
-2020/07/02-04:43:04.856 2403 Delete type=0 #1077
+2020/07/02-06:04:08.382 39d6 Reusing MANIFEST /home/govi/.config/vivaldi/Default/Sync Data/LevelDB/MANIFEST-000001
+2020/07/02-06:04:08.382 39d6 Recovering log #1079
+2020/07/02-06:04:08.382 39d6 Reusing old log /home/govi/.config/vivaldi/Default/Sync Data/LevelDB/001079.log 
+2020/07/02-06:04:28.587 3c1c Level-0 table #1083: started
+2020/07/02-06:04:28.593 3c1c Level-0 table #1083: 405175 bytes OK
+2020/07/02-06:04:28.595 3c1c Delete type=0 #1079
+2020/07/02-12:23:56.084 3c1c Level-0 table #1085: started
+2020/07/02-12:23:56.088 3c1c Level-0 table #1085: 318316 bytes OK
+2020/07/02-12:23:56.090 3c1c Delete type=0 #1082
+2020/07/02-12:23:56.090 3c1c Compacting 4@0 + 1@1 files
+2020/07/02-12:23:56.096 3c1c Generated table #1086@0: 153 keys, 25561 bytes
+2020/07/02-12:23:56.096 3c1c Compacted 4@0 + 1@1 files => 25561 bytes
+2020/07/02-12:23:56.098 3c1c compacted to: files[ 0 1 1 0 0 0 0 ]
+2020/07/02-12:23:56.098 3c1c Delete type=2 #1078
+2020/07/02-12:23:56.098 3c1c Delete type=2 #1080
+2020/07/02-12:23:56.098 3c1c Delete type=2 #1085
+2020/07/02-12:23:56.098 3c1c Delete type=2 #1083
+2020/07/02-12:23:56.098 3c1c Delete type=2 #1076

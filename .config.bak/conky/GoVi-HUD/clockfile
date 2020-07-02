@@ -93,16 +93,16 @@ ${voffset 0}
 ${font Liquid Crystal:size=25}${color FF0000}${goto 228}${time %H}${goto 263}${blink :}${goto 272}${time %M}${color}
 ${font Liquid Crystal:size=15}
 ${image img/unnamed.png -p 209,41 -s 110x110}
-${image img/m.png -p 10,50 -s 19x19}#
-${image img/i.png -p 29,50 -s 19x19}#
+${image img/j.png -p 10,50 -s 19x19}#
+${image img/u.png -p 29,50 -s 19x19}#
 ${image img/e.png -p 48,50 -s 19x19}#
-${image img/r.png -p 67,50 -s 19x19}#
-${image img/c.png -p 86,50 -s 19x19}#
-${image img/o.png -p 105,50 -s 19x19}#
-${image img/l.png -p 124,50 -s 19x19}#
-${image img/e.png -p 143,50 -s 19x19}#
+${image img/v.png -p 67,50 -s 19x19}#
+${image img/e.png -p 86,50 -s 19x19}#
+${image img/s.png -p 105,50 -s 19x19}#
+${image img/empty.png -p 124,50 -s 19x19}#
+${image img/empty.png -p 143,50 -s 19x19}#
 ${image img/0.png -p 25,75 -s 60x60}#
-${image img/1.png -p 85,75 -s 60x60}#
+${image img/2.png -p 85,75 -s 60x60}#
 ${image img/j.png -p 10,140 -s 15x15}#
 ${image img/u.png -p 25,140 -s 15x15}#
 ${image img/l.png -p 40,140 -s 15x15}#

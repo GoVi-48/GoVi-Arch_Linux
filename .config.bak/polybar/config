@@ -39,40 +39,26 @@ enable-ipc = true
 monitor-exact = true
 locale = es_ES.UTF8
 bottom = true
+override-redirect = false
 
 background = ${colors.background}
 foreground = ${colors.foreground}
-
 line-size = 3
 line-color = #f00
-
 border-size = 0
 border-color = #00000000
-
 padding-left = 0
 padding-right = 0
-
 module-margin-left = 1
 module-margin-right = 2
 
 font-0 = JetBrains Mono:style=Regular:pixelsize=10;
 font-1 = Hack:style=Regular:pixelsize=10;
 font-2 = Noto Color Emoji:style=Regular:fontformat=truetype:scale=10:antialias=false;
-
-tray-position = right
-tray-padding = 2
-tray-detached = false
-tray-maxsize = 16
-tray-background = ${root.background}
-tray-offset-x = 0
-tray-offset-y = 0
-tray-scale = 1.0
-tray-max-icons = 6
+font-3 = Material Icons:fontformat=truetype:scale=10:antialias=false;
 
 ;wm-restack = bspwm
 ;wm-restack = i3
-
-override-redirect = false
 
 ;scroll-up = bspwm-desknext
 ;scroll-down = bspwm-deskprev
@@ -83,9 +69,15 @@ override-redirect = false
 cursor-click = pointer
 cursor-scroll = ns-resize
 
-modules-left = powermenu
+tray-position = right
+tray-padding = 1
+tray-offset-x = 0
+tray-offset-y = 0
+tray-scale = 1.0
+
+modules-left = powermenu filesystem-root filesystem-home
 modules-center = 
-modules-right = filesystem memory cpu-load cpu-temperature gpu-temperature mb-temperature pulseaudio date
+modules-right = memory cpu-load cpu-temperature gpu-temperature mb-temperature pulseaudio date
 
 [module/xwindow]
 type = internal/xwindow
@@ -209,31 +201,32 @@ inherit = module/xbacklight
 type = internal/backlight
 card = intel_backlight
 
-[module/filesystem]
-type = internal/fs
+[module/filesystem-root]
+type = custom/script
+format-prefix = "🗄 /: "
+exec = df -h / --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
+click-left = dolphin /
 interval = 25
 
-mount-0 = /
-mount-1 = /home
-
-label-mounted = %{F#0a81f5}%mountpoint%%{F-}: %free%
-label-unmounted = %mountpoint% not mounted
-label-unmounted-foreground = ${colors.foreground-alt}
+[module/filesystem-home]
+type = custom/script
+format-prefix = "🗄 /home: "
+exec = df -h /home --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
+click-left = dolphin ~/
+interval = 25
 
 [module/memory]
 type = internal/memory
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-format-underline = #27ae60
-label = RAM %gb_used%
+label = 📊 %gb_used%
 
 [module/cpu-load]
 type = internal/cpu
 interval = 1
 format = <label> <ramp-load>
-label = CPU %percentage%%
-format-underline = #0064a7
+label =  %percentage%%
 
 ramp-coreload-spacing = 1
 ramp-load-0 = ▁
@@ -246,64 +239,22 @@ ramp-load-6 = ▇
 ramp-load-7 = █
 
 [module/cpu-temperature]
-type = internal/temperature
-thermal-zone = 0
-warn-temperature = 80
-hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon1/temp1_input
-
-format = <ramp> <label>
-format-underline = #0064a7
-format-warn = <ramp> <label-warn>
-format-warn-underline = ${self.format-underline}
-
-label = %temperature-c%
-label-warn = %temperature-c%
-label-warn-foreground = ${colors.secondary}
-
-ramp-0 = 🌡
-ramp-1 = 🌡
-ramp-2 = 🔥
-ramp-foreground = ${colors.foreground-alt}
+type = custom/script
+exec = ~/.config/polybar/scripts/cpu_temp.sh
+click-left = alacritty -e htop
+interval = 1.5
 
 [module/gpu-temperature]
-type = internal/temperature
-thermal-zone = 0
-warn-temperature = 80
-hwmon-path = /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/hwmon/hwmon2/temp1_input
-
-format = <ramp> <label>
-format-underline = #f50a4d
-format-warn = <ramp> <label-warn>
-format-warn-underline = ${self.format-underline}
-
-label = %temperature-c%
-label-warn = %temperature-c%
-label-warn-foreground = ${colors.secondary}
-
-ramp-0 = 🌡
-ramp-1 = 🌡
-ramp-2 = 🔥
-ramp-foreground = ${colors.foreground-alt}
+type = custom/script
+exec = ~/.config/polybar/scripts/gpu_temp.sh
+click-left = alacritty -e htop
+interval = 1.5
 
 [module/mb-temperature]
-type = internal/temperature
-thermal-zone = 0
-warn-temperature = 60
-hwmon-path = /sys/devices/platform/it87.2608/hwmon/hwmon3/temp1_input
-
-format = <ramp> <label>
-format-underline = #f50a4d
-format-warn = <ramp> <label-warn>
-format-warn-underline = ${self.format-underline}
-
-label = %temperature-c%
-label-warn = %temperature-c%
-label-warn-foreground = ${colors.secondary}
-
-ramp-0 = 🌡
-ramp-1 = 🌡
-ramp-2 = 🔥
-ramp-foreground = ${colors.foreground-alt}
+type = custom/script
+exec = ~/.config/polybar/scripts/mb_temp.sh
+click-left = alacritty -e htop
+interval = 1.5
 
 [module/wlan]
 type = internal/network
@@ -345,38 +296,16 @@ format-disconnected =
 
 [module/pulseaudio]
 type = internal/pulseaudio
-
 format-volume = <ramp-volume> <label-volume>
+
 label-volume = %percentage%%
 label-volume-foreground = ${root.foreground}
-
-label-muted = 🔇 muted
+label-muted = 🔇 Muted
 label-muted-foreground = #777
 
-ramp-volume-0 = 🔈
-ramp-volume-1 = 🔈
-ramp-volume-2 = 🔉
-ramp-volume-3 = 🔉
-ramp-volume-4 = 🔊
-ramp-volume-5 = 🔊
-ramp-volume-6 = 🔊
-
-bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
-bar-volume-gradient = false
-bar-volume-indicator = |
-bar-volume-indicator-font = 2
-bar-volume-fill = ─
-bar-volume-fill-font = 2
-bar-volume-empty = ─
-bar-volume-empty-font = 2
-bar-volume-empty-foreground = ${colors.foreground-alt}
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
 
 [module/alsa]
 type = internal/alsa
@@ -412,8 +341,7 @@ interval = 5
 
 date ="	📅 %a %d/%m/%Y "
 date-alt = 
-
-time = 🕓 %H:%M
+time = "🕓 %H:%M "
 time-alt = %H:%M:%S
 
 format-prefix-foreground = ${colors.foreground-alt}
@@ -456,29 +384,27 @@ animation-discharging-framerate = 750
 
 [module/powermenu]
 type = custom/menu
-
 expand-right = true
-
 format-spacing = 1
 
-label-open = 
+label-open = " ⏻ "
 label-open-foreground = ${colors.secondary}
-label-close =  cancel
+label-close =  Cancel
 label-close-foreground = ${colors.secondary}
 label-separator = |
 label-separator-foreground = ${colors.foreground-alt}
 
-menu-0-0 = reboot
+menu-0-0 = Reboot
 menu-0-0-exec = menu-open-1
 menu-0-1 = power off
 menu-0-1-exec = menu-open-2
 
-menu-1-0 = cancel
+menu-1-0 = Cancel
 menu-1-0-exec = menu-open-0
-menu-1-1 = reboot
+menu-1-1 = Reboot
 menu-1-1-exec = sudo reboot
 
-menu-2-0 = power off
+menu-2-0 = Power Off
 menu-2-0-exec = sudo poweroff
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0

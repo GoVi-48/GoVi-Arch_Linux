@@ -544,7 +544,7 @@
        x="0"
        y="0"
        w="474"
-       h="502"
+       h="487"
        visible="1"
        state="2"
        placement="5" />
@@ -559,7 +559,7 @@
        x="0"
        y="0"
        w="474"
-       h="502"
+       h="487"
        visible="1"
        state="2"
        placement="5" />
@@ -570,7 +570,7 @@
        x="0"
        y="0"
        w="474"
-       h="502"
+       h="487"
        visible="1"
        state="2"
        placement="5" />
@@ -609,7 +609,7 @@
        x="0"
        y="0"
        w="474"
-       h="256"
+       h="333"
        visible="1"
        state="2"
        placement="2" />
@@ -621,7 +621,7 @@
        x="0"
        y="0"
        w="474"
-       h="502"
+       h="487"
        visible="1"
        state="2"
        placement="5">
@@ -983,11 +983,11 @@
     <group
        id="rendering" />
     <group
-       value="2"
-       id="defaultwindowsize" />
+       id="defaultwindowsize"
+       value="2" />
     <group
-       unitType="2"
-       id="font" />
+       id="font"
+       unitType="2" />
   </group>
   <group
      id="extensions"
@@ -1124,23 +1124,23 @@
      id="ui"
      language="" />
   <group
-     symbolicDefaultColors="1"
-     symbolicIcons="1"
-     darkTheme="1"
-     preferDarkTheme="1"
-     menuIcons_objects="0"
-     menuIcons_layers="0"
-     menuIcons_canvas="0"
-     iconTheme="breeze"
-     gtkTheme="Breeze"
-     defaultIconTheme="GoVi-Ic"
+     id="theme"
      defaultTheme="Breeze"
-     id="theme">
+     defaultIconTheme="GoVi-Ic"
+     gtkTheme="Breeze"
+     iconTheme="breeze"
+     menuIcons_canvas="0"
+     menuIcons_layers="0"
+     menuIcons_objects="0"
+     preferDarkTheme="1"
+     darkTheme="1"
+     symbolicIcons="1"
+     symbolicDefaultColors="1">
     <group
-       symbolicErrorColor="3661911039"
-       symbolicWarningColor="4134797567"
-       symbolicSuccessColor="665739519"
+       id="breeze"
        symbolicBaseColor="4025545215"
-       id="breeze" />
+       symbolicSuccessColor="665739519"
+       symbolicWarningColor="4134797567"
+       symbolicErrorColor="3661911039" />
   </group>
 </inkscape>

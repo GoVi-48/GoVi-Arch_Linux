@@ -1,12 +1,12 @@
 Bookmarks=
-Checksum=762ab926f03598834e7e3f5612f8cb10503a175b
+Checksum=12dfba2d8550563820b30cb117434b27640f75c2
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
-Mode=INI Files
+Mode=Bash
 Mode Set By User=false
-Time=2020,6,29,20,45,20
+Time=2020,7,2,1,55,54
 URL=
 
 [file:///Datos/GoVi/Documentos/Foros/HDcity.txt]
@@ -779,14 +779,14 @@ URL=file:///home/govi/.bash_profile
 
 [file:///home/govi/.bashrc]
 Bookmarks=
-Checksum=941ff65befb44a1fff51378fe35e170b0fb86d10
+Checksum=566cc6c2d27e3b42d23176c079955a5ae10b9633
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,6,28,3,2,58
+Time=2020,7,1,20,45,19
 URL=file:///home/govi/.bashrc
 
 [file:///home/govi/.config/MangoHud/MangoHud.conf.example]
@@ -957,6 +957,18 @@ Mode Set By User=false
 Time=2020,6,20,1,37,17
 URL=file:///home/govi/.config/conky/GoVi-HUD/processes
 
+[file:///home/govi/.config/conky/GoVi-HUD/startall.sh]
+Bookmarks=
+Checksum=777dbb83222f4d05db0f9fca88adb0feb5c68090
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,7,1,14,59,30
+URL=file:///home/govi/.config/conky/GoVi-HUD/startall.sh
+
 [file:///home/govi/.config/conky/GoVi-HUD/temps]
 Bookmarks=
 Checksum=1442d5366747b1e51abfe2fc531773c9fe0bf911
@@ -1043,15 +1055,27 @@ URL=file:///home/govi/.config/polybar/config
 
 [file:///home/govi/.config/polybar/launch.sh]
 Bookmarks=
-Checksum=d90ca2c8217957053ed55f22351770e7a0a80ed8
+Checksum=5b998c5d68c63d48ae42f6ccf75cb3c076efb89e
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,7,1,6,2,52
+Time=2020,7,1,18,29,3
 URL=file:///home/govi/.config/polybar/launch.sh
+
+[file:///home/govi/.config/polybar/scripts/gpu_temp.sh]
+Bookmarks=
+Checksum=b5509aafc37b212c5f498b07a68b9f60d4264853
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,7,2,2,4,46
+URL=file:///home/govi/.config/polybar/scripts/gpu_temp.sh
 
 [file:///home/govi/.config/polybar/scripts/launchpolybar]
 Bookmarks=
@@ -1062,8 +1086,32 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,6,30,22,36,29
+Time=2020,7,2,1,55,50
 URL=file:///home/govi/.config/polybar/scripts/launchpolybar
+
+[file:///home/govi/.config/polybar/scripts/mb_temp.sh]
+Bookmarks=
+Checksum=4efacba73a5158cd7161ef411622679f071049c4
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,7,2,2,3,48
+URL=file:///home/govi/.config/polybar/scripts/mb_temp.sh
+
+[file:///home/govi/.config/polybar/scripts/mbtemp.sh]
+Bookmarks=
+Checksum=bd267af223a54934bcf5b73361ccb97104792fab
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,7,2,1,54,41
+URL=file:///home/govi/.config/polybar/scripts/mbtemp.sh
 
 [file:///home/govi/.config/polybar/scripts/menu]
 Bookmarks=
@@ -1100,6 +1148,30 @@ Mode=Bash
 Mode Set By User=false
 Time=2020,7,1,6,2,29
 URL=file:///home/govi/.config/polybar/scripts/polycputemp
+
+[file:///home/govi/.config/polybar/scripts/polypulsevolume]
+Bookmarks=
+Checksum=9c503a34259bc5cc4f822fac999722d6a43e56fe
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,7,2,1,57,24
+URL=file:///home/govi/.config/polybar/scripts/polypulsevolume
+
+[file:///home/govi/.config/polybar/scripts/reloadpolybar]
+Bookmarks=
+Checksum=71a72d26329d6c8169d2616c7acc88091d86c3f0
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,7,2,1,57,0
+URL=file:///home/govi/.config/polybar/scripts/reloadpolybar
 
 [file:///home/govi/.config/terminator/config]
 Bookmarks=
@@ -1713,6 +1785,18 @@ Mode Set By User=false
 Time=2020,6,13,23,58,55
 URL=file:///home/govi/Escritorio/dxvk-1.7/setup_dxvk.sh
 
+[file:///home/govi/Escritorio/gputemperature.sh]
+Bookmarks=
+Checksum=bd267af223a54934bcf5b73361ccb97104792fab
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,7,2,1,53,29
+URL=file:///home/govi/Escritorio/gputemperature.sh
+
 [file:///home/govi/Escritorio/marcadores_10_6_20.html]
 Bookmarks=
 Checksum=db82a9c9f44f02842c2d82e747958ed6cd6dc613
@@ -1772,6 +1856,18 @@ Mode=INI Files
 Mode Set By User=false
 Time=2020,6,30,21,33,37
 URL=file:///home/govi/Escritorio/polybar-3/user_modules.ini
+
+[file:///home/govi/Escritorio/polycpu.txt]
+Bookmarks=
+Checksum=306fb69a99b35e1b52a2c3a5e914225eb09ce1b6
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,7,1,22,28,14
+URL=file:///home/govi/Escritorio/polycpu.txt
 
 [file:///home/govi/Escritorio/vivaldi]
 Bookmarks=
@@ -2589,18 +2685,6 @@ Mode Set By User=false
 Time=2020,6,8,2,17,26
 URL=file:///home/govi/Scripts/Bash/imwheel.sh
 
-[file:///home/govi/Scripts/Logs/Cron/crontab.log]
-Bookmarks=
-Checksum=b50f4665bce205420a686689def86532ad81a78a
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,6,30,22,5,5
-URL=file:///home/govi/Scripts/Logs/Cron/crontab.log
-
 [file:///home/govi/Wine/wine-pfx_5.10/user.reg]
 Bookmarks=
 Checksum=f944ced3be666947982ee9705e8d18d80b32c7bb
@@ -2748,6 +2832,14 @@ URL=file:///run/media/govi/Media/[SaveData]/Linux/Theme Onboard/rute
 [file:///tmp/Alacritty-800699.log]
 Checksum=b384fee219643d5b57a7e324666fc827dc88718f
 Time=2020,6,27,12,55,40
+
+[file:///tmp/kate.GtkfTq]
+Checksum=4faf276f34b67c6ff2feb85de97e6fc1a32a8440
+Time=2020,7,1,22,5,35
+
+[file:///tmp/kate.XgmUak]
+Checksum=f5b7fec1c7989b6a38ff75d0a5c5c303aad58c14
+Time=2020,7,1,22,57,53
 
 [file:///usr/bin/lutris]
 Bookmarks=

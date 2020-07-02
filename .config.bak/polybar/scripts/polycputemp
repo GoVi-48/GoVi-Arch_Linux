@@ -1,7 +1,0 @@
-#!/usr/bin/env bash
-# Simple script to show the cpu temp formatted to be shown in polybar
-
-temp=$(sensors coretemp-isa-0000 | grep 'Package id 0'
-
-echo "$temp"°C
-

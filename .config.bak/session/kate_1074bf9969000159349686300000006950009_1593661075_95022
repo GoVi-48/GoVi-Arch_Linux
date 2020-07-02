@@ -1,8 +1,8 @@
 [1]
 Active ViewSpace=0
-Height 1080=966
+Height 1080=929
 Kate-MDI-H-Splitter=0,1107,200
-Kate-MDI-Sidebar-0-Splitter=898,0
+Kate-MDI-Sidebar-0-Splitter=861,0
 Kate-MDI-Sidebar-1-Splitter=
 Kate-MDI-Sidebar-2-Splitter=
 Kate-MDI-Sidebar-3-Splitter=0,0,0
@@ -28,8 +28,8 @@ Kate-MDI-ToolView-kateprojectinfo-Persistent=false
 Kate-MDI-ToolView-kateprojectinfo-Position=3
 Kate-MDI-ToolView-kateprojectinfo-Sidebar-Position=1
 Kate-MDI-ToolView-kateprojectinfo-Visible=false
-Kate-MDI-V-Splitter=150,868,240
-State=AAAA/wAAAAD9AAAAAAAABHIAAAOCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Kate-MDI-V-Splitter=150,831,240
+State=AAAA/wAAAAD9AAAAAAAABHIAAANdAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1138
 
@@ -42,45 +42,18 @@ Orientation=1
 Sizes=1107
 
 [1-ViewSpace 0]
-Active View=file:///home/govi/.config/polybar/config
-Count=4
-Documents=file:///home/govi/.config/fontconfig/fonts.conf,file:///home/govi/.config/polybar/launch.sh,file:///Datos/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch,file:///home/govi/.config/polybar/config
-View 0=file:///home/govi/.config/fontconfig/fonts.conf
-View 1=file:///home/govi/.config/polybar/launch.sh
-View 2=file:///Datos/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
-View 3=file:///home/govi/.config/polybar/config
+Active View=file:///home/govi/.config/autostart/polybar.desktop
+Count=1
+Documents=file:///home/govi/.config/fontconfig/fonts.conf,file:///home/govi/.config/polybar/scripts/cpu_temp.sh,file:///home/govi/.config/polybar/config,file:///home/govi/.config/polybar/scripts/gpu_temp.sh,file:///home/govi/.config/polybar/scripts/mb_temp.sh,file:///home/govi/.config/polybar/launch.sh,file:///home/govi/.config/autostart/polybar.desktop
+View 0=file:///home/govi/.config/autostart/polybar.desktop
 
-[1-ViewSpace 0 file:///Datos/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch]
-CursorColumn=0
-CursorLine=0
+[1-ViewSpace 0 file:///home/govi/.config/autostart/polybar.desktop]
+CursorColumn=27
+CursorLine=2
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=
-
-[1-ViewSpace 0 file:///home/govi/.config/fontconfig/fonts.conf]
-CursorColumn=0
-CursorLine=0
-Dynamic Word Wrap=false
-JumpList=
-TextFolding=[]
-ViMarks=
-
-[1-ViewSpace 0 file:///home/govi/.config/polybar/config]
-CursorColumn=26
-CursorLine=254
-Dynamic Word Wrap=false
-JumpList=
-TextFolding=[{"endColumn":0,"endLine":92,"flags":2,"startColumn":0,"startLine":89},{"endColumn":0,"endLine":108,"flags":2,"startColumn":0,"startLine":93},{"endColumn":0,"endLine":130,"flags":2,"startColumn":0,"startLine":109},{"endColumn":0,"endLine":175,"flags":2,"startColumn":0,"startLine":131},{"endColumn":0,"endLine":188,"flags":2,"startColumn":0,"startLine":176},{"endColumn":0,"endLine":205,"flags":2,"startColumn":0,"startLine":189},{"endColumn":0,"endLine":210,"flags":2,"startColumn":0,"startLine":206},{"endColumn":0,"endLine":328,"flags":2,"startColumn":0,"startLine":307},{"endColumn":0,"endLine":344,"flags":2,"startColumn":0,"startLine":329},{"endColumn":0,"endLine":407,"flags":2,"startColumn":0,"startLine":380},{"endColumn":0,"endLine":455,"flags":2,"startColumn":0,"startLine":423}]
-ViMarks=.,254,19,[,254,19,],254,25
-
-[1-ViewSpace 0 file:///home/govi/.config/polybar/launch.sh]
-CursorColumn=0
-CursorLine=0
-Dynamic Word Wrap=false
-JumpList=
-TextFolding=[]
-ViMarks=
+ViMarks=.,2,27,[,2,27,],2,27
 
 [Document 0]
 Bookmarks=
@@ -95,12 +68,12 @@ URL=file:///home/govi/.config/polybar/config
 [Document 1]
 Bookmarks=
 Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=true
-Indentation Mode=normal
-Mode=Markdown
+Highlighting=XML
+Highlighting Set By User=false
+Indentation Mode=xml
+Mode=XML
 Mode Set By User=false
-URL=file:///Datos/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
+URL=file:///home/govi/.config/fontconfig/fonts.conf
 
 [Document 2]
 Bookmarks=
@@ -110,17 +83,47 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-URL=file:///home/govi/.config/polybar/launch.sh
+URL=file:///home/govi/.config/polybar/scripts/cpu_temp.sh
 
 [Document 3]
 Bookmarks=
 Encoding=UTF-8
-Highlighting=XML
+Highlighting=Bash
 Highlighting Set By User=false
-Indentation Mode=xml
-Mode=XML
+Indentation Mode=normal
+Mode=Bash
 Mode Set By User=false
-URL=file:///home/govi/.config/fontconfig/fonts.conf
+URL=file:///home/govi/.config/polybar/scripts/gpu_temp.sh
+
+[Document 4]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+URL=file:///home/govi/.config/polybar/scripts/mb_temp.sh
+
+[Document 5]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+URL=file:///home/govi/.config/polybar/launch.sh
+
+[Document 6]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=.desktop
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=.desktop
+Mode Set By User=false
+URL=file:///home/govi/.config/autostart/polybar.desktop
 
 [General]
 Last Session=
@@ -154,7 +157,7 @@ textfilterplugin=false
 NumberOfWindows=1
 
 [Open Documents]
-Count=4
+Count=7
 
 [Plugin:katesearchplugin:MainWindow:0]
 BinaryFiles=false
@@ -175,32 +178,26 @@ SearchDiskFiless=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/Escritorio/config.ini
-File10[$e]=$HOME/.config/polybar/config
-File2[$e]=$HOME/.config/conky/GoVi-HUD/01.py
-File3[$e]=$HOME/.config/conky/GoVi-HUD/02.py
-File4[$e]=$HOME/.config/conky/GoVi-HUD/cpu01.py
-File5[$e]=$HOME/.config/polybar/scripts/polycputemp
-File6[$e]=$HOME/.config/fontconfig/fonts.conf
-File7[$e]=$HOME/.config/conky/GoVi-HUD/temps
-File8[$e]=$HOME/.config/conky/GoVi-HUD/cpu
-File9[$e]=$HOME/Escritorio/config.json
-Name1[$e]=config.ini
-Name10[$e]=config
-Name2[$e]=01.py
-Name3[$e]=02.py
-Name4[$e]=cpu01.py
-Name5[$e]=polycputemp
-Name6[$e]=fonts.conf
-Name7[$e]=temps
-Name8[$e]=cpu
-Name9[$e]=config.json
+File1[$e]=$HOME/.config/polybar/config
+File2[$e]=$HOME/.config/polybar/scripts/polypulsevolume
+File3[$e]=$HOME/.config/polybar/scripts/gpu_temp.sh
+File4[$e]=$HOME/.config/polybar/scripts/cpu_temp.sh
+File5[$e]=$HOME/.config/polybar/scripts/mb_temp.sh
+File6[$e]=$HOME/.config/polybar/launch.sh
+File7[$e]=$HOME/.config/autostart/polybar.desktop
+Name1[$e]=config
+Name2[$e]=polypulsevolume
+Name3[$e]=gpu_temp.sh
+Name4[$e]=cpu_temp.sh
+Name5[$e]=mb_temp.sh
+Name6[$e]=launch.sh
+Name7[$e]=polybar.desktop
 
 [WindowProperties1]
 ClassName=KateMainWindow
-Height 1080=966
+Height 1080=929
 ObjectName=MainWindow#1
-State=AAAA/wAAAAD9AAAAAAAABHIAAAOCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABHIAAANdAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1138
 

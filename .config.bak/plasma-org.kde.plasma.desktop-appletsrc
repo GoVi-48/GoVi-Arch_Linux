@@ -122,7 +122,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][89][Configuration]
-PreloadWeight=60
+PreloadWeight=75
 SystrayContainmentId=90
 
 [Containments][2][ConfigDialog]
@@ -189,7 +189,7 @@ toolTips=true
 Image=file:///home/govi/Imágenes/Wallpapers/ClarkLittleWaves_SS_08.jpg
 
 [Containments][87][Wallpaper][org.kde.slideshow][General]
-Image=file:///Media/Multimedia/Imágenes/Wallpapers/Desktop/Ocean-Wave-at-Sunset.jpg
+Image=file:///Media/Multimedia/Imágenes/Wallpapers/Desktop/ClarkLittleWaves_SS_08.jpg
 SlideInterval=660
 SlidePaths=/home/govi/Imágenes/Wallpapers/Desktop
 SlideshowMode=1
@@ -240,14 +240,23 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][90][Applets][98][Configuration]
-PreloadWeight=55
+PreloadWeight=65
+
+[Containments][90][Applets][98][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][90][Applets][99]
 immutability=1
 plugin=org.kde.plasma.battery
 
+[Containments][90][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][90][General]
 extraItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard
+hiddenItems=org.kde.plasma.mediacontroller,org.kde.plasma.clipboard
 knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard
 
 [Containments26Appletsts][33][Configuration][General]

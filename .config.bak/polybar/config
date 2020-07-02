@@ -17,10 +17,8 @@
 ;==========================================================
 
 [colors]
-;background = ${xrdb:color0:#222}
 background = #222
 background-alt = #444
-;foreground = ${xrdb:color7:#222}
 foreground = #dfdfdf
 foreground-alt = #555
 primary = #ffb52a
@@ -50,21 +48,19 @@ border-color = #00000000
 padding-left = 0
 padding-right = 0
 module-margin-left = 1
-module-margin-right = 2
+module-margin-right = 1
+
+;wm-restack = bspwm
+;wm-restack = i3
+;scroll-up = bspwm-desknext
+;scroll-down = bspwm-deskprev
+;scroll-up = i3wm-wsnext
+;scroll-down = i3wm-wsprev
 
 font-0 = JetBrains Mono:style=Regular:pixelsize=10;
 font-1 = Hack:style=Regular:pixelsize=10;
 font-2 = Noto Color Emoji:style=Regular:fontformat=truetype:scale=10:antialias=false;
 font-3 = Material Icons:fontformat=truetype:scale=10:antialias=false;
-
-;wm-restack = bspwm
-;wm-restack = i3
-
-;scroll-up = bspwm-desknext
-;scroll-down = bspwm-deskprev
-
-;scroll-up = i3wm-wsnext
-;scroll-down = i3wm-wsprev
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -78,6 +74,218 @@ tray-scale = 1.0
 modules-left = powermenu filesystem-root filesystem-home
 modules-center = 
 modules-right = memory cpu-load cpu-temperature gpu-temperature mb-temperature pulseaudio date
+
+
+# =================================================================================================== #
+                                            # Modules #
+# =================================================================================================== #
+
+[module/powermenu]
+type = custom/menu
+expand-right = true
+format-spacing = 1
+
+label-open = " ⏻ "
+label-open-foreground = ${colors.secondary}
+label-close =  Cancel
+label-close-foreground = ${colors.secondary}
+label-separator = |
+label-separator-foreground = ${colors.foreground-alt}
+
+menu-0-0 = Reboot
+menu-0-0-exec = menu-open-1
+menu-0-1 = power off
+menu-0-1-exec = menu-open-2
+
+menu-1-0 = Cancel
+menu-1-0-exec = menu-open-0
+menu-1-1 = Reboot
+menu-1-1-exec = sudo reboot
+
+menu-2-0 = Power Off
+menu-2-0-exec = sudo poweroff
+menu-2-1 = cancel
+menu-2-1-exec = menu-open-0
+
+[module/filesystem-root]
+type = custom/script
+format-prefix = "🗄 /: "
+exec = df -h / --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
+click-left = dolphin /
+interval = 25
+
+[module/filesystem-home]
+type = custom/script
+format-prefix = "🗄 /home: "
+exec = df -h /home --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
+click-left = dolphin ~/
+interval = 25
+
+[module/memory]
+type = internal/memory
+interval = 2
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+label = 📊 %gb_used%
+
+[module/cpu-load]
+type = internal/cpu
+interval = 1
+format = <label> <ramp-load>
+label =  %percentage%%
+
+ramp-coreload-spacing = 1
+ramp-load-0 = ▁
+ramp-load-1 = ▂
+ramp-load-2 = ▃
+ramp-load-3 = ▄
+ramp-load-4 = ▅
+ramp-load-5 = ▆
+ramp-load-6 = ▇
+ramp-load-7 = █
+
+[module/cpu-temperature]
+type = custom/script
+exec = ~/.config/polybar/scripts/cpu_temp.sh
+click-left = alacritty -e htop
+interval = 1.5
+
+[module/gpu-temperature]
+type = custom/script
+exec = ~/.config/polybar/scripts/gpu_temp.sh
+click-left = alacritty -e htop
+interval = 1.5
+
+[module/mb-temperature]
+type = custom/script
+exec = ~/.config/polybar/scripts/mb_temp.sh
+click-left = alacritty -e htop
+interval = 1.5
+
+[module/pulseaudio]
+type = internal/pulseaudio
+format-volume = <ramp-volume> <label-volume>
+
+label-volume = %percentage%%
+label-volume-foreground = ${root.foreground}
+label-muted = 🔇 Muted
+label-muted-foreground = #777
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
+
+[module/date]
+type = internal/date
+interval = 5
+label = %date% %time%
+date ="	📅 %a %d/%m/%Y "
+date-alt = 
+time = "🕓 %H:%M "
+time-alt = %H:%M:%S
+
+
+# =================================================================================================== #
+
+
+[module/wlan]
+type = internal/network
+interface = net1
+interval = 3.0
+
+format-connected = <ramp-signal> <label-connected>
+format-connected-underline = #9f78e1
+label-connected = %essid%
+
+format-disconnected =
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+ramp-signal-0 = 
+ramp-signal-1 = 
+ramp-signal-2 = 
+ramp-signal-3 = 
+ramp-signal-4 = 
+ramp-signal-foreground = ${colors.foreground-alt}
+
+[module/eth]
+type = internal/network
+interface = enp3s0
+interval = 3.0
+
+format-connected-underline = #55aa55
+format-connected-prefix = " "
+format-connected-prefix-foreground = ${colors.foreground-alt}
+label-connected = %local_ip%
+
+format-disconnected =
+;format-disconnected = <label-disconnected>
+;format-disconnected-underline = ${self.format-connected-underline}
+;label-disconnected = %ifname% disconnected
+;label-disconnected-foreground = ${colors.foreground-alt}
+
+[module/alsa]
+type = internal/alsa
+
+format-volume = <label-volume> <bar-volume>
+label-volume = VOL
+label-volume-foreground = ${root.foreground}
+
+format-muted-prefix = " "
+format-muted-foreground = ${colors.foreground-alt}
+label-muted = sound muted
+
+bar-volume-width = 10
+bar-volume-foreground-0 = #55aa55
+bar-volume-foreground-1 = #55aa55
+bar-volume-foreground-2 = #55aa55
+bar-volume-foreground-3 = #55aa55
+bar-volume-foreground-4 = #55aa55
+bar-volume-foreground-5 = #f5a70a
+bar-volume-foreground-6 = #ff5555
+bar-volume-gradient = false
+bar-volume-indicator = |
+bar-volume-indicator-font = 2
+bar-volume-fill = ─
+bar-volume-fill-font = 2
+bar-volume-empty = ─
+bar-volume-empty-font = 2
+bar-volume-empty-foreground = ${colors.foreground-alt}
+
+[module/battery]
+type = internal/battery
+battery = BAT0
+adapter = ADP1
+full-at = 98
+
+format-charging = <animation-charging> <label-charging>
+format-charging-underline = #ffb52a
+
+format-discharging = <animation-discharging> <label-discharging>
+format-discharging-underline = ${self.format-charging-underline}
+
+format-full-prefix = " "
+format-full-prefix-foreground = ${colors.foreground-alt}
+format-full-underline = ${self.format-charging-underline}
+
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-foreground = ${colors.foreground-alt}
+
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-foreground = ${colors.foreground-alt}
+animation-charging-framerate = 750
+
+animation-discharging-0 = 
+animation-discharging-1 = 
+animation-discharging-2 = 
+animation-discharging-foreground = ${colors.foreground-alt}
+animation-discharging-framerate = 750
 
 [module/xwindow]
 type = internal/xwindow
@@ -133,7 +341,6 @@ ws-icon-0 = "1;"
 ws-icon-1 = "2;"
 ws-icon-2 = "3;"
 ws-icon-3 = "4;"
-
 
 ; Only show workspaces on the same output as the bar
 pin-workspaces = true
@@ -201,213 +408,6 @@ inherit = module/xbacklight
 type = internal/backlight
 card = intel_backlight
 
-[module/filesystem-root]
-type = custom/script
-format-prefix = "🗄 /: "
-exec = df -h / --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
-click-left = dolphin /
-interval = 25
-
-[module/filesystem-home]
-type = custom/script
-format-prefix = "🗄 /home: "
-exec = df -h /home --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
-click-left = dolphin ~/
-interval = 25
-
-[module/memory]
-type = internal/memory
-interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
-label = 📊 %gb_used%
-
-[module/cpu-load]
-type = internal/cpu
-interval = 1
-format = <label> <ramp-load>
-label =  %percentage%%
-
-ramp-coreload-spacing = 1
-ramp-load-0 = ▁
-ramp-load-1 = ▂
-ramp-load-2 = ▃
-ramp-load-3 = ▄
-ramp-load-4 = ▅
-ramp-load-5 = ▆
-ramp-load-6 = ▇
-ramp-load-7 = █
-
-[module/cpu-temperature]
-type = custom/script
-exec = ~/.config/polybar/scripts/cpu_temp.sh
-click-left = alacritty -e htop
-interval = 1.5
-
-[module/gpu-temperature]
-type = custom/script
-exec = ~/.config/polybar/scripts/gpu_temp.sh
-click-left = alacritty -e htop
-interval = 1.5
-
-[module/mb-temperature]
-type = custom/script
-exec = ~/.config/polybar/scripts/mb_temp.sh
-click-left = alacritty -e htop
-interval = 1.5
-
-[module/wlan]
-type = internal/network
-interface = net1
-interval = 3.0
-
-format-connected = <ramp-signal> <label-connected>
-format-connected-underline = #9f78e1
-label-connected = %essid%
-
-format-disconnected =
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
-
-ramp-signal-0 = 
-ramp-signal-1 = 
-ramp-signal-2 = 
-ramp-signal-3 = 
-ramp-signal-4 = 
-ramp-signal-foreground = ${colors.foreground-alt}
-
-[module/eth]
-type = internal/network
-interface = enp3s0
-interval = 3.0
-
-format-connected-underline = #55aa55
-format-connected-prefix = " "
-format-connected-prefix-foreground = ${colors.foreground-alt}
-label-connected = %local_ip%
-
-format-disconnected =
-;format-disconnected = <label-disconnected>
-;format-disconnected-underline = ${self.format-connected-underline}
-;label-disconnected = %ifname% disconnected
-;label-disconnected-foreground = ${colors.foreground-alt}
-
-[module/pulseaudio]
-type = internal/pulseaudio
-format-volume = <ramp-volume> <label-volume>
-
-label-volume = %percentage%%
-label-volume-foreground = ${root.foreground}
-label-muted = 🔇 Muted
-label-muted-foreground = #777
-
-ramp-volume-0 = 
-ramp-volume-1 = 
-ramp-volume-2 = 
-
-[module/alsa]
-type = internal/alsa
-
-format-volume = <label-volume> <bar-volume>
-label-volume = VOL
-label-volume-foreground = ${root.foreground}
-
-format-muted-prefix = " "
-format-muted-foreground = ${colors.foreground-alt}
-label-muted = sound muted
-
-bar-volume-width = 10
-bar-volume-foreground-0 = #55aa55
-bar-volume-foreground-1 = #55aa55
-bar-volume-foreground-2 = #55aa55
-bar-volume-foreground-3 = #55aa55
-bar-volume-foreground-4 = #55aa55
-bar-volume-foreground-5 = #f5a70a
-bar-volume-foreground-6 = #ff5555
-bar-volume-gradient = false
-bar-volume-indicator = |
-bar-volume-indicator-font = 2
-bar-volume-fill = ─
-bar-volume-fill-font = 2
-bar-volume-empty = ─
-bar-volume-empty-font = 2
-bar-volume-empty-foreground = ${colors.foreground-alt}
-
-[module/date]
-type = internal/date
-interval = 5
-
-date ="	📅 %a %d/%m/%Y "
-date-alt = 
-time = "🕓 %H:%M "
-time-alt = %H:%M:%S
-
-format-prefix-foreground = ${colors.foreground-alt}
-#format-underline = #0a6cf5
-
-label = %date% %time%
-
-[module/battery]
-type = internal/battery
-battery = BAT0
-adapter = ADP1
-full-at = 98
-
-format-charging = <animation-charging> <label-charging>
-format-charging-underline = #ffb52a
-
-format-discharging = <animation-discharging> <label-discharging>
-format-discharging-underline = ${self.format-charging-underline}
-
-format-full-prefix = " "
-format-full-prefix-foreground = ${colors.foreground-alt}
-format-full-underline = ${self.format-charging-underline}
-
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
-ramp-capacity-foreground = ${colors.foreground-alt}
-
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
-animation-charging-foreground = ${colors.foreground-alt}
-animation-charging-framerate = 750
-
-animation-discharging-0 = 
-animation-discharging-1 = 
-animation-discharging-2 = 
-animation-discharging-foreground = ${colors.foreground-alt}
-animation-discharging-framerate = 750
-
-[module/powermenu]
-type = custom/menu
-expand-right = true
-format-spacing = 1
-
-label-open = " ⏻ "
-label-open-foreground = ${colors.secondary}
-label-close =  Cancel
-label-close-foreground = ${colors.secondary}
-label-separator = |
-label-separator-foreground = ${colors.foreground-alt}
-
-menu-0-0 = Reboot
-menu-0-0-exec = menu-open-1
-menu-0-1 = power off
-menu-0-1-exec = menu-open-2
-
-menu-1-0 = Cancel
-menu-1-0-exec = menu-open-0
-menu-1-1 = Reboot
-menu-1-1-exec = sudo reboot
-
-menu-2-0 = Power Off
-menu-2-0-exec = sudo poweroff
-menu-2-1 = cancel
-menu-2-1-exec = menu-open-0
 
 [settings]
 screenchange-reload = true

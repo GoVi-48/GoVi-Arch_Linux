@@ -17,7 +17,7 @@ if [ $temp -ge 20 ];then
 elif [ $temp -ge 50 ];then
     echo 🔥 %{F#fdbc4b}"$temp"°C%{F-}
     
-elif [ $temp -ge 30 ];then
+elif [ $temp -ge 70 ];then
     echo 🔥 %{F#0095ff}"$temp"°C%{F-}
     
 fi

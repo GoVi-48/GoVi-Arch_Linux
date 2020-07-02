@@ -1,5 +1,15 @@
-2020/06/29-04:02:36.975 e87 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_forum.archlabslinux.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/29-04:03:10.974 a36 Level-0 table #5: started
-2020/06/29-04:03:10.980 a36 Level-0 table #5: 60180 bytes OK
-2020/06/29-04:03:10.983 a36 Delete type=0 #3
-2020/06/29-04:03:10.983 a36 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/02-15:31:30.307 b798 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_forum.archlabslinux.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/02-15:31:30.307 b798 Recovering log #4
+2020/07/02-15:31:30.307 b798 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_forum.archlabslinux.com_0.indexeddb.leveldb/000004.log 
+2020/07/02-15:32:35.081 653 Level-0 table #8: started
+2020/07/02-15:32:35.090 653 Level-0 table #8: 88350 bytes OK
+2020/07/02-15:32:35.093 653 Delete type=0 #4
+2020/07/02-15:32:35.093 653 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/02-15:32:35.093 653 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\x10\x8a\x9f\xfb0wB\x00\x01\x81\x01\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00r\x00u\x00m\x00.\x00a\x00r\x00c\x00h\x00l\x00a\x00b\x00s\x00l\x00i\x00n\x00u\x00x\x00.\x00c\x00o\x00m\x00/\x00u\x00p\x00l\x00o\x00a\x00d\x00s\x00/\x00d\x00e\x00f\x00a\x00u\x00l\x00t\x00/\x00o\x00p\x00t\x00i\x00m\x00i\x00z\x00e\x00d\x00/\x002\x00X\x00/\x002\x00/\x002\x008\x004\x006\x00a\x00f\x009\x007\x00d\x000\x001\x003\x00a\x003\x000\x009\x00b\x004\x00a\x001\x00f\x00d\x004\x004\x005\x002\x004\x003\x00b\x005\x00c\x000\x00b\x002\x007\x00f\x00d\x001\x006\x007\x00_\x002\x00_\x006\x009\x000\x00x\x003\x008\x008\x00.\x00p\x00n\x00g' @ 2532 : 1
+2020/07/02-15:32:35.093 653 Compacting 1@1 + 1@2 files
+2020/07/02-15:32:35.097 653 Generated table #9@1: 278 keys, 37280 bytes
+2020/07/02-15:32:35.097 653 Compacted 1@1 + 1@2 files => 37280 bytes
+2020/07/02-15:32:35.101 653 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/02-15:32:35.101 653 Delete type=2 #5
+2020/07/02-15:32:35.101 653 Delete type=2 #8
+2020/07/02-15:32:35.102 653 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\x10\x8a\x9f\xfb0wB\x00\x01\x81\x01\x00d\x00i\x00s\x00c\x00o\x00u\x00r\x00s\x00e\x00-\x001\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00f\x00o\x00r\x00u\x00m\x00.\x00a\x00r\x00c\x00h\x00l\x00a\x00b\x00s\x00l\x00i\x00n\x00u\x00x\x00.\x00c\x00o\x00m\x00/\x00u\x00p\x00l\x00o\x00a\x00d\x00s\x00/\x00d\x00e\x00f\x00a\x00u\x00l\x00t\x00/\x00o\x00p\x00t\x00i\x00m\x00i\x00z\x00e\x00d\x00/\x002\x00X\x00/\x002\x00/\x002\x008\x004\x006\x00a\x00f\x009\x007\x00d\x000\x001\x003\x00a\x003\x000\x009\x00b\x004\x00a\x001\x00f\x00d\x004\x004\x005\x002\x004\x003\x00b\x005\x00c\x000\x00b\x002\x007\x00f\x00d\x001\x006\x007\x00_\x002\x00_\x006\x009\x000\x00x\x003\x008\x008\x00.\x00p\x00n\x00g' @ 2532 : 1 .. (end); will stop at (end)

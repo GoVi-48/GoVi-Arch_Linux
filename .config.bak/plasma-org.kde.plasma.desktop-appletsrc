@@ -58,6 +58,14 @@ location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
+[Containments][2][Applets][101]
+immutability=1
+plugin=org.kde.plasma.digitalclock
+
+[Containments][2][Applets][102]
+immutability=1
+plugin=org.kde.plasma.pager
+
 [Containments][2][Applets][18]
 immutability=1
 plugin=org.kde.plasma.kicker
@@ -109,6 +117,14 @@ plugin=org.kde.plasma.panelspacer
 [Containments][2][Applets][56][Configuration][General]
 length=1279
 
+[Containments][2][Applets][89]
+immutability=1
+plugin=org.kde.plasma.systemtray
+
+[Containments][2][Applets][89][Configuration]
+PreloadWeight=60
+SystrayContainmentId=90
+
 [Containments][2][ConfigDialog]
 DialogHeight=84
 DialogWidth=1920
@@ -117,7 +133,7 @@ DialogWidth=1920
 PreloadWeight=0
 
 [Containments][2][General]
-AppletOrder=18;5;56
+AppletOrder=18;102;5;56;89;101
 
 [Containments][87]
 ItemGeometriesHorizontal=
@@ -173,10 +189,66 @@ toolTips=true
 Image=file:///home/govi/Imágenes/Wallpapers/ClarkLittleWaves_SS_08.jpg
 
 [Containments][87][Wallpaper][org.kde.slideshow][General]
-Image=file:///Media/Multimedia/Imágenes/Wallpapers/Desktop/ClarkLittleWaves_SS_08.jpg
+Image=file:///Media/Multimedia/Imágenes/Wallpapers/Desktop/Ocean-Wave-at-Sunset.jpg
 SlideInterval=660
 SlidePaths=/home/govi/Imágenes/Wallpapers/Desktop
 SlideshowMode=1
+
+[Containments][90]
+activityId=
+formfactor=2
+immutability=1
+lastScreen=-1
+location=3
+plugin=org.kde.plasma.private.systemtray
+wallpaperplugin=org.kde.image
+
+[Containments][90][Applets][100]
+immutability=1
+plugin=org.kde.plasma.networkmanagement
+
+[Containments][90][Applets][91]
+immutability=1
+plugin=org.kde.plasma.vault
+
+[Containments][90][Applets][92]
+immutability=1
+plugin=org.kde.plasma.nightcolorcontrol
+
+[Containments][90][Applets][93]
+immutability=1
+plugin=org.kde.plasma.keyboardindicator
+
+[Containments][90][Applets][94]
+immutability=1
+plugin=org.kde.plasma.notifications
+
+[Containments][90][Applets][95]
+immutability=1
+plugin=org.kde.plasma.devicenotifier
+
+[Containments][90][Applets][96]
+immutability=1
+plugin=org.kde.plasma.clipboard
+
+[Containments][90][Applets][97]
+immutability=1
+plugin=org.kde.plasma.volume
+
+[Containments][90][Applets][98]
+immutability=1
+plugin=org.kde.plasma.mediacontroller
+
+[Containments][90][Applets][98][Configuration]
+PreloadWeight=55
+
+[Containments][90][Applets][99]
+immutability=1
+plugin=org.kde.plasma.battery
+
+[Containments][90][General]
+extraItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard
+knownItems=org.kde.plasma.nightcolorcontrol,org.kde.plasma.devicenotifier,org.kde.plasma.bluetooth,org.kde.plasma.vault,org.kde.plasma.mediacontroller,org.kde.plasma.keyboardindicator,org.kde.plasma.volume,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.networkmanagement,org.kde.plasma.clipboard
 
 [Containments26Appletsts][33][Configuration][General]
 bgColor=Translucent

@@ -68,15 +68,15 @@ font-5 = FontAwesome:style=Regular:fontformat=truetype:scale=10:antialias=false;
 cursor-click = pointer
 cursor-scroll = ns-resize
 
-tray-position = right
-tray-padding = 1
-tray-offset-x = 0
-tray-offset-y = 0
-tray-scale = 1.0
+; tray-position = right
+; tray-padding = 1
+; tray-offset-x = 0
+; tray-offset-y = 0
+; tray-scale = 1.0
 
 modules-left = powermenu filesystem-root filesystem-home
 modules-center = 
-modules-right = memory cpu-load cpu-temperature gpu-temperature mb-temperature pulseaudio date
+modules-right = memory cpu-load cpu-temperature gpu-temperature mb-temperature date
 
 
 # =================================================================================================== #
@@ -129,7 +129,7 @@ type = internal/memory
 interval = 2
 format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
-label =   %gb_used%
+label =   0%gb_used%
 
 [module/cpu-load]
 type = internal/cpu
@@ -165,27 +165,14 @@ exec = ~/.config/polybar/scripts/mb_temp.sh
 click-left = alacritty -e htop
 interval = 1.5
 
-[module/pulseaudio]
-type = internal/pulseaudio
-format-volume = <ramp-volume> <label-volume>
-
-label-volume = %percentage%%
-label-volume-foreground = ${root.foreground}
-label-muted = 🔇 Muted
-label-muted-foreground = #777
-
-ramp-volume-0 = 
-ramp-volume-1 = 
-ramp-volume-2 = 
-
 [module/date]
 type = internal/date
 interval = 5
 label = %date% %time%
 date ="	📅 %a %d/%m/%Y "
 date-alt = 
-time = "🕓 %H:%M "
-time-alt = %H:%M:%S
+time =
+time-alt = "🕓 %H:%M "
 
 
 # =================================================================================================== #
@@ -228,6 +215,19 @@ format-disconnected =
 ;format-disconnected-underline = ${self.format-connected-underline}
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.foreground-alt}
+
+[module/pulseaudio]
+type = internal/pulseaudio
+format-volume = <ramp-volume> <label-volume>
+
+label-volume = %percentage%%
+label-volume-foreground = ${root.foreground}
+label-muted = 🔇 Muted
+label-muted-foreground = #777
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
 
 [module/alsa]
 type = internal/alsa

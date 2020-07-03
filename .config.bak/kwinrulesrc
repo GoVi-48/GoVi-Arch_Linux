@@ -2,19 +2,87 @@
 update_info=kwinrules.upd:replace-placement-string-to-enum
 
 [1]
-Description=Preferencias para la aplicación virtualbox machine
+Description=Preferencias para la aplicación fontforge
 clientmachinematch=0
-position=731,36
-positionrule=4
-size=648,576
-sizerule=4
+maximizehoriz=true
+maximizehorizrule=4
+maximizevert=true
+maximizevertrule=4
 types=1
-wmclass=virtualbox machine
+wmclass=fontforge
 wmclassmatch=1
 
 [10]
+Description=Preferencias para la aplicación alacritty
+above=true
+aboverule=4
+clientmachinematch=0
+position=1142,80
+positionrule=4
+size=782,751
+sizerule=4
+types=1
+wmclass=alacritty
+wmclassmatch=1
+
+[11]
+Description=Preferencias para la aplicación terminator
+clientmachinematch=0
+position=1142,225
+positionrule=4
+size=782,641
+sizerule=4
+types=1
+wmclass=terminator
+wmclassmatch=1
+
+[12]
+Description=Preferencias para la aplicación ksysguard
+clientmachinematch=0
+position=-4,36
+positionrule=4
+size=958,1037
+sizerule=4
+types=1
+wmclass=ksysguard
+wmclassmatch=1
+
+[13]
+Description=Preferencias para la aplicación ksysguard
+clientmachinematch=0
+position=-4,36
+positionrule=4
+size=958,1037
+sizerule=4
+types=1
+wmclass=ksysguard
+wmclassmatch=1
+
+[14]
+Description=Preferencias para la aplicación ksysguard
+clientmachinematch=0
+position=0,36
+positionrule=1
+size=958,1037
+sizerule=1
+types=1
+wmclass=ksysguard
+wmclassmatch=1
+
+[15]
+Description=Preferencias para la aplicación transmission
+clientmachine=localhost
+clientmachinematch=0
+position=1008,37
+positionrule=4
+size=912,633
+sizerule=4
+wmclass=transmission-qt transmission
+wmclasscomplete=true
+wmclassmatch=1
+
+[16]
 Description=Preferencias para la aplicación systemmonitor
-above=false
 clientmachine=localhost
 clientmachinematch=0
 position=621,233
@@ -24,7 +92,7 @@ sizerule=4
 wmclass=systemmonitor
 wmclassmatch=1
 
-[11]
+[17]
 Description=Preferencias para la aplicación vlc
 clientmachine=localhost
 clientmachinematch=0
@@ -33,7 +101,7 @@ positionrule=4
 wmclass=vlc
 wmclassmatch=1
 
-[12]
+[18]
 Description=Preferencias para la aplicación cemu.exe
 clientmachine=localhost
 clientmachinematch=0
@@ -42,10 +110,9 @@ positionrule=4
 wmclass=cemu.exe
 wmclassmatch=1
 
-[13]
+[19]
 Description=Preferencias para la aplicación spectacle
 clientmachine=localhost
-clientmachinematch=0
 position=635,109
 positionrule=4
 size=1016,463
@@ -53,28 +120,34 @@ sizerule=4
 wmclass=spectacle
 wmclassmatch=1
 
-[14]
+[2]
+Description=Preferencias para la aplicación fontforge
+clientmachinematch=0
+maximizehorizrule=1
+maximizevertrule=1
+types=1
+wmclass=fontforge
+wmclassmatch=1
+
+[20]
 Description=Preferencias para la aplicación winecfg.exe
 clientmachine=localhost
-clientmachinematch=0
 position=496,319
 positionrule=4
 wmclass=winecfg.exe
 wmclassmatch=1
 
-[15]
+[21]
 Description=Preferencias para la aplicación dolphin
 clientmachine=localhost
-clientmachinematch=0
 position=-4,36
 positionrule=4
 wmclass=dolphin
 wmclassmatch=1
 
-[16]
+[22]
 Description=Preferencias para la aplicación gwenview
 clientmachine=localhost
-clientmachinematch=0
 position=-4,171
 positionrule=4
 size=1261,764
@@ -82,28 +155,29 @@ sizerule=4
 wmclass=gwenview
 wmclassmatch=1
 
-[17]
+[23]
 Description=Preferencias para la aplicación inkscape
-clientmachine=localhost
-clientmachinematch=0
-position=387,113
+maximizehoriz=true
+maximizehorizrule=4
+maximizevert=true
+maximizevertrule=4
+position=0,36
 positionrule=4
-size=533,210
+size=1920,1009
 sizerule=4
-wmclass=org.inkscape.inkscape inkscape
+types=1
+wmclass=org.inkscape.inkscape
 wmclasscomplete=true
 wmclassmatch=1
 
-[18]
+[24]
 Description=Preferencias para la aplicación polkit-kde-authentication-agent-1
 aboverule=2
 clientmachine=localhost
-clientmachinematch=0
 wmclass=polkit-kde-authentication-agent-1
-wmclasscomplete=false
 wmclassmatch=1
 
-[19]
+[25]
 Description=Preferencias de la ventana de kodi
 clientmachine=govi-pc
 position=881,36
@@ -116,18 +190,7 @@ types=1
 wmclass=kodi
 wmclassmatch=1
 
-[2]
-Description=Preferencias para la aplicación virtualbox machine
-clientmachinematch=0
-position=636,216
-positionrule=1
-size=1032,864
-sizerule=1
-types=1
-wmclass=virtualbox machine
-wmclassmatch=1
-
-[20]
+[26]
 Description=Preferencias de la ventana de virtualbox machine
 clientmachine=localhost
 position=542,90
@@ -140,7 +203,7 @@ types=1
 wmclass=virtualbox machine
 wmclassmatch=1
 
-[21]
+[27]
 Description=Preferencias para la aplicación virtualbox manager
 clientmachine=localhost
 position=960,36
@@ -150,7 +213,7 @@ sizerule=4
 wmclass=virtualbox manager
 wmclassmatch=1
 
-[22]
+[28]
 Description=Preferencias para la aplicación kfind
 clientmachine=localhost
 position=-4,147
@@ -160,7 +223,7 @@ sizerule=4
 wmclass=kfind
 wmclassmatch=1
 
-[23]
+[29]
 Description=Preferencias para la aplicación kodi
 clientmachine=govi-pc
 position=881,36
@@ -170,7 +233,18 @@ sizerule=4
 wmclass=kodi
 wmclassmatch=1
 
-[24]
+[3]
+Description=Preferencias para la aplicación fontforge
+clientmachinematch=0
+position=403,270
+positionrule=4
+size=685,581
+sizerule=4
+types=1
+wmclass=fontforge
+wmclassmatch=1
+
+[30]
 Description=Preferencias para la aplicación brave-browser
 clientmachine=govi-pc
 maximizehoriz=true
@@ -184,7 +258,7 @@ sizerule=4
 wmclass=brave-browser
 wmclassmatch=1
 
-[25]
+[31]
 Description=Preferencias para la aplicación kate
 position=0,73
 positionrule=4
@@ -194,7 +268,7 @@ types=1
 wmclass=kate
 wmclassmatch=1
 
-[26]
+[32]
 Description=Preferencias para la aplicación terminator
 position=1142,225
 positionrule=1
@@ -204,87 +278,71 @@ types=1
 wmclass=terminator
 wmclassmatch=1
 
-[3]
-Description=Preferencias para la aplicación alacritty
-above=true
-aboverule=4
-clientmachinematch=0
-position=1142,80
-positionrule=4
-size=782,751
-sizerule=4
-types=1
-wmclass=alacritty
-wmclassmatch=1
-
 [4]
-Description=Preferencias para la aplicación alacritty
-above=true
-aboverule=4
+Description=Preferencias de la ventana de fontforge
 clientmachinematch=0
-position=1142,80
+position=576,284
 positionrule=4
-size=782,751
+size=612,491
 sizerule=4
+title=Find Problems
+titlematch=1
 types=1
-wmclass=alacritty
+wmclass=fontforge
 wmclassmatch=1
 
 [5]
-Description=Preferencias para la aplicación terminator
+Description=Preferencias para la aplicación fontforge
 clientmachinematch=0
-position=1142,225
-positionrule=4
-size=782,641
+size=685,581
 sizerule=4
 types=1
-wmclass=terminator
+wmclass=fontforge
 wmclassmatch=1
 
 [6]
-Description=Preferencias para la aplicación ksysguard
+Description=Preferencias para la aplicación fontforge
 clientmachinematch=0
-position=-4,36
-positionrule=4
-size=958,1037
+size=685,581
 sizerule=4
 types=1
-wmclass=ksysguard
+wmclass=fontforge
 wmclassmatch=1
 
 [7]
-Description=Preferencias para la aplicación ksysguard
+Description=Preferencias para la aplicación virtualbox machine
 clientmachinematch=0
-position=-4,36
+position=731,36
 positionrule=4
-size=958,1037
+size=648,576
 sizerule=4
 types=1
-wmclass=ksysguard
+wmclass=virtualbox machine
 wmclassmatch=1
 
 [8]
-Description=Preferencias para la aplicación ksysguard
+Description=Preferencias para la aplicación virtualbox machine
 clientmachinematch=0
-position=0,36
+position=636,216
 positionrule=1
-size=958,1037
+size=1032,864
 sizerule=1
 types=1
-wmclass=ksysguard
+wmclass=virtualbox machine
 wmclassmatch=1
 
 [9]
-Description=Preferencias para la aplicación transmission
-clientmachine=localhost
+Description=Preferencias para la aplicación alacritty
+above=true
+aboverule=4
 clientmachinematch=0
-position=1008,37
+position=1142,80
 positionrule=4
-size=912,633
+size=782,751
 sizerule=4
-wmclass=transmission-qt transmission
-wmclasscomplete=true
+types=1
+wmclass=alacritty
 wmclassmatch=1
 
 [General]
-count=26
+count=32

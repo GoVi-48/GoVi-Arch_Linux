@@ -132,20 +132,10 @@ format-prefix-foreground = ${colors.foreground-alt}
 label =   0%gb_used%
 
 [module/cpu-load]
-type = internal/cpu
-interval = 1
-format = <label> <ramp-load>
-label = "  %percentage%%"
-
-ramp-coreload-spacing = 1
-ramp-load-0 = ▁
-ramp-load-1 = ▂
-ramp-load-2 = ▃
-ramp-load-3 = ▄
-ramp-load-4 = ▅
-ramp-load-5 = ▆
-ramp-load-6 = ▇
-ramp-load-7 = █
+type = custom/script
+exec = ~/.config/polybar/scripts/cpu_load.sh
+click-left = alacritty -e htop
+interval = 1.5
 
 [module/cpu-temperature]
 type = custom/script

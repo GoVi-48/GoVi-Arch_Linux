@@ -9,6 +9,6 @@ elif [ $temp -ge 50 -a $temp -lt 70 ];then
     echo 🔥 %{F#fdbc4b}"$temp"°C%{F-}
     
 elif [ $temp -ge 70 ];then
-    echo 🔥 %{F#0095ff}"$temp"°C%{F-}
+    echo 🔥 %{F#f90e39}"$temp"°C%{F-}
     
 fi

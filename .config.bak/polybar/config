@@ -60,10 +60,11 @@ module-margin-right = 1
 # fc-list | grep -i ""
 font-0 = JetBrains Mono:style=Regular:pixelsize=10;
 font-1 = Hack:style=Regular:pixelsize=10;
-font-2 = Noto Color Emoji:style=Regular:fontformat=truetype:scale=10:antialias=false;
-font-3 = Material Icons:style=Regular:fontformat=truetype:scale=10:antialias=false;
-font-4 = Hack Nerd Font:style=Regular:fontformat=truetype:scale=10:antialias=false;
-font-5 = FontAwesome:style=Regular:fontformat=truetype:scale=10:antialias=false;
+font-2 = Noto Color Emoji:style=Regular:fontformat=truetype:scale=10:antialias=true;
+font-3 = Material Icons:style=Regular:fontformat=truetype:scale=10:antialias=true;
+font-4 = Hack Nerd Font:style=Regular:fontformat=truetype:scale=10:antialias=true;
+font-5 = FontAwesome:style=Regular:fontformat=truetype:scale=10:antialias=true;
+font-6 = GoVi:style=Regular:fontformat=truetype:scale=10:antialias=true;
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -74,9 +75,9 @@ cursor-scroll = ns-resize
 ; tray-offset-y = 0
 ; tray-scale = 1.0
 
-modules-left = powermenu filesystem-root filesystem-home
+modules-left = powermenu filesystem_root filesystem_home networkspeeddown networkspeedup updates_pacman updates_AUR
 modules-center = 
-modules-right = memory cpu-load cpu-temperature gpu-temperature mb-temperature alsa date
+modules-right = memory cpu_load cpu_temp gpu_temp mb_temp alsa date
 
 
 # =================================================================================================== #
@@ -110,19 +111,48 @@ menu-2-0-exec = sudo poweroff
 menu-2-1 = cancel
 menu-2-1-exec = menu-open-0
 
-[module/filesystem-root]
+[module/filesystem_root]
 type = custom/script
 format-prefix = "🗄 /: "
 exec = df -h / --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
 click-left = dolphin /
 interval = 25
 
-[module/filesystem-home]
+[module/filesystem_home]
 type = custom/script
 format-prefix = "🗄 /home: "
 exec = df -h /home --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
 click-left = dolphin ~/
 interval = 25
+
+[module/networkspeeddown]
+type = internal/network
+interface = enp3s0
+label-connected = "%downspeed:7%"
+format-connected = <label-connected>
+format-connected-prefix = "  "
+interval = 1
+
+[module/networkspeedup]
+type = internal/network
+interface = enp3s0
+label-connected = "%upspeed:7%"
+format-connected = <label-connected>
+format-connected-prefix = " "
+format-connected-foreground = #fefefe
+interval = 1
+
+[module/updates_pacman]
+type = custom/script
+exec = ~/.config/polybar/scripts/updates_pacman.sh
+click-left = alacritty -e sudo pacman -Syu
+interval = 1000
+
+[module/updates_AUR]
+type = custom/script
+exec = ~/.config/polybar/scripts/updates_AUR.sh
+click-left = alacritty -e yay -Syua
+interval = 1000
 
 [module/memory]
 type = internal/memory
@@ -131,29 +161,42 @@ format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 label =   0%gb_used%
 
-[module/cpu-load]
+[module/cpu_load]
 type = custom/script
 exec = ~/.config/polybar/scripts/cpu_load.sh
 click-left = alacritty -e htop
 interval = 1.5
 
-[module/cpu-temperature]
+[module/cpu_temp]
 type = custom/script
 exec = ~/.config/polybar/scripts/cpu_temp.sh
 click-left = alacritty -e htop
 interval = 1.5
 
-[module/gpu-temperature]
+[module/gpu_temp]
 type = custom/script
 exec = ~/.config/polybar/scripts/gpu_temp.sh
 click-left = alacritty -e htop
 interval = 1.5
 
-[module/mb-temperature]
+[module/mb_temp]
 type = custom/script
 exec = ~/.config/polybar/scripts/mb_temp.sh
 click-left = alacritty -e htop
 interval = 1.5
+
+[module/alsa]
+type = internal/alsa
+
+format-volume = <ramp-volume> <label-volume>
+label-volume-foreground = ${root.foreground}
+
+label-muted-foreground = #777
+label-muted = 🔇 Muted
+
+ramp-volume-0 = 
+ramp-volume-1 = 
+ramp-volume-2 = 
 
 [module/date]
 type = internal/date
@@ -214,19 +257,6 @@ label-volume = %percentage%%
 label-volume-foreground = ${root.foreground}
 label-muted = 🔇 Muted
 label-muted-foreground = #777
-
-ramp-volume-0 = 
-ramp-volume-1 = 
-ramp-volume-2 = 
-
-[module/alsa]
-type = internal/alsa
-
-format-volume = <ramp-volume> <label-volume>
-label-volume-foreground = ${root.foreground}
-
-label-muted-foreground = #777
-label-muted = 🔇 Muted
 
 ramp-volume-0 = 
 ramp-volume-1 = 

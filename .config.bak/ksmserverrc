@@ -5,30 +5,32 @@ update_info=ksmserver_update_loginMode_value.upd:ksmserver_update_loginMode_valu
 screenCount=1
 
 [LegacySession: saved at previous logout]
-count=0
+clientMachine1=localhost
+command1=fontforge
+count=1
 
 [Session: saved at previous logout]
 clientId1=1074bf9969000159374055200000006990002
 clientId2=1074bf9969000159349686300000006950009
 clientId3=1074bf9969000159366282800000006880009
-clientId4=1074bf9969000159371967800000007760017
-clientId5=1074bf9969000159374737400000006960003
-clientId6=1074bf9969000159374737500000006960005
+clientId4=1074bf9969000159381634100000007000003
+clientId5=1074bf9969000159381634200000007000005
+clientId6=1074bf9969000159382153200000007000030
 count=6
-discardCommand2[$e]=rm,$HOME/.config/session/kate_1074bf9969000159349686300000006950009_1593781250_633014
-discardCommand4[$e]=rm,$HOME/.config/session/dolphin_1074bf9969000159371967800000007760017_1593781250_633113
+discardCommand2[$e]=rm,$HOME/.config/session/kate_1074bf9969000159349686300000006950009_1593838139_951643
+discardCommand6[$e]=rm,$HOME/.config/session/dolphin_1074bf9969000159382153200000007000030_1593838139_952135
 program1=/usr/lib/DiscoverNotifier
 program2=/bin/kate
 program3=/usr/bin/latte-dock
-program4=/bin/dolphin
-program5=pulseaudio
-program6=/usr/bin/firewall-applet
-restartCommand1=/usr/lib/DiscoverNotifier,-session,1074bf9969000159374055200000006990002_1593781250_632867
-restartCommand2=/bin/kate,-session,1074bf9969000159349686300000006950009_1593781250_633014
-restartCommand3=/usr/bin/latte-dock,-session,1074bf9969000159366282800000006880009_1593781250_654473
-restartCommand4=/bin/dolphin,-session,1074bf9969000159371967800000007760017_1593781250_633113
-restartCommand5=
-restartCommand6=/usr/bin/firewall-applet,-session,1074bf9969000159374737500000006960005_1593781250_633163,-name,firewall-applet
+program4=pulseaudio
+program5=/usr/bin/firewall-applet
+program6=/bin/dolphin
+restartCommand1=/usr/lib/DiscoverNotifier,-session,1074bf9969000159374055200000006990002_1593838139_951534
+restartCommand2=/bin/kate,-session,1074bf9969000159349686300000006950009_1593838139_951643
+restartCommand3=/usr/bin/latte-dock,-session,1074bf9969000159366282800000006880009_1593838139_986475
+restartCommand4=
+restartCommand5=/usr/bin/firewall-applet,-session,1074bf9969000159381634200000007000005_1593838139_952044,-name,firewall-applet
+restartCommand6=/bin/dolphin,-session,1074bf9969000159382153200000007000030_1593838139_952135
 restartStyleHint1=0
 restartStyleHint2=0
 restartStyleHint3=0

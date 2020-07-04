@@ -34,7 +34,7 @@ Warning=ffda4453,ffda4453,,,,,-,-,,---
 [Default Item Styles - Schema Monokai]
 Alert=ffbf0303,ff9c0e0e,1,,,,fff7e6e6,-,,---
 Annotation=ffffec10,ffbdc3c7,,,,,-,-,,---
-Attribute=ff2980b9,fffdbc4b,,,,,-,-,,---
+Attribute=ff0095ff,fffdbc4b,,,,,-,-,,---
 Base-N Integer=ffae81ff,ffae81ff,,,,,-,-,,---
 Built-in=ff7f8c8d,ffbdc3c7,,,,,-,-,,---
 Character=ffe6db74,ffe6db74,,,,,-,-,,---
@@ -46,7 +46,7 @@ Data Type=ff66d9ef,ff66d9ef,,1,,,-,-,,---
 Decimal/Value=ffae81ff,ffae81ff,,,,,-,-,,---
 Documentation=ffda4453,ffda4453,,,,,-,-,,---
 Error=ffbf0303,ff9c0e0e,,,,1,-,-,,---
-Extension=ff0095ff,ff0064a7,1,,,,-,-,,---
+Extension=ffe29519,ffffa640,1,,,,-,-,,---
 Floating Point=ffae81ff,ffae81ff,,,,,-,-,,---
 Function=ff2ed473,ff2ed473,,,,,-,-,,---
 Import=fff8d610,ffbdc3c7,,,,,-,-,,---
@@ -60,7 +60,7 @@ Region Marker=ff0057ae,ff00316e,,,,,ffe0e9f8,-,,---
 Special Character=ff3daee9,fffcfcfc,,,,,-,-,,---
 Special String=fffe4e60,ffda4453,,,,,-,-,,---
 String=ffe6db74,ffe6db74,,,,,-,-,,---
-Variable=ff2980b9,fffdbc4b,,,,,-,-,,---
+Variable=ffe29519,fffdbc4b,,,,,-,-,,---
 Verbatim String=fffe4e60,ffda4453,,,,,-,-,,---
 Warning=ffda4453,ffda4453,,,,,-,-,,---
 
@@ -786,8 +786,8 @@ Bash:Comment=8,,,,,,,,,,---
 Bash:Control=1,fff92672,fff92672,,,,,,,,---
 Bash:Error=13,,,,,,,,,,---
 Bash:Escape=2,,,,,,,,,,---
-Bash:Expression=9,,,,,,,,,,---
-Bash:Function=11,,,,,,,,,,---
+Bash:Expression=9,ffe91b6e,fffdbc4b,,,,,,,,---
+Bash:Function=11,ff3daee9,fffcfcfc,,,,,,,,---
 Bash:Keyword=1,,,,,,,,,,---
 Bash:Normal Text=0,,,,,,,,,,---
 Bash:Option=0,,,,,,,,,,---
@@ -798,7 +798,7 @@ Bash:String DoubleQ=7,,,,,,,,,,---
 Bash:String Escape=2,,,,,,,,,,---
 Bash:String SingleQ=7,,,,,,,,,,---
 Bash:String Transl.=7,,,,,,,,,,---
-Bash:Variable=9,,,,,,,,,,---
+Bash:Variable=9,ff3daee9,fffdbc4b,,,,,,,,---
 Modelines:Comment=8,,,,,,,,,,---
 Modelines:Keyword=1,,,,,,,,,,---
 Modelines:Number=3,,,,,,,,,,---
@@ -9198,7 +9198,7 @@ Ninja:Variable Delimiter=5,,,,,,,,,,---
 None:Normal=0,,,,,,,,,,---
 
 [Highlighting None - Schema Monokai]
-None:Normal=0,fff8f8f2,ff232323,,,,,,,,---
+None:Normal=0,fff8f8f2,ffffffff,,,,,,,,---
 
 [Highlighting None - Schema Normal]
 None:Normal=0,,,,,,,,,,---

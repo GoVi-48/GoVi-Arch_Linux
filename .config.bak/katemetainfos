@@ -995,14 +995,14 @@ URL=file:///home/govi/.config/okularrc
 
 [file:///home/govi/.config/polybar/config]
 Bookmarks=
-Checksum=c72cce84e4d9cd630a57a161d6467cde72011094
+Checksum=9aa5e2921f2295dfbdff31d135c53f1e68dad62f
 Encoding=UTF-8
 Highlighting=INI Files
 Highlighting Set By User=true
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,7,5,1,12,31
+Time=2020,7,5,16,4,23
 URL=file:///home/govi/.config/polybar/config
 
 [file:///home/govi/.config/polybar/launch.sh]
@@ -1185,6 +1185,30 @@ Mode Set By User=false
 Time=2020,7,5,1,18,56
 URL=file:///home/govi/.config/polybar/scripts/searching.sh
 
+[file:///home/govi/.config/polybar/scripts/searching_AUR.sh]
+Bookmarks=
+Checksum=9794b7dd3368ba62d4bf8dbe5947e2c0770cce75
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,7,5,16,4,23
+URL=file:///home/govi/.config/polybar/scripts/searching_AUR.sh
+
+[file:///home/govi/.config/polybar/scripts/searching_pacman.sh]
+Bookmarks=
+Checksum=64828b916b56cc701939ba97e8cb8eae51753f28
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,7,5,16,4,23
+URL=file:///home/govi/.config/polybar/scripts/searching_pacman.sh
+
 [file:///home/govi/.config/polybar/scripts/updates]
 Bookmarks=
 Checksum=f9bcac366e67b9289d1b5363c3148a5b8999ccbc
@@ -1211,26 +1235,26 @@ URL=file:///home/govi/.config/polybar/scripts/updates.sh
 
 [file:///home/govi/.config/polybar/scripts/updates_AUR.sh]
 Bookmarks=
-Checksum=45d2c6263514de36de5a83ba76cd07046bbf468d
+Checksum=60322cee85df5954a1da8eb209d0a9253114fc2b
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,7,5,1,12,31
+Time=2020,7,5,16,4,23
 URL=file:///home/govi/.config/polybar/scripts/updates_AUR.sh
 
 [file:///home/govi/.config/polybar/scripts/updates_pacman.sh]
 Bookmarks=
-Checksum=b68ac20600553647173dfaff90f20ce5949632e8
+Checksum=ada022bded7c30ee06f19c84ea43fd646969aa23
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,7,5,1,12,31
+Time=2020,7,5,16,4,23
 URL=file:///home/govi/.config/polybar/scripts/updates_pacman.sh
 
 [file:///home/govi/.config/terminator/config]
@@ -1280,6 +1304,54 @@ Mode=XML
 Mode Set By User=false
 Time=2020,6,18,21,17,49
 URL=file:///home/govi/.kodi/addons/plugin.video.Explora/addon.xml
+
+[file:///home/govi/.kodi/addons/script.tvguide.fullscreen/ReloadAddonFolders.py]
+Bookmarks=
+Checksum=2ff983895bee66cee5b31c9f33b3e2f5ff7e5f48
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2020,7,5,11,35,10
+URL=file:///home/govi/.kodi/addons/script.tvguide.fullscreen/ReloadAddonFolders.py
+
+[file:///home/govi/.kodi/addons/script.tvguide.fullscreen/addon.py]
+Bookmarks=
+Checksum=49cef01a28f0ddb3912f6f1d0230d80e5180ec5f
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2020,7,5,11,21,43
+URL=file:///home/govi/.kodi/addons/script.tvguide.fullscreen/addon.py
+
+[file:///home/govi/.kodi/addons/script.tvguide.fullscreen/catchup.py]
+Bookmarks=
+Checksum=cc1f6a48e5d7181c4c48c682fbd40eddf2761f0f
+Encoding=UTF-8
+Highlighting=Python
+Highlighting Set By User=false
+Indentation Mode=python
+Mode=Python
+Mode Set By User=false
+Time=2020,7,5,11,24,48
+URL=file:///home/govi/.kodi/addons/script.tvguide.fullscreen/catchup.py
+
+[file:///home/govi/.kodi/addons/script.tvguide.fullscreen/resources/settings.xml]
+Bookmarks=
+Checksum=3115a7871a0ef985217c5af036902f1984146dc3
+Encoding=UTF-8
+Highlighting=XML
+Highlighting Set By User=false
+Indentation Mode=xml
+Mode=XML
+Mode Set By User=false
+Time=2020,7,5,11,23,39
+URL=file:///home/govi/.kodi/addons/script.tvguide.fullscreen/resources/settings.xml
 
 [file:///home/govi/.kodi/addons/script.tvstream.creator/README.txt]
 Bookmarks=
@@ -1365,6 +1437,30 @@ Mode Set By User=false
 Time=2020,6,20,18,25,41
 URL=file:///home/govi/.kodi/addons/skin.aeon.govi/1080p/DialogVideoInfo.xml
 
+[file:///home/govi/.kodi/addons/skin.aeon.govi/1080p/Home.xml]
+Bookmarks=
+Checksum=2e510fe6bb97e40d2b5a4e6685a95bd90330341f
+Encoding=UTF-8
+Highlighting=XML
+Highlighting Set By User=false
+Indentation Mode=xml
+Mode=XML
+Mode Set By User=false
+Time=2020,7,5,14,8,30
+URL=file:///home/govi/.kodi/addons/skin.aeon.govi/1080p/Home.xml
+
+[file:///home/govi/.kodi/addons/skin.aeon.govi/1080p/Includes_Home.xml]
+Bookmarks=
+Checksum=7bcad0a44aa60206056048d0f07084f7badd3666
+Encoding=UTF-8
+Highlighting=XML
+Highlighting Set By User=false
+Indentation Mode=xml
+Mode=XML
+Mode Set By User=false
+Time=2020,7,5,14,14,1
+URL=file:///home/govi/.kodi/addons/skin.aeon.govi/1080p/Includes_Home.xml
+
 [file:///home/govi/.kodi/addons/skin.aeon.govi/1080p/VideoFullScreen.xml]
 Bookmarks=
 Checksum=df0902bff67228c1536bf2c914559fc6dda5b1dc
@@ -1376,6 +1472,30 @@ Mode=XML
 Mode Set By User=false
 Time=2020,6,20,18,27,43
 URL=file:///home/govi/.kodi/addons/skin.aeon.govi/1080p/VideoFullScreen.xml
+
+[file:///home/govi/.kodi/media/IPTV/IPTV + Remote EPG.txt]
+Bookmarks=
+Checksum=99c4b622c29dc42a9802cb48b2ba88b10a6068d4
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,7,5,15,13,28
+URL=file:///home/govi/.kodi/media/IPTV/IPTV + Remote EPG.txt
+
+[file:///home/govi/.kodi/media/IPTV/Remote EPG.txt]
+Bookmarks=
+Checksum=62e462cc93a61c022f42d8283389ccbf5470eded
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,7,5,15,13,36
+URL=file:///home/govi/.kodi/media/IPTV/Remote EPG.txt
 
 [file:///home/govi/.kodi/temp/kodi.log]
 Bookmarks=
@@ -1403,14 +1523,14 @@ URL=file:///home/govi/.kodi/userdata/addon_data/pvr.iptvsimple/settings.xml
 
 [file:///home/govi/.kodi/userdata/addon_data/script.ivueguide/addons2.ini]
 Bookmarks=
-Checksum=efd967c7299661cd810ee50a910d512eef5772f9
+Checksum=2d3ba9e9c559d9c40b7a252ed52de9adf3fd7c6c
 Encoding=UTF-8
 Highlighting=INI Files
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=INI Files
 Mode Set By User=false
-Time=2020,7,4,14,11,14
+Time=2020,7,5,16,4,23
 URL=file:///home/govi/.kodi/userdata/addon_data/script.ivueguide/addons2.ini
 
 [file:///home/govi/.kodi/userdata/addon_data/script.ivueguide/custom.xml]
@@ -1448,6 +1568,42 @@ Mode=XML
 Mode Set By User=false
 Time=2020,7,4,12,34,13
 URL=file:///home/govi/.kodi/userdata/addon_data/script.ivueguide/settings.xml
+
+[file:///home/govi/.kodi/userdata/addon_data/script.tvguide.fullscreen/addons.ini]
+Bookmarks=
+Checksum=6740402fa984ec4b0cb130909f4d7ecf6947bd6e
+Encoding=UTF-8
+Highlighting=INI Files
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=INI Files
+Mode Set By User=false
+Time=2020,7,5,16,4,23
+URL=file:///home/govi/.kodi/userdata/addon_data/script.tvguide.fullscreen/addons.ini
+
+[file:///home/govi/.kodi/userdata/addon_data/script.tvguide.fullscreen/addons.ini.local]
+Bookmarks=
+Checksum=bd810e0457a6f0c9802a5ddea8348f061f3d8bd9
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,7,5,11,36,21
+URL=file:///home/govi/.kodi/userdata/addon_data/script.tvguide.fullscreen/addons.ini.local
+
+[file:///home/govi/.kodi/userdata/addon_data/script.tvguide.fullscreen/addons2.ini]
+Bookmarks=
+Checksum=c2c46c4eca93db1c5806f29fd8837430115336db
+Encoding=UTF-8
+Highlighting=INI Files
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=INI Files
+Mode Set By User=false
+Time=2020,7,5,11,35,59
+URL=file:///home/govi/.kodi/userdata/addon_data/script.tvguide.fullscreen/addons2.ini
 
 [file:///home/govi/.kodi/userdata/addon_data/script.tvstream.creator/addons_index.ini]
 Bookmarks=
@@ -2519,14 +2675,14 @@ URL=file:///home/govi/Scripts/Bash/imwheel.sh
 
 [file:///home/govi/Scripts/Logs/Cron/crontab.log]
 Bookmarks=
-Checksum=0e0558668c3ce668763f2354fdeb6ff37cdde10b
+Checksum=b7de6dd7c0597078453df6571675d9e0549f06d0
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,7,4,22,5,4
+Time=2020,7,5,10,8,56
 URL=file:///home/govi/Scripts/Logs/Cron/crontab.log
 
 [file:///home/govi/Wine/wine-pfx_5.10/user.reg]

@@ -1,11 +1,12 @@
 #!/usr/bin/env bash
 
-updates=$(echo $(yay -Qua | wc -l))
+updates_AUR=$(yay -Qua --quiet | wc -l)
 
-if [ $updates -eq 0 ];then
-    echo ""
+if [ $updates_AUR -eq 0 ]; then
+    touch ~/.config/polybar/scripts/updates
+    sleep 10
+    rm -rf ~/.config/polybar/scripts/updates
     
-elif [ $updates -gt 0 ];then
-    echo %{F#e29519}"  %{F-}$updates AUR"
- 
+else
+    echo %{F#e29519}"  %{F-}$updates_AUR AUR"
 fi

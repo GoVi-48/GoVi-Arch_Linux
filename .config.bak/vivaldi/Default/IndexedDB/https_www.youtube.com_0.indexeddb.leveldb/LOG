@@ -1,15 +1,8 @@
-2020/07/04-18:25:35.504 63803 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/04-18:25:35.504 63803 Recovering log #661
-2020/07/04-18:25:35.504 63803 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000661.log 
-2020/07/04-18:26:13.780 638cf Level-0 table #665: started
-2020/07/04-18:26:13.809 638cf Level-0 table #665: 2651 bytes OK
-2020/07/04-18:26:13.813 638cf Delete type=0 #661
-2020/07/04-18:26:13.813 638cf Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/07/04-18:26:13.813 638cf Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x16\x00a\x00p\x00p\x00l\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00_\x00s\x00e\x00r\x00v\x00e\x00r\x00_\x00k\x00e\x00y' @ 24505 : 1
-2020/07/04-18:26:13.813 638cf Compacting 1@1 + 1@2 files
-2020/07/04-18:26:13.815 638cf Generated table #666@1: 48 keys, 1918 bytes
-2020/07/04-18:26:13.815 638cf Compacted 1@1 + 1@2 files => 1918 bytes
-2020/07/04-18:26:13.819 638cf compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/07/04-18:26:13.819 638cf Delete type=2 #665
-2020/07/04-18:26:13.819 638cf Delete type=2 #650
-2020/07/04-18:26:13.819 638cf Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x16\x00a\x00p\x00p\x00l\x00i\x00c\x00a\x00t\x00i\x00o\x00n\x00_\x00s\x00e\x00r\x00v\x00e\x00r\x00_\x00k\x00e\x00y' @ 24505 : 1 .. (end); will stop at (end)
+2020/07/05-02:47:48.878 2670d Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/05-02:47:48.878 2670d Recovering log #671
+2020/07/05-02:47:48.878 2670d Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000671.log 
+2020/07/05-03:01:43.540 17f3 Level-0 table #675: started
+2020/07/05-03:01:43.540 17f3 Level-0 table #675: 0 bytes OK
+2020/07/05-03:01:43.547 17f3 Delete type=0 #671
+2020/07/05-03:01:43.548 17f3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/05-03:01:43.548 17f3 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

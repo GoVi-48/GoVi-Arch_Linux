@@ -54,7 +54,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,7,4,16,16,21
+Time=2020,7,4,22,4,15
 URL=file:///Datos/GoVi/Proyectos/Github/GoVi-Arch-Linux/Arch Install.txt
 
 [file:///Datos/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch]
@@ -693,18 +693,6 @@ Mode Set By User=false
 Time=2020,6,24,18,22,35
 URL=file:///Media/[SaveData]/Games/Save Games - Backup/Green Hell/Profile/815370/rute
 
-[file:///Media/\x5bSaveData\x5d/Games/Tools/ReShade/Games/ReShade_THC-Ark.ini]
-Bookmarks=
-Checksum=bd668f45a4481788b273b4f6614000a7abd855a9
-Encoding=UTF-8
-Highlighting=INI Files
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=INI Files
-Mode Set By User=false
-Time=2020,6,4,14,49,27
-URL=file:///Media/[SaveData]/Games/Tools/ReShade/Games/ReShade_THC-Ark.ini
-
 [file:///etc/fstab]
 Bookmarks=
 Checksum=ff8093029eba1b4fe278c0071d30074a372bc56a
@@ -788,18 +776,6 @@ Mode=YAML
 Mode Set By User=false
 Time=2020,7,3,21,23,27
 URL=file:///home/govi/.config/alacritty/alacritty.yml
-
-[file:///home/govi/.config/autostart/imwheel.desktop]
-Bookmarks=
-Checksum=d6162ca345e426e8b0aa11d34c88f0bbb6243c63
-Encoding=UTF-8
-Highlighting=.desktop
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=.desktop
-Mode Set By User=false
-Time=2020,6,4,13,59,48
-URL=file:///home/govi/.config/autostart/imwheel.desktop
 
 [file:///home/govi/.config/autostart/polybar.desktop]
 Bookmarks=
@@ -1019,27 +995,39 @@ URL=file:///home/govi/.config/okularrc
 
 [file:///home/govi/.config/polybar/config]
 Bookmarks=
-Checksum=4b22dd71b963fc1390726cfe56a5e90791ae5234
+Checksum=c72cce84e4d9cd630a57a161d6467cde72011094
 Encoding=UTF-8
 Highlighting=INI Files
 Highlighting Set By User=true
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,7,4,4,49,0
+Time=2020,7,5,1,12,31
 URL=file:///home/govi/.config/polybar/config
 
 [file:///home/govi/.config/polybar/launch.sh]
 Bookmarks=
-Checksum=13acd767b5562b9348987aee864560a73c550315
+Checksum=70be8479697cfba69b0fc9c3af4832d28d34b767
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,7,2,10,55,42
+Time=2020,7,4,21,50,17
 URL=file:///home/govi/.config/polybar/launch.sh
+
+[file:///home/govi/.config/polybar/scripts/.updates_AUR.sh.kate-swp]
+Bookmarks=
+Checksum=ffe3ea58da1f068e37e030bb609b3c036d3d2557
+Encoding=ISO-8859-15
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,7,4,22,3,42
+URL=file:///home/govi/.config/polybar/scripts/.updates_AUR.sh.kate-swp
 
 [file:///home/govi/.config/polybar/scripts/AUR_updates.sh]
 Bookmarks=
@@ -1062,19 +1050,19 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,7,4,4,49,0
+Time=2020,7,4,19,12,8
 URL=file:///home/govi/.config/polybar/scripts/cpu_load.sh
 
 [file:///home/govi/.config/polybar/scripts/cpu_temp.sh]
 Bookmarks=
-Checksum=fa1b79dee0bf2b288fd55120df897260b06c1b9e
+Checksum=22a888c2d120202b3743c9683b8dbd521482713a
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,7,4,4,49,0
+Time=2020,7,5,1,49,9
 URL=file:///home/govi/.config/polybar/scripts/cpu_temp.sh
 
 [file:///home/govi/.config/polybar/scripts/gpu_temp.sh]
@@ -1086,7 +1074,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,7,4,18,18,35
+Time=2020,7,4,19,2,27
 URL=file:///home/govi/.config/polybar/scripts/gpu_temp.sh
 
 [file:///home/govi/.config/polybar/scripts/launchpolybar]
@@ -1185,17 +1173,65 @@ Mode Set By User=false
 Time=2020,7,2,1,57,0
 URL=file:///home/govi/.config/polybar/scripts/reloadpolybar
 
-[file:///home/govi/.config/polybar/scripts/updates.sh]
+[file:///home/govi/.config/polybar/scripts/searching.sh]
 Bookmarks=
-Checksum=37241d2efa6a6347308c1a55eb029167ff92ad5d
+Checksum=1e79eb79f76f8ea6da87b54e70df6aa9902d67b3
 Encoding=UTF-8
 Highlighting=Bash
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-Time=2020,7,4,18,45,38
+Time=2020,7,5,1,18,56
+URL=file:///home/govi/.config/polybar/scripts/searching.sh
+
+[file:///home/govi/.config/polybar/scripts/updates]
+Bookmarks=
+Checksum=f9bcac366e67b9289d1b5363c3148a5b8999ccbc
+Encoding=UTF-8
+Highlighting=None
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+Time=2020,7,4,23,44,53
+URL=file:///home/govi/.config/polybar/scripts/updates
+
+[file:///home/govi/.config/polybar/scripts/updates.sh]
+Bookmarks=
+Checksum=f3509c64ea7c4fe3fec5bc8fe7e4e55ab857b10f
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,7,4,20,18,59
 URL=file:///home/govi/.config/polybar/scripts/updates.sh
+
+[file:///home/govi/.config/polybar/scripts/updates_AUR.sh]
+Bookmarks=
+Checksum=45d2c6263514de36de5a83ba76cd07046bbf468d
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,7,5,1,12,31
+URL=file:///home/govi/.config/polybar/scripts/updates_AUR.sh
+
+[file:///home/govi/.config/polybar/scripts/updates_pacman.sh]
+Bookmarks=
+Checksum=b68ac20600553647173dfaff90f20ce5949632e8
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+Time=2020,7,5,1,12,31
+URL=file:///home/govi/.config/polybar/scripts/updates_pacman.sh
 
 [file:///home/govi/.config/terminator/config]
 Bookmarks=
@@ -1557,18 +1593,6 @@ Mode Set By User=false
 Time=2020,6,25,14,0,30
 URL=file:///home/govi/.local/share/applications/Photoshop.desktop
 
-[file:///home/govi/.local/share/applications/Pycharm.desktop]
-Bookmarks=
-Checksum=8d9ef3a112f2a72e4406d32ebe75b0ad5266fcfd
-Encoding=UTF-8
-Highlighting=.desktop
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=.desktop
-Mode Set By User=false
-Time=2020,6,4,14,59,46
-URL=file:///home/govi/.local/share/applications/Pycharm.desktop
-
 [file:///home/govi/.local/share/applications/Uplay.desktop]
 Bookmarks=
 Checksum=e02d94c7e15adc98021c7fa1b8d73efeed84c9aa
@@ -1580,18 +1604,6 @@ Mode=.desktop
 Mode Set By User=false
 Time=2020,6,11,23,20,53
 URL=file:///home/govi/.local/share/applications/Uplay.desktop
-
-[file:///home/govi/.local/share/applications/Wine regedit.desktop]
-Bookmarks=
-Checksum=e08c70cf3c896bab91a31c72deb5348c7b863fa6
-Encoding=UTF-8
-Highlighting=.desktop
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=.desktop
-Mode Set By User=false
-Time=2020,6,4,0,11,15
-URL=file:///home/govi/.local/share/applications/Wine regedit.desktop
 
 [file:///home/govi/.local/share/applications/gimp.desktop]
 Bookmarks=
@@ -1929,18 +1941,6 @@ Mode Set By User=false
 Time=2020,6,8,14,54,9
 URL=file:///home/govi/Escritorio/wine-tkg-git/proton-tkg/proton-tkg.sh
 
-[file:///home/govi/Escritorio/wine-tkg-git/wine-tkg-git/customization.cfg]
-Bookmarks=
-Checksum=c672c7af7bbe744930d46cac2bc47f8f41f71c6f
-Encoding=UTF-8
-Highlighting=Nagios
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Nagios
-Mode Set By User=false
-Time=2020,6,4,0,3,24
-URL=file:///home/govi/Escritorio/wine-tkg-git/wine-tkg-git/customization.cfg
-
 [file:///home/govi/Escritorio/wine-tkg/wine-tkg-git/PKGBUILD]
 Bookmarks=
 Checksum=d97c962473c270e7f4ae3dd5d582a9bfa5ee82d9
@@ -2265,18 +2265,6 @@ Mode Set By User=false
 Time=2020,6,6,16,37,25
 URL=file:///home/govi/Games/Wine/wine-dxvk/user.reg
 
-[file:///home/govi/Games/Wine/wine-dxvk_1.7/version]
-Bookmarks=
-Checksum=19094084f60fda7d7e8151900a7e8050503648b7
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,6,4,14,57,31
-URL=file:///home/govi/Games/Wine/wine-dxvk_1.7/version
-
 [file:///home/govi/Games/Wine/wine-pfx_tkg/version]
 Bookmarks=
 Checksum=a7efefb44f42d9f296606f7dc9f3b4bb57965355
@@ -2300,18 +2288,6 @@ Mode=WINE Config
 Mode Set By User=false
 Time=2020,6,6,16,35,43
 URL=file:///home/govi/Games/Wine/wine-tkg/user.reg
-
-[file:///home/govi/Games/Wine/wine-tkg_4.7/version]
-Bookmarks=
-Checksum=a7efefb44f42d9f296606f7dc9f3b4bb57965355
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-Time=2020,6,4,14,58,8
-URL=file:///home/govi/Games/Wine/wine-tkg_4.7/version
 
 [file:///home/govi/Photoshop_dxgi.log]
 Bookmarks=
@@ -2396,18 +2372,6 @@ Mode=Normal
 Mode Set By User=false
 Time=2020,6,6,2,27,32
 URL=file:///home/govi/Programas/yay/src/gopath/pkg/mod/github.com/!morganamilo/go-srcinfo@v1.0.0/testdata/srcinfos/good/ebtables-git
-
-[file:///home/govi/Scripts/Bash/Config.bak.sh]
-Bookmarks=
-Checksum=dd082bede97b3e51d7183087cac6e4729d1199a1
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-Time=2020,6,4,14,3,39
-URL=file:///home/govi/Scripts/Bash/Config.bak.sh
 
 [file:///home/govi/Scripts/Bash/Games/Green Hell.sh]
 Bookmarks=
@@ -2555,14 +2519,14 @@ URL=file:///home/govi/Scripts/Bash/imwheel.sh
 
 [file:///home/govi/Scripts/Logs/Cron/crontab.log]
 Bookmarks=
-Checksum=ee3f4af581c3c1bd43728964fd4fda0228d0d243
+Checksum=0e0558668c3ce668763f2354fdeb6ff37cdde10b
 Encoding=UTF-8
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-Time=2020,7,3,22,5,5
+Time=2020,7,4,22,5,4
 URL=file:///home/govi/Scripts/Logs/Cron/crontab.log
 
 [file:///home/govi/Wine/wine-pfx_5.10/user.reg]

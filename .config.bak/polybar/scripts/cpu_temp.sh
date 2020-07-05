@@ -11,13 +11,13 @@
 
 temp=$(cat /sys/devices/platform/coretemp.0/hwmon/hwmon1/temp1_input | cut -c -2)
 
-if [ $temp -ge 20 -a $temp -lt 50 ];then
+if [ $temp -ge 20 -a $temp -lt 50 ]; then
     echo "  "%{F#0095ff}"$temp"°C%{F-}
     
-elif [ $temp -ge 50 -a $temp -lt 70 ];then
+elif [ $temp -ge 50 -a $temp -lt 70 ]; then
     echo 🔥 %{F#fdbc4b}"$temp"°C%{F-}
     
-elif [ $temp -ge 70 ];then
-    echo 🔥 %{F#0095ff}"$temp"°C%{F-}
+elif [ $temp -ge 70 ]; then
+    echo 🔥 %{F#f90e39}"$temp"°C%{F-}
     
 fi

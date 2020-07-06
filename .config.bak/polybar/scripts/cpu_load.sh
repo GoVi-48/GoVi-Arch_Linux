@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-load=$( echo $(top -b -n1 | grep "Cpu(s)" | awk '{print $2 + $4}'))
+load=$(echo $(top -b -n1 | grep "Cpu(s)" | awk '{print $2 + $4}'))
 
 if [ $load -ge 0 -a $load -lt 10 ];then
     echo "  $load% ▁"

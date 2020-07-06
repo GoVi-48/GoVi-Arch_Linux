@@ -75,7 +75,7 @@ cursor-scroll = ns-resize
 ; tray-offset-y = 0
 ; tray-scale = 1.0
 
-modules-left = powermenu filesystem_root filesystem_home networkspeeddown networkspeedup searching_pacman updates_pacman searching_AUR updates_AUR
+modules-left = powermenu filesystem_root filesystem_home networkspeeddown networkspeedup updates_pacman updates_AUR
 modules-center = 
 modules-right = memory cpu_load cpu_temp gpu_temp mb_temp alsa date
 
@@ -148,30 +148,17 @@ exec = ~/.config/polybar/scripts/updates_pacman.sh
 click-left = alacritty -e sudo pacman -Syu
 interval = 1000
 
-[module/searching_pacman]
-type = custom/script
-exec = ~/.config/polybar/scripts/searching_pacman.sh
-click-left = alacritty -e yay -Syua
-interval = 5
-
 [module/updates_AUR]
 type = custom/script
 exec = ~/.config/polybar/scripts/updates_AUR.sh
 click-left = alacritty -e yay -Syua
 interval = 1000
 
-[module/searching_AUR]
-type = custom/script
-exec = ~/.config/polybar/scripts/searching_AUR.sh
-click-left = alacritty -e yay -Syua
-interval = 5
-
 [module/memory]
-type = internal/memory
-interval = 2
-format-prefix = " "
-format-prefix-foreground = ${colors.foreground-alt}
-label =   0%gb_used%
+type = custom/script
+exec = ~/.config/polybar/scripts/mem_load.sh
+click-left = alacritty -e htop
+interval = 1.5
 
 [module/cpu_load]
 type = custom/script

@@ -75,7 +75,7 @@ cursor-scroll = ns-resize
 ; tray-offset-y = 0
 ; tray-scale = 1.0
 
-modules-left = powermenu filesystem_root filesystem_home networkspeeddown networkspeedup updates_pacman updates_AUR
+modules-left = powermenu filesystem_root filesystem_home networkspeeddown networkspeedup updates_pacman updates_AUR email
 modules-center = 
 modules-right = memory cpu_load cpu_temp gpu_temp mb_temp alsa date
 
@@ -115,14 +115,14 @@ menu-2-1-exec = menu-open-0
 type = custom/script
 format-prefix = "🗄 /: "
 exec = df -h / --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
-click-left = dolphin /
+click-left = $FILEMANAGER /
 interval = 25
 
 [module/filesystem_home]
 type = custom/script
 format-prefix = "🗄 /home: "
 exec = df -h /home --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
-click-left = dolphin ~/
+click-left = $FILEMANAGER ~/
 interval = 25
 
 [module/networkspeeddown]
@@ -145,43 +145,49 @@ interval = 1
 [module/updates_pacman]
 type = custom/script
 exec = ~/.config/polybar/scripts/updates_pacman.sh
-click-left = alacritty -e sudo pacman -Syu
+click-left = $TERMINAL -e sudo pacman -Syu
 interval = 1000
 
 [module/updates_AUR]
 type = custom/script
 exec = ~/.config/polybar/scripts/updates_AUR.sh
-click-left = alacritty -e yay -Syua
+click-left = $TERMINAL -e yay -Syua
 interval = 1000
+
+[module/email]
+type = custom/script
+exec = ~/.config/polybar/scripts/email.sh
+click-left = $BROWSER "http://www.gmail.com"
+interval = 60
 
 [module/memory]
 type = custom/script
 exec = ~/.config/polybar/scripts/mem_load.sh
-click-left = alacritty -e htop
+click-left = $TERMINAL -e htop
 interval = 1.5
 
 [module/cpu_load]
 type = custom/script
 exec = ~/.config/polybar/scripts/cpu_load.sh
-click-left = alacritty -e htop
+click-left = $TERMINAL -e htop
 interval = 1.5
 
 [module/cpu_temp]
 type = custom/script
 exec = ~/.config/polybar/scripts/cpu_temp.sh
-click-left = alacritty -e htop
+click-left = $TERMINAL -e htop
 interval = 1.5
 
 [module/gpu_temp]
 type = custom/script
 exec = ~/.config/polybar/scripts/gpu_temp.sh
-click-left = alacritty -e htop
+click-left = $TERMINAL -e htop
 interval = 1.5
 
 [module/mb_temp]
 type = custom/script
 exec = ~/.config/polybar/scripts/mb_temp.sh
-click-left = alacritty -e htop
+click-left = $TERMINAL -e htop
 interval = 1.5
 
 [module/alsa]
@@ -202,7 +208,7 @@ type = internal/date
 interval = 5
 label = %date% %time%
 date ="	📅 %a %d/%m/%Y "
-date-alt = 
+date-alt = "	📅 %a %d/%m/%Y "
 time =
 time-alt = "🕓 %H:%M "
 

@@ -1,12 +1,15 @@
-2020/07/06-00:46:09.518 e8ad4 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/06-00:46:09.518 e8ad4 Recovering log #131
-2020/07/06-00:46:09.530 e8ad4 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000131.log 
-2020/07/06-00:46:13.791 e8b68 Level-0 table #137: started
-2020/07/06-00:46:13.826 e8b68 Level-0 table #137: 1728599 bytes OK
-2020/07/06-00:46:13.828 e8b68 Delete type=0 #131
-2020/07/06-00:46:24.675 e8b68 Compacting 1@1 + 1@2 files
-2020/07/06-00:46:24.686 e8b68 Generated table #138@1: 149 keys, 82516 bytes
-2020/07/06-00:46:24.686 e8b68 Compacted 1@1 + 1@2 files => 82516 bytes
-2020/07/06-00:46:24.692 e8b68 compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/07/06-00:46:24.692 e8b68 Delete type=2 #134
-2020/07/06-00:46:24.692 e8b68 Delete type=2 #137
+2020/07/07-01:05:53.243 225d93 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/07-01:05:53.244 225d93 Recovering log #147
+2020/07/07-01:05:53.244 225d93 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000147.log 
+2020/07/07-01:15:14.764 1a7f3d Level-0 table #152: started
+2020/07/07-01:15:14.787 1a7f3d Level-0 table #152: 928932 bytes OK
+2020/07/07-01:15:14.790 1a7f3d Delete type=0 #147
+2020/07/07-01:15:14.790 1a7f3d Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/07-01:15:14.791 1a7f3d Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x08\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x001\x00/' @ 126608 : 1
+2020/07/07-01:15:14.791 1a7f3d Compacting 1@1 + 1@2 files
+2020/07/07-01:15:14.796 1a7f3d Generated table #153@1: 135 keys, 109332 bytes
+2020/07/07-01:15:14.796 1a7f3d Compacted 1@1 + 1@2 files => 109332 bytes
+2020/07/07-01:15:14.798 1a7f3d compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/07-01:15:14.798 1a7f3d Delete type=2 #149
+2020/07/07-01:15:14.798 1a7f3d Delete type=2 #152
+2020/07/07-01:15:14.799 1a7f3d Manual compaction at level-1 from '\x00\x08\x01\x02\x01\x1c\x00S\x00t\x00o\x00r\x00e\x00d\x00C\x00a\x00c\x00h\x00e\x00S\x00t\x00a\x00t\x00e\x00:\x00:\x00/\x00m\x00a\x00i\x00l\x00/\x00u\x00/\x001\x00/' @ 126608 : 1 .. (end); will stop at (end)

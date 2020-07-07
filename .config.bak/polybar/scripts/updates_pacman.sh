@@ -7,6 +7,7 @@ if [ $updates_pacman -eq 0 ]; then
     
 else
     echo %{F#0095ff}"  %{F-}$updates_pacman pacman"
+    paplay $HOME/.local/share/sounds/long-dang.ogg
 fi
  
 

@@ -7,4 +7,5 @@ if [ $updates_AUR -eq 0 ]; then
 
 else
     echo %{F#e29519}"  %{F-}$updates_AUR AUR"
+    paplay $HOME/.local/share/sounds/long-dang.ogg
 fi

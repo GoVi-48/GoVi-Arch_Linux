@@ -33,6 +33,6 @@ if [ $email_count -eq 0 ]; then
     echo "📭"
 else
     echo "📬 $email_count"
-    kdialog --title "📬 $email_count" --passivepopup "$email1_title $email2_title" 5 &
-fi    
-    
+    kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/apps/64/gmail.svg" --title "📬 $email_count" --passivepopup "$email1_title $email2_title" 8 &
+    paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+fi

@@ -19,13 +19,13 @@ email_count=$(( email1_count + email2_count ))
 
 email1_title=$(
 curl -u $username1:$password1 --silent "https://mail.google.com/mail/feed/atom" |
-tr -d '\n' | awk -F '<entry>' '{for (i=2; i<=NF; i++) {print $i}}' |
+awk -F '<entry>' '{for (i=2; i<=NF; i++) {print $i}}' |
 sed -n "s/<title>\(.*\)<\/title.*name>\(.*\)<\/name>.*/\2 - \1/p"
 )
 
 email2_title=$(
 curl -u $username2:$password2 --silent "https://mail.google.com/mail/feed/atom" |
-tr -d '\n' | awk -F '<entry>' '{for (i=2; i<=NF; i++) {print $i}}' |
+awk -F '<entry>' '{for (i=2; i<=NF; i++) {print $i}}' |
 sed -n "s/<title>\(.*\)<\/title.*name>\(.*\)<\/name>.*/\2 - \1/p"
 )
 

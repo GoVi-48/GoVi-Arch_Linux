@@ -75,7 +75,7 @@ cursor-scroll = ns-resize
 ; tray-offset-y = 0
 ; tray-scale = 1.0
 
-modules-left = powermenu filesystem_root filesystem_home networkspeeddown networkspeedup updates_pacman updates_AUR email
+modules-left = powermenu filesystem_root filesystem_home networkspeeddown networkspeedup email updates_pacman updates_AUR
 modules-center = 
 modules-right = memory cpu_load cpu_temp gpu_temp mb_temp alsa date
 
@@ -116,14 +116,14 @@ type = custom/script
 format-prefix = "🗄 /: "
 exec = df -h / --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
 click-left = $FILEMANAGER /
-interval = 25
+interval = 60
 
 [module/filesystem_home]
 type = custom/script
 format-prefix = "🗄 /home: "
 exec = df -h /home --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
 click-left = $FILEMANAGER ~/
-interval = 25
+interval = 60
 
 [module/networkspeeddown]
 type = internal/network
@@ -158,7 +158,7 @@ interval = 1000
 type = custom/script
 exec = ~/.config/polybar/scripts/email.sh
 click-left = $BROWSER "http://www.gmail.com"
-interval = 60
+interval = 300
 
 [module/memory]
 type = custom/script
@@ -205,13 +205,12 @@ ramp-volume-2 = 
 
 [module/date]
 type = internal/date
-interval = 5
 label = %date% %time%
 date ="	📅 %a %d/%m/%Y "
 date-alt = "	📅 %a %d/%m/%Y "
 time =
 time-alt = "🕓 %H:%M "
-
+interval = 5
 
 # =================================================================================================== #
 

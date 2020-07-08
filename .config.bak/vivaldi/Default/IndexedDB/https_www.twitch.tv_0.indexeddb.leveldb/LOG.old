@@ -1,15 +1,15 @@
-2020/07/08-05:13:18.671 966c4 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/08-05:13:18.671 966c4 Recovering log #507
-2020/07/08-05:13:18.671 966c4 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/000507.log 
-2020/07/08-05:13:50.684 ba7 Level-0 table #512: started
-2020/07/08-05:13:50.691 ba7 Level-0 table #512: 470 bytes OK
-2020/07/08-05:13:50.695 ba7 Delete type=0 #507
-2020/07/08-05:13:50.695 ba7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/07/08-05:13:50.695 ba7 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0f\x00c\x00u\x00r\x00r\x00e\x00n\x00t\x00_\x00u\x00s\x00e\x00r\x00_\x00i\x00d' @ 1601 : 1
-2020/07/08-05:13:50.695 ba7 Compacting 1@1 + 1@2 files
-2020/07/08-05:13:50.697 ba7 Generated table #513@1: 20 keys, 574 bytes
-2020/07/08-05:13:50.697 ba7 Compacted 1@1 + 1@2 files => 574 bytes
-2020/07/08-05:13:50.698 ba7 compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/07/08-05:13:50.699 ba7 Delete type=2 #509
-2020/07/08-05:13:50.699 ba7 Delete type=2 #512
-2020/07/08-05:13:50.699 ba7 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0f\x00c\x00u\x00r\x00r\x00e\x00n\x00t\x00_\x00u\x00s\x00e\x00r\x00_\x00i\x00d' @ 1601 : 1 .. (end); will stop at (end)
+2020/07/08-17:34:21.282 157ffa Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/08-17:34:21.282 157ffa Recovering log #515
+2020/07/08-17:34:21.282 157ffa Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_www.twitch.tv_0.indexeddb.leveldb/000515.log 
+2020/07/08-17:34:53.293 ba7 Level-0 table #520: started
+2020/07/08-17:34:53.299 ba7 Level-0 table #520: 470 bytes OK
+2020/07/08-17:34:53.303 ba7 Delete type=0 #515
+2020/07/08-17:34:53.304 ba7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/08-17:34:53.304 ba7 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0f\x00c\x00u\x00r\x00r\x00e\x00n\x00t\x00_\x00u\x00s\x00e\x00r\x00_\x00i\x00d' @ 1625 : 1
+2020/07/08-17:34:53.304 ba7 Compacting 1@1 + 1@2 files
+2020/07/08-17:34:53.305 ba7 Generated table #521@1: 20 keys, 574 bytes
+2020/07/08-17:34:53.305 ba7 Compacted 1@1 + 1@2 files => 574 bytes
+2020/07/08-17:34:53.307 ba7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/08-17:34:53.307 ba7 Delete type=2 #520
+2020/07/08-17:34:53.307 ba7 Delete type=2 #517
+2020/07/08-17:34:53.307 ba7 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0f\x00c\x00u\x00r\x00r\x00e\x00n\x00t\x00_\x00u\x00s\x00e\x00r\x00_\x00i\x00d' @ 1625 : 1 .. (end); will stop at (end)

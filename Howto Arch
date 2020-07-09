@@ -239,6 +239,7 @@ $ sudo vim /etc/sudoers
 # -----------------------------------------------------------------------------
 %wheel ALL=(ALL) ALL
 Defaults env_reset,pwfeedback
+Defaults editor=/usr/bin/vim, !env_editor
 # -----------------------------------------------------------------------------
 
 # Tuning PulseAudio

@@ -113,7 +113,7 @@ wmclassmatch=1
 [19]
 Description=Preferencias para la aplicación spectacle
 clientmachine=localhost
-position=635,109
+position=631,70
 positionrule=4
 size=1016,463
 sizerule=4
@@ -139,9 +139,9 @@ wmclassmatch=1
 
 [21]
 Description=Preferencias para la aplicación dolphin
-clientmachine=localhost
 position=-4,36
 positionrule=4
+types=959
 wmclass=dolphin
 wmclassmatch=1
 
@@ -278,6 +278,16 @@ types=1
 wmclass=terminator
 wmclassmatch=1
 
+[33]
+Description=Preferencias para la aplicación vivaldi
+position=0,0
+positionrule=4
+size=0,0
+sizerule=4
+types=959
+wmclass=vivaldi-bin
+wmclassmatch=1
+
 [4]
 Description=Preferencias de la ventana de fontforge
 clientmachinematch=0
@@ -345,4 +355,4 @@ wmclass=alacritty
 wmclassmatch=1
 
 [General]
-count=32
+count=33

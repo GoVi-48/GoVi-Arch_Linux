@@ -117,8 +117,9 @@ $ sh winetricks corefonts vcrun6
 $ wget -P ~/Escritorio https://github.com/doitsujin/dxvk/releases/download/v1.7/dxvk-1.7.tar.gz
 $ tar xvzf ~/Escritorio/dxvk-1.7.tar.gz -C ~/Escritorio
 $ mkdir ~/Escritorio/wine-pfx_dxvk
-$ ~/Escritorio/dxvk-1.7/./setup_dxvk.sh install
-$ mv ~/.wine/ ~/Escritorio/wine-pfx_dxvk
+$ cd ~/Escritorio/dxvk-1.7
+$ ./setup_dxvk.sh install
+$ mv ~/.wine/* ~/Escritorio/wine-pfx_dxvk
 $ winecfg
 
 # Wine TKG

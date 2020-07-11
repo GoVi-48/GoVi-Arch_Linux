@@ -29,8 +29,8 @@ awk -F '<entry>' '{for (i=2; i<=NF; i++) {print $i}}' |
 sed -n "s/<title>\(.*\)<\/title.*name>\(.*\)<\/name>.*/\2 - \1/p"
 )
 
-sound_email_off=$HOME/.config/polybar/scripts/sound_email_off
 email_title=$(echo $email1_title ; echo $email2_title)
+sound_email_off=$HOME/.config/polybar/scripts/sound_email_off
 
 if [ $email_count -eq 0 ]; then
     echo "📭"
@@ -38,7 +38,7 @@ if [ $email_count -eq 0 ]; then
 
 elif [ $email_count -gt 0 ] && [ ! -f "$sound_email_off" ] && ! pgrep -x "vlc|elisa|kodi" > /dev/null; then
     echo "📬 $email_count"
-    kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/apps/64/gmail.svg" --title "📬 $email_count" --passivepopup "$email_title" 8 &
+    kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/apps/64/gmail.svg" --passivepopup "$email_title" 8 &
     paplay $HOME/.local/share/sounds/cause-and-effect.ogg
     touch $sound_email_off
 

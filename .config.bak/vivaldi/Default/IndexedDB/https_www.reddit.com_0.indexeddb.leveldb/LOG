@@ -1,15 +1,15 @@
-2020/07/09-16:55:49.649 aecee Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/09-16:55:49.650 aecee Recovering log #575
-2020/07/09-16:55:49.650 aecee Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000575.log 
-2020/07/09-16:56:21.943 95b Level-0 table #580: started
-2020/07/09-16:56:21.946 95b Level-0 table #580: 1347 bytes OK
-2020/07/09-16:56:21.948 95b Delete type=0 #575
-2020/07/09-16:56:21.948 95b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/07/09-16:56:21.949 95b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 1935 : 1
-2020/07/09-16:56:21.949 95b Compacting 1@1 + 1@2 files
-2020/07/09-16:56:21.950 95b Generated table #581@1: 20 keys, 1339 bytes
-2020/07/09-16:56:21.950 95b Compacted 1@1 + 1@2 files => 1339 bytes
-2020/07/09-16:56:21.952 95b compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/07/09-16:56:21.953 95b Delete type=2 #580
-2020/07/09-16:56:21.953 95b Delete type=2 #577
-2020/07/09-16:56:21.953 95b Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 1935 : 1 .. (end); will stop at (end)
+2020/07/11-14:58:46.395 17d3b7 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/11-14:58:46.395 17d3b7 Recovering log #587
+2020/07/11-14:58:46.395 17d3b7 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_www.reddit.com_0.indexeddb.leveldb/000587.log 
+2020/07/11-14:59:19.343 164bb3 Level-0 table #592: started
+2020/07/11-14:59:19.350 164bb3 Level-0 table #592: 2656 bytes OK
+2020/07/11-14:59:19.352 164bb3 Delete type=0 #587
+2020/07/11-14:59:19.352 164bb3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/11-14:59:19.352 164bb3 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 1971 : 1
+2020/07/11-14:59:19.352 164bb3 Compacting 1@1 + 1@2 files
+2020/07/11-14:59:19.354 164bb3 Generated table #593@1: 20 keys, 1258 bytes
+2020/07/11-14:59:19.354 164bb3 Compacted 1@1 + 1@2 files => 1258 bytes
+2020/07/11-14:59:19.355 164bb3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/11-14:59:19.355 164bb3 Delete type=2 #592
+2020/07/11-14:59:19.355 164bb3 Delete type=2 #589
+2020/07/11-14:59:19.356 164bb3 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x15\x00v\x002\x00_\x00e\x00v\x00e\x00n\x00t\x00_\x00b\x00o\x00i\x00l\x00e\x00r\x00_\x00p\x00l\x00a\x00t\x00e' @ 1971 : 1 .. (end); will stop at (end)

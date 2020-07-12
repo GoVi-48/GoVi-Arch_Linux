@@ -57,14 +57,14 @@ module-margin-right = 1
 ;scroll-up = i3wm-wsnext
 ;scroll-down = i3wm-wsprev
 
-# fc-list | grep -i ""
-font-0 = JetBrains Mono:style=Regular:pixelsize=10;
-font-1 = Hack:style=Regular:pixelsize=10;
-font-2 = Noto Color Emoji:style=Regular:fontformat=truetype:scale=10:antialias=true;
-font-3 = Material Icons:style=Regular:fontformat=truetype:scale=10:antialias=true;
-font-4 = Hack Nerd Font:style=Regular:fontformat=truetype:scale=10:antialias=true;
-font-5 = FontAwesome:style=Regular:fontformat=truetype:scale=10:antialias=true;
-font-6 = GoVi:style=Regular:fontformat=truetype:scale=10:antialias=true;
+# $ fc-list | grep -i ""
+# $ fc-cache -vf
+font-0 = Hack:style=Regular:pixelsize=10;
+font-1 = Hack Nerd Font:style=Regular:fontformat=truetype:scale=10:antialias=true;
+font-2 = GoVi_Icons:style=Regular:fontformat=truetype:scale=12:antialias=true;
+font-3 = Noto Color Emoji:style=Regular:fontformat=truetype:scale=10:antialias=true;
+font-4 = FontAwesome:style=Regular:fontformat=truetype:scale=10:antialias=true;
+font-5 = Material Icons:style=Regular:fontformat=truetype:scale=10:antialias=true;
 
 cursor-click = pointer
 cursor-scroll = ns-resize
@@ -75,7 +75,7 @@ cursor-scroll = ns-resize
 ; tray-offset-y = 0
 ; tray-scale = 1.0
 
-modules-left = powermenu filesystem_root filesystem_home networkspeeddown networkspeedup email updates_pacman updates_AUR
+modules-left = reload_polybar filesystem_root filesystem_home networkspeeddown networkspeedup email updates_pacman updates_AUR
 modules-center = 
 modules-right = memory cpu_load cpu_temp gpu_temp mb_temp alsa date
 
@@ -84,32 +84,10 @@ modules-right = memory cpu_load cpu_temp gpu_temp mb_temp alsa date
                                             # Modules #
 # =================================================================================================== #
 
-[module/powermenu]
-type = custom/menu
-expand-right = true
-format-spacing = 1
-
-label-open = "  "
-label-open-foreground = ${colors.secondary}
-label-close =  Cancel
-label-close-foreground = ${colors.secondary}
-label-separator = |
-label-separator-foreground = ${colors.foreground-alt}
-
-menu-0-0 = Reboot
-menu-0-0-exec = menu-open-1
-menu-0-1 = power off
-menu-0-1-exec = menu-open-2
-
-menu-1-0 = Cancel
-menu-1-0-exec = menu-open-0
-menu-1-1 = Reboot
-menu-1-1-exec = sudo reboot
-
-menu-2-0 = Power Off
-menu-2-0-exec = sudo poweroff
-menu-2-1 = cancel
-menu-2-1-exec = menu-open-0
+[module/reload_polybar]
+type = custom/script
+exec = echo "  "
+click-left = ~/.config/polybar/scripts/reload_polybar.sh
 
 [module/filesystem_root]
 type = custom/script
@@ -162,6 +140,7 @@ interval = 300
 
 [module/memory]
 type = custom/script
+format-prefix = "%{T3} 4 %{T-}"
 exec = ~/.config/polybar/scripts/mem_load.sh
 click-left = $TERMINAL -e htop
 interval = 1.5
@@ -213,6 +192,33 @@ time-alt = "🕓 %H:%M "
 interval = 5
 
 # =================================================================================================== #
+
+[module/powermenu]
+type = custom/menu
+expand-right = true
+format-spacing = 1
+
+label-open = "  "
+label-open-foreground = ${colors.secondary}
+label-close =  Cancel
+label-close-foreground = ${colors.secondary}
+label-separator = |
+label-separator-foreground = ${colors.foreground-alt}
+
+menu-0-0 = Reboot
+menu-0-0-exec = menu-open-1
+menu-0-1 = power off
+menu-0-1-exec = menu-open-2
+
+menu-1-0 = Cancel
+menu-1-0-exec = menu-open-0
+menu-1-1 = Reboot
+menu-1-1-exec = sudo reboot
+
+menu-2-0 = Power Off
+menu-2-0-exec = sudo poweroff
+menu-2-1 = cancel
+menu-2-1-exec = menu-open-0
 
 
 [module/wlan]

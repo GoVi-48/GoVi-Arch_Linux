@@ -341,8 +341,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="150.301"
-       y="194.387"
+       x="669"
+       y="905.772"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -545,8 +545,8 @@
        page="0"
        x="0"
        y="0"
-       w="1"
-       h="1"
+       w="474"
+       h="487"
        visible="1"
        state="2"
        placement="5" />
@@ -560,8 +560,8 @@
        rotateCounterClockwise="1"
        x="0"
        y="0"
-       w="1"
-       h="1"
+       w="474"
+       h="487"
        visible="1"
        state="2"
        placement="5" />
@@ -571,8 +571,8 @@
        align-to="4"
        x="0"
        y="0"
-       w="1"
-       h="1"
+       w="474"
+       h="487"
        visible="1"
        state="2"
        placement="5" />
@@ -581,9 +581,9 @@
        panedpos="135"
        x="0"
        y="0"
-       w="1"
-       h="1"
-       visible="1"
+       w="474"
+       h="260"
+       visible="0"
        state="2"
        placement="1" />
     <group
@@ -596,8 +596,8 @@
     <group
        id="documentoptions"
        state="1"
-       x="656"
-       y="541"
+       x="1720"
+       y="0"
        w="200"
        h="200"
        visible="0"
@@ -618,8 +618,8 @@
        id="object"
        x="0"
        y="0"
-       w="1"
-       h="1"
+       w="474"
+       h="256"
        visible="1"
        state="2"
        placement="2" />
@@ -630,8 +630,8 @@
        path=""
        x="0"
        y="0"
-       w="1"
-       h="1"
+       w="474"
+       h="487"
        visible="1"
        state="2"
        placement="5">
@@ -647,7 +647,7 @@
        default="org.inkscape.output.svg.plain"
        append_extension="1"
        enable_preview="1"
-       path="/home/govi/Escritorio"
+       path="/home/govi/.local/share/fonts"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -697,8 +697,8 @@
        maxDepth="20"
        x="0"
        y="0"
-       w="1"
-       h="1"
+       w="474"
+       h="487"
        visible="1"
        state="2"
        placement="5" />
@@ -722,14 +722,14 @@
     <group
        id="undo-history" />
     <group
-       id="objects"
-       x="0"
-       y="0"
-       w="1"
-       h="1"
-       visible="1"
+       placement="5"
        state="2"
-       placement="5" />
+       visible="1"
+       h="487"
+       w="474"
+       y="0"
+       x="0"
+       id="objects" />
   </group>
   <group
      id="printing">
@@ -1009,11 +1009,11 @@
     <group
        id="rendering" />
     <group
-       value="2"
-       id="defaultwindowsize" />
+       id="defaultwindowsize"
+       value="2" />
     <group
-       unitType="2"
-       id="font" />
+       id="font"
+       unitType="2" />
   </group>
   <group
      id="extensions"
@@ -1052,7 +1052,7 @@
        y="36"
        fullscreen="0"
        id="geometry"
-       maximized="0" />
+       maximized="1" />
     <group
        id="XYfront" />
     <group
@@ -1150,23 +1150,23 @@
      id="ui"
      language="" />
   <group
-     symbolicDefaultColors="1"
-     symbolicIcons="1"
-     darkTheme="1"
-     preferDarkTheme="1"
-     menuIcons_objects="0"
-     menuIcons_layers="0"
-     menuIcons_canvas="0"
-     iconTheme="breeze"
-     gtkTheme="Breeze"
-     defaultIconTheme="GoVi-Ic"
+     id="theme"
      defaultTheme="Breeze"
-     id="theme">
+     defaultIconTheme="GoVi-Ic"
+     gtkTheme="Breeze"
+     iconTheme="breeze"
+     menuIcons_canvas="0"
+     menuIcons_layers="0"
+     menuIcons_objects="0"
+     preferDarkTheme="1"
+     darkTheme="1"
+     symbolicIcons="1"
+     symbolicDefaultColors="1">
     <group
-       symbolicErrorColor="3661911039"
-       symbolicWarningColor="4134797567"
-       symbolicSuccessColor="665739519"
+       id="breeze"
        symbolicBaseColor="4025545215"
-       id="breeze" />
+       symbolicSuccessColor="665739519"
+       symbolicWarningColor="4134797567"
+       symbolicErrorColor="3661911039" />
   </group>
 </inkscape>

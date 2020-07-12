@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
-load=$(echo $(free -h | grep "Mem" | awk '{print $3}' | cut -c -3 | sed "s/,/./g"))
+free -h |
+awk '/^Mem:/ {print $3}' |
+sed "s/Mi/ MB/g ; s/Gi/ GB/g ; s/,/./g"
 
-if [ $echo "$load => 0" ]; then
-    echo "  $load GB"
-    
-fi

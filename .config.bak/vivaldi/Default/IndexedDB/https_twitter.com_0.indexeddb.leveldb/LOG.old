@@ -1,8 +1,15 @@
-2020/06/27-22:12:29.232 d860 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/06/27-22:12:29.232 d860 Recovering log #39
-2020/06/27-22:12:29.232 d860 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000039.log 
-2020/06/27-22:12:43.814 6f8 Level-0 table #43: started
-2020/06/27-22:12:43.814 6f8 Level-0 table #43: 0 bytes OK
-2020/06/27-22:12:43.818 6f8 Delete type=0 #39
-2020/06/27-22:12:43.818 6f8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/06/27-22:12:43.818 6f8 Manual compaction at level-1 from (begin) .. (end); will stop at (end)
+2020/07/07-22:14:50.044 2ad41 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/07-22:14:50.044 2ad41 Recovering log #42
+2020/07/07-22:14:50.044 2ad41 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000042.log 
+2020/07/07-22:15:46.126 ba7 Level-0 table #46: started
+2020/07/07-22:15:46.133 ba7 Level-0 table #46: 190 bytes OK
+2020/07/07-22:15:46.137 ba7 Delete type=0 #42
+2020/07/07-22:15:46.137 ba7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/07-22:15:46.137 ba7 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 6146 : 1
+2020/07/07-22:15:46.137 ba7 Compacting 1@1 + 1@2 files
+2020/07/07-22:15:46.148 ba7 Generated table #47@1: 58 keys, 2474 bytes
+2020/07/07-22:15:46.148 ba7 Compacted 1@1 + 1@2 files => 2474 bytes
+2020/07/07-22:15:46.155 ba7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/07-22:15:46.155 ba7 Delete type=2 #46
+2020/07/07-22:15:46.155 ba7 Delete type=2 #37
+2020/07/07-22:15:46.155 ba7 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 6146 : 1 .. (end); will stop at (end)

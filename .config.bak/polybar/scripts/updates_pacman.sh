@@ -7,7 +7,9 @@ sound_pacman_off=$HOME/.config/polybar/scripts/sound_pacman_off
 
 if [ $updates_pacman -eq 0 ]; then
     echo -e "\c"
-    rm -rf $sound_pacman_off
+    if [ -f $sound_pacman_off ]; then
+        rm -rf $sound_pacman_off
+    fi
 
 elif [ $updates_pacman -gt 0 ] && [ ! -f "$sound_pacman_off" ]; then
     echo %{F#0095ff}"  %{F-}$updates_pacman pacman"

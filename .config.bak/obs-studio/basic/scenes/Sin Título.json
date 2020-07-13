@@ -1,5 +1,6 @@
 {
     "AuxAudioDevice1": {
+        "balance": 0.5,
         "deinterlace_field_order": 0,
         "deinterlace_mode": 0,
         "enabled": true,
@@ -15,6 +16,7 @@
         "monitoring_type": 0,
         "muted": false,
         "name": "Mic/Aux",
+        "prev_ver": 419430408,
         "private_settings": {},
         "push-to-mute": false,
         "push-to-mute-delay": 0,
@@ -24,9 +26,11 @@
             "device_id": "default"
         },
         "sync": 0,
+        "versioned_id": "pulse_input_capture",
         "volume": 1.0
     },
     "DesktopAudioDevice1": {
+        "balance": 0.5,
         "deinterlace_field_order": 0,
         "deinterlace_mode": 0,
         "enabled": true,
@@ -42,6 +46,7 @@
         "monitoring_type": 0,
         "muted": false,
         "name": "Audio del escritorio",
+        "prev_ver": 419430408,
         "private_settings": {},
         "push-to-mute": false,
         "push-to-mute-delay": 0,
@@ -51,6 +56,7 @@
             "device_id": "default"
         },
         "sync": 0,
+        "versioned_id": "pulse_output_capture",
         "volume": 1.0
     },
     "current_program_scene": "Escena",
@@ -68,6 +74,7 @@
         "output-timer": {
             "autoStartRecordTimer": false,
             "autoStartStreamTimer": false,
+            "pauseRecordTimer": false,
             "recordTimerHours": 0,
             "recordTimerMinutes": 0,
             "recordTimerSeconds": 30,
@@ -82,12 +89,14 @@
     "quick_transitions": [
         {
             "duration": 300,
+            "fade_to_black": false,
             "hotkeys": [],
             "id": 1,
             "name": "Corte"
         },
         {
             "duration": 300,
+            "fade_to_black": false,
             "hotkeys": [],
             "id": 2,
             "name": "Desvanecimiento"
@@ -105,6 +114,7 @@
     ],
     "sources": [
         {
+            "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
@@ -117,6 +127,7 @@
             "monitoring_type": 0,
             "muted": false,
             "name": "Escena",
+            "prev_ver": 419430408,
             "private_settings": {},
             "push-to-mute": false,
             "push-to-mute-delay": 0,
@@ -128,6 +139,7 @@
                 "items": []
             },
             "sync": 0,
+            "versioned_id": "scene",
             "volume": 1.0
         }
     ],

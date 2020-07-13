@@ -4,7 +4,9 @@ update_info=kwinrules.upd:replace-placement-string-to-enum
 [1]
 Description=Preferencias para la aplicación fontforge
 clientmachinematch=0
+maximizehoriz=true
 maximizehorizrule=4
+maximizevert=true
 maximizevertrule=4
 types=1
 wmclass=fontforge
@@ -234,7 +236,7 @@ wmclassmatch=1
 [3]
 Description=Preferencias para la aplicación fontforge
 clientmachinematch=0
-position=638,457
+position=44,234
 positionrule=4
 size=1153,485
 sizerule=4

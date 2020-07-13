@@ -93,14 +93,14 @@ click-left = ~/.config/polybar/scripts/reload_polybar.sh
 type = custom/script
 format-prefix = "🗄 /: "
 exec = df -h / --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
-click-left = $FILEMANAGER /
+click-left = dolphin /
 interval = 60
 
 [module/filesystem_home]
 type = custom/script
 format-prefix = "🗄 /home: "
 exec = df -h /home --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
-click-left = $FILEMANAGER ~/
+click-left = dolphin ~/
 interval = 60
 
 [module/networkspeeddown]
@@ -117,56 +117,55 @@ interface = enp3s0
 label-connected = "%upspeed:7%"
 format-connected = <label-connected>
 format-connected-prefix = "%{F#0095ff} %{F-}"
-format-connected-foreground = #fefefe
 interval = 1
 
 [module/updates_pacman]
 type = custom/script
 exec = ~/.config/polybar/scripts/updates_pacman.sh
-click-left = $TERMINAL -e sudo pacman -Syu
+click-left = alacritty -e sudo pacman -Syu
 interval = 1000
 
 [module/updates_AUR]
 type = custom/script
 exec = ~/.config/polybar/scripts/updates_AUR.sh
-click-left = $TERMINAL -e yay -Syua
+click-left = alacritty -e yay -Syua
 interval = 1000
 
 [module/email]
 type = custom/script
 exec = ~/.config/polybar/scripts/email.sh
-click-left = $BROWSER "http://www.gmail.com"
+click-left = vivaldi-stable "http://www.gmail.com"
 interval = 300
 
 [module/memory]
 type = custom/script
 format-prefix = "%{T3} 4 %{T-}"
 exec = ~/.config/polybar/scripts/mem_load.sh
-click-left = $TERMINAL -e htop
+click-left = alacritty -e htop
 interval = 1.5
 
 [module/cpu_load]
 type = custom/script
 exec = ~/.config/polybar/scripts/cpu_load.sh
-click-left = $TERMINAL -e htop
+click-left = alacritty -e htop
 interval = 1.5
 
 [module/cpu_temp]
 type = custom/script
 exec = ~/.config/polybar/scripts/cpu_temp.sh
-click-left = $TERMINAL -e htop
+click-left = alacritty -e htop
 interval = 1.5
 
 [module/gpu_temp]
 type = custom/script
 exec = ~/.config/polybar/scripts/gpu_temp.sh
-click-left = $TERMINAL -e htop
+click-left = alacritty -e htop
 interval = 1.5
 
 [module/mb_temp]
 type = custom/script
 exec = ~/.config/polybar/scripts/mb_temp.sh
-click-left = $TERMINAL -e htop
+click-left = alacritty -e htop
 interval = 1.5
 
 [module/alsa]

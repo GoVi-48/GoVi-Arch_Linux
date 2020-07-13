@@ -2,12 +2,14 @@
 
 # /usr/bin/sudo /usr/bin/yay -Sya > /dev/null 2>&1
 
-updates_AUR=$(yay -Qua --quiet | wc -l)
+updates_AUR=$(yay -Qua | wc -l)
 sound_AUR_off=$HOME/.config/polybar/scripts/sound_AUR_off
 
 if [ $updates_AUR -eq 0 ]; then
     echo -e "\c"
-    rm -rf $sound_AUR_off
+    if [ -f $sound_AUR_off ]; then
+        rm -rf $sound_AUR_off
+    fi
 
 elif [ $updates_AUR -gt 0 ] && [ ! -f "$sound_AUR_off" ]; then
     echo %{F#e29519}"  %{F-}$updates_AUR AUR"

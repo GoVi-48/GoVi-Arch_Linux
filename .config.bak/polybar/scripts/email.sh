@@ -34,15 +34,17 @@ sound_email_off=$HOME/.config/polybar/scripts/sound_email_off
 
 if [ $email_count -eq 0 ]; then
     echo "📭"
-    rm -rf $sound_email_off
+    if [ -f $sound_email_off ]; then
+        rm -rf $sound_email_off
+    fi   
 
 elif [ $email_count -gt 0 ] && [ ! -f "$sound_email_off" ] && ! pgrep -x "vlc|elisa|kodi" > /dev/null; then
     echo "📬 $email_count"
-    kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/apps/64/gmail.svg" --passivepopup "$email_title" 8
+    kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/apps/64/gmail.svg" --passivepopup "$email_title" 8 &
     paplay $HOME/.local/share/sounds/cause-and-effect.ogg
     touch $sound_email_off
 
 else
     echo "📬 $email_count"
-    kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/apps/64/gmail.svg" --passivepopup "$email_title" 8
+    kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/apps/64/gmail.svg" --passivepopup "$email_title" 8 &
 fi

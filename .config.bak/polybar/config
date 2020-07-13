@@ -91,14 +91,14 @@ click-left = ~/.config/polybar/scripts/reload_polybar.sh
 
 [module/filesystem_root]
 type = custom/script
-format-prefix = "🗄 /: "
+format-prefix = "%{T3}2%{T-} /: "
 exec = df -h / --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
 click-left = dolphin /
 interval = 60
 
 [module/filesystem_home]
 type = custom/script
-format-prefix = "🗄 /home: "
+format-prefix = "%{T3}2%{T-} /home: "
 exec = df -h /home --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
 click-left = dolphin ~/
 interval = 60

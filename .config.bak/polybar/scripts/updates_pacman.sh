@@ -12,11 +12,11 @@ if [ $updates_pacman -eq 0 ]; then
     fi
 
 elif [ $updates_pacman -gt 0 ] && [ ! -f "$sound_pacman_off" ]; then
-    echo %{F#0095ff}"  %{F-}$updates_pacman pacman"
+    echo %{F#0095ff}"%{T3}7  %{T-}%{F-}$updates_pacman pacman"
     kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/apps/64/updates-pacman.svg" --passivepopup "$updates_pacman pacman Updates" 8
     paplay $HOME/.local/share/sounds/long-dang.ogg
     touch $sound_pacman_off
     
 else
-    echo %{F#0095ff}"  %{F-}$updates_pacman pacman"
+    echo %{F#0095ff}"%{T3}7  %{T-}%{F-}$updates_pacman pacman"
 fi

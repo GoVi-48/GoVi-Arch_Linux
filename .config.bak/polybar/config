@@ -86,7 +86,7 @@ modules-right = memory cpu_load cpu_temp gpu_temp mb_temp alsa date
 
 [module/reload_polybar]
 type = custom/script
-exec = echo "  "
+exec = echo "%{T3} 6 %{T-}"
 click-left = ~/.config/polybar/scripts/reload_polybar.sh
 
 [module/filesystem_root]
@@ -108,7 +108,7 @@ type = internal/network
 interface = enp3s0
 label-connected = "%downspeed:7%"
 format-connected = <label-connected>
-format-connected-prefix = "%{F#27ae60} %{F-}"
+format-connected-prefix = "%{F#27ae60}%{T3}H %{T-}%{F-}"
 interval = 1
 
 [module/networkspeedup]
@@ -116,7 +116,7 @@ type = internal/network
 interface = enp3s0
 label-connected = "%upspeed:7%"
 format-connected = <label-connected>
-format-connected-prefix = "%{F#0095ff} %{F-}"
+format-connected-prefix = "%{F#0095ff}%{T3}G %{T-}%{F-}"
 interval = 1
 
 [module/updates_pacman]
@@ -177,9 +177,10 @@ label-volume-foreground = ${root.foreground}
 label-muted-foreground = #777
 label-muted = 🔇 Muted
 
-ramp-volume-0 = 
-ramp-volume-1 = 
-ramp-volume-2 = 
+ramp-volume-0 = %{T3}A%{T-}
+ramp-volume-1 = %{T3}B%{T-}
+ramp-volume-2 = %{T3}C%{T-}
+ramp-volume-3 = %{T3}D%{T-}
 
 [module/date]
 type = internal/date

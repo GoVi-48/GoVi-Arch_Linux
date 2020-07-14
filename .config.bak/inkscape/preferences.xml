@@ -127,8 +127,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="91.3618"
-         height="33.58"
+         width="1295.83"
+         height="138.634"
          ry="0" />
       <eventcontext
          id="3dbox"
@@ -334,17 +334,17 @@
        pathflash_unselected="0"
        pathflash_timeout="500"
        show_handles="1"
-       show_outline="0"
+       show_outline="1"
        sculpting_profile="1"
        single_node_transform_handles="0"
-       show_transform_handles="0"
+       show_transform_handles="1"
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="294.514"
-       y="747.67"
-       edit_clipping_paths="0"
-       edit_masks="0" />
+       x="968.783"
+       y="239.45"
+       edit_clipping_paths="1"
+       edit_masks="1" />
     <eventcontext
        id="tweak"
        selcue="0"
@@ -404,6 +404,11 @@
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
        usecurrent="1" />
+    <group
+       fontsize="10"
+       measure-end="0,0"
+       measure-start="0,0"
+       id="measure" />
   </group>
   <group
      id="palette">
@@ -546,7 +551,7 @@
        x="0"
        y="0"
        w="474"
-       h="487"
+       h="502"
        visible="1"
        state="2"
        placement="5" />
@@ -561,7 +566,7 @@
        x="0"
        y="0"
        w="474"
-       h="487"
+       h="502"
        visible="1"
        state="2"
        placement="5" />
@@ -572,7 +577,7 @@
        x="0"
        y="0"
        w="474"
-       h="487"
+       h="502"
        visible="1"
        state="2"
        placement="5" />
@@ -596,8 +601,8 @@
     <group
        id="documentoptions"
        state="1"
-       x="1720"
-       y="0"
+       x="709"
+       y="551"
        w="200"
        h="200"
        visible="0"
@@ -605,7 +610,7 @@
     <group
        id="preferences"
        state="1"
-       page="2"
+       page="1"
        x="622"
        y="231"
        w="675"
@@ -619,7 +624,7 @@
        x="0"
        y="0"
        w="474"
-       h="333"
+       h="256"
        visible="1"
        state="2"
        placement="2" />
@@ -631,7 +636,7 @@
        x="0"
        y="0"
        w="474"
-       h="487"
+       h="502"
        visible="1"
        state="2"
        placement="5">
@@ -698,7 +703,7 @@
        x="0"
        y="0"
        w="474"
-       h="487"
+       h="502"
        visible="1"
        state="2"
        placement="5" />
@@ -722,14 +727,14 @@
     <group
        id="undo-history" />
     <group
-       placement="5"
-       state="2"
-       visible="1"
-       h="487"
-       w="474"
-       y="0"
+       id="objects"
        x="0"
-       id="objects" />
+       y="0"
+       w="474"
+       h="502"
+       visible="1"
+       state="2"
+       placement="5" />
   </group>
   <group
      id="printing">
@@ -1009,11 +1014,11 @@
     <group
        id="rendering" />
     <group
-       id="defaultwindowsize"
-       value="2" />
+       value="2"
+       id="defaultwindowsize" />
     <group
-       id="font"
-       unitType="2" />
+       unitType="2"
+       id="font" />
   </group>
   <group
      id="extensions"
@@ -1044,7 +1049,7 @@
      org.inkscape.input.svg.scale="auto" />
   <group
      id="desktop"
-     style="fill:#000000;fill-opacity:0.85129899">
+     style="fill:#800000">
     <group
        width="722"
        height="480"
@@ -1150,23 +1155,23 @@
      id="ui"
      language="" />
   <group
-     id="theme"
-     defaultTheme="Breeze"
-     defaultIconTheme="GoVi-Ic"
-     gtkTheme="Breeze"
-     iconTheme="breeze"
-     menuIcons_canvas="0"
-     menuIcons_layers="0"
-     menuIcons_objects="0"
-     preferDarkTheme="1"
-     darkTheme="1"
+     symbolicDefaultColors="1"
      symbolicIcons="1"
-     symbolicDefaultColors="1">
+     darkTheme="1"
+     preferDarkTheme="1"
+     menuIcons_objects="0"
+     menuIcons_layers="0"
+     menuIcons_canvas="0"
+     iconTheme="breeze"
+     gtkTheme="Breeze"
+     defaultIconTheme="GoVi-Ic"
+     defaultTheme="Breeze"
+     id="theme">
     <group
-       id="breeze"
-       symbolicBaseColor="4025545215"
-       symbolicSuccessColor="665739519"
+       symbolicErrorColor="3661911039"
        symbolicWarningColor="4134797567"
-       symbolicErrorColor="3661911039" />
+       symbolicSuccessColor="665739519"
+       symbolicBaseColor="4025545215"
+       id="breeze" />
   </group>
 </inkscape>

@@ -25,8 +25,6 @@ mkdir -p "$GoVi_Arch_Linux/Scripts" && cp -rfv ~/Scripts/* $_
 cp -rfv ~/.bashrc "$GoVi_Arch_Linux"
 cp -rfv ~/.vimrc "$GoVi_Arch_Linux"
 
-pause
-
 # Push to Github
 cd $HOME/Proyectos/Github/GoVi-Arch-Linux
 git add .

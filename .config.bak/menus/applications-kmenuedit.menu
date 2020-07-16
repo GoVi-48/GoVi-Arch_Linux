@@ -39,6 +39,7 @@
    <Filename>Wine.desktop</Filename>
    <Filename>cemu.desktop</Filename>
    <Filename>Games-cemu.desktop</Filename>
+   <Filename>Games-Games-cemu.desktop</Filename>
   </Exclude>
   <Menu>
    <Name>Wine</Name>
@@ -49,6 +50,8 @@
     <Filename>Ori.desktop</Filename>
     <Filename>Among Trees.desktop</Filename>
     <Filename>DOOM Eternal-2.desktop</Filename>
+    <Filename>Sekiro.desktop</Filename>
+    <Filename>Doom Eternal.desktop</Filename>
    </Include>
    <Menu>
     <Name>Ori and the Will of the Wisps</Name>
@@ -61,10 +64,11 @@
    </Exclude>
    <Layout>
     <Merge type="files"/>
-    <Filename>DOOM Eternal-2.desktop</Filename>
     <Filename>Among Trees.desktop</Filename>
-    <Filename>Ori and the Will of the Wisps.desktop</Filename>
+    <Filename>Doom Eternal.desktop</Filename>
     <Filename>Green Hell.desktop</Filename>
+    <Filename>Ori and the Will of the Wisps.desktop</Filename>
+    <Filename>Sekiro.desktop</Filename>
    </Layout>
   </Menu>
   <Menu>
@@ -78,11 +82,44 @@
     <Filename>Zelda BOTW.desktop</Filename>
    </Include>
   </Menu>
+  <Menu>
+   <Name>Cemu</Name>
+   <Directory>Cemu-2.directory</Directory>
+   <Include>
+    <Filename>Games-cemu.desktop</Filename>
+    <Filename>Games-Games-cemu.desktop</Filename>
+   </Include>
+   <Menu>
+    <Name>Cemu Games</Name>
+    <NotDeleted/>
+    <Layout>
+     <Merge type="files"/>
+     <Filename>Zelda BOTW.desktop</Filename>
+    </Layout>
+    <Include>
+     <Filename>Zelda BOTW.desktop</Filename>
+    </Include>
+   </Menu>
+   <Layout>
+    <Merge type="menus"/>
+    <Menuname>Cemu Games</Menuname>
+    <Merge type="files"/>
+    <Filename>Games-Games-cemu.desktop</Filename>
+   </Layout>
+  </Menu>
+  <Move>
+   <Old>Cemu Games</Old>
+   <New>Cemu/Cemu Games</New>
+  </Move>
   <Layout>
    <Merge type="menus"/>
    <Menuname>Cemu</Menuname>
    <Merge type="files"/>
-   <Filename>Epic Games.desktop</Filename>
+   <Filename>Games-Epic Games.desktop</Filename>
+   <Filename>Games-Origin.desktop</Filename>
+   <Filename>retroarch.desktop</Filename>
+   <Filename>Games-steam.desktop</Filename>
+   <Filename>Games-Uplay.desktop</Filename>
    <Filename>net.lutris.Lutris.desktop</Filename>
    <Filename>steam.desktop</Filename>
    <Menuname>Wine</Menuname>
@@ -93,27 +130,6 @@
    <Menuname>Kidsgames</Menuname>
    <Menuname>TacticStrategy</Menuname>
   </Layout>
-  <Menu>
-   <Name>Cemu</Name>
-   <Layout>
-    <Merge type="files"/>
-    <Filename>Games-cemu.desktop</Filename>
-    <Merge type="menus"/>
-    <Menuname>Cemu Games</Menuname>
-   </Layout>
-   <Directory>Cemu-2.directory</Directory>
-   <Include>
-    <Filename>Games-cemu.desktop</Filename>
-   </Include>
-   <Menu>
-    <Name>Cemu Games</Name>
-    <NotDeleted/>
-   </Menu>
-  </Menu>
-  <Move>
-   <Old>Cemu Games</Old>
-   <New>Cemu/Cemu Games</New>
-  </Move>
  </Menu>
  <Include/>
  <Menu>

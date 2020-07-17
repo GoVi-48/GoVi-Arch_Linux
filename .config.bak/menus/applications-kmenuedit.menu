@@ -88,6 +88,7 @@
    <Include>
     <Filename>Games-cemu.desktop</Filename>
     <Filename>Games-Games-cemu.desktop</Filename>
+    <Filename>Cemu Emulator.desktop</Filename>
    </Include>
    <Menu>
     <Name>Cemu Games</Name>
@@ -101,10 +102,10 @@
     </Include>
    </Menu>
    <Layout>
+    <Merge type="files"/>
+    <Filename>Cemu Emulator.desktop</Filename>
     <Merge type="menus"/>
     <Menuname>Cemu Games</Menuname>
-    <Merge type="files"/>
-    <Filename>Games-Games-cemu.desktop</Filename>
    </Layout>
   </Menu>
   <Move>

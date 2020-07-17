@@ -73,11 +73,7 @@ export RADV_PERFTEST=aco
 # -----------------------------------------------------------------------------
 
 # Gamemode
-$ git clone https://github.com/FeralInteractive/gamemode.git
-$ cd gamemode
-$ git checkout 1.5.1 # omit to build the master branch
-$ sudo pacman -S meson systemd git dbus
-$ ./bootstrap.sh
+$ yay -S gamemode
 
 # Mangohud
 $ yay -S mangohud

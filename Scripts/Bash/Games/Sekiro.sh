@@ -1,3 +1,17 @@
- #!/usr/bin/env bash
+#!/usr/bin/env bash
  
-gamemoderun && mangohud WINEPREFIX=~/Wine/wine-pfx_dxvk-5.12 ~/Wine/wine-build_5.11-tkg/usr/bin/wine "M:/Games/PC/Portable/Sekiro Shadows Die Twice/sekiro.exe"
+killall polybar
+
+qdbus org.kde.KWin /Compositor resume
+
+lutris lutris:rungameid/5 &
+
+sleep 2
+
+while pgrep -x wineserver > /dev/null; do sleep 1; done
+
+if ! pgrep -x "wineserver" > /dev/null; then
+    killall lutris
+    polybar govi
+    qdbus org.kde.KWin /Compositor resume
+fi

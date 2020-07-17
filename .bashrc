@@ -143,6 +143,8 @@ alias pyc="pycharm.sh"
 # Games aliases
 alias mh="mangohud"
 alias gmr="gamemoderun"
+GAMEMODERUNEXEC="wine"
+GAMEMODERUNEXEC="wine64"
 
 # Git aliases
 alias gcl="git clone"

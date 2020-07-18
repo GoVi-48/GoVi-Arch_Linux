@@ -73,7 +73,7 @@ cursor-scroll = ns-resize
 ; tray-offset-y = 0
 ; tray-scale = 1.0
 
-modules-left = reload_polybar filesystem_root filesystem_home networkspeeddown networkspeedup email updates_pacman updates_AUR
+modules-left = reload_polybar filesystem_root filesystem_home networkspeeddown networkspeedup email updates_pacman updates_AUR notifications
 modules-center = 
 modules-right = memory cpu_load cpu_temp gpu_temp mb_temp alsa date
 
@@ -134,6 +134,12 @@ type = custom/script
 exec = ~/.config/polybar/scripts/email.sh
 click-left = vivaldi-stable "http://www.gmail.com"
 interval = 300
+
+[module/notifications]
+type = custom/script
+exec = ~/.config/polybar/scripts/notifications.sh
+click-left = ~/.config/polybar/scripts/notf_switch.sh
+interval = 2
 
 [module/memory]
 type = custom/script

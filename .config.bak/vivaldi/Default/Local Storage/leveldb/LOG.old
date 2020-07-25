@@ -1,6 +1,17 @@
-2020/07/17-21:32:19.289 15594 Reusing MANIFEST /home/govi/.config/vivaldi/Default/Local Storage/leveldb/MANIFEST-000001
-2020/07/17-21:32:19.289 15594 Recovering log #1539
-2020/07/17-21:32:19.290 15594 Reusing old log /home/govi/.config/vivaldi/Default/Local Storage/leveldb/001539.log 
-2020/07/17-21:32:34.839 15759 Level-0 table #1543: started
-2020/07/17-21:32:34.845 15759 Level-0 table #1543: 19299 bytes OK
-2020/07/17-21:32:34.847 15759 Delete type=0 #1539
+2020/07/25-11:33:33.811 170c Reusing MANIFEST /home/govi/.config/vivaldi/Default/Local Storage/leveldb/MANIFEST-000001
+2020/07/25-11:33:33.811 170c Recovering log #2026
+2020/07/25-11:33:33.812 170c Reusing old log /home/govi/.config/vivaldi/Default/Local Storage/leveldb/002026.log 
+2020/07/25-12:22:38.319 f10b Level-0 table #2030: started
+2020/07/25-12:22:38.325 f10b Level-0 table #2030: 21224 bytes OK
+2020/07/25-12:22:38.327 f10b Delete type=0 #2026
+2020/07/25-12:22:38.327 f10b Compacting 4@0 + 2@1 files
+2020/07/25-12:22:38.357 f10b Generated table #2031@0: 3913 keys, 2157702 bytes
+2020/07/25-12:22:38.361 f10b Generated table #2032@0: 540 keys, 231685 bytes
+2020/07/25-12:22:38.361 f10b Compacted 4@0 + 2@1 files => 2389387 bytes
+2020/07/25-12:22:38.363 f10b compacted to: files[ 0 2 1 0 0 0 0 ]
+2020/07/25-12:22:38.363 f10b Delete type=2 #2030
+2020/07/25-12:22:38.363 f10b Delete type=2 #2027
+2020/07/25-12:22:38.363 f10b Delete type=2 #2023
+2020/07/25-12:22:38.363 f10b Delete type=2 #2019
+2020/07/25-12:22:38.363 f10b Delete type=2 #2020
+2020/07/25-12:22:38.363 f10b Delete type=2 #2025

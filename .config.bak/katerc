@@ -26,8 +26,9 @@ Show Tab Bar=true
 Startup Session=last
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Proyectos/Github/GoVi-Arch-Linux/Howto Arch,file:$HOME/.config/polybar/scripts/updates_pacman.sh,file:$HOME/.config/polybar/scripts/updates_AUR.sh,file:$HOME/.config/polybar/scripts/mb_temp.sh,file:$HOME/.config/polybar/config,file:$HOME/.config/polybar/scripts/email.sh,file:$HOME/.config/polybar/scripts/cpu_load.sh,file:$HOME/.config/polybar/scripts/cpu_temp.sh,file:$HOME/.config/polybar/scripts/mem_load.sh,file:$HOME/.config/polybar/scripts/gpu_temp.sh,file:$HOME/.config/polybar/launch.sh,file:$HOME/Backups/Kodi/Backups/Skins/Aeon-Nox-SiLVO-master/16x9/DialogVolumeBar.xml,file:$HOME/Backups/Kodi/Backups/Skins/Aeon-Nox-SiLVO-master/16x9/DialogSeekBar.xml,file:$HOME/Backups/Kodi/Backups/Skins/Aeon-Nox-SiLVO-master/16x9/DialogPlayerProcessInfo.xml
-Recent URLs[$e]=file:$HOME/.config/polybar/scripts/
+Recent Files[$e]=file:$HOME/Scripts/Bash/Games/Test/Dirt_Rally_2.0.sh,file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Arch Install.txt,file:$HOME/.bashrc,file:$HOME/.config/polybar/config,file:$HOME/Proyectos/Github/GoVi-Arch-Linux/Arch Install.txt,file:$HOME/Scripts/Bash/Games/NMS.sh,file:$HOME/Scripts/Bash/Webgrab_Update_to_GIT.sh,file:$HOME/Scripts/Bash/Home.bak.sh,file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch,file:$HOME/Scripts/Bash/Games/Trials_Fusion.sh,file:$HOME/Scripts/Bash/Photoshop.sh,file:$HOME/.config/polybar/scripts/email.sh,file:$HOME/Scripts/Bash/Games/Stranded_Deep.sh,file:$HOME/Scripts/Bash/Games/Remnant_From_The_Ashes.sh
+Recent URLs[$e]=file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/
+detailViewIconSize=0
 iconViewIconSize=43
 listViewIconSize=0
 
@@ -121,15 +122,15 @@ Word Completion Minimal Word Length=3
 Word Completion Remove Tail=true
 
 [KTextEditor::Search]
-Search History=UnFocusHDIndicator,addon,tools,m ,formula,formula 1,res,cpu,date,bottom,font-0,ttf,background,backgr,colors,font,Mangohud,gam,govi,git,vulkan,WheelScrollLines,text,"MenuText"="219 220 222",Text,open min,winetricks,under,4023,export,#!/usr/bin/env xdg-open,timebar,disney,clan,estrenos,m.,preview,4311,4314,4315,4301,now,button_up,mute,vol,error,warning,Label3
+Search History=vsync,WINEPREFIX=~/Wine/wine-pfx_5.13-dxvk-1.7-mf,vs,UnFocusHDIndicator,addon,tools,m ,formula,formula 1,res,cpu,date,bottom,font-0,ttf,background,backgr,colors,font,Mangohud,gam,govi,git,vulkan,WheelScrollLines,text,"MenuText"="219 220 222",Text,open min,winetricks,under,4023,export,#!/usr/bin/env xdg-open,timebar,disney,clan,estrenos,m.,preview,4311,4314,4315,4301,now,button_up,mute,vol,error,warning,Label3
 
 [MainWindow]
-Height 1080=934
+Height 1080=839
 Height 768=480
-State=AAAA/wAAAAD9AAAAAAAABHIAAANiAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABHsAAAMDAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1024=1016
-Width 1920=1138
+Width 1920=1147
 
 [MainWindow][Toolbar mainToolBar]
 ToolButtonStyle=IconOnly

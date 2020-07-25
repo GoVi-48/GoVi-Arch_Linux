@@ -10,4 +10,7 @@ zip -r $HOME/Escritorio/Kodi-GoVi_Build.zip "addons" "media" "userdata"
 
 mv ~/Escritorio/Kodi-GoVi_Build.zip ~/Dropbox
 
+kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+
 dropbox
+

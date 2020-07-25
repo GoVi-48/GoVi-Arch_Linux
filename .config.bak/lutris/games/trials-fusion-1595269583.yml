@@ -1,0 +1,12 @@
+game:
+  exe: /Datos/Games/Ubisoft/Trials Fusion/datapack/trials_fusion.exe
+  prefix: ~/Wine/wine-pfx_lutris
+  working_dir: /home/Logs
+system:
+  aco: true
+  prelaunch_command: killall upc.exe
+wine:
+  dxvk: true
+  esync: true
+  version: lutris-5.7-8-x86_64
+  vkd3d: true

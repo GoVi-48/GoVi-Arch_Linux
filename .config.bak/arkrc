@@ -1,6 +1,9 @@
 [CreateDialog]
 LastMimeType=application/x-7z-compressed
 
+[KFileDialog Settings]
+listViewIconSize=0
+
 [KTextEditor Document]
 Allow End of Line Detection=true
 BOM=false
@@ -100,12 +103,19 @@ splitterSizes=426,213
 File1[$e]=$HOME/Programas/Webgrab++/.wg++/xmltv.xml.gz
 File2[$e]=$HOME/Programas/yay/yay-9.4.7.tar.gz
 File3[$e]=$HOME/Dropbox/Kodi-GoVi_Build.zip
+File4[$e]=$HOME/.steam/root/compatibilitytools.d/wine-build_5.13-tkg-proton/proton_dist.tar.gz
+File5[$e]=/Datos/Games/Steam/steamapps/common/Proton 5.0/proton_dist.tar
+File6[$e]=$HOME/Escritorio/wine-tkg-staging-fsync-git-5.13.r1.g26d3815d-293-x86_64.pkg.tar.zst
 Name1[$e]=xmltv.xml.gz
 Name2[$e]=yay-9.4.7.tar.gz
 Name3[$e]=Kodi-GoVi_Build.zip
+Name4[$e]=proton_dist.tar.gz
+Name5[$e]=proton_dist.tar
+Name6[$e]=wine-tkg-staging-fsync-git-5.13.r1.g26d3815d-293-x86_64.pkg.tar.zst
 
 [Viewer]
 Height 1080=511
-State=AAAA/wAAAAD9AAAAAAAAA9gAAAG7AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAB4AAAAOHAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=984
+Window-Maximized 1080x1920=true

@@ -1,5 +1,11 @@
 system:
+  aco: true
   disable_compositor: true
   disable_runtime: true
   dri_prime: false
-  game_path: ~/Games
+  env:
+    MANGOHUD: '1'
+    WINEFSYNC: '1'
+  game_path: ~/Games/-Library-/PC
+  gamemode: false
+  prefer_system_libs: true

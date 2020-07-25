@@ -30,3 +30,5 @@ cd $HOME/Proyectos/Github/GoVi-Arch-Linux
 git add .
 git commit -m "Updated"
 git push -u origin master
+
+kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg

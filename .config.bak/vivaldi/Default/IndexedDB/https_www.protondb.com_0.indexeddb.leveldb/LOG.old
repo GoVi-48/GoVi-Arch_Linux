@@ -1,0 +1,15 @@
+2020/07/23-04:54:18.207 5bab Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_www.protondb.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/07/23-04:54:18.207 5bab Recovering log #63
+2020/07/23-04:54:18.207 5bab Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_www.protondb.com_0.indexeddb.leveldb/000063.log 
+2020/07/23-05:04:10.419 ad7 Level-0 table #68: started
+2020/07/23-05:04:10.421 ad7 Level-0 table #68: 498 bytes OK
+2020/07/23-05:04:10.424 ad7 Delete type=0 #63
+2020/07/23-05:04:10.424 ad7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/07/23-05:04:10.424 ad7 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x001\x009\x005\x009\x006\x007\x006\x007\x008' @ 346 : 1
+2020/07/23-05:04:10.424 ad7 Compacting 1@1 + 1@2 files
+2020/07/23-05:04:10.426 ad7 Generated table #69@1: 18 keys, 550 bytes
+2020/07/23-05:04:10.426 ad7 Compacted 1@1 + 1@2 files => 550 bytes
+2020/07/23-05:04:10.428 ad7 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/07/23-05:04:10.428 ad7 Delete type=2 #65
+2020/07/23-05:04:10.428 ad7 Delete type=2 #68
+2020/07/23-05:04:10.428 ad7 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x001\x009\x005\x009\x006\x007\x006\x007\x008' @ 346 : 1 .. (end); will stop at (end)

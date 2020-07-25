@@ -162,6 +162,7 @@ export FILEMANAGER="dolphin"
 export PATH=$PATH:$HOME/Scripts/Bash/
 export PATH=$PATH:$HOME/Games/-Shortcuts-/
 export PATH=$PATH:$HOME/Programas/Pycharm/bin/
+export WINEFSYNC=1
 
 # System Info
 neofetch

@@ -5,8 +5,8 @@
 
 $ sudo vim /etc/pacman.conf
 # -----------------------------------------------------------------------------
+CacheDir    = /Datos/cache/pacman/pkg/
 Color
-
 [multilib]
 Include = /etc/pacman.d/mirrorlist
 # -----------------------------------------------------------------------------
@@ -15,7 +15,7 @@ $ sudo pacman -Syu
 
 # Packages
 $ sudo pacman -S alacritty neofetch exa htop lm_sensors latte-dock virtualbox gimp inkscape kdenlive audacity youtube-dl ffmpeg vlc elisa obs-studio mono transmission-qt
-$ sudo pacman -S ark bc conky extra-cmake-modules gparted icoutils kate kcalc kdialog net-tools okular spectacle unrar zip wget
+$ sudo pacman -S ark bc conky extra-cmake-modules gparted icoutils kate kcalc kdialog net-tools okular packagekit-qt5 spectacle unrar zip wget
 
 # Antivirus
 $ sudo pacman -S clamav
@@ -28,10 +28,6 @@ $ sudo pacman -S clamtk
 $ sudo pacman -S firewalld
 $ systemctl enable firewalld
 $ firewall-config
-
-# Kodi
-$ sudo pacman -S kodi kodi-x11
-$ $ yay -S kodi-addon-pvr-iptvsimple
 
 # AUR packages
 $ git clone https://aur.archlinux.org/yay.git
@@ -48,11 +44,12 @@ $ yay -S timeshift
 $ yay -S tiny-media-manager
 $ yay -S vivaldi
 
+# Kodi
+$ sudo pacman -S kodi kodi-x11
+$ yay -S kodi-addon-pvr-iptvsimple
+
 # Flatpaks
 $ sudo pacman -S flatpak
-
-# Clean Packages
-$ sudo pacman -Rns $(pacman -Qtdq)
 
 
 # Games +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -60,19 +57,25 @@ $ sudo pacman -Rns $(pacman -Qtdq)
 # Drivers & Packages
 $ sudo pacman -S pulseaudio pulseaudio-alsa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader vulkan-tools
 $ sudo pacman -S giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs
+$ lspci -nnk | grep -i vga -A3
+$ glxinfo | grep "OpenGL vendor string" | cut -f2 -d":" | xargs
 
 # Enable Vulkan for R9 200/300 Series
 $ echo "blacklist radeon" | sudo tee --append /etc/modprobe.d/blacklist.conf
 $ echo "options amdgpu si_support=1 cik_support=1" | sudo tee --append /etc/modprobe.d/amdgpu.conf
-$ sudo update-initramfs -u
 
 # ACO "AMD Compiler"
 $ vim ~/.profile
 # -----------------------------------------------------------------------------
 export RADV_PERFTEST=aco
 # -----------------------------------------------------------------------------
+$ sudo vim /etc/environment
+# -----------------------------------------------------------------------------
+RADV_PERFTEST=aco
+# -----------------------------------------------------------------------------
 
 # Gamemode
+$ sudo pacman -S meson systemd git dbus
 $ yay -S gamemode
 
 # Mangohud
@@ -81,6 +84,7 @@ $ yay lib32-mangohud
 or
 $ yay -S mangohud-git
 $ yay -S lib32-mangohud-git
+
 $ vim ~/.config/MangoHud/MangoHud.conf
 
 # Lutris
@@ -97,8 +101,7 @@ $ yay -S emulationstation
 
 # Wine ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-$ sudo pacman -S wine-staging wine-nine
-$ winecfg
+$ sudo pacman -S wine-staging
 
 # Fonts
 $ cd ${WINEPREFIX:-$HOME/Wine/wine-pfx_name}/drive_c/windows/Fonts && for i in /usr/share/fonts/**/*.{ttf,otf}; do ln -s "$i"; done
@@ -109,19 +112,25 @@ $ chmod +x ~/Escritorio/winetricks
 $ cd ~/Escritorio/winetricks
 $ sh winetricks corefonts vcrun6
 
-# DXVK
+# DXVK 
 $ wget -P ~/Escritorio https://github.com/doitsujin/dxvk/releases/download/v1.7/dxvk-1.7.tar.gz
 $ tar xvzf ~/Escritorio/dxvk-1.7.tar.gz -C ~/Escritorio
-$ mkdir ~/Escritorio/wine-pfx_dxvk
 $ cd ~/Escritorio/dxvk-1.7
 $ ./setup_dxvk.sh install
-$ mv ~/.wine/* ~/Escritorio/wine-pfx_dxvk
-$ winecfg
+$ mkdir -p ~/Escritorio/wine-pfx_dxvk && mv ~/.wine/* $_
+$ WINEPREFIX=~/Escritorio/wine-pfx_dxvk winecfg
+
+# Media Files
+$ git clone https://github.com/z0z0z/mf-install.git ~/Escritorio/wine-mf
+$ cd ~/Escritorio/wine-mf
+$ mkdir -p ~/Escritorio/wine-pfx_mf && cp ~/.wine/* $_
+$ WINEPREFIX=$HOME"/Escritorio/wine-pfx_mf" ./mf-install.sh
 
 # Wine TKG
 $ git clone https://github.com/Frogging-Family/wine-tkg-git.git ~/Escritorio/wine-tkg
 $ cd ~/Escritorio/wine-tkg/wine-tkg-git/
-$ makepkg -si
+$ kate ~/Escritorio/wine-tkg/wine-tkg-git/customization.cfg
+$ sh non-makepkg-build.sh
 
 # Create WINEPREFIX
 $ WINEPREFIX=~/Wine/.newprefix winecfg
@@ -153,14 +162,26 @@ $ lsblk
 $ sudo blkid
 $ sudo vim /etc/fstab
 # -----------------------------------------------------------------------------
+# /dev/sda5 (boot)
+UUID=7DB8-60AC                              /boot       vfat    rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 1
+
+# /dev/sda6 (root)
+UUID=ed2df16a-45f1-47c1-90ba-79c2ccfb7ef0	/         	ext4   rw,relatime 0 1
+
+# /dev/sda7 (home)
+UUID=439b70cb-da7d-40be-a390-5098ee154298	/home     	ext4   rw,relatime 0 2
+
+# /dev/sdb2 (Swap)
+UUID=165ef7bd-5714-4ed9-a3db-8a93c893d349   none        swap    defaults    0 0
+
 # /dev/sdb1 (Datos)
-UUID=01D1D88E4B400EE0   /Datos       ntfs    defaults        0       0
+UUID=dd05af68-11f5-4b5b-9bd1-08dd2354ca23   /Datos      ext4   defaults    0 0
 
 # /dev/sdc1 (Media)
-UUID=94F0F35BF0F34252   /Media       ntfs    defaults        0       0
+UUID=94F0F35BF0F34252                       /Media      ntfs   defaults    0 0
 
 # /dev/sda4 (Windows)
-UUID=2AE63D01E63CCF37   /Windows    ntfs    defaults        0       0
+UUID=2AE63D01E63CCF37                       /Windows    ntfs    defaults    0 0
 # -----------------------------------------------------------------------------
 
 $ sudo mkdir /Datos
@@ -248,4 +269,8 @@ nice-level = -11
 realtime-scheduling = yes
 realtime-priority = 5
 # -----------------------------------------------------------------------------
+
+# Kernel Zen
+$ sudo pacman -S linux-zen linux-zen-headers
+$ sudo grub-mkconfig -o /boot/grub/grub.cfg
 

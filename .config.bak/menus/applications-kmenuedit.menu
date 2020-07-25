@@ -52,6 +52,9 @@
     <Filename>DOOM Eternal-2.desktop</Filename>
     <Filename>Sekiro.desktop</Filename>
     <Filename>Doom Eternal.desktop</Filename>
+    <Filename>Remnant From The Ashes.desktop</Filename>
+    <Filename>Stranded Deep.desktop</Filename>
+    <Filename>No Man's Sky.desktop</Filename>
    </Include>
    <Menu>
     <Name>Ori and the Will of the Wisps</Name>
@@ -65,11 +68,15 @@
    <Layout>
     <Merge type="files"/>
     <Filename>Among Trees.desktop</Filename>
+    <Filename>No Man's Sky.desktop</Filename>
     <Filename>Doom Eternal.desktop</Filename>
     <Filename>Green Hell.desktop</Filename>
     <Filename>Ori and the Will of the Wisps.desktop</Filename>
     <Filename>Sekiro.desktop</Filename>
+    <Filename>Remnant From The Ashes.desktop</Filename>
+    <Filename>Stranded Deep.desktop</Filename>
    </Layout>
+   <Deleted/>
   </Menu>
   <Menu>
    <Name>Cemu Games</Name>
@@ -93,13 +100,15 @@
    <Menu>
     <Name>Cemu Games</Name>
     <NotDeleted/>
-    <Layout>
-     <Merge type="files"/>
-     <Filename>Zelda BOTW.desktop</Filename>
-    </Layout>
     <Include>
      <Filename>Zelda BOTW.desktop</Filename>
+     <Filename>Mario Kart 8.desktop</Filename>
     </Include>
+    <Layout>
+     <Merge type="files"/>
+     <Filename>Mario Kart 8.desktop</Filename>
+     <Filename>Zelda BOTW.desktop</Filename>
+    </Layout>
    </Menu>
    <Layout>
     <Merge type="files"/>
@@ -123,7 +132,6 @@
    <Filename>Games-Uplay.desktop</Filename>
    <Filename>net.lutris.Lutris.desktop</Filename>
    <Filename>steam.desktop</Filename>
-   <Menuname>Wine</Menuname>
    <Menuname>Arcade</Menuname>
    <Menuname>Card</Menuname>
    <Menuname>Logic</Menuname>
@@ -167,14 +175,13 @@
    <Filename>Kodi Backup.desktop</Filename>
    <Filename>.desktop</Filename>
    <Filename>Config Backup.desktop</Filename>
+   <Filename>Clean System.desktop</Filename>
   </Include>
   <Layout>
    <Merge type="files"/>
    <Filename>Config Backup.desktop</Filename>
+   <Filename>Clean System.desktop</Filename>
    <Filename>Kodi Backup.desktop</Filename>
-   <Filename>Documentos.desktop</Filename>
-   <Filename>Multimedia.desktop</Filename>
-   <Filename>Proyectos.desktop</Filename>
   </Layout>
  </Menu>
  <Menu>

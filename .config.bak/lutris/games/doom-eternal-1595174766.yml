@@ -1,0 +1,22 @@
+game:
+  args: --waitforpreload --nologo --gc2
+  exe: /home/govi/Games/-Library-/PC/DOOM Eternal/DOOMEternalx64vk.exe
+  prefix: ~/Wine/wine-pfx_lutris
+  working_dir: /home/Logs
+system:
+  env:
+    +com_skipIntroVideo: '1'
+    +com_skipKeyPressOnLoadScreens: '1'
+    +com_skipSignInManager: '1'
+    +in_terminal: '1'
+    MANGOHUD: '1'
+    PROTON_NO_ESYNC: '1'
+    RADV_PERFTEST: llvm
+  prefer_system_libs: false
+wine:
+  dxvk: true
+  esync: true
+  fsync: false
+  system_winetricks: false
+  version: Proton-5.11-GE-3-MF
+  vkd3d: true

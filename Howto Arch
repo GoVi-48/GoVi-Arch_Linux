@@ -126,10 +126,10 @@ $ cd ~/Escritorio/wine-mf
 $ mkdir -p ~/Escritorio/wine-pfx_mf && cp ~/.wine/* $_
 $ WINEPREFIX=$HOME"/Escritorio/wine-pfx_mf" ./mf-install.sh
 
-# Wine TKG
-$ git clone https://github.com/Frogging-Family/wine-tkg-git.git ~/Escritorio/wine-tkg
-$ cd ~/Escritorio/wine-tkg/wine-tkg-git/
-$ kate ~/Escritorio/wine-tkg/wine-tkg-git/customization.cfg
+# TKG build
+$ git clone https://github.com/Frogging-Family/wine-tkg-git.git ~/Escritorio/wine-tkg-git
+$ cd ~/Escritorio/wine-tkg-git/wine-tkg-git/
+$ kate ~/Escritorio/wine-tkg-git/wine-tkg-git/customization.cfg
 $ sh non-makepkg-build.sh
 
 # Create WINEPREFIX

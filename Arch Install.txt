@@ -18,7 +18,7 @@ $ mount /dev/sda5 /mnt/boot
 $ mount /dev/sda6 /mnt
 $ mount /dev/sda7 /mnt/home
 
-$ pacstrap /mnt base linux linux-firmware vim
+$ pacstrap /mnt base linux linux-firmware vim intel-ucode
 
 $ genfstab -U /mnt >> /mnt/etc/fstab
 $ vim /mnt/etc/fstab

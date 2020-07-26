@@ -2,4 +2,10 @@ game:
   exe: /home/govi/Scripts/Bash/Games/NMS.sh
   working_dir: /home/Logs
 linux: {}
-system: {}
+system:
+  env:
+    MANGOHUD: '1'
+    WINEFSYNC: '1'
+    WINE_LARGE_ADDRESS_AWARE: '1'
+  prefer_system_libs: false
+  terminal: true

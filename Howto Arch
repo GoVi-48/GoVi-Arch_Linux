@@ -76,16 +76,13 @@ RADV_PERFTEST=aco
 
 # Gamemode
 $ sudo pacman -S meson systemd git dbus
-$ yay -S gamemode
+$ yay -S gamemode lib32-gamemode
 
 # Mangohud
 $ yay -S mangohud
 $ yay lib32-mangohud
-or
-$ yay -S mangohud-git
-$ yay -S lib32-mangohud-git
-
 $ vim ~/.config/MangoHud/MangoHud.conf
+$ mangohud vkcube
 
 # Lutris
 $ sudo pacman -S lutris
@@ -227,20 +224,11 @@ $ sudo vim ~/.imwheelrc
     Control_L, Up,   Control_L|Button4
     Control_L, Down, Control_L|Button5
 # -----------------------------------------------------------------------------
+
+$ sudo vim ~/.config/autostart/imwheel.sh
+# -----------------------------------------------------------------------------
 $ killall imwheel
 $ imwheel -b 45
-$ sudo vim ~/.config/autostart/imwheel.desktop
-# -----------------------------------------------------------------------------
-[Desktop Entry]
-Name=imwheel
-Exec=~/Scripts/Bash/imwheel.sh
-InitialPreference=1
-StartupNotify=true
-Terminal=false
-Type=Application
-X-DBUS-StartupType=unique
-X-KDE-StartupNotify=false
-X-KDE-SubstituteUID=false
 # -----------------------------------------------------------------------------
 
 # Gestures

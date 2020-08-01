@@ -14,7 +14,7 @@ Include = /etc/pacman.d/mirrorlist
 $ sudo pacman -Syu
 
 # Packages
-$ sudo pacman -S alacritty neofetch exa htop lm_sensors latte-dock virtualbox gimp inkscape kdenlive audacity youtube-dl ffmpeg vlc elisa obs-studio mono transmission-qt
+$ sudo pacman -S alacritty audacity elisa exa ffmpeg gimp htop inkscape kdenlive lm_sensors latte-dock mono neofetch obs-studio transmission-qt virtualbox vlc youtube-dl
 $ sudo pacman -S ark bc conky extra-cmake-modules gparted icoutils kate kcalc kdialog net-tools okular packagekit-qt5 spectacle unrar zip wget
 
 # Antivirus
@@ -55,14 +55,15 @@ $ sudo pacman -S flatpak
 # Games +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 # Drivers & Packages
-$ sudo pacman -S pulseaudio pulseaudio-alsa lib32-mesa vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader vulkan-tools
+$ sudo pacman -S pulseaudio pulseaudio-alsa mesa lib32-mesa libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader vulkan-tools
 $ sudo pacman -S giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs
 $ lspci -nnk | grep -i vga -A3
 $ glxinfo | grep "OpenGL vendor string" | cut -f2 -d":" | xargs
 
 # Enable Vulkan for R9 200/300 Series
-$ echo "blacklist radeon" | sudo tee --append /etc/modprobe.d/blacklist.conf
-$ echo "options amdgpu si_support=1 cik_support=1" | sudo tee --append /etc/modprobe.d/amdgpu.conf
+## $ echo "blacklist radeon" | sudo tee --append /etc/modprobe.d/blacklist.conf
+$ echo -e "options radeon si_support=0\noptions radeon cik_support=0" | sudo tee --append /etc/modprobe.d/radeon.conf
+$ echo -e "options amdgpu si_support=1\noptions amdgpu cik_support=1" | sudo tee --append /etc/modprobe.d/amdgpu.conf
 
 # ACO "AMD Compiler"
 $ vim ~/.profile

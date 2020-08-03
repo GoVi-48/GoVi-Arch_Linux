@@ -6,5 +6,7 @@ game:
 system:
   env: {}
 wine:
+  esync: false
+  fsync: true
   system_winetricks: true
   version: lutris-5.7-8-x86_64

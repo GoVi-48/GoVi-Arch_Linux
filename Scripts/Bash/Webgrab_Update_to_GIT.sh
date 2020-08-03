@@ -9,7 +9,7 @@ echo
 echo
 echo -Remplazando xmltv.xml
 echo
-cp -rfv ~/Programas/Webgrab++/.wg++/xmltv.xml /Datos/GoVi/Proyectos/Github/GoVi-EPG/
+cp -rfv ~/Programas/Webgrab++/.wg++/xmltv.xml ~/Proyectos/Github/GoVi-EPG/
 echo
 echo ====================================================================================
 echo

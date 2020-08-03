@@ -201,9 +201,9 @@ $ crontab -e
 # -----------------------------------------------------------------------------
 MAILTO=""
 00 00 * * * ~/Scripts/Bash/Webgrab_Update_to_GIT.sh > ~/Scripts/Logs/Cron/crontab.log 2>&1
-05 00 * * * export DISPLAY=:0 && kate ~/Scripts/Logs/Cron/crontab.log
+10 00 * * * export DISPLAY=:0 && kate ~/Scripts/Logs/Cron/crontab.log
 00 12 * * * ~/Scripts/Bash/Webgrab_Update_to_GIT.sh > ~/Scripts/Logs/Cron/crontab.log 2>&1
-05 12 * * * export DISPLAY=:0 && kate ~/Scripts/Logs/Cron/crontab.log
+10 12 * * * export DISPLAY=:0 && kate ~/Scripts/Logs/Cron/crontab.log
 # ----------------------------------------------------
 $ crontab -l
 

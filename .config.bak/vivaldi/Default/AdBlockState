@@ -1,9 +1,11 @@
 {
    "ad-blocking-rules": {
       "counters": {
-         "clients5.google.com": 2,
-         "gateway.reddit.com": 1,
-         "rpc-php.trafficfactory.biz": 17
+         "clients5.google.com": 17,
+         "gateway.reddit.com": 6,
+         "rpc-php.trafficfactory.biz": 17,
+         "static.trafficjunky.com": 13,
+         "www.gstatic.com": 6
       },
       "enabled": true,
       "exceptions-type": 1,
@@ -184,7 +186,12 @@
    },
    "tracking-rules": {
       "counters": {
-
+         "addtoany.com": 3,
+         "facebook.net": 1,
+         "linkedin.com": 1,
+         "trustarc.com": 5,
+         "truste.com": 2,
+         "twitter.com": 1
       },
       "enabled": true,
       "exceptions-type": 1,

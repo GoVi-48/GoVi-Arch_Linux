@@ -163,6 +163,7 @@ export PATH=$PATH:$HOME/Scripts/Bash/
 export PATH=$PATH:$HOME/Games/-Shortcuts-/
 export PATH=$PATH:$HOME/Programas/Pycharm/bin/
 export WINEFSYNC=1
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
 
 # System Info
 neofetch

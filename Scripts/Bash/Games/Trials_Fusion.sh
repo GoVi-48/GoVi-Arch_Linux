@@ -4,9 +4,9 @@ killall polybar
 
 qdbus org.kde.KWin /Compositor suspend
 
-gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.13 ~/Wine/wine-build_5.7.8-lutris/bin/wine64 "/Datos/Games/Ubisoft/Trials Fusion/datapack/trials_fusion.exe" &&
+gamemoderun WINEPREFIX=~/Wine/wine-pfx_lutris ~/Wine/wine-build_5.7.8-lutris/bin/wine64 "/Datos/Games/Ubisoft/Trials Fusion/datapack/trials_fusion.exe" &&
 
-sleep 1
+sleep 5
 
 while pgrep -x "UbisoftGameLaun" > /dev/null; do sleep 1; done
 

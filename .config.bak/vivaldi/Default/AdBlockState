@@ -1,5 +1,10 @@
 {
    "ad-blocking-rules": {
+      "counters": {
+         "clients5.google.com": 2,
+         "gateway.reddit.com": 1,
+         "rpc-php.trafficfactory.biz": 17
+      },
       "enabled": true,
       "exceptions-type": 1,
       "exempt_list": [  ],
@@ -161,12 +166,13 @@
       "rule-sources": [ {
          "expires": "345600000000",
          "group": 1,
+         "has-tracker-infos": false,
          "homepage": "https://easylist.to/",
          "invalid-rules-count": 2,
          "last-fetch-result": 0,
-         "last-upate": "13240726632445354",
+         "last-upate": "13241076528091495",
          "license": "https://easylist.to/pages/licence.html",
-         "next-fetch": "13241072412445354",
+         "next-fetch": "13241423028091495",
          "redirect": "",
          "rules-list-checksum": "2579182848",
          "source-url": "https://downloads.vivaldi.com/easylist/easylist-current.txt",
@@ -177,6 +183,9 @@
       } ]
    },
    "tracking-rules": {
+      "counters": {
+
+      },
       "enabled": true,
       "exceptions-type": 1,
       "exempt_list": [  ],
@@ -186,12 +195,13 @@
       "rule-sources": [ {
          "expires": "43200000000",
          "group": 0,
+         "has-tracker-infos": true,
          "homepage": "",
          "invalid-rules-count": 0,
          "last-fetch-result": 0,
-         "last-upate": "13240962565370329",
+         "last-upate": "13241145644864448",
          "license": "",
-         "next-fetch": "13241007505370329",
+         "next-fetch": "13241189564864448",
          "redirect": "",
          "rules-list-checksum": "2340232981",
          "source-url": "https://downloads.vivaldi.com/ddg/tds-v2-current.json",

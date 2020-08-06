@@ -1,15 +1,15 @@
-2020/07/08-17:45:43.577 15ae18 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/07/08-17:45:43.577 15ae18 Recovering log #39
-2020/07/08-17:45:43.577 15ae18 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000039.log 
-2020/07/08-17:46:55.772 ba7 Level-0 table #44: started
-2020/07/08-17:46:55.775 ba7 Level-0 table #44: 92726 bytes OK
-2020/07/08-17:46:55.776 ba7 Delete type=0 #39
-2020/07/08-17:46:55.776 ba7 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/07/08-17:46:55.776 ba7 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 29063 : 1
-2020/07/08-17:46:55.776 ba7 Compacting 1@1 + 1@2 files
-2020/07/08-17:46:55.788 ba7 Generated table #45@1: 8089 keys, 371783 bytes
-2020/07/08-17:46:55.788 ba7 Compacted 1@1 + 1@2 files => 371783 bytes
-2020/07/08-17:46:55.790 ba7 compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/07/08-17:46:55.790 ba7 Delete type=2 #41
-2020/07/08-17:46:55.790 ba7 Delete type=2 #44
-2020/07/08-17:46:55.790 ba7 Manual compaction at level-1 from '\x00\x04\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 29063 : 1 .. (end); will stop at (end)
+2020/08/04-12:49:34.250 2558a Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/04-12:49:34.250 2558a Recovering log #47
+2020/08/04-12:49:34.251 2558a Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000047.log 
+2020/08/04-13:01:59.112 b1b Level-0 table #52: started
+2020/08/04-13:01:59.118 b1b Level-0 table #52: 167843 bytes OK
+2020/08/04-13:01:59.120 b1b Delete type=0 #47
+2020/08/04-13:01:59.120 b1b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/04-13:01:59.120 b1b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 36303 : 1
+2020/08/04-13:01:59.120 b1b Compacting 1@1 + 1@2 files
+2020/08/04-13:01:59.135 b1b Generated table #53@1: 10641 keys, 484423 bytes
+2020/08/04-13:01:59.135 b1b Compacted 1@1 + 1@2 files => 484423 bytes
+2020/08/04-13:01:59.136 b1b compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/04-13:01:59.137 b1b Delete type=2 #52
+2020/08/04-13:01:59.137 b1b Delete type=2 #49
+2020/08/04-13:01:59.137 b1b Manual compaction at level-1 from '\x00\x04\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 36303 : 1 .. (end); will stop at (end)

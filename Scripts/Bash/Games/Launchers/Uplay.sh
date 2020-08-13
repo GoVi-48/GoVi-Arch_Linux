@@ -1,3 +1,5 @@
  #!/usr/bin/env bash
  
-WINEPREFIX=~/Wine/wine-pfx_lutris ~/Wine/wine-build_5.14-tkg/bin/wine $HOME"/Games/Uplay/Uplay.exe"
+cd $HOME"/Games/Ubisoft/Uplay"
+
+WINEPREFIX=~/Wine/wine-pfx_lutris ~/Wine/wine-build_5.14-tkg/bin/wine "Uplay.exe"

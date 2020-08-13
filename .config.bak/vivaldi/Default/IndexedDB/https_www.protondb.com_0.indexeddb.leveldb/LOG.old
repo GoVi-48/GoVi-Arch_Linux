@@ -1,15 +1,15 @@
-2020/08/11-07:46:38.057 6ee80 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_www.protondb.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/08/11-07:46:38.058 6ee80 Recovering log #95
-2020/08/11-07:46:38.058 6ee80 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_www.protondb.com_0.indexeddb.leveldb/000095.log 
-2020/08/11-07:52:00.414 1a840 Level-0 table #100: started
-2020/08/11-07:52:00.421 1a840 Level-0 table #100: 501 bytes OK
-2020/08/11-07:52:00.434 1a840 Delete type=0 #95
-2020/08/11-07:52:00.434 1a840 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
-2020/08/11-07:52:00.434 1a840 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x008\x007\x009\x003\x001\x004\x005\x004\x004' @ 461 : 1
-2020/08/11-07:52:00.434 1a840 Compacting 1@1 + 1@2 files
-2020/08/11-07:52:00.444 1a840 Generated table #101@1: 18 keys, 550 bytes
-2020/08/11-07:52:00.444 1a840 Compacted 1@1 + 1@2 files => 550 bytes
-2020/08/11-07:52:00.452 1a840 compacted to: files[ 0 0 1 0 0 0 0 ]
-2020/08/11-07:52:00.452 1a840 Delete type=2 #100
-2020/08/11-07:52:00.452 1a840 Delete type=2 #97
-2020/08/11-07:52:00.452 1a840 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x008\x007\x009\x003\x001\x004\x005\x004\x004' @ 461 : 1 .. (end); will stop at (end)
+2020/08/12-04:54:45.971 29632 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_www.protondb.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/12-04:54:45.971 29632 Recovering log #99
+2020/08/12-04:54:45.971 29632 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_www.protondb.com_0.indexeddb.leveldb/000099.log 
+2020/08/12-05:20:47.498 d6c Level-0 table #104: started
+2020/08/12-05:20:47.499 d6c Level-0 table #104: 518 bytes OK
+2020/08/12-05:20:47.501 d6c Delete type=0 #99
+2020/08/12-05:20:47.501 d6c Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/12-05:20:47.502 d6c Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x006\x002\x003\x009\x005\x001\x003\x008\x001' @ 475 : 1
+2020/08/12-05:20:47.502 d6c Compacting 1@1 + 1@2 files
+2020/08/12-05:20:47.503 d6c Generated table #105@1: 18 keys, 550 bytes
+2020/08/12-05:20:47.503 d6c Compacted 1@1 + 1@2 files => 550 bytes
+2020/08/12-05:20:47.505 d6c compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/12-05:20:47.505 d6c Delete type=2 #101
+2020/08/12-05:20:47.505 d6c Delete type=2 #104
+2020/08/12-05:20:47.505 d6c Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x006\x002\x003\x009\x005\x001\x003\x008\x001' @ 475 : 1 .. (end); will stop at (end)

@@ -2,15 +2,14 @@
  
 killall polybar
 
-qdbus org.kde.KWin /Compositor suspend
+lutris lutris:rungameid/6 &
 
-gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.14-dxvk-1.7-mf ~/Wine/wine-build_5.14-tkg/bin/wine64 $HOME"/Games/-Library-/PC/Remnant From The Ashes/Remnant.exe"
+sleep 2
 
-while pgrep -x "wineserver" > /dev/null; do sleep 1; done
+while pgrep -x "Remnant-Win64-Shipping.exe" > /dev/null; do sleep 1; done
 
-qdbus org.kde.KWin /Compositor resume
-
-killall lutris
-killall gamemoded
-
-~/Scripts/Bash/Polybar
+if ! pgrep -x "Remnant-Win64-Shipping.exe" > /dev/null; then
+    killall lutris
+    killall gamemoded
+    ~/Scripts/Bash/Polybar
+fi

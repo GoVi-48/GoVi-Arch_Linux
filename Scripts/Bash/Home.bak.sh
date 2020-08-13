@@ -10,6 +10,7 @@ rm -rfv "$GoVi_Arch_Linux/Scripts/"*
 
 # Backup ~/.config
 cp -rfv ~/.config/* "$GoVi_Arch_Linux/.config.bak"
+rm $HOME/Proyectos/Github/GoVi-Arch-Linux/.config.bak/vivaldi
 
 # Backup ~/.local
 mkdir -p "$GoVi_Arch_Linux/.local.bak/share/plasma/look-and-feel/GoVi" && cp -rfv ~/.local/share/plasma/look-and-feel/GoVi/* $_

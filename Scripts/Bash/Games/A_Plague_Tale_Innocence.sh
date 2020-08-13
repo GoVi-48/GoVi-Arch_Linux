@@ -4,9 +4,13 @@ killall polybar
 
 qdbus org.kde.KWin /Compositor suspend
 
-gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.14-dxvk-1.7-mf ~/Wine/wine-build_5.14-tkg/bin/wine64 $HOME"/Games/-Library-/PC/A Plague Tale Innocence/APlagueTaleInnocence_x64.exe"
+cd $HOME"/Games/-Library-/PC/A Plague Tale Innocence"
 
-while pgrep -x "wineserver" > /dev/null; do sleep 1; done
+gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.14-dxvk-1.7.1-mf ~/Wine/wine-build_5.14-tkg/bin/wine64 "APlagueTaleInnocence_x64.exe"
+
+sleep 5
+
+while pgrep -x "APlagueTaleInnocence_x64.exe" > /dev/null; do sleep 1; done
 
 qdbus org.kde.KWin /Compositor resume
 

@@ -35,6 +35,7 @@ $ cd yay
 $ makepkg -si PKGBUILD
 
 $ yay -S ttf-ms-fonts
+$ yay -S balena-etcher
 $ yay -S discord
 $ yay -S dropbox
 $ yay -S font-manager
@@ -63,9 +64,9 @@ $ lspci -nnk | grep -i vga -A3
 $ glxinfo | grep "OpenGL vendor string" | cut -f2 -d":" | xargs
 
 # Enable Vulkan for R9 200/300 Series
-## $ echo "blacklist radeon" | sudo tee --append /etc/modprobe.d/blacklist.conf
 $ echo -e "options radeon si_support=0\noptions radeon cik_support=0" | sudo tee --append /etc/modprobe.d/radeon.conf
 $ echo -e "options amdgpu si_support=1\noptions amdgpu cik_support=1" | sudo tee --append /etc/modprobe.d/amdgpu.conf
+## $ echo "blacklist radeon" | sudo tee --append /etc/modprobe.d/blacklist.conf
 
 # ACO "AMD Compiler"
 $ vim ~/.profile
@@ -83,7 +84,7 @@ $ yay -S gamemode lib32-gamemode
 
 # Mangohud
 $ yay -S mangohud
-$ yay lib32-mangohud
+$ yay -S lib32-mangohud
 $ vim ~/.config/MangoHud/MangoHud.conf
 $ mangohud vkcube
 
@@ -113,9 +114,10 @@ $ cd ~/Escritorio/winetricks
 $ sh winetricks corefonts vcrun6
 
 # DXVK 
-$ wget -P ~/Escritorio https://github.com/doitsujin/dxvk/releases/download/v1.7/dxvk-1.7.tar.gz
+$ wget -P ~/Escritorio https://github.com/doitsujin/dxvk/releases/download/v1.7.1/dxvk-1.7.1.tar.gz
 $ tar xvzf ~/Escritorio/dxvk-1.7.tar.gz -C ~/Escritorio
-$ cd ~/Escritorio/dxvk-1.7
+$ cd ~/Escritorio/dxvk-1.7.1
+$ rm ~/.wine && winecfg
 $ ./setup_dxvk.sh install
 $ mkdir -p ~/Escritorio/wine-pfx_dxvk && mv ~/.wine/* $_
 $ WINEPREFIX=~/Escritorio/wine-pfx_dxvk winecfg
@@ -138,6 +140,9 @@ $ WINEPREFIX=~/Wine/.new32prefix WINEARCH="win32" winecfg
 
 # Launch Custom Wine
 $ WINEPREFIX=~/Games/Wine/wine-pfx ~/Games/Wine/wine-build/bin/wine64 "/Media/Games/PC/Game/game.exe"
+
+# Run as non admin
+wine runas /trustlevel:0x20000 "/path/file.exe"
 
 # Cemuhook
 $ winecfg 
@@ -264,4 +269,3 @@ realtime-priority = 5
 # Kernel Zen
 $ sudo pacman -S linux-zen linux-zen-headers
 $ sudo grub-mkconfig -o /boot/grub/grub.cfg
-

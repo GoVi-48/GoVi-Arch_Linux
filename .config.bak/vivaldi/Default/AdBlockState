@@ -1,16 +1,26 @@
 {
    "ad-blocking-rules": {
       "counters": {
-         "clients5.google.com": 17,
-         "gateway.reddit.com": 6,
-         "rpc-php.trafficfactory.biz": 17,
-         "static.trafficjunky.com": 13,
-         "www.gstatic.com": 6
+         "apis.google.com": 1,
+         "cdn1d-static-shared.phncdn.com": 83,
+         "ci.phncdn.com": 51,
+         "clients5.google.com": 120,
+         "di.phncdn.com": 8,
+         "es.pornhub.com": 9,
+         "etahub.com": 49,
+         "gateway.reddit.com": 173,
+         "licensing.bitmovin.com": 6,
+         "rpc-php.trafficfactory.biz": 69,
+         "static.trafficjunky.com": 40,
+         "www.google-analytics.com": 27,
+         "www.gstatic.com": 22,
+         "www.redditstatic.com": 27,
+         "www.youtube.com": 1
       },
       "enabled": true,
       "exceptions-type": 1,
       "exempt_list": [  ],
-      "index-checksum": "899469813",
+      "index-checksum": "2814526791",
       "known-sources": [ {
          "group": 1,
          "preset-id": "53e46eb7-be5f-41b7-994c-d3155fc2025e",
@@ -172,31 +182,34 @@
          "homepage": "https://easylist.to/",
          "invalid-rules-count": 2,
          "last-fetch-result": 0,
-         "last-upate": "13241076528091495",
+         "last-upate": "13241769049213334",
          "license": "https://easylist.to/pages/licence.html",
-         "next-fetch": "13241423028091495",
+         "next-fetch": "13242115129213334",
          "redirect": "",
-         "rules-list-checksum": "2579182848",
+         "rules-list-checksum": "886650194",
          "source-url": "https://downloads.vivaldi.com/easylist/easylist-current.txt",
          "title": "EasyList",
-         "unsupported-rules-count": 85,
-         "valid-rules-count": 67790,
-         "version": "202007291146"
+         "unsupported-rules-count": 83,
+         "valid-rules-count": 64104,
+         "version": "202008121217"
       } ]
    },
    "tracking-rules": {
       "counters": {
          "addtoany.com": 3,
-         "facebook.net": 1,
+         "amazon.com": 1,
+         "evidon.com": 20,
+         "facebook.net": 5,
+         "google-analytics.com": 27,
          "linkedin.com": 1,
          "trustarc.com": 5,
          "truste.com": 2,
-         "twitter.com": 1
+         "twitter.com": 8
       },
       "enabled": true,
       "exceptions-type": 1,
       "exempt_list": [  ],
-      "index-checksum": "1168101521",
+      "index-checksum": "2066711003",
       "known-sources": [  ],
       "process_list": [  ],
       "rule-sources": [ {
@@ -206,15 +219,15 @@
          "homepage": "",
          "invalid-rules-count": 0,
          "last-fetch-result": 0,
-         "last-upate": "13241145644864448",
+         "last-upate": "13241787806914642",
          "license": "",
-         "next-fetch": "13241189564864448",
+         "next-fetch": "13241831006914642",
          "redirect": "",
-         "rules-list-checksum": "2340232981",
+         "rules-list-checksum": "4099271913",
          "source-url": "https://downloads.vivaldi.com/ddg/tds-v2-current.json",
          "title": "DuckDuckGo blocking list",
-         "unsupported-rules-count": 13,
-         "valid-rules-count": 584,
+         "unsupported-rules-count": 18,
+         "valid-rules-count": 605,
          "version": "0"
       } ]
    },

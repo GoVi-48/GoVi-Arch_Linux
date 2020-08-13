@@ -405,10 +405,10 @@
        style="fill:#a0a0a0;stroke:none;"
        usecurrent="1" />
     <group
-       id="measure"
-       measure-start="0,0"
+       fontsize="10"
        measure-end="0,0"
-       fontsize="10" />
+       measure-start="0,0"
+       id="measure" />
   </group>
   <group
      id="palette">
@@ -624,7 +624,7 @@
        x="0"
        y="0"
        w="474"
-       h="333"
+       h="297"
        visible="1"
        state="2"
        placement="2" />
@@ -727,14 +727,14 @@
     <group
        id="undo-history" />
     <group
-       placement="5"
-       state="2"
-       visible="1"
-       h="487"
-       w="474"
-       y="0"
+       id="objects"
        x="0"
-       id="objects" />
+       y="0"
+       w="474"
+       h="487"
+       visible="1"
+       state="2"
+       placement="5" />
   </group>
   <group
      id="printing">
@@ -1014,11 +1014,11 @@
     <group
        id="rendering" />
     <group
-       id="defaultwindowsize"
-       value="2" />
+       value="2"
+       id="defaultwindowsize" />
     <group
-       id="font"
-       unitType="2" />
+       unitType="2"
+       id="font" />
   </group>
   <group
      id="extensions"
@@ -1155,23 +1155,23 @@
      id="ui"
      language="" />
   <group
-     id="theme"
-     defaultTheme="Breeze"
-     defaultIconTheme="GoVi-Ic"
-     gtkTheme="Breeze"
-     iconTheme="breeze"
-     menuIcons_canvas="0"
-     menuIcons_layers="0"
-     menuIcons_objects="0"
-     preferDarkTheme="1"
-     darkTheme="1"
+     symbolicDefaultColors="1"
      symbolicIcons="1"
-     symbolicDefaultColors="1">
+     darkTheme="1"
+     preferDarkTheme="1"
+     menuIcons_objects="0"
+     menuIcons_layers="0"
+     menuIcons_canvas="0"
+     iconTheme="breeze"
+     gtkTheme="Breeze"
+     defaultIconTheme="GoVi-Ic"
+     defaultTheme="Breeze"
+     id="theme">
     <group
-       id="breeze"
-       symbolicBaseColor="4025545215"
-       symbolicSuccessColor="665739519"
+       symbolicErrorColor="3661911039"
        symbolicWarningColor="4134797567"
-       symbolicErrorColor="3661911039" />
+       symbolicSuccessColor="665739519"
+       symbolicBaseColor="4025545215"
+       id="breeze" />
   </group>
 </inkscape>

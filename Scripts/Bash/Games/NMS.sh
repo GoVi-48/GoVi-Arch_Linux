@@ -6,7 +6,7 @@ qdbus org.kde.KWin /Compositor suspend
 
 gamemoderun steam steam://rungameid/13597827194578534400 &
 
-sleep 10
+sleep 15
 
 while pgrep -x NMS.exe > /dev/null; do sleep 1; done
 

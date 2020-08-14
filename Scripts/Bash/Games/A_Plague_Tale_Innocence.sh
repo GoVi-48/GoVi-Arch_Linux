@@ -6,7 +6,7 @@ qdbus org.kde.KWin /Compositor suspend
 
 cd $HOME"/Games/-Library-/PC/A Plague Tale Innocence"
 
-gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.14-dxvk-1.7.1-mf ~/Wine/wine-build_5.14-tkg/bin/wine64 "APlagueTaleInnocence_x64.exe"
+gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.14/wine-pfx_5.14-dxvk-1.7.1-mf ~/Wine/wine-build_5.14-tkg/bin/wine64 "APlagueTaleInnocence_x64.exe"
 
 sleep 5
 

@@ -4,7 +4,7 @@ killall polybar
 
 qdbus org.kde.KWin /Compositor suspend
 
-gamemoderun mangohud WINEPREFIX=~/Wine/wine-pfx_5.14-dxvk-1.7-mf ~/Wine/wine-build_5.14-tkg/bin/wine64 $HOME"/Games/Emulators/Cemu/Cemu.exe" -g "Z:/Media/Games/Nintendo/Wii U/The Legend of Zelda Breath of the Wild/code/U-King.rpx" -f
+gamemoderun mangohud WINEPREFIX=~/Wine/wine-pfx_5.14/wine-pfx_5.14-dxvk-1.7.1-mf ~/Wine/wine-build_5.14-tkg/bin/wine64 $HOME"/Games/Emulators/Cemu/Cemu.exe" -g "Z:/Media/Games/Nintendo/Wii U/The Legend of Zelda Breath of the Wild/code/U-King.rpx" -f
 
 qdbus org.kde.KWin /Compositor resume
 

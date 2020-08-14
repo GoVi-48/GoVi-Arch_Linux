@@ -6,7 +6,7 @@ qdbus org.kde.KWin /Compositor suspend
 
 cd $HOME"/Games/-Library-/PC/Green Hell"
 
-gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.14-dxvk-1.7.1-mf ~/Wine/wine-build_5.14-tkg/bin/wine64 "GH.exe"
+gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.14/wine-pfx_5.14-dxvk-1.7.1-mf ~/Wine/wine-build_5.14-tkg/bin/wine64 "GH.exe"
 
 sleep 5
 

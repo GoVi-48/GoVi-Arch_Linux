@@ -6,7 +6,7 @@ qdbus org.kde.KWin /Compositor suspend
 
 cd $HOME"/Games/-Library-/PC/Horizon Zero Dawn/"
 
-gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.14-dxvk-1.7.1-mf ~/Wine/wine-build_5.14-tkg/bin/wine64 "HorizonZeroDawn.exe"
+gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-dxvk-1.7.1-mf ~/Wine/wine-build_5.15-tkg/bin/wine64 "HorizonZeroDawn.exe"
 
 sleep 5
 

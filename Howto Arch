@@ -115,12 +115,11 @@ $ sh winetricks corefonts vcrun6
 
 # DXVK 
 $ wget -P ~/Escritorio https://github.com/doitsujin/dxvk/releases/download/v1.7.1/dxvk-1.7.1.tar.gz
-$ tar xvzf ~/Escritorio/dxvk-1.7.tar.gz -C ~/Escritorio
+$ tar xvzf ~/Escritorio/dxvk-1.7.1.tar.gz -C ~/Escritorio
 $ cd ~/Escritorio/dxvk-1.7.1
 $ rm ~/.wine && winecfg
 $ ./setup_dxvk.sh install
 $ mkdir -p ~/Escritorio/wine-pfx_dxvk && mv ~/.wine/* $_
-$ WINEPREFIX=~/Escritorio/wine-pfx_dxvk winecfg
 
 # Media Files
 $ git clone https://github.com/z0z0z/mf-install.git ~/Escritorio/wine-mf
@@ -133,6 +132,7 @@ $ git clone https://github.com/Frogging-Family/wine-tkg-git.git ~/Escritorio/win
 $ cd ~/Escritorio/wine-tkg-git/wine-tkg-git/
 $ kate ~/Escritorio/wine-tkg-git/wine-tkg-git/customization.cfg
 $ sh non-makepkg-build.sh
+$ makepkg -si
 
 # Create WINEPREFIX
 $ WINEPREFIX=~/Wine/.newprefix winecfg

@@ -4,7 +4,7 @@ killall polybar
 
 cd "/Windows/Portables/Adobe/Adobe Photoshop 2020"
 
-WINEPREFIX=~/Wine/wine-pfx_lutris/wine-pfx_lutris-opengl ~/Wine/wine-build_5.14-tkg/bin/wine64 "Photoshop.exe"
+WINEPREFIX=~/Wine/wine-pfx_lutris/wine-pfx_lutris-opengl ~/Wine/wine-build_5.15-tkg/bin/wine64 "Photoshop.exe"
 
 ~/Scripts/Bash/Polybar
 

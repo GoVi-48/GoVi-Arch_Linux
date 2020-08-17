@@ -2,4 +2,4 @@
 
 cd $HOME"/Games/Epic Games/Launcher/Engine/Binaries/Win64"
  
-WINEPREFIX=~/Wine/wine-pfx_5.14/wine-pfx_5.14-default ~/Wine/wine-build_5.14-tkg/bin/wine "EpicGamesLauncher.exe"
+WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-default ~/Wine/wine-build_5.15-tkg/bin/wine "EpicGamesLauncher.exe"

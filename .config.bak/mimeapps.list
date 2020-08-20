@@ -1,6 +1,7 @@
 [Added Associations]
 application/x-bittorrent=transmission-qt.desktop;org.kde.kget.desktop;
 application/x-desktop=org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;wine-extension-txt.desktop;vim.desktop;
+application/x-dlc-container=JDownloader.sh.desktop;jd-containers.desktop;
 application/x-mozilla-bookmarks=org.kde.kate.desktop;org.kde.kimagemapeditor.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;brave-browser.desktop;vivaldi-stable.desktop;vim.desktop;wine-extension-txt.desktop;
 application/x-shellscript=bash.desktop;org.kde.kate.desktop;org.kde.kwrite.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;wine-extension-txt.desktop;
 application/x-trash=org.kde.kate.desktop;
@@ -31,6 +32,7 @@ x-scheme-handler/mailto=userapp-Thunderbird-P4BTL0.desktop;
 [Default Applications]
 application/x-bittorrent=transmission-qt.desktop;
 application/x-desktop=org.kde.kate.desktop;
+application/x-dlc-container=JDownloader.sh.desktop;
 application/x-mozilla-bookmarks=org.kde.kate.desktop;
 application/x-shellscript=bash.desktop;
 application/x-trash=org.kde.kate.desktop;
@@ -55,13 +57,14 @@ text/x-python3=org.kde.kate.desktop;
 video/mp4=vlc.desktop;
 video/webm=vlc.desktop;
 video/x-matroska=vlc.desktop;
+x-scheme-handler/etcher=Electron.desktop
 x-scheme-handler/http=vivaldi-stable.desktop;
 x-scheme-handler/https=vivaldi-stable.desktop;
 x-scheme-handler/magnet=userapp-transmission-gtk-4418J0.desktop
 x-scheme-handler/mailto=userapp-Thunderbird-P4BTL0.desktop;
-x-scheme-handler/etcher=Electron.desktop
 
 [Removed Associations]
+application/x-dlc-container=JDownloader.sh.desktop;
 application/x-shellscript=org.kde.konsole.desktop;terminator.desktop;
 image/vnd.adobe.photoshop=wine-extension-psd.desktop;
 text/x-python=terminator.desktop;

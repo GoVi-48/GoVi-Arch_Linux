@@ -6,7 +6,7 @@ qdbus org.kde.KWin /Compositor suspend
 
 cd $HOME"/Games/-Library-/PC/Shadow of the Tomb Raider"
 
-gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-dxvk-1.7.1-mf ~/Wine/wine-build_5.15-tkg/bin/wine64 "SOTTR.exe"
+gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-dxvk-1.7.1-mf wine "SOTTR.exe"
 
 sleep 5
 

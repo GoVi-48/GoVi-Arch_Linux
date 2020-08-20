@@ -4,9 +4,9 @@ killall polybar
 
 qdbus org.kde.KWin /Compositor suspend
 
-cd $HOME"/Games/-Library-/PC/AmongTrees"
+cd $HOME"/Games/-Library-/PC/Among Trees"
 
-gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-dxvk-1.7.1-mf ~/Wine/wine-build_5.15-tkg/bin/wine64 "Among Trees.exe"
+mangohud gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-dxvk-1.7.1-mf ~/Wine/wine-build_5.15-tkg/bin/wine64 "Among Trees.exe"
 
 sleep 5
 

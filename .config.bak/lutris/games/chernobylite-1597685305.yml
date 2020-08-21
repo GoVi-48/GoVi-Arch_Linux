@@ -1,6 +1,10 @@
 game:
   exe: /home/govi/Scripts/Bash/Games/Chernobylite.sh
-  working_dir: ~/Games/-Library-/PC/Chernobylite
+  working_dir: /Datos/Games/PC/Chernobylite
 linux: {}
 system:
   aco: false
+  env:
+    MANGOHUD: '1'
+    WINEFSYNC: '1'
+  prefer_system_libs: true

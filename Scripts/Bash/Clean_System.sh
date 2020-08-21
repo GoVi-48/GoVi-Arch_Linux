@@ -7,7 +7,7 @@ sudo pacman -Scc
 sudo pacman -Rns $(pacman -Qtdq)
 
 # Clean files
-sudo rm -rft /var/lib/systemd/coredump/*
+sudo rm -rfv /var/lib/systemd/coredump/*
 sudo rm -rfv /var/log/journal/*
 
 rm -rfv ~/.cache/*

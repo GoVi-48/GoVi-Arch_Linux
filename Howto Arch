@@ -73,10 +73,6 @@ $ vim ~/.profile
 # -----------------------------------------------------------------------------
 export RADV_PERFTEST=aco
 # -----------------------------------------------------------------------------
-$ sudo vim /etc/environment
-# -----------------------------------------------------------------------------
-RADV_PERFTEST=aco
-# -----------------------------------------------------------------------------
 
 # Gamemode
 $ sudo pacman -S meson systemd git dbus
@@ -113,19 +109,20 @@ $ chmod +x ~/Escritorio/winetricks
 $ cd ~/Escritorio/winetricks
 $ sh winetricks corefonts vcrun6
 
-# DXVK 
-$ wget -P ~/Escritorio https://github.com/doitsujin/dxvk/releases/download/v1.7.1/dxvk-1.7.1.tar.gz
-$ tar xvzf ~/Escritorio/dxvk-1.7.1.tar.gz -C ~/Escritorio
-$ cd ~/Escritorio/dxvk-1.7.1
-$ rm ~/.wine && winecfg
-$ ./setup_dxvk.sh install
-$ mkdir -p ~/Escritorio/wine-pfx_dxvk && mv ~/.wine/* $_
-
 # Media Files
 $ git clone https://github.com/z0z0z/mf-install.git ~/Escritorio/wine-mf
+$ rm ~/.wine && winecfg
 $ cd ~/Escritorio/wine-mf
 $ mkdir -p ~/Escritorio/wine-pfx_mf && cp ~/.wine/* $_
 $ WINEPREFIX=$HOME"/Escritorio/wine-pfx_mf" ./mf-install.sh
+
+# DXVK 
+$ wget -P ~/Escritorio https://github.com/doitsujin/dxvk/releases/download/v1.7.1/dxvk-1.7.1.tar.gz
+$ tar xvzf ~/Escritorio/dxvk-1.7.1.tar.gz -C ~/Escritorio
+$ rm ~/.wine && winecfg
+$ cd ~/Escritorio/dxvk-1.7.1
+$ ./setup_dxvk.sh install
+$ mkdir -p ~/Escritorio/wine-pfx_dxvk && mv ~/.wine/* $_
 
 # TKG build
 $ git clone https://github.com/Frogging-Family/wine-tkg-git.git ~/Escritorio/wine-tkg-git
@@ -192,9 +189,9 @@ UUID=2AE63D01E63CCF37                       /Windows    ntfs    defaults    0 0
 $ sudo mkdir /Datos
 $ sudo mkdir /Media
 $ sudo mkdir /Windows
-$ sudo chown govi:govi /Datos/
-$ sudo chown govi:govi /Media/
-$ sudo chown govi:govi /Windows/
+$ sudo chown govi:wheel /Datos/
+$ sudo chown govi:wheel /Media/
+$ sudo chown govi:wheel /Windows/
 $ ls -l /
 
 
@@ -266,6 +263,17 @@ realtime-scheduling = yes
 realtime-priority = 5
 # -----------------------------------------------------------------------------
 
+# Kernel TKG
+$ git clone https://github.com/Frogging-Family/linux-tkg.git
+$ cd linux-tkg/linux58-tkg
+# Edit customization.cfg file
+$ makepkg -si
+$ sudo grub-mkconfig -o /boot/grub/grub.cfg
+
 # Kernel Zen
 $ sudo pacman -S linux-zen linux-zen-headers
+$ sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# Kernel CK
+$ yay -S linux-ck linux-ck-headers
 $ sudo grub-mkconfig -o /boot/grub/grub.cfg

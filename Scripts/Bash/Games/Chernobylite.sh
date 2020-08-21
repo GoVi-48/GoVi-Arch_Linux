@@ -4,17 +4,19 @@ killall polybar
 
 qdbus org.kde.KWin /Compositor suspend
 
-cd $HOME"/Games/-Library-/PC/Chernobylite/ChernobylGame/Binaries/Win64"
+export RADV_PERFTEST=llvm
 
-gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-dxvk-1.7.1-mf ~/Wine/wine-build_Proton/wine-build_Proton-5.0/dist/bin/wine64 "ChernobylGame-Win64-Shipping.exe"
+gamemoderun steam steam://rungameid/16394953160386412544
 
-sleep 5
+sleep 20
 
-while pgrep -x "ChernobylGame-Win64-Shipping.exe" > /dev/null; do sleep 1; done
+while pgrep -x ChernobylGame-Win64-Shipping.exe > /dev/null; do sleep 1; done
 
-qdbus org.kde.KWin /Compositor resume
-
+killall steam
+sleep 1
 killall lutris
 killall gamemoded
+
+qdbus org.kde.KWin /Compositor resume
 
 ~/Scripts/Bash/Polybar

@@ -7,7 +7,7 @@ export WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-Grounded
 export WINE=~/Wine/wine-build_Proton/wine-build_Proton-5.11-GE-3-MF/dist/bin/wine64
 
 cd $HOME"/Games/-Library-/PC/Grounded"
-mangohud gamemoderun $WINE "Grounded.exe" "$@"
+mangohud gamemoderun $WINE "Grounded.exe"
 
 sleep 5
 

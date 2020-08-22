@@ -3,10 +3,7 @@ system:
   disable_compositor: true
   disable_runtime: true
   dri_prime: false
-  env:
-    ENABLE_VKBASALT: '1'
-    MANGOHUD: '1'
-    WINEFSYNC: '1'
+  env: {}
   game_path: ~/Games/-Library-/PC
   gamemode: false
   prefer_system_libs: true

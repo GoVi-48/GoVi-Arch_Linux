@@ -6,7 +6,7 @@ qdbus org.kde.KWin /Compositor suspend
 
 cd $HOME"/Games/-Library-/PC/Star Wars Jedi Fallen Order/SwGame/Binaries/Win64/"
 
-gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-dxvk-1.7.1-mf ~/Wine/wine-build_5.15-tkg/bin/wine64 "starwarsjedifallenorder.exe"
+gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-dxvk-1.7.1-mf ~/Wine/wine-build_Lutris/wine-build_lutris-jedi-4.20-x86_64/bin/wine "starwarsjedifallenorder.exe"
 
 sleep 5
 

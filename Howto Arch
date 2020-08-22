@@ -84,6 +84,12 @@ $ yay -S lib32-mangohud
 $ vim ~/.config/MangoHud/MangoHud.conf
 $ mangohud vkcube
 
+# Vkbasalt
+$ yay -s vkbasalt
+
+# GOverlay
+$ yay -S goverlay-git
+
 # Lutris
 $ sudo pacman -S lutris
 
@@ -120,9 +126,10 @@ $ WINEPREFIX=$HOME"/Escritorio/wine-pfx_mf" ./mf-install.sh
 $ wget -P ~/Escritorio https://github.com/doitsujin/dxvk/releases/download/v1.7.1/dxvk-1.7.1.tar.gz
 $ tar xvzf ~/Escritorio/dxvk-1.7.1.tar.gz -C ~/Escritorio
 $ rm ~/.wine && winecfg
-$ cd ~/Escritorio/dxvk-1.7.1
-$ ./setup_dxvk.sh install
 $ mkdir -p ~/Escritorio/wine-pfx_dxvk && mv ~/.wine/* $_
+$ cd ~/Escritorio/dxvk-1.7.1
+$ export WINEPREFIX=~/Escritorio/wine-pfx_dxvk
+$ ./setup_dxvk.sh install
 
 # TKG build
 $ git clone https://github.com/Frogging-Family/wine-tkg-git.git ~/Escritorio/wine-tkg-git

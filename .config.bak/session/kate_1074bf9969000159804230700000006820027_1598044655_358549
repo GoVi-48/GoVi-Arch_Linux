@@ -42,29 +42,40 @@ Orientation=1
 Sizes=1117
 
 [1-ViewSpace 0]
-Active View=file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
-Count=2
-Documents=file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch,file:///home/govi/.kodi/userdata/guisettings.xml
-View 0=file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
-View 1=file:///home/govi/.kodi/userdata/guisettings.xml
+Active View=file:///home/govi/.profile
+Count=1
+Documents=file:///home/govi/Scripts/Bash/Games/Grounded.sh,file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch,file:///home/govi/.bashrc,file:///home/govi/.profile,file:///etc/environment
+View 0=file:///home/govi/.profile
 
-[1-ViewSpace 0 file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch]
-CursorColumn=16
-CursorLine=71
+[1-ViewSpace 0 file:///home/govi/.profile]
+CursorColumn=17
+CursorLine=31
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,74,79,[,74,79,],74,79
-
-[1-ViewSpace 0 file:///home/govi/.kodi/userdata/guisettings.xml]
-CursorColumn=25
-CursorLine=494
-Dynamic Word Wrap=false
-JumpList=
-TextFolding=[]
-ViMarks=.,0,0,[,0,0,],0,0
+ViMarks=.,31,0,[,29,0,],31,16
 
 [Document 0]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+URL=file:///home/govi/Scripts/Bash/Games/Grounded.sh
+
+[Document 1]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+URL=file:///home/govi/.bashrc
+
+[Document 2]
 Bookmarks=
 Encoding=UTF-8
 Highlighting=Bash
@@ -74,15 +85,25 @@ Mode=Normal
 Mode Set By User=false
 URL=file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
 
-[Document 1]
+[Document 3]
 Bookmarks=
 Encoding=UTF-8
-Highlighting=XML
+Highlighting=None
 Highlighting Set By User=false
-Indentation Mode=xml
-Mode=XML
+Indentation Mode=normal
+Mode=Normal
 Mode Set By User=false
-URL=file:///home/govi/.kodi/userdata/guisettings.xml
+URL=file:///etc/environment
+
+[Document 4]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+URL=file:///home/govi/.profile
 
 [General]
 Last Session=
@@ -116,7 +137,7 @@ textfilterplugin=false
 NumberOfWindows=1
 
 [Open Documents]
-Count=2
+Count=5
 
 [Plugin:katesearchplugin:MainWindow:0]
 BinaryFiles=false
@@ -130,33 +151,33 @@ HiddenFiles=false
 MatchCase=false
 Place=0
 Recursive=true
-Replaces=5.15,"Explorer",/,killall,movistar,$HOME/,# -,$ yay,# ----------------------------------------------------,$ sudo,\\\\Green Hell\\\\,",-Videclips,Videclips,/Media/Multimedia/,Media,GoVi,special://skin/extras/icons/DefaultShortcut.png,DefaultVideo,defaultaddonprogram.png,osdinfofo,osdbookmarksnf,osdbookmarksfo,osdaudionf.png
+Replaces=/home/govi/Games,/home/govi,Reshade-Shaders,5.15,"Explorer",/,killall,movistar,$HOME/,# -,$ yay,# ----------------------------------------------------,$ sudo,\\\\Green Hell\\\\,",-Videclips,Videclips,/Media/Multimedia/,Media,GoVi,special://skin/extras/icons/DefaultShortcut.png,DefaultVideo,defaultaddonprogram.png,osdinfofo
 Search=\scapitalize lowercase,5.14,alsa,DAZN,elamigos,"ela","GoVi",Explorer,GoVi,mesa,/Portable/,while,ka gamemoded,ka,set.png,new.png,resumable_colored.png,Overlaywatched.png,resumable.png,overlayunwatched,overlaywatched,UnWatched,overlayunwatched.png,overlaywatched.png
 SearchDiskFiles=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 SearchDiskFiless=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=/Datos/Games/Wine/wine-pfx_proton/wine-pfx_Proton-5.11-GE-3-MF-Chernobylite/pfx/user.reg
-File10[$e]=/Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
-File2[$e]=/Datos/Games/Wine/wine-pfx_proton/wine-pfx_Proton-5.11-GE-3-MF-Chernobylite/pfx/userdef.reg
-File3[$e]=$HOME/Scripts/Bash/Games/NMS.sh
-File4[$e]=/etc/fstab
-File5[$e]=$HOME/Scripts/Bash/Games/DarK_Souls_III.sh
-File6[$e]=$HOME/Scripts/Bash/Games/Chernobylite.sh
-File7[$e]=$HOME/Scripts/Bash/Clean_System.sh
-File8[$e]=$HOME/Scripts/Logs/Cron/crontab.log
-File9[$e]=$HOME/.kodi/userdata/guisettings.xml
-Name1[$e]=user.reg
-Name10[$e]=Howto Arch
-Name2[$e]=userdef.reg
-Name3[$e]=NMS.sh
-Name4[$e]=fstab
-Name5[$e]=DarK_Souls_III.sh
-Name6[$e]=Chernobylite.sh
-Name7[$e]=Clean_System.sh
-Name8[$e]=crontab.log
-Name9[$e]=guisettings.xml
+File1[$e]=$HOME/Scripts/Bash/JDownloader.sh
+File10[$e]=$HOME/.profile
+File2[$e]=$HOME/Scripts/Bash/Games/NMS.sh
+File3[$e]=$HOME/.config/vkBasalt/vkBasalt.conf
+File4[$e]=$HOME/.bash_profile
+File5[$e]=$HOME/Scripts/Bash/Games/-Test/Star_Wars_JFO.sh
+File6[$e]=$HOME/Scripts/Bash/Games/Grounded.sh
+File7[$e]=/Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
+File8[$e]=/etc/environment
+File9[$e]=$HOME/.bashrc
+Name1[$e]=JDownloader.sh
+Name10[$e]=.profile
+Name2[$e]=NMS.sh
+Name3[$e]=vkBasalt.conf
+Name4[$e]=.bash_profile
+Name5[$e]=Star_Wars_JFO.sh
+Name6[$e]=Grounded.sh
+Name7[$e]=Howto Arch
+Name8[$e]=environment
+Name9[$e]=.bashrc
 
 [WindowProperties1]
 ClassName=KateMainWindow

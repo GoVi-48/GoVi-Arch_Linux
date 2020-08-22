@@ -162,8 +162,13 @@ export FILEMANAGER="dolphin"
 export PATH=$PATH:$HOME/Scripts/Bash/
 export PATH=$PATH:$HOME/Games/-Shortcuts-/
 export PATH=$PATH:$HOME/Programas/Pycharm/bin/
+export JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
+export RADV_PERFTEST=aco
 export WINEFSYNC=1
-export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
+export MANGOHUD_DLSYM=1
+export MANGOHUD=1
+export VKBASALT_CONFIG_FILE=$HOME/.config/vkBasalt/vkBasalt.conf
+export ENABLE_VKBASALT=1
 
 # System Info
 neofetch

@@ -6,7 +6,7 @@ qdbus org.kde.KWin /Compositor suspend
 
 cd "/Datos/Games/PC/No Man's Sky GOG/Binaries"
 
-gamemoderun WINEPREFIX="/Datos/Games/PC/No Man's Sky GOG/wine-pfx_NMS/pfx" ~/Wine/wine-build_Proton/wine-build_Proton-5.0/dist/bin/wine "NMS.exe"
+gamemoderun WINEPREFIX=~/Wine/wine-pfx_proton/wine-pfx_Proton-5.0.9-NMS/pfx ~/Wine/wine-build_Proton/wine-build_Proton-5.0/dist/bin/wine "NMS.exe"
 
 sleep 5
 

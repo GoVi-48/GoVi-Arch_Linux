@@ -1,17 +1,17 @@
 [1]
 Active ViewSpace=0
-Height 1080=845
+Height 1080=840
 Kate-MDI-H-Splitter=0,1117,200
-Kate-MDI-Sidebar-0-Splitter=777,0
+Kate-MDI-Sidebar-0-Splitter=772,0
 Kate-MDI-Sidebar-1-Splitter=
 Kate-MDI-Sidebar-2-Splitter=
-Kate-MDI-Sidebar-3-Splitter=1117,0,0
+Kate-MDI-Sidebar-3-Splitter=0,0,0
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-kate_plugin_katesearch-Persistent=false
 Kate-MDI-ToolView-kate_plugin_katesearch-Position=3
 Kate-MDI-ToolView-kate_plugin_katesearch-Sidebar-Position=0
-Kate-MDI-ToolView-kate_plugin_katesearch-Visible=true
+Kate-MDI-ToolView-kate_plugin_katesearch-Visible=false
 Kate-MDI-ToolView-kate_plugin_xmlcheck_ouputview-Persistent=false
 Kate-MDI-ToolView-kate_plugin_xmlcheck_ouputview-Position=3
 Kate-MDI-ToolView-kate_plugin_xmlcheck_ouputview-Sidebar-Position=2
@@ -28,8 +28,8 @@ Kate-MDI-ToolView-kateprojectinfo-Persistent=false
 Kate-MDI-ToolView-kateprojectinfo-Position=3
 Kate-MDI-ToolView-kateprojectinfo-Sidebar-Position=1
 Kate-MDI-ToolView-kateprojectinfo-Visible=false
-Kate-MDI-V-Splitter=150,459,287
-State=AAAA/wAAAAD9AAAAAAAABHwAAAMJAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Kate-MDI-V-Splitter=150,742,287
+State=AAAA/wAAAAD9AAAAAAAABHwAAAMEAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1148
 
@@ -42,45 +42,27 @@ Orientation=1
 Sizes=1117
 
 [1-ViewSpace 0]
-Active View=file:///home/govi/.config/vkBasalt/vkBasalt.conf
-Count=4
-Documents=file:///home/govi/Scripts/Bash/Games/Grounded.sh,file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch,file:///home/govi/.bashrc,file:///etc/environment,file:///home/govi/.config/vkBasalt/vkBasalt.conf
+Active View=file:///home/govi/Scripts/Bash/Games/Mark_of_the_Ninja.sh
+Count=2
+Documents=file:///home/govi/Scripts/Bash/Games/Grounded.sh,file:///home/govi/Scripts/Bash/Games/Mark_of_the_Ninja.sh
 View 0=file:///home/govi/Scripts/Bash/Games/Grounded.sh
-View 1=file:///home/govi/.bashrc
-View 2=file:///etc/environment
-View 3=file:///home/govi/.config/vkBasalt/vkBasalt.conf
+View 1=file:///home/govi/Scripts/Bash/Games/Mark_of_the_Ninja.sh
 
-[1-ViewSpace 0 file:///etc/environment]
-CursorColumn=0
-CursorLine=0
+[1-ViewSpace 0 file:///home/govi/Scripts/Bash/Games/Grounded.sh]
+CursorColumn=12
+CursorLine=6
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=
+ViMarks=.,8,20,[,8,19,],8,27
 
-[1-ViewSpace 0 file:///home/govi/.bashrc]
-CursorColumn=18
-CursorLine=150
-Dynamic Word Wrap=false
-JumpList=
-TextFolding=[]
-ViMarks=.,167,10,[,165,0,],-1,-1
-
-[1-ViewSpace 0 file:///home/govi/.config/vkBasalt/vkBasalt.conf]
-CursorColumn=0
+[1-ViewSpace 0 file:///home/govi/Scripts/Bash/Games/Mark_of_the_Ninja.sh]
+CursorColumn=66
 CursorLine=5
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
 ViMarks=.,5,0,[,5,0,],5,0
-
-[1-ViewSpace 0 file:///home/govi/Scripts/Bash/Games/Grounded.sh]
-CursorColumn=39
-CursorLine=11
-Dynamic Word Wrap=false
-JumpList=
-TextFolding=[]
-ViMarks=.,11,38,[,11,27,],11,38
 
 [Document 0]
 Bookmarks=
@@ -100,37 +82,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-URL=file:///home/govi/.bashrc
-
-[Document 2]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=true
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-URL=file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
-
-[Document 3]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-URL=file:///etc/environment
-
-[Document 4]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-URL=file:///home/govi/.config/vkBasalt/vkBasalt.conf
+URL=file:///home/govi/Scripts/Bash/Games/Mark_of_the_Ninja.sh
 
 [General]
 Last Session=
@@ -164,7 +116,7 @@ textfilterplugin=false
 NumberOfWindows=1
 
 [Open Documents]
-Count=5
+Count=2
 
 [Plugin:katesearchplugin:MainWindow:0]
 BinaryFiles=false
@@ -185,32 +137,32 @@ SearchDiskFiless=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/Scripts/Bash/Games/-Test/Star_Wars_JFO.sh
-File10[$e]=$HOME/.config/vkBasalt/vkBasalt.conf
-File2[$e]=/Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
-File3[$e]=/etc/environment
-File4[$e]=$HOME/.profile
-File5[$e]=$HOME/.bashrc
-File6[$e]=/usr/share/lutris/bin/lutris-wrapper
-File7[$e]=/usr/share/lutris/bin/resetxpad
-File8[$e]=/usr/bin/lutris
-File9[$e]=$HOME/Scripts/Bash/Games/Grounded.sh
-Name1[$e]=Star_Wars_JFO.sh
-Name10[$e]=vkBasalt.conf
-Name2[$e]=Howto Arch
-Name3[$e]=environment
-Name4[$e]=.profile
-Name5[$e]=.bashrc
-Name6[$e]=lutris-wrapper
-Name7[$e]=resetxpad
-Name8[$e]=lutris
-Name9[$e]=Grounded.sh
+File1[$e]=/Datos/Games/PC/Grounded/HOW TO RUN GAME!!.txt
+File10[$e]=$HOME/Scripts/Bash/Games/Mark_of_the_Ninja.sh
+File2[$e]=$HOME/Scripts/Bash/Games/Grounded.sh
+File3[$e]=/Media/GoVi/Documentos/Tiendas/paypal.txt
+File4[$e]=/Media/GoVi/Documentos/Tiendas/Ebay.txt
+File5[$e]=$HOME/Documentos/Tiendas/paypalFlor
+File6[$e]=$HOME/Scripts/Bash/Games/Green_Hell.sh
+File7[$e]=$HOME/Documentos/Tiendas/Mark_of_the_Ninja.sh
+File8[$e]=desktop:/Mark of the Ninja Remastered.desktop
+File9[$e]=/Media/Games/PC/Mark of the Ninja/bin/steam_emu.ini
+Name1[$e]=HOW TO RUN GAME!!.txt
+Name10[$e]=Mark_of_the_Ninja.sh
+Name2[$e]=Grounded.sh
+Name3[$e]=paypal.txt
+Name4[$e]=Ebay.txt
+Name5[$e]=paypalFlor
+Name6[$e]=Green_Hell.sh
+Name7[$e]=Mark_of_the_Ninja.sh
+Name8[$e]=Mark of the Ninja Remastered.desktop
+Name9[$e]=steam_emu.ini
 
 [WindowProperties1]
 ClassName=KateMainWindow
-Height 1080=845
+Height 1080=840
 ObjectName=MainWindow#1
-State=AAAA/wAAAAD9AAAAAAAABHwAAAMJAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABHwAAAMEAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1148
 

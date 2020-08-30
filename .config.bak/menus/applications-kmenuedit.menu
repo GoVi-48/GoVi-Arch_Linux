@@ -27,6 +27,14 @@
    <Filename>libreoffice-draw.desktop</Filename>
    <Filename>Shadow of the Tomb Raider - The Path Home.desktop</Filename>
    <Filename>DOOM Eternal.desktop</Filename>
+   <Filename>Games-steam.desktop</Filename>
+   <Filename>steam.desktop</Filename>
+   <Filename>goverlay.desktop</Filename>
+   <Filename>jconsole-java11-openjdk.desktop</Filename>
+   <Filename>jshell-java11-openjdk.desktop</Filename>
+   <Filename>jconsole-java-openjdk.desktop</Filename>
+   <Filename>jshell-java-openjdk.desktop</Filename>
+   <Filename>Webgrab to GIT.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -41,6 +49,7 @@
    <Filename>cemu.desktop</Filename>
    <Filename>Games-cemu.desktop</Filename>
    <Filename>Games-Games-cemu.desktop</Filename>
+   <Filename>goverlay.desktop</Filename>
   </Exclude>
   <Menu>
    <Name>Wine</Name>
@@ -219,43 +228,29 @@
  </Menu>
  <Menu>
   <Name>Utilities</Name>
+  <Exclude>
+   <Filename>winetricks.desktop</Filename>
+   <Filename>Webgrab to GIT.desktop</Filename>
+  </Exclude>
   <Layout>
    <Merge type="menus"/>
    <Menuname>XUtilities</Menuname>
    <Merge type="files"/>
+   <Filename>balena-etcher-electron.desktop</Filename>
+   <Filename>org.gnome.FontManager.desktop</Filename>
+   <Filename>org.gnome.FontViewer.desktop</Filename>
    <Filename>org.kde.ark.desktop</Filename>
-   <Filename>org.kde.akonadiimportwizard.desktop</Filename>
-   <Filename>Config backup.desktop</Filename>
    <Filename>onboard-settings.desktop</Filename>
-   <Filename>org.kde.kalarm.desktop</Filename>
    <Filename>org.kde.kate.desktop</Filename>
    <Filename>org.kde.kcalc.desktop</Filename>
-   <Filename>org.kde.kcharselect.desktop</Filename>
-   <Filename>org.kde.kfind.desktop</Filename>
-   <Filename>org.kde.kfloppy.desktop</Filename>
-   <Filename>org.kde.kgpg.desktop</Filename>
-   <Filename>org.kde.kleopatra.desktop</Filename>
-   <Filename>org.kde.kmag.desktop</Filename>
-   <Filename>org.kde.kmousetool.desktop</Filename>
-   <Filename>org.kde.kmouth.desktop</Filename>
-   <Filename>org.kde.knotes.desktop</Filename>
-   <Filename>Kodi backup.desktop</Filename>
-   <Filename>org.kde.kteatime.desktop</Filename>
-   <Filename>org.kde.ktnef.desktop</Filename>
    <Filename>org.kde.latte-dock.desktop</Filename>
    <Filename>onboard.desktop</Filename>
    <Filename>org.kde.plasma.emojier.desktop</Filename>
    <Filename>org.kde.spectacle.desktop</Filename>
-   <Filename>org.kde.sweeper.desktop</Filename>
-   <Filename>terminator.desktop</Filename>
    <Filename>vim.desktop</Filename>
-   <Filename>Webgrab to GIT.desktop</Filename>
    <Separator/>
    <Menuname>More</Menuname>
   </Layout>
-  <Exclude>
-   <Filename>winetricks.desktop</Filename>
-  </Exclude>
  </Menu>
  <Menu>
   <Name>Graphics</Name>
@@ -271,16 +266,18 @@
    <Filename>org.kde.kcolorchooser.desktop</Filename>
    <Filename>org.kde.kruler.desktop</Filename>
   </Include>
+  <Exclude>
+   <Filename>libreoffice-draw.desktop</Filename>
+   <Filename>goverlay.desktop</Filename>
+  </Exclude>
   <Layout>
    <Merge type="files"/>
+   <Filename>org.fontforge.FontForge.desktop</Filename>
    <Filename>Photoshop.desktop</Filename>
    <Filename>gimp.desktop</Filename>
    <Filename>org.inkscape.Inkscape.desktop</Filename>
    <Filename>org.kde.okular.desktop</Filename>
   </Layout>
-  <Exclude>
-   <Filename>libreoffice-draw.desktop</Filename>
-  </Exclude>
  </Menu>
  <Menu>
   <Name>wine-wine-2</Name>
@@ -407,4 +404,55 @@
   <Menuname>Utilities</Menuname>
   <Menuname>THC</Menuname>
  </Layout>
+ <Menu>
+  <Name>Internet</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Terminal</Menuname>
+   <Merge type="files"/>
+   <Filename>discord.desktop</Filename>
+   <Filename>dropbox.desktop</Filename>
+   <Filename>bssh.desktop</Filename>
+   <Filename>bvnc.desktop</Filename>
+   <Filename>jdownloader.desktop</Filename>
+   <Filename>skypeforlinux.desktop</Filename>
+   <Filename>transmission-qt.desktop</Filename>
+   <Filename>vivaldi-stable.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>Games-steam.desktop</Filename>
+   <Filename>steam.desktop</Filename>
+  </Exclude>
+ </Menu>
+ <Menu>
+  <Name>System</Name>
+  <Layout>
+   <Merge type="menus"/>
+   <Menuname>Terminal</Menuname>
+   <Menuname>ScreenSavers</Menuname>
+   <Merge type="files"/>
+   <Filename>Alacritty.desktop</Filename>
+   <Filename>org.kde.kinfocenter.desktop</Filename>
+   <Filename>conky.desktop</Filename>
+   <Filename>firewall-config.desktop</Filename>
+   <Filename>org.kde.discover.desktop</Filename>
+   <Filename>org.kde.dolphin.desktop</Filename>
+   <Filename>gparted.desktop</Filename>
+   <Filename>htop.desktop</Filename>
+   <Filename>org.kde.ksysguard.desktop</Filename>
+   <Filename>avahi-discover.desktop</Filename>
+   <Filename>virtualbox.desktop</Filename>
+   <Filename>timeshift-gtk.desktop</Filename>
+   <Separator/>
+   <Menuname>More</Menuname>
+  </Layout>
+  <Exclude>
+   <Filename>jconsole-java11-openjdk.desktop</Filename>
+   <Filename>jshell-java11-openjdk.desktop</Filename>
+   <Filename>jconsole-java-openjdk.desktop</Filename>
+   <Filename>jshell-java-openjdk.desktop</Filename>
+  </Exclude>
+ </Menu>
 </Menu>

@@ -1,20 +1,18 @@
 #!/usr/bin/env bash
  
 killall polybar
-
 qdbus org.kde.KWin /Compositor suspend
 
-cd $HOME"/Games/-Library-/PC/DiRT Rally 2.0"
+export WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-dxvk-1.7.1-mf
+export WINE=~/Wine/wine-build_5.15-tkg/bin/wine64
 
-gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-dxvk-1.7.1-mf ~/Wine/wine-build_5.15-tkg/bin/wine64 "dirtrally2.exe"
+cd $HOME"/Games/-Library-/PC/DiRT Rally 2.0"
+gamemoderun $WINE "dirtrally2.exe"
 
 sleep 5
 
 while pgrep -x "dirtrally2.exe" > /dev/null; do sleep 1; done
-
-qdbus org.kde.KWin /Compositor resume
-
-killall lutris
-killall gamemoded
-
-~/Scripts/Bash/Polybar
+    qdbus org.kde.KWin /Compositor resume
+    killall lutris
+    killall gamemoded
+    ~/Scripts/Bash/Polybar

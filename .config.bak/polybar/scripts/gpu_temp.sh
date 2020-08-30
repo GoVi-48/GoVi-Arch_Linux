@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-temp=$(cat /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.0/hwmon/hwmon2/temp1_input | cut -c -2)
+temp=$(nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits)
 
 if [ $temp -ge 20 -a $temp -lt 55 ];then
     echo %{T3}1%{T-} %{F#27ae60}"$temp"°C%{F-}

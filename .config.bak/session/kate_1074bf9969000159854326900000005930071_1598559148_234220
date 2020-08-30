@@ -1,8 +1,8 @@
 [1]
 Active ViewSpace=0
-Height 1080=840
-Kate-MDI-H-Splitter=0,1117,200
-Kate-MDI-Sidebar-0-Splitter=772,0
+Height 1080=846
+Kate-MDI-H-Splitter=0,1095,200
+Kate-MDI-Sidebar-0-Splitter=778,0
 Kate-MDI-Sidebar-1-Splitter=
 Kate-MDI-Sidebar-2-Splitter=
 Kate-MDI-Sidebar-3-Splitter=0,0,0
@@ -28,10 +28,10 @@ Kate-MDI-ToolView-kateprojectinfo-Persistent=false
 Kate-MDI-ToolView-kateprojectinfo-Position=3
 Kate-MDI-ToolView-kateprojectinfo-Sidebar-Position=1
 Kate-MDI-ToolView-kateprojectinfo-Visible=false
-Kate-MDI-V-Splitter=150,742,287
-State=AAAA/wAAAAD9AAAAAAAABHwAAAMEAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Kate-MDI-V-Splitter=150,748,287
+State=AAAA/wAAAAD9AAAAAAAABGYAAAMKAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1920=1148
+Width 1920=1126
 
 [1][Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
@@ -39,32 +39,43 @@ ToolButtonStyle=IconOnly
 [1-Splitter 0]
 Children=1-ViewSpace 0
 Orientation=1
-Sizes=1117
+Sizes=1095
 
 [1-ViewSpace 0]
-Active View=file:///home/govi/Scripts/Bash/Games/Mark_of_the_Ninja.sh
-Count=2
-Documents=file:///home/govi/Scripts/Bash/Games/Grounded.sh,file:///home/govi/Scripts/Bash/Games/Mark_of_the_Ninja.sh
+Active View=file:///home/govi/Scripts/Bash/Games/Grounded.sh
+Count=1
+Documents=file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Arch Install.txt,file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch,file:///home/govi/Scripts/Bash/Games/Grounded.sh
 View 0=file:///home/govi/Scripts/Bash/Games/Grounded.sh
-View 1=file:///home/govi/Scripts/Bash/Games/Mark_of_the_Ninja.sh
 
 [1-ViewSpace 0 file:///home/govi/Scripts/Bash/Games/Grounded.sh]
-CursorColumn=12
-CursorLine=6
+CursorColumn=38
+CursorLine=3
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,8,20,[,8,19,],8,27
-
-[1-ViewSpace 0 file:///home/govi/Scripts/Bash/Games/Mark_of_the_Ninja.sh]
-CursorColumn=66
-CursorLine=5
-Dynamic Word Wrap=false
-JumpList=
-TextFolding=[]
-ViMarks=.,5,0,[,5,0,],5,0
+ViMarks=
 
 [Document 0]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=true
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+URL=file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Arch Install.txt
+
+[Document 1]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=true
+Indentation Mode=normal
+Mode=Normal
+Mode Set By User=false
+URL=file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
+
+[Document 2]
 Bookmarks=
 Encoding=UTF-8
 Highlighting=Bash
@@ -73,16 +84,6 @@ Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
 URL=file:///home/govi/Scripts/Bash/Games/Grounded.sh
-
-[Document 1]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-URL=file:///home/govi/Scripts/Bash/Games/Mark_of_the_Ninja.sh
 
 [General]
 Last Session=
@@ -116,7 +117,7 @@ textfilterplugin=false
 NumberOfWindows=1
 
 [Open Documents]
-Count=2
+Count=3
 
 [Plugin:katesearchplugin:MainWindow:0]
 BinaryFiles=false
@@ -137,34 +138,34 @@ SearchDiskFiless=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=/Datos/Games/PC/Grounded/HOW TO RUN GAME!!.txt
-File10[$e]=$HOME/Scripts/Bash/Games/Mark_of_the_Ninja.sh
-File2[$e]=$HOME/Scripts/Bash/Games/Grounded.sh
-File3[$e]=/Media/GoVi/Documentos/Tiendas/paypal.txt
-File4[$e]=/Media/GoVi/Documentos/Tiendas/Ebay.txt
-File5[$e]=$HOME/Documentos/Tiendas/paypalFlor
-File6[$e]=$HOME/Scripts/Bash/Games/Green_Hell.sh
-File7[$e]=$HOME/Documentos/Tiendas/Mark_of_the_Ninja.sh
-File8[$e]=desktop:/Mark of the Ninja Remastered.desktop
-File9[$e]=/Media/Games/PC/Mark of the Ninja/bin/steam_emu.ini
-Name1[$e]=HOW TO RUN GAME!!.txt
-Name10[$e]=Mark_of_the_Ninja.sh
-Name2[$e]=Grounded.sh
-Name3[$e]=paypal.txt
-Name4[$e]=Ebay.txt
-Name5[$e]=paypalFlor
-Name6[$e]=Green_Hell.sh
-Name7[$e]=Mark_of_the_Ninja.sh
-Name8[$e]=Mark of the Ninja Remastered.desktop
-Name9[$e]=steam_emu.ini
+File1[$e]=/Media/Games/PC/Mark of the Ninja/bin/steam_emu.ini
+File10[$e]=$HOME/Scripts/Bash/Games/Grounded.sh
+File2[$e]=$HOME/.config/vkBasalt/vkBasalt.conf
+File3[$e]=$HOME/.bashrc
+File4[$e]=$HOME/Scripts/Bash/Games/Mark_of_the_Ninja.sh
+File5[$e]=$HOME/Scripts/Bash/Games/-Test/Star_Wars_JFO.sh
+File6[$e]=$HOME/Scripts/Logs/Cron/crontab.log
+File7[$e]=/Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Arch Install.txt
+File8[$e]=/Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
+File9[$e]=/boot/grub/grub.cfg
+Name1[$e]=steam_emu.ini
+Name10[$e]=Grounded.sh
+Name2[$e]=vkBasalt.conf
+Name3[$e]=.bashrc
+Name4[$e]=Mark_of_the_Ninja.sh
+Name5[$e]=Star_Wars_JFO.sh
+Name6[$e]=crontab.log
+Name7[$e]=Arch Install.txt
+Name8[$e]=Howto Arch
+Name9[$e]=grub.cfg
 
 [WindowProperties1]
 ClassName=KateMainWindow
-Height 1080=840
+Height 1080=846
 ObjectName=MainWindow#1
-State=AAAA/wAAAAD9AAAAAAAABHwAAAMEAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABGYAAAMKAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
-Width 1920=1148
+Width 1920=1126
 
 [WindowProperties1][Toolbar mainToolBar]
 ToolButtonStyle=IconOnly

@@ -20,13 +20,46 @@ _launch=none,none,Lanzar Among Trees
 _k_friendly_name=Doom Eternal
 _launch=none,none,Lanzar Doom Eternal
 
+[games-steam.desktop]
+BigPicture=,,Big Picture
+Community=,,Comunidad
+Friends=,,Amigos
+Library=,,Biblioteca
+News=,,Noticias
+Screenshots=,,Capturas
+Servers=,,Servidores
+Settings=,,Parámetros
+Store=,,Tienda
+_k_friendly_name=Steam
+_launch=none,none,Lanzar Steam
+
 [gimp.desktop]
 _k_friendly_name=Lanzar GIMP
 _launch=Meta+G,none,Lanzar GIMP
 
+[goverlay.desktop]
+_k_friendly_name=GOverlay
+_launch=none,none,Lanzar GOverlay
+
 [green hell.desktop]
 _k_friendly_name=Green Hell
 _launch=none,none,Lanzar Green Hell
+
+[jconsole-java-openjdk.desktop]
+_k_friendly_name=OpenJDK Java 14 Console
+_launch=none,none,Lanzar OpenJDK Java 14 Console
+
+[jconsole-java11-openjdk.desktop]
+_k_friendly_name=OpenJDK Java 11 Console
+_launch=none,none,Lanzar OpenJDK Java 11 Console
+
+[jshell-java-openjdk.desktop]
+_k_friendly_name=OpenJDK Java 14 Shell
+_launch=none,none,Lanzar OpenJDK Java 14 Shell
+
+[jshell-java11-openjdk.desktop]
+_k_friendly_name=OpenJDK Java 11 Shell
+_launch=none,none,Lanzar OpenJDK Java 11 Shell
 
 [juk]
 _k_friendly_name=JuK
@@ -545,6 +578,19 @@ _launch=none,none,Lanzar Sekiro - Shadows Die Twice
 _k_friendly_name=Shadow of the Tomb Raider - The Path Home
 _launch=none,none,Lanzar Shadow of the Tomb Raider - The Path Home
 
+[steam.desktop]
+BigPicture=,,Big Picture
+Community=,,Comunidad
+Friends=,,Amigos
+Library=,,Biblioteca
+News=,,Noticias
+Screenshots=,,Capturas
+Servers=,,Servidores
+Settings=,,Parámetros
+Store=,,Tienda
+_k_friendly_name=Steam (Runtime)
+_launch=none,none,Lanzar Steam (Runtime)
+
 [stranded deep.desktop]
 _k_friendly_name=Stranded Deep
 _launch=none,none,Lanzar Stranded Deep
@@ -558,6 +604,10 @@ _k_friendly_name=Vivaldi
 _launch=Meta+V,,Vivaldi
 new-private-window=,,Nueva ventana privada
 new-window=,,Nueva ventana
+
+[webgrab to git.desktop]
+_k_friendly_name=Webgrab to GIT
+_launch=none,none,Lanzar Webgrab to GIT
 
 [yakuake]
 _k_friendly_name=Yakuake

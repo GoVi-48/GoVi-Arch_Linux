@@ -1,0 +1,10 @@
+game:
+  exe: /home/govi/Scripts/Bash/Games/Windbound.sh
+  working_dir: ~/Games/-Library-/PC/Windbound
+linux: {}
+system:
+  env:
+    ENABLE_VKBASALT: '1'
+    MANGOHUD: '1'
+    MANGOHUD_DLSYM: '1'
+    WINEFSYNC: '0'

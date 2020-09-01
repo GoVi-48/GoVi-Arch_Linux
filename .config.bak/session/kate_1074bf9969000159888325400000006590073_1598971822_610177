@@ -1,8 +1,8 @@
 [1]
 Active ViewSpace=0
-Height 1080=846
+Height 1080=840
 Kate-MDI-H-Splitter=0,1095,200
-Kate-MDI-Sidebar-0-Splitter=778,0
+Kate-MDI-Sidebar-0-Splitter=772,0
 Kate-MDI-Sidebar-1-Splitter=
 Kate-MDI-Sidebar-2-Splitter=
 Kate-MDI-Sidebar-3-Splitter=0,0,0
@@ -28,8 +28,8 @@ Kate-MDI-ToolView-kateprojectinfo-Persistent=false
 Kate-MDI-ToolView-kateprojectinfo-Position=3
 Kate-MDI-ToolView-kateprojectinfo-Sidebar-Position=1
 Kate-MDI-ToolView-kateprojectinfo-Visible=false
-Kate-MDI-V-Splitter=150,748,287
-State=AAAA/wAAAAD9AAAAAAAABGYAAAMKAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Kate-MDI-V-Splitter=150,742,287
+State=AAAA/wAAAAD9AAAAAAAABGYAAAMEAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1126
 
@@ -42,37 +42,37 @@ Orientation=1
 Sizes=1095
 
 [1-ViewSpace 0]
-Active View=file:///home/govi/Scripts/Bash/Games/VR_46.sh
+Active View=file:///home/govi/Scripts/Bash/Games/-Test/Star_Wars_JFO.sh
 Count=2
-Documents=file:///home/govi/.config/MangoHud/MangoHud.conf,file:///home/govi/Scripts/Bash/Games/VR_46.sh,file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
-View 0=file:///home/govi/Scripts/Bash/Games/VR_46.sh
-View 1=file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
+Documents=file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch,file:///home/govi/Scripts/Bash/Games/-Test/Star_Wars_JFO.sh
+View 0=file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
+View 1=file:///home/govi/Scripts/Bash/Games/-Test/Star_Wars_JFO.sh
 
 [1-ViewSpace 0 file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch]
-CursorColumn=2
-CursorLine=140
+CursorColumn=0
+CursorLine=133
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,62,48,[,62,48,],62,48
+ViMarks=
 
-[1-ViewSpace 0 file:///home/govi/Scripts/Bash/Games/VR_46.sh]
-CursorColumn=19
+[1-ViewSpace 0 file:///home/govi/Scripts/Bash/Games/-Test/Star_Wars_JFO.sh]
+CursorColumn=66
 CursorLine=5
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,5,19,[,5,19,],5,19
+ViMarks=.,5,0,[,5,0,],5,0
 
 [Document 0]
 Bookmarks=
 Encoding=UTF-8
-Highlighting=None
-Highlighting Set By User=false
+Highlighting=Bash
+Highlighting Set By User=true
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-URL=file:///home/govi/.config/MangoHud/MangoHud.conf
+URL=file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
 
 [Document 1]
 Bookmarks=
@@ -82,17 +82,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-URL=file:///home/govi/Scripts/Bash/Games/VR_46.sh
-
-[Document 2]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=true
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-URL=file:///Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
+URL=file:///home/govi/Scripts/Bash/Games/-Test/Star_Wars_JFO.sh
 
 [General]
 Last Session=
@@ -126,7 +116,7 @@ textfilterplugin=false
 NumberOfWindows=1
 
 [Open Documents]
-Count=3
+Count=2
 
 [Plugin:katesearchplugin:MainWindow:0]
 BinaryFiles=false
@@ -140,37 +130,39 @@ HiddenFiles=false
 MatchCase=false
 Place=0
 Recursive=true
-Replaces=/home/govi/Games,/home/govi,Reshade-Shaders,5.15,"Explorer",/,killall,movistar,$HOME/,# -,$ yay,# ----------------------------------------------------,$ sudo,\\\\Green Hell\\\\,",-Videclips,Videclips,/Media/Multimedia/,Media,GoVi,special://skin/extras/icons/DefaultShortcut.png,DefaultVideo,defaultaddonprogram.png,osdinfofo
-Search=\scapitalize lowercase,5.14,alsa,DAZN,elamigos,"ela","GoVi",Explorer,GoVi,mesa,/Portable/,while,ka gamemoded,ka,set.png,new.png,resumable_colored.png,Overlaywatched.png,resumable.png,overlayunwatched,overlaywatched,UnWatched,overlayunwatched.png,overlaywatched.png
+Replaces=5.16,/home/govi/Games,/home/govi,Reshade-Shaders,5.15,"Explorer",/,killall,movistar,$HOME/,# -,$ yay,# ----------------------------------------------------,$ sudo,\\\\Green Hell\\\\,",-Videclips,Videclips,/Media/Multimedia/,Media,GoVi,special://skin/extras/icons/DefaultShortcut.png,DefaultVideo,defaultaddonprogram.png
+Search=dxgi,5.15,audio,english,language, capitalize lowercase,5.14,alsa,DAZN,elamigos,"ela","GoVi",Explorer,GoVi,mesa,/Portable/,while,ka gamemoded,ka,set.png,new.png,resumable_colored.png,Overlaywatched.png,resumable.png
 SearchDiskFiles=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 SearchDiskFiless=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/.bashrc
-File2[$e]=$HOME/.config/MangoHud/MangoHud.conf
-File3[$e]=$HOME/Scripts/Bash/Games/NMS.sh
-File4[$e]=$HOME/Scripts/Bash/Games/Steam/Chernobylite.sh
-File5[$e]=$HOME/Scripts/Bash/Games/-Test/SOTTR.sh
-File6[$e]=$HOME/Scripts/Bash/Games/VR_46.sh
-File7[$e]=$HOME/Escritorio/wine-tkg-git/wine-tkg-git/customization.cfg
-File8[$e]=/Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Howto Arch
-File9[$e]=/Media/GoVi/Proyectos/Github/GoVi-Arch-Linux/Scripts/Bash/Clean_System.sh
-Name1[$e]=.bashrc
-Name2[$e]=MangoHud.conf
-Name3[$e]=NMS.sh
-Name4[$e]=Chernobylite.sh
-Name5[$e]=SOTTR.sh
-Name6[$e]=VR_46.sh
-Name7[$e]=customization.cfg
-Name8[$e]=Howto Arch
-Name9[$e]=Clean_System.sh
+File1[$e]=$HOME/Scripts/Bash/Games/Metro_2033_Redux.sh
+File10[$e]=$HOME/Scripts/Bash/Games/-Test/Star_Wars_JFO.sh
+File2[$e]=$HOME/Scripts/Bash/Games/Mark_of_the_Ninja.sh
+File3[$e]=$HOME/Scripts/Bash/Games/Grounded.sh
+File4[$e]=$HOME/Scripts/Bash/Games/Green_Hell.sh
+File5[$e]=$HOME/Scripts/Bash/Games/Ghost_of_a_Tale.sh
+File6[$e]=$HOME/Scripts/Bash/Games/Dying_Light.sh
+File7[$e]=$HOME/Scripts/Bash/Games/DarK_Souls_III.sh
+File8[$e]=$HOME/Scripts/Bash/Games/Chernobylite.sh
+File9[$e]=$HOME/Scripts/Bash/Games/A_Plague_Tale_Innocence.sh
+Name1[$e]=Metro_2033_Redux.sh
+Name10[$e]=Star_Wars_JFO.sh
+Name2[$e]=Mark_of_the_Ninja.sh
+Name3[$e]=Grounded.sh
+Name4[$e]=Green_Hell.sh
+Name5[$e]=Ghost_of_a_Tale.sh
+Name6[$e]=Dying_Light.sh
+Name7[$e]=DarK_Souls_III.sh
+Name8[$e]=Chernobylite.sh
+Name9[$e]=A_Plague_Tale_Innocence.sh
 
 [WindowProperties1]
 ClassName=KateMainWindow
-Height 1080=846
+Height 1080=840
 ObjectName=MainWindow#1
-State=AAAA/wAAAAD9AAAAAAAABGYAAAMKAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABGYAAAMEAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1920=1126
 

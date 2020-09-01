@@ -1,0 +1,9 @@
+game:
+  exe: /home/govi/Scripts/Bash/Games/Steam/Assetto_Corsa.sh
+  working_dir: /Datos/Games/Steam/steamapps/common/assettocorsa
+linux: {}
+system:
+  env:
+    MANGOHUD: '1'
+    MANGOHUD_DLSYM: '1'
+    WINEFSYNC: '1'

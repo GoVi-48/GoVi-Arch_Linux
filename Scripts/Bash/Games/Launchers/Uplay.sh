@@ -1,5 +1,7 @@
- #!/usr/bin/env bash
+#!/usr/bin/env bash
+
+export WINEPREFIX=~/Wine/wine-pfx_5.16/wine-pfx_5.16
+export WINE=~/Wine/wine-build_5.16-tkg/usr/bin/wine64
  
 cd $HOME"/Games/Ubisoft/Uplay"
-
-WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-default ~/Wine/wine-build_5.15-tkg/bin/wine "Uplay.exe"
+gamemoderun $WINE "Uplay.exe"

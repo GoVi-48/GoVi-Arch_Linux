@@ -4,7 +4,7 @@ killall polybar
 qdbus org.kde.KWin /Compositor suspend
 
 export WINEPREFIX=~/Wine/wine-pfx_lutris/wine-pfx_lutris-MOTN
-export WINE=~/Wine/wine-build_5.15-tkg/bin/wine64
+export WINE=~/Wine/wine-build_5.16-tkg/usr/bin/wine64
 
 cd $HOME"/Games/-Library-/PC/Mark of the Ninja/bin"
 gamemoderun mangohud $WINE "Ninja.exe"

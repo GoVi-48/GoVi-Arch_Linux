@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
 killall polybar
-
 qdbus org.kde.KWin /Compositor suspend
 
-gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-dxvk-1.7.1-mf ~/Wine/wine-build_5.14-tkg/bin/wine64 $HOME"/Games/Emulators/Cemu/Cemu.exe"
+export WINEPREFIX=~/Wine/wine-pfx_5.16/wine-pfx_5.16-dxvk-1.7.1-mf
+export WINE=~/Wine/wine-build_5.16-tkg/usr/bin/wine64
+
+cd "$HOME/Games/Emulators/Cemu"
+gamemoderun $WINE "Cemu.exe"
 
 qdbus org.kde.KWin /Compositor resume
-
 ~/Scripts/Bash/Polybar

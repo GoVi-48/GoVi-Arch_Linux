@@ -3,11 +3,11 @@
 killall polybar
 qdbus org.kde.KWin /Compositor suspend
 
-export WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-dxvk-1.7.1
-export WINE=~/Wine/wine-build_5.15-tkg/bin/wine64
+export WINEPREFIX=~/Wine/wine-pfx_5.16/wine-pfx_5.16-dxvk-1.7.1
+export WINE=~/Wine/wine-build_Proton/wine-build_Proton-4.11-GE-1/dist/bin/wine64
 
 cd $HOME"/Games/-Library-/PC/Valentino Rossi The Game"
-mangohud gamemoderun $WINE "MotoGPVR46X64.exe"
+gamemoderun $WINE "MotoGPVR46X64.exe"
 
 sleep 5
 

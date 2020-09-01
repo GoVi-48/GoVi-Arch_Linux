@@ -1,11 +1,13 @@
 #!/usr/bin/env bash
 
 killall polybar
-
 qdbus org.kde.KWin /Compositor suspend
 
-gamemoderun mangohud WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-dxvk-1.7.1-mf ~/Wine/wine-build_5.14-tkg/bin/wine64 $HOME"/Games/Emulators/Cemu/Cemu.exe" -g "Z:/Media/Games/Nintendo/Wii U/Mario Kart 8/code/Mario Kart 8.rpx" -f
+export WINEPREFIX=~/Wine/wine-pfx_5.16/wine-pfx_5.16-dxvk-1.7.1-mf
+export WINE=~/Wine/wine-build_5.16-tkg/usr/bin/wine64
+
+cd $"HOME/Games/Emulators/Cemu"
+gamemoderun mangohud $WINE "Cemu.exe" -g "Z:/Media/Games/Nintendo/Wii U/Mario Kart 8/code/Mario Kart 8.rpx" -f
 
 qdbus org.kde.KWin /Compositor resume
-
 ~/Scripts/Bash/Polybar

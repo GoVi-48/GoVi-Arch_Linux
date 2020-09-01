@@ -35,6 +35,7 @@
    <Filename>jconsole-java-openjdk.desktop</Filename>
    <Filename>jshell-java-openjdk.desktop</Filename>
    <Filename>Webgrab to GIT.desktop</Filename>
+   <Filename>onboard-settings.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -454,5 +455,21 @@
    <Filename>jconsole-java-openjdk.desktop</Filename>
    <Filename>jshell-java-openjdk.desktop</Filename>
   </Exclude>
+ </Menu>
+ <Menu>
+  <Name>Settingsmenu</Name>
+  <Exclude>
+   <Filename>onboard-settings.desktop</Filename>
+  </Exclude>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>Nvidia Settings.desktop</Filename>
+   <Filename>nm-connection-editor.desktop</Filename>
+   <Filename>firewall-config.desktop</Filename>
+   <Filename>systemsettings.desktop</Filename>
+  </Layout>
+  <Include>
+   <Filename>Nvidia Settings.desktop</Filename>
+  </Include>
  </Menu>
 </Menu>

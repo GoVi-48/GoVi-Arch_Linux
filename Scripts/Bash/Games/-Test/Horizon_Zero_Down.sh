@@ -1,20 +1,18 @@
 #!/usr/bin/env bash
 
 killall polybar
-
 qdbus org.kde.KWin /Compositor suspend
 
-cd $HOME"/Games/-Library-/PC/Horizon Zero Dawn/"
+export WINEPREFIX=~/Wine/wine-pfx_5.16/wine-pfx_5.16-dxvk-1.7.1-mf
+export WINE=~/Wine/wine-build_5.16-tkg/usr/bin/wine64
 
-gamemoderun WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-dxvk-1.7.1-mf ~/Wine/wine-build_5.15-tkg/bin/wine64 "HorizonZeroDawn.exe"
+cd $HOME"/Games/-Library-/PC/Horizon Zero Dawn/"
+gamemoderun $WINE "HorizonZeroDawn.exe"
 
 sleep 5
 
 while pgrep -x "HorizonZeroDawn.exe" > /dev/null; do sleep 1; done
-
-qdbus org.kde.KWin /Compositor resume
-
-killall lutris
-killall gamemoded
-
-~/Scripts/Bash/Polybar
+    qdbus org.kde.KWin /Compositor resume
+    killall lutris
+    killall gamemoded
+    ~/Scripts/Bash/Polybar

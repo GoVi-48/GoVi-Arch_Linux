@@ -1,5 +1,7 @@
  #!/usr/bin/env bash
 
-cd $HOME"/Games/Epic Games/Launcher/Engine/Binaries/Win64"
+export WINEPREFIX=~/Wine/wine-pfx_5.16/wine-pfx_5.16
+export WINE=~/Wine/wine-build_5.16-tkg/usr/bin/wine64
  
-WINEPREFIX=~/Wine/wine-pfx_5.15/wine-pfx_5.15-default ~/Wine/wine-build_5.15-tkg/bin/wine "EpicGamesLauncher.exe"
+cd $HOME"/Games/Epic Games/Launcher/Engine/Binaries/Win64"
+gamemoderun $WINE "EpicGamesLauncher.exe"

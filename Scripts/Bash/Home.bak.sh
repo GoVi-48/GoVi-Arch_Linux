@@ -10,7 +10,6 @@ rm -rfv "$GoVi_Arch_Linux/Scripts/"*
 
 # Backup ~/.config
 cp -rfv ~/.config/* "$GoVi_Arch_Linux/.config.bak"
-rm -rfv "$GoVi_Arch_Linux/.config.bak/vivaldi"
 
 # Backup ~/.local
 mkdir -p "$GoVi_Arch_Linux/.local.bak/share/plasma/look-and-feel/GoVi" && cp -rfv ~/.local/share/plasma/look-and-feel/GoVi/* $_
@@ -33,3 +32,4 @@ git commit -m "Updated"
 git push -u origin master
 
 kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+xdg-open https://github.com/GoVi-48/GoVi-Arch-Linux

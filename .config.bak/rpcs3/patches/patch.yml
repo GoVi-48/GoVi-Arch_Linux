@@ -1,0 +1,5360 @@
+Version: 1.2 
+
+Anchors:
+  SPU_MLAA_01: &SPU_MLAA_01
+    - [ be32, 0x000031f4, 0x40800003 ] # il r3 0
+  #  - [ be32, 0x0000349c, 0x40800017 ] # il r23 0 # causes blackscreen
+  
+  SPU_MLAA_02: &SPU_MLAA_02
+    - [ be32, 0x000031f4, 0x40800003 ] # il r3 0
+    - [ be32, 0x0000349c, 0x40800017 ] # il r23 0
+  
+  SPU_MLAA_03: &SPU_MLAA_03
+    - [ be32, 0x000031f4, 0x40800003 ] # il r3 0
+    - [ be32, 0x000034a4, 0x40800017 ] # il r23 0
+  
+  SPU_MLAA_04: &SPU_MLAA_04
+    - [ be32, 0x00005948, 0x40800094 ] # il r20 1
+    - [ be32, 0x0000690c, 0x40800027 ] # il r39 0
+  
+  SPU_MLAA_05: &SPU_MLAA_05
+    - [ be32, 0x00004440, 0x40800002 ] # il r2 0
+    - [ be32, 0x000056C4, 0x4080008a ] # il r10 0
+  
+  SPU_MLAA_06: &SPU_MLAA_06
+    - [ be32, 0x000033b0, 0x40800017 ] # il r23 0
+    - [ be32, 0x0000373c, 0x4080001f ] # il r31 0
+  
+  SPU_MLAA_07: &SPU_MLAA_07
+    - [ be32, 0x0000325c, 0x40800003 ] # il r3 0
+    - [ be32, 0x00004C00, 0x40800091 ] # il r17 1
+  
+  SPU_MLAA_08: &SPU_MLAA_08
+    - [ be32, 0x000036d4, 0x4080001d ] # il r29 0
+    - [ be32, 0x000033d0, 0x40800005 ] # il r5 0
+  
+  SPU_MLAA_09: &SPU_MLAA_09
+    - [ be32, 0x00003744, 0x4080001e ] # il r30 0
+    - [ be32, 0x00003430, 0x40800006 ] # il r6 0
+  
+  SPU_MLAA_10: &SPU_MLAA_10
+    - [ be32, 0x000036bc, 0x4080001c ] # il r28 0
+    - [ be32, 0x000033c0, 0x40800005 ] # il r5 0
+  
+  SPU_MLAA_11: &SPU_MLAA_11
+    - [ be32, 0x00003344, 0x40800003 ] # il r3 0
+    - [ be32, 0x000037b4, 0x4020007f ] # spu nop
+  
+  SPU_MLAA_Notes: &SPU_MLAA_Notes "Removes Morphological Anti-Aliasing, known as \"MLAA\", a form of post process anti-aliasing which is done using the CELL's SPUs instead of the RSX for extra performance."
+
+SPU-5177cbc4bf45c8a0a6968c2a722da3a9e6cfb28b: # SPUNAME: 'PS3_Release/edgepost-mlaa-task.s'
+  "Disable SPU MLAA - Prince of Persia series":
+    Games:
+      All:
+        All: [ All ]
+    Serials: All
+    Author: Whatcookie
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nPrince of Persia: The Sands of Time\nPrince of Persia: Warrior Within\nPrince of Persia: The Two Thrones" ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_01 ]
+
+SPU-9001b44fd7278b5a6fa5385939fe928a0e549394: # SPUNAME: 'PS3_Release/edgepost-mlaa-task.s'
+  Disable SPU MLAA:
+    Games:
+      "Puppeteer":
+        BCES00935: [ All ]
+        BCUS98227: [ All ]
+        BCJS30078: [ All ]
+        BCAS20281: [ All ]
+        NPEA00439: [ All ]
+        NPUA80959: [ All ]
+        NPJA00098: [ All ]
+        NPHA80250: [ All ]
+    Author: Whatcookie
+    Notes: *SPU_MLAA_Notes
+    Patch Version: 1.5
+    Group: SPUMLAA
+    Patch:
+      - [ load, *SPU_MLAA_01 ]
+  "Disable SPU MLAA - Multiple titles":
+    Games:
+      All:
+        All: [ All ]
+    Author: Whatcookie
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nBinary Domain\nJourney\nOddworld: Stranger's Wrath HD\nTokyo Jungle\nSoulCalibur Lost Swords\nSoulCalibur V\nYakuza Ishin\nYakuza 5\nFerrari Racing Legends\nPool Nation" ]
+    Patch Version: 1.5
+    Group: SPUMLAA
+    Patch:
+      - [ load, *SPU_MLAA_02 ]
+
+SPU-931132fd48a40bce0bec28e21f760b1fc6ca4364: # SPUNAME: 'PS3_Release/edgepost-mlaa-task.s'
+  "Disable SPU MLAA - Multiple titles":
+    Games:
+      All:
+        All: [ All ]
+    Author: Whatcookie
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nCaptain America: Super Soldier\nYakuza Dead Souls\nNeed for Speed Shift 2 Unleashed" ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_02 ]
+
+SPU-7b5ea49122ec7f023d4a72452dc7a9208d9d6dbf: # SPUNAME: 'PS3_Release/edgepost-mlaa-task.s'
+  Disable SPU MLAA:
+    Games:
+      "Dragon Age 2 (Dragon Age II)":
+        BLES01084: [ All ]
+        BLUS30645: [ All ]
+        NPEB00569: [ All ]
+        NPUB30476: [ All ]
+    Author: Whatcookie
+    Notes: *SPU_MLAA_Notes
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_02 ]
+
+SPU-df5b1c3353cc36bb2f0fb59197d849bb99c3fecd: # SPUNAME: 'PS3_Release/edgepost-mlaa-task.s'
+  "Disable SPU MLAA - Multiple titles":
+    Games:
+      All:
+        All: [ All ]
+    Author: Whatcookie
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nMedieval Moves: Deadmund's Quest\nShadow of the Colossus\nSports Champions 2\n\nExtra note for Shadow of the Colossus:\nThis patch can be used alongside PPU based patch which allows for resolution scaling." ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_02 ]
+
+SPU-9c270732b4276ec71df9a5255d5d8a63267de645: # SPUNAME: 'PS3_Release/edgepost-mlaa-task.s'
+  "Disable SPU MLAA":
+    Games:
+      "WWE '12":
+        BLES01439: [ All ]
+        BLUS30841: [ All ]
+        BLJM60436: [ All ]
+    Author: Whatcookie, dio
+    Notes: *SPU_MLAA_Notes
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_02 ]
+
+SPU-6932af7adf79f31116fc28d71aae3e5e165d7f63: # SPUNAME: 'PS3_Release/edgepost-mlaa-task.s'
+  "Disable SPU MLAA - WWE '13, WWE 2K14":
+    Games:
+      All:
+        All: [ All ]
+    Author: Whatcookie, Satan
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nWWE '13\nWWE 2K14" ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_02 ]
+
+SPU-ac189d7f87091160a94e69803ac0cff0a8bb7813: # SPUNAME: 'PS3_Release/edgepost-mlaa-task.s'
+  "Disable SPU MLAA - ICO":
+    Games:
+      All:
+        All: [ All ]
+    Author: Whatcookie
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nICO\nThis patch can be used alongside PPU based patch which allows for resolution scaling." ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_02 ]
+
+SPU-794795c449beef176d076816284849d266f55f99: # SPUNAME: 'PS3_Release/edgepost-mlaa-task.s'
+  "Disable SPU MLAA - Macross 30":
+    Games:
+      All:
+        All: [ All ]
+    Author: Whatcookie
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nMacross 30" ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_03 ]
+
+SPU-e3780fe1dc8953f849ac844ec9688ff4da3ca3ae: # SPUNAME: 'u:\bin_ps3_SNC\edgepost_mlaa_ta'
+  "Disable SPU MLAA - Metro Last Light":
+    Games:
+      All:
+        All: [ All ]
+    Author: Whatcookie
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nMetro Last Light" ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_03 ]
+
+SPU-530c255936b07b25467a58e24ceff5fd4e2960b7: # SPUNAME: 'mlaascanline.PS3_Release/mlaasca'
+  Disable SPU MLAA:
+    Games:
+      "God of War 3 (God of War III)":
+        BCES00510: [ 01.00 ]
+        BCES00799: [ 01.00 ]
+        BCUS98111: [ 01.00 ]
+        BCJS37001: [ 01.00 ]
+        BCAS25003: [ 01.00 ]
+        BCKS15003: [ 01.00 ]
+    Author: Whatcookie
+    Notes: *SPU_MLAA_Notes
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_04 ]
+
+SPU-2239af4827b17317522bd6323c646b45b34ebf14: # SPUNAME: 'mlaascanline.PS3_Release/mlaasca'
+  Disable SPU MLAA:
+    Games:
+      "God of War 3 (God of War III)":
+        BCES00510: [ 01.03 ]
+        BCES00799: [ 01.03 ]
+        BCUS98111: [ 01.03 ]
+        BCJS37001: [ 01.03 ]
+        BCAS25003: [ 01.03 ]
+        BCKS15003: [ 01.03 ]
+    Author: Whatcookie
+    Notes: [ *SPU_MLAA_Notes, "\n\nThis patch can be used alongside PPU based patch which allows for resolution scaling." ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_04 ]
+
+SPU-7cd211ff1cbd33163eb0711440dccbb3c1dbcf6c: # SPUNAME: 'z:/export/jenkins/workspace/int6'
+  "Disable SPU MLAA - God of War: Ascension":
+    Games:
+      All:
+        All: [ All ]
+    Author: Whatcookie
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nGod of War: Ascension" ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_05 ]
+
+SPU-1549476fe258150ff9f902229ffaed69a932a9c1: # SPUNAME: 'Z:/output/EURint6/SPUMLAATask/PS'
+  "Disable SPU MLAA - God of War: Ascension":
+    Games:
+      All:
+        All: [ All ]
+    Author: Whatcookie
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nGod of War: Ascension" ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_05 ]
+
+SPU-77ce25dab2a5ca1d96038cc3dc57c50c705ce38c: # SPUNAME: 'Z:/output/USint6/SPUMLAATask/PS3'
+  "Disable SPU MLAA - God of War: Ascension":
+    Games:
+      All:
+        All: [ All ]
+    Author: Whatcookie, kd-11
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nGod of War: Ascension" ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_05 ]
+
+SPU-45f98378f0837fc6821f63576f65d47d10f9bbcb: # SPUNAME: 'PS3_Release/edgepost-mlaa-task.s'
+  "Disable SPU MLAA - Yakuza 0, Yakuza Kiwami":
+    Games:
+      All:
+        All: [ All ]
+    Author: Whatcookie
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nYakuza 0\nYakuza Kiwami" ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_06 ]
+
+SPU-82b3399c8e6533ba991eedb0e139bf20c7783bac: # SPUNAME: 'PS3_Release/edgepost-mlaa-task.s'
+  "Disable SPU MLAA - Twisted Metal":
+    Games:
+      All:
+        All: [ All ]
+    Author: Whatcookie
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nTwisted Metal" ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_06 ]
+
+SPU-969cf3e9db75f52a6b41074ccbff74106b709854: # SPUNAME: 'objs/release/edgepost-mlaa-task.' # NOTE: has asserts!
+  "Disable SPU MLAA - Multiple titles":
+    Games:
+      All:
+        All: [ All ]
+    Author: Whatcookie
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nAce Combat: Assault Horizon\nDmC Devil May Cry\nMotorStorm: Apocalypse\nMotorStorm RC\nRed Faction: Armageddon\nSly Cooper: Thieves in Time\n\nExtra note for Sly Cooper: Thieves in Time:\nThis patch can be used alongside PPU based patch which allows for resolution scaling." ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_07 ]
+
+SPU-976d2128f08c362731413b75c934101b76c3d73b: # SPUNAME: 'PS3_Release/edgepost-mlaa-task.s'
+  "Disable SPU MLAA - LittleBigPlanet 2":
+    Games:
+      All:
+        All: [ All ]
+    Author: Whatcookie
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nLittleBigPlanet 2 (early versions)" ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_08 ]
+
+SPU-a129a01a270246c85df18eee0e959ef4263b6510: # SPUNAME: 'C:\dev\CW_br2_move_final-output\'
+  "Disable SPU MLAA - LittleBigPlanet 2":
+    Games:
+      All:
+        All: [ All ]
+    Author: Whatcookie
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nLittleBigPlanet 2 (other early versions)" ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_09 ]
+
+SPU-702d0205a89d445d15dc0f96548546c4e2e7a59f: # SPUNAME: 'PS3_Release/edgepost-mlaa-task.s'
+  "Disable SPU MLAA - LittleBigPlanet 2, LittleBigPlanet 3":
+    Games:
+      All:
+        All: [ All ]
+    Author: Whatcookie
+    Notes: [ *SPU_MLAA_Notes, "\n\nKnown to affect:\nLittleBigPlanet 2\nLittleBigPlanet 3" ]
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_10 ]
+
+SPU-191fe1c92c8360992b3240348e70ea37d50812d4: # SPUNAME: 'E:\Alice2\Development\Intermedia'
+  "Disable SPU MLAA":
+    Games:
+      "Alice: Madness Returns":
+        BLES01265: [ All ]
+        BLUS30607: [ All ]
+        NPEB00625: [ All ]
+        NPUB30545: [ All ]
+    Author: Whatcookie
+    Notes: *SPU_MLAA_Notes
+    Patch Version: 1.5
+    Patch:
+      - [ load, *SPU_MLAA_11 ]
+
+
+
+
+PPU-97355e97c701cea87a0ed08bce085cac4949dade:
+  Unlock FPS:
+    Games:
+      "Army of TWO: The 40th Day":
+        BLUS30408: [ 01.00 ]
+        BLES00659: [ 01.00 ]
+    Author: Whatcookie
+    Notes: Maximum framerate with the patch is half the Vblank frequency.
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x003c5f9c, 0x60000000 ]
+      - [ be32, 0x003c6000, 0x60000000 ]
+      - [ be32, 0x003c6010, 0x60000000 ]
+
+PPU-66e68ab81cb8c107687e708170fd7f13cfdd641e:
+  Unlock FPS:
+    Games:
+      "Army of TWO: The 40th Day":
+        BLUS30408: [ 01.03 ]
+    Author: Whatcookie
+    Notes: Maximum framerate with the patch is half the Vblank frequency. Only US version has been tested. BLES00659 (v1.03) may work with this patch as well.
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x003cc00c, 0x60000000 ]
+      - [ be32, 0x003cc070, 0x60000000 ]
+      - [ be32, 0x003cc080, 0x60000000 ]
+
+
+
+
+PPU-83096111daff850cc92b637aec1780c4079e1c58:
+  Unlock FPS:
+    Games:
+      "Asura's Wrath":
+        BLUS30721: [ All ]
+    Author: Whatcookie
+    Notes: Maximum framerate with the patch is half the Vblank frequency. While most of the game works without any issue, some of the button mashing QTEs are tied to framerate. It's quite possible to play through the game at 60FPS if you are good at button mashing, but 120FPS and higher aren't really playable in several missions. Without the patch, adjusting Vblank frequency increases the maximum framerate up to about 57FPS.
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x008bbd04, 0x60000000 ]
+      - [ be32, 0x008bbd64, 0x60000000 ]
+      - [ be32, 0x008bbd68, 0x60000000 ]
+
+PPU-69f53b470d81ea961c1c2ff264ade6ab8077d2a1:
+  Unlock FPS:
+    Games:
+      "Asura's Wrath":
+        BLES01227: [ All ]
+    Author: Whatcookie, Mew21
+    Notes: Maximum framerate with the patch is half the Vblank frequency. While most of the game works without any issue, some of the button mashing QTEs are tied to framerate. It's quite possible to play through the game at 60FPS if you are good at button mashing, but 120FPS and higher aren't really playable in several missions. Without the patch, adjusting Vblank frequency increases the maximum framerate up to about 57FPS.
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x008bbd04, 0x60000000 ]
+      - [ be32, 0x008bbd64, 0x60000000 ]
+      - [ be32, 0x008bbd68, 0x60000000 ]
+
+
+
+
+Anchors:
+  DS1_US_FPS: &DS1_US_FPS
+  # 60fps noskip
+    - [be32, 0x00146e40, 0x38800002 ] # li r4 0x2
+    - [be32, 0x00146e44, 0x989f070c ]
+    - [be32, 0x00146e48, 0x989f070d ]
+  
+  # delta time
+    - [ be32, 0x001423e8, 0x494447e9 ] # jump to code cave
+  
+  # get mftb
+    - [ be32, 0x01586bd0, 0x7eac42e6 ] # mftb r21              // Move from timebase register (clock)
+  
+  # get mftb delta
+    - [ be32, 0x01586bd4, 0x3ec0017d ] # lis r22,0x017d        // load high bits of address (0x017de3f8)
+    - [ be32, 0x01586bd8, 0x62d6e3f8 ] # ori r22,r22,0xe3f8    // load low bits of address
+    - [ be32, 0x01586bdc, 0x7e96a02a ] # ldx r20,r22,r20       // load previous frames mftb reading
+    - [ be32, 0x01586be0, 0xfab60000 ] # std r21,0x0(r22)      // store this frames mftb reading
+    - [ be32, 0x01586be4, 0x7e74a850 ] # subf r19,r21,r20      // subtract previous mftb reading from this mftb frames reading
+  
+  # mftb delta to float
+    - [ be32, 0x01586be8, 0xfa7600e0 ] # std r19,0xe0(r22)     // store mftb delta (to be loaded into FPR)
+    - [ be32, 0x01586bec, 0xcbd600e0 ] # lfd f30,0xe0(r22)     // load mftb delta into FPR
+    - [ be32, 0x01586bf0, 0xffc0f69c ] # fcfid f30,f30         // convert integer to double
+    - [ be32, 0x01586bf4, 0xffc0f018 ] # frsp f30,f30          // round to single precision
+  
+  # mftb delta to seconds
+    - [ be32, 0x01586bf8, 0x3e400158 ] # r18,0x158             // load high bits constants pointer
+    - [ be32, 0x01586bfc, 0x62526bd0 ] # ori r18,r18,0x6bd0    // load low bits of constants pointer
+    - [ be32, 0x01586c00, 0xc3b20054 ] # lfs f29,0x54(r18)     // load timebase frequency constant
+    - [ be32, 0x01586c04, 0xc3920058 ] # lfs f28,0x58(r18)     // load maximum timestep size
+    - [ be32, 0x01586c08, 0xfffee824 ] # fdiv f31,f30,f29      // divide timebase delta by timebase frequency
+  
+  # check timestep size
+    - [ be32, 0x01586c0c, 0xff9fe000 ] # fcmpu cr7,f31,f28     // compare current delta time to maximum timestep
+    - [ be32, 0x01586c10, 0x419c0008 ] # blt +0x08             // don't return the maximum timestep size
+  
+  # set maximum timestep
+    - [ be32, 0x01586c14, 0xffe0e090 ] # fmr f31,f28           // move maximum timestep to be returned
+  
+  # cleanup
+    - [ be32, 0x01586c18, 0x7e94a278 ] # xor r20,r20,r20       // zero r20
+    - [ be32, 0x01586c1c, 0x7e94a278 ] # xor r19,r19,r19       // zero r19
+    - [ be32, 0x01586c20, 0x4e800020 ] # blr                   // return
+  
+  # constants
+    - [ be32, 0x01586c24, 0x4c989680 ]  # timebase frequency as hexfloat (80mhz)
+    - [ bef32, 0x01586c28, 0.05000000 ] # maximum timestep size (50ms or 20fps)
+
+PPU-3577a3e8efa233c68dedce81a3d0a63dab05dbed:
+  Unlock FPS:
+    Games:
+      "Dark Souls":
+        BLUS30782: [ 01.00 ]
+    Author: Whatcookie
+    Notes: For people who would like to play the unpatched version of Dark Souls at decent framerates (unpatched PC version is equivalent to 1.06 on consoles!)
+    Patch Version: 1.0
+    Patch:
+      - [ load, *DS1_US_FPS ]
+
+
+
+
+Anchors:
+  DS2_USEU_Net: &DS2_USEU_Net
+    - [be32, 0x019A8C00, 0x01A43068]
+    - [be32, 0x019A8C04, 0x01A43060]
+    - [be32, 0x019A8C08, 0x01A42F18]
+    - [be32, 0x019A8C0C, 0x01A42F10]
+    - [be32, 0x019A8C10, 0x01A42FB8]
+    - [be32, 0x019A8C14, 0x01A42B60]
+    - [be32, 0x019A8C18, 0x01A42EC0]
+  
+  DS2_JP_Net: &DS2_JP_Net
+    - [be32, 0x01998B00, 0x01A32EC8]
+    - [be32, 0x01998B04, 0x01A32EC0]
+    - [be32, 0x01998B08, 0x01A32D78]
+    - [be32, 0x01998B0C, 0x01A32D70]
+    - [be32, 0x01998B10, 0x01A32E18]
+    - [be32, 0x01998B14, 0x01A329C8]
+    - [be32, 0x01998B18, 0x01A32D20]
+
+PPU-4909c02cae0f37fab78a5642a3e9ba9aff45b5b0:
+  Bypass Network Requirement:
+    Games:
+      "Dark Souls II":
+        BLET50006: [ All ]
+    Author: DriftItem
+    Notes: "Fully restores the functionality of network test client."
+    Patch Version: 1.0
+    Patch:
+      - [ load, *DS2_USEU_Net ]
+
+PPU-377ee65d27e19d824b8d4700b86b3f18fb787fb3:
+  Bypass Network Requirement:
+    Games:
+      "Dark Souls II":
+        NPUB90979: [ All ]
+    Author: DriftItem
+    Notes: "Fully restores the functionality of network test client."
+    Patch Version: 1.0
+    Patch:
+      - [ load, *DS2_USEU_Net ]
+
+PPU-c0a65507d3e05da170b8dbde0729ce7ee40ef906:
+  Bypass Network Requirement:
+    Games:
+      "Dark Souls II":
+        NPJB90625: [ All ]
+    Author: DriftItem
+    Notes: "Fully restores the functionality of network test client."
+    Patch Version: 1.0
+    Patch:
+      - [ load, *DS2_JP_Net ]
+
+
+
+
+Anchors:
+  BLUS30443_FpsUnlock: &BLUS30443_FpsUnlock
+  # Set 60FPS with no frameskip
+  # by Gibbed
+    - [ be16, 0x25ed8, 0x981f ]
+  
+  # delta time
+  # by Whatcookie
+    - [ be32, 0x0001b964, 0x496ac2cd ] # jump to code cave
+  
+  # get mftb
+    - [ be32, 0x016c7c30, 0x7eac42e6 ] # mftb r21              // Move from timebase register (clock)
+  
+  # get mftb delta
+    - [ be32, 0x016c7c34, 0x3ec00185 ] # lis r22,0x0185        // load high bits of address
+    - [ be32, 0x016c7c38, 0x3ad62608 ] # addi r22,r22,0x2608   // load low bits of address
+    - [ be32, 0x016c7c3c, 0x7e96a02a ] # ldx r20,r22,r20       // load previous frames mftb reading
+    - [ be32, 0x016c7c40, 0xfab60000 ] # std r21,0x0(r22)      // store this frames mftb reading
+    - [ be32, 0x016c7c44, 0x7e74a850 ] # subf r19,r21,r20      // subtract previous mftb reading from this mftb frames reading
+  
+  # mftb delta to float
+    - [ be32, 0x016c7c48, 0xfa760018 ] # std r19,0x18(r22)     // store mftb delta (to be loaded into FPR)
+    - [ be32, 0x016c7c4c, 0xcbd60018 ] # lfd f30,0x18(r22)     // load mftb delta into FPR
+    - [ be32, 0x016c7c50, 0xffc0f69c ] # fcfid f30,f30         // convert integer to double
+    - [ be32, 0x016c7c54, 0xffc0f018 ] # frsp f30,f30          // round to single precision
+  
+  # mftb delta to seconds
+    - [ be32, 0x016c7c58, 0x3e40016c ] # r18,0x16c             // load high bits constants pointer
+    - [ be32, 0x016c7c5c, 0x3a527c30 ] # addi r18,r18,0x7c30   // load low bits of constants pointer
+    - [ be32, 0x016c7c60, 0xc3b20054 ] # lfs f29,0x54(r18)     // load timebase frequency constant
+    - [ be32, 0x016c7c64, 0xc3920058 ] # lfs f28,0x58(r18)     // load maximum timestep size
+    - [ be32, 0x016c7c68, 0xeffee824 ] # fdivs f31,f30,f29     // divide timebase delta by timebase frequency
+  
+  # check timestep size
+    - [ be32, 0x016c7c6c, 0xff9fe000 ] # fcmpu cr7,f31,f28     // compare current delta time to maximum timestep
+    - [ be32, 0x016c7c70, 0x419c0008 ] # blt +0x08             // don't return the maximum timestep size
+  
+  # set maximum timestep
+    - [ be32, 0x016c7c74, 0xffe0e090 ] # fmr f31,f28           // move maximum timestep to be returned
+  
+  # cleanup
+    - [ be32, 0x016c7c78, 0x7e94a278 ] # xor r20,r20,r20       // zero r20
+    - [ be32, 0x016c7c7c, 0x7e94a278 ] # xor r19,r19,r19       // zero r19
+    - [ be32, 0x016c7c80, 0x4e800020 ] # blr                   // return
+  
+  # constants
+    - [ be32, 0x016c7c84, 0x4c989680 ]  # timebase frequency as hexfloat (80mhz)
+    - [ bef32, 0x016c7c88, 0.05000000 ] # maximum timestep size (50ms or 20FPS)
+  
+  BLES00932_FpsUnlock: &BLES00932_FpsUnlock
+  # Set 60FPS with no frameskip
+  # by Gibbed
+    - [ be16, 0x26ac0, 0x981f ]
+  
+  # delta time
+  # by Whatcookie
+    - [ be32, 0x0001c534, 0x496ada1d ] # jump to code cave
+  
+  # get mftb
+    - [ be32, 0x016c9f50, 0x7eac42e6 ] # mftb r21              // Move from timebase register (clock)
+  
+  # get mftb delta
+    - [ be32, 0x016c9f54, 0x3ec00185 ] # lis r22,0x0185        // load high bits of address
+    - [ be32, 0x016c9f58, 0x3ad62608 ] # addi r22,r22,0x2608   // load low bits of address
+    - [ be32, 0x016c9f5c, 0x7e96a02a ] # ldx r20,r22,r20       // load previous frames mftb reading
+    - [ be32, 0x016c9f60, 0xfab60000 ] # std r21,0x0(r22)      // store this frames mftb reading
+    - [ be32, 0x016c9f64, 0x7e74a850 ] # subf r19,r21,r20      // subtract previous mftb reading from this mftb frames reading
+  
+  # mftb delta to float
+    - [ be32, 0x016c9f68, 0xfa760018 ] # std r19,0x18(r22)     // store mftb delta (to be loaded into FPR)
+    - [ be32, 0x016c9f6c, 0xcbd60018 ] # lfd f30,0x18(r22)     // load mftb delta into FPR
+    - [ be32, 0x016c9f70, 0xffc0f69c ] # fcfid f30,f30         // convert integer to double
+    - [ be32, 0x016c9f74, 0xffc0f018 ] # frsp f30,f30          // round to single precision
+  
+  # mftb delta to seconds
+    - [ be32, 0x016c9f78, 0x3e40016c ] # r18,0x16c             // load high bits constants pointer
+    - [ be32, 0x016c9f7c, 0x62529f50 ] # ori r18,r18,0x9f50    // load low bits of constants pointer
+    - [ be32, 0x016c9f80, 0xc3b20054 ] # lfs f29,0x54(r18)     // load timebase frequency constant
+    - [ be32, 0x016c9f84, 0xc3920058 ] # lfs f28,0x58(r18)     // load maximum timestep size
+    - [ be32, 0x016c9f88, 0xeffee824 ] # fdivs f31,f30,f29     // divide timebase delta by timebase frequency
+  
+  # check timestep size
+    - [ be32, 0x016c9f8c, 0xff9fe000 ] # fcmpu cr7,f31,f28     // compare current delta time to maximum timestep
+    - [ be32, 0x016c9f90, 0x419c0008 ] # blt +0x08             // don't return the maximum timestep size
+  
+  # set maximum timestep
+    - [ be32, 0x016c9f94, 0xffe0e090 ] # fmr f31,f28           // move maximum timestep to be returned
+  
+  # cleanup
+    - [ be32, 0x016c9f98, 0x7e94a278 ] # xor r20,r20,r20       // zero r20
+    - [ be32, 0x016c9f9c, 0x7e94a278 ] # xor r19,r19,r19       // zero r19
+    - [ be32, 0x016c9fa0, 0x4e800020 ] # blr                   // return
+  
+  # constants
+    - [ be32, 0x016c9fa4, 0x4c989680 ]  # timebase frequency as hexfloat (80mhz)
+    - [ bef32, 0x016c9fa8, 0.05000000 ] # maximum timestep size (50ms or 20FPS)
+
+  DeS_FPS_Notes: &DeS_FPS_Notes "Patch version 2.0 and above is not compatible with the settings used for the previous patch. Clocks scale and Vblank rate must be set to the defaults. Vblank rate can be modified to increase the framelimit beyond 60FPS, however it's not recommended as users may encounter physics issues."
+
+  DeS_DDE_Notes: &DeS_DDE_Notes "Can disable Write Color Buffers for 20% faster performance. Enable this patch if you experience flickering."
+
+  DeS_AR_Notes: &DeS_AR_Notes "UI Elements will be stretched"
+
+PPU-83681f6110d33442329073b72b8dc88a2f677172:
+  Unlock FPS:
+    Games:
+      "Demon's Souls":
+        BLUS30443: [ 01.00 ]
+    Author: Whatcookie, Gibbed
+    Notes: *DeS_FPS_Notes
+    Patch Version: 2.1
+    Patch:
+      - [ load, *BLUS30443_FpsUnlock ]
+  Disable Dynamic Exposure:
+    Games:
+      "Demon's Souls":
+        BLUS30443: [ 01.00 ]
+    Author: Whatcookie
+    Notes: *DeS_DDE_Notes
+    Patch Version: 1.0.1
+    Patch:
+      - [ be16, 0x00025edc, 0x981f ]
+  Skip Intro Videos:
+    Games:
+      "Demon's Souls":
+        BLUS30443: [ 01.00 ]
+    Author: GalCiv
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x008eef78, 0x38000003 ] # Intro logos skip
+      - [ be32, 0x008eef7c, 0x901c0100 ]
+  21:9 Aspect Ratio:
+    Games:
+      "Demon's Souls":
+        BLUS30443: [ 01.00 ]
+    Author: Whatcookie
+    Notes: *DeS_AR_Notes
+    Patch Version: 1.0
+    Group: AR
+    Patch:
+      - [ be32, 0x018cefbc, 0x4017b9aa ] # 21:9 aspect ratio
+      - [ be32, 0x0190433c, 0x4017b9aa ]
+  32:9 Aspect Ratio:
+    Games:
+      "Demon's Souls":
+        BLUS30443: [ 01.00 ]
+    Author: Whatcookie
+    Notes: *DeS_AR_Notes
+    Patch Version: 1.0
+    Group: AR
+    Patch:
+      - [ bef32, 0x018cefbc, 3.5555556 ] # 32:9 aspect ratio
+      - [ bef32, 0x0190433c, 3.5555556 ]
+
+PPU-5446a2645880eefa75f7e374abd6b7818511e2ef:
+  Unlock FPS:
+    Games:
+      "Demon's Souls":
+        BLES00932: [ 01.00 ]
+    Author: Whatcookie, Gibbed
+    Notes: *DeS_FPS_Notes
+    Patch Version: 2.1
+    Patch:
+      - [ load, *BLES00932_FpsUnlock ]
+  Disable Dynamic Exposure:
+    Games:
+      "Demon's Souls":
+        BLES00932: [ 01.00 ]
+    Author: Whatcookie
+    Notes: *DeS_DDE_Notes
+    Patch Version: 1.0.1
+    Patch:
+      - [ be16, 0x00026ac4, 0x981f ]
+  Skip Intro Videos:
+    Games:
+      "Demon's Souls":
+        BLES00932: [ 01.00 ]
+    Author: GalCiv
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x008f0928, 0x38000003 ] # Intro logos skip
+      - [ be32, 0x008f092c, 0x901c0100 ]
+  21:9 Aspect Ratio:
+    Games:
+      "Demon's Souls":
+        BLES00932: [ 01.00 ]
+    Author: Whatcookie
+    Notes: *DeS_AR_Notes
+    Patch Version: 1.0
+    Group: AR
+    Patch:
+      - [ be32, 0x018cf13c, 0x4017b9aa ] # 21:9 aspect ratio
+      - [ be32, 0x01904494, 0x4017b9aa ]
+  32:9 Aspect Ratio:
+    Games:
+      "Demon's Souls":
+        BLES00932: [ 01.00 ]
+    Author: Whatcookie
+    Notes: *DeS_AR_Notes
+    Patch Version: 1.0
+    Group: AR
+    Patch:
+      - [ bef32, 0x018cf13c, 3.5555556 ] # 32:9 aspect ratio
+      - [ bef32, 0x01904494, 3.5555556 ]
+
+
+
+
+PPU-65078c652115190ecb64b7ff52bbf1c68696deb6:
+  Unlock FPS:
+    Games:
+      "Destroy All Humans! Path of the Furon":
+        BLES00467: [ All ]
+    Author: Whatcookie
+    Notes: Completely unlocks FPS and doesn't require any special settings. Use Framelimit or VSync option to cap the maximum framerate.
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x010b9e68, 0x60000000 ]
+      - [ be32, 0x010b9ec0, 0x60000000 ]
+
+
+
+
+PPU-1369b92d59b3727ea77257795263de460e621823:
+  Unlock Pitch Black Out Venue:
+    Games:
+      "DJ Hero 2":
+        BLUS30526: [ 01.00 ]
+    Author: shockdude
+    Notes: Unlocks a stage venue called "Pitch Black Out", which has a completely black background. Useful for getting more performance on lower-spec PCs.
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x86d99c, 0x58585858 ]
+
+PPU-c779b7ecc73ebd460c15d70917db75fe69399aa1:
+  Unlock Pitch Black Out Venue:
+    Games:
+      "DJ Hero 2":
+        BLUS30526: [ 01.01 ]
+    Author: shockdude
+    Notes: Unlocks a stage venue called "Pitch Black Out", which has a completely black background. Useful for getting more performance on lower-spec PCs.
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x86f718, 0x58585858 ]
+
+PPU-b70a9965638aa43c4edec58683cf0f2dfed8071b:
+  Unlock Pitch Black Out Venue:
+    Games:
+      "DJ Hero 2":
+        BLES00896: [ 01.00 ]
+    Author: shockdude
+    Notes: Unlocks a stage venue called "Pitch Black Out", which has a completely black background. Useful for getting more performance on lower-spec PCs.
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x86d55c, 0x58585858 ]
+
+PPU-bccea158f89820de105a87541c9252052538a5fb:
+  Unlock Pitch Black Out Venue:
+    Games:
+      "DJ Hero 2":
+        BLES00896: [ 01.01 ]
+    Author: shockdude
+    Notes: Unlocks a stage venue called "Pitch Black Out", which has a completely black background. Useful for getting more performance on lower-spec PCs.
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x86f2d8, 0x58585858 ]
+
+
+
+
+Anchors:
+  DOD3_FPS_Notes: &DOD3_FPS_Notes "Need to also change Vblank frequency to 120Hz for 60FPS or 240Hz for 120FPS. Going over 120FPS is possible, but you will break physics a bit (lowering jump height) and make it impossible to lock-on to enemies when flying on the dragon."
+
+# Min frametime is this value / 30
+# 0.125 / 30 is 4.1ms, so max FPS is 240
+# This game has a second framerate limiter based 
+# on Vblank, so set Vblank high to raise the framerate
+# Max FPS is Vblank / 2
+
+PPU-2b393f064786e5895d5a576621deb4c9107a8f0b:
+  Unlock FPS:
+    Games:
+      "Drakengard 3 (Drag-On Dragoon 3)":
+        BLUS31197: [ 01.00 ]
+    Author: Whatcookie
+    Notes: *DOD3_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x008edc5c, 0.12500000 ] # 240 max FPS
+
+PPU-f2f7f7ea0444353884bb715152147c3a29f4e790:
+  Unlock FPS:
+    Games:
+      "Drakengard 3 (Drag-On Dragoon 3)":
+        BLUS31197: [ 01.01 ]
+    Author: Whatcookie
+    Notes: *DOD3_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x008edbcc, 0.12500000 ] # 240 max FPS
+
+PPU-b18834a8f21cd29a091b287a66656a279ccba507:
+  Unlock FPS:
+    Games:
+      "Drakengard 3 (Drag-On Dragoon 3)":
+        NPUB31251: [ 01.00 ]
+    Author: Whatcookie
+    Notes: *DOD3_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x008ecf2c, 0.12500000 ] # 240 max FPS
+
+PPU-9c04f427625a0064282432e4edfefe9e0956c303:
+  Unlock FPS:
+    Games:
+      "Drakengard 3 (Drag-On Dragoon 3)":
+        NPUB31251: [ 01.01 ]
+    Author: Whatcookie
+    Notes: *DOD3_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x008ececc, 0.12500000 ] # 240 max FPS
+
+PPU-e1a44e5d3fb03a37f0445e92ed13abce8d6efdd4:
+  Unlock FPS:
+    Games:
+      "Drakengard 3 (Drag-On Dragoon 3)":
+        NPEB01407: [ All ]
+    Author: Whatcookie
+    Notes: *DOD3_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x008eceec, 0.12500000 ] # 240 max FPS
+
+PPU-a017576369165f3746730724c8ae762ed9bc64d8:
+  Unlock FPS:
+    Games:
+      "Drakengard 3 (Drag-On Dragoon 3)":
+        BLJM61043: [ 01.00 ]
+    Author: Whatcookie
+    Notes: *DOD3_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x00939a14, 0.12500000 ] # 240 max FPS
+
+PPU-c09c496514f6dc591434575b04eb7c003826c11d:
+  Unlock FPS:
+    Games:
+      "Drakengard 3 (Drag-On Dragoon 3)":
+        BLJM61043: [ 01.04 ]
+    Author: Whatcookie
+    Notes: *DOD3_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x008ed62c, 0.12500000 ] # 240 max FPS
+
+PPU-5eb979631fbbe531db5d20f0622dca5a8b64090e:
+  Unlock FPS:
+    Games:
+      "Drakengard 3 (Drag-On Dragoon 3)":
+        BCAS20311: [ 01.02 ]
+    Author: Whatcookie
+    Notes: *DOD3_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x008edc5c, 0.12500000 ] # 240 max FPS
+
+
+
+
+Anchors:
+  Folklore_FPS_Notes: &Folklore_FPS_Notes "Totally unlocks FPS during gameplay. Sadly the cloth physics goes nuts at 60 FPS, despite the gameplay working perfectly. You can set the framelimit to 50 and the cloth physics will work perfectly!"
+
+PPU-eb05d70d23d075ef6d9c81f7e7cf9bffc98c404c:
+  Unlock FPS:
+    Games:
+      "Folklore":
+        BCUS98147: [ 01.00 ]
+    Author: Whatcookie
+    Notes: *Folklore_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x0181354, 0x60000000 ]
+
+PPU-9b16663fa1aa1dd62c2c6bfee4f333242dde4171:
+  Unlock FPS:
+    Games:
+      "Folklore":
+        BCUS98147: [ 01.10 ]
+    Author: Whatcookie
+    Notes: *Folklore_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x01823c0, 0x60000000 ]
+
+PPU-66404421d1f8ed7dd0b2898e1d015a44bf273bf8:
+  Unlock FPS:
+    Games:
+      "Folklore":
+        BCES00050: [ All ]
+    Author: Whatcookie
+    Notes: *Folklore_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x0181118, 0x60000000 ]
+
+
+
+
+Anchors:
+  crabnotes: &crabnotes "Set Framelimt to 60FPS as going above this will speed up.\nIn-Game Cinematics animations and camera are only interpolated at 30FPS."
+
+PPU-4aeb132cdf86d9c4ab20e48ae70cc823e455e05d:
+  21:9 Aspect Ratio:
+    Games:
+      "Genji: Days of the Blade":
+        BCES00002: [ 01.00 ]
+    Author: Esppiral
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x100FA8B0, 0x4017B9AA ] # 21:9
+  60 FPS:
+    Games:
+      "Genji: Days of the Blade":
+        BCES00002: [ 01.00 ]
+    Author: Esppiral, illusion
+    Notes: *crabnotes
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x004D0178, 0x38000000 ] # li r0 0x0
+
+PPU-d99d403214a204b9fe8a5c23079dab8ddf4c0654:
+  60 FPS:
+    Games:
+      "Genji: Days of the Blade":
+        BCAS20002: [ 01.00 ]
+    Author: illusion
+    Notes: *crabnotes
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x004cbda8, 0x38000000 ] # li r0 0x0
+
+
+
+
+PPU-5eb226d8430cf943cca1344fcf0c76db15aaaeb7:
+  Extended FOV:
+    Games:
+      "Gran Turismo 5":
+        BCES00569: [ 01.00 ]
+    Author: illusion
+    Notes: Global FOV setting
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x18EFF34, 0.75 ] # tweak this number to your liking
+
+
+
+
+PPU-57abea58cae339a0ef9ed99374a0fe7f48b2f72d:
+  21:9 Aspect Ratio:
+    Games:
+      "Gran Turismo HD Concept":
+        NPUA80019: [ All ]
+    Author: illusion
+    Notes: "Enable \"Stretch to Display Area\" option to take advantage of this patch."
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x9BAD04, 0x3F95C28F ]
+  Extended FOV:
+    Games:
+      "Gran Turismo HD Concept":
+        NPUA80019: [ All ]
+    Author: illusion
+    Notes: Might work with other versions with adjustments.
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x9BCCD4, 0.75 ] # tweak this number to your liking
+  No HUD:
+    Games:
+      "Gran Turismo HD Concept":
+        NPUA80019: [ All ]
+    Author: illusion
+    Notes: Disable In Game HUD, needs further testing.
+    Patch Version: 1.0
+    Patch:
+      #- [ be32, 0x9C3488, 0x00000001 ] # Menu HUD scale (never use this)
+      - [ be32, 0x9BA544, 0x00000000 ]
+
+PPU-ad3a1ecff65a78f9a8380ff4f12960f499604bf4:
+  21:9 Aspect Ratio:
+    Games:
+      "Gran Turismo HD Concept":
+        NPEA90002: [ All ]
+    Notes: "Enable \"Stretch to Display Area\" option to take advantage of this patch."
+    Patch Version: 1.0
+    Patch:
+      - [be32, 0x9BAD3C, 0x3F95C28F]
+  Extended FOV:
+    Games:
+      "Gran Turismo HD Concept":
+        NPEA90002: [ All ]
+    Author: illusion
+    Notes: Might work with other versions with adjustments.
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x9BCD0C, 0.75 ] # tweak this number to your liking
+  No HUD:
+    Games:
+      "Gran Turismo HD Concept":
+        NPEA90002: [ All ]
+    Author: illusion
+    Notes: Disable In Game HUD, needs further testing.
+    Patch Version: 1.0
+    Patch:
+      #- [ be32, 0x9C34C8, 0x00000001 ] # Menu HUD scale (never use this)
+      - [ be32, 0x9BA57C, 0x00000000 ]
+
+
+
+
+PPU-d5041972c3464b734ed27f0b94b505a2a14471c8:
+  Unlock FPS:
+    Games:
+      "Grand Theft Auto IV (Grand Theft Auto 4)":
+        BLUS30127: [ 01.08 ]
+        NPUB30702: [ 01.08 ]
+    Author: Zolika1351
+    Notes: Set Framelimit to 60FPS otherwise loading screen layers will go too fast.
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0xF18830, 0x00000000 ]
+
+
+
+
+PPU-19724fde16a5b111b7b4d2a065f5dccaf8e01962:
+  Disable MLAA:
+    Games:
+      "God of War 3 (God of War III)":
+        BCES00510: [ 01.03 ]
+        BCES00799: [ 01.03 ]
+        BCUS98111: [ 01.03 ]
+        BCJS37001: [ 01.03 ]
+        BCAS25003: [ 01.03 ]
+        BCKS15003: [ 01.03 ]
+    Author: illusion
+    Notes: "Allows for the use of Resolution Scaling in the title, This patch can be used alongside with the SPU MLAA Patch to further improve performance.\n\nSet Resolution Scale Threshold to 1x1 for proper scaling of effects."
+    Patch Version: 1.0
+    Patch:
+      - [ byte, 0x52BF2F, 0 ] # hopefully this address is static
+
+
+
+
+PPU-3a63ecc6e9b81a984d2fe0a481febc3e26b57810: # GOWA.SELF 1.04
+  Disable MLAA:
+    Games:
+      "God of War: Ascension":
+        BCES01741: [ 01.04 ]
+        BCUS98232: [ 01.04 ]
+        NPEA00445: [ 01.04 ]
+        NPUA80918: [ 01.04 ]
+    Author: illusion, ZeroX
+    Notes: "Allows for the use of Resolution Scaling in the title, This patch can be used alongside with the SPU MLAA Patch to further improve performance.\n\nSet Resolution Scale Threshold to 1x1 for proper scaling of effects.\nNeeds testing on PSN SELF."
+    Patch Version: 1.0
+    Patch:
+      - [ byte, 0x83CE77, 0 ] # hopefully this address is static
+
+PPU-93623f42f6f50bed58ca60927ed43beab749a2cd:
+  Disable MLAA:
+    Games:
+      "God of War: Ascension Demo":
+        NPEA90123: [ 01.00 ]
+    Author: illusion
+    Notes: "Allows for the use of Resolution Scaling in the title, This patch can be used alongside with the SPU MLAA Patch to further improve performance.\n\nSet Resolution Scale Threshold to 1x1 for proper scaling of effects.\nNeeds testing on other versions."
+    Patch Version: 1.0
+    Patch:
+      - [ byte, 0x7DC0B7, 0 ] # hopefully this address is static
+
+
+
+
+PPU-daf192f4e83562758e1f988455b14f1b52b51537:
+  60 FPS:
+    Games:
+      "Harry Potter and the Half-Blood Prince":
+        BLES00424: [ 01.00 ]
+    Author: illusion
+    Notes: "Set vblank to 120hz for 60FPS Gameplay.\nMay work with other versions with adjustments."
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x003c761c, 0x38000001 ] # li r0 0x1
+
+
+
+
+Anchors:
+  HMPDDT_PSP_Notes: &HMPDDT_PSP_Notes "Makes the game playable by skipping the PSP connection screen. A decrypted save is still required to play the game. The patch can also be used on real hardware."
+
+PPU-ddd080c3a59b7d8f7e640b419efccea6972d1e21:
+  Sign in without connecting a PSP:
+    Games:
+      "Hatsune Miku: Project DIVA Dreamy Theater":
+        NPJB00047: [ 01.00 ]
+    Author: samyuu, Brolijah, nastys
+    Notes: *HMPDDT_PSP_Notes
+    Patch Version: 1.0
+    Patch:
+      - [be32, 0x66C464, 0x000004B8]
+
+PPU-890a336132e35e8bfb7cbe430ea9b09114915346:
+  Sign in without connecting a PSP:
+    Games:
+      "Hatsune Miku: Project DIVA Dreamy Theater":
+        NPJB00047: [ 01.01 ]
+    Author: samyuu, Brolijah, nastys
+    Notes: *HMPDDT_PSP_Notes
+    Patch Version: 1.0
+    Patch:
+      - [be32, 0x66F9B4, 0x00000718]
+
+
+
+
+Anchors:
+  HMPDF_FPS_USEU: &HMPDF_FPS_USEU
+    - [ be32, 0xBF289C, 0x3F800000 ]
+    - [ be16, 0x589496, 0x0001 ]
+    - [ be16, 0x5894BA, 0x0001 ]
+    - [ be16, 0x589802, 0x0001 ]
+    - [ be16, 0x58982A, 0x0001 ]
+  
+  HMPDF_FPS_JP: &HMPDF_FPS_JP
+    - [ be32, 0xBF22FC, 0x3F800000 ]
+    - [ be16, 0x586202, 0x0001 ]
+    - [ be16, 0x586226, 0x0001 ]
+    - [ be16, 0x58656E, 0x0001 ]
+    - [ be16, 0x586596, 0x0001 ]
+  
+  HMPDF_FPS_Notes: &HMPDF_FPS_Notes "Patch accelerates some game effects by 2x. Does not affect playability."
+
+PPU-f3227f57ec001582b253035fd90de77f05ead470:
+  60 FPS:
+    Games:
+      "Hatsune Miku: Project Diva F":
+        BLUS31319: [ All ]
+        NPUB31241: [ All ]
+    Author: Brolijah
+    Notes: *HMPDF_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *HMPDF_FPS_USEU ]
+
+PPU-c02e3b52e3d75f52f76fb8f0fb5be7ca4d921949:
+  60 FPS:
+    Games:
+      "Hatsune Miku: Project Diva F":
+        NPEB01393: [ All ]
+    Author: Brolijah
+    Notes: *HMPDF_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *HMPDF_FPS_USEU ]
+
+PPU-1105af0a4d6a4a1481930c6f3090c476cde06c4c:
+  60 FPS:
+    Games:
+      "Hatsune Miku: Project Diva F":
+        BLJM60527: [ All ]
+        NPJB00287: [ All ]
+    Author: Brolijah
+    Notes: *HMPDF_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *HMPDF_FPS_JP ]
+
+
+
+
+Anchors:
+  HMPDF2_FPS_USEU: &HMPDF2_FPS_USEU
+    - [ be32, 0x0423C8, 0x3F800000 ]
+    - [ be16, 0x6AF44E, 0x0001 ]
+    - [ be16, 0x6AF46E, 0x0001 ]
+    - [ be16, 0x6AF492, 0x0001 ]
+    - [ be16, 0x6AF4B6, 0x0001 ]
+  
+  HMPDF2_FPS_AS: &HMPDF2_FPS_AS
+    - [ be32, 0x042390, 0x3F800000 ]
+    - [ be16, 0x6AF0B6, 0x0001 ]
+    - [ be16, 0x6AF0D6, 0x0001 ]
+    - [ be16, 0x6AF0FA, 0x0001 ]
+    - [ be16, 0x6AF11E, 0x0001 ]
+  
+  HMPDF2_FPS_JP: &HMPDF2_FPS_JP
+    - [ be32, 0x041F40, 0x3F800000 ]
+    - [ be16, 0x6A48F6, 0x0001 ]
+    - [ be16, 0x6A4916, 0x0001 ]
+    - [ be16, 0x6A493A, 0x0001 ]
+    - [ be16, 0x6A495E, 0x0001 ]
+  
+  HMPDF2_FPS_Notes: &HMPDF2_FPS_Notes "Patch accelerates some game effects by 2x. Does not affect playability."
+
+PPU-092c43e2bcacccfe3cdc22b0ab8062b91d4e1cf9:
+  60 FPS:
+    Games:
+      "Hatsune Miku: Project Diva F 2nd":
+        BLUS31431: [ All ]
+    Author: Brolijah
+    Notes: Patch accelerates some game effects by 2x. Does not affect playability. Might work with NPUB31488 as well.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *HMPDF2_FPS_USEU ]
+
+PPU-67e0e7c9b2a7a340c914a0d078e25aac1047e4d4:
+  60 FPS:
+    Games:
+      "Hatsune Miku: Project Diva F 2nd":
+        NPEB02013: [ All ]
+    Author: Brolijah
+    Notes: Patch accelerates some game effects by 2x. Does not affect playability. Might work with BLES02029 as well.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *HMPDF2_FPS_USEU ]
+
+PPU-51d336edfa3774f2db83ed030611f462c097c40b:
+  60 FPS:
+    Games:
+      "Hatsune Miku: Project Diva F 2nd":
+        BLAS50723: [ All ]
+    Author: Brolijah
+    Notes: *HMPDF2_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *HMPDF2_FPS_AS ]
+
+PPU-c70b15d3f6694af74fa329dd4fc25fe28a59e9cc:
+  60 FPS:
+    Games:
+      "Hatsune Miku: Project Diva F 2nd":
+        NPHB00671: [ All ]
+    Author: Brolijah
+    Notes: *HMPDF2_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *HMPDF2_FPS_AS ]
+
+PPU-c3291f5919ca147ac854de10f7436f4ad494233f:
+  60 FPS:
+    Games:
+      "Hatsune Miku: Project Diva F 2nd":
+        BLJM61079: [ 01.00 ]
+        NPJB00435: [ 01.00 ]
+    Author: Brolijah
+    Notes: *HMPDF2_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *HMPDF2_FPS_JP ]
+
+PPU-058cf39c07fd13f100c1f6dc40a0ead9bf3ad51b:
+  60 FPS:
+    Games:
+      "Hatsune Miku: Project Diva F 2nd":
+        BLJM61079: [ 01.01 ]
+    Author: Brolijah
+    Notes: *HMPDF2_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *HMPDF2_FPS_JP ]
+
+PPU-8fc9f26ed77cc9237db0e6348dcf9d6c451b6220:
+  60 FPS:
+    Games:
+      "Hatsune Miku: Project Diva F 2nd":
+        BLJM61079: [ 01.02 ]
+    Author: Brolijah
+    Notes: *HMPDF2_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *HMPDF2_FPS_JP ]
+
+PPU-311fcd98af6adc5e64e6a833eb959f43b0976193:
+  60 FPS:
+    Games:
+      "Hatsune Miku: Project Diva F 2nd":
+        NPJB00435: [ 01.02 ]
+    Author: Brolijah
+    Notes: *HMPDF2_FPS_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x041F78, 0x3F800000 ]
+      - [ be16, 0x6AB316, 0x0001 ]
+      - [ be16, 0x6AB336, 0x0001 ]
+      - [ be16, 0x6AB35A, 0x0001 ]
+      - [ be16, 0x6AB37E, 0x0001 ]
+
+
+
+
+PPU-52a747a6282ff38eebc356fb56afc09e07e020f0:
+  Extended FOV:
+    Games:
+      "Infamous 2 Demo":
+        NPEA90095: [ All ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x96DE14, 0.65 ] # the floats are static but game settings will need "li" instead.
+
+
+
+
+PPU-ec7c75bef42758b1823ce0b2835935992ae72e8f:
+  60 FPS:
+    Games:
+      "Iron Man":
+        BLUS30134: [ 01.02 ]
+    Author: HyperSpider
+    Notes: You MUST set the Vblank Frequency to 120Hz for this patch to work. Also note that the game's actual speed may slow down below 30FPS.
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0xCD01AC, 0.01666667 ]
+  120 FPS:
+    Games:
+      "Iron Man":
+        BLUS30134: [ 01.02 ]
+    Author: HyperSpider
+    Notes: You MUST set the Vblank Frequency to 240Hz for this patch to work. Also note that the game's actual speed may slow down below 60FPS.
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0xCD01AC, 0.00833334 ]
+
+
+
+
+Anchors:
+  JoJoASB_FPS: &JoJoASB_FPS
+    - [ bef32, 0xFF5A08, 0.5 ] # Match timer rate
+    - [ bef32, 0xFDB724, 0.5 ] # Animation speed
+    - [ bef32, 0xFF8F70, 0.5 ]
+    - [ bef32, 0xFEE2F8, 0.5 ] # UI speed
+
+PPU-6875682ab309df32307c5305c43bb132c4e261fa:
+  60 FPS:
+    Games:
+      "JoJo's Bizarre Adventure: All Star Battle":
+        BLUS31405: [ All ]
+    Author: SutandoTsukai181 # User from our Discord server
+    Notes: This patch fixes issues when running the game at 60FPS but you still need to set Vblank frequency to 120Hz in order to play at 60FPS. You may face issues such as halved input windows, few UI elements not at normal speed, intro quotes stop half-way, projectiles speed is doubled and few graphical glitches (Jotaro not appearing during DIO's GHA).
+    Patch Version: 1.0
+    Patch:
+      - [ load, *JoJoASB_FPS ]
+
+
+
+
+Anchors:
+  JoJoEoH_FPS: &JoJoEoH_FPS
+    - [ bef32, 0x0236FEF0, 0.5 ] # Match timer rate
+    - [ bef32, 0x02370360, 0.5 ]
+    - [ bef32, 0x023AED1C, 0.5 ]
+
+PPU-18cf9a4e8196684ed9ee816f82649561fd1bf182:
+  60 FPS:
+    Games:
+      "JoJo's Bizarre Adventure: Eyes of Heaven":
+        BLJS10318: [ 01.05 ]
+    Author: SutandoTsukai181 # User from our Discord server
+    Notes: This patch fixes issues when running the game at 60FPS but you still need to set Vblank frequency to 120Hz in order to play at 60FPS. You may face issues such as intro quotes stopping half-way and doubled projectiles speed.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *JoJoEoH_FPS ]
+
+
+
+
+PPU-70ad975e7fbb5bb57bb2159a16ec895cbccd3b4e:
+  Extended FOV:
+    Games:
+      "Killzone":
+        NPEA00418: [ 01.00 ]
+        BCES01743: [ 01.00 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x5E7F6C, 0.65 ] # static float in memory
+
+PPU-0bb16b9f48bfea44a892110beec812664e84539f:
+  Extended FOV:
+    Games:
+      "Killzone":
+        NPUA80856: [ 01.00 ]
+    Author: illusion, Mew21 
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x5E7F6C, 0.65 ] # static float in memory
+
+
+
+
+Anchors:
+  kz2demofov: &kz2demofov
+    - [ bef32, 0xEB0174, 0.65 ] # static float in memory
+
+PPU-ca2a0b7e8d4fa7a0d4f3a16d6f2bea5d260e3c09:
+  Extended FOV:
+    Games:
+      "Killzone 2 Demo":
+        NPEA90034: [ All ]
+    Author: illusion
+    Notes: Bound to cause issues, needs further testing.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *kz2demofov ]
+
+PPU-43e0fe2996338af9f1032b647af9436a081e09b0:
+  Extended FOV:
+    Games:
+      "Killzone 2 Demo":
+        NPUA70034: [ All ]
+    Author: illusion
+    Notes: Bound to cause issues, needs further testing.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *kz2demofov ]
+
+PPU-3a4e272eff128f7fa40bf722961a0c6de81bfc5a:
+  Extended FOV:
+    Games:
+      "Killzone 2":
+        BCES00081: [ 01.29 ]
+        BCUS98116: [ 01.29 ]
+    Author: illusion
+    Notes: Bound to cause issues, needs further testing.
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0xEC096C, 0.65 ] # static float in memory
+
+
+
+
+Anchors:
+  kz3mlaanotes: &kz3mlaanotes "Allows for the use of Resolution Scaling in the title and improved performance.\nSome screen effects will be lost.\nWrite Color Buffers is no longer required."
+  kz3demofov: &kz3demofov
+    - [ bef32, 0x1327DA0, 0.65 ] # static float in memory // viewmodel
+    - [ bef32, 0x1327E74, 0.8  ] # static float in memory // camera
+  kz3demomlaa: &kz3demomlaa
+    - [ be32, 0x001BDED8, 0x38A00000 ] # li r5 0x0
+
+PPU-ae204e2198c9a051a44a69913c48f6591b811082:
+  Extended FOV:
+    Games:
+      "Killzone 3":
+        BCES01007: [ 01.00 ]
+        BCUS98234: [ 01.00 ]
+    Author: illusion
+    Notes: Bound to cause issues, needs further testing.
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x1327E54, 0.65 ] # static float in memory
+  Disable MLAA(Post-processing On SPU): # Gfx.Post.MLAA PostMLAASPU
+    Games:
+      "Killzone 3":
+        BCES01007: [ 01.00 ]
+        BCUS98234: [ 01.00 ]
+    Author: illusion
+    Notes: *kz3mlaanotes
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x001BE008, 0x38A00000 ] # li r5 0x0
+
+PPU-4836b8e74c47919f50b030ee6b47d96bc7305387:
+  Extended FOV:
+    Games:
+      "Killzone 3":
+        BCES01007: [ 01.14 ]
+        BCUS98234: [ 01.14 ]
+    Author: illusion
+    Notes: Bound to cause issues, needs further testing.
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x139BDF0, 0.65 ] # static float in memory // viewmodel
+      - [ bef32, 0x139BEEC, 0.8  ] # static float in memory // camera
+  Disable MLAA (Post-processing on SPU): # Gfx.Post.MLAA PostMLAASPU
+    Games:
+      "Killzone 3":
+        BCES01007: [ 01.14 ]
+        BCUS98234: [ 01.14 ]
+    Author: illusion
+    Notes: *kz3mlaanotes
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x001C95A8, 0x38A00000 ] # li r5 0x0
+
+PPU-5f932afa0b36e8be30b4ab96689ad10e3583a261:
+  Extended FOV:
+    Games:
+      "Killzone 3 Demo":
+        NPEA90084: [ 01.00 ]
+    Author: illusion
+    Notes: Bound to cause issues, needs further testing.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *kz3demofov ]
+  Disable MLAA (Post-processing on SPU): # Gfx.Post.MLAA PostMLAASPU
+    Games:
+      "Killzone 3 Demo":
+        NPEA90084: [ 01.00 ]
+    Author: illusion
+    Notes: *kz3mlaanotes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *kz3demomlaa ]
+
+PPU-c28a92c751f6c6ffae0f354c7329ee599912baac:
+  Extended FOV:
+    Games:
+      "Killzone 3 Demo":
+        NPUA70133: [ 01.00 ]
+    Author: illusion
+    Notes: Bound to cause issues, needs further testing.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *kz3demofov ]
+  Disable MLAA (Post-processing on SPU): # Gfx.Post.MLAA PostMLAASPU
+    Games:
+      "Killzone 3 Demo":
+        NPUA70133: [ 01.00 ]
+    Author: illusion
+    Notes: *kz3mlaanotes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *kz3demomlaa ]
+
+
+
+
+Anchors:
+  kh15_ar_219: &kh15_ar_219
+    - [ be32, 0xEB170, 0x3FAAAAAB ] # VERT+ (21.9)
+    - [ be32, 0xEB16C, 0x3FC00000 ] # ZOOM+ (21.9)
+  
+  kh15_60fps: &kh15_60fps
+    - [ be32, 0x00036870, 0x38600000 ] # li r3, 0x0
+  
+  kh15recom_60fps: &kh15recom_60fps
+    - [ be32, 0x00012484, 0x38800000 ] # li r4, 0x0
+
+PPU-d626d9832ed48d1ff0d8d97e53a4e23df50cfae6: # kingdom.self
+  21:9 Aspect Ratio:
+    Games:
+      "Kingdom Hearts HD 1.5 ReMIX":
+        BLUS31212: [ All ]
+    Author: Esppiral
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *kh15_ar_219 ]
+  60 FPS:
+    Games:
+      "Kingdom Hearts HD 1.5 ReMIX":
+        BLUS31212: [ All ]
+    Author: Esppiral, Michael Pama, illusion
+    Notes: May work with JP version with adjustments.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *kh15_60fps ]
+
+PPU-f259a89a80e02a664ab97c3a175330c2e53810ab: # kingdom.self
+  21:9 Aspect Ratio:
+    Games:
+      "Kingdom Hearts HD 1.5 ReMIX":
+        BLES01897: [ All ]
+    Author: Esppiral
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *kh15_ar_219 ]
+  60 FPS:
+    Games:
+      "Kingdom Hearts HD 1.5 ReMIX":
+        BLES01897: [ All ]
+    Author: Esppiral, Michael Pama, illusion
+    Notes: May work with JP version with adjustments.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *kh15_60fps ]
+
+PPU-c994c802bc88352df8d73bc92f8f9a862814e50d: # recom.self
+  60 FPS:
+    Games:
+      "Kingdom Hearts HD 1.5 ReMIX Chain of Memories":
+        BLUS31212: [ All ]
+    Author: BlaGe, illusion
+    Notes: May work with JP version with adjustments.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *kh15recom_60fps ]
+
+PPU-4b0a5d3faf18ac22a12c3dca921f82e0c5170bb6: # recom.self
+  60 FPS:
+    Games:
+      "Kingdom Hearts HD 1.5 ReMIX Chain of Memories":
+        BLES01897: [ All ]
+    Author: BlaGe, illusion
+    Notes: May work with JP version with adjustments.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *kh15recom_60fps ]
+
+
+
+
+PPU-f18bcdcc6d74a25383d72074e1646352ab53e9d2: # kingdom2.self
+  60 FPS:
+    Games:
+      "Kingdom Hearts HD 2.5 ReMIX":
+        BLES02070: [ All ]
+        BLUS31460: [ All ]
+    Author: illusion, BlaGe
+    # https://forums.rpcs3.net/user-1272.html
+    Notes:  Some stuff moves at 2x and doubles gravity.
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00076850, 0x38600000 ] # li r3, 0x0
+
+PPU-6da0d4551c59eb596a1e04a5355e98163badf246: # BBS.self
+  60 FPS:
+    Games:
+      "Kingdom Hearts HD 2.5 ReMIX (Birth By Sleep)":
+        BLES02070: [ All ]
+        BLUS31460: [ All ]
+    Author: illusion, BlaGe
+    # https://forums.rpcs3.net/user-1272.html
+    Notes:  Some stuff moves at 2x and doubles gravity.
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00015aa4, 0x38600000 ] # li r3, 0x0
+
+
+
+
+PPU-a74423ca913fc18e46cfe926db1d48e41f9858a9:
+  21:9 Aspect Ratio:
+    Games:
+      "LittleBigPlanet 2":
+        NPUA80662: [ 01.33 ]
+    Author: slashiee
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x00D9C8EC, 2.37037037 ]
+
+
+
+
+Anchors:
+  LC_FPS: &LC_FPS
+    - [ be32, 0x00932f2c, 0x60000000 ]
+    - [ be32, 0x00932f8c, 0x60000000 ]
+    - [ be32, 0x00932f90, 0x60000000 ]
+
+PPU-df6f6701742921b9cbb2554983bb4568aae8d659:
+  Unlock FPS:
+    Games:
+      "Lollipop Chainsaw":
+        BLUS30917: [ All ]
+    Author: Whatcookie
+    Notes: Maximum framerate with the patch is half the Vblank frequency. Without the patch, adjusting Vblank frequency increases the maximum framerate up to about 57FPS.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *LC_FPS ]
+
+PPU-6f69ee207208d55faacb75a3aac6a9ce2aa290b7:
+  Unlock FPS:
+    Games:
+      "Lollipop Chainsaw":
+        BLES01525: [ All ]
+    Author: Whatcookie
+    Notes: Maximum framerate with the patch is half the Vblank frequency. Without the patch, adjusting Vblank frequency increases the maximum framerate up to about 57FPS.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *LC_FPS ]
+
+
+
+
+PPU-79c9f5ae14fe84851dca7bfe33f58bee3367730b:
+  21:9 Aspect Ratio:
+    Games:
+      "Metal Gear Solid 2: Sons of Liberty - HD Edition":
+        NPEB00685: [ All ]
+    Author: Esppiral
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0xDEE1B0, 0x3F100001 ] # INGAME 21:9 AR
+
+
+
+
+Anchors:
+  msnotes: &msnotes "Set Vblank rate to 120Hz for 60FPS gameplay. Needs a stable and locked 60FPS otherwise game will slow down. May work with other versions with adjustments.\n\nKnown issues:\nIn-Game timer ticks at half rate.\nGame Speed resets to normal if the player vehicle is wrecked (this can be resolved by restarting the track in the pause menu)."
+
+PPU-9f001199a7f23695cd41a2b25c1d0325da7565b5: # BCES00006
+  60 FPS:
+    Games:
+      "Motorstorm":
+        BCES00006: [ All ]
+    Author: illusion
+    Notes: *msnotes
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0xdf702c, 0.5 ] # Half gamespeed!
+
+PPU-ac5d994a6742a717d530cdcf095e880533465b66: # NPEA80017
+  60 FPS:
+    Games:
+      "Motorstorm Demo":
+        NPEA80017: [ All ]
+    Author: illusion
+    Notes: *msnotes
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0xdf715c, 0.5 ] # Half gamespeed!
+
+
+
+
+Anchors:
+  ms2notes: &ms2notes "Set Vblank to 120Hz for 60FPS gameplay. Bound to cause issues, needs further testing.\n\nKnown issues:\nCamera moves at double speed.\nSome UI Elements are double speed (does not affect gameplay)."
+
+PPU-34984cacd60f2ee2a380157a009122698d470056: # BCES00129 1.0
+  60 FPS:
+    Games:
+      "Motorstorm: Pacific Rift":
+        BCES00129: [ 01.00 ]
+    Author: illusion
+    Notes: *ms2notes
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x1098920, 0.5 ] # Half gamespeed!
+
+PPU-a1f33132af387c49d452e64fcb0704cb06b6d084: # BCES00129 1.03
+  60 FPS:
+    Games:
+      "Motorstorm: Pacific Rift":
+        BCES00129: [ 01.03 ]
+    Author: illusion
+    Notes: *ms2notes
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0xe903cc, 0.5 ] # Half gamespeed!
+
+PPU-f62bdccfbca93730c2fcd484f65ead6f3c7878be: # NPEA90033
+  60 FPS:
+    Games:
+      "Motorstorm: Pacific Rift Demo 2.0":
+        NPEA90033: [ All ]
+    Author: illusion
+    Notes: *ms2notes
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x10e9b5c, 0.5 ] # Half gamespeed!
+
+
+
+
+Anchors:
+  NieR_FPS_USEU: &NieR_FPS_USEU
+  # "unlock" framerate
+    - [ be32, 0x00f7c3b8, 0x386001f5 ] # li r3, 1f5
+  
+    - [ be32, 0x00711b50, 0x489c3ef1 ] # jump to code cave
+  
+  # get mftb
+    - [ be32, 0x010d5a40, 0x7ccc42e6 ] # mftb r6             // Move from timebase register (clock)
+  
+  # get mftb delta
+    - [ be32, 0x010d5a44, 0x3ca0010e ] # lis r5,0x010e       // load high bits of address (0x010e23c8)
+    - [ be32, 0x010d5a48, 0x60a523c8 ] # ori r5,r5,0x23c8    // load low bits of address
+    - [ be32, 0x010d5a4c, 0x7c85202a ] # ldx r4,r5,r4        // load previous frames mftb reading
+    - [ be32, 0x010d5a50, 0xf8c50000 ] # std r6,0x0(r5)      // store this frames mftb reading
+    - [ be32, 0x010d5a54, 0x7cc43050 ] # subf r6,r4,r6       // subtract previous mftb reading from this mftb frames reading
+  
+  # mftb delta to float
+    - [ be32, 0x010d5a58, 0xf8c50080 ] # std r6,0x80(r5)     // store mftb delta (to be loaded into FPR)
+    - [ be32, 0x010d5a5c, 0xcba50080 ] # lfd f29,0x80(r5)    // load mftb delta into FPR
+    - [ be32, 0x010d5a60, 0xffa0ee9c ] # fcfid f29,f29       // convert integer to double
+    - [ be32, 0x010d5a64, 0xffa0e818 ] # frsp f29,f29        // round to single precision
+  
+  # mftb delta to seconds
+    - [ be32, 0x010d5a68, 0x3c80010d ] # r4,0x10d            // load high bits constants pointer
+    - [ be32, 0x010d5a6c, 0x60845a40 ] # ori r4,r4,0x5a40    // load low bits of constants pointer
+    - [ be32, 0x010d5a70, 0xc384003c ] # lfs f28,0x3c(r4)    // load timebase frequency
+    - [ be32, 0x010d5a74, 0xec3de024 ] # fdivs f1,f29,f28    // divide timebase delta by timebase frequency
+  
+  # return
+    - [ be32, 0x010d5a78, 0x4e800020 ] # blr                 // return
+  
+  # constants
+    - [ be32, 0x010d5a7c, 0x4c989680 ] # timebase frequency as hexfloat (80mhz)
+
+  NieR_FPS_JP: &NieR_FPS_JP
+  # "unlock" framerate
+    - [ be32, 0x00f7cbcc, 0x386001f5 ] # li r3, 1f5
+  
+    - [ be32, 0x00711d58, 0x489c48e9 ] # jump to code cave
+  
+  # get mftb
+    - [ be32, 0x010d6640, 0x7ccc42e6 ] # mftb r6             // Move from timebase register (clock)
+  
+  # get mftb delta
+    - [ be32, 0x010d6644, 0x3ca0010e ] # lis r5,0x010e       // load high bits of address (0x010e23e8)
+    - [ be32, 0x010d6648, 0x60a523e8 ] # ori r5,r5,0x23e8    // load low bits of address
+    - [ be32, 0x010d664c, 0x7c85202a ] # ldx r4,r5,r4        // load previous frames mftb reading
+    - [ be32, 0x010d6650, 0xf8c50000 ] # std r6,0x0(r5)      // store this frames mftb reading
+    - [ be32, 0x010d6654, 0x7cc43050 ] # subf r6,r4,r6       // subtract previous mftb reading from this mftb frames reading
+  
+  # mftb delta to float
+    - [ be32, 0x010d6658, 0xf8c50080 ] # std r6,0x80(r5)     // store mftb delta (to be loaded into FPR)
+    - [ be32, 0x010d665c, 0xcba50080 ] # lfd f29,0x80(r5)    // load mftb delta into FPR
+    - [ be32, 0x010d6660, 0xffa0ee9c ] # fcfid f29,f29       // convert integer to double
+    - [ be32, 0x010d6664, 0xffa0e818 ] # frsp f29,f29        // round to single precision
+  
+  # mftb delta to seconds
+    - [ be32, 0x010d6668, 0x3c80010d ] # r4,0x10d            // load high bits constants pointer
+    - [ be32, 0x010d666c, 0x60846640 ] # ori r4,r4,0x6640    // load low bits of constants pointer
+    - [ be32, 0x010d6670, 0xc384003c ] # lfs f28,0x3c(r4)    // load timebase frequency
+    - [ be32, 0x010d6674, 0xec3de024 ] # fdivs f1,f29,f28    // divide timebase delta by timebase frequency
+  
+  # return
+    - [ be32, 0x010d6678, 0x4e800020 ] # blr                 // return
+  
+  # constants
+    - [ be32, 0x010d667c, 0x4c989680 ] # timebase frequency as hexfloat (80mhz)
+
+PPU-13950b2e29e05a115fe317815d3da9d2b2baee65:
+  Unlock FPS:
+    Games:
+      "NieR (Nier Replicant)":
+        BLUS30481: [ All ]
+        BLES00826: [ All ]
+    Author: Whatcookie
+    Notes: Updated with a new version that has correct game speed at any framerate, you no longer need to set the Framelimiter to 30 or 60.
+    Patch Version: 2.1
+    Patch:
+      - [ load, *NieR_FPS_USEU ]
+  21:9 Aspect Ratio:
+    Games:
+      "NieR (Nier Replicant)":
+        BLUS30481: [ All ]
+        BLES00826: [ All ]
+    Author: dio
+    Notes: HUD Elements will be stretched and misplaced. Users need to enable the "Stretch to Display Area" option in RPCS3 for this patch to work.
+    Patch Version: 1.0
+    Patch:
+      - [ bef32, 0x01120398, 2.3703704 ] # HUD elements will look wrong & needs stretch to display area
+
+PPU-f098ee8410599c81c89f90d698340a078dc69a90:
+  Unlock FPS:
+    Games:
+      "NieR (Nier Replicant)":
+        BLJM60223: [ All ]
+    Author: Whatcookie
+    Notes: Updated with a new version that has correct game speed at any framerate, you no longer need to set the Framelimiter to 30 or 60.
+    Patch Version: 2.1
+    Patch:
+      - [ load, *NieR_FPS_JP ]
+
+
+
+
+Anchors:
+  p5_ModSupport_Author: &p5_ModSupport_Author TGEnigma
+  p5_ModSupport_Notes: &p5_ModSupport_Notes "Enable support for adding mod files (through mod.cpk) to the game. This feature is required to fix the dialog portraits when using resolution scaling."
+  p5_ModSupport_PatVer: &p5_ModSupport_PatVer 1.0
+  p5_ModSupport: &p5_ModSupport
+  # make %s/hdd.cpk -> %s%s/mod.cpk
+    - [ be32, 0x00B4D638, 0x25732573 ]
+    - [ be32, 0x00B4D63C, 0x2F6D6F64 ]
+    - [ be32, 0x00B4D640, 0x2E63706B ]
+  
+  # make mod.cpk file path
+    - [ be32, 0x00114CA4, 0x3C6000B5 ] # lis    r3, cpkPathString@ha
+    - [ be32, 0x00114CA8, 0x33E3D638 ] # addic  r31, r3, cpkPathString@l
+    - [ be32, 0x00114CAC, 0x48968BEB ] # bla    getInstallPath
+    - [ be32, 0x00114CB0, 0x60000000 ] # nop
+    - [ be32, 0x00114CB4, 0x7C7E1B78 ] # mr     r30, r3
+    - [ be32, 0x00114CB8, 0x48968BF7 ] # bla    getInstallPath2
+    - [ be32, 0x00114CBC, 0x60000000 ] # nop
+    - [ be32, 0x00114CC0, 0x33A10070 ] # addic  r29, r1, 0x70
+    - [ be32, 0x00114CC4, 0x7C661B78 ] # mr     r6, r3
+    - [ be32, 0x00114CC8, 0x7FA3EB78 ] # mr     r3, r29
+    - [ be32, 0x00114CCC, 0x7FE4FB78 ] # mr     r4, r31
+    - [ be32, 0x00114CD0, 0x7FC5F378 ] # mr     r5, r30
+    - [ be32, 0x00114CD4, 0x48AD567F ] # bla    sprintf
+    - [ be32, 0x00114CD8, 0x60000000 ] # nop
+    - [ be32, 0x00114CDC, 0x48B44A9E ] # ba     branchOffset
+    - [ be32, 0x00114CE0, 0x60000000 ] # nop
+  
+  # trampoline
+    - [ be32, 0x00B44A9C, 0x7FA3EB78 ] # mr     r3, r29
+    - [ be32, 0x00B44AA0, 0x48114B77 ] # bla    criFsBindCpk
+    - [ be32, 0x00B44AA4, 0x60000000 ] # nop
+    - [ be32, 0x00B44AA8, 0x3880000A ] # li     r4, 0xA
+    - [ be32, 0x00B44AAC, 0x48AB8ED7 ] # bla    criFsBindPatch
+    - [ be32, 0x00B44AB0, 0x60000000 ] # nop
+    - [ be32, 0x00B44AB4, 0x48114CE6 ] # ba     0x114CA4 + 0x40
+    - [ be32, 0x00B44AB8, 0x60000000 ] # nop
+  
+  p5_4K_Author: &p5_4K_Author rexis
+  p5_4K_Notes: &p5_4K_Notes "To be used only with 4K Bustup Mod by rexis."
+  p5_4K_PatVer: &p5_4K_PatVer 1.0
+  p5_4K: &p5_4K
+    - [ be32, 0x1cffb0, 0x48b45007 ] # bustups A
+    - [ be32, 0x1d027C, 0x48b45007 ]
+    - [ be32, 0x1d039C, 0x48b45007 ]
+    - [ be32, 0x1cffd4, 0x48b45007 ]
+    - [ be32, 0x1d02a0, 0x48b45007 ]
+    - [ be32, 0x1d03c0, 0x48b45007 ]
+  
+    - [ be32, 0xb45004, 0x38a00003 ] # li     r5,0x3
+    - [ be32, 0xb45008, 0x7c632bd2 ] # divd   r3,r3,r5
+    - [ be32, 0xb4500c, 0x4e800020 ] # blr
+  
+  p5_SkipIntro_Author: &p5_SkipIntro_Author TGEnigma
+  p5_SkipIntro_PatVer: &p5_SkipIntro_PatVer 1.0
+  p5_SkipIntro: &p5_SkipIntro
+    - [ be32, 0x0055AC8C, 0x60000000 ]
+  
+  p5_60FPS_Author: &p5_60FPS_Author TGEnigma, rexis
+  p5_60FPS_Notes: &p5_60FPS_Notes "Patch may accelerate some game effects by 2x. Updated patch fixes subtitle cut-off in cutscenes."
+  p5_60FPS_PatVer: &p5_60FPS_PatVer 1.1
+  p5_60FPS: &p5_60FPS
+    - [ be32, 0x00010268, 0x9061009C ] # set update rate to 60 -> r3, 0xE0+var_44(r1)
+  #  - [ be32, 0x008FC864, 0x60000000 ] # nop cellGcmSetSecondVFrequency
+    - [ bef32, 0x00012484, 0.01666667 ]
+    - [ bef32, 0x00045678, 0.01666667 ]
+    - [ bef32, 0x000616F0, 0.01666667 ]
+    - [ bef32, 0x00073F20, 0.01666667 ]
+  #  - [ bef32, 0x000753A0, 0.01666667 ] # Doubles camera speed
+    - [ bef32, 0x00077E54, 0.01666667 ]
+    - [ bef32, 0x00078A70, 0.01666667 ]
+    - [ bef32, 0x0007A238, 0.01666667 ]
+    - [ bef32, 0x00081864, 0.01666667 ]
+    - [ bef32, 0x000885C8, 0.01666667 ]
+    - [ bef32, 0x0008C550, 0.01666667 ]
+    - [ bef32, 0x0008D6D0, 0.01666667 ]
+    - [ bef32, 0x000D058C, 0.01666667 ]
+    - [ bef32, 0x000D0B4C, 0.01666667 ]
+    - [ bef32, 0x000E4754, 0.01666667 ]
+    - [ bef32, 0x000E50F0, 0.01666667 ]
+  #  - [ bef32, 0x000E8190, 0.01666667 ] # Breaks crumpled paper animation
+    - [ bef32, 0x000F8B78, 0.01666667 ]
+    - [ bef32, 0x00101CE8, 0.01666667 ]
+    - [ bef32, 0x001E7344, 0.01666667 ]
+    - [ bef32, 0x001EB0D4, 0.01666667 ]
+    - [ bef32, 0x001EB328, 0.01666667 ]
+    - [ bef32, 0x001EB814, 0.01666667 ]
+    - [ bef32, 0x001EB940, 0.01666667 ]
+    - [ bef32, 0x001EBA04, 0.01666667 ]
+    - [ bef32, 0x001EBBA0, 0.01666667 ]
+    - [ bef32, 0x001EBCD0, 0.01666667 ]
+    - [ bef32, 0x001ECCA0, 0.01666667 ]
+    - [ bef32, 0x00234C64, 0.01666667 ]
+    - [ bef32, 0x0023F4BC, 0.01666667 ]
+    - [ bef32, 0x002400BC, 0.01666667 ]
+    - [ bef32, 0x00240BB0, 0.01666667 ]
+    - [ bef32, 0x0029231C, 0.01666667 ]
+    - [ bef32, 0x00294A70, 0.01666667 ]
+    - [ bef32, 0x002952F8, 0.01666667 ]
+  #  - [ bef32, 0x002B027C, 0.01666667 ] # Makes it impossible to run < 60FPS
+    - [ bef32, 0x002B0688, 0.01666667 ]
+    - [ bef32, 0x002B6154, 0.01666667 ]
+    - [ bef32, 0x002B71F8, 0.01666667 ]
+    - [ bef32, 0x002B82C8, 0.01666667 ]
+    - [ bef32, 0x002B98F8, 0.01666667 ]
+    - [ bef32, 0x002B9F8C, 0.01666667 ]
+    - [ bef32, 0x002BA614, 0.01666667 ]
+    - [ bef32, 0x002BC84C, 0.01666667 ]
+    - [ bef32, 0x002BCD2C, 0.01666667 ]
+    - [ bef32, 0x002C550C, 0.01666667 ]
+    - [ bef32, 0x002D1328, 0.01666667 ]
+  #  - [ bef32, 0x002D230C, 0.01666667 ] # Doubles movement speed
+    - [ bef32, 0x002D2DDC, 0.01666667 ]
+    - [ bef32, 0x002D8A10, 0.01666667 ]
+    - [ bef32, 0x002D8A18, 0.01666667 ]
+    - [ bef32, 0x002DA46C, 0.01666667 ]
+    - [ bef32, 0x002FBB00, 0.01666667 ]
+    - [ bef32, 0x0030E258, 0.01666667 ]
+    - [ bef32, 0x003181D4, 0.01666667 ]
+    - [ bef32, 0x0031CE24, 0.01666667 ]
+    - [ bef32, 0x0031DBE0, 0.01666667 ]
+    - [ bef32, 0x0033DBD0, 0.01666667 ]
+    - [ bef32, 0x00358664, 0.01666667 ]
+    - [ bef32, 0x00359020, 0.01666667 ]
+    - [ bef32, 0x0035AD10, 0.01666667 ]
+    - [ bef32, 0x00364A98, 0.01666667 ]
+    - [ bef32, 0x0037429C, 0.01666667 ]
+    - [ bef32, 0x00376E7C, 0.01666667 ]
+    - [ bef32, 0x00379B08, 0.01666667 ]
+    - [ bef32, 0x0037AAAC, 0.01666667 ]
+    - [ bef32, 0x0037CF54, 0.01666667 ]
+    - [ bef32, 0x0037DB7C, 0.01666667 ]
+    - [ bef32, 0x003803F4, 0.01666667 ]
+    - [ bef32, 0x00387A80, 0.01666667 ]
+    - [ bef32, 0x00388684, 0.01666667 ]
+  #  - [ bef32, 0x003ACBC0, 0.01666667 ] # kaleidoscope speedup
+    - [ bef32, 0x003BDDD0, 0.01666667 ]
+    - [ bef32, 0x003E944C, 0.01666667 ]
+    - [ bef32, 0x003F35EC, 0.01666667 ]
+    - [ bef32, 0x003F6FF4, 0.01666667 ]
+    - [ bef32, 0x0058CE18, 0.01666667 ]
+    - [ bef32, 0x0058DE64, 0.01666667 ]
+    - [ bef32, 0x0058E82C, 0.01666667 ]
+    - [ bef32, 0x0058E958, 0.01666667 ]
+    - [ bef32, 0x0058F47C, 0.01666667 ]
+    - [ bef32, 0x0058FA00, 0.01666667 ]
+    - [ bef32, 0x0058FAB4, 0.01666667 ]
+    - [ bef32, 0x0058FBE4, 0.01666667 ]
+    - [ bef32, 0x0058FD2C, 0.01666667 ]
+    - [ bef32, 0x0058FE6C, 0.01666667 ]
+    - [ bef32, 0x00590A04, 0.01666667 ]
+    - [ bef32, 0x005B6914, 0.01666667 ]
+    - [ bef32, 0x005F1C6C, 0.01666667 ]
+    - [ bef32, 0x0062076C, 0.01666667 ] # battle related stuff
+    - [ bef32, 0x007072BC, 0.01666667 ]
+    - [ bef32, 0x00722D7C, 0.01666667 ]
+    - [ bef32, 0x0073C840, 0.01666667 ]
+    - [ bef32, 0x00772E50, 0.01666667 ]
+    - [ bef32, 0x0087B338, 0.01666667 ]
+    - [ bef32, 0x00B10110, 0.01666667 ]
+    - [ bef32, 0x00B6AA14, 0.01666667 ]
+    - [ bef32, 0x00B6AA38, 0.01666667 ]
+    - [ bef32, 0x00B70B48, 0.01666667 ]
+    - [ bef32, 0x00B70BC8, 0.01666667 ]
+    - [ bef32, 0x00B71CF4, 0.01666667 ]
+    - [ bef32, 0x00B72F38, 0.01666667 ]
+    - [ bef32, 0x00CFF46C, 0.01666667 ]
+    - [ bef32, 0x00061700, 0.1666667 ]
+    - [ bef32, 0x00069AA4, 0.1666667 ]
+    - [ bef32, 0x0007A1EC, 0.1666667 ]
+    - [ bef32, 0x00081880, 0.1666667 ]
+    - [ bef32, 0x000C8258, 0.1666667 ]
+    - [ bef32, 0x000C991C, 0.1666667 ]
+    - [ bef32, 0x00101CCC, 0.1666667 ]
+    - [ bef32, 0x001E2C44, 0.1666667 ]
+    - [ bef32, 0x001E61E8, 0.1666667 ]
+    - [ bef32, 0x001E7338, 0.1666667 ]
+    - [ bef32, 0x00250C50, 0.1666667 ]
+    - [ bef32, 0x00256B20, 0.1666667 ]
+    - [ bef32, 0x00292100, 0.1666667 ]
+    - [ bef32, 0x00294A60, 0.1666667 ]
+    - [ bef32, 0x002952E4, 0.1666667 ]
+    - [ bef32, 0x0029FD98, 0.1666667 ]
+    - [ bef32, 0x002A1BB8, 0.1666667 ]
+    - [ bef32, 0x002A41D0, 0.1666667 ]
+    - [ bef32, 0x002A6124, 0.1666667 ]
+    - [ bef32, 0x002B4FF0, 0.1666667 ]
+    - [ bef32, 0x002B60DC, 0.1666667 ]
+    - [ bef32, 0x002B7174, 0.1666667 ]
+    - [ bef32, 0x002B82F4, 0.1666667 ]
+    - [ bef32, 0x002B8E74, 0.1666667 ]
+    - [ bef32, 0x002BA600, 0.1666667 ]
+    - [ bef32, 0x002BAB30, 0.1666667 ]
+    - [ bef32, 0x002BB4E0, 0.1666667 ]
+    - [ bef32, 0x002BB808, 0.1666667 ]
+    - [ bef32, 0x002BC368, 0.1666667 ]
+    - [ bef32, 0x002BC844, 0.1666667 ]
+    - [ bef32, 0x002BD414, 0.1666667 ]
+    - [ bef32, 0x002C4F54, 0.1666667 ]
+    - [ bef32, 0x002C4FF0, 0.1666667 ]
+    - [ bef32, 0x002C69E4, 0.1666667 ]
+    - [ bef32, 0x002D4378, 0.1666667 ]
+    - [ bef32, 0x002DD968, 0.1666667 ]
+    - [ bef32, 0x002DE538, 0.1666667 ]
+    - [ bef32, 0x002DEA04, 0.1666667 ]
+    - [ bef32, 0x0030D7A0, 0.1666667 ]
+    - [ bef32, 0x0030E6BC, 0.1666667 ]
+    - [ bef32, 0x003181B8, 0.1666667 ]
+    - [ bef32, 0x0031AFE0, 0.1666667 ]
+    - [ bef32, 0x0031CE38, 0.1666667 ]
+    - [ bef32, 0x0031DBF0, 0.1666667 ]
+    - [ bef32, 0x0031EC74, 0.1666667 ]
+    - [ bef32, 0x00322FB4, 0.1666667 ]
+    - [ bef32, 0x00356560, 0.1666667 ]
+    - [ bef32, 0x003586BC, 0.1666667 ]
+    - [ bef32, 0x00358F90, 0.1666667 ]
+    - [ bef32, 0x0035A380, 0.1666667 ]
+    - [ bef32, 0x0035AA3C, 0.1666667 ]
+    - [ bef32, 0x00364A9C, 0.1666667 ]
+    - [ bef32, 0x003688C8, 0.1666667 ]
+    - [ bef32, 0x00368A88, 0.1666667 ]
+    - [ bef32, 0x00368E30, 0.1666667 ]
+    - [ bef32, 0x00376FD0, 0.1666667 ]
+    - [ bef32, 0x00377538, 0.1666667 ]
+    - [ bef32, 0x00377CD8, 0.1666667 ]
+    - [ bef32, 0x0037C2B0, 0.1666667 ]
+    - [ bef32, 0x0037D310, 0.1666667 ]
+    - [ bef32, 0x0037D418, 0.1666667 ]
+    - [ bef32, 0x0037D5B4, 0.1666667 ]
+    - [ bef32, 0x0037DD08, 0.1666667 ]
+    - [ bef32, 0x0037DE10, 0.1666667 ]
+    - [ bef32, 0x0037DF78, 0.1666667 ]
+    - [ bef32, 0x00382F38, 0.1666667 ]
+    - [ bef32, 0x003845F0, 0.1666667 ]
+    - [ bef32, 0x00387A6C, 0.1666667 ]
+    - [ bef32, 0x00398208, 0.1666667 ]
+    - [ bef32, 0x00398460, 0.1666667 ]
+    - [ bef32, 0x003999F8, 0.1666667 ]
+    - [ bef32, 0x003A7C64, 0.1666667 ]
+    - [ bef32, 0x003AA418, 0.1666667 ]
+    - [ bef32, 0x003AE0E4, 0.1666667 ]
+    - [ bef32, 0x003AE3A0, 0.1666667 ]
+    - [ bef32, 0x003B25D8, 0.1666667 ]
+    - [ bef32, 0x003BC448, 0.1666667 ]
+    - [ bef32, 0x003C58C0, 0.1666667 ]
+    - [ bef32, 0x003C67B0, 0.1666667 ]
+    - [ bef32, 0x003C6D6C, 0.1666667 ]
+    - [ bef32, 0x003EBC20, 0.1666667 ]
+    - [ bef32, 0x003EE5F0, 0.1666667 ]
+    - [ bef32, 0x003F1FE0, 0.1666667 ]
+    - [ bef32, 0x003F6FC0, 0.1666667 ]
+    - [ bef32, 0x004EB808, 0.1666667 ]
+    - [ bef32, 0x0055251C, 0.1666667 ]
+    - [ bef32, 0x0055EC48, 0.1666667 ]
+    - [ bef32, 0x0055F4A8, 0.1666667 ]
+    - [ bef32, 0x0057DC08, 0.1666667 ]
+    - [ bef32, 0x0057E498, 0.1666667 ]
+    - [ bef32, 0x005C5364, 0.1666667 ]
+    - [ bef32, 0x00620714, 0.1666667 ]
+    - [ bef32, 0x00635CB4, 0.1666667 ]
+    - [ bef32, 0x00642B98, 0.1666667 ]
+    - [ bef32, 0x00654EE8, 0.1666667 ]
+    - [ bef32, 0x00662B04, 0.1666667 ]
+    - [ bef32, 0x006AFF98, 0.1666667 ]
+    - [ bef32, 0x006CAA44, 0.1666667 ]
+    - [ bef32, 0x006E0224, 0.1666667 ]
+    - [ bef32, 0x006E31A0, 0.1666667 ]
+    - [ bef32, 0x006FCD3C, 0.1666667 ]
+    - [ bef32, 0x00772E54, 0.1666667 ]
+    - [ bef32, 0x00797508, 0.1666667 ]
+    - [ bef32, 0x00B52E3C, 0.1666667 ]
+    - [ bef32, 0x00B6AD00, 0.1666667 ]
+    - [ bef32, 0x00B6B71C, 0.1666667 ]
+    - [ bef32, 0x00B6E478, 0.1666667 ]
+    - [ bef32, 0x00B6E880, 0.1666667 ]
+    - [ bef32, 0x00B6E8B8, 0.1666667 ]
+    - [ bef32, 0x00B6E8F0, 0.1666667 ]
+    - [ bef32, 0x00B6E928, 0.1666667 ]
+    - [ bef32, 0x00B6E960, 0.1666667 ]
+    - [ bef32, 0x00B6E998, 0.1666667 ]
+    - [ bef32, 0x00B6E9D0, 0.1666667 ]
+    - [ bef32, 0x00B6EA08, 0.1666667 ]
+    - [ bef32, 0x00B6EA40, 0.1666667 ]
+    - [ bef32, 0x00B6EA78, 0.1666667 ]
+    - [ bef32, 0x00B6EAB0, 0.1666667 ]
+    - [ bef32, 0x00B6EAE8, 0.1666667 ]
+    - [ bef32, 0x00B6EB20, 0.1666667 ]
+    - [ bef32, 0x00B6EB58, 0.1666667 ]
+    - [ bef32, 0x00B6EB90, 0.1666667 ]
+    - [ bef32, 0x00B6EBC8, 0.1666667 ]
+    - [ bef32, 0x00B6EC00, 0.1666667 ]
+    - [ bef32, 0x00B6EC38, 0.1666667 ]
+    - [ bef32, 0x00B6EC70, 0.1666667 ]
+    - [ bef32, 0x00B6ECA8, 0.1666667 ]
+    - [ bef32, 0x00B70A54, 0.1666667 ]
+    - [ bef32, 0x00B70AF0, 0.1666667 ]
+    - [ bef32, 0x00B70AF8, 0.1666667 ]
+    - [ bef32, 0x00B70B00, 0.1666667 ]
+    - [ bef32, 0x00B70B08, 0.1666667 ]
+    - [ bef32, 0x00B70B10, 0.1666667 ]
+    - [ bef32, 0x00B70B20, 0.1666667 ]
+    - [ bef32, 0x00B70B78, 0.1666667 ]
+    - [ bef32, 0x00B70B88, 0.1666667 ]
+    - [ bef32, 0x00B70BB4, 0.1666667 ]
+    - [ bef32, 0x00B70BC4, 0.1666667 ]
+    - [ bef32, 0x00B70F60, 0.1666667 ]
+    - [ bef32, 0x00B71BAC, 0.1666667 ]
+    - [ bef32, 0x00B71BBC, 0.1666667 ]
+    - [ bef32, 0x00B9BD30, 0.1666667 ]
+    - [ bef32, 0x00CF96AC, 0.1666667 ]
+    - [ bef32, 0x00CFA1E8, 0.1666667 ]
+    - [ bef32, 0x00CFA20C, 0.1666667 ]
+    - [ bef32, 0x00CFB210, 0.1666667 ]
+    - [ bef32, 0x00CFB778, 0.1666667 ]
+    - [ bef32, 0x00CFBC30, 0.1666667 ]
+    - [ bef32, 0x00CFBCA8, 0.1666667 ]
+    - [ bef32, 0x00CFBFD4, 0.1666667 ]
+    - [ bef32, 0x00CFC0A8, 0.1666667 ]
+    - [ bef32, 0x00CFF3CC, 0.1666667 ]
+    - [ bef32, 0x00CFF3D4, 0.1666667 ]
+    - [ bef32, 0x00CFF470, 0.1666667 ]
+    - [ bef32, 0x00CFF478, 0.1666667 ]
+    - [ bef32, 0x00CFF480, 0.1666667 ]
+    - [ bef32, 0x00D06840, 0.1666667 ]
+    - [ bef32, 0x00D06848, 0.1666667 ]
+    - [ be32, 0x000FB71C, 0x3C603C88 ]
+    - [ be32, 0x00109B14, 0x3C603C88 ]
+    - [ be32, 0x0023FBDC, 0x3CA03C88 ]
+    - [ be32, 0x00240620, 0x3CA03C88 ]
+    - [ be32, 0x00241258, 0x3C803C88 ]
+    - [ be32, 0x003CA4BC, 0x3C603C88 ]
+    - [ be32, 0x0087B448, 0x3C603C88 ]
+  #  - [ bef32, 0x0009eb60, 0.01666667 ]
+  #  - [ bef32, 0x002cb9e8, 0.01666667 ]
+  #  - [ bef32, 0x00331FF0, 0.1666667 ]
+  #  - [ bef32, 0x003B0520, 0.1666667 ]
+  #  - [ bef32, 0x003B05E8, 0.1666667 ]
+  #  - [ bef32, 0x003b25cc, 0.1666667 ]
+  #  - [ bef32, 0x003BC478, 0.1666667 ]
+  #  - [ be32, 0x000a7e6c, 0x3d803c88 ]
+
+    - [ be32, 0x0026dca0, 0x3860001e ] # batting cages
+    - [ be32, 0x0026de4c, 0x3860001e ]
+    - [ be32, 0x0026e36c, 0x3860001e ]
+    - [ be32, 0x0026fb10, 0x3860001e ]
+    - [ be32, 0x0026fb3c, 0x3860001e ]
+    - [ be32, 0x0026fb78, 0x3860001e ]
+    - [ be32, 0x0026fc30, 0x3860001e ]
+    - [ be32, 0x0026fca0, 0x3860001e ]
+    - [ be32, 0x0026fd14, 0x3860001e ]
+    - [ be32, 0x0026fd50, 0x3860001e ]
+    - [ be32, 0x0026fdf4, 0x3860001e ]
+    - [ be32, 0x0026fe14, 0x3860001e ]
+    - [ be32, 0x0026fe50, 0x3860001e ]
+    - [ be32, 0x0026fe9c, 0x3860001e ]
+    - [ be32, 0x0026fedc, 0x3860001e ]
+    - [ be32, 0x002700e4, 0x3860001e ]
+    - [ be32, 0x00270304, 0x3860001e ]
+    - [ be32, 0x00288b04, 0x3860001e ] # party panel
+    - [ be32, 0x00288b4c, 0x3860001e ]
+    - [ be32, 0x00288b70, 0x3860001e ]
+    - [ be32, 0x00288bb0, 0x3860001e ]
+    - [ be32, 0x00288bdc, 0x3860001e ]
+    - [ be32, 0x00288c18, 0x3860001e ]
+    - [ be32, 0x00288c3c, 0x3860001e ]
+    - [ be32, 0x002892f0, 0x3860001e ]
+    - [ be32, 0x0028931c, 0x3860001e ]
+    - [ be32, 0x00289344, 0x3860001e ]
+    - [ be32, 0x0028b324, 0x3860001e ]
+    - [ be32, 0x0028b4c8, 0x3860001e ]
+    - [ be32, 0x0028c1a0, 0x3860001e ]
+    - [ be32, 0x0028c1cc, 0x3860001e ]
+    - [ be32, 0x0028c1f4, 0x3860001e ]
+    - [ be32, 0x0028ea90, 0x3860001e ]
+    - [ be32, 0x0028eacc, 0x3860001e ]
+    - [ be32, 0x0028eafc, 0x3860001e ]
+    - [ be32, 0x0028eb3c, 0x3860001e ]
+    - [ be32, 0x0028eb60, 0x3860001e ]
+    - [ be32, 0x001cfe60, 0x3860001e ] # blink anim
+
+    # Removes framerate dependency for both script interpreters
+    - [ be32, 0xb44e00, 0x38600001 ]  # li         r3,0x1
+    - [ be32, 0xb44e04, 0x38dd0170 ]  # addi       r6,r29,0x170
+    - [ be32, 0xb44e08, 0x48b44e2f ]  # bla        0xb44e2c
+    - [ be32, 0xb44e0c, 0x2c040000 ]  # cmpwi      r4,0x0
+    - [ be32, 0xb44e10, 0x40820008 ]  # bne        +0x8
+    - [ be32, 0xb44e14, 0x481f263a ]  # ba         0x1f2638
+    - [ be32, 0xb44e18, 0x7c844014 ]  # addc       r4,r4,r8
+    - [ be32, 0xb44e1c, 0x7ca54014 ]  # addc       r5,r5,r8
+    - [ be32, 0xb44e20, 0x481f2642 ]  # ba         0x1f2640
+
+    - [ be32, 0xb44e24, 0x3cc000d9 ]  # lis        r6,0xd9
+    - [ be32, 0xb44e28, 0x60c6c6ec ]  # ori        r6,r6,0xc6ec
+
+    - [ be32, 0xb44e2c, 0x3ce000ff ]  # lis        r7,0xff
+    - [ be32, 0xb44e30, 0x80e7fb50 ]  # lwz        r7,-0x4b0(r7)
+    - [ be32, 0xb44e34, 0x81060000 ]  # lwz        r8,0(r6)
+    - [ be32, 0xb44e38, 0x90e60000 ]  # stw        r7,0(r6)
+    - [ be32, 0xb44e3c, 0x7d083850 ]  # subf       r8,r8,r7
+    - [ be32, 0xb44e40, 0x7d09fe70 ]  # srawi      r9,r8,0x1f
+    - [ be32, 0xb44e44, 0x7d084850 ]  # subf       r8,r8,r9
+    - [ be32, 0xb44e48, 0x55080ffe ]  # rlwinm     r8,r8,0x1,0x1f,0x1f
+    - [ be32, 0xb44e4c, 0x5509103a ]  # rlwinm     r9,r8,0x2,0x0,0x1d
+    - [ be32, 0xb44e50, 0x4e800020 ]  # blr
+
+    - [ be32, 0x1f161c, 0x38600174 ]  # li         r3,0x174
+    - [ be32, 0x1f1640, 0x38800174 ]  # li         r4,0x174
+    - [ be32, 0x1f2634, 0x48b44e02 ]  # ba         0xb44e00
+
+    - [ be32, 0x575fb4, 0x48b44e27 ]  # bla        0xb44e24
+    - [ be32, 0x576010, 0x48b44e27 ]  # bla        0xb44e24
+    - [ be32, 0x576020, 0x7c892010 ]  # subfc      r4,r9,r4
+    - [ be32, 0x57602c, 0x7c882010 ]  # subfc      r4,r8,r4
+    - [ be32, 0x575fc4, 0x7c892010 ]  # subfc      r4,r9,r4
+    - [ be32, 0x575fe0, 0x7c681810 ]  # subfc      r3,r8,r3
+
+  
+  p5_DLC_Author: &p5_DLC_Author TGEnigma
+  p5_DLC_PatVer: &p5_DLC_PatVer 1.0
+  p5_DLC: &p5_DLC
+    - [ be32, 0x197AE8, 0x4E800020 ]
+  
+  p5_DisableBlur_Author: &p5_DisableBlur_Author TGEnigma, ruipin, kd-11
+  p5_DisableBlur_PatVer: &p5_DisableBlur_PatVer 1.0
+  p5_DisableBlur: &p5_DisableBlur
+    - [ be32, 0x00FEE27A, 0x9E001700 ]
+    - [ be32, 0x00FEE27E, 0xC801001D ]
+    - [ be32, 0x00FEE282, 0x00000000 ]
+    - [ be32, 0x00FEE286, 0x00000000 ]
+    - [ be32, 0x00FEE28A, 0x1E810100 ]
+    - [ be32, 0x00FEE28E, 0xC800001D ]
+    - [ be32, 0x00FEE292, 0x00000000 ]
+    - [ be32, 0x00FEE296, 0x00000000 ]
+  
+  p5_DisableDistortion_Author: &p5_DisableDistortion_Author TGEnigma, ruipin, kd-11
+  p5_DisableDistortion_PatVer: &p5_DisableDistortion_PatVer 1.0
+  p5_DisableDistortion: &p5_DisableDistortion
+    - [ be32, 0x00FE2E28, 0x9E001700 ]
+    - [ be32, 0x00FE2E2C, 0xC801001D ]
+    - [ be32, 0x00FE2E30, 0x00000000 ]
+    - [ be32, 0x00FE2E34, 0x00000000 ]
+    - [ be32, 0x00FE2E38, 0x1E810100 ]
+    - [ be32, 0x00FE2E3C, 0xC800001D ]
+    - [ be32, 0x00FE2E40, 0x00000000 ]
+    - [ be32, 0x00FE2E44, 0x00000000 ]
+  
+  p5_Disable100PctDistortion_Author: &p5_Disable100PctDistortion_Author TGEnigma, ruipin, kd-11
+  p5_Disable100PctDistortion_PatVer: &p5_Disable100PctDistortion_PatVer 1.0
+  p5_Disable100PctDistortion: &p5_Disable100PctDistortion
+    - [ be32, 0x00FE31CC, 0x9E001700 ]
+    - [ be32, 0x00FE31D0, 0xC801001D ]
+    - [ be32, 0x00FE31D4, 0x00000000 ]
+    - [ be32, 0x00FE31D8, 0x00000000 ]
+    - [ be32, 0x00FE31DC, 0x1E810100 ]
+    - [ be32, 0x00FE31E0, 0xC800001D ]
+    - [ be32, 0x00FE31E4, 0x00000000 ]
+    - [ be32, 0x00FE31E8, 0x00000000 ]
+  
+  p5_NoHudLite_Author: &p5_NoHudLite_Author TGEnigma
+  p5_NoHudLite_Notes: &p5_NoHudLite_Notes "Elements can disabled separately by adding/removing their respective lines from the patch."
+  p5_NoHudLite_PatVer: &p5_NoHudLite_PatVer 1.0
+  p5_NoHudLite: &p5_NoHudLite
+    - [ be32, 0xDE4EC, 0x60000000 ] # mission list
+    - [ be32, 0xE83F4, 0x60000000 ] # place pict
+    - [ be32, 0xE5920, 0x60000000 ] # check
+    - [ be32, 0x69CC4, 0x38600001 ] # alert
+    - [ be32, 0x5F678, 0x60000000 ] # date
+    - [ be32, 0x38A0D0, 0x4838A186 ] # misc field hud
+    - [ be32, 0x28FBA0, 0x38600000 ] # party panel
+    - [ be32, 0x28FBA4, 0x4E800020 ] # party panel
+    - [ be32, 0xD6B48, 0x60000000 ] # mini map
+    - [ be32, 0xD6490, 0x60000000 ] # mini map
+  
+  p5_NoHud_Author: &p5_NoHud_Author TGEnigma
+  p5_NoHud_Notes: &p5_NoHud_Notes "Disable HUD by disabling rendering of 2D elements entirely. Breaks things."
+  p5_NoHud_PatVer: &p5_NoHud_PatVer 1.0
+  p5_NoHud: &p5_NoHud
+    - [ be32, 0x116934, 0x4E800020 ]
+  
+  p5_BgmOrder_Author: &p5_BgmOrder_Author TGEnigma, lipsum
+  p5_BgmOrder_Notes: &p5_BgmOrder_Notes "Plays encounter BGM in file order."
+  p5_BgmOrder_PatVer: &p5_BgmOrder_PatVer 1.0
+  p5_BgmOrder: &p5_BgmOrder
+  # patch SoundManager__SetEquipBgm
+  # branch to trampoline
+    - [ be32, 0x0006CD68, 0x48B44B52 ] # ba 0x00B44B50
+  
+  # trampoline
+    - [ be32, 0x00B44B50, 0x3FDE3000 ] # addis  r30, r30, 0x3000 -> 0x30B49738
+    - [ be32, 0x00B44B54, 0xA07E0000 ] # lhz    r3, 0x0(r30)
+    - [ be32, 0x00B44B58, 0x38630001 ] # addi   r3, r3, 0x1
+    - [ be32, 0x00B44B5C, 0x2803000B ] # cmplwi r3, 0xb (MaxBgm)
+  
+    - [ be16, 0x00B44B5E, 11 ] # bgm_10 -> 11
+  
+    - [ be32, 0x00B44B60, 0x41800008 ] # blt    +0x8
+    - [ be32, 0x00B44B64, 0x38600000 ] # li     r3, 0x0
+  
+  # patch music id
+    - [ be32, 0x00B44B68, 0xB07E0000 ] # sth   r3, 0(r30)
+  
+  # return
+    - [ be32, 0x00B44B6C, 0x2C1E0000 ] # cmpwi r30, 0
+    - [ be32, 0x00B44B70, 0x4806CD6E ] # ba    0x0006CD6C
+  
+  # patch Btl__PlayBgm
+  # branch to trampoline
+    - [ be32, 0x0063ACE4, 0x48B44B87 ] # bla 0x00B44B84 (trampoline)
+    - [ be32, 0x0063ACE8, 0x4806CCBB ] # bla 0x0006CCB8 (SoundManager__GetBgmId)
+  
+  # trampoline
+  
+  # check and return if not normal battle bgm
+    - [ be32, 0x00B44B84, 0x2C1F012C ] # cmpwi r31, 300 # normal battle
+    - [ be32, 0x00B44B88, 0x41820008 ] # beq   8        # return if not normal battle music
+    - [ be32, 0x00B44B8C, 0x4E800020 ] # blr
+  
+  # randomize sound bank
+    - [ be32, 0x00B44B90, 0x4806CCCB ] # bla 0x0006CCC8 (SoundManager__SetEquipBgm)
+  
+  # return
+    - [ be32, 0x00B44B94, 0x4863ACEA ] # ba 0x0063ACE8
+  
+  p5_BgmRandom_Author: &p5_BgmRandom_Author TGEnigma, lipsum
+  p5_BgmRandom_Notes: &p5_BgmRandom_Notes "Plays encounter BGM in random order."
+  p5_BgmRandom_PatVer: &p5_BgmRandom_PatVer 1.1
+  p5_BgmRandom: &p5_BgmRandom
+  # patch SoundManager__SetEquipBgm
+  # branch to trampoline
+    - [ be32, 0x0006CD68, 0x48B44B52 ] # ba 0x00B44B50
+  
+  # trampoline
+  # Rnd() % MaxBgm
+    - [ be32, 0x00B44B50, 0x4891DA07 ] # bla   0x0091DA04 (Rnd)
+    - [ be32, 0x00B44B54, 0x38C0000B ] # li    r6, 11 (MaxBgm)
+  
+    - [ be16, 0x00B44B56, 11 ] # bgm_10 -> 11
+  
+    - [ be32, 0x00B44B58, 0x30860001 ] # addic r4, r6, 1
+    - [ be32, 0x00B44B5C, 0x7C832396 ] # divwu r4, r3, r4
+    - [ be32, 0x00B44B60, 0x7CA431D6 ] # mullw r5, r4, r6
+    - [ be32, 0x00B44B64, 0x7C852014 ] # addc  r4, r5, r4
+    - [ be32, 0x00B44B68, 0x7C641810 ] # subfc r3, r4, r3
+    - [ be32, 0x00B44B6C, 0x7C6307B4 ] # extsw r3, r3
+  
+  # patch music id
+    - [ be32, 0x00B44B70, 0x3FDE3000 ] # addis r30, r30, 0x3000 -> 0x30B49738
+    - [ be32, 0x00B44B74, 0xB07E0000 ] # sth   r3, 0(r30)
+  
+  # return
+    - [ be32, 0x00B44B78, 0x2C1E0000 ] # cmpwi r30, 0
+    - [ be32, 0x00B44B7C, 0x4806CD6E ] # ba    0x0006CD6C
+  
+  # patch Btl__PlayBgm
+  # branch to trampoline
+    - [ be32, 0x0063ACE4, 0x48B44B87 ] # bla 0x00B44B84 (trampoline)
+    - [ be32, 0x0063ACE8, 0x4806CCBB ] # bla 0x0006CCB8 (SoundManager__GetBgmId)
+  
+  # trampoline
+  
+  # check and return if not normal battle bgm
+    - [ be32, 0x00B44B84, 0x2C1F012C ] # cmpwi r31, 300 # normal battle
+    - [ be32, 0x00B44B88, 0x41820008 ] # beq   8        # return if not normal battle music
+    - [ be32, 0x00B44B8C, 0x4E800020 ] # blr
+  
+  # randomize sound bank
+    - [ be32, 0x00B44B90, 0x4806CCCB ] # bla 0x0006CCC8 (SoundManager__SetEquipBgm)
+  
+  # return
+    - [ be32, 0x00B44B94, 0x4863ACEA ] # ba 0x0063ACE8
+  
+  p5_NaviLines_Author: &p5_NaviLines_Author lipsum
+  p5_NaviLines_Notes: &p5_NaviLines_Notes "Disables Navigator battle lines (voice and message popups)."
+  p5_NaviLines_PatVer: &p5_NaviLines_PatVer 1.0
+  p5_NaviLines: &p5_NaviLines
+    - [ be32, 0x0074A3B4, 0x38A00000 ] # li r5, 0x0 # morgana
+    - [ be32, 0x0074A424, 0x38A00000 ] # li r5, 0x0 # futaba
+  
+  p5_MaxBullet_Author: &p5_MaxBullet_Author lipsum
+  p5_MaxBullet_Notes: &p5_MaxBullet_Notes "To change the maximum bullet counts for each character, edit this patch and input your desired values. By default, this patch retains the game defaults until modified."
+  p5_MaxBullet_PatVer: &p5_MaxBullet_PatVer 1.0
+  p5_MaxBullet: &p5_MaxBullet
+    - [ be16, 0x00D5C188, 0  ] # empty - base start
+    - [ be16, 0x00D5C18A, 16 ] # joker (16)
+    - [ be16, 0x00D5C18C, 8  ] # ryuji (8)
+    - [ be16, 0x00D5C18E, 15 ] # morgana (15)
+    - [ be16, 0x00D5C190, 36 ] # ann (36)
+    - [ be16, 0x00D5C192, 24 ] # yusuke (24)
+    - [ be16, 0x00D5C194, 12 ] # makoto (12)
+    - [ be16, 0x00D5C196, 6  ] # haru (6)
+    - [ be16, 0x00D5C198, 0  ] # futaba (0)
+    - [ be16, 0x00D5C19A, 12 ] # goro (12)
+    - [ be16, 0x00D5C19C, 0  ] # empty - tower rank 5 start
+    - [ be16, 0x00D5C19E, 32 ] # joker (32)
+    - [ be16, 0x00D5C1A0, 16 ] # ryuji (16)
+    - [ be16, 0x00D5C1A2, 25 ] # morgana (25)
+    - [ be16, 0x00D5C1A4, 60 ] # ann (60)
+    - [ be16, 0x00D5C1A6, 48 ] # yusuke (48)
+    - [ be16, 0x00D5C1A8, 24 ] # makoto (24)
+    - [ be16, 0x00D5C1AA, 12 ] # haru (12)
+    - [ be16, 0x00D5C1AC, 0  ] # futaba (0)
+    - [ be16, 0x00D5C1AE, 24 ] # goro (24)
+  
+  p5_Title_US: &p5_Title_US
+    "Persona 5":
+      BLUS31604: [ All ]
+      NPUB31848: [ All ]
+  
+  p5_Title_EU: &p5_Title_EU
+    "Persona 5":
+      BLES02247: [ All ]
+      NPEB02436: [ All ]
+  
+  p5_Title_JP_100: &p5_Title_JP_100
+    "Persona 5":
+      BLJM61346: [ 01.00 ]
+  
+  p5_Title_JP_103: &p5_Title_JP_103
+    "Persona 5":
+      BLJM61346: [ 01.03 ]
+
+PPU-e72e715d646a94770d1902364bc66fe33b1b6606:
+  Enable Mod Support:
+    Games: *p5_Title_US
+    Author: *p5_ModSupport_Author
+    Notes: *p5_ModSupport_Notes
+    Patch Version: *p5_ModSupport_PatVer
+    Patch:
+      - [ load, *p5_ModSupport ]
+  Bustup Mod v3:
+    Games: *p5_Title_US
+    Author: *p5_4K_Author
+    Notes: *p5_4K_Notes
+    Patch Version: *p5_4K_PatVer
+    Patch:
+      - [ load, *p5_4K ]
+  Skip Intro Videos:
+    Games: *p5_Title_US
+    Author: *p5_SkipIntro_Author
+    Patch Version: *p5_SkipIntro_PatVer
+    Patch:
+      - [ load, *p5_SkipIntro ]
+  60 FPS:
+    Games: *p5_Title_US
+    Author: *p5_60FPS_Author
+    Notes: *p5_60FPS_Notes
+    Patch Version: *p5_60FPS_PatVer
+    Patch:
+      - [ load, *p5_60FPS ]
+  Disable DLC Unlock Messages:
+    Games: *p5_Title_US
+    Author: *p5_DLC_Author
+    Patch Version: *p5_DLC_PatVer
+    Patch:
+      - [ load, *p5_DLC ]
+  Disable Blur Filter:
+    Games: *p5_Title_US
+    Author: *p5_DisableBlur_Author
+    Patch Version: *p5_DisableBlur_PatVer
+    Patch:
+      - [ load, *p5_DisableBlur ]
+  Disable Normal Distortion Filter (<=99% Alert & Velvet Room):
+    Games: *p5_Title_US
+    Author: *p5_DisableDistortion_Author
+    Patch Version: *p5_DisableDistortion_PatVer
+    Patch:
+      - [ load, *p5_DisableDistortion ]
+  Disable Angry Distortion Filter (100% Alert):
+    Games: *p5_Title_US
+    Author: *p5_Disable100PctDistortion_Author
+    Patch Version: *p5_Disable100PctDistortion_PatVer
+    Patch:
+      - [ load, *p5_Disable100PctDistortion ]
+  Disable HUD Elements:
+    Games: *p5_Title_US
+    Author: *p5_NoHudLite_Author
+    Notes: *p5_NoHudLite_Notes
+    Patch Version: *p5_NoHudLite_PatVer
+    Patch:
+      - [ load, *p5_NoHudLite ]
+  Disable HUD Elements (Aggressive):
+    Games: *p5_Title_US
+    Author: *p5_NoHud_Author
+    Notes: *p5_NoHud_Notes
+    Patch Version: *p5_NoHud_PatVer
+    Patch:
+      - [ load, *p5_NoHud ]
+  Encounter BGM In Order:
+    Games: *p5_Title_US
+    Author: *p5_BgmOrder_Author
+    Notes: *p5_BgmOrder_Notes
+    Patch Version: *p5_BgmOrder_PatVer
+    Patch:
+      - [ load, *p5_BgmOrder ]
+  Encounter BGM Random Order:
+    Games: *p5_Title_US
+    Author: *p5_BgmRandom_Author
+    Notes: *p5_BgmRandom_Notes
+    Patch Version: *p5_BgmRandom_PatVer
+    Patch:
+      - [ load, *p5_BgmRandom ]
+  Disable Navigator Battle Messages:
+    Games: *p5_Title_US
+    Author: *p5_NaviLines_Author
+    Notes: *p5_NaviLines_Notes
+    Patch Version: *p5_NaviLines_PatVer
+    Patch:
+      - [ load, *p5_NaviLines ]
+  Custom Maximum Bullet Count:
+    Games: *p5_Title_US
+    Author: *p5_MaxBullet_Author
+    Notes: *p5_MaxBullet_Notes
+    Patch Version: *p5_MaxBullet_PatVer
+    Patch:
+      - [ load, *p5_MaxBullet ]
+
+PPU-b8c34f774adb367761706a7f685d4f8d9d355426:
+  Enable Mod Support:
+    Games: *p5_Title_EU
+    Author: *p5_ModSupport_Author
+    Notes: *p5_ModSupport_Notes
+    Patch Version: *p5_ModSupport_PatVer
+    Patch:
+      - [ load, *p5_ModSupport ]
+  Bustup Mod v3:
+    Games: *p5_Title_EU
+    Author: *p5_4K_Author
+    Notes: *p5_4K_Notes
+    Patch Version: *p5_4K_PatVer
+    Patch:
+      - [ load, *p5_4K ]
+  Skip Intro Videos:
+    Games: *p5_Title_EU
+    Author: *p5_SkipIntro_Author
+    Patch Version: *p5_SkipIntro_PatVer
+    Patch:
+      - [ load, *p5_SkipIntro ]
+  60 FPS:
+    Games: *p5_Title_EU
+    Author: *p5_60FPS_Author
+    Notes: *p5_60FPS_Notes
+    Patch Version: *p5_60FPS_PatVer
+    Patch:
+      - [ load, *p5_60FPS ]
+  Disable DLC Unlock Messages:
+    Games: *p5_Title_EU
+    Author: *p5_DLC_Author
+    Patch Version: *p5_DLC_PatVer
+    Patch:
+      - [ load, *p5_DLC ]
+  Disable Blur Filter:
+    Games: *p5_Title_EU
+    Author: *p5_DisableBlur_Author
+    Patch Version: *p5_DisableBlur_PatVer
+    Patch:
+      - [ load, *p5_DisableBlur ]
+  Disable Normal Distortion Filter (<=99% Alert & Velvet Room):
+    Games: *p5_Title_EU
+    Author: *p5_DisableDistortion_Author
+    Patch Version: *p5_DisableDistortion_PatVer
+    Patch:
+      - [ load, *p5_DisableDistortion ]
+  Disable Angry Distortion Filter (100% Alert):
+    Games: *p5_Title_EU
+    Author: *p5_Disable100PctDistortion_Author
+    Patch Version: *p5_Disable100PctDistortion_PatVer
+    Patch:
+      - [ load, *p5_Disable100PctDistortion ]
+  Disable HUD Elements:
+    Games: *p5_Title_EU
+    Author: *p5_NoHudLite_Author
+    Notes: *p5_NoHudLite_Notes
+    Patch Version: *p5_NoHudLite_PatVer
+    Patch:
+      - [ load, *p5_NoHudLite ]
+  Disable HUD Elements (Aggressive):
+    Games: *p5_Title_EU
+    Author: *p5_NoHud_Author
+    Notes: *p5_NoHud_Notes
+    Patch Version: *p5_NoHud_PatVer
+    Patch:
+      - [ load, *p5_NoHud ]
+  Encounter BGM In Order:
+    Games: *p5_Title_EU
+    Author: *p5_BgmOrder_Author
+    Notes: *p5_BgmOrder_Notes
+    Patch Version: *p5_BgmOrder_PatVer
+    Patch:
+      - [ load, *p5_BgmOrder ]
+  Encounter BGM Random Order:
+    Games: *p5_Title_EU
+    Author: *p5_BgmRandom_Author
+    Notes: *p5_BgmRandom_Notes
+    Patch Version: *p5_BgmRandom_PatVer
+    Patch:
+      - [ load, *p5_BgmRandom ]
+  Disable Navigator Battle Messages:
+    Games: *p5_Title_EU
+    Author: *p5_NaviLines_Author
+    Notes: *p5_NaviLines_Notes
+    Patch Version: *p5_NaviLines_PatVer
+    Patch:
+      - [ load, *p5_NaviLines ]
+  Custom Maximum Bullet Count:
+    Games: *p5_Title_EU
+    Author: *p5_MaxBullet_Author
+    Notes: *p5_MaxBullet_Notes
+    Patch Version: *p5_MaxBullet_PatVer
+    Patch:
+      - [ load, *p5_MaxBullet ]
+
+PPU-3b394da7912181d308bf08505009b3578521c756:
+  Enable Mod Support:
+    Games: *p5_Title_JP_100
+    Author: *p5_ModSupport_Author
+    Notes: *p5_ModSupport_Notes
+    Patch Version: *p5_ModSupport_PatVer
+    Patch:
+      - [ load, *p5_ModSupport ]
+  Bustup Mod v3:
+    Games: *p5_Title_JP_100
+    Author: *p5_4K_Author
+    Notes: *p5_4K_Notes
+    Patch Version: *p5_4K_PatVer
+    Patch:
+      - [ load, *p5_4K ]
+  Skip Intro Videos:
+    Games: *p5_Title_JP_100
+    Author: *p5_SkipIntro_Author
+    Patch Version: *p5_SkipIntro_PatVer
+    Patch:
+      - [ load, *p5_SkipIntro ]
+  60 FPS:
+    Games: *p5_Title_JP_100
+    Author: *p5_60FPS_Author
+    Notes: *p5_60FPS_Notes
+    Patch Version: *p5_60FPS_PatVer
+    Patch:
+      - [ load, *p5_60FPS ]
+  Disable DLC Unlock Messages:
+    Games: *p5_Title_JP_100
+    Author: *p5_DLC_Author
+    Patch Version: *p5_DLC_PatVer
+    Patch:
+      - [ load, *p5_DLC ]
+  Disable Blur Filter:
+    Games: *p5_Title_JP_100
+    Author: *p5_DisableBlur_Author
+    Patch Version: *p5_DisableBlur_PatVer
+    Patch:
+      - [ load, *p5_DisableBlur ]
+  Disable Normal Distortion Filter (<=99% Alert & Velvet Room):
+    Games: *p5_Title_JP_100
+    Author: *p5_DisableDistortion_Author
+    Patch Version: *p5_DisableDistortion_PatVer
+    Patch:
+      - [ load, *p5_DisableDistortion ]
+  Disable Angry Distortion Filter (100% Alert):
+    Games: *p5_Title_JP_100
+    Author: *p5_Disable100PctDistortion_Author
+    Patch Version: *p5_Disable100PctDistortion_PatVer
+    Patch:
+      - [ load, *p5_Disable100PctDistortion ]
+  Disable HUD Elements:
+    Games: *p5_Title_JP_100
+    Author: *p5_NoHudLite_Author
+    Notes: *p5_NoHudLite_Notes
+    Patch Version: *p5_NoHudLite_PatVer
+    Patch:
+      - [ load, *p5_NoHudLite ]
+  Disable HUD Elements (Aggressive):
+    Games: *p5_Title_JP_100
+    Author: *p5_NoHud_Author
+    Notes: *p5_NoHud_Notes
+    Patch Version: *p5_NoHud_PatVer
+    Patch:
+      - [ load, *p5_NoHud ]
+  Encounter BGM In Order:
+    Games: *p5_Title_JP_100
+    Author: *p5_BgmOrder_Author
+    Notes: *p5_BgmOrder_Notes
+    Patch Version: *p5_BgmOrder_PatVer
+    Patch:
+      - [ load, *p5_BgmOrder ]
+  Encounter BGM Random Order:
+    Games: *p5_Title_JP_100
+    Author: *p5_BgmRandom_Author
+    Notes: *p5_BgmRandom_Notes
+    Patch Version: *p5_BgmRandom_PatVer
+    Patch:
+      - [ load, *p5_BgmRandom ]
+  Disable Navigator Battle Messages:
+    Games: *p5_Title_JP_100
+    Author: *p5_NaviLines_Author
+    Notes: *p5_NaviLines_Notes
+    Patch Version: *p5_NaviLines_PatVer
+    Patch:
+      - [ load, *p5_NaviLines ]
+  Custom Maximum Bullet Count:
+    Games: *p5_Title_JP_100
+    Author: *p5_MaxBullet_Author
+    Notes: *p5_MaxBullet_Notes
+    Patch Version: *p5_MaxBullet_PatVer
+    Patch:
+      - [ load, *p5_MaxBullet ]
+
+PPU-9da9b988693598fbe1e2d316d1e927c37ad666bc:
+  Enable Mod Support:
+    Games: *p5_Title_JP_103
+    Author: *p5_ModSupport_Author
+    Notes: *p5_ModSupport_Notes
+    Patch Version: *p5_ModSupport_PatVer
+    Patch:
+      - [ load, *p5_ModSupport ]
+  Bustup Mod v3:
+    Games: *p5_Title_JP_103
+    Author: *p5_4K_Author
+    Notes: *p5_4K_Notes
+    Patch Version: *p5_4K_PatVer
+    Patch:
+      - [ load, *p5_4K ]
+  Skip Intro Videos:
+    Games: *p5_Title_JP_103
+    Author: *p5_SkipIntro_Author
+    Patch Version: *p5_SkipIntro_PatVer
+    Patch:
+      - [ load, *p5_SkipIntro ]
+  60 FPS:
+    Games: *p5_Title_JP_103
+    Author: *p5_60FPS_Author
+    Notes: *p5_60FPS_Notes
+    Patch Version: *p5_60FPS_PatVer
+    Patch:
+      - [ load, *p5_60FPS ]
+  Disable DLC Unlock Messages:
+    Games: *p5_Title_JP_103
+    Author: *p5_DLC_Author
+    Patch Version: *p5_DLC_PatVer
+    Patch:
+      - [ load, *p5_DLC ]
+  Disable Blur Filter:
+    Games: *p5_Title_JP_103
+    Author: *p5_DisableBlur_Author
+    Patch Version: *p5_DisableBlur_PatVer
+    Patch:
+      - [ load, *p5_DisableBlur ]
+  Disable Normal Distortion Filter (<=99% Alert & Velvet Room):
+    Games: *p5_Title_JP_103
+    Author: *p5_DisableDistortion_Author
+    Patch Version: *p5_DisableDistortion_PatVer
+    Patch:
+      - [ load, *p5_DisableDistortion ]
+  Disable Angry Distortion Filter (100% Alert):
+    Games: *p5_Title_JP_103
+    Author: *p5_Disable100PctDistortion_Author
+    Patch Version: *p5_Disable100PctDistortion_PatVer
+    Patch:
+      - [ load, *p5_Disable100PctDistortion ]
+  Disable HUD Elements:
+    Games: *p5_Title_JP_103
+    Author: *p5_NoHudLite_Author
+    Notes: *p5_NoHudLite_Notes
+    Patch Version: *p5_NoHudLite_PatVer
+    Patch:
+      - [ load, *p5_NoHudLite ]
+  Disable HUD Elements (Aggressive):
+    Games: *p5_Title_JP_103
+    Author: *p5_NoHud_Author
+    Notes: *p5_NoHud_Notes
+    Patch Version: *p5_NoHud_PatVer
+    Patch:
+      - [ load, *p5_NoHud ]
+  Encounter BGM In Order:
+    Games: *p5_Title_JP_103
+    Author: *p5_BgmOrder_Author
+    Notes: *p5_BgmOrder_Notes
+    Patch Version: *p5_BgmOrder_PatVer
+    Patch:
+      - [ load, *p5_BgmOrder ]
+  Encounter BGM Random Order:
+    Games: *p5_Title_JP_103
+    Author: *p5_BgmRandom_Author
+    Notes: *p5_BgmRandom_Notes
+    Patch Version: *p5_BgmRandom_PatVer
+    Patch:
+      - [ load, *p5_BgmRandom ]
+  Disable Navigator Battle Messages:
+    Games: *p5_Title_JP_103
+    Author: *p5_NaviLines_Author
+    Notes: *p5_NaviLines_Notes
+    Patch Version: *p5_NaviLines_PatVer
+    Patch:
+      - [ load, *p5_NaviLines ]
+  Custom Maximum Bullet Count:
+    Games: *p5_Title_JP_103
+    Author: *p5_MaxBullet_Author
+    Notes: *p5_MaxBullet_Notes
+    Patch Version: *p5_MaxBullet_PatVer
+    Patch:
+      - [ load, *p5_MaxBullet ]
+
+
+
+
+PPU-c4e26433d1eed9166eb0c67b6f66b2268f3704e2:
+  Freeze Fix:
+    Games:
+      "Ratchet & Clank: Tools of Destruction":
+        BCES00052: [ All ]
+    Author: Juhn
+    Notes: Fixes game crashes/freezes
+    Patch Version: 1.2
+    Patch:
+      - [be32, 0x5056f0, 0x409efff0]
+
+PPU-16506d9d5bf692d615645accd24bca1ee1f8f9a6:
+  Freeze Fix:
+    Games:
+      "Ratchet & Clank Future: Tools of Destruction":
+        NPUA80965: [ All ]
+    Author: Juhn, Epicalman
+    Notes: Fixes game crashes/freezes
+    Patch Version: 1.2
+    Patch:
+      - [be32, 0x53a208, 0x409efff4]
+
+PPU-c14042df6304d3e420a9917e6f8e5fc05cc38b4c:
+  Freeze Fix:
+    Games:
+      "Ratchet & Clank Future: Tools of Destruction":
+        BCUS98127: [ All ]
+    Author: Juhn, Epicalman
+    Notes: Fixes game crashes/freezes
+    Patch Version: 1.2
+    Patch:
+      - [be32, 0x505948, 0x409efff0]
+
+PPU-ec77eaf73a4f55d1c4ece532c3be6db0011e49ca:
+  Freeze Fix:
+    Games:
+      "Ratchet & Clank: Tools of Destruction":
+        NPEA00452: [ All ]
+    Author: Juhn
+    Notes: Fixes game crashes/freezes
+    Patch Version: 1.2
+    Patch:
+      - [be32, 0x539ee8, 0x409efff4]
+
+
+
+
+PPU-f07f7086588a4ea86a28bd768f0cbe710f5b813b:
+  Freeze Fix:
+    Games:
+      "Ratchet & Clank: Quest For Booty":
+        BCES00301: [ All ]
+    Author: Juhn
+    Notes: Fixes game crashes/freezes
+    Patch Version: 1.2
+    Patch:
+      - [be32, 0x3EB8B0, 0x409EFFF0]
+
+
+
+
+PPU-8a18a0314cade28526874128b253acd98863b83d:
+  21:9 Aspect Ratio:
+    Games:
+      "Red Dead Redemption":
+        NPUB30638: [ 01.00 ]
+        NPEB00833: [ 01.00 ]
+    Author: Esppiral
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x474F24, 0x4017B9AA ] # 21.9 Aspect Ratio
+      - [ be32, 0x954B8, 0x4017B9AA ] # 21.9 HUD fix for 21.9 AR
+  Unlock FPS:
+    Games:
+      "Red Dead Redemption":
+        NPUB30638: [ 01.00 ]
+        NPEB00833: [ 01.00 ]
+    Author: Whatcookie
+    Notes: Allows the framerate to exceed 65 (still need to set vblank to unlock framerate)
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x0025ed14, 0x386003e8 ] # li  r3, 3e8
+
+
+
+
+PPU-0cc2ddc637def2fe22b5e89563f773e4c0cae024: # Resistance game.self (not EBOOT.BIN)
+  Unlock FPS:
+    Games:
+      "Resistance: Fall of Man":
+        BCUS98107: [ All ]
+        BCES00001: [ All ]
+    Author: Whatcookie
+    Notes: Maximum framerate with the patch is half the Vblank frequency. Without the patch, adjusting Vblank frequency increases the maximum framerate up to about 33FPS or 60FPS depending on the scene.
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x001e5db0, 0x60000000 ]
+      - [ bef32, 0x00678ed0, 0.00416666  ] # set minimum timestep size
+
+PPU-82555e0b1aaaa6c62ae8f23057e38d1006b7c19c: # Resistance game.self (not EBOOT.BIN)
+  Unlock FPS:
+    Games:
+      "Resistance: Fall of Man":
+        NPEA00430: [ All ]
+    Author: Whatcookie
+    Notes: Maximum framerate with the patch is half the Vblank frequency. Without the patch, adjusting Vblank frequency increases the maximum framerate up to about 33FPS or 60FPS depending on the scene.
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x004188c4, 0x60000000 ]
+      - [ bef32, 0x00768358, 0.00416666  ] # set minimum timestep size
+
+
+
+
+PPU-08da3b601b335c5b09e6425b27fe00eacdad6e78:
+  60 FPS:
+    Games:
+      "Resistance 2":
+        BCUS98120: [ 01.00 ]
+        BCES00226: [ 01.00 ]
+    Author: Whatcookie
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00635d7c, 0x60000000 ] # nop
+      - [ be32, 0x00635d88, 0x60000000 ] # nop
+      - [ bef32, 0x00d529d8, 0.0001 ] # min timestep size (originally clamped to 1/30, but setting this below 1/60 still sets it to 1/60?)
+
+PPU-bf22ce18fc3db486aae9c878afa5212b98b53495: # PSN
+  60 FPS:
+    Games:
+      "Resistance 2":
+        NPEA00431: [ 01.00 ]
+    Author: Whatcookie, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x0064816c, 0x60000000 ] # nop
+      - [ be32, 0x00648178, 0x60000000 ] # nop
+      - [ bef32, 0x00d62ee4, 0.0001 ] # min timestep size (originally clamped to 1/30, but setting this below 1/60 still sets it to 1/60?)
+
+
+
+
+PPU-533d9f764374a5174b4e3c2834e742c4184d7211:
+  Unlock FPS:
+    Games:
+      "Sengoku Basara 4: Sumeragi":
+        BLJM61248: [ 01.02 ]
+    Author: Whatcookie
+    Notes: The game is locked to 60FPS by default. This patch completely removes the framelimiter, doesn't need any special settings.
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x00e23160, 0x3860001e ] # li  r3, 1e
+      - [ be32, 0x00e23178, 0x60000000 ] # nop
+
+
+
+
+PPU-888f4088d305a6add6f83728bdf917c8245fb72c:
+  Unlock FPS:
+    Games:
+      "Shadows of the Damned":
+        BLUS30653: [ All ]
+    Author: Whatcookie
+    Notes: Maximum framerate with the patch is half the Vblank frequency. Without the patch, adjusting Vblank frequency increases the maximum framerate up to about 31FPS.
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x009e0ce4, 0x60000000 ]
+      - [ be32, 0x009e0d64, 0x60000000 ]
+
+PPU-57b3bd94bab3f0db81625c843cdd9bc04d77cd4a:
+  Unlock FPS:
+    Games:
+      "Shadows of the Damned":
+        BLES01276: [ All ]
+    Author: Whatcookie, Dante3732
+    Notes: Maximum framerate with the patch is half the Vblank frequency. Without the patch, adjusting Vblank frequency increases the maximum framerate up to about 31FPS.
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x009e0ce4, 0x60000000 ]
+      - [ be32, 0x009e0d64, 0x60000000 ]
+
+
+
+
+PPU-5c741b00514f07966c2820d67f395d945a88d79d: 
+  Disable MLAA:
+    Games:
+      "Sly Cooper: Thieves in Time":
+        BCES01284: [ 01.00 ]
+    Author: illusion
+    Notes: "Allows for the use of Resolution Scaling in the title, This patch can be used alongside with the SPU MLAA Patch to further improve performance.\nNeeds testing on PSN versions."
+    Patch Version: 1.0
+    Patch:
+        - [ be32, 0x00531CC0, 0x38800000 ] # li r4 0x0
+
+PPU-69acb9900ff44f7d7a3b25b226b213966955aed4: 
+  Disable MLAA:
+    Games:
+      "Sly Cooper: Thieves in Time":
+        BCUS98247: [ 01.00 ]
+    Author: illusion
+    Notes: "Allows for the use of Resolution Scaling in the title, This patch can be used alongside with the SPU MLAA Patch to further improve performance.\nNeeds testing on PSN versions."
+    Patch Version: 1.0
+    Patch:
+        - [ be32, 0x00531D40, 0x38800000 ] # li r4 0x0
+
+
+
+
+Anchors:
+  SA_169: &SA_169
+    - [ be32, 0x05043F18, 0x3F400000 ]
+    - [ be32, 0x00909260, 0x009B1604 ]
+    - [ be32, 0x0090E5B0, 0x40A00000 ]
+    - [ be32, 0x00909270, 0x40400000 ]
+    - [ be32, 0x00909274, 0xC0400000 ]
+    - [ be32, 0x00909278, 0xBF400000 ]
+
+PPU-5fc2b4ea8ae9cd7a4247f28dc6af65ca1a6a9fa4:
+  16:9 Aspect Ratio:
+    Games:
+      "Sonic Adventure":
+        NPUB30249: [ All ]
+        NPEB00304: [ All ]
+    Author: Esppiral
+    Notes: This game originally rendered at 11:9 aspect ratio (880x720). With this patch, it will render at a resolution of 16:9 aspect ratio (1280x720).
+    Patch Version: 1.0
+    Patch:
+      - [ load, *SA_169 ]
+
+
+
+
+PPU-5fa63817d4349e8b47e6ddd2425fadfd2914a1fa:
+  Custom Time Scale (ingame, menus, FMVs):
+    Games:
+      "Sonic the Hedgehog (Sonic '06)":
+        BLES00028: [ All ]
+    Notes: Increasing the Clock Scale setting increases performance but breaks the Red Gem.
+    Patch:
+      - [ bef32, 0x16917E0, 0.016666667 ] # 0.03333333 for 30 fps, 0.008333333 for 120 fps, etc. (1/TargetFPS)
+  Custom Time Scale (cutscenes):
+    Games:
+      "Sonic the Hedgehog (Sonic '06)":
+        BLES00028: [ All ]
+    Notes: Cutscene framerate is capped at half Vblank frequency. Increasing the Clock Scale setting increases performance but breaks the Red Gem.
+    Patch:
+      - [ bef32, 0x16920D0, 0.03333333 ] # 0.016666667 for 60 fps, 0.008333333 for 120 fps, etc. (1/TargetFPS)
+
+PPU-4b46d0161ca657ab16b0a779d9062810ea5ea2dd:
+  Custom Time Scale (ingame, menus, FMVs):
+    Games:
+      "Sonic the Hedgehog (Sonic '06)":
+        BLUS30008: [ All ]
+    Notes: Increasing the Clock Scale setting increases performance but breaks the Red Gem.
+    Patch:
+      - [ bef32, 0x16917B0, 0.016666667 ] # 0.03333333 for 30 fps, 0.008333333 for 120 fps, etc. (1/TargetFPS)
+  Custom Time Scale (cutscenes):
+    Games:
+      "Sonic the Hedgehog (Sonic '06)":
+        BLUS30008: [ All ]
+    Notes: Cutscene framerate is capped at half Vblank frequency. Increasing the Clock Scale setting increases performance but breaks the Red Gem.
+    Patch:
+      - [ bef32, 0x16920A0, 0.03333333 ] # 0.016666667 for 60 fps, 0.008333333 for 120 fps, etc. (1/TargetFPS)
+
+
+
+
+Anchors:
+  su1280x720_Digital: &su1280x720_Digital
+  # Main backbuffer (880x720)
+    - [ be16, 0x013D197A, 1280 ]
+  
+  # Other buffers
+    - [ be16, 0x0144A53E, 1280 ]
+    - [ be16, 0x0144A5F6, 1280 ]
+    - [ be16, 0x0144A652, 1280 ]
+  
+  su1280x720_USEUPhysical: &su1280x720_USEUPhysical
+  # Main backbuffer (880x720)
+    - [ be16, 0x00DD85B6, 1280 ]
+  
+  # Other buffers
+    - [ be16, 0x013608D6, 1280 ]
+    - [ be16, 0x0136098E, 1280 ]
+    - [ be16, 0x013609EA, 1280 ]
+  
+  swa1280x720_BLJM60112: &swa1280x720_BLJM60112
+  # Main backbuffer (880x720)
+    - [ be16, 0x00DEC49E, 1280 ]
+  
+  # Other buffers
+    - [ be16, 0x013644FE, 1280 ]
+    - [ be16, 0x013645B6, 1280 ]
+    - [ be16, 0x01364612, 1280 ]
+  
+  su1280x720_v102: &su1280x720_v102
+  # Main backbuffer (880x720)
+    - [ be16, 0x00DFD7C6, 1280 ]
+  
+  # Other buffers
+    - [ be16, 0x01371B8E, 1280 ]
+    - [ be16, 0x01371C46, 1280 ]
+    - [ be16, 0x01371CA2, 1280 ]
+  
+  su1280x720_NPUB90194_Demo: &su1280x720_NPUB90194_Demo
+  # Main backbuffer (880x720)
+    - [ be16, 0x013C4B5A, 1280 ]
+  
+  # Other buffers
+    - [ be16, 0x01439086, 1280 ]
+    - [ be16, 0x0143913E, 1280 ]
+    - [ be16, 0x0143919A, 1280 ]
+  
+  su1280x720_NPEB90132_Demo: &su1280x720_NPEB90132_Demo
+  # Main backbuffer (880x720)
+    - [ be16, 0x013C4B62, 1280 ]
+  
+  # Other buffers
+    - [ be16, 0x0143908E, 1280 ]
+    - [ be16, 0x01439146, 1280 ]
+    - [ be16, 0x014391A2, 1280 ]
+  
+  swa1280x720_NPJB90162_Demo: &swa1280x720_NPJB90162_Demo
+  # Main backbuffer (880x720)
+    - [ be16, 0x013C4B56, 1280 ]
+  
+  # Other buffers
+    - [ be16, 0x01439086, 1280 ]
+    - [ be16, 0x0143913E, 1280 ]
+    - [ be16, 0x0143919A, 1280 ]
+  
+  su1280x720_Notes: &su1280x720_Notes "This game originally rendered at a resolution of 880x720. With this patch, it will render at a resolution of 1280x720."
+  
+  suAspectRatio_v102: &suAspectRatio_v102
+  # Aspect ratio. Divide width by height to get the float value.
+    - [ bef32, 0x0275DB2C, 2.37037037 ]
+
+  suAspectRatio_Notes: &suAspectRatio_Notes "Enables 21:9 aspect ratio support. Users must enable \"Stretch to Display Area\" option to take advantage of this patch."
+
+  su102mb: &su102mb
+    - [ be32, 0x00E234E8, 0x38000000 ]
+  su102dof: &su102dof
+    - [ be32, 0x00E5D7C4, 0x38000000 ]
+
+PPU-6ebcaf71dc08cd612acb82f8e32738a8693d9347:
+  1280x720 Resolution:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        BLUS30244: [ 01.00 ]
+        BLES00425: [ 01.00 ]
+    Author: TGEnigma, slashiee
+    Notes: *su1280x720_Notes
+    Patch Version: 1.3
+    Patch:
+      - [ load, *su1280x720_USEUPhysical ]
+
+PPU-c2911b4248ca2090819299f90d1a2d37f50fd5a8:
+  1280x720 Resolution:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        BLUS30244: [ 01.02 ]
+    Author: TGEnigma, slashiee
+    Notes: *su1280x720_Notes
+    Patch Version: 1.3
+    Patch:
+      - [ load, *su1280x720_v102 ]
+  21:9 Aspect Ratio:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        BLUS30244: [ 01.02 ]
+    Author: slashiee
+    Notes: *suAspectRatio_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *suAspectRatio_v102 ]
+  Disable Depth of Field:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        BLUS30244: [ 01.02 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *su102dof ]
+  Disable Motion Blur:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        BLUS30244: [ 01.02 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *su102mb ]
+
+PPU-dfe27b6a57f3fd01f310e402e97a297836b46ceb:
+  1280x720 Resolution:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        BLES00425: [ 01.02 ]
+    Author: TGEnigma, slashiee
+    Notes: *su1280x720_Notes
+    Patch Version: 1.3
+    Patch:
+      - [ load, *su1280x720_v102 ]
+  21:9 Aspect Ratio:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        BLES00425: [ 01.02 ]
+    Author: slashiee
+    Notes: *suAspectRatio_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *suAspectRatio_v102 ]
+  Disable Depth of Field:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        BLES00425: [ 01.02 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *su102dof ]
+  Disable Motion Blur:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        BLES00425: [ 01.02 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *su102mb ]
+
+PPU-fbb2149d0f9ad51398eed59cbd26db5367d6376e:
+  1280x720 Resolution:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        BLJM60112: [ 01.00 ]
+    Author: TGEnigma, slashiee
+    Notes: *su1280x720_Notes
+    Patch Version: 1.3
+    Patch:
+      - [ load, *swa1280x720_BLJM60112 ]
+
+PPU-4b48caf21e1f10d47aa9a20acce8ecd8c055755e:
+  1280x720 Resolution:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        BLJM60112: [ 01.02 ]
+    Author: TGEnigma, slashiee
+    Notes: *su1280x720_Notes
+    Patch Version: 1.3
+    Patch:
+      - [ load, *su1280x720_v102 ]
+  21:9 Aspect Ratio:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        BLJM60112: [ 01.02 ]
+    Author: slashiee
+    Notes: *suAspectRatio_Notes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *suAspectRatio_v102 ]
+
+PPU-88b57d524597bbee38df3a452eb0e86c5e789f73:
+  1280x720 Resolution:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        NPUB31204: [ All ]
+    Author: TGEnigma, slashiee
+    Notes: *su1280x720_Notes
+    Patch Version: 1.3
+    Patch:
+      - [ load, *su1280x720_Digital ]
+
+PPU-d0bf7a33f1763725609feaa87e0e4d18ab9e8acd:
+  1280x720 Resolution:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        NPEB01347: [ All ]
+    Author: TGEnigma, slashiee
+    Notes: *su1280x720_Notes
+    Patch Version: 1.3
+    Patch:
+      - [ load, *su1280x720_Digital ]
+
+PPU-bd76a566ab62386b90443711206c3f5063b5ab38:
+  1280x720 Resolution:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        NPUB90194: [ All ]
+    Author: TGEnigma, slashiee
+    Notes: *su1280x720_Notes
+    Patch Version: 1.3
+    Patch:
+      - [ load, *su1280x720_NPUB90194_Demo ]
+
+PPU-7d9105cac7fb9c8ebbbd791693c27986b12c98ad:
+  1280x720 Resolution:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        NPEB90132: [ All ]
+    Author: TGEnigma, slashiee
+    Notes: *su1280x720_Notes
+    Patch Version: 1.3
+    Patch:
+      - [ load, *su1280x720_NPEB90132_Demo ]
+
+PPU-8bc924308cd72132d78bae70fb9a1fa82af03c19:
+  1280x720 Resolution:
+    Games:
+      "Sonic Unleashed (Sonic World Adventure)":
+        NPJB90162: [ All ]
+    Author: TGEnigma, slashiee
+    Notes: *su1280x720_Notes
+    Patch Version: 1.3
+    Patch:
+      - [ load, *swa1280x720_NPJB90162_Demo ]
+
+
+
+
+PPU-2f6778a8e97be84833e47ef273ff10cc2bd6809e:
+  21:9 Aspect Ratio:
+    Games:
+      "Space Channel 5: Part 2":
+        NPUB30353: [ All ]
+    Author: Esppiral
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x5839D4, 0x3F99999A ] # ZOOM+ (21.9)
+      - [ be32, 0x57EF84, 0x3F400000 ] # VERT+ (21.9)
+
+
+
+
+PPU-dd7337070bf5a57a46f74c243995009319e2748b: # OBLIVION [BLUS30087] GOTY
+  Unlock FPS:
+    Games:
+      "The Elder Scrolls IV: Oblivion":
+        BLUS30087: [ 01.00 ]
+    Author: Whatcookie
+    Notes: Completely unlocks FPS and doesn't require any special settings. Use Framelimit or VSync option to cap the maximum framerate.
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x00aaed04, 0x60000000 ]
+      - [ be32, 0x00aaec4c, 0x60000000 ]
+      - [ be32, 0x00682100, 0x60000000 ]
+
+
+
+
+Anchors:
+  iconotes: &iconotes "Allows for the use of Resolution Scaling in the title, This patch can be used alongside with the SPU MLAA Patch to further improve performance."
+
+PPU-1b40cda726a12a28393206edcd63252df76ca39c: # ICO eboot.bin
+  Disable MLAA:
+    Games:
+      "ICO":
+        NPEA00279: [ 01.00 ]
+        NPUA80676: [ 01.00 ]
+    Author: illusion
+    Notes: *iconotes
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x00045c84, 0x38800000 ] # li r4 0x0
+# Memory Patches
+  Disable Blur:
+    Games:
+      "ICO":
+        NPEA00279: [ 01.00 ]
+        NPUA80676: [ 01.00 ]
+    Author: illusion
+    Notes:
+    Patch Version: 1.00
+    Patch:
+      - [  byte, 0x4D20CB, 0 ]
+  Disable All Post-processing:
+    Games:
+      "ICO":
+        NPEA00279: [ 01.00 ]
+        NPUA80676: [ 01.00 ]
+    Author: illusion
+    Notes:
+    Patch Version: 1.00
+    Patch:
+      - [  byte, 0x4D20BF, 0 ]
+
+PPU-9a604c56796a32bf86ff037b682b0a744eb6a0dd: # ICO.self
+  Disable MLAA:
+    Games:
+      "ICO":
+        BCES01097: [ 01.00 ]
+    Author: illusion
+    Notes: *iconotes
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x00045a50, 0x38800000 ] # li r4 0x0
+# Memory Patches
+  Disable Blur:
+    Games:
+      "ICO":
+        BCES01097: [ 01.00 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.00
+    Patch:
+      - [ byte, 0x4D203B, 0 ]
+  Disable All Post-processing:
+    Games:
+      "ICO":
+        BCES01097: [ 01.00 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.00
+    Patch:
+      - [ byte, 0x4D202F, 0 ]
+
+PPU-20445ff41192238543f15e956926d03f93d23878: # ICO.self 1.01
+  Disable MLAA:
+    Games:
+      "ICO":
+        BCES01097: [ 01.01 ]
+        NPEA00279: [ 01.01 ]
+        NPUA80676: [ 01.01 ]
+    Author: illusion
+    Notes: *iconotes
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x00045dd4, 0x38800000 ] # li r4 0x0
+# Memory Patches
+  Disable Blur:
+    Games:
+      "ICO":
+        BCES01097: [ 01.01 ]
+        NPEA00279: [ 01.01 ]
+        NPUA80676: [ 01.01 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.00
+    Patch:
+      - [ byte, 0x4E215B, 0 ]
+  Disable All Post-processing:
+    Games:
+      "ICO":
+        BCES01097: [ 01.01 ]
+        NPEA00279: [ 01.01 ]
+        NPUA80676: [ 01.01 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.00
+    Patch:
+      - [ byte, 0x4E214F, 0 ]
+
+PPU-07500788ed015ad425938fbde3b857487b38397b: # shadow.self 1.00
+  Disable Bloom:
+    Games:
+      "Shadow of the Colossus":
+        BCES01097: [ 01.00 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x00209d88, 0x38000000 ] # li r0 0x0
+  Disable Motion Blur:
+    Games:
+      "Shadow of the Colossus":
+        BCES01097: [ 01.00 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x0021951C, 0x38000000 ] # li r0 0x0
+      - [ be32, 0x00219360, 0x38000000 ] # li r0 0x0
+  Disable MLAA:
+    Games:
+      "Shadow of the Colossus":
+        BCES01097: [ 01.00 ]
+    Author: illusion
+    Notes: *iconotes
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x00200c58, 0x38000000 ] # li r0 0x0
+# Memory Patches
+  Extended FOV:
+    Games:
+      "Shadow of the Colossus":
+        BCES01097: [ 01.00 ]
+    Author: illusion
+    Notes: Camera may zoom out during cinematic change. 
+    Patch Version: 1.00
+    Patch:
+      - [ bef32, 0x732894, 1.5 ]
+
+PPU-4a1a2300cf31f269d76406d095f2babaa47ae8d3: # shadow eboot.bin
+  Disable Bloom:
+    Games:
+      "Shadow of the Colossus":
+        NPEA00280: [ 01.00 ]
+        NPUA80677: [ 01.00 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x0020a338, 0x38000000 ] # li r0 0x0
+  Disable Motion Blur:
+    Games:
+      "Shadow of the Colossus":
+        NPEA00280: [ 01.00 ]
+        NPUA80677: [ 01.00 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x0021951C, 0x38000000 ] # li r0 0x0
+      - [ be32, 0x00219910, 0x38000000 ] # li r0 0x0
+  Disable MLAA:
+    Games:
+      "Shadow of the Colossus":
+        NPEA00280: [ 01.00 ]
+        NPUA80677: [ 01.00 ]
+    Author: illusion
+    Notes: *iconotes
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x002011fc, 0x38000000 ] # li r0 0x0
+# Memory Patches
+  Extended FOV:
+    Games:
+      "Shadow of the Colossus":
+        NPEA00280: [ 01.00 ]
+        NPUA80677: [ 01.00 ]
+    Author: illusion
+    Notes: Camera may zoom out during cinematic change. 
+    Patch Version: 1.00
+    Patch:
+      - [ bef32, 0x7328C4, 1.5 ]
+
+PPU-07b749cb166a9d6a924bb59428880e3836ab67c9: # shadow.self 1.01
+  Disable Bloom:
+    Games:
+      "Shadow of the Colossus":
+        BCES01097: [ 01.01 ]
+        NPEA00280: [ 01.01 ]
+        NPUA80677: [ 01.01 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x0020ab50, 0x38000000 ] # li r0 0x0
+  Disable Motion Blur:
+    Games:
+      "Shadow of the Colossus":
+        BCES01097: [ 01.01 ]
+        NPEA00280: [ 01.01 ]
+        NPUA80677: [ 01.01 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x0021A2E4, 0x38000000 ] # li r0 0x0
+      - [ be32, 0x0021A128, 0x38000000 ] # li r0 0x0
+  Disable MLAA:
+    Games:
+      "Shadow of the Colossus":
+        BCES01097: [ 01.01 ]
+        NPEA00280: [ 01.01 ]
+        NPUA80677: [ 01.01 ]
+    Author: illusion
+    Notes: *iconotes
+    Patch Version: 1.00
+    Patch:
+      - [ be32, 0x00201A14, 0x38000000 ] # li r0 0x0
+# Memory Patches
+  Extended FOV:
+    Games:
+      "Shadow of the Colossus":
+        BCES01097: [ 01.01 ]
+        NPEA00280: [ 01.01 ]
+        NPUA80677: [ 01.01 ]
+    Author: illusion
+    Notes: Camera may zoom out during cinematic change. 
+    Patch Version: 1.00
+    Patch:
+      - [ bef32, 0x7328DC, 1.5 ]
+
+
+
+
+Anchors:
+  tlou100_mlaa: &tlou100_mlaa
+    - [ be32, 0x00a51a8c, 0x48000a64 ] # unconditonally branch to disable MLAA
+  
+  # Special thanks to HdHereidme for debug menu, Smasher248 for inital memory addresses and Skye Mods for mesh trimming 
+  # address. Without them this patch wouldn't have been possible.
+  # This patch cycles through various post-processing modes. Values accepted are:
+  #    0 = None
+  #    1 = Bloom
+  #    2 = Depth of Field
+  #    3 = ??? (Tonemapping)
+  #    4 = Bloom & Depth of Field
+  #    5 = Bloom & Depth of Field & Tonemapping (Default)
+  
+  tlou100_post: &tlou100_post
+    - [ be32, 0x00a7991c, 0x38000003 ] # Post-processing modes                    (mem address: 0x14C79C7)
+  
+  tlou100_mesh: &tlou100_mesh
+    - [ be32, 0x00923a94, 0x98090004 ] # Disable Mesh trimming       (r3  => r0 ) (mem address: 0x142C584)
+  
+  # Many settings below are enabled/disabled in sub_A7A340. In this subroutine,
+  #    r6  = 2
+  #    r27 = 1
+  #    r28 = 0
+  # and these are stored into some memory blob to represent settings. Most values can be switched by just changing the
+  # source register from one to the other, though some are words and some are bytes, so be careful.
+  
+  tlou100_ssao: &tlou100_ssao
+    - [ be32, 0x00a7a470, 0x9b830067 ] # Disable SSAO                (r27 => r28) (mem address: 0x14C7C0F)
+  
+  tlou100_mb: &tlou100_mb
+    - [ be32, 0x00a7a4d4, 0x9b830086 ] # Disable motion blur         (r27 => r28) (mem address: 0x14C7C2E)
+  
+  tlou100_dof: &tlou100_dof
+    - [ be32, 0x00a7a4e0, 0x9b830089 ] # Disable depth of field      (r27 => r28) (mem address: 0x14C7C31)
+  
+  tlou100_dbv: &tlou100_dbv
+    - [ be32, 0x00a7a760, 0x9b6302f5 ] # Depth buffer viewport       (r28 => r27) (mem address: 0x14C7E9D)
+  
+  tlou100_dbf: &tlou100_dbf
+    - [ be32, 0x00a7a7ac, 0x9b830319 ] # Depth border fix            (r27 => r28) (mem address: 0x14C7EC1)
+  
+  tlou100_db: &tlou100_db
+    - [ be32, 0x00a7a7b8, 0x90e303e8 ] # Depth buffer                (r27 => r6 ) (mem address: 0x14C7F93)
+  
+  tlou100_speed: &tlou100_speed
+    - [ be32, 0x00a7a6b8, 0x938302b4 ] # Speedboost                               (mem address: 0x14c7e5f)
+  
+  tlou100_trap: &tlou100_trap
+    - [ be32, 0x79af9c, 0x60000000 ] # Fixes 1st RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x485638, 0x60000000 ] # Fixes 2nd RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x2bd53c, 0x60000000 ] # Fixes 3rd RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x2bedb4, 0x60000000 ] # Fixes 4th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x74b354, 0x60000000 ] # Fixes 5th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x9a19f0, 0x60000000 ] # Fixes 6th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x74bcc8, 0x60000000 ] # Fixes 7th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x8fbd3c, 0x60000000 ] # Fixes 8th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x8fbdc8, 0x60000000 ] # Fixes 9th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x74bdf8, 0x60000000 ] # Fixes 10th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x74bec0, 0x60000000 ] # Fixes 11th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x74c0a0, 0x60000000 ] # Fixes 12th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x9a0914, 0x60000000 ] # Fixes 13th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0xa41dd8, 0x60000000 ] # Fixes 14th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0xa41e3c, 0x60000000 ] # Fixes 15th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x70c7c0, 0x60000000 ] # Fixes 16th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x74b584, 0x60000000 ] # Fixes 17th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x71471c, 0x60000000 ] # Fixes 18th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+  
+  tlou100_spulighting: &tlou100_spulighting
+    - [ be32, 0x00afeb24, 0x48000010 ]
+  
+  tlou111_mlaa: &tlou111_mlaa
+    - [ be32, 0x00a80350, 0x48000ab8 ] # unconditonally branch to disable MLAA
+  
+  # Special thanks to HdHereidme for debug menu, Smasher248 for inital memory addresses and Skye Mods for mesh trimming 
+  # address. Without them this patch wouldn't have been possible.
+  # This patch cycles through various post-processing modes. Values accepted are:
+  #    0 = None
+  #    1 = Bloom
+  #    2 = Depth of Field
+  #    3 = ??? (Tonemapping)
+  #    4 = Bloom & Depth of Field
+  #    5 = Bloom & Depth of Field & Tonemapping (Default)
+  
+  tlou111_post: &tlou111_post
+    - [ be32, 0x00aa944c, 0x38000003 ] # Post-processing modes                    (mem address: 0x1571867)
+  
+  tlou111_mesh: &tlou111_mesh
+    - [ be32, 0x009515d8, 0x98090004 ] # Disable Mesh trimming       (r3  => r0 ) (mem address: 0x14A9604)
+  
+  # Many settings below are enabled/disabled in sub_AA9E6C. In this subroutine,
+  #    r6  = 2
+  #    r27 = 1
+  #    r28 = 0
+  # and these are stored into some memory blob to represent settings. Most values can be switched by just changing the
+  # source register from one to the other, though some are words and some are bytes, so be careful.
+  
+  tlou111_ssao: &tlou111_ssao
+    - [ be32, 0x00aa9f9c, 0x9b830067 ] # Disable SSAO                (r27 => r28) (mem address: 0x1571AAF)
+  
+  tlou111_mb: &tlou111_mb
+    - [ be32, 0x00aaa000, 0x9b830086 ] # Disable motion blur         (r27 => r28) (mem address: 0x1571ACE)
+  
+  tlou111_dof: &tlou111_dof
+    - [ be32, 0x00aaa00c, 0x9b830089 ] # Disable depth of field      (r27 => r28) (mem address: 0x1571AD1)
+  
+  tlou111_dbv: &tlou111_dbv
+    - [ be32, 0x00aaa290, 0x9b6302f9 ] # Depth buffer viewport       (r28 => r27) (mem address: 0x1571D41)
+  
+  tlou111_dbf: &tlou111_dbf
+    - [ be32, 0x00aaa2d8, 0x9b83031d ] # Depth border fix            (r27 => r28) (mem address: 0x1571D65)
+  
+  tlou111_db: &tlou111_db
+    - [ be32, 0x00aaa2e4, 0x90c303ec ] # Depth buffer                (r27 => r6 ) (mem address: 0x1571E37)
+  
+  tlou111_speed: &tlou111_speed
+    - [ be32, 0x00aaa1e8, 0x938302b8 ] # Speedboost                               (mem address: 0x1571d03)
+  
+  tlou111_trap: &tlou111_trap
+    - [ be32, 0x7bb5c4, 0x60000000 ] # Fixes 1st RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x579a4c, 0x60000000 ] # Fixes 2nd RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x2c9868, 0x60000000 ] # Fixes 3rd RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x2ca7f4, 0x60000000 ] # Fixes 4th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x76f68c, 0x60000000 ] # Fixes 5th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x9cf568, 0x60000000 ] # Fixes 6th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x770000, 0x60000000 ] # Fixes 7th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x91b0a8, 0x60000000 ] # Fixes 8th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x91b134, 0x60000000 ] # Fixes 9th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x770130, 0x60000000 ] # Fixes 10th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x7701f8, 0x60000000 ] # Fixes 11th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x7703d8, 0x60000000 ] # Fixes 12th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x9ce48c, 0x60000000 ] # Fixes 13th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0xa71538, 0x60000000 ] # Fixes 14th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0xa7159c, 0x60000000 ] # Fixes 15th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x7306b0, 0x60000000 ] # Fixes 16th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x76f8bc, 0x60000000 ] # Fixes 17th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x738a48, 0x60000000 ] # Fixes 18th RSX Trap Error in the Hotel Elevator/Underground Tunnel
+    - [ be32, 0x738a48, 0x60000000 ] # Fixes 19th RSX Trap Error in the Underground Tunnel
+    - [ be32, 0xa7159c, 0x60000000 ] # Fixes 20th RSX Trap Error in the Underground Tunnel
+  
+  tlou111_spulighting: &tlou111_spulighting
+    - [ be32, 0x00b294ec, 0x48000010 ]
+  
+  dbnotes: &dbnotes "This patch causes vertex explosion during \"Cabin Resort\" Subchapter.\nDisable this patch and enable SPU Lighting patch for this chapter."
+  spulightingnotes: &spulightingnotes "Removes some broken effects and improve performance.\nThis patch can always be enabled."
+  
+  tlou100_title: &tlou100_title
+    "The Last of Us":
+      BCES01584: [ 01.00 ]
+      BCES01585: [ 01.00 ]
+      BCUS98174: [ 01.00 ]
+      BCJS37010: [ 01.00 ]
+      BCAS20270: [ 01.00 ]
+  
+  tlou111_title: &tlou111_title
+    "The Last of Us":
+      BCES01584: [ 01.11 ]
+      BCES01585: [ 01.11 ]
+      BCUS98174: [ 01.11 ]
+      BCJS37010: [ 01.11 ]
+      BCAS20270: [ 01.11 ]
+
+PPU-9df60dc1aa5005a0c80e9066e4951dc0471553e6:
+  Disable in-built MLAA:
+    Games: *tlou100_title
+    Author: Whatcookie
+    Notes: Allows for the use of Resolution Scaling in the title and also improves performance. However, please note that this patch causes a few issues such as the subchapter "The Cargo" only showing a blackscreen, incorrect bloom effect and the hearing feature no longer working. However, the first two issues can be addressed with the post-processing patch below.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou100_mlaa ]
+  Post-processing modes:
+    Games: *tlou100_title
+    Author: JohnHolmesII, ZEROx, illusion, Juhn
+    Notes: This patch addresses issues caused by the MLAA patch such as the subchapter "The Cargo" only showing a blackscreen and incorrect bloom effect.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou100_post ]
+  Disable Mesh trimming:
+    Games: *tlou100_title
+    Author: JohnHolmesII, ZEROx, illusion, Juhn
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou100_mesh ]
+  Disable SSAO:
+    Games: *tlou100_title
+    Author: JohnHolmesII, ZEROx, illusion, Juhn
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou100_ssao ]
+  Disable Motion Blur:
+    Games: *tlou100_title
+    Author: JohnHolmesII, ZEROx, illusion, Juhn
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou100_mb ]
+  Disable Depth of Field:
+    Games: *tlou100_title
+    Author: JohnHolmesII, ZEROx, illusion, Juhn
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou100_dof ]
+  Depth buffer viewport:
+    Games: *tlou100_title
+    Author: JohnHolmesII, ZEROx, illusion, Juhn
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou100_dbv ]
+  Depth border fix:
+    Games: *tlou100_title
+    Author: JohnHolmesII, ZEROx, illusion, Juhn
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou100_dbf ]
+  Depth buffer:
+    Games: *tlou100_title
+    Author: JohnHolmesII, ZEROx, illusion, Juhn
+    Notes: *dbnotes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou100_db ]
+  Speedboost:
+    Games: *tlou100_title
+    Author: ZEROx, illusion
+    Notes: Improves performance in certain areas. May cause issues.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou100_speed ]
+  Disable RSX trap errors:
+    Games: *tlou100_title
+    Author: Aphelion Gaming
+    Notes: Disables most fatal RSX trap errors encountered while playing the game. However, this patch must be disabled after the elevator scene in the hotel chapter, as they cause a black screen immediately after you get past the trap error trigger spots and reach the autosave point.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou100_trap ]
+  Disable SPU lighting:
+    Games: *tlou100_title
+    Author: ZeroX
+    Notes: *spulightingnotes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou100_spulighting ]
+
+PPU-120fb71f7352d62521c639b0e99f960018c10a56:
+  Disable in-built MLAA:
+    Games: *tlou111_title
+    Author: Whatcookie
+    Notes: Allows for the use of Resolution Scaling in the title and also improves performance. However, please note that this patch causes a few issues such as the subchapter "The Cargo" only showing a blackscreen, incorrect bloom effect and the hearing feature no longer working. However, the first two issues can be addressed with the post-processing patch below.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou111_mlaa ]
+  Post-processing modes:
+    Games: *tlou111_title
+    Author: JohnHolmesII, ZEROx, illusion, Juhn
+    Notes: This patch addresses issues caused by the MLAA patch such as the subchapter "The Cargo" only showing a blackscreen and incorrect bloom effect.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou111_post ]
+  Disable Mesh trimming:
+    Games: *tlou111_title
+    Author: JohnHolmesII, ZEROx, illusion, Juhn
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou111_mesh ]
+  Disable SSAO:
+    Games: *tlou111_title
+    Author: JohnHolmesII, ZEROx, illusion, Juhn
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou111_ssao ]
+  Disable Motion Blur:
+    Games: *tlou111_title
+    Author: JohnHolmesII, ZEROx, illusion, Juhn
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou111_mb ]
+  Disable Depth of Field:
+    Games: *tlou111_title
+    Author: JohnHolmesII, ZEROx, illusion, Juhn
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou111_dof ]
+  Depth buffer viewport:
+    Games: *tlou111_title
+    Author: JohnHolmesII, ZEROx, illusion, Juhn
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou111_dbv ]
+  Depth border fix:
+    Games: *tlou111_title
+    Author: JohnHolmesII, ZEROx, illusion, Juhn
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou111_dbf ]
+  Depth buffer:
+    Games: *tlou111_title
+    Author: JohnHolmesII, ZEROx, illusion, Juhn
+    Notes: *dbnotes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou111_db ]
+  Speedboost:
+    Games: *tlou111_title
+    Author: ZEROx, illusion
+    Notes: Improves performance in certain areas. May cause issues.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou111_speed ]
+  Disable RSX trap errors:
+    Games: *tlou111_title
+    Author: Aphelion Gaming
+    Notes: Disables most fatal RSX trap errors encountered while playing the game. However, this patch must be disabled after the elevator scene in the hotel chapter, as they cause a black screen immediately after you get past the trap error trigger spots and reach the autosave point.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou111_trap ]
+  Disable SPU Lighting:
+    Games: *tlou111_title
+    Author: ZeroX
+    Notes: *spulightingnotes
+    Patch Version: 1.0
+    Patch:
+      - [ load, *tlou111_spulighting ]
+
+
+
+
+Anchors:
+  uc1_Disc_100_mb: &uc1_Disc_100_mb
+    - [ be32, 0x000ec2a8, 0x995d0074 ] # disable motion blur    (mem address: 0x042974A)
+  
+  uc1_Disc_100_dof: &uc1_Disc_100_dof
+    - [ be32, 0x000ec2a0, 0x995d0072 ] # disable depth of field (mem address: 0x042974C)
+  
+  uc1_Disc_110_mb: &uc1_Disc_110_mb
+    - [ be32, 0x000e5284, 0x995d0074 ] # disable motion blur    (mem address: 0x0BB43DA)
+  
+  uc1_Disc_110_dof: &uc1_Disc_110_dof
+    - [ be32, 0x000e527c, 0x995d0072 ] # disable depth of field (mem address: 0x0BB43DC)
+  
+  uc1_PSN_mb: &uc1_PSN_mb
+    - [ be32, 0x000e5234, 0x995d0074 ] # disable motion blur    (mem address: 0x0BB321A)
+  
+  uc1_PSN_dof: &uc1_PSN_dof
+    - [ be32, 0x000e522c, 0x995d0072 ] # disable depth of field (mem address: 0x0BB321C)
+
+PPU-8007056e52279bea26c15669d1ee08c2df321d00:
+  Disable Motion Blur:
+    Games:
+      "Uncharted: Drake's Fortune":
+        BCES00065: [ 01.00 ]
+        BCUS98103: [ 01.00 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc1_Disc_100_mb ]
+  Disable Depth of Field:
+    Games:
+      "Uncharted: Drake's Fortune":
+        BCES00065: [ 01.00 ]
+        BCUS98103: [ 01.00 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc1_Disc_100_dof ]
+
+PPU-8363904e0b8fc276380a8f0e158dd81d7a9cefc5:
+  Disable Motion Blur:
+    Games:
+      "Uncharted: Drake's Fortune":
+        BCES00065: [ 01.01 ]
+        BCUS98103: [ 01.10 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc1_Disc_110_mb ]
+  Disable Depth of Field:
+    Games:
+      "Uncharted: Drake's Fortune":
+        BCES00065: [ 01.01 ]
+        BCUS98103: [ 01.10 ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc1_Disc_110_dof ]
+
+PPU-3488cb6c2a7178978b5044b09c7c7ef8397440c0:
+  Disable Motion Blur:
+    Games:
+      "Uncharted: Drake's Fortune":
+        NPEA00363: [ All ]
+        NPUA80697: [ All ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc1_PSN_mb ]
+  Disable Depth of Field:
+    Games:
+      "Uncharted: Drake's Fortune":
+        NPEA00363: [ All ]
+        NPUA80697: [ All ]
+    Author: illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc1_PSN_dof ]
+
+
+
+
+Anchors:
+  # Note: Unlike Uncharted 3 and TLoU, Uncharted 2 doesn't change the initial address.
+  uc2_Disc_100_60FPS: &uc2_Disc_100_60FPS
+    - [ be32, 0x000c9250, 0x91630008 ] # Framelock: 1 (60 FPS Limit)             (mem address: 0x0E9B5FB)
+  
+  uc2_Disc_100_UnlockFPS: &uc2_Disc_100_UnlockFPS
+    - [ be32, 0x000c9250, 0x91830008 ] # Framelock: 0 (No FPS Limit)             (mem address: 0x0E9B5FB)
+  
+  uc2_Disc_100_ssao: &uc2_Disc_100_ssao
+    - [ be32, 0x000c9370, 0x9b830052 ] # Disable SSAO                            (mem address: 0x0E9B642)
+  
+  uc2_Disc_100_dof: &uc2_Disc_100_dof
+    - [ be32, 0x000c93c4, 0x9b830061 ] # Disable depth of field                  (mem address: 0x0E9B651)
+  
+  uc2_Disc_100_post: &uc2_Disc_100_post
+    - [ be32, 0x000c93ec, 0x9b830078 ] # Disable Post on SPU                     (mem address: 0x0E9B668)
+  
+  uc2_Disc_100_light: &uc2_Disc_100_light
+    - [ be32, 0x000c962c, 0x9b830374 ] # Disable Spu lighting                    (mem address: 0x0E9B964)
+  
+  uc2_Disc_100_stencil: &uc2_Disc_100_stencil
+    - [ be32, 0x000c9630, 0x9b630375 ] # Enable stencil buffer for gpu lighting  (mem address: 0x0E9B965)
+  
+  uc2_Disc_100_mesh: &uc2_Disc_100_mesh
+    - [ be32, 0x0072ec3c, 0x99490004 ] # Disable mesh trimming                   (mem address: 0x0F995D0)
+  
+  uc2_Disc_100_mb: &uc2_Disc_100_mb
+    - [ be32, 0x000c93c0, 0x9b83005f ] # Disable Motion blur                     (mem address: 0x0E9B64F)
+  
+  uc2_Disc_100_vmb: &uc2_Disc_100_vmb
+    - [ be32, 0x000c961c, 0x9b8302a4 ] # Disable Velocity motion blur            (mem address: 0x0E9B894)
+  
+  # Note: Unlike Uncharted 3 and TLoU, Uncharted 2 doesn't change the initial address.
+  uc2_Disc_109_60FPS: &uc2_Disc_109_60FPS
+    - [ be32, 0x000c26f0, 0x91630008 ] # Framelock: 1 (60 FPS Limit)             (mem address: 0x0E9C1FB)
+  
+  uc2_Disc_109_UnlockFPS: &uc2_Disc_109_UnlockFPS
+    - [ be32, 0x000c26f0, 0x91830008 ] # Framelock: 0 (No FPS Limit)             (mem address: 0x0E9C1FB)
+  
+  uc2_Disc_109_ssao: &uc2_Disc_109_ssao
+    - [ be32, 0x000c2810, 0x9b830052 ] # Disable SSAO                            (mem address: 0x0E9C242)
+  
+  uc2_Disc_109_dof: &uc2_Disc_109_dof
+    - [ be32, 0x000c2864, 0x9b830061 ] # Disable depth of field                  (mem address: 0x0E9C251)
+  
+  uc2_Disc_109_post: &uc2_Disc_109_post
+    - [ be32, 0x000c288c, 0x9b830078 ] # Disable Post on SPU                     (mem address: 0x0E9C268)
+  
+  uc2_Disc_109_light: &uc2_Disc_109_light
+    - [ be32, 0x000c2ad0, 0x9b830374 ] # Disable Spu lighting                    (mem address: 0x0E9C564)
+  
+  uc2_Disc_109_stencil: &uc2_Disc_109_stencil
+    - [ be32, 0x000c2ad4, 0x9b630375 ] # Enable stencil buffer for gpu lighting  (mem address: 0x0E9C565)
+  
+  uc2_Disc_109_mesh: &uc2_Disc_109_mesh
+    - [ be32, 0x0072d44c, 0x99490004 ] # Disable mesh trimming                   (mem address: 0x0F9BFD0)
+  
+  uc2_Disc_109_mb: &uc2_Disc_109_mb
+    - [ be32, 0x000c2860, 0x9b83005f ] # Disable Motion blur                     (mem address: 0x0E9C24F)
+  
+  uc2_Disc_109_vmb: &uc2_Disc_109_vmb
+    - [ be32, 0x000c2ac0, 0x9b8302a4 ] # Disable Velocity motion blur            (mem address: 0x0E9C494)
+  
+  # Note: Unlike Uncharted 3 and TLoU, Uncharted 2 doesn't change the initial address.
+  uc2_PSN_60FPS: &uc2_PSN_60FPS
+    - [ be32, 0x000c2bb8, 0x91630008 ] # Framelock: 1 (60 FPS Limit)             (mem address: 0x0E9C1FB)
+  
+  uc2_PSN_UnlockFPS: &uc2_PSN_UnlockFPS
+    - [ be32, 0x000c2bb8, 0x91830008 ] # Framelock: 0 (No FPS Limit)             (mem address: 0x0E9C1FB)
+  
+  uc2_PSN_ssao: &uc2_PSN_ssao
+    - [ be32, 0x000c2cd8, 0x9b830052 ] # Disable SSAO                            (mem address: 0x0E9C242)
+  
+  uc2_PSN_dof: &uc2_PSN_dof
+    - [ be32, 0x000c2d2c, 0x9b830061 ] # Disable depth of field                  (mem address: 0x0E9C251)
+  
+  uc2_PSN_post: &uc2_PSN_post
+    - [ be32, 0x000c2d54, 0x9b830078 ] # Disable Post on SPU                     (mem address: 0x0E9C268)
+  
+  uc2_PSN_light: &uc2_PSN_light
+    - [ be32, 0x000c2f98, 0x9b830374 ] # Disable Spu lighting                    (mem address: 0x0E9C564)
+  
+  uc2_PSN_stencil: &uc2_PSN_stencil
+    - [ be32, 0x00c2f9c, 0x9b630375 ]  # Enable stencil buffer for gpu lighting  (mem address: 0x0E9C565)
+  
+  uc2_PSN_mesh: &uc2_PSN_mesh
+    - [ be32, 0x0072d394, 0x99490004 ] # Disable mesh trimming                   (mem address: 0x0F9BFD0)
+  
+  uc2_PSN_mb: &uc2_PSN_mb
+    - [ be32, 0x000c2d28, 0x9b83005f ] # Disable Motion blur                     (mem address: 0x0E9C24F)
+  
+  uc2_PSN_vmb: &uc2_PSN_vmb
+    - [ be32, 0x000c2f88, 0x9b8302a4 ] # Disable Velocity motion blur            (mem address: 0x0E9C494)
+  
+  # Note: Unlike Uncharted 3 and TLoU, Uncharted 2 doesn't change the initial address.
+  uc2_Demo_60FPS: &uc2_Demo_60FPS
+    - [ be32, 0x000c94a0, 0x91630008 ] # Framelock: 1 (60 FPS Limit)
+  
+  uc2_Demo_UnlockFPS: &uc2_Demo_UnlockFPS
+    - [ be32, 0x000c94a0, 0x91830008 ] # Framelock: 0 (No FPS Limit)
+  
+  uc2_Demo_ssao: &uc2_Demo_ssao
+    - [ be32, 0x000c95c0, 0x9b830052 ] # Disable SSAO
+  
+  uc2_Demo_dof: &uc2_Demo_dof
+    - [ be32, 0x000c9614, 0x9b830061 ] # Disable depth of field
+  
+  uc2_Demo_post: &uc2_Demo_post
+    - [ be32, 0x000c963c, 0x9b830078 ] # Disable Post on SPU
+  
+  uc2_Demo_light: &uc2_Demo_light
+    - [ be32, 0x000c987c, 0x9b830374 ] # Disable Spu lighting
+  
+  uc2_Demo_stencil: &uc2_Demo_stencil
+    - [ be32, 0x000c9880, 0x9b630375 ] # Enable stencil buffer for gpu lighting
+  
+  uc2_Demo_mesh: &uc2_Demo_mesh
+    - [ be32, 0x0030624c, 0x99490004 ] # Disable mesh trimming
+  
+  uc2_Demo_mb: &uc2_Demo_mb
+    - [ be32, 0x000c9610, 0x9b83005f ] # Motion blur
+  
+  uc2_Demo_vmb: &uc2_Demo_vmb
+    - [ be32, 0x000c986c, 0x9b8302a4 ] # Velocity motion blur
+
+PPU-7b8a70c24456205b776915643a2acacb6ef6ea56:
+  60 FPS:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.00 ]
+        BCES00757: [ 01.00 ]
+        BCUS98123: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: Raise maximum framerate cap to 60FPS.
+    Patch Version: 1.2
+    Group: FPS
+    Patch:
+      - [ load, *uc2_Disc_100_60FPS ]
+  Unlock FPS:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.00 ]
+        BCES00757: [ 01.00 ]
+        BCUS98123: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: Completely removes maximum framerate cap.
+    Patch Version: 1.2
+    Group: FPS
+    Patch:
+      - [ load, *uc2_Disc_100_UnlockFPS ]
+  Disable SSAO:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.00 ]
+        BCES00757: [ 01.00 ]
+        BCUS98123: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Disc_100_ssao ]
+  Disable Depth of Field:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.00 ]
+        BCES00757: [ 01.00 ]
+        BCUS98123: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Disc_100_dof ]
+  Disable SPU Post-processing:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.00 ]
+        BCES00757: [ 01.00 ]
+        BCUS98123: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: To use scaling correctly for this game you must set Resolution Scale Threshold to 1x1, otherwise some effects like lens flare wil be missing, and all Treasures will be invisible.
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Disc_100_post ]
+  Disable SPU Lighting:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.00 ]
+        BCES00757: [ 01.00 ]
+        BCUS98123: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Disc_100_light ]
+  Enable Stencil Buffer for GPU Lighting:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.00 ]
+        BCES00757: [ 01.00 ]
+        BCUS98123: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Disc_100_stencil ]
+  Disable Mesh Trimming:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.00 ]
+        BCES00757: [ 01.00 ]
+        BCUS98123: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Disc_100_mesh ]
+  Disable Motion Blur:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.00 ]
+        BCES00757: [ 01.00 ]
+        BCUS98123: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Disc_100_mb ]
+  Disable Velocity Motion Blur:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.00 ]
+        BCES00757: [ 01.00 ]
+        BCUS98123: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Disc_100_vmb ]
+
+PPU-a3a5789c12711291dfe16a7d5d81c906d2b4c0c2:
+  60 FPS:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.09 ]
+        BCES00757: [ 01.09 ]
+        BCUS98123: [ 01.09 ]
+    Author: ZEROx, illusion
+    Notes: Raise maximum framerate cap to 60FPS.
+    Patch Version: 1.2
+    Group: FPS
+    Patch:
+      - [ load, *uc2_Disc_109_60FPS ]
+  Unlock FPS:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.09 ]
+        BCES00757: [ 01.09 ]
+        BCUS98123: [ 01.09 ]
+    Author: ZEROx, illusion
+    Notes: Completely removes maximum framerate cap.
+    Patch Version: 1.2
+    Group: FPS
+    Patch:
+      - [ load, *uc2_Disc_109_UnlockFPS ]
+  Disable SSAO:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.09 ]
+        BCES00757: [ 01.09 ]
+        BCUS98123: [ 01.09 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Disc_109_ssao ]
+  Disable Depth of Field:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.09 ]
+        BCES00757: [ 01.09 ]
+        BCUS98123: [ 01.09 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Disc_109_dof ]
+  Disable SPU Post-processing:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.09 ]
+        BCES00757: [ 01.09 ]
+        BCUS98123: [ 01.09 ]
+    Author: ZEROx, illusion
+    Notes: To use scaling correctly for this game you must set Resolution Scale Threshold to 1x1, otherwise some effects like lens flare wil be missing, and all Treasures will be invisible.
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Disc_109_post ]
+  Disable SPU Lighting:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.09 ]
+        BCES00757: [ 01.09 ]
+        BCUS98123: [ 01.09 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Disc_109_light ]
+  Enable Stencil Buffer for GPU Lighting:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.09 ]
+        BCES00757: [ 01.09 ]
+        BCUS98123: [ 01.09 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Disc_109_stencil ]
+  Disable Mesh Trimming:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.09 ]
+        BCES00757: [ 01.09 ]
+        BCUS98123: [ 01.09 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Disc_109_mesh ]
+  Disable Motion Blur:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.09 ]
+        BCES00757: [ 01.09 ]
+        BCUS98123: [ 01.09 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Disc_109_mb ]
+  Disable Velocity Motion Blur:
+    Games:
+      "Uncharted 2: Among Thieves":
+        BCES00509: [ 01.09 ]
+        BCES00757: [ 01.09 ]
+        BCUS98123: [ 01.09 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Disc_109_vmb ]
+
+PPU-599461c6c88935ff0ed26ef20e649c8c38b7be9c:
+  60 FPS:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA00365: [ 01.10 ]
+        NPUA80698: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: Raise maximum framerate cap to 60FPS.
+    Patch Version: 1.2
+    Group: FPS
+    Patch:
+      - [ load, *uc2_PSN_60FPS ]
+  Unlock FPS:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA00365: [ 01.10 ]
+        NPUA80698: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: Completely removes maximum framerate cap.
+    Patch Version: 1.2
+    Group: FPS
+    Patch:
+      - [ load, *uc2_PSN_UnlockFPS ]
+  Disable SSAO:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA00365: [ 01.10 ]
+        NPUA80698: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_PSN_ssao ]
+  Disable Depth of Field:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA00365: [ 01.10 ]
+        NPUA80698: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_PSN_dof ]
+  Disable SPU Post-processing:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA00365: [ 01.10 ]
+        NPUA80698: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: To use scaling correctly for this game you must set Resolution Scale Threshold to 1x1, otherwise some effects like lens flare wil be missing, and all Treasures will be invisible.
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_PSN_post ]
+  Disable SPU Lighting:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA00365: [ 01.10 ]
+        NPUA80698: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_PSN_light ]
+  Enable Stencil Buffer for GPU Lighting:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA00365: [ 01.10 ]
+        NPUA80698: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_PSN_stencil ]
+  Disable Mesh Trimming:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA00365: [ 01.10 ]
+        NPUA80698: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_PSN_mesh ]
+  Disable Motion Blur:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA00365: [ 01.10 ]
+        NPUA80698: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_PSN_mb ]
+  Disable Velocity Motion Blur:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA00365: [ 01.10 ]
+        NPUA80698: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_PSN_vmb ]
+
+PPU-bfee77256ce53064051a6b0ec9d292e75284aad4:
+  60 FPS:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA90055: [ All ]
+    Author: ZEROx, illusion
+    Notes: Raise maximum framerate cap to 60FPS.
+    Patch Version: 1.2
+    Group: FPS
+    Patch:
+      - [ load, *uc2_Demo_60FPS ]
+  Unlock FPS:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA90055: [ All ]
+    Author: ZEROx, illusion
+    Notes: Completely removes maximum framerate cap.
+    Patch Version: 1.2
+    Group: FPS
+    Patch:
+      - [ load, *uc2_Demo_UnlockFPS ]
+  Disable SSAO:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA90055: [ All ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Demo_ssao ]
+  Disable Depth of Field:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA90055: [ All ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Demo_dof ]
+  Disable SPU Post-processing:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA90055: [ All ]
+    Author: ZEROx, illusion
+    Notes: To use scaling correctly for this game you must set Resolution Scale Threshold to 1x1, otherwise some effects like lens flare wil be missing, and all Treasures will be invisible.
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Demo_post ]
+  Disable SPU Lighting:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA90055: [ All ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Demo_light ]
+  Enable Stencil Buffer for GPU Lighting:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA90055: [ All ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Demo_stencil ]
+  Disable Mesh Trimming:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA90055: [ All ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Demo_mesh ]
+  Disable Motion Blur:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA90055: [ All ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Demo_mb ]
+  Disable Velocity Motion Blur:
+    Games:
+      "Uncharted 2: Among Thieves":
+        NPEA90055: [ All ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.2
+    Patch:
+      - [ load, *uc2_Demo_vmb ]
+
+
+
+
+Anchors:
+  uc3_100_FPS: &uc3_100_FPS
+    - [ be32, 0x0093b348, 0x90e30034 ] #FPS
+    - [ be32, 0x0093b34c, 0x90e30038 ] #Unlock
+  
+  uc3_100_mlaa: &uc3_100_mlaa
+    - [ be32, 0x00720340, 0x480009ac ] # unconditonally branch to disable MLAA
+  
+  # This patch cycles through various post-processing modes. Values accepted are:
+  #    0 = None
+  #    1 = Bloom
+  #    2 = Depth of Field
+  #    3 = ??? (Tonemapping)
+  #    4 = Bloom & Depth of Field
+  #    5 = Bloom & Depth of Field & Tonemapping (Default)
+  
+  uc3_100_post: &uc3_100_post
+    - [ be32, 0x0093acd4, 0x39000003 ] # Post-processing modes  (mem address: 0x1346D47)
+  
+  uc3_100_mesh: &uc3_100_mesh
+    - [ be32, 0x0073f05c, 0x980b0004 ] # Disable mesh trimming  (mem address: 0x12C3940)
+  
+  # Many settings below are enabled/disabled in sub_AA9E6C. In this subroutine, // needs correction on subroutine
+  #    r6  = 2
+  #    r27 = 1
+  #    r28 = 0
+  # and these are stored into some memory blob to represent settings. Most values can be switched by just changing the
+  # source register from one to the other, though some are words and some are bytes, so be careful.
+  
+  uc3_100_ssao: &uc3_100_ssao
+    - [ be32, 0x00635f8c, 0x60000000 ] # nop byte write on 00 57
+    - [ be32, 0x0093b3ac, 0x9b830057 ] # Disable SSAO           (mem address: 0x1346DBF)
+  
+  uc3_100_dof: &uc3_100_dof
+    - [ be32, 0x0093b430, 0x9b83007a ] # Disable Depth of Field (mem address: 0x1346DE2)
+  
+  uc3_100_speed: &uc3_100_speed
+    - [ be32, 0x0093b44c, 0x9b830081 ] # Speedup (WCB)          (mem address: 0x1346DE9)
+  
+  uc3_100_dbv: &uc3_100_dbv
+    - [ be32, 0x0093b6b8, 0x9b6302f9 ] # Depth buffer viewport  (mem address: 0x1347061)
+  
+  uc3_100_dbf: &uc3_100_dbf
+    - [ be32, 0x0093b6f8, 0x9b83031d ] # Depth border fix       (mem address: 0x1347085)
+  
+  uc3_100_db: &uc3_100_db
+    - [ be32, 0x00635f88, 0x60000000 ] # nop byte write on 03 ec
+    - [ be32, 0x0093b704, 0x90e303ec ] # Depth buffer           (mem address: 0x1347157)
+
+  uc3_100_spulighting: &uc3_100_spulighting
+    - [ be32, 0x0074c2f8, 0x48000010 ]
+
+  uc3_JP_100_mlaa: &uc3_JP_100_mlaa
+    - [ be32, 0x00720368, 0x480009ac ] # unconditonally branch to disable MLAA
+  
+  # This patch cycles through various post-processing modes. Values accepted are:
+  #    0 = None
+  #    1 = Bloom
+  #    2 = Depth of Field
+  #    3 = ??? (Tonemapping)
+  #    4 = Bloom & Depth of Field
+  #    5 = Bloom & Depth of Field & Tonemapping (Default)
+  
+  uc3_JP_100_post: &uc3_JP_100_post
+    - [ be32, 0x0093acfc, 0x39000003 ] # Post-processing modes
+  
+  uc3_JP_100_mesh: &uc3_JP_100_mesh
+    - [ be32, 0x0073f084, 0x980b0004 ] # Disable mesh trimming
+  
+  # Many settings below are enabled/disabled in sub_93B2C0. In this subroutine,
+  #    r6  = 2
+  #    r27 = 1
+  #    r28 = 0
+  # and these are stored into some memory blob to represent settings. Most values can be switched by just changing the
+  # source register from one to the other, though some are words and some are bytes, so be careful.
+  
+  uc3_JP_100_ssao: &uc3_JP_100_ssao
+    - [ be32, 0x00635fb4, 0x60000000 ] # nop byte write on 00 57
+    - [ be32, 0x0093b3d4, 0x9b830057 ] # Disable SSAO
+  
+  uc3_JP_100_dof: &uc3_JP_100_dof
+    - [ be32, 0x0093b458, 0x9b83007a ] # Disable Depth of Field
+  
+  uc3_JP_100_speed: &uc3_JP_100_speed
+    - [ be32, 0x0093b474, 0x9b830081 ] # Speedup (WCB)
+  
+  uc3_JP_100_dbv: &uc3_JP_100_dbv
+    - [ be32, 0x0093b6e0, 0x9b6302f9 ] # Depth buffer viewport
+  
+  uc3_JP_100_dbf: &uc3_JP_100_dbf
+    - [ be32, 0x0093b720, 0x9b83031d ] # Depth border fix
+  
+  uc3_JP_100_db: &uc3_JP_100_db
+    - [ be32, 0x00635fb0, 0x60000000 ] # nop byte write on 03 ec
+    - [ be32, 0x0093b72c, 0x90e303ec ] # Depth buffer = 2
+
+  uc3_JP_100_spulighting: &uc3_JP_100_spulighting
+    - [ be32, 0x0074c320, 0x48000010 ]
+
+  uc3_110_mlaa: &uc3_110_mlaa
+    - [ be32, 0x00728cac, 0x480009ac ] # unconditonally branch to disable MLAA
+  
+  uc3_110_mb: &uc3_110_mb
+    - [ be32, 0x00779ff0, 0x480008b0 ] # Disable
+    - [ be32, 0x0077aacc, 0x480000c4 ] # motion
+    - [ be32, 0x00a411ac, 0x480001a4 ] # blur
+  
+  # This patch cycles through various post-processing modes. Values accepted are:
+  #    0 = None
+  #    1 = Bloom
+  #    2 = Depth of Field
+  #    3 = ??? (Tonemapping)
+  #    4 = Bloom & Depth of Field
+  #    5 = Bloom & Depth of Field & Tonemapping (Default)
+  
+  uc3_110_post: &uc3_110_post
+    - [ be32, 0x0094d0b8, 0x39000003 ] # Post-processing modes  (mem address: 0x1376F77)
+  
+  uc3_110_mesh: &uc3_110_mesh
+    - [ be32, 0x00747b0c, 0x980b0004 ] # Disable mesh trimming  (mem address: 0x12D5A70)
+  
+  # Many settings below are enabled/disabled in sub_AA9E6C. In this subroutine, // needs correction on subroutine
+  #    r6  = 2
+  #    r27 = 1
+  #    r28 = 0
+  # and these are stored into some memory blob to represent settings. Most values can be switched by just changing the
+  # source register from one to the other, though some are words and some are bytes, so be careful.
+  
+  uc3_110_ssao: &uc3_110_ssao
+    - [ be32, 0x0063e010, 0x60000000 ] # nop byte write on 00 57
+    - [ be32, 0x0094d790, 0x9b830057 ] # Disable SSAO           (mem address: 0x1376FEF)
+  
+  uc3_110_dof: &uc3_110_dof
+    - [ be32, 0x0094d814, 0x9b83007a ] # Disable Depth of Field (mem address: 0x1377012)
+  
+  uc3_110_speed: &uc3_110_speed
+    - [ be32, 0x0094d830, 0x9b830081 ] # Speedup (WCB)          (mem address: 0x1377019)
+  
+  uc3_110_dbv: &uc3_110_dbv
+    - [ be32, 0x0094da9c, 0x9b6302f9 ] # Depth buffer viewport  (mem address: 0x1377291)
+  
+  uc3_110_dbf: &uc3_110_dbf
+    - [ be32, 0x0094dadc, 0x9b83031d ] # Depth border fix       (mem address: 0x13772B5)
+  
+  uc3_110_db: &uc3_110_db
+    - [ be32, 0x0063e00c, 0x60000000 ] # nop byte write on 03 ec
+    - [ be32, 0x0094dae8, 0x90e303ec ] # Depth buffer = 2       (mem address: 0x1377387)
+
+  uc3_110_spulighting: &uc3_110_spulighting
+    - [ be32, 0x00754da0, 0x48000010 ]
+
+  uc3_119_FPS: &uc3_119_FPS
+    - [ be32, 0x0096e980, 0x3b6000da ] #FPS
+    - [ be32, 0x0096e97c, 0x48000040 ] #Unlock
+  
+  uc3_119_mlaa: &uc3_119_mlaa
+    - [ be32, 0x0073a1d8, 0x480009ac ] # unconditonally branch to disable MLAA
+  
+  uc3_119_mb: &uc3_119_mb
+    - [ be32, 0x0078a608, 0x480008b0 ] # Disable
+    - [ be32, 0x0078b0e4, 0x480000c4 ] # motion
+    - [ be32, 0x00a6b8e8, 0x480001a4 ] # blur
+  
+  # This patch cycles through various post-processing modes. Values accepted are:
+  #    0 = None
+  #    1 = Bloom
+  #    2 = Depth of Field
+  #    3 = ??? (Tonemapping)
+  #    4 = Bloom & Depth of Field
+  #    5 = Bloom & Depth of Field & Tonemapping (Default)
+  
+  uc3_119_post: &uc3_119_post
+    - [ be32, 0x0096e308, 0x39000003 ] # Post-processing modes  (mem address: 0x1386547)
+  
+  uc3_119_mesh: &uc3_119_mesh
+    - [ be32, 0x0075811c, 0x980b0004 ] # Disable mesh trimming  (mem address: 0x12E0DF0)
+  
+  # Many settings below are enabled/disabled in sub_96E8CC. In this subroutine,
+  #    r6  = 2
+  #    r27 = 1
+  #    r28 = 0
+  # and these are stored into some memory blob to represent settings. Most values can be switched by just changing the
+  # source register from one to the other, though some are words and some are bytes, so be careful.
+  
+  uc3_119_ssao: &uc3_119_ssao
+    - [ be32, 0x0064df24, 0x60000000 ] # nop byte write on 00 57
+    - [ be32, 0x0096e9e0, 0x9b830057 ] # Disable SSAO           (mem address: 0x13865BF)
+  
+  uc3_119_dof: &uc3_119_dof
+    - [ be32, 0x0096ea64, 0x9b83007a ] # Disable Depth of Field (mem address: 0x13865E2)
+  
+  uc3_119_speed: &uc3_119_speed
+    - [ be32, 0x0096ea80, 0x9b830081 ] # Speedup (WCB)          (mem address: 0x13865E9)
+  
+  uc3_119_dbv: &uc3_119_dbv
+    - [ be32, 0x0096ecec, 0x9b6302f9 ] # Depth buffer viewport  (mem address: 0x1386861)
+  
+  uc3_119_dbf: &uc3_119_dbf
+    - [ be32, 0x0096ed2c, 0x9b83031d ] # Depth border fix       (mem address: 0x1386885)
+  
+  uc3_119_db: &uc3_119_db
+    - [ be32, 0x0064df20, 0x60000000 ] # nop byte write on 03 ec
+    - [ be32, 0x0096ed38, 0x90e303ec ] # Depth buffer = 2       (mem address: 0x1386957)
+
+  uc3_119_spulighting: &uc3_119_spulighting
+    - [ be32, 0x007653c0, 0x48000010 ]
+
+PPU-49c96996b6f3c0b32422375978c41e0c7ed95183:
+  Unlock FPS:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.00 ]
+        BCUS98233: [ 01.00 ]
+    Author: superepic31
+    Notes: Haven't tested how this affects cutscenes.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_100_FPS ]
+  Disable in-built MLAA:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.00 ]
+        BCUS98233: [ 01.00 ]
+    Author: Whatcookie
+    Notes: Allows for the use of Resolution Scaling in the title and also improves performance. However, please note that this patch causes a few issues such as incorrect bloom effect. However, this issues can be addressed with the post-processing patch below.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_100_mlaa ]
+  Post-processing Modes:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.00 ]
+        BCUS98233: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_100_post ]
+  Disable Mesh Trimming:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.00 ]
+        BCUS98233: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_100_mesh ]
+  Disable SSAO:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.00 ]
+        BCUS98233: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_100_ssao ]
+  Disable Depth of Field:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.00 ]
+        BCUS98233: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_100_dof ]
+  Performance (WCB):
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.00 ]
+        BCUS98233: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: Enable this patch if you are using "Write Color Buffers" to restore performance.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_100_speed ]
+  Depth Buffer Viewport:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.00 ]
+        BCUS98233: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_100_dbv ]
+  Depth Border Fix:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.00 ]
+        BCUS98233: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_100_dbf ]
+  Depth Buffer:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.00 ]
+        BCUS98233: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_100_db ]
+  Disable SPU Lighting:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.00 ]
+        BCUS98233: [ 01.00 ]
+    Author: ZEROx
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_100_spulighting ]
+
+
+PPU-48fa849dfeaef2f36ec042a576f29bda19ec1de0:
+  Disable in-built MLAA:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCJS37004: [ 01.00 ]
+    Author: Whatcookie
+    Notes: Allows for the use of Resolution Scaling in the title and also improves performance. However, please note that this patch causes a few issues such as incorrect bloom effect. However, this issues can be addressed with the post-processing patch below.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_JP_100_mlaa ]
+  Post-processing Modes:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCJS37004: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_JP_100_post ]
+  Disable Mesh Trimming:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCJS37004: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_JP_100_mesh ]
+  Disable SSAO:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCJS37004: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_JP_100_ssao ]
+  Disable Depth of Field:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCJS37004: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_JP_100_dof ]
+  Performance (WCB):
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCJS37004: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: Enable this patch if you are using "Write Color Buffers" to restore performance.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_JP_100_speed ]
+  Depth Buffer Viewport:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCJS37004: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_JP_100_dbv ]
+  Depth Border Fix:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCJS37004: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_JP_100_dbf ]
+  Depth Buffer:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCJS37004: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_JP_100_db ]
+  Disable SPU Lighting:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCJS37004: [ 01.00 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_JP_100_spulighting ]
+
+PPU-664fb0e4a94c62c15a6474841c202fb2bf80ce16:
+  Disable in-built MLAA:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01670: [ 01.10 ]
+    Author: Whatcookie
+    Notes: Allows for the use of Resolution Scaling in the title and also improves performance. However, please note that this patch causes a few issues such as incorrect bloom effect. However, this issues can be addressed with the post-processing patch below.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_110_mlaa ]
+  Disable Motion Blur:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01670: [ 01.10 ]
+    Author: ZEROx
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_110_mb ]
+  Post-processing Modes:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01670: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_110_post ]
+  Disable Mesh Trimming:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01670: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_110_mesh ]
+  Disable SSAO:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01670: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_110_ssao ]
+  Disable Depth of Field:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01670: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_110_dof ]
+  Performance (WCB):
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01670: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: Enable this patch if you are using "Write Color Buffers" to restore performance.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_110_speed ]
+  Depth Buffer Viewport:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01670: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_110_dbv ]
+  Depth Border Fix:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01670: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_110_dbf ]
+  Depth Buffer:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01670: [ 01.10 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_110_db ]
+  Disable SPU Lighting:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01670: [ 01.10 ]
+    Author: ZEROx
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_110_spulighting ]
+
+PPU-02a88c3c6cd415b0bb81f1606bc743835881a4ba:
+  Unlock FPS:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.19 ]
+        BCES01670: [ 01.19 ]
+        BCUS98233: [ 01.19 ]
+        BCJS37004: [ 02.17 ]
+    Author: superepic31
+    Notes: Haven't tested how this affects cutscenes.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_119_FPS ]
+  Disable in-built MLAA:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.19 ]
+        BCES01670: [ 01.19 ]
+        BCUS98233: [ 01.19 ]
+        BCJS37004: [ 02.17 ]
+    Author: Whatcookie
+    Notes: Allows for the use of Resolution Scaling in the title and also improves performance. However, please note that this patch causes a few issues such as incorrect bloom effect. However, this issues can be addressed with the post-processing patch below.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_119_mlaa ]
+  Disable Motion Blur:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.19 ]
+        BCES01670: [ 01.19 ]
+        BCUS98233: [ 01.19 ]
+        BCJS37004: [ 02.17 ]
+    Author: ZEROx
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_119_mb ]
+  Post-processing Modes:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.19 ]
+        BCES01670: [ 01.19 ]
+        BCUS98233: [ 01.19 ]
+        BCJS37004: [ 02.17 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_119_post ]
+  Disable Mesh Trimming:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.19 ]
+        BCES01670: [ 01.19 ]
+        BCUS98233: [ 01.19 ]
+        BCJS37004: [ 02.17 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_119_mesh ]
+  Disable SSAO:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.19 ]
+        BCES01670: [ 01.19 ]
+        BCUS98233: [ 01.19 ]
+        BCJS37004: [ 02.17 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_119_ssao ]
+  Disable Depth of Field:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.19 ]
+        BCES01670: [ 01.19 ]
+        BCUS98233: [ 01.19 ]
+        BCJS37004: [ 02.17 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_119_dof ]
+  Performance (WCB):
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.19 ]
+        BCES01670: [ 01.19 ]
+        BCUS98233: [ 01.19 ]
+        BCJS37004: [ 02.17 ]
+    Author: ZEROx, illusion
+    Notes: Enable this patch if you are using "Write Color Buffers" to restore performance.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_119_speed ]
+  Depth Buffer Viewport:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.19 ]
+        BCES01670: [ 01.19 ]
+        BCUS98233: [ 01.19 ]
+        BCJS37004: [ 02.17 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_119_dbv ]
+  Depth Border Fix:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.19 ]
+        BCES01670: [ 01.19 ]
+        BCUS98233: [ 01.19 ]
+        BCJS37004: [ 02.17 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_119_dbf ]
+  Depth Buffer:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.19 ]
+        BCES01670: [ 01.19 ]
+        BCUS98233: [ 01.19 ]
+        BCJS37004: [ 02.17 ]
+    Author: ZEROx, illusion
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_119_db ]
+  Disable SPU Lighting:
+    Games:
+      "Uncharted 3: Drake's Deception":
+        BCES01175: [ 01.19 ]
+        BCES01670: [ 01.19 ]
+        BCUS98233: [ 01.19 ]
+        BCJS37004: [ 02.17 ]
+    Author: ZEROx
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ load, *uc3_119_spulighting ]
+
+
+
+
+Anchors:
+  UT3_FPS: &UT3_FPS
+    - [ be32, 0x00010c70, 0x60000000 ]
+    - [ be32, 0x00010cc8, 0x60000000 ]
+    - [ be32, 0x003b79e8, 0x60000000 ]
+    - [ be32, 0x003b7a4c, 0x60000000 ]
+    - [ be32, 0x003b7a58, 0x60000000 ]
+
+PPU-d4452078fad5d1d71a6ccb30d8349259749f38e7:
+  Unlock FPS:
+    Games:
+      "Unreal Tournament 3":
+        BLES00200: [ 02.00 ]
+    Author: Whatcookie
+    Notes: Maximum framerate with the patch is half the Vblank frequency. Without the patch, adjusting Vblank frequency increases the maximum framerate up to about 57FPS.
+    Patch Version: 1.0
+    Patch:
+      - [ load, *UT3_FPS ]
+
+
+
+
+PPU-0e95b58ae209a37060f3388434b59bcce8a708ab:
+  21:9 Aspect Ratio:
+    Games:
+      "WipEout HD":
+        NPEA00057: [ 02.51 ]
+    Author: Esppiral
+    Notes: 
+    Patch Version: 1.0
+    Patch:
+      - [ be32, 0x7E4190, 0x4017B9AA ] # 21:9 Aspect Ratio
+      - [ be32, 0x7EB4A4, 0x4017B9AA ] # Render Fix
+

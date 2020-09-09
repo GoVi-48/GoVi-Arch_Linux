@@ -54,7 +54,7 @@ VFS:
   Disk cache maximum size (MB): 5120
 Video:
   Renderer: Vulkan
-  Resolution: 1920x1080
+  Resolution: 1280x720
   Aspect ratio: 16:9
   Frame limit: Off
   MSAA: Auto
@@ -156,8 +156,8 @@ Net:
   PSN status: Disconnected
 Miscellaneous:
   Automatically start games after boot: true
-  Exit RPCS3 when process finishes: false
-  Start games in fullscreen mode: false
+  Exit RPCS3 when process finishes: true
+  Start games in fullscreen mode: true
   Prevent display sleep while running games: true
   Show trophy popups: true
   Show shader compilation hint: true

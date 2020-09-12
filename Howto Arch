@@ -34,19 +34,7 @@ $ git clone https://aur.archlinux.org/yay.git
 $ cd yay
 $ makepkg -si PKGBUILD
 
-$ yay -S ttf-ms-fonts
-$ yay -S balena-etcher
-$ yay -S discord
-$ yay -S dropbox
-$ yay -S font-manager
-$ yay -S java-8-openjdk
-$ yay -S picard
-$ yay -S skype
-$ yay -S spotify
-$ yay -S teamviewer
-$ yay -S timeshift
-$ yay -S tiny-media-manager
-$ yay -S vivaldi
+$ yay -S ttf-ms-fonts balena-etcher discord dropbox font-manager java-8-openjdk picard skype spotify teamviewer timeshift tiny-media-manager vivaldi
 
 # Kodi
 $ sudo pacman -S kodi kodi-x11

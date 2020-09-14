@@ -139,6 +139,7 @@ alias wrt="wrestool -x --output=. -t14"
 alias dp="dolphin"
 alias yt="youtube-dl --add-metadata -ic"
 alias pyc="pycharm.sh"
+alias am="alsamixer"
 
 # Games aliases
 alias mh="mangohud"

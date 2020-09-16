@@ -1,0 +1,95 @@
+21:40:07.041: CPU Name: Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz
+21:40:07.041: CPU Speed: 3999.768MHz
+21:40:07.041: Physical Cores: 4, Logical Cores: 4
+21:40:07.041: Physical Memory: 15927MB Total, 10185MB Free
+21:40:07.041: Kernel Version: Linux 5.8.8-zen1-1-zen
+21:40:07.041: Distribution: "Arch Linux" Unknown
+21:40:07.041: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.20.9
+21:40:07.042: Portable mode: false
+21:40:07.089: OBS 25.0.8-2 (linux)
+21:40:07.089: ---------------------------------
+21:40:07.090: ---------------------------------
+21:40:07.090: audio settings reset:
+21:40:07.090: 	samples per sec: 44100
+21:40:07.090: 	speakers:        2
+21:40:07.095: ---------------------------------
+21:40:07.095: Initializing OpenGL...
+21:40:07.230: Loading up OpenGL on adapter NVIDIA Corporation GeForce GTX 980/PCIe/SSE2
+21:40:07.230: OpenGL loaded successfully, version 3.3.0 NVIDIA 450.66, shading language 3.30 NVIDIA via Cg compiler
+21:40:07.281: ---------------------------------
+21:40:07.281: video settings reset:
+21:40:07.281: 	base resolution:   1920x1080
+21:40:07.281: 	output resolution: 1920x1080
+21:40:07.281: 	downscale filter:  Bicubic
+21:40:07.281: 	fps:               60/1
+21:40:07.281: 	format:            NV12
+21:40:07.281: 	YUV mode:          601/Partial
+21:40:07.281: NV12 texture support not available
+21:40:07.281: Audio monitoring device:
+21:40:07.281: 	name: Por defecto
+21:40:07.281: 	id: default
+21:40:07.281: ---------------------------------
+21:40:07.284: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+21:40:07.344: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+21:40:07.344: No blackmagic support
+21:40:07.354: NVENC supported
+21:40:07.354: FFMPEG VAAPI supported
+21:40:07.355: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio
+21:40:07.355: 
+21:40:07.355: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+21:40:07.361: VLC found, VLC video source enabled
+21:40:07.361: ---------------------------------
+21:40:07.361:   Loaded Modules:
+21:40:07.361:     vlc-video.so
+21:40:07.361:     text-freetype2.so
+21:40:07.361:     rtmp-services.so
+21:40:07.361:     obs-x264.so
+21:40:07.361:     obs-transitions.so
+21:40:07.361:     obs-outputs.so
+21:40:07.361:     obs-filters.so
+21:40:07.361:     obs-ffmpeg.so
+21:40:07.361:     linux-v4l2.so
+21:40:07.361:     linux-pulseaudio.so
+21:40:07.361:     linux-jack.so
+21:40:07.361:     linux-decklink.so
+21:40:07.361:     linux-capture.so
+21:40:07.361:     linux-alsa.so
+21:40:07.361:     image-source.so
+21:40:07.361:     frontend-tools.so
+21:40:07.361:     decklink-ouput-ui.so
+21:40:07.361: ---------------------------------
+21:40:07.361: ==== Startup complete ===============================================
+21:40:07.361: Service '' not found
+21:40:07.363: All scene data cleared
+21:40:07.363: ------------------------------------------------
+21:40:34.021: pulse-input: Server name: 'pulseaudio 13.0'
+21:40:34.021: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+21:40:34.021: pulse-input: Started recording from 'alsa_output.pci-0000_00_1b.0.analog-stereo.monitor'
+21:40:34.022: [Loaded global audio device]: 'Audio del escritorio'
+21:40:34.022:     - filter: 'Eliminación de ruido' (noise_suppress_filter)
+21:40:34.023: pulse-input: Server name: 'pulseaudio 13.0'
+21:40:34.023: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+21:40:34.023: pulse-input: Started recording from 'alsa_input.pci-0000_05_00.0.analog-stereo'
+21:40:34.023: [Loaded global audio device]: 'Mic/Aux'
+21:40:34.023:     - filter: 'Eliminación de ruido' (noise_suppress_filter)
+21:40:34.024: xshm-input: Geometry 1920x1080 @ 0,0
+21:40:34.025: pulse-input: Server name: 'pulseaudio 13.0'
+21:40:34.025: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+21:40:34.025: pulse-input: Started recording from 'alsa_output.pci-0000_05_00.0.analog-stereo.monitor'
+21:40:34.026: pulse-input: Server name: 'pulseaudio 13.0'
+21:40:34.027: pulse-input: An error occurred while getting the source info!
+21:40:34.027: Switched to scene 'Escena'
+21:40:34.027: ------------------------------------------------
+21:40:34.027: Loaded scenes:
+21:40:34.027: - scene 'Escena':
+21:40:34.027:     - source: 'Captura de entrada audio (PulseAudio)' (pulse_input_capture)
+21:40:34.027:         - filter: 'Eliminación de ruido' (noise_suppress_filter)
+21:40:34.027:     - source: 'Captura de salida de audio (PulseAudio)' (pulse_output_capture)
+21:40:34.027:         - filter: 'Eliminación de ruido' (noise_suppress_filter)
+21:40:34.027:     - source: 'Captura de pantalla (XSHM)' (xshm_input)
+21:40:34.027: ------------------------------------------------
+21:40:34.586: adding 69 milliseconds of audio buffering, total audio buffering is now 69 milliseconds (source: Mic/Aux)
+21:40:34.586: 
+21:40:41.275: pulse-input: Server name: 'pulseaudio 13.0'
+21:40:41.275: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+21:40:41.275: pulse-input: Started recording from 'alsa_input.pci-0000_05_00.0.analog-stereo'

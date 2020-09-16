@@ -109,7 +109,7 @@ $ xprop WM_CLASS | grep -o '"[^"]*"' | head -n 1
 # click on window for output
 $ sudo vim ~/.imwheelrc
 # -----------------------------------------------------------------------------
-"^brave-browser$"
+"^firefox$"
     None, Up, Button4, 2
     None, Down, Button5, 2imwheel -b 45
     Shift_L,   Up,   Shift_L|Button4, 4

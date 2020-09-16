@@ -172,33 +172,6 @@
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
-            "filters": [
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "noise_suppress_filter",
-                    "mixers": 255,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Eliminación de ruido",
-                    "prev_ver": 419430408,
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "suppress_level": -60
-                    },
-                    "sync": 0,
-                    "versioned_id": "noise_suppress_filter",
-                    "volume": 1.0
-                }
-            ],
             "flags": 0,
             "hotkeys": {
                 "libobs.mute": [],
@@ -222,40 +195,13 @@
             },
             "sync": 0,
             "versioned_id": "pulse_input_capture",
-            "volume": 1.0
+            "volume": 0.0
         },
         {
             "balance": 0.5,
             "deinterlace_field_order": 0,
             "deinterlace_mode": 0,
             "enabled": true,
-            "filters": [
-                {
-                    "balance": 0.5,
-                    "deinterlace_field_order": 0,
-                    "deinterlace_mode": 0,
-                    "enabled": true,
-                    "flags": 0,
-                    "hotkeys": {},
-                    "id": "noise_suppress_filter",
-                    "mixers": 255,
-                    "monitoring_type": 0,
-                    "muted": false,
-                    "name": "Eliminación de ruido",
-                    "prev_ver": 419430408,
-                    "private_settings": {},
-                    "push-to-mute": false,
-                    "push-to-mute-delay": 0,
-                    "push-to-talk": false,
-                    "push-to-talk-delay": 0,
-                    "settings": {
-                        "suppress_level": -60
-                    },
-                    "sync": 0,
-                    "versioned_id": "noise_suppress_filter",
-                    "volume": 1.0
-                }
-            ],
             "flags": 0,
             "hotkeys": {
                 "libobs.mute": [],

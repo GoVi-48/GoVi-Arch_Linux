@@ -7,7 +7,6 @@ export WINEPREFIX=~/Wine/wine-pfx_5.16/wine-pfx_5.16_MotoGP_20
 export WINE=~/Wine/wine-build_Lutris/wine-build_5.7.8-lutris/bin/wine64
 
 cd "$HOME/Games/-Library-/PC/MotoGP 20"
-
 gamemoderun $WINE "motogp20.exe"
 
 sleep 5

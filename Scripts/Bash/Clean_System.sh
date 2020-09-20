@@ -2,6 +2,8 @@
 
 # Clean cache - /var/cache/pacman/pkg
 sudo pacman -Scc
+yay -Scc
+yay -Yc
 
 # Clean packages
 sudo pacman -Rns $(pacman -Qtdq)

@@ -3,8 +3,10 @@
 killall polybar
 qdbus org.kde.KWin /Compositor suspend
 
-export WINEPREFIX=~/Wine/wine-pfx_5.16/wine-pfx_5.16-dxvk-1.7.1-mf
-export WINE=~/Wine/wine-build_Lutris/wine-build_5.7.10-lutris/bin/wine64
+export WINEESYNC=1
+
+export WINEPREFIX=~/Wine/wine-pfx_5.17/wine-pfx_5.17-HZD
+export WINE=~/Wine/wine-build_Proton/wine-build_Proton-5.9-GE-6-ST/dist/bin/wine64
 
 cd "$HOME/Games/-Library-/PC/Horizon Zero Dawn/"
 gamemoderun $WINE "HorizonZeroDawn.exe"

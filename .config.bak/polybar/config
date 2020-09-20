@@ -133,7 +133,7 @@ interval = 1000
 [module/email]
 type = custom/script
 exec = ~/.config/polybar/scripts/email.sh
-click-left = vivaldi-stable "http://www.gmail.com"
+click-left = firefox "http://www.gmail.com"
 interval = 300
 
 [module/notifications]

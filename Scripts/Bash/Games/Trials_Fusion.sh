@@ -3,7 +3,7 @@
 killall polybar
 qdbus org.kde.KWin /Compositor suspend
 
-export WINEPREFIX=~/Wine/wine-pfx_lutris/wine-pfx_lutris-TrialsF
+export WINEPREFIX=~/Wine/wine-pfx_lutris/wine-pfx_Trials_Fusion
 export WINE=~/Wine/wine-build_Lutris/wine-build_5.7.10-lutris/bin/wine64
 
 cd "/Datos/Games/Ubisoft/Trials Fusion/datapack"

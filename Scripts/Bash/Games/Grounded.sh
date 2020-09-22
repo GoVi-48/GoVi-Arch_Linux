@@ -3,8 +3,8 @@
 killall polybar
 qdbus org.kde.KWin /Compositor suspend
 
-export WINEPREFIX=~/Wine/wine-pfx_5.16/wine-pfx_5.16-Grounded
-export WINE=~/Wine/wine-build_5.16-tkg/usr/bin/wine64
+export WINEPREFIX=~/Wine/wine-pfx_5.17/wine-pfx_Grounded
+export WINE=~/Wine/wine-build_5.17-tkg/usr/bin/wine64
 
 cd $HOME"/Games/-Library-/PC/Grounded"
 mangohud gamemoderun $WINE "Grounded.exe"

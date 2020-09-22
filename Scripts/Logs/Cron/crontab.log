@@ -11,7 +11,7 @@
             thanks to Paul Weterings and all the contributing users             
 --------------------------------------------------------------------------------
 
-Job started at 20/09/2020 12:00:01
+Job started at 22/09/2020 12:00:01
 Checking License ..
 For License request/update data, see WGLicense.log.txt
 found: /home/govi/Programas/Webgrab++/.wg++/./siteini.user/movistarplus.es.ini -- Revision 21
@@ -160,25 +160,32 @@ update requested for - 0 - out of - 111 - channels for 3 day(s)
 Group (1) :
 update requested for - 111 - out of - 111 - channels for 3 day(s)
 (   1/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=LA 1) -- mode Incremental
-iii......................cc........................................
-
-(   2/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=LA 2) -- mode Incremental
-iii...................................................................................................
-
-(   3/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Antena 3) -- mode Incremental
-iii...............................................................
-
-(   4/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Cuatro) -- mode Incremental
-iii............................................................................
-
-(   5/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Telecinco) -- mode Incremental
 iii..................................................................
 
+(   2/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=LA 2) -- mode Incremental
+iii.................................................................................................
+
+(   3/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Antena 3) -- mode Incremental
+iii.............................................................cccc
+
+   Summary for update of       Antena 3
+     missing shows added       0
+     changed shows updated     4
+     new shows added           0
+     unchanged shows inspected 61
+     total after update        67
+
+(   4/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Cuatro) -- mode Incremental
+iii......................................................cccccccccccccccccccccccc..
+
+(   5/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Telecinco) -- mode Incremental
+iii.................................................cc....cc.cccccccccc
+
 (   6/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=La Sexta) -- mode Incremental
-iii...........................................................
+iii........................................................
 
 (   7/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=TVG - TV Galicia) -- mode Incremental
-iii...................................................................
+iii....ccccc..ccc.ccccccccccc................cc..c......cccccc
 
 (   8/111 ) EMPTY -- chan. (xmltv_id=TELEVIGO) -- mode Incremental
 Unable to update channel TELEVIGO
@@ -188,173 +195,187 @@ no index page data received from TELEVIGO
 unable to update channel, try again later
 Existing guide data restored!
 (   8/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=24 Horas) -- mode Incremental
-iii...................................................................
+iii....................ccccc..c.cccc.ccccccccccc..c.cccccccccccc
+
+   Summary for update of       24 Horas
+     missing shows added       0
+     changed shows updated     34
+     new shows added           0
+     unchanged shows inspected 27
+     total after update        72
 
 (   9/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=CGTN Español) -- mode Incremental
-iii..................................................................................................................................................................
+iii...............................................................................................................................................................
 
 (  10/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Mega) -- mode Incremental
-iii...............................................................
+iiicccccccccccccccccccccccccccccccc..ccc..............ccccc.cccccc..cc
 
 (  11/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=BE MAD) -- mode Incremental
-iii..............................................................................................
+iii....................................................cccccccccccccccccccccc.ccc
 
 (  12/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Discovery Max) -- mode Incremental
-iii..............................................................................................
+iii.........................................................................................
 
 (  13/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Blaze) -- mode Incremental
-iii................................................................................................................
+iii...................................................................................................................
 
 (  14/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Ten) -- mode Incremental
-iii.....................................................
+iii....................................................
 
 (  15/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=DKISS) -- mode Incremental
-iii.................................................................................................
+iii......................................................................................................
 
 (  16/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Divinity) -- mode Incremental
-iii.................................................................................
+iii..........................................ccccccccccccccccccccccc
 
 (  17/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=COSMO) -- mode Incremental
-iii......................................................................
+iii......................cccccccccccccccccccccccc......................
 
 (  18/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Nova) -- mode Incremental
-iii...................................................................
+iii..cc....cc.........ccc.....................ccccccccccccccccccccc
+
+   Summary for update of       Nova
+     missing shows added       0
+     changed shows updated     28
+     new shows added           0
+     unchanged shows inspected 36
+     total after update        68
 
 (  19/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Atreseries) -- mode Incremental
-iii...................................................
+iii....ccccccccccccccccccc..............cccc..cccccc
 
 (  20/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Neox) -- mode Incremental
-iii.........................................................................
+iii...ccccccccccccccccccccccccccccccccc....ccccc..................ccccccccccccccc.
 
 (  21/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Energy) -- mode Incremental
-iii...............................................................................................
+iii...............................................................cccccccc..ccccccccccccccc..
 
 (  22/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Factoría de Ficción) -- mode Incremental
-iii................................................................
+iii.........................................cccccccccccccccccccc
 
 (  23/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Comedy Central) -- mode Incremental
-iii....................................................................................................
+iii........................................ccccccccccccccccccccccccccccccccccccccccccccnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
 (  24/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=AXN) -- mode Incremental
-iii.......................................................................
+iii.............................................................................
 
 (  25/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=AXN White) -- mode Incremental
 iii................................................
 
 (  26/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=SYFY) -- mode Incremental
-iii...............................................................................
+iii.................................................................................
 
 (  27/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Fox) -- mode Incremental
-iii.........................................................................................................
+iii....................................ccccccccccccccccccccccccccccccccc..................................
 
 (  28/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Fox Life) -- mode Incremental
-iii..................................................................................
+iii.....................................................................................
 
 (  29/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=TNT) -- mode Incremental
-iii...................................................................................
+iii........................................................................................
 
 (  30/111 ) ELPAIS.COM.E -- chan. (xmltv_id=XTRM) -- mode Incremental
-iii........................................................
+iii..........................................................
 
 (  31/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=#0) -- mode Incremental
-iii.......................................................................
+iii........cccccc..........................................................
 
 (  32/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Movistar Series) -- mode Incremental
-iii......................................................................................................
+iii........................................................................................................
 
 (  33/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=M. Seriesmanía) -- mode Incremental
-iii......................................................................................................
+iii...................................................................................
 
 (  34/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Movistar Estrenos) -- mode Incremental
-iii..............................................
+iii....................................................
 
 (  35/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Movistar Acción) -- mode Incremental
-iii............................................
+iii..................................................
 
 (  36/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=M.CineDoc&Roll) -- mode Incremental
-iii...........................................................................
+iii..................................................................
 
 (  37/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Movistar Cine Español) -- mode Incremental
-iii................................................
+iii.................................................
 
 (  38/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Movistar Comedia) -- mode Incremental
-iii........................................................
+iii............................................................
 
 (  39/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=M. Drama) -- mode Incremental
-iii......................................................
+iii........................................................
 
 (  40/111 ) BOMCINE.COM.E -- chan. (xmltv_id=BOM Cine) -- mode Incremental
-iii........................................
+iii.........................................
 
 (  41/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Hollywood) -- mode Incremental
-iii........................................
+iii......................................
 
 (  42/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Paramount Channel) -- mode Incremental
-iii..........................................................
+iii............................................................
 
 (  43/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=TCM) -- mode Incremental
 iii...........................................
 
 (  44/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=AMC) -- mode Incremental
-iii.........................................
+iii........................................
 
 (  45/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Calle 13) -- mode Incremental
-iii.........................................................................
+iii.............................................................................
 
 (  46/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=DARK) -- mode Incremental
-iii................................................
+iii..................................................
 
 (  47/111 ) ELPAIS.COM.E -- chan. (xmltv_id=Somos) -- mode Incremental
 iii......................................
 
 (  48/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Sundance) -- mode Incremental
-iii........................................................
+iii......................................................
 
 (  49/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Discovery) -- mode Incremental
-iii.............................................................................................
-
-(  50/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Historia) -- mode Incremental
-iii.......................................................................................
-
-(  51/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Crimen + Investigación) -- mode Incremental
-iii..............................................................................................................................
-
-(  52/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=National Geographic) -- mode Incremental
-iii........................cc.................................................................
-
-(  53/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Nat Geo Wild) -- mode Incremental
 iii...............................................................................................
 
+(  50/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Historia) -- mode Incremental
+iii.ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc.......
+
+(  51/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Crimen + Investigación) -- mode Incremental
+iii........................................................................................................................................................
+
+(  52/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=National Geographic) -- mode Incremental
+iii.......................................................................................
+
+(  53/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Nat Geo Wild) -- mode Incremental
+iii................................................................................................
+
 (  54/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Odisea) -- mode Incremental
-iii....................................................................................................
+iii............................................................................................
 
 (  55/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Viajar) -- mode Incremental
-iii.............................................................................................................................................
+iii...................................................ccccccccccccccccc.cccccccccccccccccccccccccccccc...........................................
 
 
 (  56/111 ) ORANGE.ES.EK -- chan. (xmltv_id=Cazavisión) -- skipped --> encrypted SiteIni
 
 (  57/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Caza y Pesca) -- mode Incremental
-iii...........................................................................................................................
+iii...............................................................................................................................
 
 (  58/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Iberalia TV) -- mode Incremental
-iii.............................................................................................
+iii............................................................................................
 
 (  59/111 ) TVTV.US -- chan. (xmltv_id=Animal Planet US - East) -- mode Incremental
-iii..................................................nnnnnnnnnnnnnnnnnnnnn
+iii............................................nnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       Animal Planet US - East
      missing shows added       0
      changed shows updated     0
-     new shows added           21
-     unchanged shows inspected 50
-     total after update        71
+     new shows added           23
+     unchanged shows inspected 44
+     total after update        67
 
 
 (  60/111 ) ORANGE.ES.EK -- chan. (xmltv_id=Clan HD) -- skipped --> encrypted SiteIni
 
 (  61/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Boing) -- mode Incremental
-iii............................................................................................................................................................................................................................................................................................
+iii....................................................................................................................................................................................................................................................................................................
 
 
 (  62/111 ) ORANGE.ES.EK -- chan. (xmltv_id=Disney Channel) -- skipped --> encrypted SiteIni
@@ -369,34 +390,48 @@ iii.............................................................................
 (  65/111 ) ORANGE.ES.EK -- chan. (xmltv_id=Nick Junior) -- skipped --> encrypted SiteIni
 
 (  66/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Teledeporte) -- mode Incremental
-iii....................................................
+iii...........................................................
 
 (  67/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=GOL) -- mode Incremental
-iii..........................................................
+iii......................................
 
 (  68/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Real Madrid TV) -- mode Incremental
-iii............................................
+iii......................................
 
 (  69/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Barça TV) -- mode Incremental
-iii..................................
+iii......................................
 
 (  70/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=#Vamos) -- mode Incremental
-iiiccccc........................................................
+iii.......ccc......................................................ccc
+
+   Summary for update of       #Vamos
+     missing shows added       0
+     changed shows updated     6
+     new shows added           0
+     unchanged shows inspected 61
+     total after update        70
 
 
 (  71/111 ) ORANGE.ES.EK -- chan. (xmltv_id=Movistar LaLiga) -- skipped --> encrypted SiteIni
 
 (  72/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=M. Liga de Campeones) -- mode Incremental
-iii...........................................................
+iii.......................................................
 
 (  73/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Movistar Deportes) -- mode Incremental
-iii.............cc...............................
+iiicccc............................cc.......cc.c
+
+   Summary for update of       Movistar Deportes
+     missing shows added       0
+     changed shows updated     9
+     new shows added           0
+     unchanged shows inspected 36
+     total after update        48
 
 (  74/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Movistar Fórmula 1) -- mode Incremental
-iii.........................................................
+iii.....................................c.....................
 
 (  75/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Movistar Golf) -- mode Incremental
-iii.ccccccccc...............
+iii...........c........ccc.....c...
 
 
 (  76/111 ) ORANGE.ES.EK -- chan. (xmltv_id=Eurosport) -- skipped --> encrypted SiteIni
@@ -405,87 +440,87 @@ iii.ccccccccc...............
 (  77/111 ) ORANGE.ES.EK -- chan. (xmltv_id=Eurosport 2) -- skipped --> encrypted SiteIni
 
 (  78/111 ) STREAMINGTVGUIDES.COM.E -- chan. (xmltv_id=OLYHD Olympic Channel) -- mode Incremental
-i...........................nnnnnnnnnnnnnnn
+i..........................nnnnnnnnnnnnnnnnnnnnn
 
 (  79/111 ) REDBULL.TV -- chan. (xmltv_id=RedBull TV) -- mode Incremental
-innnnnnnnnnnnnnnnnnn
+innnnnnnnnnnnnnnnnnnn
 
    Summary for update of       RedBull TV
      missing shows added       0
      changed shows updated     0
-     new shows added           19
+     new shows added           20
      unchanged shows inspected 0
-     total after update        19
+     total after update        34
 
 (  80/111 ) TVTV.US -- chan. (xmltv_id=The Tennis Channel) -- mode Incremental
-iii.................................................nnnnnnnnnnnnnnnnnnnnnnnnnn
+iii.................................................nnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       The Tennis Channel
      missing shows added       0
      changed shows updated     0
-     new shows added           26
+     new shows added           29
      unchanged shows inspected 49
-     total after update        75
+     total after update        78
 
 (  81/111 ) NBA.COM -- chan. (xmltv_id=NBA TV) -- mode Incremental
-iiinnnnnnnnnnnncrrrrrrrrrrrrrr..............cccccccccccrrrrrrrrrrrrrr..............cccccccccccnnnnnnnnnnn
+iiinnnnnnnnncrrrrrrrrrrrrr............ccccccccccccccrrrrrrrrrrrrr............ccccccccccccccnnnnnnnnnn
 
    Summary for update of       NBA TV
-     missing shows added       28
-     changed shows updated     23
-     new shows added           23
-     unchanged shows inspected 28
-     total after update        88
+     missing shows added       26
+     changed shows updated     29
+     new shows added           19
+     unchanged shows inspected 24
+     total after update        86
 
 (  82/111 ) TVTV.US -- chan. (xmltv_id=ESPN) -- mode Incremental
-iii...................................................................nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iii........................................................................nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       ESPN
      missing shows added       0
      changed shows updated     0
-     new shows added           37
-     unchanged shows inspected 67
-     total after update        104
+     new shows added           38
+     unchanged shows inspected 72
+     total after update        110
 
 (  83/111 ) TVTV.US -- chan. (xmltv_id=ESPN2) -- mode Incremental
-iii......................nnnnnnnnnnnn
+iii..........................nnnnnnnnnnnnnnn
 
    Summary for update of       ESPN2
      missing shows added       0
      changed shows updated     0
-     new shows added           12
-     unchanged shows inspected 22
-     total after update        34
+     new shows added           15
+     unchanged shows inspected 26
+     total after update        41
 
 (  84/111 ) TVTV.US -- chan. (xmltv_id=Fox Sports 1) -- mode Incremental
-iii.....................nnnnnnnnnnnnnnnnn
+iii.....................................nnnnnnnnnnnnnnnnnn
 
    Summary for update of       Fox Sports 1
      missing shows added       0
      changed shows updated     0
-     new shows added           17
-     unchanged shows inspected 21
-     total after update        38
+     new shows added           18
+     unchanged shows inspected 37
+     total after update        55
 
 (  85/111 ) TVTV.US -- chan. (xmltv_id=Fox Sports 2) -- mode Incremental
-iii........................nnnnnnnnn
+iii....................nnnnnnnnnnnnn
 
    Summary for update of       Fox Sports 2
      missing shows added       0
      changed shows updated     0
-     new shows added           9
-     unchanged shows inspected 24
+     new shows added           13
+     unchanged shows inspected 20
      total after update        33
 
 (  86/111 ) TVTV.US -- chan. (xmltv_id=NBC Sports Network) -- mode Incremental
-iii................................nnnnnnnnnnnnnnnnn
+iii...................................nnnnnnnnnnnnnnnnnnn
 
    Summary for update of       NBC Sports Network
      missing shows added       0
      changed shows updated     0
-     new shows added           17
-     unchanged shows inspected 32
-     total after update        49
+     new shows added           19
+     unchanged shows inspected 35
+     total after update        54
 
 (  87/111 ) PLUTO.TV.E -- chan. (xmltv_id=Adventure TV) -- mode Incremental
 i
@@ -503,7 +538,7 @@ no index page data received from Fight Time
 unable to update channel, try again later
 Existing guide data restored!
 (  89/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=El Garage TV) -- mode Incremental
-iii............................................................................................................................
+iii..................................................................................................................................
 
 (  90/111 ) PLUTO.TV.E -- chan. (xmltv_id=Wipeout) -- mode Incremental
 iii
@@ -524,26 +559,26 @@ iii........nnnnn
      total after update        13
 
 (  93/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=BBC World) -- mode Incremental
-iii........................................................................................................................................
+iii................................................................................................................
 
 (  94/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=CNN Int) -- mode Incremental
-iii.......................................................................
+iii...............................................................
 
 (  95/111 ) ELPAIS.COM.E -- chan. (xmltv_id=CNBC) -- mode Incremental
-iii..............................................................
+iii...............................................
 
 (  96/111 ) MOVISTARPLUS.ES -- chan. (xmltv_id=Fox News) -- mode Incremental
-iii..........................................................
+iii.........................................................
 
 (  97/111 ) TVTV.US -- chan. (xmltv_id=NASA Public Educational Channel) -- mode Incremental
-iii.......................................................nnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
+iii..........................................................nnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnnn
 
    Summary for update of       NASA Public Educational Channel
      missing shows added       0
      changed shows updated     0
-     new shows added           30
-     unchanged shows inspected 55
-     total after update        85
+     new shows added           35
+     unchanged shows inspected 58
+     total after update        93
 
 (  98/111 ) ELPAIS.COM.E -- chan. (xmltv_id=40TV) -- mode Incremental
 iii
@@ -556,7 +591,7 @@ no shows in indexpage!
 ( 100/111 ) ORANGE.ES.EK -- chan. (xmltv_id=Mezzo Live) -- skipped --> encrypted SiteIni
 
 ( 101/111 ) ELPAIS.COM.E -- chan. (xmltv_id=Sol Música) -- mode Incremental
-iii.......................
+iii.................
 
 ( 102/111 ) EMPTY -- chan. (xmltv_id=TOP Latino) -- mode Incremental
 Unable to update channel TOP Latino
@@ -572,23 +607,23 @@ Existing guide data restored!
 iii...........
 
 ( 104/111 ) CANALDIGITAAL.NL.E -- chan. (xmltv_id=Retro Music TV) -- mode Incremental
-i................nnnnnnnnnnnnnn
+i...........................nnnnnnnnnnnnn
 
 
 ( 105/111 ) ORANGE.ES.EK -- chan. (xmltv_id=MTV Live) -- skipped --> encrypted SiteIni
 
 ( 106/111 ) ELPAIS.COM.E -- chan. (xmltv_id=MTV Hits) -- mode Incremental
-iii.........................
+iii..........................
 
 ( 107/111 ) ELPAIS.COM.E -- chan. (xmltv_id=MTV Rocks) -- mode Incremental
 iii.............................
 
 ( 108/111 ) ELPAIS.COM.E -- chan. (xmltv_id=MTV Dance) -- mode Incremental
-iii.........................
+iii.......................
 
 
 
-Job finished at 20/09/2020 12:03:49 done in 3m 47s
+Job finished at 22/09/2020 12:04:46 done in 4m 44s
 
 -Remplazando xmltv.xml
 
@@ -598,14 +633,14 @@ Job finished at 20/09/2020 12:03:49 done in 3m 47s
 
 -Subiendo a Github
 
-[master 5447a59] Updated
- 1 file changed, 2156 insertions(+), 2390 deletions(-)
+[master de1a0d2] Updated
+ 1 file changed, 8399 insertions(+), 6224 deletions(-)
 To https://github.com/GoVi-48/GoVi-EPG.git
-   473003e..5447a59  master -> master
+   6ee9a3c..de1a0d2  master -> master
 Rama 'master' configurada para hacer seguimiento a la rama remota 'master' de 'origin'.
 
 
 -Completado
-12:04 - 20/09/2020
+12:04 - 22/09/2020
 
 ====================================================================================

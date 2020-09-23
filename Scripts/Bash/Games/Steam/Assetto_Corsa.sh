@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
 
-ENABLE_VKBASALT=0
+export ENABLE_VKBASALT=0
 
+qdbus org.kde.KWin /Compositor suspend
+killall latte-dock
+killall plasmashell
 killall polybar
 
 gamemoderun steam steam://rungameid/244210 &
@@ -9,8 +12,12 @@ gamemoderun steam steam://rungameid/244210 &
 sleep 20
 
 while pgrep -x AssettoCorsa.ex > /dev/null; do sleep 1; done
+    sleep 5
     killall steam
-    sleep 1
     killall lutris
     killall gamemoded
-    ~/Scripts/Bash/Polybar
+    qdbus org.kde.KWin /Compositor resume
+    latte-dock &
+    plasmashell > /dev/null 2>&1 & 
+    $HOME/Scripts/Bash/Polybar 
+    exit

@@ -1,7 +1,9 @@
 #!/usr/bin/env bash
 
-killall polybar
 qdbus org.kde.KWin /Compositor suspend
+killall latte-dock
+killall polybar
+killall plasmashell
 
 export WINEPREFIX=~/Wine/wine-pfx_lutris/wine-pfx_Trials_Fusion
 export WINE=~/Wine/wine-build_Lutris/wine-build_5.7.10-lutris/bin/wine64
@@ -12,8 +14,10 @@ gamemoderun $WINE "trials_fusion.exe"
 sleep 5
 
 while pgrep -x "UbisoftGameLaun" > /dev/null; do sleep 1; done
-    qdbus org.kde.KWin /Compositor resume
     killall upc.exe
     killall lutris
     killall gamemoded
-    ~/Scripts/Bash/Polybar
+    qdbus org.kde.KWin /Compositor resume
+    $HOME/Scripts/Bash/Polybar
+    latte-dock &
+    plasmashell > /dev/null 2>&1 & exit

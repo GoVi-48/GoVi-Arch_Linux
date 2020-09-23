@@ -5,11 +5,11 @@ killall latte-dock
 killall plasmashell
 killall polybar
 
-gamemoderun steam steam://rungameid/13597827194578534400
+gamemoderun steam steam://rungameid/10110539261779378176
 
 sleep 20
 
-while pgrep -x "NMS.exe" > /dev/null; do sleep 1; done
+while pgrep -x "re2.exe" > /dev/null; do sleep 1; done
     sleep 5
     killall steam
     killall lutris

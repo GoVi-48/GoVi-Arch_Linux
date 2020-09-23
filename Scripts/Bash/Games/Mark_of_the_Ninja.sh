@@ -1,13 +1,17 @@
 #!/usr/bin/env bash
 
-killall polybar
 qdbus org.kde.KWin /Compositor suspend
+killall latte-dock
+killall polybar
+killall plasmashell
 
 gamemoderun "/Media/Games/PC/Mark of the Ninja/./start.sh"
 
 sleep 5
 
-qdbus org.kde.KWin /Compositor resume
 killall lutris
 killall gamemoded
-~/Scripts/Bash/Polybar
+qdbus org.kde.KWin /Compositor resume
+$HOME/Scripts/Bash/Polybar
+latte-dock &
+plasmashell > /dev/null 2>&1 & exit

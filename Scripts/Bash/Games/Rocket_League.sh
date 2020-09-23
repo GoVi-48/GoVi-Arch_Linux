@@ -5,18 +5,16 @@ killall latte-dock
 killall polybar
 killall plasmashell
 
-export WINEESYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
-export WINEPREFIX=~/Wine/wine-pfx_proton/wine-pfx_HZD
-export WINE=~/Wine/wine-build_Proton/wine-build_Proton-5.9-GE-6-ST/dist/bin/wine64
+export WINEPREFIX=$HOME/Wine/wine-pfx_lutris/wine-pfx_Rocket_League
+export WINE=$HOME/Wine/wine-build_Lutris/wine-build_5.7.10-lutris/bin/wine64
 
-
-cd "$HOME/Games/-Library-/PC/Horizon Zero Dawn/"
-gamemoderun $WINE "HorizonZeroDawn.exe"
+cd "/Datos/Games/Epic Games/rocketleague/Binaries/Win64"
+gamemoderun $WINE "RocketLeague.exe" -epicportal
 
 sleep 5
 
-while pgrep -x "HorizonZeroDawn.exe" > /dev/null; do sleep 1; done
+while pgrep -x "RocketLeague.exe" > /dev/null; do sleep 1; done
     killall lutris
     killall gamemoded
     qdbus org.kde.KWin /Compositor resume

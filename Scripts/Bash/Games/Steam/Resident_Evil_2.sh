@@ -5,7 +5,7 @@ killall latte-dock
 killall plasmashell
 killall polybar
 
-gamemoderun steam steam://rungameid/10110539261779378176
+gamemoderun steam steam://rungameid/10110539261779378176 & 
 
 sleep 20
 

@@ -2,7 +2,7 @@
 
 killall polybar
 
-export WINEPREFIX=~/Wine/wine-pfx_lutris/wine-pfx_opengl
+export WINEPREFIX=~/Wine/wine-pfx_lutris/wine-pfx_PS
 export WINE=~/Wine/wine-build_Lutris/wine-build_5.7.10-lutris/bin/wine64
 
 cd "/Windows/Portables/Adobe/Adobe Photoshop 2020"

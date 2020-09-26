@@ -44,36 +44,18 @@ Orientation=1
 Sizes=1095
 
 [1-ViewSpace 0]
-Active View=file:///home/govi/Scripts/Bash/Games/-Test/Resident_Evil_2.sh
-Count=3
-Documents=file:///Media/GoVi/Proyectos/Github/Arch-Linux-Gaming/Guía Linux Gaming.txt,file:///home/govi/Scripts/Bash/Games/Rocket_League.sh,file:///home/govi/Scripts/Bash/Games/-Test/Resident_Evil_2.sh
-View 0=file:///Media/GoVi/Proyectos/Github/Arch-Linux-Gaming/Guía Linux Gaming.txt
-View 1=file:///home/govi/Scripts/Bash/Games/Rocket_League.sh
-View 2=file:///home/govi/Scripts/Bash/Games/-Test/Resident_Evil_2.sh
+Active View=file:///home/govi/Scripts/Bash/nvidia_led.sh
+Count=1
+Documents=file:///home/govi/Scripts/Bash/nvidia_led.sh
+View 0=file:///home/govi/Scripts/Bash/nvidia_led.sh
 
-[1-ViewSpace 0 file:///Media/GoVi/Proyectos/Github/Arch-Linux-Gaming/Guía Linux Gaming.txt]
+[1-ViewSpace 0 file:///home/govi/Scripts/Bash/nvidia_led.sh]
 CursorColumn=0
-CursorLine=0
+CursorLine=3
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
 ViMarks=
-
-[1-ViewSpace 0 file:///home/govi/Scripts/Bash/Games/-Test/Resident_Evil_2.sh]
-CursorColumn=42
-CursorLine=14
-Dynamic Word Wrap=false
-JumpList=
-TextFolding=[]
-ViMarks=.,14,41,[,14,41,],14,41
-
-[1-ViewSpace 0 file:///home/govi/Scripts/Bash/Games/Rocket_League.sh]
-CursorColumn=0
-CursorLine=10
-Dynamic Word Wrap=false
-JumpList=
-TextFolding=[]
-ViMarks=.,12,11,[,12,11,],12,11
 
 [Document 0]
 Bookmarks=
@@ -83,27 +65,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-URL=file:///home/govi/Scripts/Bash/Games/Rocket_League.sh
-
-[Document 1]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=true
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-URL=file:///Media/GoVi/Proyectos/Github/Arch-Linux-Gaming/Guía Linux Gaming.txt
-
-[Document 2]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-URL=file:///home/govi/Scripts/Bash/Games/-Test/Resident_Evil_2.sh
+URL=file:///home/govi/Scripts/Bash/nvidia_led.sh
 
 [General]
 Last Session=
@@ -137,7 +99,7 @@ textfilterplugin=false
 NumberOfWindows=1
 
 [Open Documents]
-Count=3
+Count=1
 
 [Plugin:katesearchplugin:MainWindow:0]
 BinaryFiles=false
@@ -158,26 +120,26 @@ SearchDiskFiless=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/Scripts/Bash/Games/Launchers/Bethesda.sh
-File10[$e]=$HOME/Scripts/Bash/Games/-Test/Resident_Evil_2.sh
-File2[$e]=$HOME/Scripts/Bash/Games/A_Plague_Tale_Innocence.sh
-File3[$e]=$HOME/.local/share/applications/Games-Epic Games.desktop
-File4[$e]=$HOME/.bashrc
-File5[$e]=/Media/GoVi/Proyectos/Github/Arch-Linux-Gaming/Guía Linux Gaming.txt
-File6[$e]=$HOME/Scripts/Bash/Games/Rocket_League.sh
-File7[$e]=$HOME/Scripts/Bash/Games/Emulators/Cemu/Zelda_BOTW.sh
-File8[$e]=$HOME/Scripts/Bash/Games/Launchers/Epic_Games.sh
-File9[$e]=/Media/GoVi/Documentos/.GoVi-Docs/Games/Epic Games.txt
-Name1[$e]=Bethesda.sh
-Name10[$e]=Resident_Evil_2.sh
-Name2[$e]=A_Plague_Tale_Innocence.sh
-Name3[$e]=Games-Epic Games.desktop
-Name4[$e]=.bashrc
-Name5[$e]=Guía Linux Gaming.txt
-Name6[$e]=Rocket_League.sh
-Name7[$e]=Zelda_BOTW.sh
-Name8[$e]=Epic_Games.sh
-Name9[$e]=Epic Games.txt
+File1[$e]=/Datos/Games/PC/No Man's Sky GOG/Binaries/SteamConfig.ini
+File10[$e]=$HOME/Scripts/Bash/nvidia_led.sh
+File2[$e]=/Datos/Games/PC/No Man's Sky GOG/Binaries/SETTINGS/TKGRAPHICSSETTINGS.MXML
+File3[$e]=$HOME/Scripts/Bash/Games/Lutris/Remnant_From_The_Ashes.sh
+File4[$e]=$HOME/Scripts/Bash/Games/Lutris/DOOM_Eternal.sh
+File5[$e]=$HOME/Scripts/Bash/Games/Lutris/ARK Survival Evolved.sh
+File6[$e]=$HOME/Scripts/Bash/Games/Steam/NMS.sh
+File7[$e]=$HOME/Scripts/Bash/Games/Steam/Dirt_Rally.sh
+File8[$e]=$HOME/Scripts/Bash/Games/Steam/Assetto_Corsa.sh
+File9[$e]=$HOME/Scripts/Bash/Games/Steam/Resident_Evil_2.sh
+Name1[$e]=SteamConfig.ini
+Name10[$e]=nvidia_led.sh
+Name2[$e]=TKGRAPHICSSETTINGS.MXML
+Name3[$e]=Remnant_From_The_Ashes.sh
+Name4[$e]=DOOM_Eternal.sh
+Name5[$e]=ARK Survival Evolved.sh
+Name6[$e]=NMS.sh
+Name7[$e]=Dirt_Rally.sh
+Name8[$e]=Assetto_Corsa.sh
+Name9[$e]=Resident_Evil_2.sh
 
 [WindowProperties1]
 ClassName=KateMainWindow

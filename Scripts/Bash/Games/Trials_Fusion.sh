@@ -6,7 +6,7 @@ killall polybar
 killall plasmashell
 
 export WINEPREFIX=~/Wine/wine-pfx_lutris/wine-pfx_Trials_Fusion
-export WINE=~/Wine/wine-build_Lutris/wine-build_5.7.10-lutris/bin/wine64
+export WINE=~/Wine/wine-build_Lutris/wine-build_5.7.10/bin/wine64
 
 cd "/Datos/Games/Ubisoft/Trials Fusion/datapack"
 gamemoderun $WINE "trials_fusion.exe"

@@ -8,12 +8,13 @@ killall plasmashell
 export WINEPREFIX=~/Wine/wine-pfx_5.18/wine-pfx_dxvk-1.7.1-mf
 export WINE=~/Wine/wine-build_5.18-tkg/bin/wine64
 
-cd "$HOME/Games/-Library-/PC/Satisfactory"
-gamemoderun $WINE "FactoryGame.exe"
+cd "$HOME/Games/-Library-/PC/Serious Sam 4/Bin/x64"
+gamemoderun $WINE "Sam4.exe" +gfx_strAPI Vulkan +sfx_strAPI openal
+# +gfxapi VLK
 
 sleep 5
 
-while pgrep -x "FactoryGame.exe" > /dev/null; do sleep 1; done
+while pgrep -x "Sam4.exe" > /dev/null; do sleep 1; done
     killall lutris
     killall gamemoded
     qdbus org.kde.KWin /Compositor resume

@@ -2,4 +2,9 @@ game:
   exe: /home/govi/Scripts/Bash/Games/A_Plague_Tale_Innocence.sh
   working_dir: ~/Games/-Library-/PC/A Plague Tale Innocence
 linux: {}
-system: {}
+system:
+  env:
+    ENABLE_VKBASALT: '1'
+    MANGOHUD: '0'
+    MANGOHUD_DLSYM: '1'
+    WINEFSYNC: '1'

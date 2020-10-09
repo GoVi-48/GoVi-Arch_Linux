@@ -43,6 +43,7 @@
   <Include>
    <Filename>Epic Games-2.desktop</Filename>
    <Filename>Bethesda.desktop</Filename>
+   <Filename>Epic Games.desktop</Filename>
   </Include>
   <Exclude>
    <Filename>THC.desktop</Filename>
@@ -133,10 +134,11 @@
    <New>Cemu/Cemu Games</New>
   </Move>
   <Layout>
+   <Merge type="files"/>
+   <Filename>Epic Games.desktop</Filename>
    <Merge type="menus"/>
    <Menuname>Cemu</Menuname>
-   <Merge type="files"/>
-   <Filename>Games-Epic Games.desktop</Filename>
+   <Filename>rpcs3.desktop</Filename>
    <Filename>Bethesda.desktop</Filename>
    <Filename>Games-Origin.desktop</Filename>
    <Filename>retroarch.desktop</Filename>

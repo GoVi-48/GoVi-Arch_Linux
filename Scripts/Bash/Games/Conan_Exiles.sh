@@ -5,11 +5,13 @@ killall latte-dock
 killall polybar
 killall plasmashell
 
-export WINEPREFIX=~/Wine/wine-pfx_5.18/wine-pfx_dxvk-1.7.1-mf
+export WINEPREFIX=~/Wine/wine-pfx_5.18/wine-pfx_mf-dxvk-1.7.2
 export WINE=~/Wine/wine-build_5.18-tkg/bin/wine64
 
+ENABLE_VKBASALT=1
+
 cd "$HOME/Games/-Library-/PC/Conan Exiles"
-gamemoderun $WINE "ConanSandbox.exe"
+mangohud gamemoderun $WINE "ConanSandbox.exe"
 
 sleep 5
 

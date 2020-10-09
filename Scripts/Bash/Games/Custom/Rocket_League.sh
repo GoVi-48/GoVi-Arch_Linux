@@ -4,18 +4,16 @@ qdbus org.kde.KWin /Compositor suspend
 killall latte-dock
 killall polybar
 killall plasmashell
-
-export WINEPREFIX=~/Wine/wine-pfx_5.18/wine-pfx_mf-dxvk-1.7.2
-export WINE=~/Wine/wine-build_5.18-tkg/bin/wine64
-
-ENABLE_VKBASALT=1
   
-cd "$HOME/Games/-Library-/PC/Dying Light"
-mangohud gamemoderun $WINE "DyingLightGame.exe"
+export WINEPREFIX=~/Wine/wine-pfx_lutris/wine-pfx_Epic_Games
+export WINE=~/Wine/wine-build_Lutris/wine-build_5.7.10/bin/wine64
+
+cd "/Datos/Games/Epic Games/rocketleague/Binaries/Win64"
+gamemoderun $WINE "RocketLeague.exe" -epicportal
 
 sleep 5
 
-while pgrep -x "DyingLightGame.exe" > /dev/null; do sleep 1; done
+while pgrep -x "RocketLeague.exe" > /dev/null; do sleep 1; done
     killall lutris
     killall gamemoded
     qdbus org.kde.KWin /Compositor resume

@@ -10,12 +10,12 @@ export WINE=~/Wine/wine-build_5.18-tkg/bin/wine64
 
 ENABLE_VKBASALT=1
 
-cd "$HOME/Games/-Library-/PC/A Plague Tale Innocence"
-mangohud gamemoderun $WINE "APlagueTaleInnocence_x64.exe"
+cd "$HOME/Games/-Library-/PC/RIDE 4"
+mangohud gamemoderun $WINE "ride4.exe"
 
 sleep 5
 
-while pgrep -x "APlagueTaleInnocence_x64.exe" > /dev/null; do sleep 1; done
+while pgrep -x "ride4.exe" > /dev/null; do sleep 1; done
     killall lutris
     killall gamemoded
     qdbus org.kde.KWin /Compositor resume

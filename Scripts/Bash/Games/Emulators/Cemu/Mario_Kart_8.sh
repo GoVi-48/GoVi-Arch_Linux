@@ -17,4 +17,5 @@ killall gamemoded
 qdbus org.kde.KWin /Compositor resume
 $HOME/Scripts/Bash/Polybar
 latte-dock &
-plasmashell > /dev/null 2>&1 & exit
+plasmashell > /dev/null 2>&1 &
+exit

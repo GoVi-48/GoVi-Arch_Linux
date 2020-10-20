@@ -8,11 +8,12 @@ killall plasmashell
 export WINEESYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
 export WINEPREFIX=~/Wine/wine-pfx_proton/wine-pfx_HZD
-export WINE=~/Wine/wine-build_Proton/wine-build_Proton-5.9-GE-6-ST/dist/bin/wine64
+export WINE=~/Wine/wine-build_Proton/Proton-5.13/dist/bin/wine64
 
+ENABLE_VKBASALT=1
 
 cd "$HOME/Games/-Library-/PC/Horizon Zero Dawn/"
-gamemoderun $WINE "HorizonZeroDawn.exe"
+mangohud gamemoderun $WINE "HorizonZeroDawn.exe"
 
 sleep 5
 
@@ -22,4 +23,5 @@ while pgrep -x "HorizonZeroDawn.exe" > /dev/null; do sleep 1; done
     qdbus org.kde.KWin /Compositor resume
     $HOME/Scripts/Bash/Polybar
     latte-dock &
-    plasmashell > /dev/null 2>&1 & exit
+    plasmashell > /dev/null 2>&1 &
+    exit

@@ -5,7 +5,7 @@ killall latte-dock
 killall plasmashell
 killall polybar
 
-gamemoderun steam steam://rungameid/13597827194578534400 &
+mangohud gamemoderun steam steam://rungameid/13199544096852541440 &
 
 sleep 20
 
@@ -14,7 +14,7 @@ while pgrep -x "NMS.exe" > /dev/null; do sleep 1; done
     killall lutris
     killall gamemoded
     qdbus org.kde.KWin /Compositor resume
+    $HOME/Scripts/Bash/Polybar
     latte-dock &
-    plasmashell > /dev/null 2>&1 & 
-    $HOME/Scripts/Bash/Polybar 
+    plasmashell > /dev/null 2>&1 &
     exit

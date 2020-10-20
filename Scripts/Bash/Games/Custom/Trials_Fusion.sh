@@ -5,11 +5,14 @@ killall latte-dock
 killall polybar
 killall plasmashell
 
+export WINEDLLOVERRIDES="mscoree,mshtml="
 export WINEPREFIX=~/Wine/wine-pfx_lutris/wine-pfx_Trials_Fusion
 export WINE=~/Wine/wine-build_Lutris/wine-build_5.7.10/bin/wine64
 
+ENABLE_VKBASALT=1
+
 cd "/Datos/Games/Ubisoft/Trials Fusion/datapack"
-gamemoderun $WINE "trials_fusion.exe"
+mangohud gamemoderun $WINE "trials_fusion.exe"
 
 sleep 5
 
@@ -20,4 +23,5 @@ while pgrep -x "UbisoftGameLaun" > /dev/null; do sleep 1; done
     qdbus org.kde.KWin /Compositor resume
     $HOME/Scripts/Bash/Polybar
     latte-dock &
-    plasmashell > /dev/null 2>&1 & exit
+    plasmashell > /dev/null 2>&1 &
+    exit

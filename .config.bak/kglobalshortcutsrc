@@ -90,7 +90,7 @@ _k_friendly_name=KDE Daemon
 display=Display\t,Display\tMeta+P,Cambiar pantalla
 
 [khotkeys]
-_k_friendly_name=KDE Daemon
+_k_friendly_name=Servicio de accesos rápidos personalizados
 {01f1067a-4298-4491-b8bd-2be9c82ace79}=Meta+Q,none,Close Window
 {51678489-bb32-48b0-93b4-1579d06f56dc}=none,none,Launch Konsole
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Búsqueda
@@ -234,11 +234,11 @@ _k_friendly_name=KRunner
 _launch=\t\tSearch,none,KRunner
 
 [ksmserver]
-Halt Without Confirmation=none,none,Apagar sin confirmación
+Halt Without Confirmation=none,Ctrl+Alt+Shift+PgDown,Apagar sin confirmación
 Lock Session=Meta+L\tCtrl+Alt+L,Meta+L\tCtrl+Alt+L\tScreensaver,Bloquear la sesión
-Log Out=none,none,Cerrar la sesión
-Log Out Without Confirmation=none,none,Cerrar la sesión sin confirmación
-Reboot Without Confirmation=none,none,Reiniciar sin confirmación
+Log Out=none,Ctrl+Alt+Del,Cerrar la sesión
+Log Out Without Confirmation=none,Ctrl+Alt+Shift+Del,Cerrar la sesión sin confirmación
+Reboot Without Confirmation=none,Ctrl+Alt+Shift+PgUp,Reiniciar sin confirmación
 _k_friendly_name=Gestión de sesiones
 
 [kwin]
@@ -550,6 +550,7 @@ activate task manager entry 6=Meta+6,Meta+6,Activar la entrada 6 del gestor de t
 activate task manager entry 7=Meta+7,Meta+7,Activar la entrada 7 del gestor de tareas
 activate task manager entry 8=Meta+8,Meta+8,Activar la entrada 8 del gestor de tareas
 activate task manager entry 9=Meta+9,Meta+9,Activar la entrada 9 del gestor de tareas
+activate widget 104=none,none,Activar el elemento gráfico Reloj digital
 activate widget 18=Alt+F1,none,Activar el elemento gráfico Menú de aplicaciones
 activate widget 7=none,none,Activar el elemento gráfico Bandeja del sistema
 activate widget 89=none,none,Activar el elemento gráfico Informe meteorológico
@@ -558,7 +559,7 @@ clipboard_action=Ctrl+Alt+X,Ctrl+Alt+X,Habilitar las acciones del portapapeles
 cycleNextAction=none,none,Siguiente elemento del historial
 cyclePrevAction=none,none,Anterior elemento del historial
 edit_clipboard=none,none,Editar el contenido...
-manage activities=,Meta+Q,Actividades...
+manage activities=,Meta+Q,Mostrar el selector de actividad
 next activity=Meta+Tab,Meta+Tab,Recorrer las actividades
 previous activity=none,Meta+Shift+Tab,Recorrer las actividades (en orden inverso)
 repeat_action=Ctrl+Alt+R,Ctrl+Alt+R,Invocar manualmente la acción en el portapapeles actual

@@ -15,7 +15,8 @@ while pgrep -x "DOOMEternalx64vk.exe" > /dev/null; do sleep 1; done
     qdbus org.kde.KWin /Compositor resume
     $HOME/Scripts/Bash/Polybar
     latte-dock &
-    plasmashell > /dev/null 2>&1 & exit
+    plasmashell > /dev/null 2>&1 &
+    exit
 
 ##### Lutris Environment Variables ##### 
 # RADV_PERFTEST llvm

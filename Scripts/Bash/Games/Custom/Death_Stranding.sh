@@ -5,14 +5,15 @@ killall latte-dock
 killall polybar
 killall plasmashell
 
+ENABLE_VKBASALT=1
+export WINEFSYNC=1
+export MANGOHUD=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
 export WINEPREFIX=~/Wine/wine-pfx_5.19/wine-pfx_DS
 export WINE=~/Wine/wine-build_5.19-tkg/usr/bin/wine64
 
-ENABLE_VKBASALT=1
-
 cd "$HOME/Games/-Library-/PC/Death Stranding"
-mangohud gamemoderun $WINE "ds.exe"
+gamemoderun $WINE "ds.exe"
 
 sleep 5
 

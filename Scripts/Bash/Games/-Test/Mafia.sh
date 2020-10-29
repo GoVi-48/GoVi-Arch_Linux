@@ -5,13 +5,15 @@ killall latte-dock
 killall polybar
 killall plasmashell
 
-export WINEPREFIX=~/Wine/wine-pfx_proton/wine-pfx_Proton-5.13
-export WINE=~/Wine/wine-build_Proton/Proton-5.13/dist/bin/wine64
+MESA_EXTENSION_MAX_YEAR=2003
+export WINEDLLOVERRIDES="mscoree,mshtml="
+export WINEPREFIX=~/Wine/wine-pfx_5.19/wine-pfx_mf-dxvk-1.7.2
+export WINE=~/Wine/wine-build_5.19-tkg/usr/bin/wine64
 
 ENABLE_VKBASALT=1
 
-cd "$HOME/Games/-Library-/PC/Mafia"
-mangohud gamemoderun $WINE "mafiadefinitiveedition.exe"
+cd "/Datos/Games/PC/Mafia"
+gamemoderun $WINE "mafiadefinitiveedition.exe"
 
 sleep 5
 

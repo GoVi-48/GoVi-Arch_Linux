@@ -25,6 +25,7 @@ Width 1920=1336
 ConfirmClosingMultipleTabs=false
 FilterBar=true
 GlobalViewProps=false
+LockPanels=false
 RememberOpenedTabs=false
 ShowCopyMoveMenu=true
 ShowFullPath=true
@@ -45,8 +46,8 @@ listViewIconSize=0
 treeViewIconSize=0
 
 [KPropertiesDialog]
-HDMI-0 Height 1080=444
-HDMI-0 Width 1920=422
+HDMI-0 Height 1080=472
+HDMI-0 Width 1920=651
 Height 1080=442
 Width 1920=444
 
@@ -55,18 +56,17 @@ HDMI-0 Height 1080=873
 HDMI-0 Height 480=367
 HDMI-0 Height 900=822
 HDMI-0 Width 1600=1272
-HDMI-0 Width 1920=1289
+HDMI-0 Width 1920=1264
 HDMI-0 Width 640=632
-HDMI-0 XPosition=0
-HDMI-0 YPosition=0
+HDMI-0 XPosition=35
+HDMI-0 YPosition=130
 Height 1050=936
 Height 1080=867
 Height 480=366
 Height 720=642
 Height 900=786
 MenuBar=Disabled
-RestorePositionForNextInstance=false
-State=AAAA/wAAAAD9AAAAAwAAAAAAAADGAAADQ/wCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAmAAAAfQAAAAoBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAmAAADQwAAAF0BAAADAAAAAQAAAMgAAAND/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAACYAAANDAAABDwEAAAMAAAADAAAEgAAAAL78AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAEgAAAAAoBAAADAAADeQAAA0MAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
+State=AAAA/wAAAAD9AAAAAwAAAAAAAADGAAADQ/wCAAAAAvsAAAAWAGYAbwBsAGQAZQByAHMARABvAGMAawAAAAAmAAAAfQAAACIBAAAD+wAAABQAcABsAGEAYwBlAHMARABvAGMAawEAAAAmAAADQwAAAHUBAAADAAAAAQAAALAAAAND/AIAAAAB+wAAABAAaQBuAGYAbwBEAG8AYwBrAQAAACYAAANDAAABJwEAAAMAAAADAAAEgAAAAL78AQAAAAH7AAAAGAB0AGUAcgBtAGkAbgBhAGwARABvAGMAawAAAAAAAAAEgAAAAEQBAAADAAADeAAAA0MAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAACAAAAAQAAABYAbQBhAGkAbgBUAG8AbwBsAEIAYQByAQAAAAD/////AAAAAAAAAAA=
 ToolBarsMovable=Disabled
 Width 1280=1272
 Width 1600=1285
@@ -82,7 +82,7 @@ ConfirmDelete=true
 
 [Open-with settings]
 CompletionMode=1
-History=kat,aud,auda,Auda,Ala,audac,kate,pho,for,forg,'/home/govi/.wine/drive_c/Program Files/Adobe Photoshop CC 2019/Photoshop.exe'
+History=kate,kde,kat,aud,auda,Auda,Ala,audac,pho,for,forg,'/home/govi/.wine/drive_c/Program Files/Adobe Photoshop CC 2019/Photoshop.exe'
 
 [PreviewSettings]
 Plugins=audiothumbnail,fontthumbnail,ffmpegthumbs,djvuthumbnail,directorythumbnail,kraorathumbnail,windowsexethumbnail,imagethumbnail,windowsimagethumbnail,exrthumbnail,jpegthumbnail,svgthumbnail,comicbookthumbnail

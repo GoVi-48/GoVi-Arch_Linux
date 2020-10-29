@@ -8,7 +8,7 @@ killall plasmashell
 export WINEESYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
 export WINEPREFIX=~/Wine/wine-pfx_proton/wine-pfx_HZD
-export WINE=~/Wine/wine-build_Proton/Proton-5.13/dist/bin/wine64
+export WINE=~/Wine/wine-build_Proton/Proton-5.13-1/dist/bin/wine64
 
 ENABLE_VKBASALT=1
 

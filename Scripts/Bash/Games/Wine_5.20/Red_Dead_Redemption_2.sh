@@ -1,0 +1,34 @@
+#!/usr/bin/env bash
+
+# qdbus org.kde.KWin /Compositor suspend
+# killall latte-dock
+# killall polybar
+# killall plasmashell
+
+# WINEDEBUG=-all,relay
+PULSE_LATENCY_MSEC=60
+export WINEFSYNC=1
+export WINEDLLOVERRIDES="dxgi=n,b"
+export MANGOHUD=0
+export ENABLE_VKBASALT=1
+
+export WINEPREFIX=~/Wine/wine_5.20/wine-pfx_RDR2
+export WINE=~/Wine/wine_5.20/wine-build_5.20-tkg-Custom/bin/wine64
+
+cd "$HOME/Games/-Library-/PC/Red Dead Redemption 2"
+gamemoderun $WINE "Launcher.exe" -ignorepipelinecache -vulkan & sleep 10
+
+PID=$(pgrep RDR2.exe)
+kill -s SIGSTOP $PID
+kill -s SIGCONT $PID
+
+# sleep 5
+# 
+# while pgrep -x "RDR2.exe" > /dev/null; do sleep 1; done
+#     killall lutris
+#     killall gamemoded
+#     qdbus org.kde.KWin /Compositor resume
+#     $HOME/Scripts/Bash/Polybar
+#     latte-dock &
+#     plasmashell > /dev/null 2>&1 &
+#     exit

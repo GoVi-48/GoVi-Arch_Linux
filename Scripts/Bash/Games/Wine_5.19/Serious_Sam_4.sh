@@ -10,11 +10,11 @@ export WINEDLLOVERRIDES="mscoree,mshtml="
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
-export WINEPREFIX=~/Wine/wine_5.20/wine-pfx_SS4
-export WINE=~/Wine/wine_5.20/wine-build_5.20-tkg/usr/bin/wine64
+export WINEPREFIX=~/Wine/wine_5.19/wine-pfx_SS4
+export WINE=~/Wine/wine_5.19/wine-build_5.19-tkg/usr/bin/wine64
 
 cd "$HOME/Games/-Library-/PC/Serious Sam 4/Bin/x64"
-$WINE "Sam4.exe" +gfx_strAPI Vulkan +sfx_strAPI openal
+gamemoderun $WINE "Sam4.exe" +gfx_strAPI Vulkan +sfx_strAPI openal
 # +gfxapi VLK
 
 sleep 5

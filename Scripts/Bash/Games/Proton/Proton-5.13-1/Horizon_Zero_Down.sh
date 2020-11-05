@@ -5,14 +5,13 @@ killall latte-dock
 killall polybar
 killall plasmashell
 
-# export WINEESYNC=1
 export WINEFSYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
 export WINEPREFIX=~/Wine/wine_Proton/wine-pfx_HZD
-export WINE=~/Wine/wine_Proto/Proton-5.13-1/dist/bin/wine64
+export WINE=~/Wine/wine_Proton/Proton-5.13-1/dist/bin/wine64
 
 cd "$HOME/Games/-Library-/PC/Horizon Zero Dawn/"
 mangohud gamemoderun $WINE "HorizonZeroDawn.exe"

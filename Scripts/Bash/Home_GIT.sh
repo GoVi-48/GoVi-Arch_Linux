@@ -32,4 +32,16 @@ git commit -m "Updated"
 git push -u origin master
 
 kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg
-xdg-open https://github.com/GoVi-48/GoVi-Arch-Linux
+
+echo "Press 'Enter' to continue"
+count=0
+while : ; do
+    read -n 1 k <&1
+if [[ $k = Enter ]] ; then
+    printf "\nOpening Github\n"
+fi
+done
+
+# xdg-open https://github.com/GoVi-48/GoVi-Arch-Linux
+firefox https://github.com/GoVi-48/GoVi-Arch-Linux
+

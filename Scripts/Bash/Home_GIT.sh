@@ -33,15 +33,20 @@ git push -u origin master
 
 kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg
 
-echo "Press 'Enter' to continue"
-count=0
-while : ; do
-    read -n 1 k <&1
-if [[ $k = Enter ]] ; then
-    printf "\nOpening Github\n"
-fi
+while true; do
+    echo -en "Press Enter to continue"
+    echo .
+    read -rsn1 input
+        if [[ $input = "" ]];then
+            echo "Opening Github"
+            firefox https://github.com/GoVi-48/GoVi-Arch-Linux
+            exit
+        else 
+            echo "Invalid Key."
+        fi
 done
 
+
 # xdg-open https://github.com/GoVi-48/GoVi-Arch-Linux
-firefox https://github.com/GoVi-48/GoVi-Arch-Linux
+
 

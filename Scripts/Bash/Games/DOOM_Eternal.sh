@@ -1,0 +1,1 @@
+/home/govi/Scripts/Bash/Games/Lutris/DOOM_Eternal.sh

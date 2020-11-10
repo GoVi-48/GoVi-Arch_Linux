@@ -1,0 +1,1 @@
+/home/govi/Scripts/Bash/Games/Wine_5.18/Metro_2033_Redux.sh

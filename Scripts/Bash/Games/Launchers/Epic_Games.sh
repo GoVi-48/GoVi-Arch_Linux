@@ -1,0 +1,1 @@
+/home/govi/Scripts/Bash/Games/Lutris/wine_5.7.11/Epic_Games.sh

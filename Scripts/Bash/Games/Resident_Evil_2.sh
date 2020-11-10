@@ -1,0 +1,1 @@
+/home/govi/Scripts/Bash/Games/Steam/Resident_Evil_2.sh

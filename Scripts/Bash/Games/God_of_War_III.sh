@@ -1,0 +1,1 @@
+/home/govi/Scripts/Bash/Games/Emulators/RPCS3/God_of_War_III.sh

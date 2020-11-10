@@ -14,7 +14,7 @@ export WINEPREFIX=~/Wine/wine_5.18/wine-pfx_mf-dxvk-1.7.2
 export WINE=~/Wine/wine_5.18/wine-build_5.18-tkg/bin/wine
 
 cd "/Datos/Games/Epic Games/Metro2033Redux"
-mangohud gamemoderun $WINE "metro.exe" -epicportal
+gamemoderun $WINE "metro.exe" -epicportal
 
 sleep 5
 

@@ -14,7 +14,7 @@ export WINEPREFIX=~/Wine/wine_5.18/wine-pfx_mf-dxvk-1.7.2
 export WINE=~/Wine/wine_5.18/wine-build_5.18-tkg/bin/wine
 
 cd "$HOME/Games/-Library-/PC/Dark Souls III/Game"
-mangohud gamemoderun $WINE "DarkSoulsIII.exe"
+gamemoderun $WINE "DarkSoulsIII.exe"
 
 sleep 5
 

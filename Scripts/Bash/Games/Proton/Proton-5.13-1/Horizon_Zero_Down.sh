@@ -14,7 +14,7 @@ export WINEPREFIX=~/Wine/wine_Proton/wine-pfx_HZD
 export WINE=~/Wine/wine_Proton/Proton-5.13-1/dist/bin/wine64
 
 cd "$HOME/Games/-Library-/PC/Horizon Zero Dawn/"
-mangohud gamemoderun $WINE "HorizonZeroDawn.exe"
+gamemoderun $WINE "HorizonZeroDawn.exe"
 
 sleep 5
 

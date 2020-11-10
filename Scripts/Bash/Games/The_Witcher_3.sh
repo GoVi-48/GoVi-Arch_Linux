@@ -1,0 +1,1 @@
+/home/govi/Scripts/Bash/Games/Wine_5.20/The_Witcher_3.sh

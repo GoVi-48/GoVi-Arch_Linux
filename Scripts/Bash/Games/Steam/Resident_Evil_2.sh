@@ -2,15 +2,19 @@
 
 qdbus org.kde.KWin /Compositor suspend
 killall latte-dock
-killall plasmashell
 killall polybar
+killall plasmashell
 
-mangohud gamemoderun steam steam://rungameid/10110539261779378176 & 
+export WINEFSYNC=1
+export WINEDLLOVERRIDES="mscoree,mshtml="
+export MANGOHUD=1
+export ENABLE_VKBASALT=1
+
+gamemoderun steam steam://rungameid/10110539261779378176 & 
 
 sleep 20
 
 while pgrep -x "re2.exe" > /dev/null; do sleep 1; done
-    sleep 5
     killall steam
     killall lutris
     killall gamemoded

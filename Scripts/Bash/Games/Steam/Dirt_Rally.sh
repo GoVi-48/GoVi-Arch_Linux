@@ -2,10 +2,15 @@
  
 qdbus org.kde.KWin /Compositor suspend
 killall latte-dock
-killall plasmashell
 killall polybar
+killall plasmashell
 
-mangohud gamemoderun steam steam://rungameid/310560 &
+export WINEFSYNC=1
+export WINEDLLOVERRIDES="mscoree,mshtml="
+export MANGOHUD=1
+export ENABLE_VKBASALT=1
+
+gamemoderun steam steam://rungameid/310560 &
 
 sleep 10
 

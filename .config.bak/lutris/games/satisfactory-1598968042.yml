@@ -2,4 +2,9 @@ game:
   exe: /home/govi/Scripts/Bash/Games/Satisfactory.sh
   working_dir: ~/Games/-Library-/PC/Satisfactory
 linux: {}
-system: {}
+system:
+  disable_screen_saver: false
+  env: {}
+  prefer_system_libs: true
+  terminal: true
+  xephyr_fullscreen: true

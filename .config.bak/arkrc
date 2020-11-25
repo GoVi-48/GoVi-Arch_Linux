@@ -1,7 +1,13 @@
 [CreateDialog]
 LastMimeType=application/x-7z-compressed
 
+[ExtractDialog]
+DirHistory[$e]=$HOME/Descargas/
+
 [KFileDialog Settings]
+Recent Files[$e]=file:$HOME,file:$HOME
+Recent URLs[$e]=file:$HOME/Descargas/
+iconViewIconSize=43
 listViewIconSize=0
 
 [KTextEditor Document]
@@ -106,12 +112,10 @@ splitterSizes=533,266
 [Recent Files]
 File1[$e]=$HOME/Games/-Library-/SEGA/Sonic Collection/Sonic CD (Europe).zip
 File2[$e]=$HOME/.cemu/cemuhook_1159_0573.zip
-File3[$e]=$HOME/.steam/steam/steam/games/12994f449cd37849e0625d7450a3f104b6469112.zip
-File4[$e]=$HOME/.config/vivaldi/Default/File System/008/p/00/00000009
+File3[$e]=$HOME/Descargas/-Transmission/Satisfactory.The.Fluids.Early.Access.zip
 Name1[$e]=Sonic CD (Europe).zip
 Name2[$e]=cemuhook_1159_0573.zip
-Name3[$e]=12994f449cd37849e0625d7450a3f104b6469112.zip
-Name4[$e]=00000009
+Name3[$e]=Satisfactory.The.Fluids.Early.Access.zip
 
 [Viewer]
 Height 1080=511

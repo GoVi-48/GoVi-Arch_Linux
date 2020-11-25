@@ -1,18 +1,20 @@
 #!/usr/bin/env bash
 
-export ENABLE_VKBASALT=0
-
 qdbus org.kde.KWin /Compositor suspend
 killall latte-dock
-killall plasmashell
 killall polybar
+killall plasmashell
 
-mangohud gamemoderun steam steam://rungameid/244210 &
+export WINEFSYNC=1
+export WINEDLLOVERRIDES="mscoree,mshtml="
+export MANGOHUD=1
+export ENABLE_VKBASALT=1
+
+gamemoderun steam steam://rungameid/244210 &
 
 sleep 20
 
 while pgrep -x AssettoCorsa.ex > /dev/null; do sleep 1; done
-    sleep 5
     killall steam
     killall lutris
     killall gamemoded

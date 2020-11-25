@@ -10,8 +10,8 @@ export WINEDLLOVERRIDES="mscoree,mshtml="
 export MANGOHUD=0
 export ENABLE_VKBASALT=0
 
-export WINEPREFIX=~/Wine/wine_5.20/wine-pfx_mf-dxvk-1.7.2
-export WINE=~/Wine/wine_5.20/wine-build_5.20-tkg/usr/bin/wine
+export WINEPREFIX=~/Wine/wine_5.22/wine-pfx_mf-dxvk-1.7.2
+export WINE=~/Wine/wine_5.22/wine-tkg/usr/bin/wine
 
 cd "/Datos/Games/PC/Mafia - Definitive Edition"
 $WINE "mafiadefinitiveedition.exe"

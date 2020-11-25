@@ -1,1 +1,1 @@
-/home/govi/Scripts/Bash/Games/Wine_5.20/Satisfactory.sh
+/home/govi/Scripts/Bash/Games/Lutris/wine_5.7.11/Satisfactory.sh

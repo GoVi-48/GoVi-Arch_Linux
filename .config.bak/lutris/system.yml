@@ -2,12 +2,10 @@ system:
   aco: true
   disable_compositor: false
   disable_runtime: true
+  disable_screen_saver: false
   dri_prime: false
-  env:
-    ENABLE_VKBASALT: '1'
-    MANGOHUD: '1'
-    MANGOHUD_DLSYM: '1'
-    WINEFSYNC: '1'
+  env: {}
   game_path: ~/Games/-Library-/PC
   gamemode: false
   prefer_system_libs: true
+  terminal: true

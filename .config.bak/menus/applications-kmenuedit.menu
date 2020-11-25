@@ -240,9 +240,10 @@
    <Filename>Webgrab to GIT.desktop</Filename>
   </Exclude>
   <Layout>
+   <Merge type="files"/>
+   <Filename>Polybar.desktop</Filename>
    <Merge type="menus"/>
    <Menuname>XUtilities</Menuname>
-   <Merge type="files"/>
    <Filename>balena-etcher-electron.desktop</Filename>
    <Filename>org.gnome.FontManager.desktop</Filename>
    <Filename>org.gnome.FontViewer.desktop</Filename>
@@ -258,6 +259,9 @@
    <Separator/>
    <Menuname>More</Menuname>
   </Layout>
+  <Include>
+   <Filename>Polybar.desktop</Filename>
+  </Include>
  </Menu>
  <Menu>
   <Name>Graphics</Name>

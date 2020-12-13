@@ -1,15 +1,29 @@
 #!/usr/bin/env bash
 
-killall polybar
-qdbus org.kde.KWin /Compositor suspend
+game_location="/home/$USER/Games/PC/Metro Last Light Redux/"
+game_executable="metro"
 
-cd "$HOME/Games/-Library-/PC/Metro Last Light Redux"
-mangohud gamemoderun ./metro
+export MANGOHUD=1
+export ENABLE_VKBASALT=1
 
-sleep 5
+cd "$game_location"
+gamemoderun "./metro"
 
-while pgrep -x "metro" > /dev/null; do sleep 1; done
+while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
+
+if pgrep -x $game_executable; then
+    qdbus org.kde.KWin /Compositor suspend
+    killall latte-dock
+    killall polybar
+fi
+
+while pgrep -x $game_executable > /dev/null; do sleep 1; done
+    
+if ! pgrep -x $game_executable; then
     qdbus org.kde.KWin /Compositor resume
+    /home/$USER/Scripts/Bash/Polybar 
+    /home/$USER/Scripts/Bash/Latte_Dock.sh &
     killall lutris
+    sleep 1
     killall gamemoded
-    ~/Scripts/Bash/Polybar
+fi

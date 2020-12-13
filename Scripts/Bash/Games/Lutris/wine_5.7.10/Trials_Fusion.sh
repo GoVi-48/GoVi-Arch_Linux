@@ -1,27 +1,35 @@
 #!/usr/bin/env bash
 
-qdbus org.kde.KWin /Compositor suspend
-killall latte-dock
-killall polybar
-killall plasmashell
+game_executable="trials_fusion.exe"
+game_location="/Datos/Games/Ubisoft/Trials Fusion/datapack"
 
+export WINEPREFIX="/home/$USER/Wine/wine_Lutris/wine-pfx_Trials_Fusion"
+export WINE="/home/$USER/Wine/wine_Lutris/wine-build_5.7.10/bin/wine"
+
+export WINEFSYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
-export WINEPREFIX=~/Wine/wine-pfx_lutris/wine-pfx_Trials_Fusion
-export WINE=~/Wine/wine-build_Lutris/wine-build_5.7.10/bin/wine64
+export MANGOHUD=1
+export ENABLE_VKBASALT=1
 
-ENABLE_VKBASALT=1
+cd "$game_location"
+gamemoderun $WINE $game_executable
 
-cd "/Datos/Games/Ubisoft/Trials Fusion/datapack"
-mangohud gamemoderun $WINE "trials_fusion.exe"
+while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
 
-sleep 5
+if pgrep -x $game_executable; then
+    qdbus org.kde.KWin /Compositor suspend
+    killall latte-dock
+    killall polybar
+fi
 
 while pgrep -x "UbisoftGameLaun" > /dev/null; do sleep 1; done
+    
+if ! pgrep -x "UbisoftGameLaun"; then
+    qdbus org.kde.KWin /Compositor resume
+    /home/$USER/Scripts/Bash/Polybar 
+    /home/$USER/Scripts/Bash/Latte_Dock.sh &
     killall upc.exe
     killall lutris
+    sleep 1
     killall gamemoded
-    qdbus org.kde.KWin /Compositor resume
-    $HOME/Scripts/Bash/Polybar
-    latte-dock &
-    plasmashell > /dev/null 2>&1 &
-    exit
+fi       

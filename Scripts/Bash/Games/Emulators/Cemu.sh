@@ -1,1 +1,0 @@
-/home/govi/Scripts/Bash/Games/Wine_5.18/Cemu/Cemu.sh

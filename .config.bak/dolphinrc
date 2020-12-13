@@ -38,8 +38,8 @@ IconSize=48
 MaximumTextLines=3
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Games/-Library-/PC/Shadow of the Tomb Raider/start,file:$HOME/Imágenes/Icons/Other/CannabisPower.png,file:$HOME/Imágenes/Icons/Games/Png/Joystick Arcade_2.png,file:$HOME/Scripts/Bash/Games/Emulators/RPCS3/God_of_War_III.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Launchers/Uplay.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Launchers/Origin.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Launchers/Bethesda.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Trials_Evolution.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/The_Witcher_3.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Satisfactory.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Red_Dead_Redemption_2.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Ori_WOTW.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Ori_TBF.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Ghostrunner.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Death_Stranding.sh,file:$HOME/Scripts/Bash/Games/Wine_5.19/Serious_Sam_4.sh
-Recent URLs[$e]=file:$HOME/Scripts/Bash/Games/Steam/,file:$HOME/Scripts/Bash/Games/Wine_5.18/,file:$HOME/Scripts/Bash/Games/Wine_5.18/Cemu/,file:$HOME/Scripts/Bash/Games/Wine_5.19/,file:$HOME/Scripts/Bash/Games/Wine_5.20/,file:$HOME/Scripts/Bash/Games/,file:$HOME/,file:$HOME/Scripts/Bash/Games/Wine_5.20/Launchers/,file:$HOME/Scripts/Bash/Games/Emulators/RPCS3/,file:$HOME/Imágenes/Icons/Games/Png/,file:$HOME/Imágenes/Icons/Other/
+Recent Files[$e]=file:$HOME/Scripts/Bash/Games/Emulators/Cemu/Zelda_BOTW.sh,file:$HOME/Scripts/Bash/Games/Wine_5.22/Cyberpunk_2077.sh,file:$HOME/Scripts/Bash/Games/Proton/Proton-5.21-GE-1/Crysis_Remastered.sh,file:$HOME/Scripts/Bash/Games/Emulators/Cemu/Mario_Kart_8.sh,file:$HOME/Scripts/Bash/Games/Emulators/Cemu/Cemu.sh,file:$HOME/Imágenes/Icons/Other/CannabisPower.png,file:$HOME/Imágenes/Icons/Games/Png/Joystick Arcade_2.png,file:$HOME/Scripts/Bash/Games/Emulators/RPCS3/God_of_War_III.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Launchers/Uplay.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Launchers/Origin.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Launchers/Bethesda.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Trials_Evolution.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/The_Witcher_3.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Red_Dead_Redemption_2.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Ghostrunner.sh,file:$HOME/Scripts/Bash/Games/Wine_5.20/Death_Stranding.sh
+Recent URLs[$e]=file:$HOME/,file:$HOME/Scripts/Bash/Games/Wine_5.20/Launchers/,file:$HOME/Scripts/Bash/Games/Emulators/RPCS3/,file:$HOME/Imágenes/Icons/Games/Png/,file:$HOME/Imágenes/Icons/Other/,file:$HOME/Scripts/Bash/Games/Emulators/Cemu/,file:$HOME/Scripts/Bash/Games/Emulators/,file:$HOME/Scripts/Bash/Games/Wine_5.18/,file:$HOME/Scripts/Bash/Games/Wine_5.18/Cemu/,file:$HOME/Scripts/Bash/Games/Proton/Proton-5.21-GE-1/,file:$HOME/Scripts/Bash/Games/Wine_5.22/
 detailViewIconSize=0
 iconViewIconSize=43
 listViewIconSize=0
@@ -47,7 +47,7 @@ treeViewIconSize=0
 
 [KPropertiesDialog]
 HDMI-0 Height 1080=444
-HDMI-0 Width 1920=437
+HDMI-0 Width 1920=418
 Height 1080=442
 Width 1920=444
 
@@ -60,8 +60,8 @@ HDMI-0 Width 1280=1264
 HDMI-0 Width 1600=1272
 HDMI-0 Width 1920=1264
 HDMI-0 Width 640=632
-HDMI-0 XPosition=66
-HDMI-0 YPosition=168
+HDMI-0 XPosition=62
+HDMI-0 YPosition=129
 Height 1050=936
 Height 1080=867
 Height 480=366
@@ -85,7 +85,7 @@ ConfirmDelete=true
 
 [Open-with settings]
 CompletionMode=1
-History=kate,kde,kat,aud,auda,Auda,Ala,audac,pho,for,forg,'/home/govi/.wine/drive_c/Program Files/Adobe Photoshop CC 2019/Photoshop.exe'
+History=kate,alac,kde,kat,aud,auda,Auda,Ala,audac,pho,for,forg,'/home/govi/.wine/drive_c/Program Files/Adobe Photoshop CC 2019/Photoshop.exe'
 
 [PreviewSettings]
 Plugins=audiothumbnail,fontthumbnail,ffmpegthumbs,djvuthumbnail,directorythumbnail,kraorathumbnail,windowsexethumbnail,imagethumbnail,windowsimagethumbnail,exrthumbnail,jpegthumbnail,svgthumbnail,comicbookthumbnail
@@ -94,6 +94,8 @@ Plugins=audiothumbnail,fontthumbnail,ffmpegthumbs,djvuthumbnail,directorythumbna
 What=Content
 
 [SettingsDialog]
+HDMI-0 Height 1080=452
+HDMI-0 Width 1920=942
 Height 1080=450
 Width 1920=942
 

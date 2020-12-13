@@ -1,1 +1,1 @@
-/home/govi/Scripts/Bash/Games/Proton/Proton-5.13/Horizon_Zero_Down.sh
+/home/govi/Scripts/Bash/Games/Proton/Proton-5.21-GE-1/Horizon_Zero_Down.sh

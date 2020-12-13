@@ -1,14 +1,29 @@
 #!/usr/bin/env bash
 
-killall polybar
-qdbus org.kde.KWin /Compositor suspend
+game_location="/home/$USER/Games/PC/Shadow of the Tomb Raider/"
+game_executable="ShadowOfTheTombRaider"
 
-gamemoderun "$HOME/Games/-Library-/PC/Shadow of the Tomb Raider/start"
+export MANGOHUD=1
+export ENABLE_VKBASALT=1
 
-sleep 5
+cd "$game_location"
+gamemoderun "./start"
 
-while pgrep -x "ShadowOfTheTombRaider" > /dev/null; do sleep 1; done
+while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
+
+if pgrep -x $game_executable; then
+    qdbus org.kde.KWin /Compositor suspend
+    killall latte-dock
+    killall polybar
+fi
+
+while pgrep -x $game_executable > /dev/null; do sleep 1; done
+    
+if ! pgrep -x $game_executable; then
     qdbus org.kde.KWin /Compositor resume
+    /home/$USER/Scripts/Bash/Polybar 
+    /home/$USER/Scripts/Bash/Latte_Dock.sh &
     killall lutris
+    sleep 1
     killall gamemoded
-    ~/Scripts/Bash/Polybar
+fi

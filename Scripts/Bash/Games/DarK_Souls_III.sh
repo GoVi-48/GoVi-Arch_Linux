@@ -1,1 +1,1 @@
-/home/govi/Scripts/Bash/Games/Wine_5.18/DarK_Souls_III.sh
+/home/govi/Scripts/Bash/Games/Wine_5.21/DarK_Souls_III.sh

@@ -14,7 +14,7 @@ Include = /etc/pacman.d/mirrorlist
 $ sudo pacman -Syu
 
 # Packages
-$ sudo pacman -S alacritty audacity elisa exa ffmpeg gimp htop inkscape kdenlive lm_sensors latte-dock mono neofetch obs-studio transmission-qt virtualbox vlc youtube-dl
+$ sudo pacman -S alacritty audacity elisa exa ffmpeg gimp htop inkscape kdenlive lm_sensors mono neofetch obs-studio transmission-qt virtualbox vlc youtube-dl
 $ sudo pacman -S ark bc conky extra-cmake-modules gparted icoutils jdk-openjdk kate kcalc kdialog net-tools okular packagekit-qt5 spectacle unrar zip wget
 
 # Antivirus
@@ -34,7 +34,7 @@ $ git clone https://aur.archlinux.org/yay.git
 $ cd yay
 $ makepkg -si PKGBUILD
 
-$ yay -S ttf-ms-fonts balena-etcher discord dropbox font-manager java-8-openjdk picard skype spotify teamviewer timeshift tiny-media-manager vivaldi
+$ yay -S ttf-ms-fonts balena-etcher discord dropbox font-manager java-8-openjdk latte-dock-git picard skype spotify teamviewer timeshift tiny-media-manager vivaldi
 
 # Kodi
 $ sudo pacman -S kodi kodi-x11

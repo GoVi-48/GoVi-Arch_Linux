@@ -1,26 +1,34 @@
 #!/usr/bin/env bash
 
-qdbus org.kde.KWin /Compositor suspend
-killall latte-dock
-killall polybar
-killall plasmashell
+game_executable="RocketLeague.exe"
+game_location="/Datos/Games/Epic Games/rocketleague/Binaries/Win64/"
 
-export WINEDLLOVERRIDES="mscoree,mshtml="  
-export WINEPREFIX=~/Wine/wine-pfx_lutris/wine-pfx_Epic_Games
-export WINE=~/Wine/wine-build_Lutris/wine-build_5.7.10/bin/wine64
+export WINEPREFIX="/home/$USER/Wine/wine-pfx_lutris/wine-pfx_Epic_Games"
+export WINE="/home/$USER/Wine/wine_Lutris/wine-build_5.7.10/bin/wine64"
 
-ENABLE_VKBASALT=1
+export WINEFSYNC=1
+export WINEDLLOVERRIDES="mscoree,mshtml="
+export MANGOHUD=1
+export ENABLE_VKBASALT=1
 
-cd "/Datos/Games/Epic Games/rocketleague/Binaries/Win64"
-mangohud gamemoderun $WINE "RocketLeague.exe" -epicportal
+cd "$game_location"
+gamemoderun $WINE $game_executable -epicportal
 
-sleep 5
+while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
 
-while pgrep -x "RocketLeague.exe" > /dev/null; do sleep 1; done
-    killall lutris
-    killall gamemoded
+if pgrep -x $game_executable; then
+    qdbus org.kde.KWin /Compositor suspend
+    killall latte-dock
+    killall polybar
+fi
+
+while pgrep -x $game_executable > /dev/null; do sleep 1; done
+    
+if ! pgrep -x $game_executable; then
     qdbus org.kde.KWin /Compositor resume
-    $HOME/Scripts/Bash/Polybar
-    latte-dock &
-    plasmashell > /dev/null 2>&1 &
-    exit
+    /home/$USER/Scripts/Bash/Polybar 
+    /home/$USER/Scripts/Bash/Latte_Dock.sh &
+    killall lutris
+    sleep 1
+    killall gamemoded
+fi       

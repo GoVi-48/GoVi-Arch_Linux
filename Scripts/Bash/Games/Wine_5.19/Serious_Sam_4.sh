@@ -1,29 +1,34 @@
 #!/usr/bin/env bash
 
-qdbus org.kde.KWin /Compositor suspend
-killall latte-dock
-killall polybar
-killall plasmashell
+game_executable="Sam4.exe"
+game_location="/home/$USER/Games/PC/Serious Sam 4/Bin/x64/"
+
+export WINEPREFIX="/home/$USER/Wine/wine_5.19/wine-pfx_SS4"
+export WINE="/home/$USER/Wine/wine_5.21/wine-build_tkg/usr/bin/wine64"
 
 export WINEFSYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
-export WINEPREFIX=~/Wine/wine_5.19/wine-pfx_SS4
-export WINE=~/Wine/wine_5.21/wine-tkg-staging-fsync-git/usr/bin/wine64
+cd "$game_location"
+gamemoderun $WINE $game_executable +gfx_strAPI Vulkan +sfx_strAPI openal
 
-cd "$HOME/Games/-Library-/PC/Serious Sam 4/Bin/x64"
-gamemoderun $WINE "Sam4.exe" +gfx_strAPI Vulkan +sfx_strAPI openal
-# +gfxapi VLK
+while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
 
-sleep 5
+if pgrep -x $game_executable; then
+    qdbus org.kde.KWin /Compositor suspend
+    killall latte-dock
+    killall polybar
+fi
 
-while pgrep -x "Sam4.exe" > /dev/null; do sleep 1; done
-    killall lutris
-    killall gamemoded
+while pgrep -x $game_executable > /dev/null; do sleep 1; done
+    
+if ! pgrep -x $game_executable; then
     qdbus org.kde.KWin /Compositor resume
-    $HOME/Scripts/Bash/Polybar
-    latte-dock &
-    plasmashell > /dev/null 2>&1 &
-    exit
+    /home/$USER/Scripts/Bash/Polybar 
+    /home/$USER/Scripts/Bash/Latte_Dock.sh &
+    killall lutris
+    sleep 1
+    killall gamemoded
+fi       

@@ -1,0 +1,1 @@
+/home/govi/Scripts/Bash/Games/Proton/Proton-5.21-GE-1/Crysis_Remastered.sh

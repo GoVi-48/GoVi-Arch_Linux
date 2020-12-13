@@ -36,6 +36,7 @@
    <Filename>jshell-java-openjdk.desktop</Filename>
    <Filename>Webgrab to GIT.desktop</Filename>
    <Filename>onboard-settings.desktop</Filename>
+   <Filename>retroarch.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -44,6 +45,7 @@
    <Filename>Epic Games-2.desktop</Filename>
    <Filename>Bethesda.desktop</Filename>
    <Filename>Epic Games.desktop</Filename>
+   <Filename>Emulation Station.desktop</Filename>
   </Include>
   <Exclude>
    <Filename>THC.desktop</Filename>
@@ -52,6 +54,7 @@
    <Filename>Games-cemu.desktop</Filename>
    <Filename>Games-Games-cemu.desktop</Filename>
    <Filename>goverlay.desktop</Filename>
+   <Filename>retroarch.desktop</Filename>
   </Exclude>
   <Menu>
    <Name>Wine</Name>
@@ -135,13 +138,13 @@
   </Move>
   <Layout>
    <Merge type="files"/>
+   <Filename>Emulation Station.desktop</Filename>
    <Filename>Epic Games.desktop</Filename>
    <Merge type="menus"/>
    <Menuname>Cemu</Menuname>
    <Filename>rpcs3.desktop</Filename>
    <Filename>Bethesda.desktop</Filename>
    <Filename>Games-Origin.desktop</Filename>
-   <Filename>retroarch.desktop</Filename>
    <Filename>Games-steam.desktop</Filename>
    <Filename>Games-Uplay.desktop</Filename>
    <Filename>net.lutris.Lutris.desktop</Filename>

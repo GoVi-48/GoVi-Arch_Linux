@@ -1,44 +1,46 @@
-00:00:00.002113 main     VirtualBox XPCOM Server 6.1.16 r140961 linux.amd64 (Oct 20 2020 18:52:28) release log
-00:00:00.002115 main     Log opened 2020-11-15T15:57:39.611424000Z
-00:00:00.002115 main     Build Type: release
-00:00:00.002117 main     OS Product: Linux
-00:00:00.002118 main     OS Release: 5.9.8-zen1-1-zen
-00:00:00.002119 main     OS Version: #1 ZEN SMP PREEMPT Tue, 10 Nov 2020 22:44:06 +0000
-00:00:00.002142 main     DMI Product Name: Z97-HD3
-00:00:00.002148 main     DMI Product Version: To be filled by O.E.M.
-00:00:00.002152 main     Firmware type: UEFI
-00:00:00.002641 main     Secure Boot: Disabled
-00:00:00.002670 main     Host RAM: 15927MB (15.5GB) total, 12513MB (12.2GB) available
-00:00:00.002676 main     Executable: /usr/lib/virtualbox/VBoxSVC
-00:00:00.002676 main     Process ID: 575820
-00:00:00.002677 main     Package type: LINUX_64BITS_GENERIC (OSE)
-00:00:00.004072 main     IPC socket path: /tmp/.vbox-govi-ipc/ipcd
-00:00:00.117646 nspr-2   VirtualBox: object creation starts
-00:00:00.117703 nspr-2   Home directory: '/home/govi/.config/VirtualBox'
-00:00:00.117926 nspr-2   Loading settings file "/home/govi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-00:00:00.122444 nspr-2   HostDnsMonitor: initializing
-00:00:00.122819 nspr-2   NAT: resolv.conf: nameserver 192.168.0.1
-00:00:00.122841 nspr-2   HostDnsMonitor: updating information
-00:00:00.122857 nspr-2   HostDnsMonitor: old information
-00:00:00.122859 nspr-2     no server entries
-00:00:00.122861 nspr-2     no domain set
-00:00:00.122862 nspr-2     no search string entries
-00:00:00.122864 nspr-2   HostDnsMonitor: new information
-00:00:00.122865 nspr-2     server 1: 192.168.0.1
-00:00:00.122867 nspr-2     no domain set
-00:00:00.122869 nspr-2     no search string entries
-00:00:00.126414 nspr-2   VD: VDInit finished with VINF_SUCCESS
-00:00:00.126956 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
-00:00:00.154019 nspr-2   Loading settings file "/Datos/Virtual Machines/Windows 10 LTSC_x64/Windows 10 LTSC_x64.vbox" with version "1.15-linux"
-00:00:00.155230 nspr-2   VirtualBox: object created
-00:00:00.680077 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:01.021157 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-00:00:01.023565 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
-02:01:21.105142 nspr-2   Saving settings file "/home/govi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-02:01:21.137062 nspr-4   Saving settings file "/home/govi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
-02:01:26.657847 main     VirtualBox: object deletion starts
-02:01:26.657885 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/Datos/Virtual Machines/Windows 10 LTSC_x64.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
-02:01:26.658126 main     HostDnsMonitor: shutting down ...
-02:01:26.661882 main     HostDnsMonitor: shut down
-02:01:26.762797 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
-02:01:27.583790 main     VirtualBox: object deleted
+00:00:00.003704 main     VirtualBox XPCOM Server 6.1.16 r140961 linux.amd64 (Oct 20 2020 18:52:28) release log
+00:00:00.003705 main     Log opened 2020-12-01T10:42:57.269851000Z
+00:00:00.003706 main     Build Type: release
+00:00:00.003708 main     OS Product: Linux
+00:00:00.003708 main     OS Release: 5.9.11-zen2-1-zen
+00:00:00.003709 main     OS Version: #1 ZEN SMP PREEMPT Sat, 28 Nov 2020 02:08:52 +0000
+00:00:00.003732 main     DMI Product Name: Z97-HD3
+00:00:00.003738 main     DMI Product Version: To be filled by O.E.M.
+00:00:00.003741 main     Firmware type: UEFI
+00:00:00.004264 main     Secure Boot: Disabled
+00:00:00.004293 main     Host RAM: 15927MB (15.5GB) total, 13473MB (13.1GB) available
+00:00:00.004298 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.004299 main     Process ID: 484730
+00:00:00.004299 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.005484 main     IPC socket path: /tmp/.vbox-govi-ipc/ipcd
+00:00:00.112187 nspr-2   VirtualBox: object creation starts
+00:00:00.112245 nspr-2   Home directory: '/home/govi/.config/VirtualBox'
+00:00:00.112475 nspr-2   Loading settings file "/home/govi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.117149 nspr-2   HostDnsMonitor: initializing
+00:00:00.117231 nspr-2   NAT: resolv.conf: nameserver 192.168.0.1
+00:00:00.117241 nspr-2   HostDnsMonitor: updating information
+00:00:00.117253 nspr-2   HostDnsMonitor: old information
+00:00:00.117255 nspr-2     no server entries
+00:00:00.117257 nspr-2     no domain set
+00:00:00.117258 nspr-2     no search string entries
+00:00:00.117260 nspr-2   HostDnsMonitor: new information
+00:00:00.117261 nspr-2     server 1: 192.168.0.1
+00:00:00.117263 nspr-2     no domain set
+00:00:00.117265 nspr-2     no search string entries
+00:00:00.120336 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.120848 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.190072 nspr-2   Loading settings file "/Datos/Virtual Machines/Windows 10 LTSC_x64/Windows 10 LTSC_x64.vbox" with version "1.15-linux"
+00:00:00.193255 nspr-2   VirtualBox: object created
+00:00:00.632284 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:00.879244 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:00.879947 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:45:34.315710 nspr-3   Saving settings file "/home/govi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:45:34.343211 nspr-4   Saving settings file "/home/govi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:45:34.352640 nspr-2   Saving settings file "/home/govi/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:45:39.866798 main     VirtualBox: object deletion starts
+00:45:39.866855 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={ad47ad09-787b-44ab-b343-a082a3f2dfb1} aComponent={MediumWrap} aText={Medium '/Datos/Virtual Machines/Windows 10 LTSC_x64.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+00:45:39.867431 main     HostDnsMonitor: shutting down ...
+00:45:39.871034 main     HostDnsMonitor: shut down
+00:45:40.250549 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:45:44.871118 main     {00007fb4ac017f70} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:45:44.871274 main     VirtualBox: object deleted

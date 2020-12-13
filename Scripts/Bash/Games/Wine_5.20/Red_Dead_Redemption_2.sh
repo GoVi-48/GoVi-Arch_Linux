@@ -1,34 +1,47 @@
 #!/usr/bin/env bash
 
-# qdbus org.kde.KWin /Compositor suspend
-# killall latte-dock
-# killall polybar
-# killall plasmashell
+game_executable="RDR2.exe"
+game_location="/home/$USER/Games/PC/Red Dead Redemption 2/"
+
+export WINEPREFIX="/home/$USER/Wine/wine_5.20/wine-pfx_RDR2"
+export WINE="/home/$USER/Wine/wine_5.20/wine-build_tkg-Custom/bin/wine"
 
 # WINEDEBUG=-all,relay
 PULSE_LATENCY_MSEC=60
 export WINEFSYNC=1
 export WINEDLLOVERRIDES="dxgi=n,b"
-export MANGOHUD=0
+export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
-export WINEPREFIX=~/Wine/wine_5.20/wine-pfx_RDR2
-export WINE=~/Wine/wine_5.20/wine-build_5.20-tkg-Custom/bin/wine64
+cd "$game_location"
+gamemoderun $WINE $game_executable -ignorepipelinecache -vulkan &
 
-cd "$HOME/Games/-Library-/PC/Red Dead Redemption 2"
-gamemoderun $WINE "Launcher.exe" -ignorepipelinecache -vulkan & sleep 10
+sleep 10
 
-PID=$(pgrep RDR2.exe)
-kill -s SIGSTOP $PID
-kill -s SIGCONT $PID
+if pgrep -x $game_executable; then
+    PID=$(pgrep $game_executable)
+    kill -s SIGSTOP $PID
+    kill -s SIGCONT $PID
+fi
 
-# sleep 5
-# 
-# while pgrep -x "RDR2.exe" > /dev/null; do sleep 1; done
-#     killall lutris
-#     killall gamemoded
-#     qdbus org.kde.KWin /Compositor resume
-#     $HOME/Scripts/Bash/Polybar
-#     latte-dock &
-#     plasmashell > /dev/null 2>&1 &
-#     exit
+sleep 5
+
+while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
+
+if pgrep -x $game_executable; then
+    qdbus org.kde.KWin /Compositor suspend
+    killall latte-dock
+    killall polybar
+fi
+
+while pgrep -x $game_executable > /dev/null; do sleep 1; done
+    
+if ! pgrep -x $game_executable; then
+    qdbus org.kde.KWin /Compositor resume
+    /home/$USER/Scripts/Bash/Polybar 
+    /home/$USER/Scripts/Bash/Latte_Dock.sh &
+    killall lutris
+    sleep 1
+    killall gamemoded
+fi
+

@@ -1,19 +1,31 @@
 #!/usr/bin/env bash
- 
-qdbus org.kde.KWin /Compositor suspend
-killall latte-dock
-killall polybar
-killall plasmashell
+
+game_executable="ShooterGame.exe"
+
+export WINEFSYNC=1
+export WINEDLLOVERRIDES="mscoree,mshtml="
+export MANGOHUD=1
+export ENABLE_VKBASALT=1
 
 lutris lutris:rungameid/16 &
 
 sleep 2
 
-while pgrep -x "ShooterGame.exe" > /dev/null; do sleep 1; done
-    killall lutris
-    killall gamemoded
+while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
+
+if pgrep -x $game_executable; then
+    qdbus org.kde.KWin /Compositor suspend
+    killall latte-dock
+    killall polybar
+fi
+
+while pgrep -x $game_executable > /dev/null; do sleep 1; done
+    
+if ! pgrep -x $game_executable; then
     qdbus org.kde.KWin /Compositor resume
-    $HOME/Scripts/Bash/Polybar
-    latte-dock &
-    plasmashell > /dev/null 2>&1 &
-    exit
+    /home/$USER/Scripts/Bash/Polybar 
+    /home/$USER/Scripts/Bash/Latte_Dock.sh &
+    killall lutris
+    sleep 1
+    killall gamemoded
+fi

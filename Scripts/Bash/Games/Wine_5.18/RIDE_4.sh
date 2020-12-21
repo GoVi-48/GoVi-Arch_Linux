@@ -1,18 +1,20 @@
 #!/usr/bin/env bash
 
+games_location="/home/$USER/Games/PC/"
+game_folder="RIDE 4/"
 game_executable="ride4.exe"
-game_location="/home/$USER/Games/PC/RIDE 4/"
 
 export WINEPREFIX="/home/$USER/Wine/wine_5.18/wine-pfx_mf-dxvk-1.7.2"
 export WINE="/home/$USER/Wine/wine_5.18/wine-build_tkg/bin/wine"
 
-export WINEFSYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
+export WINEFSYNC=1
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
-cd "$game_location"
-gamemoderun $WINE $game_executable
+cd "$games_location""$game_folder"
+gamemoderun $WINE "$game_executable"
+
 
 while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
 

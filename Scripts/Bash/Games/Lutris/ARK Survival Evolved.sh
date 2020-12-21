@@ -2,12 +2,13 @@
 
 game_executable="ShooterGame.exe"
 
-export WINEFSYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
+export WINEFSYNC=1
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
 lutris lutris:rungameid/16 &
+
 
 sleep 2
 

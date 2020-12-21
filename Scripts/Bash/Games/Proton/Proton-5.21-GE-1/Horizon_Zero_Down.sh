@@ -1,18 +1,20 @@
 #!/usr/bin/env bash
 
+games_location="/home/$USER/Games/PC/"
+game_folder="Horizon Zero Dawn/"
 game_executable="HorizonZeroDawn.exe"
-game_location="/home/$USER/Games/PC/Horizon Zero Dawn/"
 
 export WINEPREFIX="/home/$USER/Wine/wine_Proton/wine-pfx_HZD"
 export WINE="/home/$USER/Wine/wine_Proton/Proton-5.21-GE-1/dist/bin/wine"
 
-export WINEFSYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
+export WINEFSYNC=1
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
-cd "$game_location"
-gamemoderun $WINE $game_executable
+cd "$games_location""$game_folder"
+gamemoderun $WINE "$game_executable"
+
 
 while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
 

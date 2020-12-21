@@ -2,12 +2,13 @@
 
 game_executable="DOOMEternalx64vk.exe"
 
-export WINEFSYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
+export WINEFSYNC=1
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
 gamemoderun lutris lutris:rungameid/7 &
+
 
 while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
 

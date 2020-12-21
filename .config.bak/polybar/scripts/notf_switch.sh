@@ -1,13 +1,11 @@
 #!/usr/bin/env bash
 
-notf_on=~/.config/polybar/scripts/notf_on
-notf_off=~/.config/polybar/scripts/notf_off
+notf_sound=~/.config/polybar/scripts/notf_sound
 
-if [ -f $notf_on ]; then
-    rm -f $notf_on
-    touch $notf_off
+if [ -f $notf_sound ]; then
+    rm -f $notf_sound
     
 else
-    touch $notf_on
-    rm $notf_off
+    touch $notf_sound
+    
 fi

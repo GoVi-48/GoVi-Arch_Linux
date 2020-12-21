@@ -1,1 +1,0 @@
-/home/govi/Scripts/Bash/Games/Lutris/wine_5.7.10/Trials_Fusion.sh

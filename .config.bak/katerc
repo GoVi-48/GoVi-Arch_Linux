@@ -14,6 +14,7 @@ Width 1920=1054
 Close After Last=false
 Config Revision=10
 Days Meta Infos=30
+Expand Tabs=true
 Last Session=
 Modified Notification=false
 Quick Open List Mode=0
@@ -25,11 +26,13 @@ Show Full Path in Title=false
 Show Menu Bar=true
 Show Status Bar=true
 Show Tab Bar=true
+Show Tabs Close Button=true
 Startup Session=last
+Tabbar Tab Limit=0
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Proyectos/Github/Arch-Linux-Gaming/Guía Linux Gaming.txt,file:$HOME/Scripts/Bash/Games/Satisfactory.sh,file:$HOME/Scripts/Bash/Games/Red_Dead_Redemption_2.sh,file:$HOME/Scripts/Bash/Games/-Launch_Game.sh,file:$HOME/Scripts/Bash/Games/Conan_Exiles.sh,file:$HOME/Scripts/Bash/Polybar,file:$HOME/Proyectos/Github/GoVi-Arch-Linux/Howto Arch,file:$HOME/Proyectos/Github/GoVi-Arch-Linux/Arch Install.txt,file:$HOME/Scripts/Bash/Games/Horizon_Zero_Down.sh,file:$HOME/Scripts/Bash/Photoshop.sh,file:$HOME/Scripts/Bash/Games/Proton/Proton-5.21-GE-1/Crysis_Remastered.sh,file:$HOME/Scripts/Bash/Games/Grounded.sh,file:$HOME/Scripts/Bash/Games/Wine_5.21/Conan_Exiles.sh,file:$HOME/Scripts/Bash/Games/Wine_5.21/Green_Hell.sh
-Recent URLs[$e]=file:$HOME/Scripts/Bash/Games/Wine_5.20/,file:///Media/Games/PC/Red Dead Redemption 2/,file:$HOME/Scripts/Bash/Games/,file:$HOME/Proyectos/,file:$HOME/Scripts/Bash/Games/-Test/,file:$HOME/Scripts/Bash/Games/Steam/,file:$HOME/Scripts/Bash/,file:$HOME/,file:$HOME/Scripts/Bash/Games/Wine_5.22/,file:$HOME/Documentos/,file:$HOME/Scripts/Bash/Games/Proton/
+Recent Files[$e]=file:$HOME/Proyectos/Github/Arch-Linux-Gaming/Guía Linux Gaming.txt,file:$HOME/Scripts/Bash/Photoshop.sh,file:$HOME/Scripts/Bash/Games/Satisfactory.sh,file:$HOME/Scripts/Bash/Games/Red_Dead_Redemption_2.sh,file:$HOME/Scripts/Bash/Games/-Launch_Game.sh,file:$HOME/Scripts/Bash/Games/Conan_Exiles.sh,file:$HOME/Scripts/Bash/Polybar,file:$HOME/Proyectos/Github/GoVi-Arch-Linux/Howto Arch,file:$HOME/Proyectos/Github/GoVi-Arch-Linux/Arch Install.txt,file:$HOME/Scripts/Bash/Games/Horizon_Zero_Down.sh,file:$HOME/Scripts/Bash/Games/Proton/Proton-5.21-GE-1/Crysis_Remastered.sh,file:$HOME/Scripts/Bash/Games/Grounded.sh,file:$HOME/Scripts/Bash/Games/Wine_5.21/Conan_Exiles.sh,file:$HOME/Scripts/Bash/Games/Wine_5.21/Green_Hell.sh
+Recent URLs[$e]=file:$HOME/Scripts/Bash/Games/-Test/,file:$HOME/Scripts/Bash/Games/Steam/,file:$HOME/Scripts/Bash/,file:$HOME/,file:$HOME/Scripts/Bash/Games/Wine_5.22/,file:$HOME/Documentos/,file:$HOME/Scripts/Bash/Games/Proton/,file:$HOME/Scripts/,file:$HOME/Scripts/Bash/Games/Lutris/wine_5.7.10/,file:$HOME/Proyectos/Github/Arch-Linux-Gaming/,file:$HOME/Scripts/Bash/Games/
 detailViewIconSize=0
 iconViewIconSize=43
 listViewIconSize=0
@@ -74,8 +77,8 @@ Fallback Encoding=ISO-8859-15
 
 [KTextEditor Renderer]
 Animate Bracket Matching=false
-Auto Color Theme Selection=true
-Color Theme=Breeze Dark
+Auto Color Theme Selection=false
+Color Theme=GoVi
 Font=Hack,10,-1,7,50,0,0,0,0,0
 Schema=Monokai
 Show Indentation Lines=false
@@ -131,20 +134,20 @@ Word Completion Remove Tail=true
 Search History=tar,j,vsync,WINEPREFIX=~/Wine/wine-pfx_5.13-dxvk-1.7-mf,vs,UnFocusHDIndicator,addon,tools,m ,formula,formula 1,res,cpu,date,bottom,font-0,ttf,background,backgr,colors,font,Mangohud,gam,govi,git,vulkan,WheelScrollLines,text,"MenuText"="219 220 222",Text,open min,winetricks,under,4023,export,#!/usr/bin/env xdg-open,timebar,disney,clan,estrenos,m.,preview,4311,4314,4315,4301,now,button_up,mute,vol,error,warning,Label3
 
 [MainWindow]
-HDMI-0 Height 1080=834
+HDMI-0 Height 1080=836
 HDMI-0 Height 480=371
 HDMI-0 Height 720=607
-HDMI-0 Height 900=822
+HDMI-0 Height 900=821
 HDMI-0 Width 1280=1126
 HDMI-0 Width 1600=1126
-HDMI-0 Width 1920=1126
+HDMI-0 Width 1920=1089
 HDMI-0 Width 640=636
-HDMI-0 XPosition=-4
-HDMI-0 YPosition=168
+HDMI-0 XPosition=0
+HDMI-0 YPosition=205
 Height 1080=840
 Height 768=480
 Height 900=787
-State=AAAA/wAAAAD9AAAAAAAABGYAAAL+AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABEEAAAMFAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 ToolBarsMovable=Disabled
 Width 1024=1016
 Width 1600=1126
@@ -152,6 +155,10 @@ Width 1920=1126
 
 [MainWindow][Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
+
+[Open-with settings]
+CompletionMode=1
+History=ala
 
 [UiSettings]
 ColorScheme=Brisa oscuro

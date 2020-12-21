@@ -2,7 +2,8 @@ system:
   game_path: ~/Games/-Library-/PC
   prefer_system_libs: false
 wine:
-  esync: true
+  esync: false
+  fsync: true
   system_winetricks: false
   version: lutris-5.7-3-x86_64
   vkd3d: true

@@ -1,18 +1,20 @@
 #!/usr/bin/env bash
 
+games_location="home/$USER/Games/PC/"
+game_folder="The Witcher 3 Wild Hunt/bin/x64/"
 game_executable="witcher3.exe"
-game_location="/Datos/Games/PC/The Witcher 3 Wild Hunt/bin/x64/"
 
 export WINEPREFIX="/home/$USER/Wine/wine_5.20/wine-pfx_mf-dxvk-1.7.2"
 export WINE="/home/$USER/Wine/wine_5.20/wine-build_tkg/usr/bin/wine64"
 
-export WINEFSYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
+export WINEFSYNC=1
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
-cd "$game_location"
-gamemoderun $WINE $game_executable
+cd "$games_location""$game_folder"
+gamemoderun $WINE "$game_executable"
+
 
 while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
 

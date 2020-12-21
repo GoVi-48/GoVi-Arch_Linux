@@ -16,6 +16,10 @@ _launch=,,Alacritty
 _k_friendly_name=Among Trees
 _launch=none,none,Lanzar Among Trees
 
+[cairo-dock-cairo.desktop]
+_k_friendly_name=Cairo-Dock (Fallback Mode)
+_launch=none,none,Lanzar Cairo-Dock (Fallback Mode)
+
 [doom eternal.desktop]
 _k_friendly_name=Doom Eternal
 _launch=none,none,Lanzar Doom Eternal
@@ -485,10 +489,6 @@ playpausemedia=Media Play,Media Play,Reproducir/pausar la reproducción multimed
 previousmedia=Media Previous,Media Previous,Anterior reproducción multimedia
 stopmedia=Media Stop,Media Stop,Detener la reproducción multimedia
 
-[no man's sky.desktop]
-_k_friendly_name=No Man's Sky
-_launch=none,none,Lanzar No Man's Sky
-
 [onboard-settings.desktop]
 _k_friendly_name=Configuración de Onboard
 _launch=none,none,Lanzar Configuración de Onboard
@@ -508,6 +508,10 @@ _launch=Meta+D,Meta+E,Dolphin
 [org.kde.kate.desktop]
 _k_friendly_name=Lanzar Kate
 _launch=Meta+Ctrl+K,none,Lanzar Kate
+
+[org.kde.latte-dock.desktop]
+_k_friendly_name=Latte
+_launch=none,none,Lanzar Latte
 
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Selector de emojis
@@ -533,10 +537,6 @@ Sleep=Sleep,Sleep,Suspender
 Toggle Keyboard Backlight=Keyboard Light On/Off,Keyboard Light On/Off,Conmutar la luz trasera del teclado
 Turn Off Screen=none,none,Apagar la pantalla
 _k_friendly_name=Gestión de energía
-
-[ori and the will of the wisps.desktop]
-_k_friendly_name=Ori and the Will of the Wisps
-_launch=none,none,Lanzar Ori and the Will of the Wisps
 
 [plasmashell]
 _k_friendly_name=Plasma
@@ -571,21 +571,9 @@ switch to next activity=none,none,Cambiar a la actividad siguiente
 switch to previous activity=none,none,Cambiar a la actividad anterior
 toggle do not disturb=none,none,Conmutar no molestar
 
-[remnant from the ashes.desktop]
-_k_friendly_name=Remnant From The Ashes
-_launch=none,none,Lanzar Remnant From The Ashes
-
 [retroarch.desktop]
 _k_friendly_name=RetroArch
 _launch=none,none,Lanzar RetroArch
-
-[sekiro.desktop]
-_k_friendly_name=Sekiro - Shadows Die Twice
-_launch=none,none,Lanzar Sekiro - Shadows Die Twice
-
-[shadow of the tomb raider - the path home.desktop]
-_k_friendly_name=Shadow of the Tomb Raider - The Path Home
-_launch=none,none,Lanzar Shadow of the Tomb Raider - The Path Home
 
 [steam.desktop]
 BigPicture=,,Big Picture
@@ -599,10 +587,6 @@ Settings=,,Parámetros
 Store=,,Tienda
 _k_friendly_name=Steam (Runtime)
 _launch=none,none,Lanzar Steam (Runtime)
-
-[stranded deep.desktop]
-_k_friendly_name=Stranded Deep
-_launch=none,none,Lanzar Stranded Deep
 
 [systemsettings.desktop]
 _k_friendly_name=Preferencias del sistema

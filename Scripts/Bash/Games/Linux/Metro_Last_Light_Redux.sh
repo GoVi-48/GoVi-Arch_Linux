@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 
-game_location="/home/$USER/Games/PC/Metro Last Light Redux/"
+games_location="/home/$USER/Games/PC/"
+game_folder="Metro Last Light Redux/"
 game_executable="metro"
 
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
-cd "$game_location"
+cd "$games_location""$game_folder"
 gamemoderun "./metro"
+
 
 while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
 

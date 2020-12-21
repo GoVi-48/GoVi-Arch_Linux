@@ -6,7 +6,8 @@ export WINEDLLOVERRIDES="mscoree,mshtml="
 export MANGOHUD=1
 export ENABLE_VKBASALT=0
 
-gamemoderun steam steam://rungameid/12949250148919148544 &
+steam steam://rungameid/12949250148919148544 &
+
 
 while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
 

@@ -2,12 +2,13 @@
 
 game_executable="re2.exe"
 
-export WINEFSYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
+export WINEFSYNC=1
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
 gamemoderun steam steam://rungameid/10110539261779378176 & 
+
 
 while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
 

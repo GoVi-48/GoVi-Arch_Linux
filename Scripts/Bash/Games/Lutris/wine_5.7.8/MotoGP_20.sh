@@ -1,18 +1,20 @@
 #!/usr/bin/env bash
 
+games_location="/home/$USER/Games/PC/"
+game_folder="MotoGP 20/"
 game_executable="motogp20.exe"
-game_location="/home/$USER/Games/PC/MotoGP 20/"
 
 export WINEPREFIX="/home/$USER/Wine/wine_Lutris/wine-pfx_MotoGP_20"
 export WINE="/home/$USER/Wine/wine_Lutris/wine-build_5.7.8/bin/wine"
 
-export WINEFSYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
+export WINEFSYNC=1
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
-cd "$game_location"
-gamemoderun $WINE $game_executable
+cd "$games_location""$game_folder"
+gamemoderun $WINE "$game_executable"
+
 
 while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
 

@@ -1,18 +1,20 @@
 #!/usr/bin/env bash
 
+games_location="/home/$USER/Games/PC/"
+game_folder="Epic Games/rocketleague/Binaries/Win64/"
 game_executable="RocketLeague.exe"
-game_location="/Datos/Games/Epic Games/rocketleague/Binaries/Win64/"
 
 export WINEPREFIX="/home/$USER/Wine/wine-pfx_lutris/wine-pfx_Epic_Games"
 export WINE="/home/$USER/Wine/wine_Lutris/wine-build_5.7.10/bin/wine64"
 
-export WINEFSYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
+export WINEFSYNC=1
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
-cd "$game_location"
-gamemoderun $WINE $game_executable -epicportal
+cd "$games_location""$game_folder"
+gamemoderun $WINE "$game_executable" -epicportal
+
 
 while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
 

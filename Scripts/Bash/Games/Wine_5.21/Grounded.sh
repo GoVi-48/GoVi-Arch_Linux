@@ -1,18 +1,20 @@
 #!/usr/bin/env bash
 
+games_location="/home/$USER/Games/PC/"
+game_folder="Grounded/"
 game_executable="Grounded.exe"
-game_location="/home/$USER/Games/PC/Grounded/"
 
 export WINEPREFIX="/home/$USER/Wine/wine_5.21/wine-pfx_Grounded"
 export WINE="/home/$USER/Wine/wine_5.21/wine-build_tkg/usr/bin/wine"
 
-export WINEFSYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
+export WINEFSYNC=1
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
-cd "$game_location"
-gamemoderun $WINE $game_executable
+cd "$games_location""$game_folder"
+gamemoderun $WINE "$game_executable"
+
 
 while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
 

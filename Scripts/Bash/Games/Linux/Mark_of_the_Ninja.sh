@@ -1,13 +1,15 @@
 #!/usr/bin/env bash
 
-game_location="/home/$USER/Games/PC/Mark of the Ninja/"
+games_location="/home/$USER/Games/PC/"
+game_folder="Mark of the Ninja/"
 game_executable="ninja-bin64"
 
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
-cd "$game_location"
+cd "$games_location""$game_folder"
 gamemoderun "./start.sh"
+
 
 while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
 

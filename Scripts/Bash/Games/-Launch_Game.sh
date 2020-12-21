@@ -6,13 +6,14 @@ game_location="/home/$USER/Games/PC/Cyberpunk 2077/bin/x64/"
 export WINEPREFIX="/home/$USER/Wine/wine_5.22/wine-pfx_mf-dxvk-1.7.3"
 export WINE="/home/$USER/Wine/wine_5.21/wine-tkg/usr/bin/wine64"
 
-export WINEFSYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
+export WINEFSYNC=1
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
 cd "$game_location"
 gamemoderun $WINE $game_executable
+
 
 while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
 

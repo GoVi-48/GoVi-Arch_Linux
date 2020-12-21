@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
  
-notf_on=~/.config/polybar/scripts/notf_on
+notf_sound=~/.config/polybar/scripts/notf_sound
  
-if [ -f $notf_on ]; then
-    echo %{T3}%{F#e6db74}9 %{F-}%{T-}
+if [ -f $notf_sound ]; then
+    echo "%{T3}%{F#e6db74}9 %{F-}%{T-}"
     
 else
-    echo %{T3}%{F#f90e39}9 %{F-}%{T-}
+    echo "%{T3}%{F#f90e39}9 %{F-}%{T-}"
 fi

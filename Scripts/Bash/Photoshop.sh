@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
-export WINEPREFIX=~/Wine/wine_5.22/wine-pfx_PS
-export WINE=~/Wine/wine_5.22/wine-tkg/usr/bin/wine64
+export WINEPREFIX=/home/$USER/Wine/wine_Lutris/wine-pfx_PS
+export WINE=/home/$USER/Wine/wine_Lutris/wine-build_5.21/bin/wine64
 
 cd "/Windows/Portables/Adobe/Adobe Photoshop 2020"
 $WINE "Photoshop.exe"

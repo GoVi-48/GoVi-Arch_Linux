@@ -1,0 +1,9 @@
+game:
+  exe: /home/govi/Games/PC/Godfall/Aperion.exe
+  prefix: ~/Wine/wine_Lutris/wine-pfx_Godfall
+system:
+  terminal: true
+wine:
+  custom_wine_path: /home/govi/Wine/wine_Proton/Proton-5.0/dist/bin/wine64
+  dxvk: true
+  version: custom

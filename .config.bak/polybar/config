@@ -74,7 +74,7 @@ cursor-scroll = ns-resize
 ; tray-offset-y = 0
 ; tray-scale = 1.0
 
-modules-left = reload_polybar filesystem_root filesystem_home networkspeeddown networkspeedup email updates_pacman updates_AUR notifications
+modules-left = reload_polybar filesystem_root filesystem_home filesystem_Datos filesystem_Media networkspeeddown networkspeedup email updates_pacman updates_AUR notifications
 modules-center = 
 modules-right = memory cpu_load cpu_temp gpu_temp mb_temp alsa date
 
@@ -97,9 +97,23 @@ interval = 60
 
 [module/filesystem_home]
 type = custom/script
-format-prefix = "%{T3}2%{T-} /home: "
+format-prefix = "%{T3}2%{T-} /~: "
 exec = df -h /home --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
 click-left = dolphin ~/
+interval = 60
+
+[module/filesystem_Datos]
+type = custom/script
+format-prefix = "%{T3}2%{T-} /Datos: "
+exec = df -h /Datos --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
+click-left = dolphin /Datos
+interval = 60
+
+[module/filesystem_Media]
+type = custom/script
+format-prefix = "%{T3}2%{T-} /Media: "
+exec = df -h /Media --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
+click-left = dolphin /Media
 interval = 60
 
 [module/networkspeeddown]

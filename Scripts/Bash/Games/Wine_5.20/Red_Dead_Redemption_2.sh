@@ -1,20 +1,22 @@
 #!/usr/bin/env bash
 
+games_location="/home/$USER/Games/PC/"
+game_folder="Red Dead Redemption 2/"
 game_executable="RDR2.exe"
-game_location="/home/$USER/Games/PC/Red Dead Redemption 2/"
 
 export WINEPREFIX="/home/$USER/Wine/wine_5.20/wine-pfx_RDR2"
 export WINE="/home/$USER/Wine/wine_5.20/wine-build_tkg-Custom/bin/wine"
 
 # WINEDEBUG=-all,relay
 PULSE_LATENCY_MSEC=60
-export WINEFSYNC=1
 export WINEDLLOVERRIDES="dxgi=n,b"
+export WINEFSYNC=1
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
-cd "$game_location"
-gamemoderun $WINE $game_executable -ignorepipelinecache -vulkan &
+cd "$games_location""$game_folder"
+gamemoderun $WINE "$game_executable" -ignorepipelinecache -vulkan &
+
 
 sleep 10
 

@@ -11,7 +11,7 @@ export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
 qdbus org.kde.KWin /Compositor suspend
-killall latte-dock
+killall cairo-dock
 killall polybar
 
 cd "$game_location"
@@ -20,7 +20,7 @@ gamemoderun $WINE "Cemu.exe" -g "Z:/Media/Games/Nintendo/Wii U/Mario Kart 8/code
 
 qdbus org.kde.KWin /Compositor resume
 /home/$USER/Scripts/Bash/Polybar 
-/home/$USER/Scripts/Bash/Latte_Dock.sh &
+cairo-dock
 killall lutris
 sleep 1
 killall gamemoded

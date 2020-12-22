@@ -39,6 +39,7 @@
    <Filename>retroarch.desktop</Filename>
    <Filename>org.kde.latte-dock.desktop</Filename>
    <Filename>cairo-dock-cairo.desktop</Filename>
+   <Filename>Arch Gaming.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -220,15 +221,16 @@
    <Filename>Clean System.desktop</Filename>
    <Filename>Home Backup-2.desktop</Filename>
    <Filename>Home Backup.desktop</Filename>
-   <Filename>Arch Gaming.desktop</Filename>
   </Include>
   <Layout>
    <Merge type="files"/>
-   <Filename>Arch Gaming.desktop</Filename>
    <Filename>Home Backup.desktop</Filename>
    <Filename>Clean System.desktop</Filename>
    <Filename>Kodi Backup.desktop</Filename>
   </Layout>
+  <Exclude>
+   <Filename>Arch Gaming.desktop</Filename>
+  </Exclude>
  </Menu>
  <Menu>
   <Name>wine-wine</Name>

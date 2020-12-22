@@ -20,7 +20,7 @@ while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
 
 if pgrep -x $game_executable; then
     qdbus org.kde.KWin /Compositor suspend
-    killall latte-dock
+    killall cairo-dock
     killall polybar
 fi
 
@@ -29,7 +29,7 @@ while pgrep -x $game_executable > /dev/null; do sleep 1; done
 if ! pgrep -x $game_executable; then
     qdbus org.kde.KWin /Compositor resume
     /home/$USER/Scripts/Bash/Polybar 
-    /home/$USER/Scripts/Bash/Latte_Dock.sh &
+    cairo-dock > /dev/null 2>&1 &
     killall lutris
     killall UnrealCEFSubProcess.exe
     sleep 1

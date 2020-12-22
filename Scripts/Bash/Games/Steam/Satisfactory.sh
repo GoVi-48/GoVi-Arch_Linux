@@ -24,7 +24,7 @@ if ! pgrep -x $game_executable; then
     /home/$USER/Scripts/Bash/Polybar 
     cairo-dock > /dev/null 2>&1 &
     sleep 5
-    killall steam 
+    killall -q steam 
     killall lutris
     sleep 1
     killall gamemoded

@@ -222,15 +222,15 @@
    <Filename>Home Backup-2.desktop</Filename>
    <Filename>Home Backup.desktop</Filename>
   </Include>
-  <Layout>
-   <Merge type="files"/>
-   <Filename>Home Backup.desktop</Filename>
-   <Filename>Clean System.desktop</Filename>
-   <Filename>Kodi Backup.desktop</Filename>
-  </Layout>
   <Exclude>
    <Filename>Arch Gaming.desktop</Filename>
   </Exclude>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>Clean System.desktop</Filename>
+   <Filename>Home Backup.desktop</Filename>
+   <Filename>Kodi Backup.desktop</Filename>
+  </Layout>
  </Menu>
  <Menu>
   <Name>wine-wine</Name>

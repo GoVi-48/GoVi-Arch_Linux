@@ -12,7 +12,7 @@ export MANGOHUD=1
 export ENABLE_VKBASALT=1
 
 cd "$game_location"
-gamemoderun $WINE $game_executable
+gamemoderun $WINE "$game_executable"
 
 
 while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
@@ -27,7 +27,7 @@ while pgrep -x $game_executable > /dev/null; do sleep 1; done
     
 if ! pgrep -x $game_executable; then
     qdbus org.kde.KWin /Compositor resume
-    /home/$USER/Scripts/Bash/Polybar 
+    /home/$USER/Scripts/Bash/Polybar/launch.sh 
     cairo-dock > /dev/null 2>&1 &
     killall lutris
     sleep 1

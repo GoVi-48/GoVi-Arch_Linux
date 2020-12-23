@@ -19,7 +19,7 @@ gamemoderun $WINE "Cemu.exe" -g "Z:/Media/Games/Nintendo/Wii U/Mario Kart 8/code
     
 
 qdbus org.kde.KWin /Compositor resume
-/home/$USER/Scripts/Bash/Polybar 
+/home/$USER/Scripts/Bash/Polybar/launch.sh 
 cairo-dock
 killall lutris
 sleep 1

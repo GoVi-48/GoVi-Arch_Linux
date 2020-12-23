@@ -93,9 +93,9 @@ DialogWidth=720
 [Containments][2][Applets][18][Configuration][General]
 alphaSort=true
 customButtonImage=/home/govi/Imágenes/Icons/System/Png/archlinux.png
-favoriteSystemActions=shutdown
+favoriteSystemActions=
 favoritesPortedToKAstats=true
-hiddenApplications=org.kde.Help.desktop,debian-reference-common.desktop,fcitx.desktop,mlterm.desktop,xiterm+thai.desktop,debian-xterm.desktop,debian-uxterm.desktop,org.kde.kinfocenter.desktop,uim.desktop,org.kde.okular.desktop,org.kde.kmail2.desktop,konqbrowser.desktop,org.kde.sieveeditor.desktop,org.kde.contactthemeeditor.desktop,org.kde.headerthemeeditor.desktop,org.kde.contactprintthemeeditor.desktop,org.kde.pimsettingexporter.desktop,org.kde.akonadimailreader.desktop,Spotify.desktop,Webgrab to GIT.desktop,org.kde.plasma.emojier.desktop,Config backup.desktop,Kodi backup.desktop,com.dropbox.Client.desktop,wine-Programs-Epic Games Launcher.desktop,wine-Programs-Ori and the Will of the Wisps-== ElAmigos Releases and Updates @ pastebin ==.desktop,lstopo.desktop,gtk-lshw.desktop,org.kde.plasma.themeexplorer.desktop,org.kde.kdevelop_ps.desktop,steam.desktop,avahi-discover.desktop
+hiddenApplications=org.kde.Help.desktop,debian-reference-common.desktop,fcitx.desktop,mlterm.desktop,xiterm+thai.desktop,debian-xterm.desktop,debian-uxterm.desktop,org.kde.kinfocenter.desktop,uim.desktop,org.kde.okular.desktop,org.kde.kmail2.desktop,konqbrowser.desktop,org.kde.sieveeditor.desktop,org.kde.contactthemeeditor.desktop,org.kde.headerthemeeditor.desktop,org.kde.contactprintthemeeditor.desktop,org.kde.pimsettingexporter.desktop,org.kde.akonadimailreader.desktop,Spotify.desktop,Webgrab to GIT.desktop,org.kde.plasma.emojier.desktop,Config backup.desktop,Kodi backup.desktop,com.dropbox.Client.desktop,wine-Programs-Epic Games Launcher.desktop,wine-Programs-Ori and the Will of the Wisps-== ElAmigos Releases and Updates @ pastebin ==.desktop,lstopo.desktop,gtk-lshw.desktop,org.kde.kdevelop_ps.desktop,steam.desktop,avahi-discover.desktop
 showIconsRootLevel=true
 showRecentApps=false
 showRecentDocs=false
@@ -140,7 +140,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][89][Configuration]
-PreloadWeight=92
+PreloadWeight=100
 SystrayContainmentId=90
 
 [Containments][2][ConfigDialog]
@@ -229,7 +229,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][90][Applets][94][Configuration]
-PreloadWeight=0
+PreloadWeight=10
 
 [Containments][90][Applets][95]
 immutability=1

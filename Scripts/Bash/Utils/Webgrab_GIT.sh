@@ -30,3 +30,4 @@ echo `date +%H:%M` - `date +%d/%m/%Y`
 echo
 echo ====================================================================================
 
+# export DISPLAY=:0 && kate ~/Scripts/Logs/Cron/crontab_Webgrab.log

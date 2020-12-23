@@ -163,7 +163,10 @@ export TERMINAL="alacritty"
 export BROWSER="firefox"
 export FILEMANAGER="dolphin"
 export PATH=$PATH:$HOME/Scripts/Bash/
+export PATH=$PATH:$HOME/Scripts/Bash/Autostart/
 export PATH=$PATH:$HOME/Scripts/Bash/Games/
+export PATH=$PATH:$HOME/Scripts/Bash/Programs/
+export PATH=$PATH:$HOME/Scripts/Bash/Utils/
 export PATH=$PATH:$HOME/Programas/Pycharm/bin/
 export JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
 export WINEFSYNC=1

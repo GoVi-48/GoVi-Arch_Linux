@@ -9,7 +9,7 @@ gamemoderun rpcs3 "home/$USER/Games/Sony/Playstation 3/God of War III/BCES00510/
 
 killall rpcs3
 qdbus org.kde.KWin /Compositor resume
-/home/$USER/Scripts/Bash/Polybar 
+/home/$USER/Scripts/Bash/Polybar/launch.sh 
 cairo-dock
 sleep 1
 killall gamemoded

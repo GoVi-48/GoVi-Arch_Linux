@@ -1,11 +1,10 @@
  #!/usr/bin/env bash
  
-_GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
-
 location="/home/$USER/Wine/wine_Lutris/wine-pfx_Epic_Games/drive_c/Program Files (x86)/Epic Games/Launcher/Engine/Binaries/Win64"
 executable="EpicGamesLauncher.exe"
 process="EpicGamesLaunch"
 
+export _GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
 export WINEFSYNC=1
 export WINEDLLOVERRIDES="mscoree,mshtml="
 export MANGOHUD=1

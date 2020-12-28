@@ -21,7 +21,7 @@ Icon=
 
 #s[Default] Command to launch on click:
 #{Example: nautilus --no-desktop, gedit, etc. You can even enter a shortkey, e.g. <Alt>F1, <Ctrl>c,  <Ctrl>v, etc}
-Exec=
+Exec=lutris &
 
 
 #X[Extra parameters]
@@ -29,7 +29,7 @@ frame_extra=
 
 #b Don't link the launcher with its window
 #{If you chose to mix launcher and applications, this option will deactivate this behaviour for this launcher only. It can be useful for instance for a launcher that launches a script in a terminal, but you don't want it to steal the terminal's icon from the taskbar.} 
-prevent inhibate=false
+prevent inhibate=true
 
 #K[Default] Class of the program:
 #{The only reason you may want to modify this parameter is if you made this launcher by hands. If you dropped it into the dock from the menu, it is nearly sure that you shouldn't touch it. It defines the class of the program, which is useful to link the application with its launcher.}

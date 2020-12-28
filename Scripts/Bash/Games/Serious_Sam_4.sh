@@ -1,1 +1,0 @@
-/home/govi/Scripts/Bash/Games/Wine_5.19/Serious_Sam_4.sh

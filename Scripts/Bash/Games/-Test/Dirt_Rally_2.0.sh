@@ -1,28 +1,33 @@
 #!/usr/bin/env bash
- 
-# qdbus org.kde.KWin /Compositor suspend
-# killall latte-dock
-# killall polybar
-# killall plasmashell
 
-export WINEFSYNC=1
+games_location="/home/$USER/Games/PC/"
+game_folder="DiRT Rally 2.0"
+game_executable="dirtrally2.exe"
+
+export WINEPREFIX="/home/$USER/Wine/wine_6.0-RC4/wine-pfx_mf-dxvk-1.7.3"
+export WINE="/home/$USER/Wine/wine_6.0-RC4/wine-build_tkg/usr/bin/wine"
+
 export WINEDLLOVERRIDES="mscoree,mshtml="
-export MANGOHUD=0
-export ENABLE_VKBASALT=0
+export WINEFSYNC=1
+export MANGOHUD=1
+export ENABLE_VKBASALT=1
 
-export WINEPREFIX=~/Wine/wine_5.22/wine-pfx_mf-dxvk-1.7.2
-export WINE=~/Wine/wine_5.22/wine-tkg/usr/bin/wine
 
-cd "$HOME/Games/-Library-/PC/DiRT Rally 2.0"
-$WINE "dirtrally2.exe"
+cd "$games_location""$game_folder"
+gamemoderun $WINE $game_executable &
 
-# sleep 5
-# 
-# while pgrep -x "dirtrally2.exe" > /dev/null; do sleep 1; done
-#     killall lutris
-#     killall gamemoded
-#     qdbus org.kde.KWin /Compositor resume
-#     $HOME/Scripts/Bash/Polybar
-#     latte-dock &
-#     plasmashell > /dev/null 2>&1 &
-#     exit
+
+while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
+    sleep 5
+    killall lutris
+    killall polybar
+    killall cairo-dock
+    qdbus org.kde.KWin /Compositor suspend
+
+while pgrep -x $game_executable > /dev/null; do sleep 1; done
+    qdbus org.kde.KWin /Compositor resume
+    /home/$USER/Scripts/Bash/Polybar/launch.sh
+    cairo-dock > /dev/null 2>&1 &
+    sleep 1
+    killall gamemoded
+

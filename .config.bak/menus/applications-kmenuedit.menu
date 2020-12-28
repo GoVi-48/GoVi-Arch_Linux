@@ -432,19 +432,6 @@
    <Filename>org.kde.umbrello.desktop</Filename>
   </Layout>
  </Menu>
- <Layout>
-  <Merge type="menus"/>
-  <Menuname>Development</Menuname>
-  <Menuname>Graphics</Menuname>
-  <Menuname>Internet</Menuname>
-  <Menuname>Games</Menuname>
-  <Menuname>Multimedia</Menuname>
-  <Menuname>Office</Menuname>
-  <Menuname>Settingsmenu</Menuname>
-  <Menuname>System</Menuname>
-  <Menuname>Utilities</Menuname>
-  <Menuname>THC</Menuname>
- </Layout>
  <Menu>
   <Name>Internet</Name>
   <Layout>
@@ -515,4 +502,17 @@
    <Filename>Nvidia Settings.desktop</Filename>
   </Include>
  </Menu>
+ <Layout>
+  <Merge type="menus"/>
+  <Menuname>Development</Menuname>
+  <Menuname>THC</Menuname>
+  <Menuname>Graphics</Menuname>
+  <Menuname>Internet</Menuname>
+  <Menuname>Games</Menuname>
+  <Menuname>Multimedia</Menuname>
+  <Menuname>Office</Menuname>
+  <Menuname>Settingsmenu</Menuname>
+  <Menuname>System</Menuname>
+  <Menuname>Utilities</Menuname>
+ </Layout>
 </Menu>

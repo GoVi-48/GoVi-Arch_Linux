@@ -4,9 +4,10 @@ games_location="/home/$USER/Games/PC/"
 game_folder="Ghostrunner/"
 game_executable="Ghostrunner.exe"
 
-export WINEPREFIX="/home/$USER/Wine/wine_5.20/wine-pfx_mf-dxvk-1.7.2"
-export WINE="/home/$USER/Wine/wine_5.20/wine-build_tkg/usr/bin/wine"
+export WINEPREFIX="/home/$USER/Wine/wine_Lutris/wine-pfx_Ghost_Runner"
+export WINE="/home/$USER/Wine/wine_Lutris/wine-build_5.21/bin/wine"
 
+export PULSE_LATENCY_MSEC=60
 export WINEDLLOVERRIDES="mscoree,mshtml="
 export WINEFSYNC=1
 export MANGOHUD=1

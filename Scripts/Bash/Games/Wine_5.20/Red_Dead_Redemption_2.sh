@@ -8,7 +8,7 @@ export WINEPREFIX="/home/$USER/Wine/wine_5.20/wine-pfx_RDR2"
 export WINE="/home/$USER/Wine/wine_5.20/wine-build_tkg-Custom/bin/wine"
 
 # WINEDEBUG=-all,relay
-PULSE_LATENCY_MSEC=60
+export PULSE_LATENCY_MSEC=60
 export WINEDLLOVERRIDES="dxgi=n,b"
 export WINEFSYNC=1
 export MANGOHUD=1

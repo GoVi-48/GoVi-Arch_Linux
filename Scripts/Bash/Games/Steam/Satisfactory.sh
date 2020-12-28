@@ -1,31 +1,32 @@
 #!/usr/bin/env bash
 
-game_executable="FactoryGame-Win"
+games_location="/home/$USER/Games/PC/"
+game_folder="Satisfactory/"
+game_executable="FactoryGame.exe"
+
+export WINEPREFIX="/home/$USER/Wine/wine_6.0-RC4/wine-pfx_Satisfactory"
+export WINE="/home/$USER/Wine/wine_6.0-RC4/wine-build_tkg/usr/bin/wine"
 
 export WINEDLLOVERRIDES="mscoree,mshtml="
+export WINEFSYNC=1
 export MANGOHUD=1
 export ENABLE_VKBASALT=0
 
-steam steam://rungameid/12949250148919148544 &
+
+cd "$games_location""$game_folder"
+gamemoderun $WINE $game_executable &
 
 
 while ! pgrep -x $game_executable > /dev/null; do sleep 1; done
-
-if pgrep -x $game_executable; then
+    sleep 5
+    killall lutris
+    killall polybar
+    killall cairo-dock
     qdbus org.kde.KWin /Compositor suspend
-    killall -q cairo-dock
-    killall -q polybar
-fi
 
 while pgrep -x $game_executable > /dev/null; do sleep 1; done
-    
-if ! pgrep -x $game_executable; then
     qdbus org.kde.KWin /Compositor resume
     /home/$USER/Scripts/Bash/Polybar/launch.sh
     cairo-dock > /dev/null 2>&1 &
-    sleep 5
-    killall steam 
-    killall lutris
     sleep 1
     killall gamemoded
-fi

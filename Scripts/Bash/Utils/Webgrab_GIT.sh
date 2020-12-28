@@ -31,3 +31,6 @@ echo
 echo ====================================================================================
 
 # export DISPLAY=:0 && kate ~/Scripts/Logs/Cron/crontab_Webgrab.log
+
+kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Webgrab Updated" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+

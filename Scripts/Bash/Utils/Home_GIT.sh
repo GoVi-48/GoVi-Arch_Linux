@@ -42,7 +42,7 @@ while true; do
     echo .
     read -rsn1 input
         if [[ $input = "" ]]; then
-            echo "Opening Github"
+            echo "Opening Github..."
             sleep 2
             firefox https://github.com/GoVi-48/GoVi-Arch_Linux
             exit

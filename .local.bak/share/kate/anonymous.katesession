@@ -6,7 +6,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-URL=
+URL=file:///Media/GoVi/Documentos/.GoVi-Docs/Social/Discord.txt
 
 [Kate Plugins]
 cuttlefishplugin=false
@@ -89,9 +89,18 @@ Orientation=1
 Sizes=1063
 
 [MainWindow0-ViewSpace 0]
-Active View=
+Active View=file:///Media/GoVi/Documentos/.GoVi-Docs/Social/Discord.txt
 Count=1
-Documents=\\0
+Documents=file:///Media/GoVi/Documentos/.GoVi-Docs/Social/Discord.txt
+View 0=file:///Media/GoVi/Documentos/.GoVi-Docs/Social/Discord.txt
+
+[MainWindow0-ViewSpace 0 file:///Media/GoVi/Documentos/.GoVi-Docs/Social/Discord.txt]
+CursorColumn=15
+CursorLine=1
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,1,0,[,1,0,],1,14
 
 [Open Documents]
 Count=1
@@ -109,32 +118,22 @@ Filters=\\0
 FollowSymLink=false
 HiddenFiles=false
 MatchCase=true
-Place=1
+Place=0
 Recursive=true
-Replaces=FLAGS,cairo-dock > /dev/null 2>&1,    killall cairo-dock,latte-dock,    latte-dock &,     latte-dock &,    killall latte-dock,$WINE,    /home/$USER/Scripts/Bash/Polybar/launch.sh,cairo-dock cairo-dock-plug-ins,&,    cairo-dock > /dev/null 2>&1 &,    cairo-dock &,killall cairo-dock,cairo-dock,export WINEDLLOVERRIDES="mscoree\\,mshtml="export WINEFSYNC=1,5.18,5.19,5.20,5.21,/home/$USER,GameLocation,GameExecutable,18
-Search=PARAMETERS,$ ,latte-dock,killall latte-dock,    latte-dock &,    killall latte-dock,dock,cairo-dock,cairo-dock &,     latte-dock &,    cairo-dock > /dev/null 2>&1 &,    /home/$USER/Scripts/Bash/Polybar,vivaldi,& & &,& &,    cairo-dock,/home/$USER/Scripts/Bash/Latte_Dock.sh &,export WINEFSYNC=1\nexport WINEDLLOVERRIDES="mscoree\\,mshtml=",~,game_location,game_executable,WINEPREFIX,20,/-Videclips
+Replaces=GOVI_ARCH_LINUX,FLAGS,cairo-dock > /dev/null 2>&1,    killall cairo-dock,latte-dock,    latte-dock &,     latte-dock &,    killall latte-dock,$WINE,    /home/$USER/Scripts/Bash/Polybar/launch.sh,cairo-dock cairo-dock-plug-ins,&,    cairo-dock > /dev/null 2>&1 &,    cairo-dock &,killall cairo-dock,cairo-dock,export WINEDLLOVERRIDES="mscoree\\,mshtml="export WINEFSYNC=1,5.18,5.19,5.20,5.21,/home/$USER,GameLocation,GameExecutable
+Search=GoVi_Arch_Linux,PARAMETERS,$ ,latte-dock,killall latte-dock,    latte-dock &,    killall latte-dock,dock,cairo-dock,cairo-dock &,     latte-dock &,    cairo-dock > /dev/null 2>&1 &,    /home/$USER/Scripts/Bash/Polybar,vivaldi,& & &,& &,    cairo-dock,/home/$USER/Scripts/Bash/Latte_Dock.sh &,export WINEFSYNC=1\nexport WINEDLLOVERRIDES="mscoree\\,mshtml=",~,game_location,game_executable,WINEPREFIX,20
 SearchDiskFiles=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 SearchDiskFiless=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/.config/lutris/games/horizon-zero-dawn-1600779095.yml
-File10[$e]=$HOME/.config/menus/applications-kmenuedit.menu
-File2[$e]=$HOME/.config/lutris/games/grounded-1598116375.yml
-File3[$e]=$HOME/.config/lutris/lutris.conf
-File4[$e]=$HOME/.config/lutris/system.yml
-File5[$e]=$HOME/.config/KDE/Cuttlefish.conf
-File6[$e]=$HOME/.config/KDE/Sonnet.conf
-File7[$e]=$HOME/.config/KDE/UserFeedback.conf
-File8[$e]=$HOME/.config/kde.org/systemsettings.conf
-File9[$e]=$HOME/.config/kde.org/UserFeedback.org.kde.plasmashell.conf
-Name1[$e]=horizon-zero-dawn-1600779095.yml
-Name10[$e]=applications-kmenuedit.menu
-Name2[$e]=grounded-1598116375.yml
-Name3[$e]=lutris.conf
-Name4[$e]=system.yml
-Name5[$e]=Cuttlefish.conf
-Name6[$e]=Sonnet.conf
-Name7[$e]=UserFeedback.conf
-Name8[$e]=systemsettings.conf
-Name9[$e]=UserFeedback.org.kde.plasmashell.conf
+File1[$e]=/Media/GoVi/Proyectos/Github/GoVi-Arch_Linux/fstab
+File2[$e]=$HOME/Scripts/Bash/Utils/Home_GIT.sh
+File3[$e]=/Media/GoVi/Proyectos/Github/GoVi-Arch_Linux/.gitignore
+File4[$e]=/Media/GoVi/Proyectos/Github/GoVi-Arch_Linux/Arch_Gaming.txt
+File5[$e]=/Media/GoVi/Documentos/.GoVi-Docs/Social/Discord.txt
+Name1[$e]=fstab
+Name2[$e]=Home_GIT.sh
+Name3[$e]=.gitignore
+Name4[$e]=Arch_Gaming.txt
+Name5[$e]=Discord.txt

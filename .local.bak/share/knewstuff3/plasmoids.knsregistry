@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE khotnewstuff3>
+<hotnewstuffregistry>
+ <stuff category="">
+  <name>Kbeat</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>adhe</author>
+  <homepage>https://store.kde.org/p/1362091</homepage>
+  <licence></licence>
+  <version>0.02</version>
+  <rating>63</rating>
+  <downloads>924</downloads>
+  <installedfile>/tmp/kbeat.plasmoid</installedfile>
+  <id>1362091</id>
+  <releasedate>2020-04-09</releasedate>
+  <summary>&lt;span style="text-decoration: underline;">&lt;strong>Kbeat - sounds for relax and focus&lt;/strong>&lt;/span>&lt;br />
+&lt;br />
+Features: &lt;br />
+* Nature sounds on panel &lt;br />
+&lt;br />
+Left click - Play/Pause&lt;br />
+Right click - Choose a relaxing sound&lt;br />
+&lt;br />
+&lt;span style="text-decoration:...</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/f/1/f/9/b596033a3c6e68f6aaf01db81f72091d6d8f.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/f/1/f/9/b596033a3c6e68f6aaf01db81f72091d6d8f.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1ODY0MDY5NzQiLCJvIjoiMSIsInMiOiIxNWJjM2NlNWQ0YWUyNTBkOGYwMjI3MjI5MTFkMzc1ZTg4ODFmNjA4YWY4OWI5N2JhMWEzYjdhNjY4YWRjM2RkYzU0OTRjZGJlNjNkYzhiYjUzOTE4ZmUyNTg1OTI0MWE0OWUxN2JiZWEwZjNhYmViYTEzYjkwOTdlOGYzYWNiZSIsInQiOjE1ODkyOTczMDAsInN0ZnAiOm51bGwsInN0aXAiOiI0Ny42Mi4yNTMuMjAifQ.bNwlpJ5GXPeW8eAO99R8lopWmEgO4cjy5Yqcje-TzlU/kbeat.plasmoid</payload>
+  <tags>plasma##majorversion=5,sound,original-product,plasma,unix,extension,gplv3,multimedia,kde,linux,widget</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>pixelload</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>rbn43</author>
+  <homepage>https://store.kde.org/p/1337885</homepage>
+  <licence></licence>
+  <version>0.1.1</version>
+  <rating>50</rating>
+  <downloads>2580</downloads>
+  <installedfile>/tmp/pixelload.plasmoid</installedfile>
+  <id>1337885</id>
+  <releasedate>2019-11-24</releasedate>
+  <summary>This is a very simple fork of indicator-multiload. It shows cpu usage, memory usage, disk io and net io.&lt;br />
+&lt;br />
+* Requirements: OpenGL 3.0&lt;br />
+&lt;br />
+* Required packages for ArchLinux:&lt;br />
+sudo pacman -S qt5-websockets python-docopt python-numpy python-pillow python-psutil...</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/c/5/5/e/e25258d4fe723e622328bc5945528d738447.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/c/5/5/e/e25258d4fe723e622328bc5945528d738447.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1NzQ1OTc4MzEiLCJvIjoiMSIsInMiOiI4MmY5NTc3ODJlNTE3YTA4Yzk0Y2M4OGFkMjg4OWJmZTcwZTlkZWViNDJmY2E1MDQyMDFiNTUyYTgyODAzZDY4N2Q0NmU2MTk0MmQwZTliYTMyZDc0MmNhZDMzMTBjZDc4ZjVmMDdjYTE0MGQxODQxNTEzMjc5YjAzOTQ0ZGU3MyIsInQiOjE1ODkyOTc0MjIsInN0ZnAiOm51bGwsInN0aXAiOiI0Ny42Mi4yNTMuMjAifQ.TWjxGU3XMNpTylFeoxtK4raPse_q88KlI9i4K1e67rg/pixelload.plasmoid</payload>
+  <tags>monitor,monitoring,multiload,linux,gplv3,extension,kde,widget,original-product,plasma##majorversion=5,plasma,unix</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Simple System Monitor</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>KonstantinShtepa</author>
+  <homepage>https://store.kde.org/p/1173509</homepage>
+  <licence></licence>
+  <version>0.6</version>
+  <rating>83</rating>
+  <downloads>150026</downloads>
+  <installedfile>/tmp/plasma-simpleMonitor-v0.6.plasmoid</installedfile>
+  <id>1173509</id>
+  <releasedate>2017-08-23</releasedate>
+  <summary>A simple monitor for plasma, completely written in QML and Javascript.&lt;br />
+&lt;br />
+Currently can show OS info, CPU load/temp and memory load.&lt;br />
+&lt;br />
+Support for:&lt;br />
+* Background translucent and crystal&lt;br />
+* Change distro logo&lt;br />
+* Hide some widgets&lt;br />
+* Configure high and...</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/6/a/3/1/ef08bbf43d444a2d3fcb4cb48c69559114fb.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/6/a/3/1/ef08bbf43d444a2d3fcb4cb48c69559114fb.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE0OTA1Mzc5MzUiLCJvIjoiMSIsInMiOiIxODAxYWZhZDBhOTJhZjg3MjYyMTJlMjcwYWNmYzFlMDNiZDkxZDdiNGRjMWUzNDZmZTFkMmY3YTAwY2EyN2UyNTFmOTM2YjUwZTNkNWMzOThmNjI4ZDkyNDdkMDE4ODVhY2IyY2Q1ODgxNWMxYTUyZDJjODdjMmI5OTBiMWZjNyIsInQiOjE1ODkyOTY3MDIsInN0ZnAiOm51bGwsInN0aXAiOiI0Ny42Mi4yNTMuMjAifQ.B1JkRd85p0tLnYysF0s3i_HOcWbo78-bDWZeiyvQv54/plasma-simpleMonitor-v0.6.plasmoid</payload>
+  <tags>linux,unix,extension,plasma##majorversion=5,widget,kde,plasma,monitoring</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Redmond Date and Time</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>AzumaHazuki</author>
+  <homepage>https://store.kde.org/p/1181740</homepage>
+  <licence></licence>
+  <version>0.1</version>
+  <rating>50</rating>
+  <downloads>3110</downloads>
+  <installedfile>/tmp/RedmondDateTime.zip</installedfile>
+  <id>1181740</id>
+  <releasedate>2017-06-23</releasedate>
+  <summary>This is merely a modification of the "Simple Date and Time" plasmoid to make it spread across two lines, much like the last decade or so of a certain desktop shell from the northwestern US of A. Plasma 5, for some reason, does not allow you to change the clock font size as KDE 4.x did, so this...</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/3/f/7/7/70425c728394de112c3e4e4af8d06ce06e03.jpg</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/3/f/7/7/70425c728394de112c3e4e4af8d06ce06e03.jpg</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE0OTgyNDc2MTAiLCJvIjoiMSIsInMiOiJkZjJkZmU0MTE0MmYwOTYxMmRjMmM2NzgwNjg3MjE4NWNiZjI3ODg4ZDFmMTQxYWNhZmU2NzdiZjdiOWVkNmZiNmQ4NGZkN2MxYzU5ZGVlOGJkMTIwMDM3MTgzMDI5OGI4OTZhMTU0NTQ1ZDM5Zjk5ODEwNDQwMzIzZjhiN2U4ZSIsInQiOjE1ODkyOTc2NzAsInN0ZnAiOm51bGwsInN0aXAiOiI0Ny42Mi4yNTMuMjAifQ.6P2HXotqEsecdJ_KaPvmvP1NfsZXU-Ixfis4ZbgLMIU/RedmondDateTime.zip</payload>
+  <tags>clock,extension,kde,linux,widget,plasma,unix,plasma##majorversion=5</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Panel Transparency Button</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>Psifidotos</author>
+  <homepage>https://store.kde.org/p/1338479</homepage>
+  <licence></licence>
+  <version>0.2.0</version>
+  <rating>67</rating>
+  <downloads>4969</downloads>
+  <installedfile>/tmp/paneltransparencybutton-0.2.0.plasmoid</installedfile>
+  <id>1338479</id>
+  <releasedate>2020-01-22</releasedate>
+  <summary>Plasma 5 applet that enables/disables transparency for plasma panels. Plasma 5.17.3 is required to work correctly and enable/disable panel shadows when needed.&lt;br />
+&lt;br />
+How To Use:&lt;br />
+1. Unlock your widgets and add transparency button in a plasma panel&lt;br />
+2. Activate it and your plasma...</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/2/e/c/2/00c7953536ec34f6b9a640b6ad3d9e62e556.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/2/e/c/2/00c7953536ec34f6b9a640b6ad3d9e62e556.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1Nzk2ODU3MzIiLCJvIjoiMSIsInMiOiJiOGZiMTg5NjMxNTQxNzRiYjViMDdiYjBlOWI4M2JiMmQxYzE0ZGM0Y2YyNDkzY2M1MDE2MjAwM2ExZjE4MTE2MWYyM2IwYjQyMDlkZTdmNTcwZDNjNWJjNTRjZGYyZTVkNWEwZmQ3Mzg3MzQ3ZGJmZTJiNTcwMDcwOTY0NzU5NSIsInQiOjE1ODkyOTcwODksInN0ZnAiOm51bGwsInN0aXAiOiI0Ny42Mi4yNTMuMjAifQ.lr1c1uHHaEjp-NGJIRm-iFWoM7MeDMVGi3yytkCr2Lc/paneltransparencybutton-0.2.0.plasmoid</payload>
+  <tags>gplv2-later,extension,kde,linux,plasma##majorversion=5,unix,original-product,panel,plasma,widget,button</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Time Keeper</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>niceway</author>
+  <homepage>https://store.kde.org/p/1002162</homepage>
+  <licence></licence>
+  <version>0.7.0</version>
+  <rating>87</rating>
+  <downloads>29723</downloads>
+  <installedfile>/tmp/159345-timekeeper.plasmoid</installedfile>
+  <id>1002162</id>
+  <releasedate>2017-09-08</releasedate>
+  <summary>This plasmoid provides a clock and a calendar functions via steampunk interface.&lt;br />
+It is written entirely in QML + JavaScript.&lt;br />
+&lt;br />
+Video preview: &lt;a href="http://vimeo.com/69154043" target="_blank" rel="nofollow">http://vimeo.com/69154043&lt;/a>. &lt;br />
+&lt;br />
+Browse Source: &lt;a href="https://github.com/Joker/timekeeper" target="_blank" rel="nofollow">https://github.com/Joker/timekeeper&lt;/a>. &lt;br />
+&lt;br />
+Graphics in this plasmoid orginate from Steampunk orrery &lt;br />
+&lt;a href="http://lightquick.co.uk/downloads/steampunk-orrery-xwidget.html" target="_blank" rel="nofollow">http://lightquick.co.uk/downloads/steampunk-orrery-xwidget.html&lt;/a>&lt;br />
+For the Moon graphics from Luna QML were used. &lt;br />
+&lt;a href="http://kde-look.org/content/show.php?content=140204" target="_blank" rel="nofollow">http://kde-look.org/content/show.php?content=140204&lt;/a>&lt;br />
+&lt;br />
+&lt;br />
+&lt;strong>Installing:&lt;/strong>&lt;br />
+&lt;br />
+  &lt;em>plasmapkg2 -i timekeeper-0.7.plasmoid&lt;/em>&lt;br />
+&lt;br />
+for ROSA &amp;amp; OpenMandriva.&lt;br />
+ &lt;em>urpmi plasma-applet-timekeeper&lt;/em>&lt;br />
+ (&lt;a href="https://abf.rosalinux.ru/openmandriva/plasma-applet-timekeeper" target="_blank" rel="nofollow">https://abf.rosalinux.ru/openmandriva/plasma-applet-timekeeper&lt;/a>)&lt;br />
+&lt;br />
+&lt;br />
+for KDE Plasma 4  &lt;a href="https://github.com/Joker/timekeeper/releases/tag/v0.5.1" target="_blank" rel="nofollow">https://github.com/Joker/timekeeper/releases/tag/v0.5.1&lt;/a></summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/8/1/2/a/61eceaf8c08f41dc194c624941a57959b457.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/8/1/2/a/61eceaf8c08f41dc194c624941a57959b457.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE0NjU4MDkxMzUiLCJvIjoiMSIsInMiOiIyZTNhNGExYWRiYjZmZDNiMDIzYTU2MGRjYjZhZjM1OTAyNTgxYjhmNWVlMjQzNjU0NTBjOTZhNTZlZjEzYWI2NTIzZDk1NWMxN2ViNWZlOTcyNDlkZTFhMzAwYzUyMTEzODVlMWFmMzZiYmQwZDk2ZmUwMGY5ODdiYjA5N2RiNyIsInQiOjE1ODkyOTcyMjEsInN0ZnAiOm51bGwsInN0aXAiOiI0Ny42Mi4yNTMuMjAifQ.hzBYZtw_J0fJmpBvmUgzjI_gpIj1d5o-5TIP17A5ABA/159345-timekeeper.plasmoid</payload>
+  <tags>linux,extension,clock,kde,widget,plasma,unix,plasma##majorversion=5</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Plasma Fancy Clock</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>anoneemouse</author>
+  <homepage>https://store.kde.org/p/1174881</homepage>
+  <licence></licence>
+  <version>5.0</version>
+  <rating>63</rating>
+  <downloads>1565</downloads>
+  <installedfile>/tmp/org.kde.fancyclock.tar.gz</installedfile>
+  <id>1174881</id>
+  <releasedate>2020-03-22</releasedate>
+  <summary>A customizable clock for your desktop!&lt;br />
+Change: &lt;br />
+- Fonts&lt;br />
+- Colors&lt;br />
+- Letter spacing&lt;br />
+- Opacity</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/3/a/2/1/74649008bc1dd1cc37c48011aee81aa63c47.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/3/a/2/1/74649008bc1dd1cc37c48011aee81aa63c47.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1ODQ5MDQ2MzYiLCJvIjoiMSIsInMiOiJkNTVmMTliNDZiZjAwNTVmZTdkYzQ0OWJjOGI5MzJmZmYyM2EwODkyNTEyOGNjNjk5ZjZlMzdhYTc2ZjhiNmU4ZmM4OGM1MGU2N2VhZmU0MzdlNzFiZTcxYTFmMmNhYmViMTU2YzViNzQxYWUzNjg0OWE3NDQ4Y2IxNTBjZTU1NSIsInQiOjE1ODkyOTcyNjMsInN0ZnAiOm51bGwsInN0aXAiOiI0Ny42Mi4yNTMuMjAifQ.egPC1S9jeCEISIumG2n6XO-usbUGm4jTrPmL_ry6fhc/org.kde.fancyclock.tar.gz</payload>
+  <tags>widget,plasma##majorversion=5,unix,original-product,plasma,kde,linux,gplv2,clock,extension</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>Simple Date and Time</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>tourada</author>
+  <homepage>https://store.kde.org/p/998898</homepage>
+  <licence></licence>
+  <version>1.1</version>
+  <rating>70</rating>
+  <downloads>22950</downloads>
+  <installedfile>/tmp/174323-Simple_Date_and_Time.plasmoid</installedfile>
+  <id>998898</id>
+  <releasedate>2015-11-12</releasedate>
+  <summary>A simple KDE widget to display date and time on the panel.&lt;br />
+&lt;br />
+If you need to report a bug or want to make a request, please do so at &lt;br />
+https://github.com/zbeptz/Plasmoid-DateTime&lt;br />
+&lt;br />
+--&lt;br />
+Thank you to kdea, author of Day of Week and Day of Month widgets for the idea.</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img//hive/content-pre1/174323-1.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img//hive/content-pre1/174323-1.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE0NjA3MzI3NjIiLCJvIjoiMSIsInMiOiI5ODJlZGQ3Yjc0MGI2YTg1ZmM4YjAyNjYxNDYwYTQ1ZGE0ZjRiNmVmNTE1ZTdiYTM2ZjQ3MWRlMTliZTVkOTExMDA1NDBkNDY2YWI3MDY1ZmY3Y2I5NmM5ZjU0NTUyODIxN2EwYTBjYmRmODM5NTMwNzNiN2Y1YTE4NzIyYmRhNCIsInQiOjE1ODkyOTczODYsInN0ZnAiOm51bGwsInN0aXAiOiI0Ny42Mi4yNTMuMjAifQ.eDy5WAtRE9SS86YtxdJzf5I4w9wUXEDaZ-5G76VZYr0/174323-Simple_Date_and_Time.plasmoid</payload>
+  <tags>extension,clock,linux,kde,widget,unix,plasma##majorversion=5,plasma</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>SysMon plasmoid</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>burlog</author>
+  <homepage>https://store.kde.org/p/1198939</homepage>
+  <licence></licence>
+  <version>0.1</version>
+  <rating>78</rating>
+  <downloads>15642</downloads>
+  <installedfile>/tmp/1512019617-sysmon.plasmoid</installedfile>
+  <id>1198939</id>
+  <releasedate>2017-11-30</releasedate>
+  <summary>The sysmon plasmoid is based on KDE standard system load plasmoids which are constrained to some chosen metrics like CPU load. In contrast, the sysmon can show any metric provided by the System Monitor data source engine.&lt;br />
+&lt;br />
+Installation is pretty simple and straight forward:&lt;br />
+&lt;br />
+$ git clone https://github.com/burlog/plasmoid-sysmon.git plasmoid-sysmon&lt;br />
+$ cd plasmoid-sysmon&lt;br />
+$ plasmapkg2 -t plasmoid -i ./plasmoid</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img/9/b/1/1/80c49cb3b256814e4a191e931781cc1121c9.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img/9/b/1/1/80c49cb3b256814e4a191e931781cc1121c9.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE1MTIwMTk2MTciLCJvIjoiMSIsInMiOiJiZmJhYzg5NDJjNjc0NzMwODY2OTkzNDMzNjk1ZjM2NGYwMjU4YzZmM2Q0NTU0MjljZTk5NDk4MWIyMjExNzZjZWRhYjE5MjYyNWVkZWM0MTcyNjljNDY3M2EyOGEyZTExNDIyNzBlYTEyMDk2NzM3MDczNWMxOTNhYTNhMDdlNiIsInQiOjE1ODkyOTczMzgsInN0ZnAiOm51bGwsInN0aXAiOiI0Ny42Mi4yNTMuMjAifQ.HWpFM2xRleWisQRkWLbWHvw-Xd32ktTiNIuHClOPM8I/1512019617-sysmon.plasmoid</payload>
+  <tags>widget,unix,plasma,plasma##majorversion=5,kde,monitoring,linux,extension</tags>
+  <status>installed</status>
+ </stuff>
+ <stuff category="">
+  <name>PlayBar2</name>
+  <providerid>https://api.kde-look.org/ocs/v1/</providerid>
+  <author>audoban</author>
+  <homepage>https://store.kde.org/p/998909</homepage>
+  <licence></licence>
+  <version>2.5</version>
+  <rating>85</rating>
+  <downloads>16560</downloads>
+  <installedfile>/tmp/v2.5.zip</installedfile>
+  <id>998909</id>
+  <releasedate>2017-08-06</releasedate>
+  <summary>Client MPRIS2, allows you to control your favorite media player</summary>
+  <changelog></changelog>
+  <preview>https://cn.opendesktop.org/cache/100x100-0/img//hive/content-pre1/168944-1.png</preview>
+  <previewBig>https://cn.opendesktop.org/cache/770x540-0/img//hive/content-pre1/168944-1.png</previewBig>
+  <payload>https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE0OTczMTA1MzgiLCJvIjoiMSIsInMiOiJmNWFkNDYzMTYzZTNjN2U5NzljMTEwMGRmNTQ5YjIxNzQwMWJlMzExMTE4ODdjNzNlZmM4NjEzNjg0YTVhNTIzMGI5Y2RkYjFiNWQwYjE1ZTBmMWVjYzYyZGY2ZTg3Nzk2MDI2ZGVjMDEzOGM5M2EzNWY0ZTQ1NDEzNDc3NWMxNCIsInQiOjE1ODkyOTcyOTEsInN0ZnAiOm51bGwsInN0aXAiOiI0Ny42Mi4yNTMuMjAifQ.sHAFqadpoWPYLMRbBz18PPjs5-t8Q_z8swV6IGOKO5A/v2.5.zip</payload>
+  <tags>widget,unix,plasma,plasma##majorversion=5,multimedia,extension,linux,kde</tags>
+  <status>installed</status>
+ </stuff>
+</hotnewstuffregistry>

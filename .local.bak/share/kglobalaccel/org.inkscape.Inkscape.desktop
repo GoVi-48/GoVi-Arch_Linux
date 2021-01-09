@@ -1,0 +1,27 @@
+[Desktop Entry]
+Categories=Graphics;VectorGraphics;GTK;
+Comment[es_ES]=Cree y edite Gráficos Vectoriales Escalables (SVG)
+Comment=Create and edit Scalable Vector Graphics images
+Exec=inkscape %F
+GenericName[es_ES]=Editor de gráficos vectoriales
+GenericName=Vector Graphics Editor
+Icon=org.inkscape.Inkscape
+Keywords[es_ES]=imagen, editor; vectorial; dibujo;
+Keywords=image;editor;vector;drawing;
+MimeType=image/svg+xml;image/svg+xml-compressed;application/vnd.corel-draw;application/pdf;application/postscript;image/x-eps;application/illustrator;image/cgm;image/x-wmf;application/x-xccx;application/x-xcgm;application/x-xcdt;application/x-xsk1;application/x-xcmx;image/x-xcdr;application/visio;application/x-visio;application/vnd.visio;application/visio.drawing;application/vsd;application/x-vsd;image/x-vsd;
+Name[es_ES]=Inkscape
+Name=Inkscape
+NoDisplay=true
+StartupNotify=true
+Terminal=false
+TryExec=inkscape
+Type=Application
+Version=1.0
+X-Ayatana-Desktop-Shortcuts=Drawing
+X-GNOME-FullName=Inkscape Vector Graphics Editor
+
+[X-Drawing Shortcut Group]
+Exec=inkscape
+Name[es_ES]=Dibujo nuevo
+Name=New Drawing
+TargetEnvironment=Unity

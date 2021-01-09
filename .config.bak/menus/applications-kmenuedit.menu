@@ -14,6 +14,7 @@
   <Filename>Documentos.desktop</Filename>
   <Filename>THC.desktop</Filename>
   <Filename>Wine.desktop</Filename>
+  <Filename>Latte-Dock.desktop</Filename>
  </Exclude>
  <Menu>
   <Name>.hidden</Name>
@@ -28,7 +29,6 @@
    <Filename>Shadow of the Tomb Raider - The Path Home.desktop</Filename>
    <Filename>DOOM Eternal.desktop</Filename>
    <Filename>Games-steam.desktop</Filename>
-   <Filename>steam.desktop</Filename>
    <Filename>goverlay.desktop</Filename>
    <Filename>jconsole-java11-openjdk.desktop</Filename>
    <Filename>jshell-java11-openjdk.desktop</Filename>
@@ -40,6 +40,8 @@
    <Filename>org.kde.latte-dock.desktop</Filename>
    <Filename>cairo-dock-cairo.desktop</Filename>
    <Filename>Arch Gaming.desktop</Filename>
+   <Filename>Latte-Dock.desktop</Filename>
+   <Filename>steam.desktop</Filename>
   </Include>
  </Menu>
  <Menu>
@@ -48,6 +50,7 @@
    <Filename>Epic Games-2.desktop</Filename>
    <Filename>Bethesda.desktop</Filename>
    <Filename>Epic Games.desktop</Filename>
+   <Filename>GOG.desktop</Filename>
   </Include>
   <Exclude>
    <Filename>THC.desktop</Filename>
@@ -59,6 +62,8 @@
    <Filename>retroarch.desktop</Filename>
    <Filename>rpcs3.desktop</Filename>
    <Filename>Emulation Station.desktop</Filename>
+   <Filename>steam.desktop</Filename>
+   <Filename>Cemu Emulator.desktop</Filename>
   </Exclude>
   <Menu>
    <Name>Wine</Name>
@@ -140,48 +145,75 @@
    <Old>Cemu Games</Old>
    <New>Cemu/Cemu Games</New>
   </Move>
+  <Menu>
+   <Name>Emulators</Name>
+   <Directory>Emulators.directory</Directory>
+   <Menu>
+    <Name>Cemu</Name>
+    <Exclude>
+     <Filename>Cemu Emulator.desktop</Filename>
+    </Exclude>
+    <Include/>
+    <Deleted/>
+   </Menu>
+   <Include>
+    <Filename>Emulation Station.desktop</Filename>
+    <Filename>rpcs3.desktop</Filename>
+    <Filename>Cemu Emulator.desktop</Filename>
+   </Include>
+   <Exclude/>
+   <Layout>
+    <Merge type="files"/>
+    <Filename>Cemu Emulator.desktop</Filename>
+    <Filename>Emulation Station.desktop</Filename>
+    <Filename>rpcs3.desktop</Filename>
+   </Layout>
+  </Menu>
+  <Move>
+   <Old>Cemu</Old>
+   <New>Emulators/Cemu</New>
+  </Move>
+  <Menu>
+   <Name>Arcade</Name>
+   <Deleted/>
+  </Menu>
+  <Menu>
+   <Name>TacticStrategy</Name>
+   <Deleted/>
+  </Menu>
+  <Menu>
+   <Name>Board</Name>
+   <Deleted/>
+  </Menu>
+  <Menu>
+   <Name>Kidsgames</Name>
+   <Deleted/>
+  </Menu>
+  <Menu>
+   <Name>Logic</Name>
+   <Deleted/>
+  </Menu>
+  <Menu>
+   <Name>Card</Name>
+   <Deleted/>
+  </Menu>
+  <Menu>
+   <Name>GOG</Name>
+   <Directory>GOG.directory</Directory>
+   <Deleted/>
+  </Menu>
   <Layout>
    <Merge type="menus"/>
    <Menuname>Emulators</Menuname>
    <Merge type="files"/>
    <Filename>Bethesda.desktop</Filename>
    <Filename>Epic Games.desktop</Filename>
+   <Filename>GOG.desktop</Filename>
    <Filename>net.lutris.Lutris.desktop</Filename>
    <Filename>Games-Origin.desktop</Filename>
    <Filename>Games-steam.desktop</Filename>
-   <Filename>steam.desktop</Filename>
    <Filename>Games-Uplay.desktop</Filename>
-   <Menuname>Arcade</Menuname>
-   <Menuname>Card</Menuname>
-   <Menuname>Logic</Menuname>
-   <Menuname>Board</Menuname>
-   <Menuname>Kidsgames</Menuname>
-   <Menuname>TacticStrategy</Menuname>
   </Layout>
-  <Menu>
-   <Name>Emulators</Name>
-   <Layout>
-    <Merge type="menus"/>
-    <Menuname>Cemu</Menuname>
-    <Merge type="files"/>
-    <Filename>Emulation Station.desktop</Filename>
-    <Filename>rpcs3.desktop</Filename>
-   </Layout>
-   <Directory>Emulators.directory</Directory>
-   <Menu>
-    <Name>Cemu</Name>
-    <NotDeleted/>
-   </Menu>
-   <Include>
-    <Filename>Emulation Station.desktop</Filename>
-    <Filename>rpcs3.desktop</Filename>
-   </Include>
-   <Exclude/>
-  </Menu>
-  <Move>
-   <Old>Cemu</Old>
-   <New>Emulators/Cemu</New>
-  </Move>
  </Menu>
  <Include/>
  <Menu>
@@ -269,12 +301,15 @@
    <Filename>winetricks.desktop</Filename>
    <Filename>Webgrab to GIT.desktop</Filename>
    <Filename>org.kde.latte-dock.desktop</Filename>
+   <Filename>Latte-Dock.desktop</Filename>
   </Exclude>
   <Include>
    <Filename>Polybar.desktop</Filename>
+   <Filename>cairo-dock.desktop</Filename>
   </Include>
   <Layout>
    <Merge type="files"/>
+   <Filename>cairo-dock.desktop</Filename>
    <Filename>Polybar.desktop</Filename>
    <Merge type="menus"/>
    <Menuname>XUtilities</Menuname>
@@ -462,6 +497,7 @@
    <Filename>jconsole-java-openjdk.desktop</Filename>
    <Filename>jshell-java-openjdk.desktop</Filename>
    <Filename>cairo-dock-cairo.desktop</Filename>
+   <Filename>cairo-dock.desktop</Filename>
   </Exclude>
   <Layout>
    <Merge type="menus"/>
@@ -469,7 +505,6 @@
    <Menuname>ScreenSavers</Menuname>
    <Merge type="files"/>
    <Filename>cups.desktop</Filename>
-   <Filename>cairo-dock.desktop</Filename>
    <Filename>Alacritty.desktop</Filename>
    <Filename>org.kde.kinfocenter.desktop</Filename>
    <Filename>conky.desktop</Filename>
@@ -504,8 +539,8 @@
  </Menu>
  <Layout>
   <Merge type="menus"/>
-  <Menuname>Development</Menuname>
   <Menuname>THC</Menuname>
+  <Menuname>Development</Menuname>
   <Menuname>Graphics</Menuname>
   <Menuname>Internet</Menuname>
   <Menuname>Games</Menuname>

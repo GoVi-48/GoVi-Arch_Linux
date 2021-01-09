@@ -1,1 +1,1 @@
-/home/govi/Scripts/Bash/Games/Lutris/wine_5.7.10/Sekiro.sh
+/Media/Games/PC/Sekiro - Shadows Die Twice/Wine/Launch-Sekiro.sh

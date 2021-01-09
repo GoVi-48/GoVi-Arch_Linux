@@ -1,1 +1,1 @@
-/home/govi/Scripts/Bash/Games/Steam/Resident_Evil_2.sh
+/Datos/Games/PC/Resident Evil 2/Wine/Launch-Resident_Evil_2.sh

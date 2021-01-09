@@ -1,1 +1,0 @@
-/home/govi/Scripts/Bash/Games/Lutris/wine_5.7.10/Rocket_League.sh

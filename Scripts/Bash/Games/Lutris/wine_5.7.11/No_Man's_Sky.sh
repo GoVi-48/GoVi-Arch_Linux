@@ -1,0 +1,1 @@
+/Datos/Games/PC/No Man's Sky/Wine/Launch-No_Man's_Sky.sh

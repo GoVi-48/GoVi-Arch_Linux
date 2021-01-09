@@ -1,1 +1,1 @@
-/home/govi/Scripts/Bash/Games/Wine_5.21/Green_Hell.sh
+/home/govi/Games/PC/Green Hell/Wine/Launch-Green_Hell.sh

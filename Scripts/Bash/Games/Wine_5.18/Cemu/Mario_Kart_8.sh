@@ -1,1 +1,0 @@
-/home/govi/Scripts/Bash/Games/Emulators/Cemu/Mario_Kart_8.sh

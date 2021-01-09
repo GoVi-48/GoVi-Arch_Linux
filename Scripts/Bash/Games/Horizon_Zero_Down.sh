@@ -1,1 +1,1 @@
-/home/govi/Scripts/Bash/Games/Proton/Proton-5.21-GE-1/Horizon_Zero_Down.sh
+/home/govi/Games/PC/Horizon Zero Dawn/Wine/Launch-Horizon_Zero_Down.sh

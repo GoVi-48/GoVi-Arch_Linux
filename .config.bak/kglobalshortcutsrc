@@ -12,21 +12,9 @@ New=Meta+T,,New Terminal
 _k_friendly_name=Alacritty
 _launch=,,Alacritty
 
-[among trees.desktop]
-_k_friendly_name=Among Trees
-_launch=none,none,Lanzar Among Trees
-
-[arch gaming.desktop]
-_k_friendly_name=Arch Gaming
-_launch=none,none,Lanzar Arch Gaming
-
 [cairo-dock-cairo.desktop]
 _k_friendly_name=Cairo-Dock (Fallback Mode)
 _launch=none,none,Lanzar Cairo-Dock (Fallback Mode)
-
-[doom eternal.desktop]
-_k_friendly_name=Doom Eternal
-_launch=none,none,Lanzar Doom Eternal
 
 [games-steam.desktop]
 BigPicture=,,Big Picture
@@ -44,14 +32,6 @@ _launch=none,none,Lanzar Steam
 [gimp.desktop]
 _k_friendly_name=Lanzar GIMP
 _launch=Meta+G,none,Lanzar GIMP
-
-[goverlay.desktop]
-_k_friendly_name=GOverlay
-_launch=none,none,Lanzar GOverlay
-
-[green hell.desktop]
-_k_friendly_name=Green Hell
-_launch=none,none,Lanzar Green Hell
 
 [jconsole-java-openjdk.desktop]
 _k_friendly_name=OpenJDK Java 14 Console
@@ -99,8 +79,10 @@ display=Display\t,Display\tMeta+P,Cambiar pantalla
 
 [khotkeys]
 _k_friendly_name=Servicio de accesos rápidos personalizados
-{01f1067a-4298-4491-b8bd-2be9c82ace79}=Meta+Q,none,Close Window
+{01f1067a-4298-4491-b8bd-2be9c82ace79}=none,none,Close Window
 {51678489-bb32-48b0-93b4-1579d06f56dc}=none,none,Launch Konsole
+{b9202fe2-c1b0-4d5c-a29f-b417553fb25c}=none,none,Acción nueva
+{ca9dfe4e-8614-459f-9c98-4d810e3e1f42}=none,none,Acción nueva
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=,none,Búsqueda
 
 [kmix]
@@ -350,14 +332,14 @@ Walk Through Desktops=none,none,Recorrer los escritorios
 Walk Through Desktops (Reverse)=none,none,Recorrer los escritorios (hacia atrás)
 Walk Through Window Tabs=none,none,Circular entre ventanas en pestañas
 Walk Through Window Tabs (Reverse)=none,none,Circular entre ventanas en pestañas (al revés)
-Walk Through Windows=Alt+Tab,Alt+Tab,Recorrer las ventanas
-Walk Through Windows (Reverse)=Alt+Shift+Backtab,Alt+Shift+Backtab,Recorrer las ventanas (hacia atrás)
-Walk Through Windows Alternative=none,none,Recorrer las ventanas de modo alternativo
-Walk Through Windows Alternative (Reverse)=none,none,Recorrer las ventanas de modo alternativo (hacia atrás)
-Walk Through Windows of Current Application=Alt+`,Alt+`,Recorrer las ventanas de la aplicación actual
-Walk Through Windows of Current Application (Reverse)=Alt+~,Alt+~,Recorrer las ventanas de la aplicación actual (hacia atrás)
-Walk Through Windows of Current Application Alternative=none,none,Recorrer las ventanas de la aplicación actual de modo alternativo
-Walk Through Windows of Current Application Alternative (Reverse)=none,none,Recorrer las ventanas de la aplicación actual de modo alternativo (hacia atrás)
+Walk Through Windows=Alt+Tab,Alt+Tab,Walk Through Windows
+Walk Through Windows (Reverse)=Alt+Shift+Tab,Alt+Shift+Backtab,Walk Through Windows (Reverse)
+Walk Through Windows Alternative=none,none,Walk Through Windows Alternative
+Walk Through Windows Alternative (Reverse)=none,none,Walk Through Windows Alternative (Reverse)
+Walk Through Windows of Current Application=none,Alt+`,Walk Through Windows of Current Application
+Walk Through Windows of Current Application (Reverse)=none,Alt+~,Walk Through Windows of Current Application (Reverse)
+Walk Through Windows of Current Application Alternative=none,none,Walk Through Windows of Current Application Alternative
+Walk Through Windows of Current Application Alternative (Reverse)=none,none,Walk Through Windows of Current Application Alternative (Reverse)
 Window Above Other Windows=none,none,Mantener la ventana sobre las demás
 Window Below Other Windows=none,none,Mantener la ventana bajo las demás
 Window Close=Alt+F4,Alt+F4,Cerrar la ventana
@@ -431,54 +413,6 @@ view_actual_size=,Meta+0,Tamaño real
 view_zoom_in=Meta+=,Meta+=,Ampliar
 view_zoom_out=Meta+-,Meta+-,Reducir
 
-[lattedock]
-_k_friendly_name=Latte Dock
-activate entry 1=,Meta+1,Activate Entry 1
-activate entry 10=,Meta+0,Activate Entry 10
-activate entry 11=Meta+Z,Meta+Z,Activate Entry 11
-activate entry 12=Meta+X,Meta+X,Activate Entry 12
-activate entry 13=Meta+C,Meta+C,Activate Entry 13
-activate entry 14=,Meta+V,Activate Entry 14
-activate entry 15=Meta+Alt+B,Meta+B,Activate Entry 15
-activate entry 16=Meta+N,Meta+N,Activate Entry 16
-activate entry 17=Meta+M,Meta+M,Activate Entry 17
-activate entry 18=Meta+\\,,Meta+\\,,Activate Entry 18
-activate entry 19=Meta+.,Meta+.,Activate Entry 19
-activate entry 2=,Meta+2,Activate Entry 2
-activate entry 3=,Meta+3,Activate Entry 3
-activate entry 4=,Meta+4,Activate Entry 4
-activate entry 5=,Meta+5,Activate Entry 5
-activate entry 6=,Meta+6,Activate Entry 6
-activate entry 7=,Meta+7,Activate Entry 7
-activate entry 8=,Meta+8,Activate Entry 8
-activate entry 9=,Meta+9,Activate Entry 9
-new instance for entry 1=Meta+Ctrl+1,Meta+Ctrl+1,New Instance for Entry 1
-new instance for entry 10=Meta+Ctrl+0,Meta+Ctrl+0,New Instance for Entry 10
-new instance for entry 11=Meta+Ctrl+Z,Meta+Ctrl+Z,New Instance for Entry 11
-new instance for entry 12=Meta+Ctrl+X,Meta+Ctrl+X,New Instance for Entry 12
-new instance for entry 13=Meta+Ctrl+C,Meta+Ctrl+C,New Instance for Entry 13
-new instance for entry 14=Meta+Ctrl+V,Meta+Ctrl+V,New Instance for Entry 14
-new instance for entry 15=Meta+Ctrl+B,Meta+Ctrl+B,New Instance for Entry 15
-new instance for entry 16=Meta+Ctrl+N,Meta+Ctrl+N,New Instance for Entry 16
-new instance for entry 17=Meta+Ctrl+M,Meta+Ctrl+M,New Instance for Entry 17
-new instance for entry 18=Meta+Ctrl+\\,,Meta+Ctrl+\\,,New Instance for Entry 18
-new instance for entry 19=Meta+Ctrl+.,Meta+Ctrl+.,New Instance for Entry 19
-new instance for entry 2=Meta+Ctrl+2,Meta+Ctrl+2,New Instance for Entry 2
-new instance for entry 3=Meta+Ctrl+3,Meta+Ctrl+3,New Instance for Entry 3
-new instance for entry 4=Meta+Ctrl+4,Meta+Ctrl+4,New Instance for Entry 4
-new instance for entry 5=Meta+Ctrl+5,Meta+Ctrl+5,New Instance for Entry 5
-new instance for entry 6=Meta+Ctrl+6,Meta+Ctrl+6,New Instance for Entry 6
-new instance for entry 7=Meta+Ctrl+7,Meta+Ctrl+7,New Instance for Entry 7
-new instance for entry 8=Meta+Ctrl+8,Meta+Ctrl+8,New Instance for Entry 8
-new instance for entry 9=Meta+Ctrl+9,Meta+Ctrl+9,New Instance for Entry 9
-show dock settings=Meta+A,Meta+A,Mostrar preferencias del dock
-show latte dock=Meta+`,Meta+`,Mostrar Dock
-show latte global settings=,Meta+W,Show Latte Global Settings
-show latte universal settings=Meta+E,Meta+E,Mostrar preferencias de Latte
-show latte view=,Meta+`,Show Latte Dock/Panel
-show layout settings=Meta+W,Meta+W,Mostrar preferencias de la distribución
-show view settings=,Meta+A,Cycle Through Dock/Panel Settings Windows
-
 [libreoffice-draw.desktop]
 NewDocument=,,New Drawing
 _k_friendly_name=LibreOffice Draw
@@ -513,10 +447,6 @@ _launch=Meta+D,Meta+E,Dolphin
 _k_friendly_name=Lanzar Kate
 _launch=Meta+Ctrl+K,none,Lanzar Kate
 
-[org.kde.latte-dock.desktop]
-_k_friendly_name=Latte
-_launch=none,none,Lanzar Latte
-
 [org.kde.plasma.emojier.desktop]
 _k_friendly_name=Selector de emojis
 _launch=,Meta+.,Selector de emojis
@@ -543,7 +473,7 @@ Turn Off Screen=none,none,Apagar la pantalla
 _k_friendly_name=Gestión de energía
 
 [plasmashell]
-_k_friendly_name=Plasma
+_k_friendly_name=Cambio de actividad
 activate task manager entry 1=Meta+1,Meta+1,Activar la entrada 1 del gestor de tareas
 activate task manager entry 10=Meta+0,Meta+0,Activar la entrada 10 del gestor de tareas
 activate task manager entry 2=Meta+2,Meta+2,Activar la entrada 2 del gestor de tareas
@@ -565,7 +495,7 @@ cyclePrevAction=none,none,Anterior elemento del historial
 edit_clipboard=none,none,Editar el contenido...
 manage activities=,Meta+Q,Mostrar el selector de actividad
 next activity=Meta+Tab,Meta+Tab,Recorrer las actividades
-previous activity=none,Meta+Shift+Tab,Recorrer las actividades (en orden inverso)
+previous activity=none,Meta+Shift+Tab,Recorrer las actividades (en sentido inverso)
 repeat_action=Ctrl+Alt+R,Ctrl+Alt+R,Invocar manualmente la acción en el portapapeles actual
 show dashboard=Ctrl+F12,Ctrl+F12,Mostrar el escritorio
 show-barcode=none,none,Mostrar código de barras...
@@ -595,12 +525,6 @@ _launch=none,none,Lanzar Steam (Runtime)
 [systemsettings.desktop]
 _k_friendly_name=Preferencias del sistema
 _launch=Tools,Tools,Preferencias del sistema
-
-[vivaldi-stable.desktop]
-_k_friendly_name=Vivaldi
-_launch=Meta+V,,Vivaldi
-new-private-window=,,Nueva ventana privada
-new-window=,,Nueva ventana
 
 [webgrab to git.desktop]
 _k_friendly_name=Webgrab to GIT

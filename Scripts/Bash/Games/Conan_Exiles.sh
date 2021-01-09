@@ -1,1 +1,0 @@
-/home/govi/Scripts/Bash/Games/Wine_5.21/Conan_Exiles.sh

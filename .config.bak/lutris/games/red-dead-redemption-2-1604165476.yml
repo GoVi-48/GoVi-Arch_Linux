@@ -1,10 +1,5 @@
 game:
-  exe: /home/govi/Scripts/Bash/Games/Red_Dead_Redemption_2.sh
+  exe: /Media/Games/PC/Red Dead Redemption 2/Launch_RDR2.sh
   working_dir: ~/Games/PC/Red Dead Redemption 2
 linux: {}
-system:
-  env:
-    ENABLE_VKBASALT: '1'
-    MANGOHUD: '1'
-    MANGOHUD_DLSYM: '1'
-  prefer_system_libs: false
+system: {}

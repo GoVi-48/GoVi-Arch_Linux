@@ -1,1 +1,0 @@
-/home/govi/Scripts/Bash/Games/Emulators/Cemu/Zelda_BOTW.sh

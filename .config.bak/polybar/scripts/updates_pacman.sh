@@ -1,24 +1,27 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
-updates_pacman=$(pacman -Qu | wc -l)
-notf_sound=~/.config/polybar/scripts/notf_sound
+if ping -c5 google.com > /dev/null 2>&1; then
 
-if [ "$updates_pacman" -eq 0 ]; then
-    echo -e "\c"
+    UPDATES_PACMAN=$(pacman -Qu | wc -l)
+    NOTF_SOUND=~/.config/polybar/scripts/notf_sound
 
-elif [ "$updates_pacman" -gt 0 ] && [ -f $notf_sound ]; then
-    if [ "$updates_pacman" != "^Get" ]; then
-        echo %{F#0095ff}"%{T3}7 %{T-}%{F-}$updates_pacman pacman"
-        kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/apps/64/updates-pacman.svg" --passivepopup "$updates_pacman pacman Updates" 8
+    if [ "$UPDATES_PACMAN" -eq 0 ]; then
+        echo -e "\c"
+
+    elif [ "$UPDATES_PACMAN" -gt 0 ] && [ -f $NOTF_SOUND ]; then
+        echo %{F#0095ff}"%{T3}7 %{T-}%{F-}$UPDATES_PACMAN pacman"
+        kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/apps/64/updates-pacman.svg" --passivepopup "$UPDATES_PACMAN pacman Updates" 8
         paplay $HOME/.local/share/sounds/long-dang.ogg
+
+    elif [ "$UPDATES_PACMAN" -gt 0 ] && [ ! -f $NOTF_SOUND ]; then
+        echo %{F#0095ff}"%{T3}7 %{T-}%{F-}$UPDATES_PACMAN pacman"
+
+    else
+        echo -e "\c"
+
     fi
 
-elif [ "$updates_pacman" -gt 0 ] && [ ! -f $notf_sound ]; then
-    if [ "$updates_pacman" != "^Get" ] ;then
-        echo %{F#0095ff}"%{T3}7 %{T-}%{F-}$updates_pacman pacman"
-    fi
-    
-else   
+else
     echo -e "\c"
-    
+
 fi

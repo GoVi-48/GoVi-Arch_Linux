@@ -1,1 +1,1 @@
-/home/govi/Scripts/Bash/Games/Linux/Shadow_of_the_Tomb_Raider.sh
+/Media/Games/PC/Shadow of the Tomb Raider/Launch-Shadow_of_the_Tomb_Raider.sh

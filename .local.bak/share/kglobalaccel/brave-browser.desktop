@@ -1,0 +1,29 @@
+[Desktop Action new-private-window]
+Exec=brave --incognito
+MimeType=x-scheme-handler/unknown;x-scheme-handler/about;text/html;text/xml;application/xhtml_xml;image/webp;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
+Name[es_ES]=Nueva ventana de incógnito
+Name=New Incognito Window
+
+[Desktop Action new-window]
+Exec=brave
+Name[es_ES]=Nueva ventana
+Name=New Window
+
+[Desktop Entry]
+Actions=new-window;new-private-window;
+Categories=Network;WebBrowser;
+Comment[es_ES]=Accede a Internet.
+Comment=Access the Internet
+Exec=brave %U
+GenericName[es_ES]=Navegador web
+GenericName=Web Browser
+Icon=brave
+MimeType=text/html;text/xml;application/xhtml_xml;image/webp;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;
+Name=Brave
+NoDisplay=true
+StartupNotify=true
+StartupWMClass=brave-browser
+Terminal=false
+TryExec=brave
+Type=Application
+Version=1.0

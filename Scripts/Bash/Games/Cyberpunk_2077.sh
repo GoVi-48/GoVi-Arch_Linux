@@ -1,1 +1,1 @@
-/home/govi/Scripts/Bash/Games/Wine_5.22/Cyberpunk_2077.sh
+/Media/Games/PC/Cyberpunk 2077/Wine/Launch-Cyberpunk_2077.sh

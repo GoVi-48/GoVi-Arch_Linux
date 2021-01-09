@@ -1,1 +1,1 @@
-/home/govi/Scripts/Bash/Games/Wine_5.20/Trials_Evolution.sh
+/home/govi/Games/PC/Trials Evolution/Wine/Launch-Trials_Evolution.sh

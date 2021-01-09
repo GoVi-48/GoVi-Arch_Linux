@@ -1,32 +1,36 @@
 #!/usr/bin/env bash
 
-GoVi_Arch_Linux="$HOME/Proyectos/Github/GoVi-Arch-Linux"
+GOVI_ARCH_LINUX="$HOME/Proyectos/Github/GoVi-Arch_Linux"
 
 # Remove
-rm -rfv "$GoVi_Arch_Linux/.config.bak/"*
-rm -rfv "$GoVi_Arch_Linux/.local.bak/share/"*
-rm -rfv "$GoVi_Arch_Linux/Backups/"*
-rm -rfv "$GoVi_Arch_Linux/Scripts/"*
+rm -rfv "$GOVI_ARCH_LINUX/.config.bak/"*
+rm -rfv "$GOVI_ARCH_LINUX/.local.bak/share/"*
+rm -rfv "$GOVI_ARCH_LINUX/Backups/"*
+rm -rfv "$GOVI_ARCH_LINUX/Gaming/"*
+rm -rfv "$GOVI_ARCH_LINUX/Scripts/"*
 
-# Backup ~/.config
-cp -rfv ~/.config/* "$GoVi_Arch_Linux/.config.bak"
+# Backup ~/.config/
+mkdir -p "$GOVI_ARCH_LINUX/.config.bak/" && cp -rfv ~/.config/* $_
 
-# Backup ~/.local
-mkdir -p "$GoVi_Arch_Linux/.local.bak/share/plasma/look-and-feel/GoVi" && cp -rfv ~/.local/share/plasma/look-and-feel/GoVi/* $_
-mkdir -p "$GoVi_Arch_Linux/.local.bak/share/aurorae/themes/GoVi-Wi" && cp ~/.local/share/aurorae/themes/GoVi-Wi/* $_
-mkdir -p "$GoVi_Arch_Linux/.local.bak/share/icons/GoVi-Cu" && cp -rfv ~/.local/share/icons/GoVi-Cu/* $_
-mkdir -p "$GoVi_Arch_Linux/.local.bak/share/icons/GoVi-Ic" && cp -rfv ~/.local/share/icons/GoVi-Ic/* $_
-mkdir -p "$GoVi_Arch_Linux/.local.bak/share/color-schemes" && cp -rfv ~/.local/share/color-schemes/* $_
-mkdir -p "$GoVi_Arch_Linux/.local.bak/share/onboard" && cp -rfv ~/.local/share/onboard/* $_
+# Backup ~/.local/share/
+mkdir -p "$GOVI_ARCH_LINUX/.local.bak/share/" && rsync -arv --exclude 'baloo' ~/.local/share/* $_
 
 # Backup ~/
-mkdir -p "$GoVi_Arch_Linux/BacKups/Linux" && cp -rfv ~/Backups/Linux/* $_ 
-mkdir -p "$GoVi_Arch_Linux/Scripts" && cp -rfv ~/Scripts/* $_
-cp -rfv ~/.bashrc "$GoVi_Arch_Linux"
-cp -rfv ~/.vimrc "$GoVi_Arch_Linux"
+mkdir -p "$GOVI_ARCH_LINUX/BacKups/Linux/" && cp -rfv ~/Backups/Linux/* $_
+mkdir -p "$GOVI_ARCH_LINUX/Scripts/" && cp -rfv ~/Scripts/* $_
+cp -rfv /etc/fstab "$GOVI_ARCH_LINUX"
+cp -rfv ~/.bashrc "$GOVI_ARCH_LINUX"
+cp -rfv ~/.vimrc "$GOVI_ARCH_LINUX"
+
+# Gaming
+mkdir -p $GOVI_ARCH_LINUX/Gaming/ && cp -rfv /etc/pacman.conf $_
+mkdir -p $GOVI_ARCH_LINUX/Gaming/ && cp -rfv ~/.config/MangoHud/MangoHud.conf $_
+mkdir -p $GOVI_ARCH_LINUX/Gaming/vkBasalt/ && cp -rfv ~/.config/vkBasalt/* $_
+ln -sf "$GOVI_ARCH_LINUX/Scripts/Bash/Games" "$GOVI_ARCH_LINUX/Gaming/"
+mv "$GOVI_ARCH_LINUX/Gaming/Games" "$GOVI_ARCH_LINUX/Gaming/Scripts"
 
 # Push to Github
-cd $HOME/Proyectos/Github/GoVi-Arch-Linux
+cd "$GOVI_ARCH_LINUX"
 git add .
 git commit -m "Updated"
 git push -u origin master
@@ -34,15 +38,18 @@ git push -u origin master
 kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg
 
 while true; do
-    echo -en "Press "Enter" to Continue "c" to Close"
+    echo -en 'Press "Enter" to Continue or "Escape" to Exit'
     echo .
     read -rsn1 input
         if [[ $input = "" ]]; then
             echo "Opening Github"
-            firefox https://github.com/GoVi-48/GoVi-Arch-Linux
+            sleep 2
+            firefox https://github.com/GoVi-48/GoVi-Arch_Linux
             exit
-        elif [[ $input = "c" ]]; then
+            
+        elif [[ $input = $'\e' ]]; then
             exit
+            
         else 
             echo "Invalid Key."
         fi

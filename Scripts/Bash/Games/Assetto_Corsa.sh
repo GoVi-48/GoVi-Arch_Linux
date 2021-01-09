@@ -1,1 +1,0 @@
-/home/govi/Scripts/Bash/Games/Steam/Assetto_Corsa.sh

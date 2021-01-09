@@ -1,1 +1,0 @@
-/home/govi/Scripts/Bash/Games/Steam/NMS.sh

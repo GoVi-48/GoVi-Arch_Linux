@@ -1,1 +1,1 @@
-/home/govi/Scripts/Bash/Games/Wine_5.20/Red_Dead_Redemption_2.sh
+/Datos/Games/PC/Red Dead Redemption 2/Wine/Launch_RDR2.sh

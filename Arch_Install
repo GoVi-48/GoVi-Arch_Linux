@@ -1,0 +1,117 @@
+
+# ======================================================================================= #
+                               # Arch Install #
+# ======================================================================================= #
+
+loadkeys es
+ip a
+ping 8.8.8.8
+pacman -Syyy
+timedatectl set-ntp true
+
+lsblk
+cfdisk /dev/sda
+mkfs.fat -F32 /dev/sda5
+mkfs.ext4 /dev/sda6
+mkdir /mnt/boot
+mkdir /mnt/home
+mount /dev/sda5 /mnt/boot
+mount /dev/sda6 /mnt
+mount /dev/sda7 /mnt/home
+
+pacstrap /mnt base linux linux-firmware vim intel-ucode
+
+genfstab -U /mnt >> /mnt/etc/fstab
+vim /mnt/etc/fstab
+# -------------------------------------------------------------------------------------
+# /dev/sda5 (boot)
+UUID=7DB8-60AC                              /boot       vfat    rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 1
+
+# /dev/sda6 (root)
+UUID=ed2df16a-45f1-47c1-90ba-79c2ccfb7ef0	/         	ext4   rw,relatime 0 1
+
+# /dev/sda7 (home)
+UUID=439b70cb-da7d-40be-a390-5098ee154298	/home     	ext4   rw,relatime 0 2
+
+# /dev/sdb2 (Swap)
+UUID=165ef7bd-5714-4ed9-a3db-8a93c893d349   none        swap    defaults    0 0
+
+# /dev/sdb1 (Datos)
+UUID=dd05af68-11f5-4b5b-9bd1-08dd2354ca23   /Datos      ext4   defaults    0 0
+
+# /dev/sdc1 (Media)
+UUID=94F0F35BF0F34252                       /Media      ntfs-3g   uid=1000,gid=1000    0 0
+
+# /dev/sda4 (Windows)
+UUID=2AE63D01E63CCF37                       /Windows    ntfs    defaults    0 0
+# -------------------------------------------------------------------------------------
+
+arch-chroot /mnt /bin/bash
+
+fallocate -l 3.3GB /swapfile
+chmod 600 /dev/sda8
+mkswap /dev/sda8
+swapon /dev/sda8
+sudo blkid
+vim /etc/fstab
+# -------------------------------------------------------------------------------------
+# /dev/sda8 (Swap)
+UUID=cd73b6dd-578a-4c12-8988-7a7abacc4a2f   none    swap    defaults    0   0
+# -------------------------------------------------------------------------------------
+
+ln -sf /usr/share/zoneinfo/Europe/Madrid /etc/localtime
+hwclock --systohc
+vim /etc/locale.gen
+# -------------------------------------------------------------------------------------
+es_ES.UTF-8 UTF-8
+# -------------------------------------------------------------------------------------
+
+locale-gen
+echo "LANG=es_ES.UTF8" >> /etc/locale.conf
+echo "KEYMAP=es" >> /etc/vconsole.conf
+vim /etc/hostname
+# -------------------------------------------------------------------------------------
+GoVi-PC
+# -------------------------------------------------------------------------------------
+
+vim /etc/hosts
+# -------------------------------------------------------------------------------------
+127.0.0.1   localhost
+::1         localhost
+127.0.1.1   GoVi-PC
+# -------------------------------------------------------------------------------------
+
+passwd
+
+pacman -S grub efibootmgr os-prober ntfs-3g networkmanager network-manager-applet wireless_tools wpa_supplicant dialog mtools dosfstools base-devel linux-headers git alacritty
+systemctl enable NetworkManager
+
+grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=GRUB
+grub-mkconfig -o /boot/grub/grub.cfg
+
+useradd -mg wheel govi
+passwd govi
+EDITOR=vim visudo
+# -------------------------------------------------------------------------------------
+# %wheel ALL=(ALL) ALL >> 
+%wheel ALL=(ALL) ALL
+# -------------------------------------------------------------------------------------
+
+exit
+umount -R /mnt
+reboot
+
+
+# ======================================================================================= #
+                            # Graphical Environment #
+# ======================================================================================= #
+
+sudo pacman -S xf86-video-amdgpu
+sudo pacman -S nvidia nvidia-utils nvidia-settings
+sudo pacman -S xorg
+sudo pacman -S plasma
+sudo pacman -S sddm
+sudo systemctl enable sddm
+
+exit
+reboot

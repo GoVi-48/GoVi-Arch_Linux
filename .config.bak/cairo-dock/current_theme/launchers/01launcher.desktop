@@ -1,4 +1,4 @@
-#3.4.1
+#3.4.99.alpha1
 
 #[gtk-about]
 
@@ -21,7 +21,7 @@ Icon=/home/govi/Imágenes/Icons/Programs/png/photoshop.svg
 
 #s[Default] Command to launch on click:
 #{Example: nautilus --no-desktop, gedit, etc. You can even enter a shortkey, e.g. <Alt>F1, <Ctrl>c,  <Ctrl>v, etc}
-Exec=~/Scripts/Bash/Photoshop.sh
+Exec=/home/govi/Scripts/Bash/Programs/Photoshop.sh
 
 
 #X[Extra parameters]
@@ -43,7 +43,7 @@ Terminal=false
 ShowOnViewport=0
 
 #f[0;100] Order you want for this launcher among the others:
-Order=7.07342529296875
+Order=7.1602363586425781
 
 Icon Type=0
 Type=Application

@@ -1,0 +1,198 @@
+# Distribution
+    Arch Linux
+
+    
+# Video Files
+    sudo pacman -S git
+    git clone https://github.com/GoVi-48/Arch-Linux-Gaming.git "Escritorio/Arch-Linux-Gaming"
+    
+    
+# Links
+    Lutris: 
+     Drivers https://github.com/lutris/docs/blob/master/InstallingDrivers.md
+     Dependencias https://github.com/lutris/docs/blob/master/WineDependencies.md
+    Gamemode https://github.com/FeralInteractive/gamemode
+    MangoHud https://github.com/flightlessmango/MangoHud
+    VkBasalt https://github.com/DadSchoorse/vkBasalt
+
+    
+# Repos
+    kate /etc/pacman.conf
+    # ----------------------------------------------------------------------------- #
+    [multilib]
+    Include = /etc/pacman.d/mirrorlist
+    # ----------------------------------------------------------------------------- #
+    sudo pacman -Syu
+
+    
+# Drivers
+
+    # NVIDIA
+        sudo pacman -S nvidia nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader
+    # AMD
+        sudo pacman -S xf86-video-amdgpu vulkan-radeon lib32-vulkan-radeon vulkan-icd-loader lib32-vulkan-icd-loader
+   
+    # Nvidia 400/500/600 series
+        yay -S nvidia-390xx-dkms # Instead of nvidia    
+        https://wiki.archlinux.org/index.php/NVIDIA # 2010 or earlier
+    
+    # Enable Vulkan for R9 200/300 Series
+        echo -e "options radeon si_support=0\noptions radeon cik_support=0" | sudo tee --append /etc/modprobe.d/radeon.conf
+        echo -e "options amdgpu si_support=1\noptions amdgpu cik_support=1" | sudo tee --append /etc/modprobe.d/amdgpu.conf
+        ## echo "blacklist radeon" | sudo tee --append /etc/modprobe.d/blacklist.conf
+   
+    # Xbox360 drivers
+        yay -S xboxdrv
+        
+        
+# Dependencies   
+    sudo pacman -S pulseaudio pulseaudio-alsa mesa lib32-mesa libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau
+    sudo pacman -S giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs
+
+    
+# Check    
+    lspci -nnk | grep -i vga -A3
+    glxinfo | grep "OpenGL vendor string" | cut -f2 -d":" | xargs
+    pacman -Qs nvidia
+    pacman -Qs vulkan-radeon
+    
+    
+# ACO "AMD Compiler"
+    kate ~/.bashrc
+    # ----------------------------------------------------------------------------- #
+    export RADV_PERFTEST=aco
+    # ----------------------------------------------------------------------------- #
+
+    
+# AUR packages (yay)
+    git clone https://aur.archlinux.org/yay.git "Escritorio/yay"
+    cd ~/Escritorio/yay
+    makepkg -si PKGBUILD
+
+
+# Gamemode
+    sudo pacman -S meson systemd git dbus
+    yay -S gamemode lib32-gamemode
+
+    
+# Mangohud
+    yay -S mangohud lib32-mangohud
+    cp /usr/share/doc/mangohud/MangoHud.conf.example ~/.config/MangoHud/
+    cp ~/.config/MangoHud/MangoHud.conf.example ~/.config/MangoHud/MangoHud.conf
+    kate ~/.config/MangoHud/MangoHud.conf
+    mangohud vkcube
+    kate ~/.bashrc
+    # ----------------------------------------------------------------------------- #
+    export MANGOHUD=1
+    export MANGOHUD_DLSYM=1
+    # ----------------------------------------------------------------------------- #
+
+
+# Vkbasalt
+    yay -S vkbasalt
+    git clone https://github.com/crosire/reshade-shaders "Escritorio/Reshade-Shaders"
+    kate ~/.config/vkBasalt/vkBasalt.conf
+    kate ~/.bashrc
+    # ----------------------------------------------------------------------------- #
+    export VKBASALT_CONFIG_FILE="$HOME/.config/vkBasalt/vkBasalt.conf"
+    export ENABLE_VKBASALT=1
+    # ----------------------------------------------------------------------------- #
+
+    
+# Lutris
+    sudo pacman -S lutris
+
+
+# Steam
+    sudo pacman -S steam
+    sudo pacman -S ttf-liberation
+    # App Ids
+    kate ~/.local/share/Steam/userdata/82768134/760/screenshots.vdf
+
+    
+# Retro Games
+    sudo pacman -S retroarch
+    yay -S emulationstation
+    yay -S cemu
+    yay -S rpcs3-git
+    
+    
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+# Wine
+    sudo pacman -S wine-staging
+ 
+ 
+# Build from source
+    git clone git://source.winehq.org/git/wine.git Escritorio/wine-src
+    cd Escritorio/wine-src
+    ./configure --prefix=$HOME/Escritorio/wine-build --enable-win64 && make 
+
+    
+# Winetricks
+    wget -P ~/Escritorio https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+    chmod +x ~/Escritorio/winetricks
+    cd ~/Escritorio/winetricks
+    sh winetricks corefonts vcrun6
+
+    
+ # Fonts
+    cd ${WINEPREFIX:-$HOME/.wine}/drive_c/windows/Fonts && for i in /usr/share/fonts/**/*.{ttf,otf}; do ln -s "$i"; done   
+    
+    
+# Cemuhook
+    winecfg 
+    >> Library >> Add
+    dbghelp.dll
+    
+    
+# Media Files
+    rm ~/.wine && winecfg
+    ~/Wine/Windows_Utils/Windows_Utils.sh
+    git clone https://github.com/z0z0z/mf-install.git "$HOME/Escritorio/wine-mf"
+    cd ~/Escritorio/wine-mf
+    mkdir -p ~/Escritorio/wine-pfx_mf && cp ~/.wine/* $_
+    export WINEPREFIX="$HOME/Escritorio/wine-pfx_mf"
+    ./mf-install.sh
+
+    
+# DXVK
+    # https://github.com/doitsujin/dxvk/releases
+
+    # v. 1.7.3
+    wget -P ~/Escritorio https://github.com/doitsujin/dxvk/releases/download/v1.7.3/dxvk-1.7.3.tar.gz
+    tar xvzf ~/Escritorio/dxvk-1.7.3.tar.gz -C ~/Escritorio/
+    cd ~/Escritorio/dxvk-1.7.3
+
+    # Install
+    cp -rfv ~/Escritorio/wine-pfx_mf ~/Escritorio/wine-pfx_mf-dxvk-1.7.3
+    export WINEPREFIX=~/Escritorio/wine-pfx_mf-dxvk-1.7.3
+    ./setup_dxvk.sh install
+
+    
+# TKG build
+    git clone https://github.com/Frogging-Family/wine-tkg-git.git "$HOME/Escritorio/wine-tkg-git"
+    cd ~/Escritorio/wine-tkg-git/wine-tkg-git
+    makepkg -si
+    # kate ~/Escritorio/wine-tkg-git/wine-tkg-git/customization.cfg
+    # sh non-makepkg-build.sh
+   
+
+# Create WINEPREFIX
+    WINEPREFIX=~/Wine/.newprefix winecfg
+    WINEPREFIX=~/Wine/.new32prefix WINEARCH="win32" winecfg
+
+    
+# Launch Custom Wine
+    WINEPREFIX=~/Games/Wine/wine-pfx ~/Games/Wine/wine-build/bin/wine64 "/Media/Games/PC/Game/game.exe"
+
+    
+# Run as non admin
+    wine runas /trustlevel:0x20000 "/path/file.exe"
+
+    
+# Theme
+    cd ~/Wine/Windows_Utils/Wine_Breeze-Dark
+    export WINEPREFIX=~/Wine/wine-pfx_folder/wine-pfx_name
+    wine regedit wine-breeze-dark.reg

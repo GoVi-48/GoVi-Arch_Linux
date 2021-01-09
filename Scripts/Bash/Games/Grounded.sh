@@ -1,1 +1,1 @@
-/home/govi/Scripts/Bash/Games/Wine_5.21/Grounded.sh
+/home/govi/Games/PC/Grounded/Wine/Launch-Grounded.sh

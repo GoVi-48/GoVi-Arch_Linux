@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<hardware_settings_info>
+	<systemInfo OS="Linux" totalMemory="0" winPlatformID="2" winMajorVersion="0" winMinorVersion="0" rating="3" />
+	<cpu name="UnknownCPU" speed="-1" cores="4" physicalCores="4" logicalCores="4" hyperThreading="false" sse3Supported="true" avxSupported="false" rating="4" />
+	<graphics_card name="Radeon R9 280X OC" vendorId="0x1002" deviceId="0x6798" native_width="1920" native_height="1080" memory="3072" rating="4">
+		<resolution width="1024" height="768">
+			<refreshRate rate="60" interlaced="false" />
+		</resolution>
+		<resolution width="1152" height="864">
+			<refreshRate rate="60" interlaced="false" />
+		</resolution>
+		<resolution width="1280" height="720">
+			<refreshRate rate="60" interlaced="false" />
+		</resolution>
+		<resolution width="1280" height="800">
+			<refreshRate rate="60" interlaced="false" />
+		</resolution>
+		<resolution width="1280" height="1024">
+			<refreshRate rate="60" interlaced="false" />
+		</resolution>
+		<resolution width="1366" height="768">
+			<refreshRate rate="60" interlaced="false" />
+		</resolution>
+		<resolution width="1536" height="864">
+			<refreshRate rate="60" interlaced="false" />
+		</resolution>
+		<resolution width="1600" height="900">
+			<refreshRate rate="60" interlaced="false" />
+		</resolution>
+		<resolution width="1680" height="1050">
+			<refreshRate rate="60" interlaced="false" />
+		</resolution>
+		<resolution width="1920" height="1080">
+			<refreshRate rate="60" interlaced="false" />
+		</resolution>
+		<capabilities>
+			<multisampling>
+				<mode name="off" />
+				<mode name="2xmsaa" />
+				<mode name="4xmsaa" />
+				<mode name="6xmsaa" />
+				<mode name="8xmsaa" />
+			</multisampling>
+		</capabilities>
+	</graphics_card>
+	<audio_card />
+</hardware_settings_info>

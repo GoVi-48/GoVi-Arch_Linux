@@ -1,3 +1,1 @@
-#!/usr/bin/env bash
-
-rpcs3
+/Media/Games/PC/-Emulators/RPCS3/Launch_Scripts/RPCS3.sh

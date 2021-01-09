@@ -1,1 +1,1 @@
-/home/govi/Scripts/Bash/Games/Steam/Dirt_Rally.sh
+/Datos/Games/PC/-Launchers/Steam/-Library/DiRT Rally/Wine/Launch-Dirt_Rally.sh

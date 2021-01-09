@@ -58,17 +58,17 @@
       <additional ASSOCIATED_PROJECT_PATH="$APPLICATION_HOME_DIR$/PycharmProjects" />
     </jdk>
     <jdk version="2">
-      <name value="Python 3.8 (Bash)" />
+      <name value="Python 3.9" />
       <type value="Python SDK" />
-      <version value="Python 3.8.3" />
-      <homePath value="$APPLICATION_HOME_DIR$/PycharmProjects/Bash/bin/python" />
+      <version value="Python 3.9.1" />
+      <homePath value="/usr/bin/python3.9" />
       <roots>
         <classPath>
           <root type="composite">
-            <root url="file:///usr/lib/python3.8" type="simple" />
-            <root url="file:///usr/lib/python3.8/lib-dynload" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/PycharmProjects/Bash/lib/python3.8/site-packages" type="simple" />
-            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharmCE2020.1/python_stubs/566641323" type="simple" />
+            <root url="file:///usr/lib/python3.9" type="simple" />
+            <root url="file:///usr/lib/python3.9/lib-dynload" type="simple" />
+            <root url="file:///usr/lib/python3.9/site-packages" type="simple" />
+            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharmCE2020.1/python_stubs/-1247971760" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/python-skeletons" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/3.7" type="simple" />
             <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/3" type="simple" />
@@ -81,37 +81,7 @@
           <root type="composite" />
         </sourcePath>
       </roots>
-      <additional ASSOCIATED_PROJECT_PATH="$APPLICATION_HOME_DIR$/PycharmProjects/Bash" />
-    </jdk>
-    <jdk version="2">
-      <name value="Python 2.7 (Kodi)" />
-      <type value="Python SDK" />
-      <version value="Python 2.7.18" />
-      <homePath value="$APPLICATION_HOME_DIR$/PycharmProjects/Kodi/bin/python" />
-      <roots>
-        <classPath>
-          <root type="composite">
-            <root url="file://$APPLICATION_HOME_DIR$/PycharmProjects/Kodi/lib/python2.7" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/PycharmProjects/Kodi/lib/python2.7/lib-dynload" type="simple" />
-            <root url="file:///usr/lib64/python2.7" type="simple" />
-            <root url="file:///usr/lib/python2.7" type="simple" />
-            <root url="file:///usr/lib/python2.7/plat-linux2" type="simple" />
-            <root url="file:///usr/lib64/python2.7/lib-tk" type="simple" />
-            <root url="file:///usr/lib/python2.7/lib-tk" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/PycharmProjects/Kodi/lib/python2.7/site-packages" type="simple" />
-            <root url="file://$USER_HOME$/.cache/JetBrains/PyCharmCE2020.1/python_stubs/-1297987210" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/python-skeletons" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/2" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/stdlib/2and3" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/third_party/2" type="simple" />
-            <root url="file://$APPLICATION_HOME_DIR$/plugins/python-ce/helpers/typeshed/third_party/2and3" type="simple" />
-          </root>
-        </classPath>
-        <sourcePath>
-          <root type="composite" />
-        </sourcePath>
-      </roots>
-      <additional ASSOCIATED_PROJECT_PATH="$APPLICATION_HOME_DIR$/PycharmProjects/Kodi" />
+      <additional />
     </jdk>
   </component>
 </application>

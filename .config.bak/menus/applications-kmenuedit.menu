@@ -258,11 +258,18 @@
    <Filename>Arch Gaming.desktop</Filename>
   </Exclude>
   <Layout>
+   <Merge type="menus"/>
+   <Menuname>GoVi</Menuname>
    <Merge type="files"/>
    <Filename>Clean System.desktop</Filename>
    <Filename>Home Backup.desktop</Filename>
    <Filename>Kodi Backup.desktop</Filename>
   </Layout>
+  <Menu>
+   <Name>GoVi</Name>
+   <Directory>GoVi.directory</Directory>
+  </Menu>
+  <Deleted/>
  </Menu>
  <Menu>
   <Name>wine-wine</Name>
@@ -324,9 +331,12 @@
    <Filename>org.kde.plasma.emojier.desktop</Filename>
    <Filename>org.kde.spectacle.desktop</Filename>
    <Filename>vim.desktop</Filename>
-   <Separator/>
    <Menuname>More</Menuname>
   </Layout>
+  <Menu>
+   <Name>GoVi</Name>
+   <Directory>GoVi-3.directory</Directory>
+  </Menu>
  </Menu>
  <Menu>
   <Name>Graphics</Name>
@@ -448,24 +458,23 @@
    <Menuname>Qt</Menuname>
    <Menuname>Translation</Menuname>
    <Merge type="files"/>
-   <Filename>org.kde.cervisia.desktop</Filename>
+   <Filename>electron9.desktop</Filename>
+   <Filename>assistant-qt4.desktop</Filename>
+   <Filename>designer-qt4.desktop</Filename>
+   <Filename>linguist-qt4.desktop</Filename>
+   <Filename>qdbusviewer-qt4.desktop</Filename>
    <Filename>cmake-gui.desktop</Filename>
-   <Filename>org.kde.akonadiconsole.desktop</Filename>
    <Filename>UserFeedbackConsole.desktop</Filename>
    <Filename>org.kde.cuttlefish.desktop</Filename>
    <Filename>org.kde.plasmaengineexplorer.desktop</Filename>
    <Filename>org.kde.plasma.themeexplorer.desktop</Filename>
    <Filename>org.kde.plasma.lookandfeelexplorer.desktop</Filename>
-   <Filename>org.kde.kirigami2.gallery.desktop</Filename>
-   <Filename>org.kde.kapptemplate.desktop</Filename>
-   <Filename>org.kde.kcachegrind.desktop</Filename>
-   <Filename>org.kde.kdevelop.desktop</Filename>
-   <Filename>org.kde.kdevelop_ps.desktop</Filename>
-   <Filename>org.kde.kompare.desktop</Filename>
-   <Filename>org.kde.kuiviewer.desktop</Filename>
    <Filename>Pycharm.desktop</Filename>
-   <Filename>org.kde.umbrello.desktop</Filename>
   </Layout>
+  <Menu>
+   <Name>GoVi</Name>
+   <NotDeleted/>
+  </Menu>
  </Menu>
  <Menu>
   <Name>Internet</Name>
@@ -539,7 +548,7 @@
  </Menu>
  <Layout>
   <Merge type="menus"/>
-  <Menuname>THC</Menuname>
+  <Menuname>GoVi</Menuname>
   <Menuname>Development</Menuname>
   <Menuname>Graphics</Menuname>
   <Menuname>Internet</Menuname>
@@ -550,4 +559,35 @@
   <Menuname>System</Menuname>
   <Menuname>Utilities</Menuname>
  </Layout>
+ <Menu>
+  <Name>GoVi</Name>
+  <NotDeleted/>
+  <Include>
+   <Filename>Home Backup-2.desktop</Filename>
+   <Filename>Clean System-2.desktop</Filename>
+   <Filename>Kodi GIT.desktop</Filename>
+   <Filename>Home GIT-2.desktop</Filename>
+   <Filename>system Clean.desktop</Filename>
+   <Filename>Home GIT.desktop</Filename>
+   <Filename>System Clean.desktop</Filename>
+  </Include>
+  <Layout>
+   <Merge type="files"/>
+   <Filename>Home GIT.desktop</Filename>
+   <Filename>Kodi GIT.desktop</Filename>
+   <Filename>System Clean.desktop</Filename>
+  </Layout>
+ </Menu>
+ <Move>
+  <Old>Utilities/GoVi</Old>
+  <New>GoVi</New>
+ </Move>
+ <Move>
+  <Old>GoVi</Old>
+  <New>Development/GoVi</New>
+ </Move>
+ <Move>
+  <Old>Development/GoVi</Old>
+  <New>GoVi</New>
+ </Move>
 </Menu>

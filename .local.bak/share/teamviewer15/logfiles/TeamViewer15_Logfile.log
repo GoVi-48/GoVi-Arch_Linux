@@ -1203,3 +1203,74 @@ Proxy-Settings:     Type=0 IP= User=
 2020/12/21 17:17:09.368 2001912 140386015900096 GX0!!!Crash: Coredump '/home/govi/.local/share/teamviewer15/logfiles/TeamViewer_FI_15.13.6_2020-12-21-171707.amd64.core' could not been written. Error 14, Errorcode=14
 2020/12/21 17:17:09.368 2001912 140385728833088 GX0   SysSessionInfoManager::SessionRemoved: removing session XSession: 0 [SysSession 2212294583 [type=88 vt=1 tty= pseudotty=0 info=1 id=1 user=govi state=user active=1 reliable=1]]
 2020/12/21 17:17:09.369 2001912 140386015900096 GX0   Process received fatal SIGSEGV
+2021/01/09 22:29:07.660 32141 140228870582720 GX0   Logger started.
+2021/01/09 22:29:07.669 32141 140228870582720 GX0   Found 1 stack dump files ...
+2021/01/09 22:29:07.669 32141 140228870582720 GX0   Found 1 core dump files ...
+2021/01/09 22:29:07.670 32141 140228870582720 GX0   systemd: logind service available
+2021/01/09 22:29:07.671 32141 140228870582720 GX0   systemd: New seat seat0 [path=/org/freedesktop/login1/seat/seat0, activeSession='1', canGraphical=1, canTTY=1, canMultiSession=0]
+2021/01/09 22:29:07.672 32141 140228870582720 GX0   LogindSessionInfo: New session LogindSessionInfo [id=1 user=govi state=user active=1 reliable=1 infoId=2212294583] [path=/org/freedesktop/login1/session/_31 TTY= seat=seat0 display=:0 vtnr=1 owner=[SysUser: govi [uid=1000, gid=998 home=/home/govi gecos= shell=/bin/bash]] idle=0(0) active=1 type=x11 class=user state=active timestamp=1610225852945857 service=sddm-autologin defaultCG= leader=564 audit=1 remote=0 rHost= rUser= killProc=0]
+2021/01/09 22:29:07.675 32141 140228870582720 GX0   SysSessionInfoManager: observing sessions from logind is marked as reliable
+2021/01/09 22:29:07.675 32141 140228870582720 GX0   SysSessionInfoManager: Session Information provided by VT [priority: 2]
+2021/01/09 22:29:07.675 32141 140228870582720 GX0!  FrameBuffer: Cannot access /dev/fb0, frame buffer support unavailable
+2021/01/09 22:29:07.675 32141 140228870582720 GX0   SysSessionInfoManager::SessionAdded: adding session XSession: 0 [SysSession 2212294583 [type=88 vt=1 tty= pseudotty=0 info=1 id=1 user=govi state=user active=1 reliable=1]]
+2021/01/09 22:29:07.680 32141 140228870582720 GX0   SysSessionInfoManager::GetOwnProcessSession: own session cache set to '2212294583'
+2021/01/09 22:29:07.680 32141 140228870582720 GX0   Running on Qt 5.15.2
+2021/01/09 22:29:07.742 32141 140228870582720 GX0   Initialised XRandR extension 1.6 (base=89 error=147)
+2021/01/09 22:29:07.793 32141 140228870582720 GX0   MonitorInfo: [XRandR 1.2] CRTC HDMI-0 1920x1080@60Hz [0, 0, 1920, 1080] - 1
+2021/01/09 22:29:07.793 32141 140228870582720 GX0   MonitorInfo: [XRandR 1.2] CRTC 1 has no outputs
+2021/01/09 22:29:07.793 32141 140228870582720 GX0   MonitorInfo: [XRandR 1.2] CRTC 2 has no outputs
+2021/01/09 22:29:07.793 32141 140228870582720 GX0   MonitorInfo: [XRandR 1.2] CRTC 3 has no outputs
+2021/01/09 22:29:07.793 32141 140228870582720 GX0   MonitorInfo: [XRandR 1.2] CRTC 4 has no outputs
+2021/01/09 22:29:07.793 32141 140228870582720 GX0   MonitorInfo: [XRandR 1.2] CRTC 5 has no outputs
+2021/01/09 22:29:07.793 32141 140228870582720 GX0   MonitorInfo: [XRandR 1.2] CRTC 6 has no outputs
+2021/01/09 22:29:07.793 32141 140228870582720 GX0   Virtual Desktop [0, 0, 1920, 1080]
+2021/01/09 22:29:07.844 32141 140228870582720 GX0   MonitorInfo: [XRandR 1.2] CRTC HDMI-0 1920x1080@60Hz [0, 0, 1920, 1080] - 1
+2021/01/09 22:29:07.844 32141 140228870582720 GX0   MonitorInfo: [XRandR 1.2] CRTC 1 has no outputs
+2021/01/09 22:29:07.844 32141 140228870582720 GX0   MonitorInfo: [XRandR 1.2] CRTC 2 has no outputs
+2021/01/09 22:29:07.845 32141 140228870582720 GX0   MonitorInfo: [XRandR 1.2] CRTC 3 has no outputs
+2021/01/09 22:29:07.845 32141 140228870582720 GX0   MonitorInfo: [XRandR 1.2] CRTC 4 has no outputs
+2021/01/09 22:29:07.845 32141 140228870582720 GX0   MonitorInfo: [XRandR 1.2] CRTC 5 has no outputs
+2021/01/09 22:29:07.845 32141 140228870582720 GX0   MonitorInfo: [XRandR 1.2] CRTC 6 has no outputs
+2021/01/09 22:29:07.845 32141 140228870582720 GX0   Virtual Desktop [0, 0, 1920, 1080]
+2021/01/09 22:29:07.849 32141 140228870582720 GX0!! StorageTextfileBackend::Open: Unable to open configuration file '/home/govi/.config/teamviewer/client.conf' (RO)
+2021/01/09 22:29:07.853 32141 140228870582720 GX0   Loaded language 'es', using locale 'es'
+2021/01/09 22:29:07.854 32141 140228870582720 GX0   InterProcessBase::SecureNetwork created
+2021/01/09 22:29:07.858 32141 140228870582720 GX0   AutoLogin::Login: enabled: 1
+2021/01/09 22:29:07.858 32141 140228870582720 GX0   AccountLoginStateMachine::Reset
+2021/01/09 22:29:07.860 32141 140227729421888 GX0!! DaemonRuntimeInfo::Reader: error opening "/var/run/teamviewerd.ipc", Errorcode=2
+2021/01/09 22:29:07.860 32141 140227729421888 GX0!! DaemonRuntimeInfo::Reader: error opening "/var/run/teamviewerd.ipc", Errorcode=2
+2021/01/09 22:29:07.861 32141 140227729421888 GX0   InterProcessBase::StartTcpCommunicationInternal(): setting m_NetworkConnector to new TCP connector
+2021/01/09 22:29:07.861 32141 140227729421888 GX0   Opening local TCP connection to 127.0.0.1:0, tcp?
+2021/01/09 22:29:07.861 32141 140228839355968 GX0!! Local TCP connection failed with error 111
+2021/01/09 22:29:07.861 32141 140227729421888 GX0!  Service status unknown, IPC connection failed
+2021/01/09 22:29:07.861 32141 140228870582720 GX0!  ConnectToService failed
+
+
+
+Start:              2021/01/09 22:29:07.861 (UTC+1:00)
+Version:            15.13.6 
+Version short hash: dddad87a70c
+ID:                 0
+Loglevel:           Info (100)
+License:            0
+Server:             master15.teamviewer.com
+IC:                 0
+CPU:                Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz
+CPU extensions:     l9
+OS:                 Lx Arch Linux (x86_64)
+IP:                 192.168.0.10
+Proxy-Settings:     Type=0 IP= User=
+
+2021/01/09 22:29:10.980 32141 140228870582720 GX0   Chat::Stop: Stopping chat
+2021/01/09 22:29:10.982 32141 140228870582720 GX0   InterProcessBase::ShutDown: Shutdown IPC
+2021/01/09 22:29:10.982 32141 140228870582720 GX0!! ConfigurationHub::HandleRegistrationResponse(): registering for feature 9 failed with error 2, Errorcode=2
+2021/01/09 22:29:10.982 32141 140228870582720 GX0!! ConfigurationHub::HandleRegistrationResponse(): registering for feature 5 failed with error 2, Errorcode=2
+2021/01/09 22:29:10.982 32141 140228870582720 GX0!! ConfigurationHub::HandleRegistrationResponse(): registering for feature 6 failed with error 2, Errorcode=2
+2021/01/09 22:29:10.982 32141 140228870582720 GX0!! ConfigurationHub::HandleRegistrationResponse(): registering for feature 14 failed with error 2, Errorcode=2
+2021/01/09 22:29:10.982 32141 140228870582720 GX0!! ConfigurationHub::HandleRegistrationResponse(): registering for feature 10 failed with error 2, Errorcode=2
+2021/01/09 22:29:10.983 32141 140228822570560 GX0   TcpProcessConnector::CloseConnection(): PID=0
+2021/01/09 22:29:10.983 32141 140228822570560 GX0!! TcpProcessConnector::CloseConnection(): Shutdown socket returned error 9: Descriptor de fichero erróneo
+2021/01/09 22:29:10.983 32141 140228870582720 GX0   InterProcessBase::StopCommunication(): resetting m_NetworkConnector
+2021/01/09 22:29:10.983 32141 140228870582720 GX0   interprocessbase::SecureNetwork destroyed
+2021/01/09 22:29:11.004 32141 140228870582720 GX0   Shutting down DBus IOHandler
+2021/01/09 22:29:11.005 32141 140228870582720 GX0   InterProcessConfigurationHub::SendToConfigurationHandler(): IPC not available, could not send command: CC=1 CT=110

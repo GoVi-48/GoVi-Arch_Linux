@@ -16,6 +16,10 @@ _launch=,,Alacritty
 _k_friendly_name=Cairo-Dock (Fallback Mode)
 _launch=none,none,Lanzar Cairo-Dock (Fallback Mode)
 
+[clean system.desktop]
+_k_friendly_name=Clean System
+_launch=none,none,Lanzar Clean System
+
 [games-steam.desktop]
 BigPicture=,,Big Picture
 Community=,,Comunidad
@@ -32,6 +36,10 @@ _launch=none,none,Lanzar Steam
 [gimp.desktop]
 _k_friendly_name=Lanzar GIMP
 _launch=Meta+G,none,Lanzar GIMP
+
+[home backup.desktop]
+_k_friendly_name=Home Backup
+_launch=none,none,Lanzar Home Backup
 
 [jconsole-java-openjdk.desktop]
 _k_friendly_name=OpenJDK Java 14 Console
@@ -216,6 +224,10 @@ hide_all_notes=Alt+Shift+H,Alt+Shift+H,Ocultar todas las notas
 new_note=Alt+Shift+N,Alt+Shift+N,Nueva nota
 new_note_clipboard=Alt+Shift+C,Alt+Shift+C,Nota nueva desde el portapapeles
 show_all_notes=Alt+Shift+S,Alt+Shift+S,Mostrar todas las notas
+
+[kodi backup.desktop]
+_k_friendly_name=Kodi Backup
+_launch=none,none,Lanzar Kodi Backup
 
 [krunner.desktop]
 RunClipboard=Alt+Shift+F2,Alt+Shift+F2,Ejecutar orden sobre el contenido del portapapeles

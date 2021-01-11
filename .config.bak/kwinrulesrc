@@ -2,19 +2,45 @@
 update_info=kwinrules.upd:replace-placement-string-to-enum
 
 [1]
-Description=Preferencias de la ventana de kmenuedit
+Description=Preferencias de la ventana de timeshift-gtk
 clientmachinematch=0
-position=63,173
+position=710,282
 positionrule=4
-size=1277,717
+size=508,595
 sizerule=4
+title=Crear instantánea
+titlematch=1
 types=1
-windowrole=mainwindow#1
-windowrolematch=1
-wmclass=kmenuedit
+wmclass=timeshift-gtk
 wmclassmatch=1
 
 [10]
+Description=Preferencias de la ventana de vlc
+clientmachinematch=0
+position=55,74
+positionrule=4
+size=803,755
+sizerule=4
+types=1
+windowrole=vlc-playlist
+windowrolematch=1
+wmclass=vlc
+wmclassmatch=1
+
+[11]
+Description=Preferencias de la ventana de vlc
+clientmachinematch=0
+position=858,74
+positionrule=4
+size=989,755
+sizerule=4
+types=1
+windowrole=vlc-main
+windowrolematch=1
+wmclass=vlc
+wmclassmatch=1
+
+[12]
 Description=Preferencias para la aplicación firefox
 clientmachinematch=0
 position=0,36
@@ -25,7 +51,7 @@ wmclass=navigator firefox
 wmclasscomplete=true
 wmclassmatch=1
 
-[11]
+[13]
 Description=Preferencias para la aplicación fontforge
 clientmachinematch=0
 maximizehorizrule=4
@@ -34,7 +60,7 @@ types=1
 wmclass=fontforge
 wmclassmatch=1
 
-[12]
+[14]
 Description=Preferencias para la aplicación fontforge
 clientmachinematch=0
 maximizehorizrule=1
@@ -43,7 +69,7 @@ types=1
 wmclass=fontforge
 wmclassmatch=1
 
-[13]
+[15]
 Description=Preferencias para la aplicación fontforge
 clientmachinematch=0
 position=546,90
@@ -54,7 +80,7 @@ types=1
 wmclass=fontforge
 wmclassmatch=1
 
-[14]
+[16]
 Description=Preferencias de la ventana de fontforge
 clientmachinematch=0
 position=62,174
@@ -67,27 +93,26 @@ types=1
 wmclass=fontforge
 wmclassmatch=1
 
-[15]
-Description=Preferencias para la aplicación fontforge
-clientmachinematch=0
-size=1251,753
-sizerule=4
-types=1
-wmclass=fontforge
-wmclassmatch=1
-
-[16]
-Description=Preferencias para la aplicación fontforge
-clientmachinematch=0
-size=1251,753
-sizerule=4
-types=1
-wmclass=fontforge
-wmclassmatch=1
-
 [17]
-Description=Preferencias para la aplicación virtualbox machine
+Description=Preferencias para la aplicación fontforge
 clientmachinematch=0
+size=1251,753
+sizerule=4
+types=1
+wmclass=fontforge
+wmclassmatch=1
+
+[18]
+Description=Preferencias para la aplicación fontforge
+clientmachinematch=0
+size=1251,753
+sizerule=4
+types=1
+wmclass=fontforge
+wmclassmatch=1
+
+[19]
+Description=Preferencias para la aplicación virtualbox machine
 position=731,36
 positionrule=4
 size=648,576
@@ -96,9 +121,21 @@ types=1
 wmclass=virtualbox machine
 wmclassmatch=1
 
-[18]
-Description=Preferencias para la aplicación virtualbox machine
+[2]
+Description=Preferencias de la ventana de raven reader
 clientmachinematch=0
+position=518,74
+positionrule=4
+size=1324,894
+sizerule=4
+types=1
+windowrole=browser-window
+windowrolematch=1
+wmclass=raven reader
+wmclassmatch=1
+
+[20]
+Description=Preferencias para la aplicación virtualbox machine
 position=636,216
 positionrule=1
 size=1032,864
@@ -107,44 +144,31 @@ types=1
 wmclass=virtualbox machine
 wmclassmatch=1
 
-[19]
-Description=Preferencias para la aplicación alacritty
-above=true
-aboverule=4
-position=1093,166
-positionrule=4
-size=831,664
-sizerule=4
-types=1
-wmclass=alacritty
-wmclassmatch=1
-
-[2]
-Description=Preferencias de la ventana de kmenuedit
-clientmachinematch=0
-position=414,116
-positionrule=4
-size=1065,856
-sizerule=4
-title=Seleccionar icono — Editor de menús de KDE
-titlematch=1
-types=32
-wmclass=kmenuedit
-wmclassmatch=1
-
-[20]
-Description=Preferencias para la aplicación alacritty
-above=true
-aboverule=4
-position=1093,166
-positionrule=4
-size=831,664
-sizerule=4
-types=1
-wmclass=alacritty
-wmclassmatch=1
-
 [21]
+Description=Preferencias para la aplicación alacritty
+above=true
+aboverule=4
+position=1093,166
+positionrule=4
+size=831,664
+sizerule=4
+types=1
+wmclass=alacritty
+wmclassmatch=1
+
+[22]
+Description=Preferencias para la aplicación alacritty
+above=true
+aboverule=4
+position=1093,166
+positionrule=4
+size=831,664
+sizerule=4
+types=1
+wmclass=alacritty
+wmclassmatch=1
+
+[23]
 Description=Preferencias para la aplicación terminator
 position=1142,225
 positionrule=4
@@ -154,27 +178,27 @@ types=1
 wmclass=terminator
 wmclassmatch=1
 
-[22]
-Description=Preferencias para la aplicación ksysguard
-position=32,71
-positionrule=4
-size=958,1009
-sizerule=4
-types=1
-wmclass=ksysguard
-wmclassmatch=1
-
-[23]
-Description=Preferencias para la aplicación ksysguard
-position=32,71
-positionrule=4
-size=958,1009
-sizerule=4
-types=1
-wmclass=ksysguard
-wmclassmatch=1
-
 [24]
+Description=Preferencias para la aplicación ksysguard
+position=32,71
+positionrule=4
+size=958,1009
+sizerule=4
+types=1
+wmclass=ksysguard
+wmclassmatch=1
+
+[25]
+Description=Preferencias para la aplicación ksysguard
+position=32,71
+positionrule=4
+size=958,1009
+sizerule=4
+types=1
+wmclass=ksysguard
+wmclassmatch=1
+
+[26]
 Description=Preferencias para la aplicación ksysguard
 position=0,36
 positionrule=1
@@ -184,7 +208,7 @@ types=1
 wmclass=ksysguard
 wmclassmatch=1
 
-[25]
+[27]
 Description=Preferencias para la aplicación transmission
 clientmachine=localhost
 position=923,36
@@ -195,7 +219,7 @@ wmclass=transmission-qt transmission
 wmclasscomplete=true
 wmclassmatch=1
 
-[26]
+[28]
 Description=Preferencias para la aplicación systemmonitor
 clientmachine=localhost
 position=87,36
@@ -205,7 +229,7 @@ sizerule=4
 wmclass=systemmonitor
 wmclassmatch=1
 
-[27]
+[29]
 Description=Preferencias para la aplicación cemu.exe
 clientmachine=localhost
 position=0,36
@@ -213,7 +237,20 @@ positionrule=4
 wmclass=cemu.exe
 wmclassmatch=1
 
-[28]
+[3]
+Description=Preferencias de la ventana de kmenuedit
+clientmachinematch=0
+position=-130,237
+positionrule=4
+size=1277,717
+sizerule=4
+types=1
+windowrole=mainwindow#1
+windowrolematch=1
+wmclass=kmenuedit
+wmclassmatch=1
+
+[30]
 Description=Preferencias para la aplicación spectacle
 clientmachine=localhost
 position=0,36
@@ -223,7 +260,7 @@ sizerule=4
 wmclass=spectacle
 wmclassmatch=1
 
-[29]
+[31]
 Description=Preferencias para la aplicación winecfg.exe
 clientmachine=localhost
 position=601,358
@@ -231,20 +268,7 @@ positionrule=4
 wmclass=winecfg.exe
 wmclassmatch=1
 
-[3]
-Description=Preferencias de la ventana de liferea
-clientmachinematch=0
-position=-4,139
-positionrule=4
-size=1405,911
-sizerule=4
-title=Liferea
-titlematch=1
-types=1
-wmclass=liferea
-wmclassmatch=1
-
-[30]
+[32]
 Description=Preferencias para la aplicación dolphin
 position=33,117
 positionrule=4
@@ -252,7 +276,7 @@ types=959
 wmclass=dolphin
 wmclassmatch=1
 
-[31]
+[33]
 Description=Preferencias para la aplicación gwenview
 clientmachine=localhost
 position=-4,171
@@ -262,7 +286,7 @@ sizerule=4
 wmclass=gwenview
 wmclassmatch=1
 
-[32]
+[34]
 Description=Preferencias para la aplicación inkscape
 maximizehoriz=true
 maximizehorizrule=4
@@ -277,14 +301,14 @@ wmclass=org.inkscape.inkscape
 wmclasscomplete=true
 wmclassmatch=1
 
-[33]
+[35]
 Description=Preferencias para la aplicación polkit-kde-authentication-agent-1
 aboverule=2
 clientmachine=localhost
 wmclass=polkit-kde-authentication-agent-1
 wmclassmatch=1
 
-[34]
+[36]
 Description=Preferencias de la ventana de kodi
 clientmachine=govi-pc
 position=800,70
@@ -297,7 +321,7 @@ types=1
 wmclass=kodi
 wmclassmatch=1
 
-[35]
+[37]
 Description=Preferencias de la ventana de virtualbox machine
 clientmachine=localhost
 position=542,90
@@ -310,7 +334,7 @@ types=1
 wmclass=virtualbox machine
 wmclassmatch=1
 
-[36]
+[38]
 Description=Preferencias para la aplicación virtualbox manager
 clientmachine=localhost
 position=843,116
@@ -320,7 +344,7 @@ sizerule=4
 wmclass=virtualbox manager
 wmclassmatch=1
 
-[37]
+[39]
 Description=Preferencias para la aplicación kfind
 clientmachine=localhost
 position=-4,147
@@ -330,7 +354,20 @@ sizerule=4
 wmclass=kfind
 wmclassmatch=1
 
-[38]
+[4]
+Description=Preferencias de la ventana de kmenuedit
+clientmachinematch=0
+position=414,116
+positionrule=4
+size=1065,856
+sizerule=4
+title=Seleccionar icono — Editor de menús de KDE
+titlematch=1
+types=32
+wmclass=kmenuedit
+wmclassmatch=1
+
+[40]
 Description=Preferencias para la aplicación kodi
 clientmachine=govi-pc
 position=800,70
@@ -340,7 +377,7 @@ sizerule=4
 wmclass=kodi
 wmclassmatch=1
 
-[39]
+[41]
 Description=Preferencias para la aplicación brave-browser
 clientmachine=govi-pc
 maximizehoriz=true
@@ -354,7 +391,58 @@ sizerule=4
 wmclass=brave-browser
 wmclassmatch=1
 
-[4]
+[42]
+Description=Preferencias para la aplicación kate
+position=-4,194
+positionrule=4
+size=1101,851
+sizerule=4
+types=1
+wmclass=kate
+wmclassmatch=1
+
+[43]
+Description=Preferencias para la aplicación terminator
+position=1142,225
+positionrule=1
+size=782,631
+sizerule=1
+types=1
+wmclass=terminator
+wmclassmatch=1
+
+[44]
+Description=Preferencias para la aplicación vivaldi
+position=0,36
+positionrule=4
+size=1130,1009
+sizerule=4
+wmclass=vivaldi-stable
+wmclassmatch=1
+
+[45]
+Description=Preferencias para la aplicación lutris
+position=443,87
+positionrule=4
+size=1383,793
+sizerule=4
+wmclass=lutris
+wmclassmatch=1
+
+[5]
+Description=Preferencias de la ventana de liferea
+clientmachinematch=0
+position=-4,139
+positionrule=4
+size=1405,911
+sizerule=4
+title=Liferea
+titlematch=1
+types=1
+wmclass=liferea
+wmclassmatch=1
+
+[6]
 Description=Preferencias de la ventana de cemu.exe
 clientmachinematch=0
 position=0,36
@@ -367,45 +455,7 @@ types=1
 wmclass=cemu.exe
 wmclassmatch=1
 
-[40]
-Description=Preferencias para la aplicación kate
-position=-4,194
-positionrule=4
-size=1101,851
-sizerule=4
-types=1
-wmclass=kate
-wmclassmatch=1
-
-[41]
-Description=Preferencias para la aplicación terminator
-position=1142,225
-positionrule=1
-size=782,631
-sizerule=1
-types=1
-wmclass=terminator
-wmclassmatch=1
-
-[42]
-Description=Preferencias para la aplicación vivaldi
-position=0,36
-positionrule=4
-size=1130,1009
-sizerule=4
-wmclass=vivaldi-stable
-wmclassmatch=1
-
-[43]
-Description=Preferencias para la aplicación lutris
-position=457,87
-positionrule=4
-size=1369,793
-sizerule=4
-wmclass=lutris
-wmclassmatch=1
-
-[5]
+[7]
 Description=Preferencias de la ventana de jetbrains-pycharm-ce
 clientmachinematch=0
 position=-4,172
@@ -418,7 +468,7 @@ types=1
 wmclass=jetbrains-pycharm-ce
 wmclassmatch=1
 
-[6]
+[8]
 Description=Preferencias de la ventana de timeshift-gtk
 clientmachinematch=0
 position=285,166
@@ -431,7 +481,7 @@ types=1
 wmclass=timeshift-gtk
 wmclassmatch=1
 
-[7]
+[9]
 Description=Preferencias de la ventana de cemu.exe
 clientmachinematch=0
 position=0,0
@@ -444,31 +494,5 @@ types=1
 wmclass=cemu.exe
 wmclassmatch=1
 
-[8]
-Description=Preferencias de la ventana de vlc
-clientmachinematch=0
-position=55,74
-positionrule=4
-size=803,755
-sizerule=4
-types=1
-windowrole=vlc-playlist
-windowrolematch=1
-wmclass=vlc
-wmclassmatch=1
-
-[9]
-Description=Preferencias de la ventana de vlc
-clientmachinematch=0
-position=858,74
-positionrule=4
-size=989,755
-sizerule=4
-types=1
-windowrole=vlc-main
-windowrolematch=1
-wmclass=vlc
-wmclassmatch=1
-
 [General]
-count=43
+count=45

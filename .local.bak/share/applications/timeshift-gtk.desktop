@@ -1,7 +1,7 @@
 [Desktop Entry]
 Categories=System;
 Comment=System Restore Utility
-Exec=sudo timeshift-launcher
+Exec=bash -c ~/Scripts/Bash/Utils/Timeshift.sh
 GenericName=System Restore Utility
 Icon=timeshift
 MimeType=

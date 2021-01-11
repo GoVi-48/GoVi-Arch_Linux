@@ -21,22 +21,9 @@ function Options(){
 }
 Options
 
-function Exit(){
-    echo -e '\nPress "o" to show Options or "e" to Exit\n'
-    read -rsn1 INPUT
-
-        if [[ $INPUT = "o" ]]; then
-            Options
-
-        elif [[ $INPUT = "e" ]]; then
-            exit
-
-        else
-            clear
-            echo -e "\nInvalid Key\n"
-            sleep 1
-            echo -e '\nPress "o" to show Options or "e" to Exit\n'
-        fi
+function Continue(){
+    read -rsn1 -p "Press any key to continue"; echo
+    Options
 }
 
 while true; do
@@ -44,43 +31,39 @@ while true; do
     # Password Store
     if [[ $INPUT = "p" ]]; then
         clear; echo; pass
-        Exit
+        Continue
 
     # Show Password
     elif [[ $INPUT = "s" ]]; then
         clear; echo; pass
-        echo -e '\nEnter site name to Show Password and press "Enter" or "Ctrl+c" to Exit\n'
+        echo -e '\nType site name to Show Password and press "Enter" or "Ctrl+c" to Exit\n'
         read SITE
         gpg -d $SITE.gpg
-        echo
-        Exit
+        Continue
 
     # Add Password
     elif  [[ $INPUT = "a" ]]; then
         clear
-        echo -e '\nEnter site name to Add Password and press "Enter" or "Ctrl+c" to Exit\n'
+        echo -e '\nType site name to Add Password and press "Enter" or "Ctrl+c" to Exit\n'
         read SITE
         pass insert $SITE -m
-        echo
-        Exit
+        Continue
 
     # Remove Password
     elif  [[ $INPUT = "r" ]]; then
         clear; echo; pass
-        echo -e '\nEnter site name to Remove Password and press "Enter" or "Ctrl+c" to Exit\n'
+        echo -e '\nType site name to Remove Password and press "Enter" or "Ctrl+c" to Exit\n'
         read SITE
         pass rm $SITE
-        echo
-        Exit
+        Continue
 
     # Modify Password
     elif [[ $INPUT = "m" ]]; then
         clear; echo; pass
-        echo -e '\nEnter site name to Modify Password and press "Enter" or "Ctrl+c" to Exit\n'
+        echo -e '\nType site name to Modify Password and press "Enter" or "Ctrl+c" to Exit\n'
         read SITE
         pass edit $SITE
-        echo
-        Exit
+        Continue
 
     elif [[ $INPUT = "e" ]]; then
         exit
@@ -89,7 +72,7 @@ while true; do
         clear
         echo -e "\nInvalid Key\n"
         sleep 1
-        Exit
+        Options
     fi
 
 done

@@ -1,15 +1,19 @@
 #!/bin/bash
 
+# Colors
+B=$(tput bold) # Bold
+R=$(tput rmso) # Reset
+
 function Options(){
     clear
-    echo -e '\n# =============== Options =============== #'
-    echo -e '\n ·Press "g" to Launch Timeshift GUI'
-    echo -e '\n ·Press "l" to view snapshots List'
-    echo -e '\n ·Press "c" to Create Snapshot'
-    echo -e '\n ·Press "d" to Delete Snapshot'
-    echo -e '\n ·Press "a" to Delete ALL Snapshots'
-    echo -e '\n ·Press "e" to Exit'
-    echo -e '\n# ======================================= #\n'
+    echo -e "\n$B# =============== Options =============== #$R"
+    echo -e "\n ·Press \"$B"g"$R\" to Launch Timeshift $B"GUI"$R"
+    echo -e "\n ·Press \"$B"l"$R\" to view snapshots $B"List"$R"
+    echo -e "\n ·Press \"$B"c"$R\" to $B"Create"$R Snapshot"
+    echo -e "\n ·Press \"$B"d"$R\" to $B"Delete"$R Snapshot"
+    echo -e "\n ·Press \"$B"a"$R\" to $B"Delete ALL"$R Snapshots"
+    echo -e "\n ·Press \"$B"e"$R\" to $B"Exit"$R"
+    echo -e "\n$B# ======================================= #$R\n"
     read -rsn1 INPUT
 }
 Options

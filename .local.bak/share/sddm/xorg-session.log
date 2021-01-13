@@ -1,16 +1,16 @@
 kdeinit5: preparing to launch '/usr/lib/kf5/klauncher'
-kdeinit5: Launched KLauncher, pid = 595, result = 0
+kdeinit5: Launched KLauncher, pid = 592, result = 0
 kdeinit5: opened connection to :0
-kdeinit5: Got SETENV 'XCURSOR_THEME=GoVi-Cu' from launcher.
-kdeinit5: Got SETENV 'XCURSOR_SIZE=24' from launcher.
 kdeinit5: Got SETENV 'GTK_RC_FILES=/etc/gtk/gtkrc:/home/govi/.gtkrc:/home/govi/.config/gtkrc' from launcher.
 kdeinit5: Got SETENV 'GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/govi/.gtkrc-2.0:/home/govi/.config/gtkrc-2.0' from launcher.
-kdeinit5: Got SETENV 'SESSION_MANAGER=local/GoVi-PC:@/tmp/.ICE-unix/655,unix/GoVi-PC:/tmp/.ICE-unix/655' from launcher.
-kdeinit5: Got SETENV 'SESSION_MANAGER=local/GoVi-PC:@/tmp/.ICE-unix/655,unix/GoVi-PC:/tmp/.ICE-unix/655' from launcher.
+kdeinit5: Got SETENV 'XCURSOR_THEME=GoVi-Cu' from launcher.
+kdeinit5: Got SETENV 'XCURSOR_SIZE=24' from launcher.
+kdeinit5: Got SETENV 'SESSION_MANAGER=local/GoVi-PC:@/tmp/.ICE-unix/639,unix/GoVi-PC:/tmp/.ICE-unix/639' from launcher.
+kdeinit5: Got SETENV 'SESSION_MANAGER=local/GoVi-PC:@/tmp/.ICE-unix/639,unix/GoVi-PC:/tmp/.ICE-unix/639' from launcher.
 imwheel: no process found
-INFO: imwheel started (pid=877)
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/desktop.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/desktop.so'
+INFO: imwheel started (pid=901)
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
@@ -19,100 +19,20 @@ kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-00:17:46.989 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 1603 terminated.
 Unable to load locale dir, translations won't work.
-2021-01-11 00:18:22,287: Your version of python-magic is too old.
-2021-01-11 00:18:22,630: Initializing lutris
-2021-01-11 00:18:22,974: Runtime up-to-date. Initialization complete.
-kdeinit5: PID 1034 terminated.
-kdeinit5: PID 1023 terminated.
-kdeinit5: PID 1035 terminated.
-kdeinit5: PID 997 terminated.
-kdeinit5: PID 991 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-02:18:26.156 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 34073 terminated.
-kdeinit5: PID 33634 terminated.
+2021-01-13 16:47:00,322: Your version of python-magic is too old.
+2021-01-13 16:47:00,723: Initializing lutris
+2021-01-13 16:47:01,141: Runtime up-to-date. Initialization complete.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: PID 1251 terminated.
+kdeinit5: PID 1252 terminated.
+kdeinit5: PID 1151 terminated.
+kdeinit5: PID 898 terminated.
+kdeinit5: PID 1047 terminated.
 kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
 kdeinit5: preparing to launch 'libkdeinit5_alacritty'
 Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-02:20:23.816 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/trash.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/trash.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 35829 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 35824 terminated.
-kdeinit5: PID 36989 terminated.
-kdeinit5: PID 35825 terminated.
-kdeinit5: PID 35823 terminated.
-kdeinit5: PID 35831 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 45522 terminated.
-kdeinit5: PID 35827 terminated.
-kdeinit5: PID 43050 terminated.
-kdeinit5: PID 43343 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 35341 terminated.
-kdeinit5: PID 147388 terminated.
-kdeinit5: PID 43344 terminated.
-kdeinit5: PID 147294 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 152110 terminated.
-kdeinit5: PID 145877 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 35506 terminated.
-kdeinit5: PID 180298 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-04:32:14.870 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 147295 terminated.
-kdeinit5: PID 193721 terminated.
-kdeinit5: PID 197296 terminated.
+kdeinit5: PID 12196 terminated.

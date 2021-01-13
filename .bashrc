@@ -46,7 +46,7 @@ esac
 #force_color_prompt=yes
 
 if [ -n "$force_color_prompt" ]; then
-    if [ -x /usr/bin/tput ] && tput setaf 1 >&/dev/null; then
+    if [ -x /usr/bin/tput ] && tput setaf 1 >& /dev/null; then
 	# We have color support; assume it's compliant with Ecma-48
 	# (ISO/IEC-6429). (Lack of such support is extremely rare, and such
 	# a case would tend to support setf rather than setaf.)
@@ -112,16 +112,19 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Prompt colors
-export PS1="[\[\e[1;32m\]\u\[\e[m\]@\[\e[1;32m\]\h\[\e[0;31m\]:\[\e[1;34m\]\w\[\e[m\]]\[\e[1;37m\]$ \[\e[m\]"
-
 # Autocd
 shopt -s autocd
 
+# Colors
+export PS1="[\[\e[1;32m\]\u\[\e[m\]@\[\e[1;32m\]\h\[\e[0;31m\]:\[\e[1;34m\]\w\[\e[m\]]\[\e[1;37m\]$ \[\e[m\]"
+grep="grep --color=auto" \
+diff="diff --color=auto" \
+ccat="highlight --out-format=ansi"
+
 # Aliases
+alias l="exa -al --color=always --group-directories-first"
 alias se="sudoedit"
 alias sv="sudo -E vim"
-alias l="exa -al --color=always --group-directories-first"
 alias ht="htop"
 alias spm="sudo pacman"
 alias pm="pacman"
@@ -144,8 +147,6 @@ alias pyc="pycharm.sh"
 alias am="alsamixer"
 
 # Games aliases
-alias mh="mangohud"
-alias gmr="gamemoderun"
 GAMEMODERUNEXEC="wine"
 GAMEMODERUNEXEC="wine64"
 
@@ -156,8 +157,11 @@ alias gc="git commit -m"
 alias gpm="git push -u origin master"
 
 # Environment
-EDITOR=vim
-VISUAL=$EDITOR
+export TERM=xterm-color
+export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
+export CLICOLOR=1
+export EDITOR=vim
+export VISUAL=$EDITOR
 export EDITOR VISUAL
 export TERMINAL="alacritty"
 export BROWSER="firefox"

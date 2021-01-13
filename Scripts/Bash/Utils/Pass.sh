@@ -4,19 +4,20 @@
 # GoVi_48 alexpeed48@gmail.com
 # Tricomas48
 
-cd ~/.password-store/
-
+# Colors
+B=$(tput bold) # Bold
+R=$(tput rmso) # Reset
 
 function Options(){
     clear
-    echo -e '\n# =============== Options =============== #'
-    echo -e '\n ·Press "p" to show Password Store'
-    echo -e '\n ·Press "s" to Show the Password of a site'
-    echo -e '\n ·Press "a" to Add a Password to a site'
-    echo -e '\n ·Press "r" to Remove a Password of a site'
-    echo -e '\n ·Press "m" to Modify Password of a site'
-    echo -e '\n ·Press "e" to Exit'
-    echo -e '\n# ======================================= #\n'
+    echo -e "\n$B# =============== Options =============== #$R"
+    echo -e "\n ·Press \"$B"p"$R\" to show $B"Password Store"$R"
+    echo -e "\n ·Press \"$B"s"$R\" to $B"Show"$R the Password of a site"
+    echo -e "\n ·Press \"$B"a"$R\" to $B"Add"$R a Password to a site"
+    echo -e "\n ·Press \"$B"r"$R\" to $B"Remove"$R a Password of a site"
+    echo -e "\n ·Press \"$B"m"$R\" to $B"Modify"$R Password of a site"
+    echo -e "\n ·Press \"$B"e"$R\" to $B"Exit"$R"
+    echo -e "\n$B# ======================================= #$R\n"
     read -rsn1 INPUT
 }
 Options
@@ -25,6 +26,8 @@ function Continue(){
     read -rsn1 -p "Press any key to continue"; echo
     Options
 }
+
+cd ~/.password-store/
 
 while true; do
 

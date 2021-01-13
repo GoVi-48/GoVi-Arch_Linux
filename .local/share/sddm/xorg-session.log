@@ -142,3 +142,58 @@ kdeinit5: PID 19379 terminated.
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
 kdeinit5: PID 16282 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 19519 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: PID 19281 terminated.
+kdeinit5: PID 22313 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 22343 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 19246 terminated.
+kdeinit5: PID 22731 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: PID 22344 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: PID 24676 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 25569 terminated.
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
+ERROR:dbus.connection:Exception in handler for D-Bus signal:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/dbus/connection.py", line 232, in maybe_handle_message
+    self._handler(*args, **kwargs)
+  File "/usr/lib/cairo-dock/cairo-dock-launcher-API-daemon", line 189, in on_launcher_entry_signal
+    launcher.set_progress (progress)
+  File "/usr/lib/cairo-dock/cairo-dock-launcher-API-daemon", line 107, in set_progress
+    self.dock.iface.SetProgress (x, self.id)
+AttributeError: 'NoneType' object has no attribute 'SetProgress'
+ERROR:dbus.connection:Exception in handler for D-Bus signal:
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/dbus/connection.py", line 232, in maybe_handle_message
+    self._handler(*args, **kwargs)
+  File "/usr/lib/cairo-dock/cairo-dock-launcher-API-daemon", line 189, in on_launcher_entry_signal
+    launcher.set_progress (progress)
+  File "/usr/lib/cairo-dock/cairo-dock-launcher-API-daemon", line 107, in set_progress
+    self.dock.iface.SetProgress (x, self.id)
+AttributeError: 'NoneType' object has no attribute 'SetProgress'
+kdeinit5: PID 25602 terminated.
+kdeinit5: PID 22161 terminated.

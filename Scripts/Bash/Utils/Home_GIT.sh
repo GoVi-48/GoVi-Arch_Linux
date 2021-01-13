@@ -16,7 +16,7 @@ mkdir -p "$GOVI_ARCH_LINUX/.config/" && cp -rfv ~/.config/* $_
 mkdir -p "$GOVI_ARCH_LINUX/.local/share/" && rsync -arv --exclude 'baloo' ~/.local/share/* $_
 
 # Backup ~/
-mkdir -p "$GOVI_ARCH_LINUX/BacKups/" && cp -rfv ~/Backups/Linux/* $_
+mkdir -p "$GOVI_ARCH_LINUX/Backups/" && cp -rfv ~/Backups/Linux/* $_
 mkdir -p "$GOVI_ARCH_LINUX/Scripts/" && cp -rfv ~/Scripts/* $_
 cp -rfv /etc/fstab "$GOVI_ARCH_LINUX"
 cp -rfv ~/.bashrc "$GOVI_ARCH_LINUX"

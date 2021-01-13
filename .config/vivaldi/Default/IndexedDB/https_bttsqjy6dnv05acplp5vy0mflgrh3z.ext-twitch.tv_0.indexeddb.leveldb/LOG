@@ -1,0 +1,15 @@
+2020/08/24-20:44:30.290 123f73 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_bttsqjy6dnv05acplp5vy0mflgrh3z.ext-twitch.tv_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/24-20:44:30.290 123f73 Recovering log #47
+2020/08/24-20:44:30.291 123f73 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_bttsqjy6dnv05acplp5vy0mflgrh3z.ext-twitch.tv_0.indexeddb.leveldb/000047.log 
+2020/08/24-20:45:15.162 230e3 Level-0 table #52: started
+2020/08/24-20:45:15.163 230e3 Level-0 table #52: 515 bytes OK
+2020/08/24-20:45:15.165 230e3 Delete type=0 #47
+2020/08/24-20:45:15.165 230e3 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/24-20:45:15.165 230e3 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x002\x005\x009\x009\x002\x006\x009\x002\x007' @ 222 : 1
+2020/08/24-20:45:15.165 230e3 Compacting 1@1 + 1@2 files
+2020/08/24-20:45:15.167 230e3 Generated table #53@1: 18 keys, 615 bytes
+2020/08/24-20:45:15.167 230e3 Compacted 1@1 + 1@2 files => 615 bytes
+2020/08/24-20:45:15.169 230e3 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/24-20:45:15.169 230e3 Delete type=2 #52
+2020/08/24-20:45:15.169 230e3 Delete type=2 #49
+2020/08/24-20:45:15.169 230e3 Manual compaction at level-1 from '\x00\x01\x01\x02\x01\x0e\x00_\x00_\x00s\x00a\x00k\x002\x005\x009\x009\x002\x006\x009\x002\x007' @ 222 : 1 .. (end); will stop at (end)

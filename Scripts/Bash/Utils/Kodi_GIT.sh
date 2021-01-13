@@ -13,8 +13,7 @@ mv ~/Escritorio/Kodi-GoVi_Build.zip ~/Dropbox
 kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg
 
 while true; do
-    echo -en 'Press "Enter" to Continue or "Escape" to Exit'
-    echo .
+    echo -e '\nPress "Enter" to Upload to Dropbox or "Escape" to Exit\n'
     read -rsn1 input
         if [[ $input = "" ]];then
             echo "Opening Dropbox..."
@@ -26,7 +25,7 @@ while true; do
             exit
             
         else 
-            echo "Invalid Key."
+            echo "Invalid Key"
         fi
 done
 

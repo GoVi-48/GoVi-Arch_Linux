@@ -1,0 +1,15 @@
+2020/08/19-21:29:39.572 169583 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_www.amazon.es_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/19-21:29:39.572 169583 Recovering log #4
+2020/08/19-21:29:39.572 169583 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_www.amazon.es_0.indexeddb.leveldb/000004.log 
+2020/08/19-21:29:53.726 16963b Level-0 table #8: started
+2020/08/19-21:29:53.739 16963b Level-0 table #8: 535 bytes OK
+2020/08/19-21:29:53.741 16963b Delete type=0 #4
+2020/08/19-21:29:53.741 16963b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/19-21:29:53.741 16963b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x1f\x03\x00\xb0x\x9b\x86@wB\x00\x01\x14\x00W\x005\x00R\x00P\x003\x00E\x00B\x00N\x00J\x00Y\x003\x007\x00S\x002\x000\x004\x00A\x00V\x001\x009' @ 80 : 1
+2020/08/19-21:29:53.741 16963b Compacting 1@1 + 1@2 files
+2020/08/19-21:29:53.742 16963b Generated table #9@1: 27 keys, 753 bytes
+2020/08/19-21:29:53.742 16963b Compacted 1@1 + 1@2 files => 753 bytes
+2020/08/19-21:29:53.744 16963b compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/19-21:29:53.744 16963b Delete type=2 #5
+2020/08/19-21:29:53.744 16963b Delete type=2 #8
+2020/08/19-21:29:53.744 16963b Manual compaction at level-1 from '\x00\x01\x01\x1f\x03\x00\xb0x\x9b\x86@wB\x00\x01\x14\x00W\x005\x00R\x00P\x003\x00E\x00B\x00N\x00J\x00Y\x003\x007\x00S\x002\x000\x004\x00A\x00V\x001\x009' @ 80 : 1 .. (end); will stop at (end)

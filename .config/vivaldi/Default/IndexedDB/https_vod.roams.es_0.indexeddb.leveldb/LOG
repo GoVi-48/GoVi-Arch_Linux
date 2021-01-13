@@ -1,0 +1,17 @@
+2020/08/14-04:17:37.456 73711 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_vod.roams.es_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/14-04:17:38.491 5b3f0 Level-0 table #5: started
+2020/08/14-04:17:38.496 5b3f0 Level-0 table #5: 558 bytes OK
+2020/08/14-04:17:38.498 5b3f0 Delete type=0 #3
+2020/08/14-04:17:38.499 5b3f0 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2020/08/14-04:17:40.494 5b3f0 Level-0 table #7: started
+2020/08/14-04:17:40.495 5b3f0 Level-0 table #7: 237 bytes OK
+2020/08/14-04:17:40.497 5b3f0 Delete type=0 #4
+2020/08/14-04:17:40.497 5b3f0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/14-04:17:40.497 5b3f0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 21 : 0
+2020/08/14-04:17:40.497 5b3f0 Compacting 1@1 + 1@2 files
+2020/08/14-04:17:40.499 5b3f0 Generated table #8@1: 5 keys, 237 bytes
+2020/08/14-04:17:40.499 5b3f0 Compacted 1@1 + 1@2 files => 237 bytes
+2020/08/14-04:17:40.501 5b3f0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/14-04:17:40.501 5b3f0 Delete type=2 #5
+2020/08/14-04:17:40.501 5b3f0 Delete type=2 #7
+2020/08/14-04:17:40.501 5b3f0 Manual compaction at level-1 from '\x00\x00\x00\x002\x02\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00' @ 21 : 0 .. (end); will stop at (end)

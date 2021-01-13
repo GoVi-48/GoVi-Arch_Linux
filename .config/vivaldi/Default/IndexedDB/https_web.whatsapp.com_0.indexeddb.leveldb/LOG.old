@@ -1,0 +1,15 @@
+2020/09/12-14:37:57.414 2f562 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/12-14:37:57.414 2f562 Recovering log #317
+2020/09/12-14:37:57.414 2f562 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000317.log 
+2020/09/12-15:00:09.234 2f2e0 Level-0 table #323: started
+2020/09/12-15:00:09.239 2f2e0 Level-0 table #323: 223663 bytes OK
+2020/09/12-15:00:09.241 2f2e0 Delete type=0 #317
+2020/09/12-15:00:09.241 2f2e0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/12-15:00:09.241 2f2e0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x04\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 413732 : 1
+2020/09/12-15:00:09.241 2f2e0 Compacting 1@1 + 1@2 files
+2020/09/12-15:00:09.259 2f2e0 Generated table #324@1: 20567 keys, 948074 bytes
+2020/09/12-15:00:09.259 2f2e0 Compacted 1@1 + 1@2 files => 948074 bytes
+2020/09/12-15:00:09.261 2f2e0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/12-15:00:09.261 2f2e0 Delete type=2 #323
+2020/09/12-15:00:09.261 2f2e0 Delete type=2 #320
+2020/09/12-15:00:09.261 2f2e0 Manual compaction at level-1 from '\x00\x04\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 413732 : 1 .. (end); will stop at (end)

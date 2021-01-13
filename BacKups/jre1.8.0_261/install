@@ -1,0 +1,7 @@
+ sudo mkdir -p /usr/java
+ sudo mv ~/Backups/Linux/jre1.8.0_261 /usr/java
+ 
+ #!/bin/sh
+
+export PATH="/usr/java/jre1.8.0_261/bin/:$PATH"
+java -jar "/path/file.jar" &

@@ -1,0 +1,15 @@
+2020/08/31-18:02:02.718 be79e Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/31-18:02:02.718 be79e Recovering log #39
+2020/08/31-18:02:02.718 be79e Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_imgur.com_0.indexeddb.leveldb/000039.log 
+2020/08/31-18:02:18.219 15b0 Level-0 table #44: started
+2020/08/31-18:02:18.226 15b0 Level-0 table #44: 616 bytes OK
+2020/08/31-18:02:18.228 15b0 Delete type=0 #39
+2020/08/31-18:02:18.228 15b0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/31-18:02:18.228 15b0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 494 : 1
+2020/08/31-18:02:18.228 15b0 Compacting 1@1 + 1@2 files
+2020/08/31-18:02:18.229 15b0 Generated table #45@1: 68 keys, 1356 bytes
+2020/08/31-18:02:18.229 15b0 Compacted 1@1 + 1@2 files => 1356 bytes
+2020/08/31-18:02:18.233 15b0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/31-18:02:18.233 15b0 Delete type=2 #41
+2020/08/31-18:02:18.233 15b0 Delete type=2 #44
+2020/08/31-18:02:18.233 15b0 Manual compaction at level-1 from '\x00\x02\x01\x02\x03\x00\x00\x00\x00\x00\x00\xf0?' @ 494 : 1 .. (end); will stop at (end)

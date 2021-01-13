@@ -1,0 +1,15 @@
+2020/09/14-03:10:01.280 ec2c2 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_steamunlocked.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/09/14-03:10:01.280 ec2c2 Recovering log #26
+2020/09/14-03:10:01.280 ec2c2 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_steamunlocked.net_0.indexeddb.leveldb/000026.log 
+2020/09/14-03:10:52.960 e55 Level-0 table #30: started
+2020/09/14-03:10:52.964 e55 Level-0 table #30: 190 bytes OK
+2020/09/14-03:10:52.966 e55 Delete type=0 #26
+2020/09/14-03:10:52.966 e55 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/09/14-03:10:52.966 e55 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x00\x00\x00\x05' @ 46 : 1
+2020/09/14-03:10:52.966 e55 Compacting 1@1 + 1@2 files
+2020/09/14-03:10:52.971 e55 Generated table #31@1: 18 keys, 490 bytes
+2020/09/14-03:10:52.971 e55 Compacted 1@1 + 1@2 files => 490 bytes
+2020/09/14-03:10:52.975 e55 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/09/14-03:10:52.975 e55 Delete type=2 #15
+2020/09/14-03:10:52.975 e55 Delete type=2 #30
+2020/09/14-03:10:52.975 e55 Manual compaction at level-1 from '\x00\x00\x00\x00\x05' @ 46 : 1 .. (end); will stop at (end)

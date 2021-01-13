@@ -1,0 +1,15 @@
+2020/08/31-15:41:46.734 ae53b Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_thehackernews.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/31-15:41:46.734 ae53b Recovering log #4
+2020/08/31-15:41:46.734 ae53b Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_thehackernews.com_0.indexeddb.leveldb/000004.log 
+2020/08/31-15:42:23.707 15b0 Level-0 table #8: started
+2020/08/31-15:42:23.711 15b0 Level-0 table #8: 20640 bytes OK
+2020/08/31-15:42:23.714 15b0 Delete type=0 #4
+2020/08/31-15:42:23.714 15b0 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/31-15:42:23.715 15b0 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01 \x03\x00\xf0\xba\x0aLDwB\x00\x01W\x00t\x00h\x00i\x00r\x00d\x00-\x00p\x00a\x00r\x00t\x00y\x00-\x00f\x00i\x00l\x00e\x00s\x00-\x00v\x001\x009\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00c\x00d\x00n\x00j\x00s\x00.\x00c\x00l\x00o\x00u\x00d\x00f\x00l\x00a\x00r\x00e\x00.\x00c\x00o\x00m\x00/\x00a\x00j\x00a\x00x\x00/\x00l\x00i\x00b\x00s\x00/\x00j\x00q\x00u\x00e\x00r\x00y\x00/\x003\x00.\x005\x00.\x000\x00/\x00j\x00q\x00u\x00e\x00r\x00y\x00.\x00m\x00i\x00n\x00.\x00j\x00s' @ 388 : 1
+2020/08/31-15:42:23.715 15b0 Compacting 1@1 + 1@2 files
+2020/08/31-15:42:23.717 15b0 Generated table #9@1: 98 keys, 16506 bytes
+2020/08/31-15:42:23.718 15b0 Compacted 1@1 + 1@2 files => 16506 bytes
+2020/08/31-15:42:23.720 15b0 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/31-15:42:23.720 15b0 Delete type=2 #5
+2020/08/31-15:42:23.720 15b0 Delete type=2 #8
+2020/08/31-15:42:23.720 15b0 Manual compaction at level-1 from '\x00\x01\x01 \x03\x00\xf0\xba\x0aLDwB\x00\x01W\x00t\x00h\x00i\x00r\x00d\x00-\x00p\x00a\x00r\x00t\x00y\x00-\x00f\x00i\x00l\x00e\x00s\x00-\x00v\x001\x009\x00|\x00h\x00t\x00t\x00p\x00s\x00:\x00/\x00/\x00c\x00d\x00n\x00j\x00s\x00.\x00c\x00l\x00o\x00u\x00d\x00f\x00l\x00a\x00r\x00e\x00.\x00c\x00o\x00m\x00/\x00a\x00j\x00a\x00x\x00/\x00l\x00i\x00b\x00s\x00/\x00j\x00q\x00u\x00e\x00r\x00y\x00/\x003\x00.\x005\x00.\x000\x00/\x00j\x00q\x00u\x00e\x00r\x00y\x00.\x00m\x00i\x00n\x00.\x00j\x00s' @ 388 : 1 .. (end); will stop at (end)

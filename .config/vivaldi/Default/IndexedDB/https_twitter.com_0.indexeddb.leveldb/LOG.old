@@ -1,0 +1,15 @@
+2020/08/30-03:18:43.842 5e19 Reusing MANIFEST /home/govi/.config/vivaldi/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/08/30-03:18:43.842 5e19 Recovering log #85
+2020/08/30-03:18:43.842 5e19 Reusing old log /home/govi/.config/vivaldi/Default/IndexedDB/https_twitter.com_0.indexeddb.leveldb/000085.log 
+2020/08/30-03:23:45.746 4f4b Level-0 table #90: started
+2020/08/30-03:23:45.748 4f4b Level-0 table #90: 54021 bytes OK
+2020/08/30-03:23:45.753 4f4b Delete type=0 #85
+2020/08/30-03:23:45.753 4f4b Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/08/30-03:23:45.753 4f4b Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x03\x01\x0d\x001\x005\x009\x008\x007\x005\x000\x005\x009\x003\x006\x007\x008' @ 34079 : 1
+2020/08/30-03:23:45.753 4f4b Compacting 1@1 + 1@2 files
+2020/08/30-03:23:45.761 4f4b Generated table #91@1: 60 keys, 2231 bytes
+2020/08/30-03:23:45.761 4f4b Compacted 1@1 + 1@2 files => 2231 bytes
+2020/08/30-03:23:45.762 4f4b compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/08/30-03:23:45.762 4f4b Delete type=2 #87
+2020/08/30-03:23:45.762 4f4b Delete type=2 #90
+2020/08/30-03:23:45.762 4f4b Manual compaction at level-1 from '\x00\x02\x01\x03\x01\x0d\x001\x005\x009\x008\x007\x005\x000\x005\x009\x003\x006\x007\x008' @ 34079 : 1 .. (end); will stop at (end)

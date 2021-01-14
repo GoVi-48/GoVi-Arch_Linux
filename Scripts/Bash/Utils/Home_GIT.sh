@@ -39,14 +39,14 @@ kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.s
 
 while true; do
     echo -e '\nPress "Enter" to Open Github or "Escape" to Exit\n'
-    read -rsn1 input
-        if [[ $input = "" ]]; then
+    read -rsn1 INPUT
+        if [[ $INPUT = "" ]]; then
             echo "Opening Github..."
             sleep 2
             firefox https://github.com/GoVi-48/GoVi-Arch_Linux
             exit
             
-        elif [[ $input = $'\e' ]]; then
+        elif [[ $INPUT = $'\e' ]]; then
             exit
             
         else 

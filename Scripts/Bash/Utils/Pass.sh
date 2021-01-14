@@ -74,8 +74,8 @@ while true; do
 
     else
         clear
-        echo -e "\nInvalid Key\n"
-        sleep 1
+        echo -e "\nInvalid Key\n" &
+        sleep 2
         Options
     fi
 

@@ -14,14 +14,14 @@ kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.s
 
 while true; do
     echo -e '\nPress "Enter" to Upload to Dropbox or "Escape" to Exit\n'
-    read -rsn1 input
-        if [[ $input = "" ]];then
+    read -rsn1 INPUT
+        if [[ $INPUT = "" ]];then
             echo "Opening Dropbox..."
             sleep 2
             dropbox &
             exit
             
-        elif [[ $input = $'\e' ]]; then
+        elif [[ $INPUT = $'\e' ]]; then
             exit
             
         else 

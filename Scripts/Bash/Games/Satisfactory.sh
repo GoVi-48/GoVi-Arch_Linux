@@ -1,1 +1,1 @@
-/home/govi/Games/PC/Satisfactory//Wine/Launch_Satisfactory.sh
+/Datos/Games/PC/Satisfactory//Wine/Launch_Satisfactory.sh

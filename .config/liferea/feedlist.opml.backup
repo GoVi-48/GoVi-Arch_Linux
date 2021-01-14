@@ -124,7 +124,7 @@
         <outline title="Meristation" text="Meristation" description="Meristation" type="html5" id="reyhsek" sortColumn="time" xmlUrl="https://as.com/meristation/noticias/" htmlUrl="https://as.com/meristation/noticias/" updateInterval="-2" collapsed="true"/>
         <outline title="GameProTV" text="GameProTV" description="GameProTV" type="html5" id="uirptyq" sortColumn="time" xmlUrl="https://www.gameprotv.com/noticias" htmlUrl="https://www.gameprotv.com/noticias" updateInterval="-1" collapsed="true"/>
         <outline title="Skidrow &amp; Reloaded Games" text="Skidrow &amp; Reloaded Games" description="Skidrow &amp; Reloaded Games" type="rss" id="uxkyxph" sortColumn="time" viewMode="1" xmlUrl="https://www.skidrowreloaded.com/feed/" htmlUrl="https://www.skidrowreloaded.com" updateInterval="-1" collapsed="true"/>
-        <outline title="Retro" text="Retro" description="Retro" type="folder" id="pdbdxma" sortColumn="time" collapsed="true">
+        <outline title="Retro" text="Retro" description="Retro" type="folder" id="pdbdxma" sortColumn="time" viewMode="1" collapsed="true">
           <outline title="Arcade Punks" text="Arcade Punks" description="Arcade Punks" type="rss" id="qsgcaqy" sortColumn="time" xmlUrl="https://www.arcadepunks.com/feed/" htmlUrl="https://www.arcadepunks.com" updateInterval="-1" collapsed="true"/>
           <outline title="InsertMoreCoins - ENTRA Y PARTICIPA" text="InsertMoreCoins - ENTRA Y PARTICIPA" description="InsertMoreCoins - ENTRA Y PARTICIPA" type="html5" id="ljclttl" sortColumn="time" xmlUrl="https://insertmorecoins.es/" htmlUrl="https://insertmorecoins.es/" updateInterval="-1" collapsed="true"/>
         </outline>
@@ -134,11 +134,11 @@
         <outline title="Luke Smith" text="Luke Smith" description="Luke Smith" type="rss" id="amjbffo" sortColumn="time" xmlUrl="https://lukesmith.xyz/rss.xml" htmlUrl="https://lukesmith.xyz/rss.xml" updateInterval="-1" collapsed="true"/>
         <outline title="Phoronix" text="Phoronix" description="Phoronix" type="rss" id="xvostgh" sortColumn="time" xmlUrl="https://www.phoronix.com/rss.php" htmlUrl="https://www.phoronix.com/" updateInterval="-1" collapsed="true"/>
       </outline>
-      <outline title="Other" text="Other" description="Other" type="folder" id="jpsjygi" sortColumn="time" viewMode="1" collapsed="true">
+      <outline title="Other" text="Other" description="Other" type="folder" id="jpsjygi" sortColumn="time" viewMode="1" expanded="true">
         <outline title="MuyInteresante" text="MuyInteresante" description="MuyInteresante" type="rss" id="mrnkpna" sortColumn="time" viewMode="1" xmlUrl="https://www.muyinteresante.es/rss" htmlUrl="https://www.muyinteresante.es" updateInterval="-1" collapsed="true"/>
         <outline title="Trailers y Estrenos" text="Trailers y Estrenos" description="Trailers y Estrenos" type="rss" id="nixiass" sortColumn="time" viewMode="1" xmlUrl="http://feeds.feedburner.com/trailersyestrenos/rss" htmlUrl="https://trailersyestrenos.es" updateInterval="-1" collapsed="true"/>
       </outline>
-      <outline title="Tech" text="Tech" description="Tech" type="folder" id="mjibefo" sortColumn="time" viewMode="1" collapsed="true">
+      <outline title="Tech" text="Tech" description="Tech" type="folder" id="mjibefo" sortColumn="time" viewMode="1" expanded="true">
         <outline title="Engadget" text="Engadget" description="Engadget" type="html5" id="qqfvqok" sortColumn="time" xmlUrl="https://www.engadget.com/" htmlUrl="https://www.engadget.com/" updateInterval="-2" collapsed="true"/>
         <outline title="Guru3D.com" text="Guru3D.com" description="Guru3D.com" type="rss" id="qxouaea" sortColumn="time" xmlUrl="https://www.guru3d.com/news_rss" htmlUrl="https://www.guru3d.com" updateInterval="-2" collapsed="true"/>
         <outline title="Traficantes de Hardware" text="Traficantes de Hardware" description="Traficantes de Hardware" type="html5" id="wlbguiy" sortColumn="time" xmlUrl="http://traficantesdehardware.com/" htmlUrl="http://traficantesdehardware.com/" updateInterval="-2" collapsed="true"/>
@@ -153,7 +153,7 @@
       <outline title="Proton-ge-custom" text="Proton-ge-custom" description="Proton-ge-custom" type="atom" id="wipeiue" sortColumn="time" xmlUrl="https://github.com/GloriousEggroll/proton-ge-custom/releases.atom" htmlUrl="https://github.com/GloriousEggroll/proton-ge-custom/releases.atom" updateInterval="-1" collapsed="true"/>
       <outline title="vkBasalt" text="vkBasalt" description="vkBasalt" type="atom" id="ttkclom" sortColumn="time" xmlUrl="https://github.com/DadSchoorse/vkBasalt/commits/master.atom" htmlUrl="https://github.com/DadSchoorse/vkBasalt/commits/master.atom" updateInterval="-1" collapsed="true"/>
       <outline title="Wine-staging" text="Wine-staging" description="Wine-staging" type="atom" id="ridtgwt" sortColumn="time" xmlUrl="https://github.com/wine-staging/wine-staging/commits/master.atom" htmlUrl="https://github.com/wine-staging/wine-staging/commits/master.atom" updateInterval="-1" collapsed="true"/>
-      <outline title="Wine-tkg-git:" text="Wine-tkg-git:" description="Wine-tkg-git:" type="atom" id="eaxgevd" sortColumn="time" xmlUrl="https://github.com/Frogging-Family/wine-tkg-git/commits/master.atom" htmlUrl="https://github.com/Frogging-Family/wine-tkg-git/commits/master.atom" updateInterval="-1" collapsed="true"/>
+      <outline title="Wine-tkg-git:" text="Wine-tkg-git:" description="Wine-tkg-git:" type="atom" id="eaxgevd" sortColumn="time" xmlUrl="https://github.com/Frogging-Family/wine-tkg-git/releases.atom" htmlUrl="https://github.com/Frogging-Family/wine-tkg-git/releases.atom" updateInterval="-1" collapsed="true"/>
     </outline>
     <outline title="Unread" text="Unread" description="Unread" type="vfolder" id="gxrkdqp" sortColumn="time" viewMode="1" matchType="any" collapsed="true">
       <outline type="rule" text="El estado de lectura" rule="unread" value="" additive="true"/>

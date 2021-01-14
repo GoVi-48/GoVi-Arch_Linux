@@ -1,26 +1,26 @@
 #!/bin/bash
 
 # Colors
-B=$(tput bold) # Bold
-R=$(tput rmso) # Reset
+export tput init
+BOLD=`tput bold` # Bold
+OFFBOLD=`tput sgr0` # Turn off all attributes
 
 function Options(){
     clear
-    echo -e "\n$B# =============== Options =============== #$R"
-    echo -e "\n ·Press \"$B"g"$R\" to Launch Timeshift $B"GUI"$R"
-    echo -e "\n ·Press \"$B"l"$R\" to view snapshots $B"List"$R"
-    echo -e "\n ·Press \"$B"c"$R\" to $B"Create"$R Snapshot"
-    echo -e "\n ·Press \"$B"d"$R\" to $B"Delete"$R Snapshot"
-    echo -e "\n ·Press \"$B"a"$R\" to $B"Delete ALL"$R Snapshots"
-    echo -e "\n ·Press \"$B"e"$R\" to $B"Exit"$R"
-    echo -e "\n$B# ======================================= #$R\n"
+    echo -e "\n# =============== $BOLD"Options"$OFFBOLD =============== #"
+    echo -e "\n ·Press $BOLD"\"g\""$OFFBOLD to Launch Timeshift $BOLD"GUI"$OFFBOLD"
+    echo -e "\n ·Press $BOLD"\"l\""$OFFBOLD to view snapshots $BOLD"List"$OFFBOLD"
+    echo -e "\n ·Press $BOLD"\"c\""$OFFBOLD to $BOLD"Create"$OFFBOLD Snapshot"
+    echo -e "\n ·Press $BOLD"\"d\""$OFFBOLD to $BOLD"Delete"$OFFBOLD Snapshot"
+    echo -e "\n ·Press $BOLD"\"a\""$OFFBOLD to $BOLD"Delete ALL"$OFFBOLD Snapshots"
+    echo -e "\n ·Press $BOLD"\"e\""$OFFBOLD to $BOLD"Exit"$OFFBOLD"
+    echo -e "\n# ======================================= #\n"
     read -rsn1 INPUT
 }
 Options
 
 function Continue(){
-    echo
-    read -rsn1 -p "Press any key to Continue..."; echo
+    read -rsn1 -p "$(echo -e "\nPress any key to Continue...")"
     Options
 }
 
@@ -47,7 +47,7 @@ while true; do
         Continue
 
     elif [[ $INPUT = "a" ]]; then
-        echo -e "\nAre you sure? y/n"
+        echo -e "\nAre you sure? [y/n]"
         read -rsn1 YN
 
         if [[ $YN = "y" ]]; then

@@ -5,25 +5,26 @@
 # Tricomas48
 
 # Colors
-B=$(tput bold) # Bold
-R=$(tput rmso) # Reset
+export tput init
+BOLD=`tput bold` # Bold
+OFFBOLD=`tput sgr0` # Turn off all attributes
 
 function Options(){
     clear
-    echo -e "\n$B# =============== Options =============== #$R"
-    echo -e "\n ·Press \"$B"p"$R\" to show $B"Password Store"$R"
-    echo -e "\n ·Press \"$B"s"$R\" to $B"Show"$R the Password of a site"
-    echo -e "\n ·Press \"$B"a"$R\" to $B"Add"$R a Password to a site"
-    echo -e "\n ·Press \"$B"r"$R\" to $B"Remove"$R a Password of a site"
-    echo -e "\n ·Press \"$B"m"$R\" to $B"Modify"$R Password of a site"
-    echo -e "\n ·Press \"$B"e"$R\" to $B"Exit"$R"
-    echo -e "\n$B# ======================================= #$R\n"
+    echo -e "\n${BOLD}# =============== Options =============== #${OFFBOLD}"
+    echo -e "\n ·Press ${BOLD}\"p\"${OFFBOLD} to show ${BOLD}Password Store${OFFBOLD}"
+    echo -e "\n ·Press ${BOLD}\"s\"${OFFBOLD} to ${BOLD}Show${OFFBOLD} the Password of a site"
+    echo -e "\n ·Press ${BOLD}\"a\"${OFFBOLD} to ${BOLD}Add${OFFBOLD} a Password to a site"
+    echo -e "\n ·Press ${BOLD}\"r\"${OFFBOLD} to ${BOLD}Remove${OFFBOLD} a Password of a site"
+    echo -e "\n ·Press ${BOLD}\"m\"${OFFBOLD} to ${BOLD}Modify${OFFBOLD} Password of a site"
+    echo -e "\n ·Press ${BOLD}\"e\"${OFFBOLD} to ${BOLD}Exit${OFFBOLD}"
+    echo -e "\n${BOLD}# ======================================= #${OFFBOLD}\n"
     read -rsn1 INPUT
 }
 Options
 
 function Continue(){
-    read -rsn1 -p "Press any key to continue"; echo
+    read -rsn1 -p "$(echo -e "\nPress any key to Continue...")"
     Options
 }
 

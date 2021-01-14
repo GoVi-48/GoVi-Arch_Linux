@@ -1,11 +1,11 @@
 [Desktop Entry]
 Categories=System;
 Comment=System Restore Utility
-Exec=bash -c ~/Scripts/Bash/Utils/Timeshift.sh
+Exec=timeshift
 GenericName=System Restore Utility
 Icon=timeshift
 MimeType=
-Name=Timeshift
+Name=Timeshift - GUI
 NoDisplay=false
 Path[$e]=
 StartupNotify=false

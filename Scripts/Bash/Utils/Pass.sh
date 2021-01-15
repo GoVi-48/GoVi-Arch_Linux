@@ -9,7 +9,7 @@ export tput init
 BOLD=`tput bold` # Bold
 OFFBOLD=`tput sgr0` # Turn off all attributes
 
-function Options(){
+Options(){
     clear
     echo -e "\n${BOLD}# =============== Options =============== #${OFFBOLD}"
     echo -e "\n ·Press ${BOLD}\"p\"${OFFBOLD} to show ${BOLD}Password Store${OFFBOLD}"
@@ -23,7 +23,7 @@ function Options(){
 }
 Options
 
-function Continue(){
+Continue(){
     read -rsn1 -p "$(echo -e "\nPress any key to Continue...")"
     Options
 }
@@ -63,6 +63,7 @@ while true; do
 
     # Modify Password
     elif [[ $INPUT = "m" ]]; then
+        export EDITOR=vim
         clear; echo; pass
         echo -e '\nType site name to Modify Password and press "Enter" or "Ctrl+c" to Exit\n'
         read SITE

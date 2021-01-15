@@ -140,7 +140,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][2][Applets][89][Configuration]
-PreloadWeight=0
+PreloadWeight=25
 SystrayContainmentId=90
 
 [Containments][2][ConfigDialog]
@@ -182,7 +182,7 @@ toolTips=true
 Image=file:///home/govi/Imágenes/Wallpapers/ClarkLittleWaves_SS_08.jpg
 
 [Containments][87][Wallpaper][org.kde.slideshow][General]
-Image=file:///Media/Multimedia/Imágenes/Wallpapers/Desktop/Ocean-Wave-at-Sunset.jpg
+Image=file:///Media/Multimedia/Imágenes/Wallpapers/Desktop/milky-way-night4566832.jpg
 SlideInterval=660
 SlidePaths=/home/govi/Imágenes/Wallpapers/Desktop
 SlideshowMode=2
@@ -229,7 +229,11 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][90][Applets][94][Configuration]
-PreloadWeight=0
+PreloadWeight=10
+
+[Containments][90][Applets][94][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][90][Applets][95]
 immutability=1
@@ -250,7 +254,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][90][Applets][97][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][90][Applets][97][Configuration][ConfigDialog]
 DialogHeight=753

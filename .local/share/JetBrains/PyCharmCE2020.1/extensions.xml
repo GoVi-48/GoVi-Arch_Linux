@@ -943,6 +943,19 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.av">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="AviatorScript" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.avdl">
       <plugins>
         <option name="myPlugins">

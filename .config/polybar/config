@@ -74,9 +74,9 @@ cursor-scroll = ns-resize
 ; tray-offset-y = 0
 ; tray-scale = 1.0
 
-modules-left = reload_polybar filesystem_root filesystem_home filesystem_Datos filesystem_Media networkspeeddown networkspeedup email updates_pacman updates_AUR notifications
+modules-left = reload_polybar filesystem_root filesystem_home filesystem_Datos filesystem_Media separator notifications email updates_pacman updates_AUR
 modules-center = 
-modules-right = memory cpu_load cpu_temp gpu_temp mb_temp alsa date
+modules-right = networkspeeddown networkspeedup memory cpu_load cpu_temp gpu_temp mb_temp alsa date
 
 
 # =================================================================================================== #
@@ -88,6 +88,13 @@ type = custom/script
 exec = echo "%{T3} 6 %{T-}"
 click-left = ~/.config/polybar/scripts/reload_polybar.sh
 
+[module/separator]
+type = custom/script
+format-prefix = ""
+exec = echo " "
+click-left =
+interval = 60
+
 [module/filesystem_root]
 type = custom/script
 format-prefix = "%{T3}2%{T-} /: "
@@ -97,40 +104,24 @@ interval = 60
 
 [module/filesystem_home]
 type = custom/script
-format-prefix = "%{T3}2%{T-} /~: "
+format-prefix = "/~: "
 exec = df -h /home --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
 click-left = dolphin ~/
 interval = 60
 
 [module/filesystem_Datos]
 type = custom/script
-format-prefix = "%{T3}2%{T-} /Datos: "
+format-prefix = "/Datos: "
 exec = df -h /Datos --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
 click-left = dolphin /Datos
 interval = 60
 
 [module/filesystem_Media]
 type = custom/script
-format-prefix = "%{T3}2%{T-} /Media: "
+format-prefix = "/Media: "
 exec = df -h /Media --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
 click-left = dolphin /Media
 interval = 60
-
-[module/networkspeeddown]
-type = internal/network
-interface = enp3s0
-label-connected = "%downspeed:7%"
-format-connected = <label-connected>
-format-connected-prefix = "%{F#27ae60}%{T3}H %{T-}%{F-}"
-interval = 1
-
-[module/networkspeedup]
-type = internal/network
-interface = enp3s0
-label-connected = "%upspeed:7%"
-format-connected = <label-connected>
-format-connected-prefix = "%{F#0095ff}%{T3}G %{T-}%{F-}"
-interval = 1
 
 [module/updates_pacman]
 type = custom/script
@@ -155,6 +146,22 @@ type = custom/script
 exec = ~/.config/polybar/scripts/notifications.sh
 click-left = ~/.config/polybar/scripts/notf_switch.sh
 interval = 2
+
+[module/networkspeeddown]
+type = internal/network
+interface = enp3s0
+label-connected = "%downspeed:7%"
+format-connected = <label-connected>
+format-connected-prefix = "%{F#27ae60}%{T3}H %{T-}%{F-}"
+interval = 1
+
+[module/networkspeedup]
+type = internal/network
+interface = enp3s0
+label-connected = "%upspeed:7%"
+format-connected = <label-connected>
+format-connected-prefix = "%{F#0095ff}%{T3}G %{T-}%{F-}"
+interval = 1
 
 [module/memory]
 type = custom/script
@@ -204,7 +211,7 @@ ramp-volume-3 = %{T3}D%{T-}
 [module/date]
 type = internal/date
 label = %date% %time%
-date ="	📅 %a %d/%m/%Y "
+date ="📅 %a %d/%m/%Y "
 date-alt = "	📅 %a %d/%m/%Y "
 time =
 time-alt = "🕓 %H:%M "

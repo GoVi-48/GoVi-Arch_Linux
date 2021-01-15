@@ -4096,7 +4096,7 @@ one-instance-when-started-from-file=0
 #media-library=0
 
 # Display playlist tree (boolean)
-#playlist-tree=0
+playlist-tree=1
 
 # Default stream (string)
 #open=
@@ -4135,10 +4135,10 @@ metadata-network-access=1
 #interact=1
 
 # Locally collect statistics (boolean)
-#stats=1
+stats=0
 
 # Interface module (string)
-#intf=
+intf=qt
 
 # Extra interface modules (string)
 #extraintf=

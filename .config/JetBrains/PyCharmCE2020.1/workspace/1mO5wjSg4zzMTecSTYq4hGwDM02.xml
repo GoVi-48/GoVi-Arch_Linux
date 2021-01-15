@@ -1,11 +1,29 @@
 <project version="4">
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Scripts/Bash/Games/-Launch_Game.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+            <state relative-caret-position="84">
+              <caret line="4" column="16" lean-forward="true" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Scripts/Bash/Games/Star_Wars_Battlefront_II.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="987">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Scripts/Bash/Utils/Home_GIT.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="15" column="93" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
             </state>
           </provider>
         </entry>
@@ -43,6 +61,7 @@
       <find>RS</find>
       <find>input</find>
       <find>read</find>
+      <find>EDITOR</find>
     </findStrings>
     <replaceStrings>
       <replace>PROCESS</replace>
@@ -117,10 +136,11 @@
         <option value="$USER_HOME$/Scripts/Bash/Polybar/updates_pacman.sh" />
         <option value="$USER_HOME$/.config/alacritty/alacritty.yml" />
         <option value="$USER_HOME$/.bashrc" />
-        <option value="$USER_HOME$/Scripts/Bash/Utils/Home_GIT.sh" />
         <option value="$USER_HOME$/Scripts/Bash/Utils/Kodi_GIT.sh" />
-        <option value="$USER_HOME$/Scripts/Bash/Utils/Pass.sh" />
         <option value="$USER_HOME$/Scripts/Bash/Utils/Timeshift.sh" />
+        <option value="$USER_HOME$/Scripts/Bash/Utils/Pass.sh" />
+        <option value="$USER_HOME$/Scripts/Bash/Games/Star_Wars_Battlefront_II.sh" />
+        <option value="$USER_HOME$/Scripts/Bash/Utils/Home_GIT.sh" />
       </list>
     </option>
   </component>
@@ -131,13 +151,17 @@
       </set>
     </option>
   </component>
-  <component name="ProjectFrameBounds" x="0" y="155" width="1097" height="890" />
+  <component name="ProjectFrameBounds" x="0" y="166" width="1097" height="879" />
   <component name="ProjectView">
     <navigator proportions="" version="1" />
     <panes />
   </component>
   <component name="TerminalArrangementManager">
-    <option name="mySelectedTabIndex" value="-1" />
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" commandHistoryFileName="history-1" />
+      <TerminalTabState tabName="Local (2)" currentWorkingDirectory="$USER_HOME$/Scripts/Bash/Games" commandHistoryFileName="history-2" />
+    </option>
+    <option name="mySelectedTabIndex" value="1" />
   </component>
   <component name="ToolWindowManager">
     <editor active="true" />
@@ -161,16 +185,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/Crysis_Remastered.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file:///Datos/Games/PC/-Launchers/GOG/-Library/Metro Last Light Redux/Wine/Launch-Metro_Last_Light_Redux.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Scripts/Bash/Games/Metro_2033_Redux.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -353,13 +367,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.bashrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-455">
-          <caret line="126" column="22" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Scripts/Bash/Games/Satisfactory.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -382,13 +389,6 @@
         <state relative-caret-position="-126" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Utils/Home_GIT.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="37" column="36" lean-forward="true" selection-start-line="37" selection-end-line="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Scripts/Bash/Utils/Timeshift.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="293">
@@ -396,17 +396,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file:///bin/pass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="275" column="77" selection-start-line="275" selection-start-column="71" selection-end-line="275" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.bashrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="162" column="15" lean-forward="true" selection-start-line="162" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Scripts/Bash/Utils/Pass.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1407">
-          <caret line="67" column="12" selection-start-line="67" selection-start-column="8" selection-end-line="67" selection-end-column="12" />
+        <state relative-caret-position="483">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Scripts/Bash/Games/-Launch_Game.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="32" selection-end-line="5" selection-end-column="32" />
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="true" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Games/Star_Wars_Battlefront_II.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Utils/Home_GIT.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="15" column="93" selection-start-line="15" selection-start-column="93" selection-end-line="15" selection-end-column="93" />
         </state>
       </provider>
     </entry>

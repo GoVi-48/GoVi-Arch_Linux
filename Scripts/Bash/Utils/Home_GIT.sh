@@ -13,7 +13,7 @@ rm -rfv "$GOVI_ARCH_LINUX/Scripts/"*
 mkdir -p "$GOVI_ARCH_LINUX/.config/" && cp -rfv ~/.config/* $_
 
 # Backup ~/.local/share/
-mkdir -p "$GOVI_ARCH_LINUX/.local/share/" && rsync -arv --exclude 'baloo' ~/.local/share/* $_
+mkdir -p "$GOVI_ARCH_LINUX/.local/share/" && rsync -arv --exclude 'baloo' --exclude 'email.sh' ~/.local/share/* $_
 
 # Backup ~/
 mkdir -p "$GOVI_ARCH_LINUX/Backups/" && cp -rfv ~/Backups/Linux/* $_

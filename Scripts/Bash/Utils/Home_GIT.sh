@@ -10,10 +10,10 @@ rm -rfv "$GOVI_ARCH_LINUX/Gaming/"*
 rm -rfv "$GOVI_ARCH_LINUX/Scripts/"*
 
 # Backup ~/.config/
-mkdir -p "$GOVI_ARCH_LINUX/.config/" && cp -rfv ~/.config/* $_
+mkdir -p "$GOVI_ARCH_LINUX/.config/" && rsync -arv --exclude='email.sh' ~/.config/* $_
 
 # Backup ~/.local/share/
-mkdir -p "$GOVI_ARCH_LINUX/.local/share/" && rsync -arv --exclude 'baloo' --exclude 'email.sh' ~/.local/share/* $_
+mkdir -p "$GOVI_ARCH_LINUX/.local/share/" && rsync -arv --exclude={'baloo','Some File.sh'} ~/.local/share/* $_
 
 # Backup ~/
 mkdir -p "$GOVI_ARCH_LINUX/Backups/" && cp -rfv ~/Backups/Linux/* $_

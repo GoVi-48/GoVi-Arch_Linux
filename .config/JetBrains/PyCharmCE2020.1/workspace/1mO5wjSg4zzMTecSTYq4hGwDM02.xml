@@ -4,26 +4,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Scripts/Bash/Games/-Launch_Game.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="16" lean-forward="true" selection-end-line="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Scripts/Bash/Utils/Home_GIT.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+            <state relative-caret-position="111">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Scripts/Bash/Games/Star_Wars_Battlefront_II.sh">
+        <entry file="file://$USER_HOME$/Backups/Linux/feedlist.opml">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+            <state relative-caret-position="74">
+              <caret line="52" column="117" selection-start-line="52" selection-start-column="99" selection-end-line="52" selection-end-column="117" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_games_not.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="28" selection-start-line="2" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_YT.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="14" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -32,57 +50,68 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>WINE_DIR</find>
-      <find>$EXE</find>
-      <find>cairo</find>
-      <find>updates_pacman</find>
-      <find>updates_AUR</find>
-      <find>notf_sound</find>
-      <find>$DIR</find>
-      <find>\n</find>
-      <find>password</find>
-      <find>pass</find>
-      <find>nInvalid</find>
-      <find>Enter</find>
-      <find>TERM</find>
-      <find>RESET</find>
-      <find>color</find>
-      <find>$RST</find>
-      <find>RST</find>
-      <find>local.bak</find>
-      <find>Backups</find>
-      <find>&quot;\n ·Press $B&quot;</find>
-      <find>echo -e</find>
-      <find>$R</find>
-      <find>\&quot;$B</find>
-      <find>R</find>
-      <find>}</find>
-      <find>$</find>
-      <find>RS</find>
-      <find>input</find>
       <find>read</find>
       <find>EDITOR</find>
+      <find>$</find>
+      <find>|</find>
+      <find>Entry</find>
+      <find>if</find>
+      <find>echo &quot;</find>
+      <find>robot</find>
+      <find>NEW_ENTRIES</find>
+      <find>echo</find>
+      <find>Entries&quot;</find>
+      <find>$NEW_ENTRIES</find>
+      <find>-e&quot;</find>
+      <find>awk</find>
+      <find>$1</find>
+      <find>2</find>
+      <find>$ENTRY_1</find>
+      <find>}') &gt; entry_</find>
+      <find>||</find>
+      <find>$ENTRY</find>
+      <find>ENTRY</find>
+      <find>entry</find>
+      <find>.log</find>
+      <find>Logs</find>
+      <find>&quot;%{</find>
+      <find>%{T-}%{F-}</find>
+      <find>~/Scripts/Bash/Polybar/Logs</find>
+      <find>\n</find>
+      <find>NTRIES</find>
+      <find>G</find>
     </findStrings>
     <replaceStrings>
-      <replace>PROCESS</replace>
-      <replace>Password</replace>
-      <replace>Type</replace>
-      <replace>GD</replace>
-      <replace>BLD</replace>
-      <replace>RST</replace>
-      <replace>$B</replace>
-      <replace>R</replace>
-      <replace>config</replace>
-      <replace>local</replace>
-      <replace>$R</replace>
-      <replace>echo</replace>
-      <replace>$RS</replace>
-      <replace>$B\</replace>
-      <replace>BD</replace>
-      <replace>RS</replace>
-      <replace>)</replace>
-      <replace>OFFBOLD</replace>
-      <replace>INPUT</replace>
+      <replace>/</replace>
+      <replace>Entries</replace>
+      <replace>elif</replace>
+      <replace>echo -e &quot;\n</replace>
+      <replace>DIFF_ENTRIES</replace>
+      <replace>NEW_ENTRIES=$(echo</replace>
+      <replace>Entries&quot;)</replace>
+      <replace>&quot;$NEW_ENTRIES&quot;</replace>
+      <replace>echo -e&quot;\n</replace>
+      <replace>-e &quot;</replace>
+      <replace>$1,$2;</replace>
+      <replace>&gt;&gt;</replace>
+      <replace>entry</replace>
+      <replace>echo &quot;$ENTRIES&quot;</replace>
+      <replace>&quot;$ENTRY_1&quot;</replace>
+      <replace>$ENTRIES 777</replace>
+      <replace>}') &gt; entry_</replace>
+      <replace>}' &amp;&amp; echo 777) &gt; entry_</replace>
+      <replace>&amp;&amp;</replace>
+      <replace>R_entry</replace>
+      <replace>Logs/R_entry</replace>
+      <replace>$R_ENTRY</replace>
+      <replace>R_ENTRY</replace>
+      <replace>Logs/entry</replace>
+      <replace>.log 2&gt;&amp;1 /dev/null</replace>
+      <replace>&gt; /dev/null 2&gt;&amp;1</replace>
+      <replace>~/Scripts/Bash/Polybar/Logs</replace>
+      <replace>&quot;\n%{</replace>
+      <replace>$LOGS</replace>
+      <replace>&quot;</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -91,16 +120,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$USER_HOME$/Games/PC/Red Dead Redemption 2/Launch_Test_RDR2.sh" />
-        <option value="$USER_HOME$/Scripts/Bash/Games/RDR2.sh" />
-        <option value="$USER_HOME$/Games/PC/Red Dead Redemption 2/Wine/Launch_RDR2.sh" />
-        <option value="$USER_HOME$/Proyectos/Github/Arch-Linux_GoVi/Arch Install.txt" />
-        <option value="$USER_HOME$/Proyectos/Github/Arch-Linux_GoVi/Howto Arch" />
-        <option value="$USER_HOME$/Proyectos/Github/Arch-Linux_GoVi/Arch Install" />
-        <option value="$USER_HOME$/Scripts/Bash/Games/Wine_5.18/Launch-RIDE_4.sh" />
-        <option value="$USER_HOME$/Scripts/Bash/Games/Wine_5.18/Metro_2033_Redux.sh" />
-        <option value="$USER_HOME$/Games/PC/-Launchers/Epic Games/Wine/Launch_Epic_Games.sh" />
-        <option value="$USER_HOME$/Games/PC/-Launchers/GOG/Wine/Launch_GOG.sh" />
         <option value="$USER_HOME$/Scripts/Bash/Games/Metro_2033_Redux.sh" />
         <option value="/Datos/Games/PC/-Launchers/GOG/-Library/Metro Last Light Redux/Wine/Launch-Metro_Last_Light_Redux.sh" />
         <option value="$USER_HOME$/Scripts/Bash/Programs/Photoshop.sh" />
@@ -141,6 +160,17 @@
         <option value="$USER_HOME$/Scripts/Bash/Utils/Pass.sh" />
         <option value="$USER_HOME$/Scripts/Bash/Games/Star_Wars_Battlefront_II.sh" />
         <option value="$USER_HOME$/Scripts/Bash/Utils/Home_GIT.sh" />
+        <option value="$USER_HOME$/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Star_Wars_Battlefront_II.sh" />
+        <option value="$USER_HOME$/.newsboat/urls" />
+        <option value="$USER_HOME$/.newsboat/config" />
+        <option value="$USER_HOME$/.newsboat/skydrow" />
+        <option value="$USER_HOME$/.newsboat/Url_entries.sh" />
+        <option value="$USER_HOME$/.config/polybar/config" />
+        <option value="$USER_HOME$/Scripts/Bash/Polybar/url_entries.sh" />
+        <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_games_notf.sh" />
+        <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_games_not.sh" />
+        <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh" />
+        <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_YT.sh" />
       </list>
     </option>
   </component>
@@ -151,7 +181,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectFrameBounds" x="0" y="166" width="1097" height="879" />
+  <component name="ProjectFrameBounds" x="0" y="36" width="1095" height="1014" />
   <component name="ProjectView">
     <navigator proportions="" version="1" />
     <panes />
@@ -160,8 +190,9 @@
     <option name="myTabStates">
       <TerminalTabState tabName="Local" commandHistoryFileName="history-1" />
       <TerminalTabState tabName="Local (2)" currentWorkingDirectory="$USER_HOME$/Scripts/Bash/Games" commandHistoryFileName="history-2" />
+      <TerminalTabState tabName="Local (3)" currentWorkingDirectory="$USER_HOME$/.newsboat" commandHistoryFileName="history-3" />
     </option>
-    <option name="mySelectedTabIndex" value="1" />
+    <option name="mySelectedTabIndex" value="2" />
   </component>
   <component name="ToolWindowManager">
     <editor active="true" />
@@ -173,7 +204,7 @@
       <window_info id="Structure" order="1" weight="0.24953096" />
       <window_info anchor="bottom" id="TODO" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="4" weight="0.32933334" />
+      <window_info anchor="bottom" x="1099" y="75" width="821" height="764" id="Run" order="4" type="WINDOWED" weight="0.53571427" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Problems View" order="6" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32933334" />
@@ -185,69 +216,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/Metro_2033_Redux.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Programs/Photoshop.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/Wine_5.18/Cemu/Cemu.sh" />
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/Wine_5.18/Cemu/Mario_Kart_8.sh" />
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/Emulators/RPCS3/RPCS3.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/Emulators/RPCS3/God_of_War_III.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/Wine_5.18/Cemu/Zelda_BOTW.sh" />
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/Lutris/wine_5.21/Zelda_BOTW.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/Lutris/wine_5.21/Mario_Kart_8.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/Lutris/wine_5.21/Cemu.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/-Test/Star_Wars_JFO.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/-Test/Godfall.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/Wine_5.20/Ghostrunner.sh" />
-    <entry file="file:///Media/Games/PC/Ghostrunner/Wine/Ghostrunner.sh" />
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/Wine_5.20/Red_Dead_Redemption_2.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Scripts/Bash/Games/Wine_5.20/The_Witcher_3.sh" />
     <entry file="file://$USER_HOME$/Scripts/Bash/Games/Steam/Resident_Evil_2.sh">
       <provider selected="true" editor-type-id="text-editor" />
@@ -389,13 +357,6 @@
         <state relative-caret-position="-126" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Utils/Timeshift.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="67" column="12" selection-start-line="67" selection-start-column="12" selection-end-line="67" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///bin/pass">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -410,31 +371,129 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Utils/Pass.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/-Launch_Game.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="16" lean-forward="true" selection-end-line="47" />
-        </state>
-      </provider>
+    <entry file="file://$USER_HOME$/Wine/Scripts/Wine_6.0/Anno_1800.sh">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$USER_HOME$/Scripts/Bash/Games/Star_Wars_Battlefront_II.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+          <caret column="11" selection-start-column="11" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Star_Wars_Battlefront_II.sh" />
+    <entry file="file://$USER_HOME$/.newsboat/urls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="90" lean-forward="true" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Utils/Timeshift.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1281">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.newsboat/skydrow">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="566" column="73" selection-start-line="566" selection-start-column="73" selection-end-line="566" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.newsboat/skydrow.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-953">
+          <caret line="174" column="77" selection-start-line="174" selection-start-column="76" selection-end-line="174" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Utils/Pass.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="26" column="63" lean-forward="true" selection-start-line="26" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.newsboat/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Scripts/Bash/Utils/Home_GIT.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="81" selection-start-line="15" selection-start-column="81" selection-end-line="15" selection-end-column="81" />
+        <state relative-caret-position="-302">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.newsboat/Url_entries.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.config/polybar/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="135" column="12" selection-start-line="135" selection-start-column="12" selection-end-line="135" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/url_entries_YT.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/url_entries.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1596">
+          <caret line="76" column="2" selection-start-line="76" selection-start-column="2" selection-end-line="76" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_games_notf.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Games/-Launch_Game.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_games_not.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="28" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Backups/Linux/feedlist.opml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="52" column="117" selection-start-line="52" selection-start-column="99" selection-end-line="52" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="10" lean-forward="true" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_YT.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>

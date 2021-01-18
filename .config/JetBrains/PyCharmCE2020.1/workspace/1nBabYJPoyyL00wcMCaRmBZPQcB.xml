@@ -1,0 +1,134 @@
+<project version="4">
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>rm -f $LOGS/*.log &gt;/dev/null 2&gt;&amp;1</find>
+      <find>&gt;$LOGS</find>
+      <find>RM_ENTRIES</find>
+      <find>CHECK_ENTRIES</find>
+      <find>log</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>RM_ENTRIES</replace>
+      <replace>&gt; $LOGS</replace>
+      <replace>$RM_ENTRIES</replace>
+      <replace>ENTRY</replace>
+      <replace>RECHECK_ENTRIES</replace>
+      <replace>'{if(NR==1) print $0}'</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Bash/Polybar/rss_games_not.sh" />
+        <option value="$PROJECT_DIR$/Bash/Polybar/rss_games.sh" />
+      </list>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" x="0" y="36" width="1081" height="1009" extendedState="4" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" />
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Scripts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="TerminalArrangementManager">
+    <option name="myTabStates">
+      <TerminalTabState tabName="Local" commandHistoryFileName="history-6" />
+      <TerminalTabState tabName="Local (2)" currentWorkingDirectory="$PROJECT_DIR$/Bash/Polybar" commandHistoryFileName="history-4" />
+    </option>
+    <option name="mySelectedTabIndex" value="1" />
+  </component>
+  <component name="ToolWindowManager">
+    <layout>
+      <window_info id="Commit" order="3" />
+      <window_info anchor="bottom" id="Services" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31593663" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="3" />
+      <window_info anchor="bottom" id="Run" order="4" />
+      <window_info anchor="bottom" id="Python Console" order="9" weight="0.32978722" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Problems View" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32911393" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32874617" />
+      <window_info anchor="bottom" id="Messages" order="5" weight="0.32874617" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Bash/Utils/Pass.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bash/Polybar/rss_games_not.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" selection-start-line="15" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bash/Polybar/rss_YT.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" lean-forward="true" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bash/Polybar/rss_games.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bash/Games/-Launch_Game.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

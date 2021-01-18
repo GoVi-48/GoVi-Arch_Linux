@@ -127,9 +127,10 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="1295.83"
-         height="138.634"
-         ry="0" />
+         width="554.028"
+         height="755.222"
+         ry="59.0019"
+         rx="99.9888" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
@@ -165,8 +166,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="6.1763"
-         ry="6.1763" />
+         rx="60.2615"
+         ry="60.2615" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -315,7 +316,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -341,8 +342,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="968.783"
-       y="239.45"
+       x="762.229"
+       y="558.137"
        edit_clipping_paths="1"
        edit_masks="1" />
     <eventcontext
@@ -529,7 +530,7 @@
   </group>
   <group
      id="colorselector"
-     page="1" />
+     page="2" />
   <group
      id="embedded">
     <group
@@ -550,7 +551,7 @@
        page="0"
        x="0"
        y="0"
-       w="474"
+       w="344"
        h="487"
        visible="1"
        state="2"
@@ -566,17 +567,17 @@
        x="0"
        y="0"
        w="474"
-       h="487"
-       visible="1"
+       h="203"
+       visible="0"
        state="2"
-       placement="5" />
+       placement="4" />
     <group
        id="align"
        sel-as-groups="0"
        align-to="4"
        x="0"
        y="0"
-       w="474"
+       w="344"
        h="487"
        visible="1"
        state="2"
@@ -586,13 +587,20 @@
        panedpos="135"
        x="0"
        y="0"
-       w="474"
-       h="260"
+       w="344"
+       h="370"
+       visible="0"
+       state="2"
+       placement="2" />
+    <group
+       id="find"
+       x="0"
+       y="0"
+       w="580"
+       h="235"
        visible="0"
        state="2"
        placement="1" />
-    <group
-       id="find" />
     <group
        id="spellcheck"
        w="200"
@@ -601,16 +609,16 @@
     <group
        id="documentoptions"
        state="1"
-       x="709"
-       y="551"
-       w="200"
-       h="200"
+       x="723"
+       y="87"
+       w="675"
+       h="656"
        visible="0"
        placement="1" />
     <group
        id="preferences"
        state="1"
-       page="1"
+       page="28"
        x="622"
        y="231"
        w="675"
@@ -623,11 +631,11 @@
        id="object"
        x="0"
        y="0"
-       w="474"
-       h="333"
+       w="344"
+       h="487"
        visible="1"
        state="2"
-       placement="2" />
+       placement="5" />
     <group
        id="export"
        default=""
@@ -636,23 +644,23 @@
        x="0"
        y="0"
        w="474"
-       h="487"
-       visible="1"
+       h="483"
+       visible="0"
        state="2"
-       placement="5">
+       placement="1">
       <group
          id="exportarea"
          value="custom" />
       <group
          id="defaultxdpi"
-         value="300" />
+         value="96" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/govi/Imágenes/GoVi-Theme/Psd"
+       path="/home/govi/Descargas"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -702,7 +710,7 @@
        maxDepth="20"
        x="0"
        y="0"
-       w="474"
+       w="344"
        h="487"
        visible="1"
        state="2"
@@ -712,10 +720,10 @@
     <group
        id="trace"
        state="1"
-       x="262"
-       y="277"
-       w="1028"
-       h="772"
+       x="698"
+       y="155"
+       w="511"
+       h="424"
        visible="0"
        placement="1" />
     <group
@@ -730,11 +738,20 @@
        id="objects"
        x="0"
        y="0"
-       w="474"
-       h="487"
+       w="258"
+       h="620"
        visible="1"
        state="2"
-       placement="5" />
+       placement="3" />
+    <group
+       id="livepatheffect"
+       x="0"
+       y="0"
+       w="344"
+       h="150"
+       visible="0"
+       state="2"
+       placement="1" />
   </group>
   <group
      id="printing">
@@ -895,14 +912,14 @@
        value="0" />
     <group
        id="stickyzoom"
-       value="0" />
+       value="1" />
     <group
        id="selcue"
        value="2" />
     <group
        id="transform"
        stroke="1"
-       rectcorners="1"
+       rectcorners="0"
        pattern="1"
        gradient="1" />
     <group
@@ -1017,7 +1034,7 @@
        value="2"
        id="defaultwindowsize" />
     <group
-       unitType="2"
+       unitType="1"
        id="font" />
   </group>
   <group
@@ -1049,7 +1066,8 @@
      org.inkscape.input.svg.scale="auto" />
   <group
      id="desktop"
-     style="fill:#800000">
+     style="fill:#000000;stroke-width:3.528;-inkscape-font-specification:Hack;font-family:Hack;font-size:200px;fill-opacity:0.65168542"
+     xrayactive="0">
     <group
        width="722"
        height="480"

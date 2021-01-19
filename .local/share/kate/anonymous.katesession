@@ -35,15 +35,15 @@ textfilterplugin=false
 
 [MainWindow0]
 Active ViewSpace=0
-HDMI-0 Height 1080=800
-HDMI-0 Width 1920=1139
+HDMI-0 Height 1080=928
+HDMI-0 Width 1920=1093
 HDMI-0 XPosition=0
-HDMI-0 YPosition=241
-Kate-MDI-H-Splitter=160,1109,200
-Kate-MDI-Sidebar-0-Splitter=0,732
+HDMI-0 YPosition=113
+Kate-MDI-H-Splitter=160,1063,200
+Kate-MDI-Sidebar-0-Splitter=0,0
 Kate-MDI-Sidebar-1-Splitter=
 Kate-MDI-Sidebar-2-Splitter=
-Kate-MDI-Sidebar-3-Splitter=0,0,0
+Kate-MDI-Sidebar-3-Splitter=1063,0,0
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-kate_plugin_katesearch-Persistent=false
@@ -66,20 +66,18 @@ Kate-MDI-ToolView-kateprojectinfo-Persistent=false
 Kate-MDI-ToolView-kateprojectinfo-Position=3
 Kate-MDI-ToolView-kateprojectinfo-Sidebar-Position=1
 Kate-MDI-ToolView-kateprojectinfo-Visible=false
-Kate-MDI-V-Splitter=150,702,271
-State=AAAA/wAAAAD9AAAAAAAABHMAAALcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
-ToolBarsMovable=Disabled
+Kate-MDI-V-Splitter=150,830,271
+State=AAAA/wAAAAD9AAAAAAAABEUAAANcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 
 [MainWindow0][Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
 
 [MainWindow0 Settings]
-HDMI-0 Height 1080=800
-HDMI-0 Width 1920=1139
+HDMI-0 Height 1080=928
+HDMI-0 Width 1920=1093
 HDMI-0 XPosition=0
-HDMI-0 YPosition=241
-State=AAAA/wAAAAD9AAAAAAAABHMAAALcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
-ToolBarsMovable=Disabled
+HDMI-0 YPosition=113
+State=AAAA/wAAAAD9AAAAAAAABEUAAANcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 WindowState=0
 
 [MainWindow0 Settings][Toolbar mainToolBar]
@@ -88,7 +86,7 @@ ToolButtonStyle=IconOnly
 [MainWindow0-Splitter 0]
 Children=MainWindow0-ViewSpace 0
 Orientation=1
-Sizes=1109
+Sizes=1063
 
 [MainWindow0-ViewSpace 0]
 Active View=file:///home/govi/.config/polybar/config
@@ -97,12 +95,12 @@ Documents=file:///home/govi/.config/polybar/config
 View 0=file:///home/govi/.config/polybar/config
 
 [MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/config]
-CursorColumn=94
-CursorLine=137
+CursorColumn=0
+CursorLine=0
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,137,43,[,137,43,],137,93
+ViMarks=
 
 [Open Documents]
 Count=1
@@ -122,30 +120,30 @@ HiddenFiles=false
 MatchCase=true
 Place=0
 Recursive=true
-Replaces=GOVI_ARCH_LINUX,FLAGS,cairo-dock > /dev/null 2>&1,    killall cairo-dock,latte-dock,    latte-dock &,     latte-dock &,    killall latte-dock,$WINE,    /home/$USER/Scripts/Bash/Polybar/launch.sh,cairo-dock cairo-dock-plug-ins,&,    cairo-dock > /dev/null 2>&1 &,    cairo-dock &,killall cairo-dock,cairo-dock,export WINEDLLOVERRIDES="mscoree\\,mshtml="export WINEFSYNC=1,5.18,5.19,5.20,5.21,/home/$USER,GameLocation,GameExecutable
-Search=GoVi_Arch_Linux,PARAMETERS,$ ,latte-dock,killall latte-dock,    latte-dock &,    killall latte-dock,dock,cairo-dock,cairo-dock &,     latte-dock &,    cairo-dock > /dev/null 2>&1 &,    /home/$USER/Scripts/Bash/Polybar,vivaldi,& & &,& &,    cairo-dock,/home/$USER/Scripts/Bash/Latte_Dock.sh &,export WINEFSYNC=1\nexport WINEDLLOVERRIDES="mscoree\\,mshtml=",~,game_location,game_executable,WINEPREFIX,20
+Replaces=/7,/,GOVI_ARCH_LINUX,FLAGS,cairo-dock > /dev/null 2>&1,    killall cairo-dock,latte-dock,    latte-dock &,     latte-dock &,    killall latte-dock,$WINE,    /home/$USER/Scripts/Bash/Polybar/launch.sh,cairo-dock cairo-dock-plug-ins,&,    cairo-dock > /dev/null 2>&1 &,    cairo-dock &,killall cairo-dock,cairo-dock,export WINEDLLOVERRIDES="mscoree\\,mshtml="export WINEFSYNC=1,5.18,5.19,5.20,5.21,/home/$USER
+Search=1.5.1,/tree/,version,of the engine,&lt;td&gt; of the engine&lt;/td&gt;,title,Version,+,tag,assets,1.6,GoVi_Arch_Linux,PARAMETERS,$ ,latte-dock,killall latte-dock,    latte-dock &,    killall latte-dock,dock,cairo-dock,cairo-dock &,     latte-dock &,    cairo-dock > /dev/null 2>&1 &,    /home/$USER/Scripts/Bash/Polybar
 SearchDiskFiles=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 SearchDiskFiless=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/.config/polybar/scripts/Logs/Youtube/rss_youtube_entries
-File10[$e]=$HOME/.config/polybar/config
-File2[$e]=$HOME/.config/polybar/scripts/Logs/Games/rss_game_entries
-File3[$e]=$HOME/.config/polybar/scripts/Logs/Youtube/check_entries
-File4[$e]=$HOME/.config/polybar/scripts/Logs/Youtube/recheck_entries
-File5[$e]=$HOME/.config/polybar/scripts/Logs/YouTube/check_entries
-File6[$e]=$HOME/.config/polybar/scripts/Logs/YouTube/recheck_entries
-File7[$e]=$HOME/.config/polybar/scripts/Logs/Games/recheck_entries
-File8[$e]=$HOME/.config/polybar/scripts/Logs/Games/check_entries
-File9[$e]=$HOME/.config/polybar/scripts/reload_polybar.sh
-Name1[$e]=rss_youtube_entries
-Name10[$e]=config
-Name2[$e]=rss_game_entries
-Name3[$e]=check_entries
-Name4[$e]=recheck_entries
-Name5[$e]=check_entries
-Name6[$e]=recheck_entries
-Name7[$e]=recheck_entries
-Name8[$e]=check_entries
-Name9[$e]=reload_polybar.sh
+File1[$e]=$HOME/.config/polybar/scripts/Logs/YouTube/rss_youtube
+File10[$e]=$HOME/.config/polybar/scripts/rss_github.sh
+File2[$e]=$HOME/Scripts/Bash/Polybar/mg.xml
+File3[$e]=$HOME/.config/polybar/scripts/mg.xml
+File4[$e]=$HOME/.config/polybar/scripts/github-gamemode.xmñ
+File5[$e]=$HOME/Escritorio/Releases · FeralInteractive_gamemode.html
+File6[$e]=$HOME/Escritorio/gm.html
+File7[$e]=$HOME/gm.html
+File8[$e]=$HOME/.config/polybar/scripts/rss_youtube.sh
+File9[$e]=$HOME/.config/polybar/scripts/rss_games.sh
+Name1[$e]=rss_youtube
+Name10[$e]=rss_github.sh
+Name2[$e]=mg.xml
+Name3[$e]=mg.xml
+Name4[$e]=github-gamemode.xmñ
+Name5[$e]=Releases · FeralInteractive_gamemode.html
+Name6[$e]=gm.html
+Name7[$e]=gm.html
+Name8[$e]=rss_youtube.sh
+Name9[$e]=rss_games.sh

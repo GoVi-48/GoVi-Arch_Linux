@@ -74,7 +74,7 @@ cursor-scroll = ns-resize
 ; tray-offset-y = 0
 ; tray-scale = 1.0
 
-modules-left = reload_polybar filesystem_root filesystem_home filesystem_Datos filesystem_Media separator notifications email rss_youtube rss_games separator updates_pacman updates_AUR
+modules-left = reload_polybar filesystem_root filesystem_home filesystem_Datos filesystem_Media separator notifications email rss_youtube rss_games rss_github separator updates_pacman updates_AUR
 modules-center = 
 modules-right = networkspeeddown networkspeedup memory cpu_load cpu_temp gpu_temp mb_temp alsa date
 
@@ -135,20 +135,26 @@ interval = 2
 [module/email]
 type = custom/script
 exec = ~/.config/polybar/scripts/email.sh
-click-left = firefox "http://www.gmail.com" & $HOME/.config/polybar/scripts/reload_polybar.sh"
+click-left = firefox "http://www.gmail.com"
 interval = 300
-
-[module/rss_games]
-type = custom/script
-exec = ~/.config/polybar/scripts/rss_games_not.sh
-click-left = liferea & touch "$HOME/Scripts/Polybar/Logs/Games/check_entries_pass" & echo "0" > "$HOME/Scripts/Bash/Polybar/Logs/Games/rss_youtube_entries" & $HOME/.config/polybar/scripts/reload_polybar.sh"
-interval = 100
 
 [module/rss_youtube]
 type = custom/script
 exec = ~/.config/polybar/scripts/rss_youtube_not.sh
-click-left = liferea &  touch "$HOME/Scripts/Polybar/Logs/YouTube/check_entries_pass" & echo "0" > "$HOME/Scripts/Bash/Polybar/Logs/YouTube/rss_youtube_entries" & $HOME/.config/polybar/scripts/reload_polybar.sh"
-interval = 100
+click-left = ~/.config/polybar/scripts/rss_youtube_Reset.sh
+interval = 1000
+
+[module/rss_games]
+type = custom/script
+exec = ~/.config/polybar/scripts/rss_games_not.sh
+click-left = ~/.config/polybar/scripts/rss_games_Reset.sh
+interval = 300
+
+[module/rss_github]
+type = custom/script
+exec = ~/.config/polybar/scripts/rss_github_not.sh
+click-left = ~/.config/polybar/scripts/rss_github_Reset.sh
+interval = 300
 
 [module/updates_pacman]
 type = custom/script

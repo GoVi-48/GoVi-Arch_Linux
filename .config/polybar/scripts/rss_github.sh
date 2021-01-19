@@ -131,26 +131,26 @@ CHECK_ENTRIES() {
 }
 
 
-if [ -f "$LOGS/pass_check_entries_github" ]; then
-    rm -f "$LOGS/*check_entries_github"
-    CHECK_ENTRIES > "$LOGS/check_entries_github"
+if [ -f "$LOGS"/pass_check_entries_github ]; then
+    rm -f "$LOGS"/*check_entries_github
+    CHECK_ENTRIES > "$LOGS"/check_entries_github
     echo -e "\nENTRIES:============================================\n"
-    cat "$LOGS/check_entries_github"
-    rm -f "$LOGS/pass_check_entries_github"
+    cat "$LOGS"/check_entries_github
+    rm -f "$LOGS"/pass_check_entries_github
 fi
 
-if [ ! -f "$LOGS/pass_check_entries_github" ]; then
-    CHECK_ENTRIES > "$LOGS/recheck_entries_github"
+if [ ! -f "$LOGS"/pass_check_entries_github ]; then
+    CHECK_ENTRIES > "$LOGS"/recheck_entries_github
     echo -e "\nENTRIES:============================================\n"
-    cat "$LOGS/check_entries_github"
+    cat "$LOGS"/check_entries_github
     echo -e "\nRECHECK ENTRIES:====================================\n"
-    cat "$LOGS/recheck_entries_github"
-    DIFF=$(diff -s "$LOGS/check_entries_github" "$LOGS/recheck_entries_github")
+    cat "$LOGS"/recheck_entries_github
+    DIFF=$(diff -s "$LOGS"/check_entries_github "$LOGS"/recheck_entries_github)
 fi
 
 UPDATES="$(echo -e "\n$DIFF\n" | grep -c '^>')"
 
-echo "$UPDATES" > "$LOGS/rss_github"
+echo "$UPDATES" > "$LOGS"/rss_github
 echo -e "\n$UPDATES Updates\n"
 
 # crontab -e

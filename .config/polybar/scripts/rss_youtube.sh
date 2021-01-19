@@ -23,7 +23,7 @@ URL_10="https://www.youtube.com/feeds/videos.xml?channel_id=UCtYg149E_wUGVmjGz-T
 URL_11="https://www.youtube.com/feeds/videos.xml?channel_id=UC8l4P6qZNLV0ApCExQrwhhA" # 72hrs
 URL_12="https://www.youtube.com/feeds/videos.xml?channel_id=UCzXR8qGGPRa32ZoMIzt5VSw" # ALIENANGE
 URL_13="https://www.youtube.com/feeds/videos.xml?channel_id=UCBw-Dz6wHRkxiXKCLoWqDzA" # BCC Gaming
-URL_14="https://www.youtube.com/feeds/videos.xml?channel_id=UC2NItvpCsmSkI8LdafCh97g" # el bemoldemarmol"
+URL_14="https://www.youtube.com/feeds/videos.xml?channel_id=UC2NItvpCsmSkI8LdafCh97g" # el bemoldemarmol
 URL_15="https://www.youtube.com/feeds/videos.xml?channel_id=UCXgeThZc7YiGnNkPjfaWdRQ" # GameProTV
 URL_16="https://www.youtube.com/feeds/videos.xml?channel_id=UCKy1dAqELo0zrOtPkf0eTMw" # IGN
 URL_17="https://www.youtube.com/feeds/videos.xml?channel_id=UCz9qw5nupdzCGwHwQiqs7qA" # ImKibitz
@@ -487,26 +487,26 @@ CHECK_ENTRIES(){
 }
 
 
-if [ -f "$LOGS/pass_check_entries_youtube" ]; then
-    rm -f "$LOGS/*check_entries_youtube"
-    CHECK_ENTRIES > "$LOGS/check_entries_youtube"
+if [ -f "$LOGS"/pass_check_entries_youtube ]; then
+    rm -f "$LOGS"/*check_entries_youtube
+    CHECK_ENTRIES > "$LOGS"/check_entries_youtube
     echo -e "\nENTRIES:============================================\n"
-    cat "$LOGS/check_entries_youtube"
-    rm -f "$LOGS/pass_check_entries_youtube"
+    cat "$LOGS"/check_entries_youtube
+    rm -f "$LOGS"/pass_check_entries_youtube
 fi
 
-if [ ! -f "$LOGS/pass_check_entries_youtube" ]; then
-    CHECK_ENTRIES > "$LOGS/recheck_entries_youtube"
+if [ ! -f "$LOGS"/pass_check_entries_youtube ]; then
+    CHECK_ENTRIES > "$LOGS"/recheck_entries_youtube
     echo -e "\nENTRIES:============================================\n"
-    cat "$LOGS/check_entries_youtube"
+    cat "$LOGS"/check_entries_youtube
     echo -e "\nRECHECK ENTRIES:====================================\n"
-    cat "$LOGS/recheck_entries_youtube"
-    DIFF=$(diff -s "$LOGS/check_entries_youtube" "$LOGS/recheck_entries_youtube")
+    cat "$LOGS"/recheck_entries_youtube
+    DIFF=$(diff -s "$LOGS"/check_entries_youtube "$LOGS"/recheck_entries_youtube)
 fi
 
 UPDATES="$(echo -e "\n$DIFF\n" | grep -c '^>')"
 
-echo "$UPDATES" > "$LOGS/rss_youtube"
+echo "$UPDATES" > "$LOGS"/rss_youtube
 echo -e "\n$UPDATES Updates\n"
 
 NOT=$(kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg")

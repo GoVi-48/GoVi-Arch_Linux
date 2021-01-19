@@ -141,19 +141,19 @@ interval = 300
 [module/rss_youtube]
 type = custom/script
 exec = ~/.config/polybar/scripts/rss_youtube_not.sh
-click-left = ~/.config/polybar/scripts/rss_youtube_Reset.sh
+click-left =  liferea & ~/.config/polybar/scripts/rss_youtube_Reset.sh
 interval = 1000
 
 [module/rss_games]
 type = custom/script
 exec = ~/.config/polybar/scripts/rss_games_not.sh
-click-left = ~/.config/polybar/scripts/rss_games_Reset.sh
+click-left = liferea & ~/.config/polybar/scripts/rss_games_Reset.sh
 interval = 300
 
 [module/rss_github]
 type = custom/script
 exec = ~/.config/polybar/scripts/rss_github_not.sh
-click-left = ~/.config/polybar/scripts/rss_github_Reset.sh
+click-left = liferea & ~/.config/polybar/scripts/rss_github_Reset.sh
 interval = 300
 
 [module/updates_pacman]

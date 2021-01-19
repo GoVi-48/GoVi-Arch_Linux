@@ -1421,13 +1421,13 @@ Version: 10.0.3
         <li>Compatible with Idea 13.1</li>
       </ul>
       
-  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="191.0"></idea-version><depends>(optional) com.intellij.modules.java</depends><depends>Subversion</depends><depends>com.intellij.modules.lang</depends><tags>VCS integration</tags></idea-plugin><idea-plugin downloads="1963528" size="7248759" date="1593119045000" updatedDate="1610634798000" url="https://github.com/zielu/GitToolBox"><name>GitToolBox</name><id>zielu.gittoolbox</id><description><![CDATA[<strong>Extends Git Integration with additional features</strong>
+  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="191.0"></idea-version><depends>(optional) com.intellij.modules.java</depends><depends>Subversion</depends><depends>com.intellij.modules.lang</depends><tags>VCS integration</tags></idea-plugin><idea-plugin downloads="1963528" size="7263076" date="1611058817000" updatedDate="1611058820000" url="https://github.com/zielu/GitToolBox"><name>GitToolBox</name><id>zielu.gittoolbox</id><description><![CDATA[<strong>Extends Git Integration with additional features</strong>
 <br>
 <p>Status display, auto fetch, inline blame annotation, commit dialog completion, behind notifications and more...</p>
 <p>For more see <a href="https://github.com/zielu/GitToolBox/wiki/Manual">Manual</a></p>
 <br>
 <br>
-<strong>Stable Release (20210114.143222)</strong>
+<strong>Stable Release (20210119.121940)</strong>
 <br>
 <br>
 <strong>Features</strong>
@@ -1474,7 +1474,11 @@ Version: 10.0.3
     <a href="https://github.com/zielu/GitToolBox">Home</a>
 </div>
 <br>
-]]></description><version>201.4.2</version><vendor email="" url="https://github.com/zielu">Lukasz Zielinski</vendor><rating>4.7</rating><change-notes><![CDATA[<h3>Changes in 201.4.2</h3>
+]]></description><version>201.4.3</version><vendor email="" url="https://github.com/zielu">Lukasz Zielinski</vendor><rating>4.7</rating><change-notes><![CDATA[<h3>Changes in 201.4.3</h3>
+<ul>
+    <li>Fix: Unable to load library 'CoreFoundation' on Big Sur (<a href="https://github.com/zielu/GitToolBox/issues/289">#289</a>)</li>
+</ul>
+<h3>Changes in 201.4.2</h3>
 <ul>
     <li>Fix: IDE freezes on Preparing workspace (<a href="https://github.com/zielu/GitToolBox/issues/250">#250</a>)</li>
     <li>Feature: ProjectView action to open issue tracker for branch (<a href="https://github.com/zielu/GitToolBox/issues/241">#241</a>)</li>
@@ -4131,7 +4135,7 @@ Usage: <b>Help | Print Keymap</b>
     ]]></description><version>1.1</version><vendor email="n.kirsanov@g.nsu.ru" url="">Nikita Kirsanov</vendor><rating>3.6</rating><change-notes><![CDATA[
     - Fixed IntelliJ compatibility issues
     - Scheme name after import now looks like 'ColorSchemeName+TerminalSchemeName'
-  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>User Interface</tags></idea-plugin><idea-plugin downloads="1513919" size="5054245" date="1590560210000" updatedDate="1610825994000" url=""><name>Atom Material Icons</name><id>com.mallowigi</id><description><![CDATA[
+  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>User Interface</tags></idea-plugin><idea-plugin downloads="1513919" size="5054245" date="1590560210000" updatedDate="1611045793000" url=""><name>Atom Material Icons</name><id>com.mallowigi</id><description><![CDATA[
         <h1>Atom Material File Icons</h1>
         <h2>Custom File and IDE Icons for improved visual grepping</h2>
         <div><a href="https://www.material-theme.com">
@@ -8859,7 +8863,7 @@ This plugin attempts to give you a cleaner view on what files you're editing.</p
         <p>Changes are documented in our [change log ](https://github.com/holgerbrandl/r4intellij/blob/master/Changes.md)
             on the project page.</p>
         
-  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.258"></idea-version><depends>com.intellij.modules.lang</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="7122" size="17913763" date="1609861176000" updatedDate="1609861176000" url=""><name>Teamscale Integration</name><id>com.teamscale.ide.intellij</id><description><![CDATA[
+  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.258"></idea-version><depends>com.intellij.modules.lang</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="7122" size="17913757" date="1611060691000" updatedDate="1611060691000" url=""><name>Teamscale Integration</name><id>com.teamscale.ide.intellij</id><description><![CDATA[
         
         <p>Allows for seamless browsing of quality defects found by the <a href="https://www.teamscale.com/">Teamscale software-quality analysis server</a>.
             Teamscale analyzes source code incrementally with every commit, which means, it can provide feedback to your IDE in a matter of seconds. (<strong>Note: A running Teamscale server is necessary to use this plugin.</strong>)</p>
@@ -8872,7 +8876,7 @@ This plugin attempts to give you a cleaner view on what files you're editing.</p
         </ul>
         <p>To get started, just follow the <a href="https://cqse.eu/get-intellij">installation guide</a> and use Teamscale in your IntelliJ IDE.</p>
         
-    ]]></description><version>6.5.0</version><vendor email="" url="https://www.cqse.eu/">CQSE GmbH</vendor><rating>00</rating><change-notes><![CDATA[See the <a href="https://www.cqse.eu/en/products/teamscale/support/#changelog">changelog</a> to find out what’s new.]]></change-notes><idea-version min="n/a" max="n/a" since-build="172.0"></idea-version><depends>(optional) Subversion</depends><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><depends>com.intellij.modules.vcs</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="11665" size="12763" date="1528094848000" updatedDate="1528094848000" url=""><name>Code blocks sorter</name><id>eu.osimowicz.plugins.intellij.CodeBlocksSorter</id><description><![CDATA[This plugin allows you to sort your code depending on indentation, comments, brackets etc. eg. You may select whole class and sort all your method alphabetically. Pleas notice that eg. private keyword is also a part of line with your method name so it will sort your methods by accessibility.]]></description><version>0.1.2</version><vendor email="grzegorz@osimowicz.eu" url="http://www.osimowicz.eu">Grzegorz Osimowicz</vendor><rating>4.5</rating><change-notes><![CDATA[<ul> 
+    ]]></description><version>6.5.2</version><vendor email="" url="https://www.cqse.eu/">CQSE GmbH</vendor><rating>00</rating><change-notes><![CDATA[See the <a href="https://www.cqse.eu/en/products/teamscale/support/#changelog">changelog</a> to find out what’s new.]]></change-notes><idea-version min="n/a" max="n/a" since-build="172.0"></idea-version><depends>(optional) Subversion</depends><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><depends>com.intellij.modules.vcs</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="11665" size="12763" date="1528094848000" updatedDate="1528094848000" url=""><name>Code blocks sorter</name><id>eu.osimowicz.plugins.intellij.CodeBlocksSorter</id><description><![CDATA[This plugin allows you to sort your code depending on indentation, comments, brackets etc. eg. You may select whole class and sort all your method alphabetically. Pleas notice that eg. private keyword is also a part of line with your method name so it will sort your methods by accessibility.]]></description><version>0.1.2</version><vendor email="grzegorz@osimowicz.eu" url="http://www.osimowicz.eu">Grzegorz Osimowicz</vendor><rating>4.5</rating><change-notes><![CDATA[<ul> 
  <li> <strong>0.1.1</strong> 
   <ul> 
    <li>Fixed sorting json properties</li> 
@@ -9697,15 +9701,16 @@ This plugin extends pycharm dict keys completion and typing to something usable.
     </ul>
     
     ]]></change-notes><idea-version min="n/a" max="n/a" since-build="162.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="13728" size="5758" date="1515682560000" updatedDate="1515682560000" url=""><name>Iterm Plugin</name><id>com.sonnk.iterm</id><description><![CDATA[ITerm Plugin.
-<br> Tweaked from https://github.com/sburlyaev89/IDEA-Native-Terminal-Plugin to launch Iterm instead of Terminal on Mac]]></description><version>0.0.8</version><vendor email="nguyenkims@hotmail.com" url="https://github.com/nguyenkims/IDEA-Native-Terminal-Plugin">Son NK</vendor><rating>4.6</rating><change-notes><![CDATA[Inspired from https://plugins.jetbrains.com/plugin/9966-native-terminal-plugin but open Iterm on Mac instead of Terminal.]]></change-notes><idea-version min="n/a" max="n/a" since-build="162.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="1484" size="55389" date="1520083070000" updatedDate="1520083070000" url=""><name>Groupper</name><id>ua.in.dej.groupper</id><description><![CDATA[This plugin doesn't move/rename files or folders! 
-<br> This plugin allow you to group files by name. 
-<br> You can group/ungroup files in folder by context menu or group/ungroup all files in project (File -&gt; Settings -&gt; Groupper -&gt; Groping always) 
-<br> You can change pattern to any other value (default value: [^\.]{1,}(?=\.) ) 
-<br> 'Hide Folding Prefix' take potability hide part of filename with complete with pattern. 
-<br> You can navigate between files in group by popup ( Ctrl + Alt + \ ) 
-<br> Ctrl + Alt + ' - switch to next file 
-<br> Ctrl + Alt + ; - switch to prev file 
-<br>]]></description><version>1.5</version><vendor email="efim@dej.in.ua" url="https://dej.in.ua">Dej Inc.</vendor><rating>4.5</rating><change-notes><![CDATA[fixes]]></change-notes><idea-version min="n/a" max="n/a" since-build="107.105"></idea-version><depends>com.intellij.modules.platform</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="801" size="11132" date="1516728449000" updatedDate="1516728449000" url=""><name>IntelliTidy</name><id>tv.twelvetone.intellij.plugins.intellitidy</id><description><![CDATA[The IntelliTidy plugin for IntelliJ provides a single action for closing all documents and collapsing all trees. See 
+<br> Tweaked from https://github.com/sburlyaev89/IDEA-Native-Terminal-Plugin to launch Iterm instead of Terminal on Mac]]></description><version>0.0.8</version><vendor email="nguyenkims@hotmail.com" url="https://github.com/nguyenkims/IDEA-Native-Terminal-Plugin">Son NK</vendor><rating>4.6</rating><change-notes><![CDATA[Inspired from https://plugins.jetbrains.com/plugin/9966-native-terminal-plugin but open Iterm on Mac instead of Terminal.]]></change-notes><idea-version min="n/a" max="n/a" since-build="162.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="1484" size="55389" date="1520083070000" updatedDate="1520083070000" url=""><name>Groupper</name><id>ua.in.dej.groupper</id><description><![CDATA[
+      This plugin doesn't move/rename files or folders!<br>
+      This plugin allow you to group files by name.<br>
+      You can group/ungroup files in folder by context menu or group/ungroup all files in project (File -&gt; Settings -&gt; Groupper -&gt; Groping always)<br>
+      You can change pattern to any other value (default value: [^\.]{1,}(?=\.) )<br>
+      'Hide Folding Prefix' take potability hide part of filename with complete with pattern.<br>
+      You can navigate between files in group by popup ( Ctrl + Alt + \ )<br>
+      Ctrl + Alt + ' - switch to next file<br>
+      Ctrl + Alt + ; - switch to prev file<br>
+    ]]></description><version>1.5</version><vendor email="efim@dej.in.ua" url="https://dej.in.ua">Dej Inc.</vendor><rating>4.5</rating><change-notes><![CDATA[fixes]]></change-notes><idea-version min="n/a" max="n/a" since-build="107.105"></idea-version><depends>com.intellij.modules.platform</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="801" size="11132" date="1516728449000" updatedDate="1516728449000" url=""><name>IntelliTidy</name><id>tv.twelvetone.intellij.plugins.intellitidy</id><description><![CDATA[The IntelliTidy plugin for IntelliJ provides a single action for closing all documents and collapsing all trees. See 
 <a href="http://www.twelvetone.tv/docs/developer-tools/intellij-plugins/intellitidy" rel="nofollow">IntelliTidy</a> for more information.]]></description><version>1.0.1</version><vendor email="support@twelvetone.tv" url="http://www.twelvetone.tv">TwelveTone LLC</vendor><rating>00</rating><change-notes><![CDATA[<li>feature: Move actions to Window menu</li>]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"></idea-version><tags>Code tools</tags></idea-plugin><idea-plugin downloads="14834" size="4151" date="1520629672000" updatedDate="1520629672000" url=""><name>Go method generator</name><id>com.kondratevpavel.plugins.goland.gomethodgenerator</id><description><![CDATA[You can use this plugin to simplify creating methods for structs in GoLang. 
 <br> Type (StructName).(MethodName with signature) and press CTRL + ALT + SHIFT + G (may be changed in settings). 
 <br> 
@@ -11635,7 +11640,7 @@ With Nara Studio you can:<br>
     - Support variants: hover, focus, active, disabled, visited, first, last, odd, even, group-hover, focus-within<br>
     - Reduce build size<br>
     - Support CSS file, and update to TailwindCSS 1.1.3
-    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="183.0"></idea-version><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="9498" size="18240329" date="1604344213000" updatedDate="1604344213000" url=""><name>Github Tools</name><id>com.nerdscorner.android.plugin.github</id><description><![CDATA[
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="183.0"></idea-version><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="9498" size="9689373" date="1611010511000" updatedDate="1611010511000" url=""><name>Github Tools</name><id>com.nerdscorner.android.plugin.github</id><description><![CDATA[
         A small tool to keep track of the Github repositories you have in your organizations along with their pull requests, releases and more!<br><br>
         Release candidates features
         <ul>
@@ -11653,7 +11658,7 @@ With Nara Studio you can:<br>
         <ul>
             <li>Included dependencies comparator to make a comparison of the Android dependencies changes between two branches</li>
         </ul>
-    ]]></description><version>1.11.1</version><vendor email="diego@marcher.com.uy" url="http://diego.marcher.com.uy">Nerd's Corner</vendor><rating>3.9</rating><change-notes><![CDATA[
+    ]]></description><version>2.0.0</version><vendor email="diego@marcher.com.uy" url="http://diego.marcher.com.uy">Nerd's Corner</vendor><rating>3.9</rating><change-notes><![CDATA[
         <ul>
             <li>Added Parameters panel to handle tokens</li>
             <li>Added Apps changelog creation!</li>
@@ -12616,16 +12621,17 @@ Full docs in the repo at https://github.com/dbulla/align-environment-properties-
     Transform Json strings into a human readable format
     ]]></description><version>1.0.5</version><vendor email="jsonviewer@maax.gr" url="https://github.com/MaaxGr/">MaaxGr</vendor><rating>4.5</rating><change-notes><![CDATA[
         Intellij plugin to format json to a human readable way.
-    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.6668" until-build="201.*"></idea-version><depends>com.intellij.modules.platform</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="381" size="1585308" date="1610807074000" updatedDate="1610807074000" url=""><name>MarkBook</name><id>icu.jogeen.markbook.id</id><description><![CDATA[
-  <p>An idea plug-in that helps us take notes when reading the source code</p>
-     <ol>
-       <li>1. Read the source code and take notes</li>
-       <li> 2. Make a simple code tutorial</li>
-       <li> 3. Generate markdown notes with one click</li>
-     </ol>
-    ]]></description><version>1.1</version><vendor email="jogeen@qq.com" url="https://github.com/jogeen/MarkBook">jogeen</vendor><rating>00</rating><change-notes><![CDATA[
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.6668" until-build="201.*"></idea-version><depends>com.intellij.modules.platform</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="381" size="1589498" date="1611065434000" updatedDate="1611065434000" url=""><name>MarkBook</name><id>icu.jogeen.markbook.id</id><description><![CDATA[
+      <p>An idea plug-in that helps us take notes when reading the source code</p>
+         <ol>
+           <li>1. Read the source code and take notes</li>
+           <li> 2. Make a simple code tutorial</li>
+           <li> 3. Generate markdown notes with one click</li>
+         </ol>
+    ]]></description><version>1.2</version><vendor email="jogeen@qq.com" url="https://github.com/jogeen/MarkBook">jogeen</vendor><rating>00</rating><change-notes><![CDATA[
         
       <ol>
+       <li> V1.2 edit notes</li>
        <li> V1.1 update Guide to user</li>
        <li> V1.0 release.</li>
      </ol>
@@ -13534,7 +13540,7 @@ Screenshots:<br>
       <ul><li>Recognize as a ligature four or more dashes, by themselves, without a leading <b>&lt;</b> or trailing <b>&gt;</b>.</li></ul>
       <h2>1.0.0</h2>
       <ul><li>First stable release</li></ul>
-]]></change-notes><idea-version min="n/a" max="n/a" since-build="193.5233.102"></idea-version><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="403" size="5625679" date="1597607492000" updatedDate="1609077905000" url=""><name>Algo</name><id>com.algo</id><description><![CDATA[
+]]></change-notes><idea-version min="n/a" max="n/a" since-build="193.5233.102"></idea-version><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Code tools</tags></idea-plugin><idea-plugin downloads="403" size="5625679" date="1597607492000" updatedDate="1611008400000" url=""><name>Algo</name><id>com.algo</id><description><![CDATA[
       A one-click solution to secure code authorship via blockchain technologies:<br>
 • Monetization if other developers use your code.<br>
 • Establishes code provenance/authorship for potential future copyright disputes.<br>
@@ -16336,7 +16342,7 @@ settings. Supports most keyboards.</p>
     After installation seek light in Tools menu! <br> <br>
     <i> P.S. Awesome <a href="https://flaticon.com/free-icon/flashlight_1471561" title="icon">icon</a> was made by
     <a href="https://www.flaticon.com/authors/photo3idea-studio" title="photo3idea_studio">photo3idea_studio</a> </i>
-    ]]></description><version>1.0</version><vendor email="" url="https://github.com/arsok">arsok</vendor><rating>4.5</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="191.6183"></idea-version><depends>com.intellij.modules.platform</depends><tags>Fun stuff</tags></idea-plugin><idea-plugin downloads="1806" size="53059" date="1610874701000" updatedDate="1610874701000" url=""><name>StopCoding</name><id>icu.jogeen.StopCoding.id</id><description><![CDATA[
+    ]]></description><version>1.0</version><vendor email="" url="https://github.com/arsok">arsok</vendor><rating>4.5</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="191.6183"></idea-version><depends>com.intellij.modules.platform</depends><tags>Fun stuff</tags></idea-plugin><idea-plugin downloads="1806" size="52789" date="1611065200000" updatedDate="1611065200000" url=""><name>StopCoding</name><id>icu.jogeen.StopCoding.id</id><description><![CDATA[
      <p>This is a work timer.It can set every working period to remind you that it's time to have a rest, drink some water and exercise your body.
       Only in this way can you really work healthily</p>
      <ol>
@@ -16352,8 +16358,9 @@ settings. Supports most keyboards.</p>
         <li>当设置的时间一到,就会有弹框提醒你休息,让你暂时不能操作idea</li>
     </ol>
     <p>项目地址:<a href="https://github.com/jogeen/StopCoding">https://github.com/jogeen/StopCoding</a></p><a href="https://github.com/jogeen/StopCoding">
-    </a>]]></description><version>1.2.1</version><vendor email="jogeen@qq.com" url="https://github.com/jogeen/StopCoding">jogeen</vendor><rating>00</rating><change-notes><![CDATA[
+    </a>]]></description><version>1.2.2</version><vendor email="jogeen@qq.com" url="https://github.com/jogeen/StopCoding">jogeen</vendor><rating>00</rating><change-notes><![CDATA[
       <ul>
+            <li>V1.2.2 add icon to main menu bar,Adjustment UI</li>
             <li>V1.2 add icon(Thanks for the icon provided by my good friend Hu Wei).</li>
             <li>V1.1 update Guide to use.</li>
             <li>V1.0 release.</li>
@@ -20359,7 +20366,7 @@ WebStorm and others support.]]></change-notes><idea-version min="n/a" max="n/a" 
         <p></p><h3>json format</h3><br><img src="https://note.youdao.com/yws/api/personal/file/FBF0B062FD244361B2A464793C9E3F62?method=download&amp;shareKey=b6d39a6bedbdf5c15a623a4b1990395e" width="1100" height="400" alt="json.gif"><p></p>
         <p></p><h3>Create constant</h3><br><img src="https://note.youdao.com/yws/api/personal/file/04C0485FDF2142A4AA6DC43F866122AF?method=download&amp;shareKey=9d7f7b7bb645b223b5ce511b12467dc2" width="1100" height="443" alt="createConstant.gif"><p></p>
         <p></p><h3>Switch case</h3><br><img src="https://note.youdao.com/yws/api/personal/file/58FF462FB4164134926588A717910499?method=download&amp;shareKey=32e388d244aa7895bba5951a856ffd0c" width="1100" height="443" alt="switchCase.gif"><p></p>
-        ]]></description><version>1.2</version><vendor email="chave_z@163.com" url="https://github.com/Chave-Z">Cheng</vendor><rating>4.1</rating><change-notes><![CDATA[<ul><li>优化json格式化工具</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="162.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Tools integration</tags></idea-plugin><idea-plugin downloads="1262" size="5020611" date="1603695335000" updatedDate="1610931569000" url=""><name>UFT Mobile</name><id>com.microfocus.mobilecenter.intellj-plugin</id><description><![CDATA[This plugin allows you to easily connect UFT Mobile lab devices to your IDE, and to view and control them remotely.<br>
+        ]]></description><version>1.2</version><vendor email="chave_z@163.com" url="https://github.com/Chave-Z">Cheng</vendor><rating>4.1</rating><change-notes><![CDATA[<ul><li>优化json格式化工具</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="162.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Tools integration</tags></idea-plugin><idea-plugin downloads="1262" size="5020611" date="1603695335000" updatedDate="1611017991000" url=""><name>UFT Mobile</name><id>com.microfocus.mobilecenter.intellj-plugin</id><description><![CDATA[This plugin allows you to easily connect UFT Mobile lab devices to your IDE, and to view and control them remotely.<br>
 For details about UFT Mobile: <a href="https://www.microfocus.com/en-us/products/mobile-testing/overview">https://www.microfocus.com/en-us/products/mobile-testing/overview</a><br>
 For details about using the plugin: <a href="https://admhelp.microfocus.com/mobilecenter/en/latest/Content/Dev-access.htm">https://admhelp.microfocus.com/mobilecenter/en/latest/Content/Dev-access.htm</a>
     ]]></description><version>1.303000.255</version><vendor email="mcfrd@microfocus.com" url="https://admhelp.microfocus.com/mobilecenter/en/latest/Content/Dev-access.htm">Micro Focus</vendor><rating>00</rating><change-notes><![CDATA[
@@ -20418,7 +20425,7 @@ GitHub handy links: <a href="https://github.com/d-wojciechowski/plm-companion">P
         </li><li>Version 0.1.0 (April 2018) — Initial prototype. Show errors and navigate between them.
       </li></ul>
     
-  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"></idea-version><depends>com.intellij.modules.python</depends><depends>PythonCore</depends><depends>com.intellij.modules.lang</depends><tags>Tools integration</tags></idea-plugin><idea-plugin downloads="25590" size="137864502" date="1588170403000" updatedDate="1610715545000" url=""><name>Space</name><id>com.jetbrains.space</id><description><![CDATA[
+  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"></idea-version><depends>com.intellij.modules.python</depends><depends>PythonCore</depends><depends>com.intellij.modules.lang</depends><tags>Tools integration</tags></idea-plugin><idea-plugin downloads="25590" size="137864502" date="1588170403000" updatedDate="1611059766000" url=""><name>Space</name><id>com.jetbrains.space</id><description><![CDATA[
     
             Lets you connect your IDE to your organization in <a href="https://jetbrains.com/space/">JetBrains Space</a> so you can view and clone project repositories.
         
@@ -21589,7 +21596,7 @@ Helps you create and edit Ansible Vaults
             <ul>
                 <li>Allow reports to be submitted without a group selected</li>
             </ul>
-]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.7223"></idea-version><depends>Git4Idea</depends><depends>com.intellij.modules.externalSystem</depends><depends>com.intellij.modules.platform</depends><tags>Tools integration</tags></idea-plugin><idea-plugin downloads="763" size="30650882" date="1605541433000" updatedDate="1606686475000" url=""><name>Spellbook Notes</name><id>io.notestash.notestash</id><description><![CDATA[
+]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.7223"></idea-version><depends>Git4Idea</depends><depends>com.intellij.modules.externalSystem</depends><depends>com.intellij.modules.platform</depends><tags>Tools integration</tags></idea-plugin><idea-plugin downloads="763" size="30650882" date="1605541433000" updatedDate="1611027069000" url=""><name>Spellbook Notes</name><id>io.notestash.notestash</id><description><![CDATA[
         <p>
         Spellbook is a note taking tool that integrates with the Evernote note taking service, allowing you
         to take down notes and access your own personal knowledge repository from your developement environment, using
@@ -21707,7 +21714,12 @@ Helps you create and edit Ansible Vaults
       Fixes:<br>
       <ul>
       <li>Fixed weird class casting exceptions</li>
-      </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="193.0" until-build="203.*"></idea-version><depends>(optional) org.intellij.plugins.markdown</depends><depends>com.intellij.modules.platform</depends><tags>Tools integration</tags></idea-plugin><idea-plugin downloads="906" size="4727145" date="1610373595000" updatedDate="1610373595000" url=""><name>mybatis-log</name><id>com.thtfpc.mybatis-log</id><description><![CDATA[mybatis-log is a very simple toy for spring boot project which print sql in console.]]></description><version>1.3.0</version><vendor email="wangfengqi2010@163.com" url=""></vendor><rating>00</rating><change-notes><![CDATA[
+      </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="193.0" until-build="203.*"></idea-version><depends>(optional) org.intellij.plugins.markdown</depends><depends>com.intellij.modules.platform</depends><tags>Tools integration</tags></idea-plugin><idea-plugin downloads="906" size="5567410" date="1611069785000" updatedDate="1611069785000" url=""><name>mybatis-log</name><id>com.thtfpc.mybatis-log</id><description><![CDATA[mybatis-log is a very simple toy for spring boot project which print sql in console.]]></description><version>1.3.1</version><vendor email="wangfengqi2010@163.com" url=""></vendor><rating>00</rating><change-notes><![CDATA[
+    <p>1.3.1</p>
+    <ul>
+        <li>refactor code</li>
+    </ul>
+    <br>
     <p>1.3.0</p>
     <ul>
         <li>add Hibernate support</li>
@@ -21823,7 +21835,7 @@ Helps you create and edit Ansible Vaults
     
     ]]></change-notes><idea-version min="n/a" max="n/a" since-build="173.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>Tools integration</tags></idea-plugin><idea-plugin downloads="612" size="8326212" date="1610883237000" updatedDate="1610883237000" url=""><name>scrcpy</name><id>com.codertainment.scrcpy</id><description><![CDATA[
     Provides options for running scrcpy directly from IntelliJ IDEA/Android Studio
-    ]]></description><version>0.1.4</version><vendor email="shripal17@gmail.com" url="https://github.com/shripal17">Codertainment</vendor><rating>00</rating><change-notes><![CDATA[
+    ]]></description><version>0.1.4</version><vendor email="shripal17@gmail.com" url="https://github.com/shripal17">Codertainment</vendor><rating>4.5</rating><change-notes><![CDATA[
         <b>v0.1.4</b>: <br>
         <ul>
             <li>Auto-select first device from the list (thanks to @rvp-diconium for the suggestion)</li>
@@ -26579,7 +26591,7 @@ Version 0.1.6 changes:
 <ul> 
  <li>Add notify when resive a MSG.</li> 
 </ul> 
-<a href="https://github.com/buyaoshushu/IntellijIRC" rel="nofollow">source</a>]]></description><version>1.1.3</version><vendor email="buyao@buyaoshushu.com" url="https://github.com/buyaoshushu/IntellijIRC">Bu Yao Shu Shu</vendor><rating>00</rating><change-notes><![CDATA[change build since]]></change-notes><idea-version min="n/a" max="n/a" since-build="40.1"></idea-version><depends>com.intellij.modules.lang</depends><tags>TeamWork</tags></idea-plugin><idea-plugin downloads="1574" size="4544" date="1543084646000" updatedDate="1543084646000" url=""><name>JLink</name><id>org.jfrog</id><description><![CDATA[Right-click anywhere in the editor and click 'JLink' to create (and copy to clipboard) a sharable link directly to the desired location in the code.]]></description><version>1.1.5</version><vendor email="yoazmenda@gmail.com" url="https://github.com/yoazmenda/JLink">JLink</vendor><rating>4.8</rating><change-notes><![CDATA[Fixed PyCharm compatibility]]></change-notes><idea-version min="n/a" max="n/a" since-build="173.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>TeamWork</tags></idea-plugin><idea-plugin downloads="40192" size="21228860" date="1610730529000" updatedDate="1610730529000" url=""><name>GitLive</name><id>app.teamhub</id><description><![CDATA[
+<a href="https://github.com/buyaoshushu/IntellijIRC" rel="nofollow">source</a>]]></description><version>1.1.3</version><vendor email="buyao@buyaoshushu.com" url="https://github.com/buyaoshushu/IntellijIRC">Bu Yao Shu Shu</vendor><rating>00</rating><change-notes><![CDATA[change build since]]></change-notes><idea-version min="n/a" max="n/a" since-build="40.1"></idea-version><depends>com.intellij.modules.lang</depends><tags>TeamWork</tags></idea-plugin><idea-plugin downloads="1574" size="4544" date="1543084646000" updatedDate="1543084646000" url=""><name>JLink</name><id>org.jfrog</id><description><![CDATA[Right-click anywhere in the editor and click 'JLink' to create (and copy to clipboard) a sharable link directly to the desired location in the code.]]></description><version>1.1.5</version><vendor email="yoazmenda@gmail.com" url="https://github.com/yoazmenda/JLink">JLink</vendor><rating>4.8</rating><change-notes><![CDATA[Fixed PyCharm compatibility]]></change-notes><idea-version min="n/a" max="n/a" since-build="173.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>TeamWork</tags></idea-plugin><idea-plugin downloads="40192" size="21229298" date="1611071274000" updatedDate="1611071274000" url=""><name>GitLive</name><id>app.teamhub</id><description><![CDATA[
 <h1>Real-time collaboration and communication for dev teams</h1>
 <h2>Turn your IDE into a collaborative space where you can work together in real-time</h2>
 <br>
@@ -26624,7 +26636,11 @@ Version 0.1.6 changes:
 <h2>Want to learn more?</h2>
 <p>Check out <a href="https://blog.git.live">blog.git.live</a> for the latest updates</p>
 
-]]></description><version>10.0.3</version><vendor email="support@git.live" url="https://www.git.live?ref=ide.jetbrains.com">GitLive</vendor><rating>3.8</rating><change-notes><![CDATA[
+]]></description><version>10.0.4</version><vendor email="support@git.live" url="https://www.git.live?ref=ide.jetbrains.com">GitLive</vendor><rating>3.8</rating><change-notes><![CDATA[
+<strong>10.0.4</strong>
+<br>
+<p>Fixed an issue causing an uncaught exception</p>
+<br>
 <strong>10.0.3</strong>
 <br>
 <p>Fixed issues with remote url containing www</p>
@@ -27270,8 +27286,13 @@ If you have any questions, don't hesitate to write to <strong>help at gitduck.co
           This is version 1.1: add the ability to specify translation to the appropriate language<br><br>
       这是1.1版本：新增可以指定翻译成对应语言的功能<br>
     
-    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="173.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>XML</tags></idea-plugin></category><ff>"Modeling and CASE tools"</ff><category name="Modeling and CASE tools"><idea-plugin downloads="1519716" size="8164273" date="1610901122000" updatedDate="1610901122000" url=""><name>PlantUML integration</name><id>PlantUML integration</id><description><![CDATA[PlantUML diagramming tool integration]]></description><version>3.3.0</version><vendor email="" url="https://github.com/esteinberg/plantuml4idea/">Eugene Steinberg</vendor><rating>4.6</rating><change-notes><![CDATA[
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="173.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>XML</tags></idea-plugin></category><ff>"Modeling and CASE tools"</ff><category name="Modeling and CASE tools"><idea-plugin downloads="1519716" size="8180556" date="1611055487000" updatedDate="1611055487000" url=""><name>PlantUML integration</name><id>PlantUML integration</id><description><![CDATA[PlantUML diagramming tool integration]]></description><version>3.4.0</version><vendor email="" url="https://github.com/esteinberg/plantuml4idea/">Eugene Steinberg</vendor><rating>4.6</rating><change-notes><![CDATA[
                 
+            <p>3.4</p>
+            <ul>
+              <li>Fixed Spellchecking inspection</li>
+              <li>Added: Insert paired (), [] , {}, "" - can be disabled in settings</li>
+            </ul>   
             <p>3.3</p>
             <ul>
               <li>Find Usages performance optimization</li>
@@ -28810,7 +28831,7 @@ Windows 10 10.0</code></pre>
       <li>Fix settings bug.</li>
     </ul>
     
-    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="171.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>Web</tags></idea-plugin><idea-plugin downloads="38" size="41547" date="1609959452000" updatedDate="1609959452000" url=""><name>stenciljs-web-components</name><id>com.github.glennlefevere.stenciljswebcomponents</id><description><![CDATA[<p>Provides code completion and validation for NodeJS applications using a StencilJs component library.</p>]]></description><version>1.0.0</version><vendor email="glenn.lefevere@liantis.be" url="">Glenn Lefevere</vendor><rating>00</rating><change-notes><![CDATA[<h3>Added</h3>
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="171.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>Web</tags></idea-plugin><idea-plugin downloads="38" size="41547" date="1609959452000" updatedDate="1609959452000" url=""><name>stenciljs-web-components</name><id>com.github.glennlefevere.stenciljswebcomponents</id><description><![CDATA[<p>Provides code completion and validation for NodeJS applications using a StencilJs component library.</p>]]></description><version>1.0.0</version><vendor email="glenn.lefevere@liantis.be" url="">Glenn Lefevere</vendor><rating>4.5</rating><change-notes><![CDATA[<h3>Added</h3>
 <ul><li>Code completion functionality for StencilJS component tags</li><li>Code completion functionality for StencilJS component attributes</li><li>Angular detection and code completion for the component attributes in angular style</li><li>Detection of file changes in the NodeJS module</li></ul>
 
 <h3>Changed</h3>
@@ -31415,7 +31436,7 @@ It allows developers to create, modify and test UDFs without leaving their IDE e
                 <li>fix bug</li> 
             </ul>   
       </div>
-      ]]></change-notes><idea-version min="n/a" max="n/a" since-build="181.0" until-build="201.*"></idea-version><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Database</tags></idea-plugin><idea-plugin downloads="27709" size="7157767" date="1610947778000" updatedDate="1610947778000" url=""><name>Elasticsearch</name><id>org.elasticsearch4idea</id><description><![CDATA[
+      ]]></change-notes><idea-version min="n/a" max="n/a" since-build="181.0" until-build="201.*"></idea-version><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Database</tags></idea-plugin><idea-plugin downloads="27709" size="7157826" date="1611058435000" updatedDate="1611058435000" url=""><name>Elasticsearch</name><id>org.elasticsearch4idea</id><description><![CDATA[
 <div>
     <p>
         Elasticsearch plugin allows you to access your Elasticsearch cluster and perform some basic operations by REST
@@ -31431,9 +31452,9 @@ It allows developers to create, modify and test UDFs without leaving their IDE e
     </ul>
     <p></p>
 </div>
- ]]></description><version>0.7.0</version><vendor email="anton.shuvaev91@gmail.com" url="">Anton Shuvaev</vendor><rating>4.8</rating><change-notes><![CDATA[<h4>Note to all users:</h4>
+ ]]></description><version>0.7.1</version><vendor email="anton.shuvaev91@gmail.com" url="">Anton Shuvaev</vendor><rating>4.8</rating><change-notes><![CDATA[<h4>Note to all users:</h4>
         <p>I'm planning to make Elasticsearch plugin paid from the next major release. This will allow me to spend more time adding new features and making this plugin better. The current version will continue to be free and available for download by direct link.</p>
-        <ul><li>Ability to Create, Update, Delete documents</li><li>Ability to hide fields</li><li>Index mapping in structure view with ability to sort and hide fields.</li><li>UI enhancements</li><li>Ability to specify mapping in create index dialog</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.0" until-build="203.*"></idea-version><depends>com.intellij.modules.platform</depends><tags>Database</tags></idea-plugin><idea-plugin downloads="971" size="1063039" date="1596110485000" updatedDate="1596110485000" url=""><name>mysql-to-h2</name><id>org.exam.mysql-to-h2</id><description><![CDATA[
+        <ul><li>#24 Fix: fields are not visible for explicit _doc type</li><li>Ability to Create, Update, Delete documents</li><li>Ability to hide fields</li><li>Index mapping in structure view with ability to sort and hide fields.</li><li>UI enhancements</li><li>Ability to specify mapping in create index dialog</li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.0" until-build="203.*"></idea-version><depends>com.intellij.modules.platform</depends><tags>Database</tags></idea-plugin><idea-plugin downloads="971" size="1063039" date="1596110485000" updatedDate="1596110485000" url=""><name>mysql-to-h2</name><id>org.exam.mysql-to-h2</id><description><![CDATA[
 <em>Description</em>: A tool for converting mysql script to h2 script.<br>
 <em>Instructions</em>: Tools--&gt;MysqlToH2<br>
 1. Open the file for conversion. File larger than 1M can be converted and saved directly (no preview)<br>
@@ -32497,7 +32518,7 @@ and much more for Wolfram Language package, paclet, and script development.</p>
  <li>corrected RobotFramework 3.x built in variables</li> 
  <li>improved some python library imports (thanks to Tillaert)</li> 
  <li>added 'keyword' decorator for python keywords (thanks to Tillaert)</li> 
-</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="143.381"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="1513448" size="51958557" date="1599899903000" updatedDate="1609586955000" url="https://intellij-asciidoc-plugin.ahus1.de/"><name>AsciiDoc</name><id>org.asciidoctor.intellij.asciidoc</id><description><![CDATA[<p>
+</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="143.381"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="1513448" size="51958557" date="1599899903000" updatedDate="1611091703000" url="https://intellij-asciidoc-plugin.ahus1.de/"><name>AsciiDoc</name><id>org.asciidoctor.intellij.asciidoc</id><description><![CDATA[<p>
     <a href="https://intellij-asciidoc-plugin.ahus1.de/">Homepage</a> |
     <a href="https://intellij-asciidoc-plugin.ahus1.de/docs/users-guide/quick-start.html">Quick start</a> |
     <a href="https://intellij-asciidoc-plugin.ahus1.de/docs/users-guide/index.html">User Guide</a> |
@@ -35822,7 +35843,7 @@ More information may be found in our <a href="https://github.com/hurricup/Perl5-
     
     </a>]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.6487" until-build="201.*"></idea-version><depends>(optional) com.intellij.copyright</depends><depends>(optional) com.intellij.modules.appcode</depends><depends>(optional) com.intellij.modules.clion</depends><depends>(optional) com.intellij.modules.coverage</depends><depends>(optional) com.intellij.modules.duplicatesDetector</depends><depends>(optional) com.intellij.modules.java</depends><depends>(optional) com.intellij.nativeDebug</depends><depends>(optional) org.toml.lang</depends><depends>(optional) tanvd.grazi</depends><depends>com.intellij.modules.lang</depends><depends>org.toml.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="2660104" size="134648" date="1600693116000" updatedDate="1610985547000" url=""><name>Toml</name><id>org.toml.lang</id><description><![CDATA[
       TOML language support
-    ]]></description><version>0.2.131.3366-201</version><vendor email="" url="">JetBrains</vendor><rating>3.8</rating><change-notes><![CDATA[
+    ]]></description><version>0.2.131.3366-201</version><vendor email="" url="">JetBrains</vendor><rating>4.1</rating><change-notes><![CDATA[
         <ul>
             <li>Initial formatting support.</li>
         </ul>
@@ -36794,7 +36815,7 @@ FIX: "Value coloring" change not applied to open files
         </dl>
   
     
-  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="200.0"></idea-version><depends>(optional) org.intellij.intelliLang</depends><depends>(optional) org.jetbrains.plugins.terminal</depends><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="1029" size="68863" date="1512818411000" updatedDate="1512818411000" url=""><name>TSS editor</name><id>be.programaths.idea.plugins.editors.tss</id><description><![CDATA[A simple TSS editor]]></description><version>1.0</version><vendor email="christian.baune@programaths.be" url="https://www.programaths.be">Programaths</vendor><rating>00</rating><change-notes><![CDATA[Initial release]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="372544" size="20161620" date="1610038108000" updatedDate="1610038108000" url=""><name>Illuminated Cloud 2</name><id>com.illuminatedcloud2.intellij</id><description><![CDATA[
+  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="200.0"></idea-version><depends>(optional) org.intellij.intelliLang</depends><depends>(optional) org.jetbrains.plugins.terminal</depends><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="1029" size="68863" date="1512818411000" updatedDate="1512818411000" url=""><name>TSS editor</name><id>be.programaths.idea.plugins.editors.tss</id><description><![CDATA[A simple TSS editor]]></description><version>1.0</version><vendor email="christian.baune@programaths.be" url="https://www.programaths.be">Programaths</vendor><rating>00</rating><change-notes><![CDATA[Initial release]]></change-notes><idea-version min="n/a" max="n/a" since-build="145.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="372544" size="20231471" date="1611078438000" updatedDate="1611078438000" url=""><name>Illuminated Cloud 2</name><id>com.illuminatedcloud2.intellij</id><description><![CDATA[
         <p>
             <b>Illuminated Cloud</b> brings the modern feature set of JetBrains' powerful IDEs to Salesforce
             development. Illuminated Cloud not only saves you time with its <b>intelligent auto-completion</b> for all
@@ -36837,22 +36858,31 @@ FIX: "Value coloring" change not applied to open files
 
         Note that Illuminated Cloud is a <a href="http://www.illuminatedcloud.com/purchase">commercial offering</a> and
         requires an active annual subscription-based license for continued access to its features.
-        ]]></description><version>2.1.5.5</version><vendor email="support@illuminatedcloud.com" url="http://www.illuminatedcloud.com/">Rose Silver Software</vendor><rating>4.6</rating><change-notes><![CDATA[
-        <p><b>2.1.5.5</b></p>
+        ]]></description><version>2.1.5.6</version><vendor email="support@illuminatedcloud.com" url="http://www.illuminatedcloud.com/">Rose Silver Software</vendor><rating>4.6</rating><change-notes><![CDATA[
+        <p><b>2.1.5.6</b></p>
         <ul>
-            <li><b>Issue 1647</b> - Added limited support for SAQL files (those with the <code>.saql</code> file
-                extension) including syntax highlighting, simple code completion, simple auto-indentation,
-                quote/paren/brace/bracket matching. This is not intended to be full custom language support but rather
-                to provide improved authoring of SAQL files from within the IDE.
+            <li>Implemented extensive support for <a href="https://www.jetbrains.com/help/idea/auto-completing-code.html#statements_completion">statement completion</a>
+                in Apex. Statement completion helps the user to create syntactically correct code constructs by
+                inserting the necessary syntax elements (parentheses, braces, semicolons, etc.) and leaves the caret in
+                a position to begin typing the next statement or to correct any remaining syntax issues that could not
+                be resolved by the IDE. Statement completion is supported in Apex when writing declarations, statements,
+                and SOQL queries. The exact behavior varies based on the state of the current Apex syntax element. This
+                feature is invoked using <b>Ctrl+Shift+Enter</b> on Windows and Linux or <b>Cmd+Shift+Enter</b> on Mac
+                (default keymaps).
             </li>
-            <li><b>Issue 1784</b> - Allowed remote action methods to be picked up from the class hierarchy and not the
-                leaf class through which the reference is established.
+            <li><b>Issue 1794</b> - Prospective fix for a performance issue in projects with very large numbers of
+                metadata files, specifically when collecting code completion candidates based on metadata file names.
             </li>
-            <li>Fixed an Apex code completion issue in assignment expressions used as invocation arguments in
-                constructors/<code>new</code> expressions.
+            <li>Fixed one more instance of the issue that started with 2020.3 where module facet configuration wouldn't
+                be properly persisted, in this case when a <b>Selected</b> metadata subscription is automatically
+                updated in response to filesystem changes.
             </li>
-            <li>Denoted the SFDX cache configuration file as per-instance/private so that it cannot be exported/imported
-                and is not included when syncing with a settings repository.
+            <li>Fixed two issues with the cache used for custom labels files that could result in issues
+                seeing/resolving custom labels properly.
+            </li>
+            <li>Found and fixed a few more areas where reentrant indexing could occur.</li>
+            <li>Fixed an issue that prevented the OST/SDK for a project from being found and used when its connection
+                cannot be resolved.
             </li>
             <li>Other related fixes and improvements.</li>
         </ul>
@@ -37792,7 +37822,7 @@ This is a bug fix version, we only fix old bugs here.<br>
 	<li>Completely new project configuration</li>
 	<li>Countless parser bug fix</li>
 </ul>
-]]></change-notes><idea-version min="n/a" max="n/a" since-build="182.0"></idea-version><depends>(optional) com.intellij.modules.clion</depends><depends>(optional) com.intellij.modules.go</depends><depends>(optional) com.intellij.modules.idea</depends><depends>com.intellij.modules.java</depends><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="781895" size="5447308" date="1582716361000" updatedDate="1582716361000" url=""><name>HOCON</name><id>org.jetbrains.plugins.hocon</id><description><![CDATA[Standalone HOCON plugin for IntelliJ IDEA]]></description><version>2020.1.0</version><vendor email="" url="">Roman Janusz, AVSystem, JetBrains</vendor><rating>3.3</rating><change-notes><![CDATA[
+]]></change-notes><idea-version min="n/a" max="n/a" since-build="182.0"></idea-version><depends>(optional) com.intellij.modules.clion</depends><depends>(optional) com.intellij.modules.go</depends><depends>(optional) com.intellij.modules.idea</depends><depends>com.intellij.modules.java</depends><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="781895" size="5447308" date="1582716361000" updatedDate="1582716361000" url=""><name>HOCON</name><id>org.jetbrains.plugins.hocon</id><description><![CDATA[Standalone HOCON plugin for IntelliJ IDEA]]></description><version>2020.1.0</version><vendor email="" url="">Roman Janusz, AVSystem, JetBrains</vendor><rating>3.5</rating><change-notes><![CDATA[
         
         2019.3.3:
         <ul>
@@ -37880,8 +37910,8 @@ Functions provided:<br>
 	<li>Completions based on built-in functions</li>
 	<li>Highlight built-in functions</li>
 	<li>One quick-fix</li>
-</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="173.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="510807" size="143546" date="1594291969000" updatedDate="1606836412000" url=""><name>Go Template</name><id>org.jetbrains.plugins.go-template</id><description><![CDATA[
-    Support for Go template engine (https://golang.org/pkg/text/template/).
+</ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="173.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="510807" size="143546" date="1594291969000" updatedDate="1611059927000" url=""><name>Go Template</name><id>org.jetbrains.plugins.go-template</id><description><![CDATA[
+    <p>Support for <a href="https://golang.org/pkg/text/template/">Go template engine</a> (<a href="https://www.jetbrains.com/help/go/integration-with-go-templates.html">plugin documentation</a>).</p>
     ]]></description><version>201.8538.31.199</version><vendor email="" url="https://www.jetbrains.com/go/">JetBrains</vendor><rating>4.3</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.8538" until-build="201.*"></idea-version><depends>com.intellij.modules.lang</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="3069" size="936650" date="1543516037000" updatedDate="1543516037000" url=""><name>Verilog support</name><id>com.verilang</id><description><![CDATA[
       
         The Verilog plugin provide support of Verilog language
@@ -39338,7 +39368,7 @@ Notice: RedPRL reference resolving is WIP.<br>
 </ul>
 <br>         
            
-    ]]></description><version>0.7-EARLY_ACCESS</version><vendor email="support@lnkd.tech" url="https://lnkd.tech">Lunisolar</vendor><rating>4.7</rating><change-notes><![CDATA[
+    ]]></description><version>0.7-EARLY_ACCESS</version><vendor email="support@lnkd.tech" url="https://lnkd.tech">Lunisolar</vendor><rating>4.3</rating><change-notes><![CDATA[
 <p><strong>Version 0.7-EARLY_ACCESS (2020-04-22)</strong></p>
 <ul>
 <li>LTE-142: Fixed compatibility with libraries that have null name (JavaScript for example)</li>
@@ -39742,7 +39772,7 @@ Read more in <a href="https://sharedvocabs.com/posts/2020/12/24/rdfandsparql-dec
         <li>Thanks to ice1000's contribution and his awesome icons !</li>
         <li>This plugin icon is retrieved from public domain</li>
     </ul>
-    ]]></description><version>0.1.2.2-1</version><vendor email="phosphophate@gmail.com" url="https://github.com/Phosphorus15">Phosphorus15</vendor><rating>4.2</rating><change-notes><![CDATA[<ul>
+    ]]></description><version>0.1.2.2-1</version><vendor email="phosphophate@gmail.com" url="https://github.com/Phosphorus15">Phosphorus15</vendor><rating>3.9</rating><change-notes><![CDATA[<ul>
         <li>regular version keep-up</li>
     </ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.8538" until-build="201.*"></idea-version><depends>com.intellij.modules.platform</depends><tags>Languages</tags></idea-plugin><idea-plugin downloads="253" size="43305" date="1588956914000" updatedDate="1588956914000" url=""><name>Zebra programming language (ZPL)</name><id>com.furstenheim.zpl-plugin</id><description><![CDATA[
     ZPL (Zebra programming language) support. Used for printing labels
@@ -41739,7 +41769,22 @@ Folding text to prettify blocks
     <li>lambda to λ</li>
     <li>** to ^</li>
 </ul>
-]]></description><version>2020.2-201</version><vendor email="plugin@meanmail.ru" url="https://meanmail.dev/plugin/2">meanmail</vendor><rating>00</rating><change-notes><![CDATA[<p><b> 2020.2 (April 19, 2020)</b><br>* Fix: Replace "**" with "^" only inside PyBinaryExpression</p><br><p><b> 2020.1 (February, 23, 2020)</b><br>+ Folding ** to ^</p><br><p><b> 2019.2.3 (December, 04, 2019)</b><br>* Version for Intellij 2019.3.*<br>* jvmTarget 11</p><br>See the full change notes on the <a href="https://github.com/meanmail/prettify-python-plugin/blob/master/ChangeNotes.md">github</a>]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.6668" until-build="201.*"></idea-version><depends>(optional) com.intellij.modules.python</depends><depends>com.intellij.modules.lang</depends><tags>Folder</tags></idea-plugin><idea-plugin downloads="776" size="8599" date="1607501227000" updatedDate="1607501227000" url=""><name>typescript-folding</name><id>com.github.fsancheztemprano.typescriptfolding</id><description><![CDATA[<p>Typescript Component Folding:</p>
+]]></description><version>2020.2-201</version><vendor email="plugin@meanmail.ru" url="https://meanmail.dev/plugin/2">meanmail</vendor><rating>00</rating><change-notes><![CDATA[<p><b> 2020.2 (April 19, 2020)</b><br>* Fix: Replace "**" with "^" only inside PyBinaryExpression</p><br><p><b> 2020.1 (February, 23, 2020)</b><br>+ Folding ** to ^</p><br><p><b> 2019.2.3 (December, 04, 2019)</b><br>* Version for Intellij 2019.3.*<br>* jvmTarget 11</p><br>See the full change notes on the <a href="https://github.com/meanmail/prettify-python-plugin/blob/master/ChangeNotes.md">github</a>]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.6668" until-build="201.*"></idea-version><depends>(optional) com.intellij.modules.python</depends><depends>com.intellij.modules.lang</depends><tags>Folder</tags></idea-plugin><idea-plugin downloads="84" size="19852" date="1611020561000" updatedDate="1611020561000" url=""><name>Virtual Folder Folding</name><id>uk.org.oliveira.virtual_folder_folding</id><description><![CDATA[
+    A virtual folder folding plugin for <em>any</em> application!
+    Simple setup the path on the settings page.
+
+    This is an extensions to original <a href="https://plugins.jetbrains.com/plugin/10090-angular-component-folding">Angular Component Folding</a>
+    ]]></description><version>1.0.2</version><vendor email="victor@oliveira.org.uk" url="http://www.oliveira.org.uk">Oliveira.org.uk</vendor><rating>00</rating><change-notes><![CDATA[
+    <h2>current</h2>
+    <ul>
+        <li>extends build 191-203.*</li>
+    </ul>
+    <h2>v1.0.1</h2>
+    <ul>
+        <li>fix "remove" button</li>
+        <li>removes move up/down actions</li>
+    </ul>
+      ]]></change-notes><idea-version min="n/a" max="n/a" since-build="191.0" until-build="203.*"></idea-version><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Folder</tags></idea-plugin><idea-plugin downloads="776" size="8599" date="1607501227000" updatedDate="1607501227000" url=""><name>typescript-folding</name><id>com.github.fsancheztemprano.typescriptfolding</id><description><![CDATA[<p>Typescript Component Folding:</p>
 
 <p>This plugin groups files which have same name and different extensions.<br></p>
 
@@ -49312,7 +49357,7 @@ Sources: <a href="https://github.com/hajdam/guipopup-intellij-plugin">https://gi
     </p><p>
     <img src="https://plugins.jetbrains.com/files/14226/screenshot_21733.png" alt="ConfigurationStopHook" height="340" width="530">
     
-  </p>]]></description><version>1.4</version><vendor email="cyl1014053448@gmail.com" url="">Yunlei Cai</vendor><rating>00</rating><change-notes><![CDATA[compatible with 2020.3]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.6668" until-build="203.*"></idea-version><depends>com.intellij.modules.lang</depends><tags>Build Runners</tags></idea-plugin></category><ff>"Cloud Support"</ff><category name="Cloud Support"><idea-plugin downloads="388777" size="40993780" date="1610728714000" updatedDate="1610967776000" url=""><name>Cloud Code</name><id>com.google.gct.core</id><description><![CDATA[<p>Cloud Code helps you write, deploy, and debug cloud native, Kubernetes, Cloud Run, and App Engine applications
+  </p>]]></description><version>1.4</version><vendor email="cyl1014053448@gmail.com" url="">Yunlei Cai</vendor><rating>00</rating><change-notes><![CDATA[compatible with 2020.3]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.6668" until-build="203.*"></idea-version><depends>com.intellij.modules.lang</depends><tags>Build Runners</tags></idea-plugin></category><ff>"Cloud Support"</ff><category name="Cloud Support"><idea-plugin downloads="388777" size="40993780" date="1610728714000" updatedDate="1611087569000" url=""><name>Cloud Code</name><id>com.google.gct.core</id><description><![CDATA[<p>Cloud Code helps you write, deploy, and debug cloud native, Kubernetes, Cloud Run, and App Engine applications
 quickly and easily, and adds support for many Google Cloud Platform features. Create, update, and maintain Kubernetes resource files within
 IntelliJ. Build an accelerated feedback loop between your local machine and development cluster.
 Run Kubernetes wherever works best for you — whether in a local cluster or in the cloud. Deploy your Cloud Run applications to Cloud Run
@@ -51945,7 +51990,7 @@ Auto-detect the word under the caret]]></change-notes><idea-version min="n/a" ma
         <li>Ability to edit injected code in the special scratch-pad editor.
         </li></ul>
       
-   ]]></description><version>201.7223.66</version><vendor email="" url="">JetBrains</vendor><rating>4.5</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.7223" until-build="201.*"></idea-version><depends>(optional) XPathView</depends><depends>(optional) com.intellij.modules.java</depends><depends>(optional) com.intellij.modules.xml</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="835506" size="873695" date="1606886602000" updatedDate="1610715592000" url=""><name>JetBrains Marketplace Licensing Support</name><id>com.intellij.marketplace</id><description><![CDATA[
+   ]]></description><version>201.7223.66</version><vendor email="" url="">JetBrains</vendor><rating>4.5</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.7223" until-build="201.*"></idea-version><depends>(optional) XPathView</depends><depends>(optional) com.intellij.modules.java</depends><depends>(optional) com.intellij.modules.xml</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="835506" size="873695" date="1606886602000" updatedDate="1611059954000" url=""><name>JetBrains Marketplace Licensing Support</name><id>com.intellij.marketplace</id><description><![CDATA[
     Licensing support for commercial plugins from JetBrains Marketplace
     
   ]]></description><version>201.8743.20</version><vendor email="" url="http://www.jetbrains.com/support/">JetBrains</vendor><rating>00</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.8743" until-build="201.*"></idea-version><depends>com.intellij.modules.lang</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="614" size="8972944" date="1610946800000" updatedDate="1610946800000" url=""><name>PyPhanon</name><id>com.pyphanon.py_phanon</id><description><![CDATA[
@@ -52056,7 +52101,7 @@ Auto-detect the word under the caret]]></change-notes><idea-version min="n/a" ma
 
 ]]></description><version>2.1.0</version><vendor email="cody@software.com" url="https://www.software.com">Software</vendor><rating>2.9</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="162.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="418" size="17601" date="1601910721000" updatedDate="1601910721000" url=""><name>Doc-Aware Search Everywhere</name><id>org.jetbrains.search-everywhere-docs</id><description><![CDATA[
 Provides suggestions from product help articles in the Search Everywhere popup. Selected articles are open in your default Web browser.
-    ]]></description><version>1.0.12</version><vendor email="egor.malyshev@jetbrains.com" url="https://www.jetbrains.com">JetBrains</vendor><rating>4.6</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.3803.71"></idea-version><depends>com.intellij.modules.lang</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="8435" size="305814" date="1593077207000" updatedDate="1608715695000" url=""><name>Shared Indexes</name><id>intellij.indexing.shared</id><description><![CDATA[
+    ]]></description><version>1.0.12</version><vendor email="egor.malyshev@jetbrains.com" url="https://www.jetbrains.com">JetBrains</vendor><rating>4.6</rating><change-notes><![CDATA[]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.3803.71"></idea-version><depends>com.intellij.modules.lang</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="8435" size="305814" date="1593077207000" updatedDate="1611060004000" url=""><name>Shared Indexes</name><id>intellij.indexing.shared</id><description><![CDATA[
     
 The plugin reduces overall indexing time and CPU usage by using bundled or downloaded shared indexes.
 <br>
@@ -52064,6 +52109,7 @@ The plugin reduces overall indexing time and CPU usage by using bundled or downl
 Bundled and downloadable JetBrains-provided public shared indexes support is offered without any additional license.
 Only the <a href="https://www.jetbrains.com/help/idea/shared-indexes.html#project-shared-indexes">project shared indexes</a>
 feature is licensed as part of any other IntelliJ-based IDE license or an all product pack license.
+The licensing policy for the plugin might change in the future.
 <br>
 <br>
 For more details, see the <a href="https://www.jetbrains.com/help/idea/shared-indexes.html">detailed instructions and documentations</a>
@@ -52179,7 +52225,12 @@ powered by open-source software
     ]]></description><version>1.0.0</version><vendor email="info@smartapplications.gr" url="https://www.stormsections.com/">Smart_Applications_PC</vendor><rating>00</rating><change-notes><![CDATA[
       Initial release of the plugin.
     
-    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="183.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Code tools</tags><tags>Editor</tags><tags>Navigation</tags><tags>Code editing</tags><tags>Miscellaneous</tags><tags>Paid</tags><productCode>PSTORMSECTIONS</productCode></idea-plugin></category><ff>"Debugging"</ff><category name="Debugging"><idea-plugin downloads="1866" size="211257" date="1538951752000" updatedDate="1538951752000" url=""><name>birdseye</name><id>com.github.alexmojaki.birdseye.pycharm</id><description><![CDATA[
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="183.0"></idea-version><depends>com.intellij.modules.lang</depends><tags>Code tools</tags><tags>Editor</tags><tags>Navigation</tags><tags>Code editing</tags><tags>Miscellaneous</tags><tags>Paid</tags><productCode>PSTORMSECTIONS</productCode></idea-plugin><idea-plugin downloads="0" size="9989" date="1611039604000" updatedDate="1611039604000" url=""><name>Share on ShareMyCode.io</name><id>fr.nouvelle-techno.share-on-sharemycode-io</id><description><![CDATA[
+      Easily share code snippets on ShareMyCode.io website<br>Select some code or open a file, then right click on selection or code and select "Share on ShareMyCode.io" option.<br> You'll get your code shared on https://sharemycode.io and the share link copied to clipboard.<br>Now, just send this link to anyone.
+    ]]></description><version>1.0.1</version><vendor email="support@nouvelle-techno.fr" url="https://nouvelle-techno.fr">Nouvelle-Techno</vendor><rating>00</rating><change-notes><![CDATA[
+      Initial publication
+    
+  ]]></change-notes><idea-version min="n/a" max="n/a" since-build="173.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>Code tools</tags><tags>Web</tags><tags>Miscellaneous</tags></idea-plugin></category><ff>"Debugging"</ff><category name="Debugging"><idea-plugin downloads="1866" size="211257" date="1538951752000" updatedDate="1538951752000" url=""><name>birdseye</name><id>com.github.alexmojaki.birdseye.pycharm</id><description><![CDATA[
       Integrates the python debugger <a href="https://github.com/alexmojaki/birdseye" rel="nofollow">birdseye</a>.
     ]]></description><version>1.1.0</version><vendor email="alex.mojaki@gmail.com" url="https://github.com/alexmojaki/birdseye-pycharm">Alex Hall</vendor><rating>00</rating><change-notes><![CDATA[        <ul>
           <li>conda package management is temporarily disabled while checking for and installing birdseye</li>
@@ -55399,7 +55450,7 @@ window, the Sourcery tool window or the lightbulb in the code editor.
   <li>Improved the SVG icons.</li>
   <li>Done an extensive code clean-up.</li>
 </ul>
-]]></change-notes><idea-version min="n/a" max="n/a" since-build="192.5728" until-build="203.*"></idea-version><depends>(optional) com.intellij.modules.vcs</depends><depends>com.intellij.modules.platform</depends><tags>Version Control</tags><tags>Completion</tags><tags>Productivity</tags></idea-plugin></category><ff>"Code tools"</ff><category name="Code tools"><idea-plugin downloads="237337" size="1699652" date="1610868777000" updatedDate="1610900632000" url="http://tabnine.com"><name>Tabnine AI Autocomplete: JavaScript C Python Ruby Rust Go PHP...</name><id>com.tabnine.TabNine</id><description><![CDATA[
+]]></change-notes><idea-version min="n/a" max="n/a" since-build="192.5728" until-build="203.*"></idea-version><depends>(optional) com.intellij.modules.vcs</depends><depends>com.intellij.modules.platform</depends><tags>Version Control</tags><tags>Completion</tags><tags>Productivity</tags></idea-plugin></category><ff>"Code tools"</ff><category name="Code tools"><idea-plugin downloads="237337" size="1699865" date="1611064562000" updatedDate="1611064631000" url="http://tabnine.com"><name>Tabnine AI Autocomplete: JavaScript C Python Ruby Rust Go PHP...</name><id>com.tabnine.TabNine</id><description><![CDATA[
 <p>
     <a href="https://bit.ly/2UwHG4a"><img src="https://raster.shields.io/github/stars/codota/Tabnine?style=social" alt="Github Repo"></a>&nbsp;
     <a href="https://bit.ly/3pxpBRX"><img src="https://raster.shields.io/youtube/views/TKLkXh_c-Gw?style=social" alt="Youtube Demo Video"></a>&nbsp;
@@ -55528,7 +55579,7 @@ window, the Sourcery tool window or the lightbulb in the code editor.
 <p>
     More resources: <a href="https://www.tabnine.com/blog">Tabnine blog</a>, <a href="https://www.tabnine.com/faq">Questions? Check out our FAQ</a>, <a href="https://www.tabnine.com/pricing">Learn more about our premium plans</a>.
 </p>
-]]></description><version>0.3.0</version><vendor email="support@tabnine.com" url="https://tabnine.com">Tabnine</vendor><rating>4.6</rating><change-notes><![CDATA[Tabnine is always evolving. Most updates are in the binary sidecar.]]></change-notes><idea-version min="n/a" max="n/a" since-build="182.*"></idea-version><depends>com.intellij.modules.lang</depends><tags>Code tools</tags><tags>JavaScript</tags><tags>Refactoring</tags><tags>Code editing</tags><tags>Miscellaneous</tags><tags>Completion</tags><tags>Productivity</tags><tags>TypeScript</tags></idea-plugin></category><ff>"Security"</ff><category name="Security"><idea-plugin downloads="3410118" size="80697882" date="1606813775000" updatedDate="1606813775000" url="https://www.sonarlint.org"><name>SonarLint</name><id>org.sonarlint.idea</id><description><![CDATA[
+]]></description><version>0.3.1</version><vendor email="support@tabnine.com" url="https://tabnine.com">Tabnine</vendor><rating>4.6</rating><change-notes><![CDATA[Tabnine is always evolving. Most updates are in the binary sidecar.]]></change-notes><idea-version min="n/a" max="n/a" since-build="182.*"></idea-version><depends>com.intellij.modules.lang</depends><tags>Code tools</tags><tags>JavaScript</tags><tags>Refactoring</tags><tags>Code editing</tags><tags>Miscellaneous</tags><tags>Completion</tags><tags>Productivity</tags><tags>TypeScript</tags></idea-plugin></category><ff>"Security"</ff><category name="Security"><idea-plugin downloads="3410118" size="80697882" date="1606813775000" updatedDate="1606813775000" url="https://www.sonarlint.org"><name>SonarLint</name><id>org.sonarlint.idea</id><description><![CDATA[
         
             <p>
                 SonarLint is a free IDE extension that lets you fix bugs and vulnerabilities as you write code!
@@ -55668,7 +55719,7 @@ For more information, please visit <a href="https://www.codemr.co.uk">https://ww
             <li>Bug修改：文本处理中修改了排序bug</li>
         </ul>
         
-    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="171.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>Tools integration</tags><tags>Formatting</tags><tags>Code Generation</tags><tags>Performance</tags><tags>JSON</tags></idea-plugin></category><ff>"Editor"</ff><category name="Editor"><idea-plugin downloads="9588514" size="4324396" date="1608710152000" updatedDate="1610662050000" url="https://plugins.jetbrains.com/plugin/164"><name>IdeaVim</name><id>IdeaVIM</id><description><![CDATA[
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="171.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>Tools integration</tags><tags>Formatting</tags><tags>Code Generation</tags><tags>Performance</tags><tags>JSON</tags></idea-plugin></category><ff>"Editor"</ff><category name="Editor"><idea-plugin downloads="9588514" size="4324396" date="1608710152000" updatedDate="1611094041000" url="https://plugins.jetbrains.com/plugin/164"><name>IdeaVim</name><id>IdeaVIM</id><description><![CDATA[
       <p>Vim emulation plugin for IntelliJ Platform-based IDEs.</p>
       <br>
       <p>IdeaVim supports many Vim features including normal/insert/visual modes, motion keys, deletion/changing,
@@ -55876,4 +55927,6 @@ Add Upper Case &amp; Lower Case actions
             </li>
         </ul>
     
-    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="183.*" until-build="301.*"></idea-version><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Database</tags></idea-plugin></category><ff>"Miscellaneous"</ff><category name="Miscellaneous"><idea-plugin downloads="1282252" size="1213873" date="1599138561000" updatedDate="1610914310000" url=""><name>Chinese (Simplified) Language Pack / 中文语言包</name><id>com.intellij.zh</id><description><![CDATA[Adds Chinese as the IDE interface language.<br>It’s an EAP version, we’re making it better everyday. At the moment partial localization is available.<br>Your feedback is very much appreciated. You can submit it directly from the <a href="https://www.jetbrains.com/help/idea/getting-started.html#report-bug">IDE</a> or via <a href="https://youtrack.jetbrains.com/newIssue?project=IDEA&amp;summary=Issue%20name%20(English%20or%20Chinese)&amp;description=Describe%20your%20problem&amp;c=Subsystem%20Localization.%20Chinese">YouTrack</a> either in English or Chinese.<br><br>添加中文作为 IDE 界面语言。<br>这是一个早期试用计划（EAP）版本，我们正在逐步完善当中。目前部分的本地化内容已经完成。<br>您的反馈至关重要。您可以直接通过 <a href="https://www.jetbrains.com/help/idea/getting-started.html#report-bug">IDE</a> 或者 <a href="https://youtrack.jetbrains.com/newIssue?project=IDEA&amp;summary=Issue%20name%20(English%20or%20Chinese)&amp;description=Describe%20your%20problem&amp;c=Subsystem%20Localization.%20Chinese">YouTrack</a> 以中文或者英文的形式提交您的反馈。]]></description><version>201.16</version><vendor email="" url="">JetBrains</vendor><rating>4.2</rating><change-notes><![CDATA[Introducing the IntelliJ IDEA Localization EAP for Chinese, Japanese, and Korean.<br><a href="https://blog.jetbrains.com/cn/2020/05/jetbrains-chinese/">您最喜欢的 JetBrains IDE 一直以来仅提供英语版本，现在将本地化为三种语言！</a>]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.7223.36" until-build="201.*"></idea-version><depends>com.intellij.modules.platform</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="20905" size="1290565" date="1599557846000" updatedDate="1610914308000" url=""><name>Korean Language Pack / 한국어 언어 팩</name><id>com.intellij.ko</id><description><![CDATA[Adds Korean as the IDE interface language.<br>It’s an EAP version, we’re making it better everyday. At the moment partial localization is available.<br>Your feedback is very much appreciated. You can submit it directly from the <a href="https://www.jetbrains.com/help/idea/getting-started.html#report-bug">IDE</a> or via <a href="https://youtrack.jetbrains.com/newIssue?project=IDEA&amp;summary=Issue%20name%20(English%20or%20Korean)&amp;description=Describe%20your%20problem&amp;c=Subsystem%20Localization.%20Korean">YouTrack</a> either in English or Korean.<br><br>이 플러그인은 EAP(얼리 액세스 프로그램) 버전으로, 매일 개선 작업을 하고 있습니다. 현재는 부분적으로 현지화된 버전을 사용하실 수 있습니다.<br>사용해보시고 여러분의 의견을 저희에게 알려주세요. 의견은 <a href="https://www.jetbrains.com/help/idea/getting-started.html#report-bug">IDE</a> 에서 바로 제출하시거나 <a href="https://youtrack.jetbrains.com/newIssue?project=IDEA&amp;summary=Issue%20name%20(English%20or%20Korean)&amp;description=Describe%20your%20problem&amp;c=Subsystem%20Localization.%20Korean">YouTrack</a> 에서 영어 또는 한국어로 제출하실 수 있습니다. 감사합니다!]]></description><version>201.16</version><vendor email="" url="">JetBrains</vendor><rating>4.9</rating><change-notes><![CDATA[Introducing the IntelliJ IDEA Localization EAP for Chinese, Japanese, and Korean.<br><a href="https://blog.jetbrains.com/kr/2020/05/intellij-localization-eap/">한국어, 중국어, 일본어용 IntelliJ IDEA 현지화 얼리 액세스 프로그램(EAP)을 소개합니다!</a>]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.7223.36" until-build="201.*"></idea-version><depends>com.intellij.modules.platform</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="61464" size="1369834" date="1599138556000" updatedDate="1610914305000" url=""><name>Japanese Language Pack / 日本語言語パック</name><id>com.intellij.ja</id><description><![CDATA[Adds Japanese as the IDE interface language.<br>It’s an EAP version, we’re making it better everyday. At the moment partial localization is available.<br>Your feedback is very much appreciated. You can submit it directly from the <a href="https://www.jetbrains.com/help/idea/getting-started.html#report-bug">IDE</a> or via <a href="https://youtrack.jetbrains.com/newIssue?project=IDEA&amp;summary=Issue%20name%20(English%20or%20Japanese)&amp;description=Describe%20your%20problem&amp;c=Subsystem%20Localization.%20Japanese">YouTrack</a> either in English or Japanese.<br><br>IDE の UI を日本語化するプラグインです。<br>早期アクセスプログラム（EAP）で提供中であり、ローカライズ作業はまだ進行中です。現時点では一部のみがローカライズされています。<br>フィードバック大歓迎です！<a href="https://www.jetbrains.com/help/idea/getting-started.html#report-bug">IDE</a> から直接意見を投稿（[ヘルプ] – [バグ・レポートの送信…]）するか、<a href="https://youtrack.jetbrains.com/newIssue?project=IDEA&amp;summary=Issue%20name%20(English%20or%20Japanese)&amp;description=Describe%20your%20problem&amp;c=Subsystem%20Localization.%20Japanese">YouTrack</a> にてテンプレートを使用して、英語か日本語でフィードバックをお寄せください。]]></description><version>201.16</version><vendor email="" url="">JetBrains</vendor><rating>4.9</rating><change-notes><![CDATA[Introducing the IntelliJ IDEA Localization EAP for Chinese, Japanese, and Korean.<br><a href="https://blog.jetbrains.com/jp/2020/05/11/intellij-idea-localization-eap">IntelliJ IDEA：日本語、中国語、韓国語のローカライゼーションEAPを紹介</a>]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.7223.36" until-build="201.*"></idea-version><depends>com.intellij.modules.platform</depends><tags>Miscellaneous</tags></idea-plugin></category></plugin-repository>
+    ]]></change-notes><idea-version min="n/a" max="n/a" since-build="183.*" until-build="301.*"></idea-version><depends>com.intellij.modules.lang</depends><depends>com.intellij.modules.platform</depends><tags>Database</tags></idea-plugin></category><ff>"Web"</ff><category name="Web"><idea-plugin downloads="3" size="643282" date="1611004369000" updatedDate="1611004369000" url=""><name>Mint</name><id>com.github.bjansen.mintellij</id><description><![CDATA[<p>This plugin adds support for the <a href="https://www.mint-lang.com/">Mint language</a> to IntelliJ-based IDEs.</p>]]></description><version>0.1.0</version><vendor email="bastien.jansen@gmx.com" url="https://github.com/bjansen">Bastien Jansen</vendor><rating>00</rating><change-notes><![CDATA[<h3>Added</h3>
+<ul><li>syntax highlighting with configurable colors</li><li>run <code>mint</code> commands</li><li>go to modules, components, records etc.</li><li>structure view</li><li>brace matching</li><li>block commenter</li><li>detect file names in <code>mint</code> output and show them as hyperlinks
+to source files</li><li>JSON schema for <code>mint.json</code></li></ul>]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.0"></idea-version><depends>com.intellij.modules.platform</depends><tags>Web</tags></idea-plugin></category><ff>"Miscellaneous"</ff><category name="Miscellaneous"><idea-plugin downloads="1282252" size="1213873" date="1599138561000" updatedDate="1610914310000" url=""><name>Chinese (Simplified) Language Pack / 中文语言包</name><id>com.intellij.zh</id><description><![CDATA[Adds Chinese as the IDE interface language.<br>It’s an EAP version, we’re making it better everyday. At the moment partial localization is available.<br>Your feedback is very much appreciated. You can submit it directly from the <a href="https://www.jetbrains.com/help/idea/getting-started.html#report-bug">IDE</a> or via <a href="https://youtrack.jetbrains.com/newIssue?project=IDEA&amp;summary=Issue%20name%20(English%20or%20Chinese)&amp;description=Describe%20your%20problem&amp;c=Subsystem%20Localization.%20Chinese">YouTrack</a> either in English or Chinese.<br><br>添加中文作为 IDE 界面语言。<br>这是一个早期试用计划（EAP）版本，我们正在逐步完善当中。目前部分的本地化内容已经完成。<br>您的反馈至关重要。您可以直接通过 <a href="https://www.jetbrains.com/help/idea/getting-started.html#report-bug">IDE</a> 或者 <a href="https://youtrack.jetbrains.com/newIssue?project=IDEA&amp;summary=Issue%20name%20(English%20or%20Chinese)&amp;description=Describe%20your%20problem&amp;c=Subsystem%20Localization.%20Chinese">YouTrack</a> 以中文或者英文的形式提交您的反馈。]]></description><version>201.16</version><vendor email="" url="">JetBrains</vendor><rating>4.2</rating><change-notes><![CDATA[Introducing the IntelliJ IDEA Localization EAP for Chinese, Japanese, and Korean.<br><a href="https://blog.jetbrains.com/cn/2020/05/jetbrains-chinese/">您最喜欢的 JetBrains IDE 一直以来仅提供英语版本，现在将本地化为三种语言！</a>]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.7223.36" until-build="201.*"></idea-version><depends>com.intellij.modules.platform</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="20905" size="1290565" date="1599557846000" updatedDate="1610914308000" url=""><name>Korean Language Pack / 한국어 언어 팩</name><id>com.intellij.ko</id><description><![CDATA[Adds Korean as the IDE interface language.<br>It’s an EAP version, we’re making it better everyday. At the moment partial localization is available.<br>Your feedback is very much appreciated. You can submit it directly from the <a href="https://www.jetbrains.com/help/idea/getting-started.html#report-bug">IDE</a> or via <a href="https://youtrack.jetbrains.com/newIssue?project=IDEA&amp;summary=Issue%20name%20(English%20or%20Korean)&amp;description=Describe%20your%20problem&amp;c=Subsystem%20Localization.%20Korean">YouTrack</a> either in English or Korean.<br><br>이 플러그인은 EAP(얼리 액세스 프로그램) 버전으로, 매일 개선 작업을 하고 있습니다. 현재는 부분적으로 현지화된 버전을 사용하실 수 있습니다.<br>사용해보시고 여러분의 의견을 저희에게 알려주세요. 의견은 <a href="https://www.jetbrains.com/help/idea/getting-started.html#report-bug">IDE</a> 에서 바로 제출하시거나 <a href="https://youtrack.jetbrains.com/newIssue?project=IDEA&amp;summary=Issue%20name%20(English%20or%20Korean)&amp;description=Describe%20your%20problem&amp;c=Subsystem%20Localization.%20Korean">YouTrack</a> 에서 영어 또는 한국어로 제출하실 수 있습니다. 감사합니다!]]></description><version>201.16</version><vendor email="" url="">JetBrains</vendor><rating>4.9</rating><change-notes><![CDATA[Introducing the IntelliJ IDEA Localization EAP for Chinese, Japanese, and Korean.<br><a href="https://blog.jetbrains.com/kr/2020/05/intellij-localization-eap/">한국어, 중국어, 일본어용 IntelliJ IDEA 현지화 얼리 액세스 프로그램(EAP)을 소개합니다!</a>]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.7223.36" until-build="201.*"></idea-version><depends>com.intellij.modules.platform</depends><tags>Miscellaneous</tags></idea-plugin><idea-plugin downloads="61464" size="1369834" date="1599138556000" updatedDate="1610914305000" url=""><name>Japanese Language Pack / 日本語言語パック</name><id>com.intellij.ja</id><description><![CDATA[Adds Japanese as the IDE interface language.<br>It’s an EAP version, we’re making it better everyday. At the moment partial localization is available.<br>Your feedback is very much appreciated. You can submit it directly from the <a href="https://www.jetbrains.com/help/idea/getting-started.html#report-bug">IDE</a> or via <a href="https://youtrack.jetbrains.com/newIssue?project=IDEA&amp;summary=Issue%20name%20(English%20or%20Japanese)&amp;description=Describe%20your%20problem&amp;c=Subsystem%20Localization.%20Japanese">YouTrack</a> either in English or Japanese.<br><br>IDE の UI を日本語化するプラグインです。<br>早期アクセスプログラム（EAP）で提供中であり、ローカライズ作業はまだ進行中です。現時点では一部のみがローカライズされています。<br>フィードバック大歓迎です！<a href="https://www.jetbrains.com/help/idea/getting-started.html#report-bug">IDE</a> から直接意見を投稿（[ヘルプ] – [バグ・レポートの送信…]）するか、<a href="https://youtrack.jetbrains.com/newIssue?project=IDEA&amp;summary=Issue%20name%20(English%20or%20Japanese)&amp;description=Describe%20your%20problem&amp;c=Subsystem%20Localization.%20Japanese">YouTrack</a> にてテンプレートを使用して、英語か日本語でフィードバックをお寄せください。]]></description><version>201.16</version><vendor email="" url="">JetBrains</vendor><rating>4.9</rating><change-notes><![CDATA[Introducing the IntelliJ IDEA Localization EAP for Chinese, Japanese, and Korean.<br><a href="https://blog.jetbrains.com/jp/2020/05/11/intellij-idea-localization-eap">IntelliJ IDEA：日本語、中国語、韓国語のローカライゼーションEAPを紹介</a>]]></change-notes><idea-version min="n/a" max="n/a" since-build="201.7223.36" until-build="201.*"></idea-version><depends>com.intellij.modules.platform</depends><tags>Miscellaneous</tags></idea-plugin></category></plugin-repository>

@@ -1,12 +1,12 @@
 [Document 0]
 Bookmarks=
 Encoding=UTF-8
-Highlighting=INI Files
-Highlighting Set By User=true
+Highlighting=Bash
+Highlighting Set By User=false
 Indentation Mode=normal
-Mode=Normal
+Mode=Bash
 Mode Set By User=false
-URL=file:///home/govi/.config/polybar/config
+URL=file:///home/govi/.config/polybar/scripts/rss_github_not.sh
 
 [Kate Plugins]
 cuttlefishplugin=false
@@ -43,7 +43,7 @@ Kate-MDI-H-Splitter=160,1063,200
 Kate-MDI-Sidebar-0-Splitter=0,0
 Kate-MDI-Sidebar-1-Splitter=
 Kate-MDI-Sidebar-2-Splitter=
-Kate-MDI-Sidebar-3-Splitter=1063,0,0
+Kate-MDI-Sidebar-3-Splitter=0,0,0
 Kate-MDI-Sidebar-Style=2
 Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-kate_plugin_katesearch-Persistent=false
@@ -89,12 +89,12 @@ Orientation=1
 Sizes=1063
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/govi/.config/polybar/config
+Active View=file:///home/govi/.config/polybar/scripts/rss_github_not.sh
 Count=1
-Documents=file:///home/govi/.config/polybar/config
-View 0=file:///home/govi/.config/polybar/config
+Documents=file:///home/govi/.config/polybar/scripts/rss_github_not.sh
+View 0=file:///home/govi/.config/polybar/scripts/rss_github_not.sh
 
-[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/config]
+[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/scripts/rss_github_not.sh]
 CursorColumn=0
 CursorLine=0
 Dynamic Word Wrap=false
@@ -120,30 +120,30 @@ HiddenFiles=false
 MatchCase=true
 Place=0
 Recursive=true
-Replaces=/7,/,GOVI_ARCH_LINUX,FLAGS,cairo-dock > /dev/null 2>&1,    killall cairo-dock,latte-dock,    latte-dock &,     latte-dock &,    killall latte-dock,$WINE,    /home/$USER/Scripts/Bash/Polybar/launch.sh,cairo-dock cairo-dock-plug-ins,&,    cairo-dock > /dev/null 2>&1 &,    cairo-dock &,killall cairo-dock,cairo-dock,export WINEDLLOVERRIDES="mscoree\\,mshtml="export WINEFSYNC=1,5.18,5.19,5.20,5.21,/home/$USER
-Search=1.5.1,/tree/,version,of the engine,&lt;td&gt; of the engine&lt;/td&gt;,title,Version,+,tag,assets,1.6,GoVi_Arch_Linux,PARAMETERS,$ ,latte-dock,killall latte-dock,    latte-dock &,    killall latte-dock,dock,cairo-dock,cairo-dock &,     latte-dock &,    cairo-dock > /dev/null 2>&1 &,    /home/$USER/Scripts/Bash/Polybar
+Replaces=|,/7,/,GOVI_ARCH_LINUX,FLAGS,cairo-dock > /dev/null 2>&1,    killall cairo-dock,latte-dock,    latte-dock &,     latte-dock &,    killall latte-dock,$WINE,    /home/$USER/Scripts/Bash/Polybar/launch.sh,cairo-dock cairo-dock-plug-ins,&,    cairo-dock > /dev/null 2>&1 &,    cairo-dock &,killall cairo-dock,cairo-dock,export WINEDLLOVERRIDES="mscoree\\,mshtml="export WINEFSYNC=1,5.18,5.19,5.20,5.21
+Search=/,</a></h2>,1.5.1,/tree/,version,of the engine,&lt;td&gt; of the engine&lt;/td&gt;,title,Version,+,tag,assets,1.6,GoVi_Arch_Linux,PARAMETERS,$ ,latte-dock,killall latte-dock,    latte-dock &,    killall latte-dock,dock,cairo-dock,cairo-dock &,     latte-dock &
 SearchDiskFiles=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 SearchDiskFiless=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/.config/polybar/scripts/Logs/YouTube/rss_youtube
-File10[$e]=$HOME/.config/polybar/scripts/rss_github.sh
-File2[$e]=$HOME/Scripts/Bash/Polybar/mg.xml
-File3[$e]=$HOME/.config/polybar/scripts/mg.xml
-File4[$e]=$HOME/.config/polybar/scripts/github-gamemode.xmñ
-File5[$e]=$HOME/Escritorio/Releases · FeralInteractive_gamemode.html
-File6[$e]=$HOME/Escritorio/gm.html
-File7[$e]=$HOME/gm.html
-File8[$e]=$HOME/.config/polybar/scripts/rss_youtube.sh
-File9[$e]=$HOME/.config/polybar/scripts/rss_games.sh
-Name1[$e]=rss_youtube
-Name10[$e]=rss_github.sh
-Name2[$e]=mg.xml
-Name3[$e]=mg.xml
-Name4[$e]=github-gamemode.xmñ
-Name5[$e]=Releases · FeralInteractive_gamemode.html
-Name6[$e]=gm.html
-Name7[$e]=gm.html
-Name8[$e]=rss_youtube.sh
-Name9[$e]=rss_games.sh
+File1[$e]=$HOME/.config/polybar/scripts/rss_games.sh
+File10[$e]=$HOME/.config/polybar/scripts/rss_github_not.sh
+File2[$e]=$HOME/.config/polybar/scripts/rss_github.sh
+File3[$e]=$HOME/SR.html
+File4[$e]=https://www.skidrowreloaded.com/wp-includes/js/wp-embed.min.js?ver=5.0.11
+File5[$e]=$HOME/.config/polybar/sed.sh
+File6[$e]=$HOME/.config/polybar/scripts/rss_youtube_Reset.sh
+File7[$e]=$HOME/.config/polybar/scripts/rss_github_Reset.sh
+File8[$e]=$HOME/.config/polybar/scripts/rss_games_Reset.sh
+File9[$e]=$HOME/.config/polybar/config
+Name1[$e]=rss_games.sh
+Name10[$e]=rss_github_not.sh
+Name2[$e]=rss_github.sh
+Name3[$e]=SR.html
+Name4[$e]=wp-embed.min.js
+Name5[$e]=sed.sh
+Name6[$e]=rss_youtube_Reset.sh
+Name7[$e]=rss_github_Reset.sh
+Name8[$e]=rss_games_Reset.sh
+Name9[$e]=config

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=A Wine application
+MimeType=application/x-wine-extension-vbs;
+Exec=env WINEPREFIX="/home/govi/Wine/wine_Lutris/wine-pfx_SWBII" /usr/bin/wine start /ProgIDOpen VBSFile %f
+NoDisplay=true
+StartupNotify=true

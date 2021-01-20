@@ -5,7 +5,7 @@
   <inspection_tool class="BashReplaceWithDoubleBrackets" enabled="false" level="INFO" enabled_by_default="false" />
   <inspection_tool class="BashSimpleVarUsage" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="ShellCheck" enabled="true" level="ERROR" enabled_by_default="true">
-    <shellcheck_settings value="SC2086" />
+    <shellcheck_settings value="SC2050,SC2057,SC2086,SC2164" />
   </inspection_tool>
   <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
     <option name="processCode" value="true" />

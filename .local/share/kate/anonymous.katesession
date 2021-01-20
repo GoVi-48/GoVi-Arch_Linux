@@ -6,17 +6,47 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-URL=file:///home/govi/.config/polybar/scripts/reload_polybar.sh
+URL=file:///Datos/Games/PC/-Launchers/Ubisoft/Wine/Launch-Uplay.sh
 
 [Document 1]
 Bookmarks=
 Encoding=UTF-8
-Highlighting=INI Files
-Highlighting Set By User=true
+Highlighting=Bash
+Highlighting Set By User=false
 Indentation Mode=normal
-Mode=Normal
+Mode=Bash
 Mode Set By User=false
-URL=file:///home/govi/.config/polybar/config
+URL=file:///Media/Games/PC/-Launchers/Origin/Wine/Launch-Origin.sh
+
+[Document 2]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+URL=file:///Datos/Games/PC/-Launchers/GOG/Wine/Launch_GOG.sh
+
+[Document 3]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+URL=file:///Datos/Games/PC/-Launchers/Epic Games/Wine/Launch_Epic_Games.sh
+
+[Document 4]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+URL=file:///Datos/Games/PC/-Launchers/Bethesda/Wine/Launch-Bethesda.sh
 
 [Kate Plugins]
 cuttlefishplugin=false
@@ -99,30 +129,57 @@ Orientation=1
 Sizes=1051
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/govi/.config/polybar/scripts/reload_polybar.sh
-Count=2
-Documents=file:///home/govi/.config/polybar/scripts/reload_polybar.sh,file:///home/govi/.config/polybar/config
-View 0=file:///home/govi/.config/polybar/scripts/reload_polybar.sh
-View 1=file:///home/govi/.config/polybar/config
+Active View=file:///Datos/Games/PC/-Launchers/Ubisoft/Wine/Launch-Uplay.sh
+Count=5
+Documents=file:///Datos/Games/PC/-Launchers/Ubisoft/Wine/Launch-Uplay.sh,file:///Media/Games/PC/-Launchers/Origin/Wine/Launch-Origin.sh,file:///Datos/Games/PC/-Launchers/GOG/Wine/Launch_GOG.sh,file:///Datos/Games/PC/-Launchers/Epic Games/Wine/Launch_Epic_Games.sh,file:///Datos/Games/PC/-Launchers/Bethesda/Wine/Launch-Bethesda.sh
+View 0=file:///Datos/Games/PC/-Launchers/Ubisoft/Wine/Launch-Uplay.sh
+View 1=file:///Media/Games/PC/-Launchers/Origin/Wine/Launch-Origin.sh
+View 2=file:///Datos/Games/PC/-Launchers/GOG/Wine/Launch_GOG.sh
+View 3=file:///Datos/Games/PC/-Launchers/Epic Games/Wine/Launch_Epic_Games.sh
+View 4=file:///Datos/Games/PC/-Launchers/Bethesda/Wine/Launch-Bethesda.sh
 
-[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/config]
-CursorColumn=14
-CursorLine=144
-Dynamic Word Wrap=false
-JumpList=
-TextFolding=[]
-ViMarks=.,144,13,[,144,11,],144,13
-
-[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/scripts/reload_polybar.sh]
+[MainWindow0-ViewSpace 0 file:///Datos/Games/PC/-Launchers/Bethesda/Wine/Launch-Bethesda.sh]
 CursorColumn=0
-CursorLine=6
+CursorLine=35
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,8,43,[,9,0,],-1,-1
+ViMarks=.,35,0,[,35,0,],35,0
+
+[MainWindow0-ViewSpace 0 file:///Datos/Games/PC/-Launchers/Epic Games/Wine/Launch_Epic_Games.sh]
+CursorColumn=0
+CursorLine=33
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,33,0,[,33,0,],33,0
+
+[MainWindow0-ViewSpace 0 file:///Datos/Games/PC/-Launchers/GOG/Wine/Launch_GOG.sh]
+CursorColumn=0
+CursorLine=35
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,35,0,[,35,0,],35,0
+
+[MainWindow0-ViewSpace 0 file:///Datos/Games/PC/-Launchers/Ubisoft/Wine/Launch-Uplay.sh]
+CursorColumn=0
+CursorLine=35
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,35,0,[,35,0,],35,0
+
+[MainWindow0-ViewSpace 0 file:///Media/Games/PC/-Launchers/Origin/Wine/Launch-Origin.sh]
+CursorColumn=0
+CursorLine=35
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,35,0,[,35,0,],35,0
 
 [Open Documents]
-Count=2
+Count=5
 
 [Open MainWindows]
 Count=1
@@ -146,23 +203,23 @@ SearchDiskFiless=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/.config/polybar/sed.sh
-File10[$e]=$HOME/.config/polybar/scripts/Logs/YouTube/rss_youtube
-File2[$e]=$HOME/.config/polybar/scripts/rss_youtube_Reset.sh
-File3[$e]=$HOME/.config/polybar/scripts/rss_github_Reset.sh
-File4[$e]=$HOME/.config/polybar/scripts/rss_games_Reset.sh
-File5[$e]=$HOME/.config/polybar/scripts/rss_github_not.sh
-File6[$e]=$HOME/.config/polybar/scripts/Logs/Games/check_entries_games
-File7[$e]=$HOME/.config/polybar/scripts/Logs/Games/recheck_entries_games
-File8[$e]=$HOME/.config/polybar/scripts/reload_polybar.sh
-File9[$e]=$HOME/.config/polybar/config
-Name1[$e]=sed.sh
-Name10[$e]=rss_youtube
-Name2[$e]=rss_youtube_Reset.sh
-Name3[$e]=rss_github_Reset.sh
-Name4[$e]=rss_games_Reset.sh
-Name5[$e]=rss_github_not.sh
-Name6[$e]=check_entries_games
-Name7[$e]=recheck_entries_games
-Name8[$e]=reload_polybar.sh
-Name9[$e]=config
+File1[$e]=$HOME/.config/polybar/scripts/updates_AUR.sh
+File10[$e]=/Datos/Games/PC/-Launchers/Bethesda/Wine/Launch-Bethesda.sh
+File2[$e]=$HOME/.config/polybar/scripts/refresh_polybar.sh
+File3[$e]=$HOME/.config/polybar/config
+File4[$e]=$HOME/.local/share/applications/Games-Uplay.desktop
+File5[$e]=$HOME/.local/share/applications/Games-Origin.desktop
+File6[$e]=/Datos/Games/PC/-Launchers/Ubisoft/Wine/Launch-Uplay.sh
+File7[$e]=/Media/Games/PC/-Launchers/Origin/Wine/Launch-Origin.sh
+File8[$e]=/Datos/Games/PC/-Launchers/GOG/Wine/Launch_GOG.sh
+File9[$e]=/Datos/Games/PC/-Launchers/Epic Games/Wine/Launch_Epic_Games.sh
+Name1[$e]=updates_AUR.sh
+Name10[$e]=Launch-Bethesda.sh
+Name2[$e]=refresh_polybar.sh
+Name3[$e]=config
+Name4[$e]=Games-Uplay.desktop
+Name5[$e]=Games-Origin.desktop
+Name6[$e]=Launch-Uplay.sh
+Name7[$e]=Launch-Origin.sh
+Name8[$e]=Launch_GOG.sh
+Name9[$e]=Launch_Epic_Games.sh

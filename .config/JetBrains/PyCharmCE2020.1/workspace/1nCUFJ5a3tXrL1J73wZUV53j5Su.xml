@@ -10,11 +10,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="987">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="42">
+              <caret line="2" column="29" selection-start-line="2" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_github.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3066">
-              <caret line="146" selection-start-line="146" selection-end-line="146" />
+            <state relative-caret-position="63">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -31,8 +31,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_youtube.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="769" selection-start-line="769" selection-end-line="769" />
+            <state relative-caret-position="63">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/Scripts/Bash/Games/-Launch_Game.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="567">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -120,9 +129,11 @@
         <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_github_Reset.sh" />
         <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_youtube_not.sh" />
         <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_youtube_Reset.sh" />
-        <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_youtube.sh" />
-        <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_github.sh" />
+        <option value="$USER_HOME$/Scripts/Bash/Games/-Launch_Game.sh" />
         <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh" />
+        <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_github.sh" />
+        <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_youtube.sh" />
+        <option value="$USER_HOME$/Scripts/Bash/Games/Star_Wars_Battlefront_II.sh" />
       </list>
     </option>
   </component>
@@ -133,7 +144,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectFrameBounds" x="0" y="36" width="1085" height="1009" extendedState="1" />
+  <component name="ProjectFrameBounds" x="0" y="36" width="1085" height="1009" />
   <component name="ProjectView">
     <navigator proportions="" version="1" />
     <panes />
@@ -161,20 +172,20 @@
     <layout>
       <window_info id="Commit" order="3" />
       <window_info anchor="bottom" id="Services" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
       <window_info content_ui="combo" id="Project" order="0" weight="0.32380953" />
       <window_info id="Structure" order="1" weight="0.2495238" />
       <window_info anchor="bottom" id="TODO" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info active="true" anchor="bottom" x="1099" y="75" width="817" height="751" id="Run" order="4" type="WINDOWED" weight="0.32978722" />
+      <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Problems View" order="6" />
       <window_info anchor="bottom" content_ui="combo" x="1099" y="75" width="817" height="750" id="Terminal" order="8" type="WINDOWED" weight="0.32978722" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32874617" />
       <window_info anchor="bottom" id="Messages" order="5" weight="0.32874617" />
-      <window_info anchor="bottom" id="Python Console" order="9" />
+      <window_info id="Favorites" order="2" side_tool="true" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -241,31 +252,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/-Launch_Game.sh">
+    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="30" column="27" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_youtube.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="769" selection-start-line="769" selection-end-line="769" />
+        <state relative-caret-position="42">
+          <caret line="2" column="29" selection-start-line="2" selection-end-line="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_github.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3066">
-          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh">
+    <entry file="file://$USER_HOME$/Scripts/Bash/Games/Star_Wars_Battlefront_II.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Programs/Photoshop.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_youtube.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="987">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Games/-Launch_Game.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
         </state>
       </provider>
     </entry>

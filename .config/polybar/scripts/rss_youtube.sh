@@ -1,13 +1,11 @@
 #!/bin/bash
 
-if [ pgrep -x "*.exe" ];then
-    exit
-fi
+pgrep -x "wineserver" > /dev/null  && exit
 
 LOGS="$HOME/.config/polybar/scripts/Logs/YouTube"
 
 [ ! -d "$LOGS" ] && mkdir -p "$LOGS"
-[ ! -f "$LOGS/rss_youtube" ] && echo "0" > "$LOGS/rss_youtube"
+[ ! -f "$LOGS/rss_youtube" ] && echo "0" > "$LOGS"/rss_youtube
 
 echo -e "\nUpdating Entries...\n"
 

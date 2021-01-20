@@ -1,13 +1,11 @@
 #!/bin/bash
 
-if [ pgrep -x "*.exe" ];then
-    exit
-fi
+pgrep -x "wineserver" > /dev/null  && exit
 
 LOGS="$HOME/.config/polybar/scripts/Logs/Games"
 
 [ ! -d "$LOGS" ] && mkdir -p "$LOGS"
-[ ! -f "$LOGS/rss_games" ] && echo "0" > "$LOGS/rss_games"
+[ ! -f "$LOGS/rss_games" ] && echo "0" > "$LOGS"/rss_games
 
 echo -e "\nUpdating Entries...\n"
 

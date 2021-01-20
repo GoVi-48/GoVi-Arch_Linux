@@ -159,13 +159,13 @@ interval = 300
 [module/updates_pacman]
 type = custom/script
 exec = ~/.config/polybar/scripts/updates_pacman.sh
-click-left = alacritty -e sudo pacman -Syu && ~/.config/polybar/scripts/reload_polybar.sh
+click-left = alacritty -e sudo pacman -Syu && ~/.config/polybar/scripts/refresh_polybar.sh
 interval = 1000
 
 [module/updates_AUR]
 type = custom/script
 exec = ~/.config/polybar/scripts/updates_AUR.sh
-click-left = alacritty -e yay -Syua && ~/.config/polybar/scripts/reload_polybar.sh
+click-left = alacritty -e yay -Syua && ~/.config/polybar/scripts/refresh_polybar.sh
 interval = 1000
 
 

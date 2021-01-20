@@ -7,8 +7,7 @@ LOGS="$HOME/.config/polybar/scripts/Logs/Games"
 
 echo -e "\nUpdating Entries...\n"
 
-ENTRIES=$(curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" 'NF>1 {print $2}')
-
+ENTRIES=$(curl -s https://www.skidrowreloaded.com/feed/ | awk -F "<title>|</title>" '{print $2}'| sed 's/Skidrow &amp\; Reloaded Games//g'| awk 'NF')
 CHECK_ENTRIES() {
     echo "$ENTRIES" | awk 'NR==1'
     echo "$ENTRIES" | awk 'NR==2'
@@ -18,6 +17,18 @@ CHECK_ENTRIES() {
     echo "$ENTRIES" | awk 'NR==7'
     echo "$ENTRIES" | awk 'NR==8'
     echo "$ENTRIES" | awk 'NR==9'
+    echo "$ENTRIES" | awk 'NR==10'
+    echo "$ENTRIES" | awk 'NR==11'
+    echo "$ENTRIES" | awk 'NR==12'
+    echo "$ENTRIES" | awk 'NR==13'
+    echo "$ENTRIES" | awk 'NR==14'
+    echo "$ENTRIES" | awk 'NR==15'
+    echo "$ENTRIES" | awk 'NR==16'
+    echo "$ENTRIES" | awk 'NR==17'
+    echo "$ENTRIES" | awk 'NR==18'
+    echo "$ENTRIES" | awk 'NR==19'
+    echo "$ENTRIES" | awk 'NR==20'
+
 }
 
 

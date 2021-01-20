@@ -18,15 +18,15 @@ URL_8="https://github.com/wine-staging/wine-staging/releases.atom" # Wine-stagin
 URL_9="https://github.com/Frogging-Family/wine-tkg-git/releases.atom" # Wine-tkg-git
 
 
-ENTRIES_1=$(curl -s "$URL_1" | sed -n 's/<title>/<\/title>/p' | sed ' s/<\/title>//g' | sed 's/^[ \t]*//')
-ENTRIES_2=$(curl -s "$URL_2" | sed -n 's/<title>/<\/title>/p' | sed ' s/<\/title>//g' | sed 's/^[ \t]*//')
-ENTRIES_3=$(curl -s "$URL_3" | sed -n 's/<title>/<\/title>/p' | sed ' s/<\/title>//g' | sed 's/^[ \t]*//')
-ENTRIES_4=$(curl -s "$URL_4" | sed -n 's/<title>/<\/title>/p' | sed ' s/<\/title>//g' | sed 's/^[ \t]*//')
-ENTRIES_5=$(curl -s "$URL_5" | sed -n 's/<title>/<\/title>/p' | sed ' s/<\/title>//g' | sed 's/^[ \t]*//')
-ENTRIES_6=$(curl -s "$URL_6" | sed -n 's/<title>/<\/title>/p' | sed ' s/<\/title>//g' | sed 's/^[ \t]*//')
-ENTRIES_7=$(curl -s "$URL_7" | sed -n 's/<title>/<\/title>/p' | sed ' s/<\/title>//g' | sed 's/^[ \t]*//')
-ENTRIES_8=$(curl -s "$URL_8" | sed -n 's/<title>/<\/title>/p' | sed ' s/<\/title>//g' | sed 's/^[ \t]*//')
-ENTRIES_9=$(curl -s "$URL_9" | sed -n 's/<title>/<\/title>/p' | sed ' s/<\/title>//g' | sed 's/^[ \t]*//')
+ENTRIES_1=$(curl -s "$URL_1" | awk -F "<title>|</title>" 'NF>1 {print $2}')
+ENTRIES_2=$(curl -s "$URL_2" | awk -F "<title>|</title>" 'NF>1 {print $2}')
+ENTRIES_3=$(curl -s "$URL_3" | awk -F "<title>|</title>" 'NF>1 {print $2}')
+ENTRIES_4=$(curl -s "$URL_4" | awk -F "<title>|</title>" 'NF>1 {print $2}')
+ENTRIES_5=$(curl -s "$URL_5" | awk -F "<title>|</title>" 'NF>1 {print $2}')
+ENTRIES_6=$(curl -s "$URL_6" | awk -F "<title>|</title>" 'NF>1 {print $2}')
+ENTRIES_7=$(curl -s "$URL_7" | awk -F "<title>|</title>" 'NF>1 {print $2}')
+ENTRIES_8=$(curl -s "$URL_8" | awk -F "<title>|</title>" 'NF>1 {print $2}')
+ENTRIES_9=$(curl -s "$URL_9" | awk -F "<title>|</title>" 'NF>1 {print $2}')
 
 
 CHECK_ENTRIES() {

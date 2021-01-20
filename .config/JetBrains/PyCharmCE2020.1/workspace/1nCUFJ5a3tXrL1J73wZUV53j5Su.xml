@@ -10,11 +10,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="68" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="101" />
+            <state relative-caret-position="987">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
             </state>
           </provider>
         </entry>
@@ -22,17 +22,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_github.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="693">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+            <state relative-caret-position="3066">
+              <caret line="146" selection-start-line="146" selection-end-line="146" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_youtube.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1349">
-              <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+            <state relative-caret-position="449">
+              <caret line="769" selection-start-line="769" selection-end-line="769" />
             </state>
           </provider>
         </entry>
@@ -41,11 +41,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>$ENTRIES_24</find>
-      <find>$ENTRIES_38</find>
-      <find>you</find>
-      <find>Ga</find>
-      <find>title</find>
       <find>commits/master</find>
       <find />
       <find>' | sed '</find>
@@ -71,38 +66,43 @@
       <find>git</find>
       <find>games</find>
       <find>pass</find>
+      <find>sed -n 's/&lt;media:title&gt;/&lt;\/media:title&gt;/p' | sed 's/&lt;\/media:title&gt;//g' | sed 's/^[ \t]*//')</find>
+      <find>#</find>
+      <find>sed -n 's/&lt;title&gt;/&lt;\/title&gt;/p' | sed ' s/&lt;\/title&gt;//g' | sed 's/^[ \t]*//')</find>
+      <find>41</find>
+      <find>; then</find>
     </findStrings>
     <replaceStrings>
-      <replace>$ENTRIES_39</replace>
-      <replace>YouTube</replace>
-      <replace>releases</replace>
-      <replace>sed 's|/|+|g' | 's/^[ \t]*//'</replace>
-      <replace>'s|/|+|g' | 's/^[ \t]*//'</replace>
-      <replace />
-      <replace>sed 's/^[ \t]*//' | sed 's|/|+|g'</replace>
-      <replace>;</replace>
-      <replace>\</replace>
-      <replace>\&lt;</replace>
-      <replace>\&gt;</replace>
-      <replace>\+</replace>
-      <replace>\/</replace>
-      <replace>@</replace>
-      <replace>&lt;</replace>
-      <replace>+</replace>
-      <replace>&lt;+title&gt;</replace>
-      <replace>'s/^[ \t]*//; s/\/+/+/g'</replace>
-      <replace>s/\//+/g'</replace>
-      <replace>check_entries_youtube</replace>
-      <replace>CHECK_ENTRIES</replace>
-      <replace>~/Scripts/Bash/Polybar/</replace>
-      <replace>~/.config/scripts/polybar/</replace>
-      <replace>pass_check_entries_youtube</replace>
-      <replace>&quot;$LOGS&quot;</replace>
-      <replace>| sed -n 's/Version/title/p' | sed 's/title//g; s/&lt;&gt;//g; s/title//g; s/&lt;\/&gt;//g'| sed 's/^[ \t]*//')</replace>
-      <replace>| sed -n 's/&lt;media:title&gt;/&lt;\/media:title&gt;/p' | sed 's/&lt;\/media:title&gt;//g' | sed 's/^[ \t]*//')</replace>
-      <replace>youtube</replace>
-      <replace>games</replace>
-      <replace>github</replace>
+      <replace>URL_53</replace>
+      <replace>URL_54</replace>
+      <replace>URL_55</replace>
+      <replace>URL_56</replace>
+      <replace>URL_57</replace>
+      <replace>URL_58</replace>
+      <replace>URL_59</replace>
+      <replace>URL_60</replace>
+      <replace>#</replace>
+      <replace>42</replace>
+      <replace>43</replace>
+      <replace>44</replace>
+      <replace>45</replace>
+      <replace>46</replace>
+      <replace>47</replace>
+      <replace>48</replace>
+      <replace>49</replace>
+      <replace>50</replace>
+      <replace>51</replace>
+      <replace>52</replace>
+      <replace>53</replace>
+      <replace>54</replace>
+      <replace>55</replace>
+      <replace>56</replace>
+      <replace>57</replace>
+      <replace>58</replace>
+      <replace>59</replace>
+      <replace>awk -F &quot;&lt;title&gt;|&lt;/title&gt;&quot; 'NF&gt;1 {print $2}')</replace>
+      <replace>60</replace>
+      <replace>;then</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -120,9 +120,9 @@
         <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_github_Reset.sh" />
         <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_youtube_not.sh" />
         <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_youtube_Reset.sh" />
-        <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh" />
-        <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_github.sh" />
         <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_youtube.sh" />
+        <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_github.sh" />
+        <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh" />
       </list>
     </option>
   </component>
@@ -133,7 +133,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectFrameBounds" x="0" y="36" width="1085" height="1009" extendedState="4" />
+  <component name="ProjectFrameBounds" x="0" y="36" width="1085" height="1009" extendedState="1" />
   <component name="ProjectView">
     <navigator proportions="" version="1" />
     <panes />
@@ -241,24 +241,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh">
+    <entry file="file://$USER_HOME$/Scripts/Bash/Games/-Launch_Game.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="9" column="68" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_github.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="693">
-          <caret line="33" column="24" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        <state relative-caret-position="378">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_youtube.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1349">
-          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+        <state relative-caret-position="449">
+          <caret line="769" selection-start-line="769" selection-end-line="769" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_github.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3066">
+          <caret line="146" selection-start-line="146" selection-end-line="146" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="987">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
         </state>
       </provider>
     </entry>

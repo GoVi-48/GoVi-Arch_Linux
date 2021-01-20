@@ -1,4 +1,8 @@
-#!/usr/bin/env bash
+#!/bin/bash
+
+if [ pgrep -x "*.exe" ];then
+    exit
+fi
 
 LOGS="$HOME/.config/polybar/scripts/Logs/YouTube"
 
@@ -7,7 +11,7 @@ LOGS="$HOME/.config/polybar/scripts/Logs/YouTube"
 
 echo -e "\nUpdating Entries...\n"
 
-#Linux
+# Linux
 URL_1="https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA" # Luke Smith
 URL_2="https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg" # Distrotube
 URL_3="https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA" # Brodie Robertson
@@ -52,6 +56,29 @@ URL_37="https://www.youtube.com/feeds/videos.xml?channel_id=UCZ4lyVmGC3yfJl1skgd
 URL_38="https://www.youtube.com/feeds/videos.xml?channel_id=UCuUu-Ea-F0FJDjQ-LXADQuw" # JG Kings06
 URL_39="https://www.youtube.com/feeds/videos.xml?channel_id=UCb4RFFBZEztOW77onViqoDA" # Simply Austin
 
+# Mistery
+URL_40="https://www.youtube.com/feeds/videos.xml?channel_id=UCXoXljexfCDZLj4SrrD6Q1w" # Andrea Alerta
+URL_41="https://www.youtube.com/feeds/videos.xml?channel_id=UCd6oFPuWw825Aw_gV_Xa21g" # ANGEL RUIZ OJEDA
+URL_42="https://www.youtube.com/feeds/videos.xml?channel_id=UCUbg4D2kdClf34xu7F2kG9Q" # Canal de Roly Polanco
+URL_43="https://www.youtube.com/feeds/videos.xml?channel_id=UC6bmn-6O0s0-F7rNH6Xx07A" # Cosmic Consciousness with Jonas
+URL_44="https://www.youtube.com/feeds/videos.xml?channel_id=UC_p3X5yMGs_LvtGTU-1ZsAQ" # DavidParcerisaLive
+URL_45="https://www.youtube.com/feeds/videos.xml?channel_id=UCxwWUF4NiXO6KZlQD0zcu2g" # El Nuevo Amanecer
+URL_46="https://www.youtube.com/feeds/videos.xml?channel_id=UCX-F2q3iv0rK7e7W59kThZg" # El Relleno Misterios
+URL_47="https://www.youtube.com/feeds/videos.xml?channel_id=UCM0AdqMFG8_TSL7MJy--RCA" # Jaconor 73
+URL_48="https://www.youtube.com/feeds/videos.xml?channel_id=UCq_50owIFPeREuXxnYzMmKA" # Lorena Martín Resonando Con Tu Esencia
+URL_49="https://www.youtube.com/feeds/videos.xml?channel_id=UC4Vm2JlEwPZmfbwPD13O5sw" # Luciernaga1962
+URL_50="https://www.youtube.com/feeds/videos.xml?channel_id=UCw5x89dM0RQTR3gd8bm0zhQ" # Martin Laplace
+URL_51="https://www.youtube.com/feeds/videos.xml?channel_id=UCqtBRc_K5jSiA4ssdWGbzdg" # Naturnia
+URL_52="https://www.youtube.com/feeds/videos.xml?channel_id=UC00t8KjOTEG5E1_lIwjG7hg" # Ponencias Zen
+URL_53="https://www.youtube.com/feeds/videos.xml?channel_id=UCUyk0KLo7JPLCCh4oRNLzsQ" # Quantum Gravity Research
+URL_54="https://www.youtube.com/feeds/videos.xml?channel_id=UCRwExXfoGXMCwkArli449Ag" # REAL SPIRIT DYNAMICS
+URL_55="https://www.youtube.com/feeds/videos.xml?channel_id=UCmdvAxEJ14EvXdASKbodj1Q" # RIMBEL35
+URL_56="https://www.youtube.com/feeds/videos.xml?channel_id=UC1KIUp4PNCyIwCPTq1hYzWQ" # Teal Swan
+URL_57="https://www.youtube.com/feeds/videos.xml?channel_id=UCQqcW6kDv64Rd-xCKQ8mc8g" # UNSALTOQUANTICO
+URL_58="https://www.youtube.com/feeds/videos.xml?channel_id=UCALE1jdtTAmgzyyH4FMU5pQ" # Verdad Oculta
+URL_59="https://www.youtube.com/feeds/videos.xml?channel_id=UCcbUuPjp7J32YSIESrUe76A" # Vm granmisterio
+URL_60="https://www.youtube.com/feeds/videos.xml?channel_id=UC8UexTu0pRdzJU83eLXGPIA" # Zohar StarGate Ancient Discoveries
+
 
 ENTRIES_1=$(curl -s "$URL_1" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
 ENTRIES_2=$(curl -s "$URL_2" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
@@ -92,9 +119,33 @@ ENTRIES_36=$(curl -s "$URL_36" | awk -F "<media:title>|</media:title>" 'NF>1 {pr
 ENTRIES_37=$(curl -s "$URL_37" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
 ENTRIES_38=$(curl -s "$URL_38" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
 ENTRIES_39=$(curl -s "$URL_39" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_40=$(curl -s "$URL_40" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_41=$(curl -s "$URL_41" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_42=$(curl -s "$URL_42" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_43=$(curl -s "$URL_43" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_44=$(curl -s "$URL_44" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_45=$(curl -s "$URL_45" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_46=$(curl -s "$URL_46" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_47=$(curl -s "$URL_47" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_48=$(curl -s "$URL_48" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_49=$(curl -s "$URL_49" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_50=$(curl -s "$URL_50" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_51=$(curl -s "$URL_51" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_52=$(curl -s "$URL_52" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_53=$(curl -s "$URL_53" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_54=$(curl -s "$URL_54" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_55=$(curl -s "$URL_55" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_56=$(curl -s "$URL_56" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_57=$(curl -s "$URL_57" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_58=$(curl -s "$URL_58" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_59=$(curl -s "$URL_59" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
+ENTRIES_60=$(curl -s "$URL_60" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')
 
 
 CHECK_ENTRIES(){
+    echo -e "\n<==============================================================>"
+    echo -e "                           Linux"
+    echo "<==============================================================>"
     echo "$ENTRIES_1" | awk 'NR==1'
     echo "$ENTRIES_1" | awk 'NR==2'
     echo "$ENTRIES_1" | awk 'NR==3'
@@ -195,6 +246,9 @@ CHECK_ENTRIES(){
     echo "$ENTRIES_10" | awk 'NR==8'
     echo "$ENTRIES_10" | awk 'NR==9'
 
+    echo -e "\n<=============================================================>"
+    echo "                            Gaming"
+    echo "<=============================================================>"
     echo "$ENTRIES_11" | awk 'NR==1'
     echo "$ENTRIES_11" | awk 'NR==2'
     echo "$ENTRIES_11" | awk 'NR==3'
@@ -405,6 +459,9 @@ CHECK_ENTRIES(){
     echo "$ENTRIES_31" | awk 'NR==8'
     echo "$ENTRIES_31" | awk 'NR==9'
 
+    echo -e "\n<=============================================================>"
+    echo "                            Gaming-Retro"
+    echo "<=============================================================>"
     echo "$ENTRIES_32" | awk 'NR==1'
     echo "$ENTRIES_32" | awk 'NR==2'
     echo "$ENTRIES_32" | awk 'NR==3'
@@ -484,22 +541,234 @@ CHECK_ENTRIES(){
     echo "$ENTRIES_39" | awk 'NR==7'
     echo "$ENTRIES_39" | awk 'NR==8'
     echo "$ENTRIES_39" | awk 'NR==9'
+
+    echo -e "\n<=============================================================>"
+    echo "                           Mistery"
+    echo "<=============================================================>"
+    echo "$ENTRIES_40" | awk 'NR==1'
+    echo "$ENTRIES_40" | awk 'NR==2'
+    echo "$ENTRIES_40" | awk 'NR==3'
+    echo "$ENTRIES_40" | awk 'NR==4'
+    echo "$ENTRIES_40" | awk 'NR==5'
+    echo "$ENTRIES_40" | awk 'NR==6'
+    echo "$ENTRIES_40" | awk 'NR==7'
+    echo "$ENTRIES_40" | awk 'NR==8'
+    echo "$ENTRIES_40" | awk 'NR==9'
+
+    echo "$ENTRIES_41" | awk 'NR==1'
+    echo "$ENTRIES_41" | awk 'NR==2'
+    echo "$ENTRIES_41" | awk 'NR==3'
+    echo "$ENTRIES_41" | awk 'NR==4'
+    echo "$ENTRIES_41" | awk 'NR==5'
+    echo "$ENTRIES_41" | awk 'NR==6'
+    echo "$ENTRIES_41" | awk 'NR==7'
+    echo "$ENTRIES_41" | awk 'NR==8'
+    echo "$ENTRIES_41" | awk 'NR==9'
+
+    echo "$ENTRIES_42" | awk 'NR==1'
+    echo "$ENTRIES_42" | awk 'NR==2'
+    echo "$ENTRIES_42" | awk 'NR==3'
+    echo "$ENTRIES_42" | awk 'NR==4'
+    echo "$ENTRIES_42" | awk 'NR==5'
+    echo "$ENTRIES_42" | awk 'NR==6'
+    echo "$ENTRIES_42" | awk 'NR==7'
+    echo "$ENTRIES_42" | awk 'NR==8'
+    echo "$ENTRIES_42" | awk 'NR==9'
+
+    echo "$ENTRIES_43" | awk 'NR==1'
+    echo "$ENTRIES_43" | awk 'NR==2'
+    echo "$ENTRIES_43" | awk 'NR==3'
+    echo "$ENTRIES_43" | awk 'NR==4'
+    echo "$ENTRIES_43" | awk 'NR==5'
+    echo "$ENTRIES_43" | awk 'NR==6'
+    echo "$ENTRIES_43" | awk 'NR==7'
+    echo "$ENTRIES_43" | awk 'NR==8'
+    echo "$ENTRIES_43" | awk 'NR==9'
+
+    echo "$ENTRIES_44" | awk 'NR==1'
+    echo "$ENTRIES_44" | awk 'NR==2'
+    echo "$ENTRIES_44" | awk 'NR==3'
+    echo "$ENTRIES_44" | awk 'NR==4'
+    echo "$ENTRIES_44" | awk 'NR==5'
+    echo "$ENTRIES_44" | awk 'NR==6'
+    echo "$ENTRIES_44" | awk 'NR==7'
+    echo "$ENTRIES_44" | awk 'NR==8'
+    echo "$ENTRIES_44" | awk 'NR==9'
+
+    echo "$ENTRIES_45" | awk 'NR==1'
+    echo "$ENTRIES_45" | awk 'NR==2'
+    echo "$ENTRIES_45" | awk 'NR==3'
+    echo "$ENTRIES_45" | awk 'NR==4'
+    echo "$ENTRIES_45" | awk 'NR==5'
+    echo "$ENTRIES_45" | awk 'NR==6'
+    echo "$ENTRIES_45" | awk 'NR==7'
+    echo "$ENTRIES_45" | awk 'NR==8'
+    echo "$ENTRIES_45" | awk 'NR==9'
+
+    echo "$ENTRIES_46" | awk 'NR==1'
+    echo "$ENTRIES_46" | awk 'NR==2'
+    echo "$ENTRIES_46" | awk 'NR==3'
+    echo "$ENTRIES_46" | awk 'NR==4'
+    echo "$ENTRIES_46" | awk 'NR==5'
+    echo "$ENTRIES_46" | awk 'NR==6'
+    echo "$ENTRIES_46" | awk 'NR==7'
+    echo "$ENTRIES_46" | awk 'NR==8'
+    echo "$ENTRIES_46" | awk 'NR==9'
+
+    echo "$ENTRIES_47" | awk 'NR==1'
+    echo "$ENTRIES_47" | awk 'NR==2'
+    echo "$ENTRIES_47" | awk 'NR==3'
+    echo "$ENTRIES_47" | awk 'NR==4'
+    echo "$ENTRIES_47" | awk 'NR==5'
+    echo "$ENTRIES_47" | awk 'NR==6'
+    echo "$ENTRIES_47" | awk 'NR==7'
+    echo "$ENTRIES_47" | awk 'NR==8'
+    echo "$ENTRIES_47" | awk 'NR==9'
+
+    echo "$ENTRIES_48" | awk 'NR==1'
+    echo "$ENTRIES_48" | awk 'NR==2'
+    echo "$ENTRIES_48" | awk 'NR==3'
+    echo "$ENTRIES_48" | awk 'NR==4'
+    echo "$ENTRIES_48" | awk 'NR==5'
+    echo "$ENTRIES_48" | awk 'NR==6'
+    echo "$ENTRIES_48" | awk 'NR==7'
+    echo "$ENTRIES_48" | awk 'NR==8'
+    echo "$ENTRIES_48" | awk 'NR==9'
+
+    echo "$ENTRIES_49" | awk 'NR==1'
+    echo "$ENTRIES_49" | awk 'NR==2'
+    echo "$ENTRIES_49" | awk 'NR==3'
+    echo "$ENTRIES_49" | awk 'NR==4'
+    echo "$ENTRIES_49" | awk 'NR==5'
+    echo "$ENTRIES_49" | awk 'NR==6'
+    echo "$ENTRIES_49" | awk 'NR==7'
+    echo "$ENTRIES_49" | awk 'NR==8'
+    echo "$ENTRIES_49" | awk 'NR==9'
+
+    echo "$ENTRIES_50" | awk 'NR==1'
+    echo "$ENTRIES_50" | awk 'NR==2'
+    echo "$ENTRIES_50" | awk 'NR==3'
+    echo "$ENTRIES_50" | awk 'NR==4'
+    echo "$ENTRIES_50" | awk 'NR==5'
+    echo "$ENTRIES_50" | awk 'NR==6'
+    echo "$ENTRIES_50" | awk 'NR==7'
+    echo "$ENTRIES_50" | awk 'NR==8'
+    echo "$ENTRIES_50" | awk 'NR==9'
+
+    echo "$ENTRIES_51" | awk 'NR==1'
+    echo "$ENTRIES_51" | awk 'NR==2'
+    echo "$ENTRIES_51" | awk 'NR==3'
+    echo "$ENTRIES_51" | awk 'NR==4'
+    echo "$ENTRIES_51" | awk 'NR==5'
+    echo "$ENTRIES_51" | awk 'NR==6'
+    echo "$ENTRIES_51" | awk 'NR==7'
+    echo "$ENTRIES_51" | awk 'NR==8'
+    echo "$ENTRIES_51" | awk 'NR==9'
+
+    echo "$ENTRIES_52" | awk 'NR==1'
+    echo "$ENTRIES_52" | awk 'NR==2'
+    echo "$ENTRIES_52" | awk 'NR==3'
+    echo "$ENTRIES_52" | awk 'NR==4'
+    echo "$ENTRIES_52" | awk 'NR==5'
+    echo "$ENTRIES_52" | awk 'NR==6'
+    echo "$ENTRIES_52" | awk 'NR==7'
+    echo "$ENTRIES_52" | awk 'NR==8'
+    echo "$ENTRIES_52" | awk 'NR==9'
+
+    echo "$ENTRIES_53" | awk 'NR==1'
+    echo "$ENTRIES_53" | awk 'NR==2'
+    echo "$ENTRIES_53" | awk 'NR==3'
+    echo "$ENTRIES_53" | awk 'NR==4'
+    echo "$ENTRIES_53" | awk 'NR==5'
+    echo "$ENTRIES_53" | awk 'NR==6'
+    echo "$ENTRIES_53" | awk 'NR==7'
+    echo "$ENTRIES_53" | awk 'NR==8'
+    echo "$ENTRIES_53" | awk 'NR==9'
+
+    echo "$ENTRIES_54" | awk 'NR==1'
+    echo "$ENTRIES_54" | awk 'NR==2'
+    echo "$ENTRIES_54" | awk 'NR==3'
+    echo "$ENTRIES_54" | awk 'NR==4'
+    echo "$ENTRIES_54" | awk 'NR==5'
+    echo "$ENTRIES_54" | awk 'NR==6'
+    echo "$ENTRIES_54" | awk 'NR==7'
+    echo "$ENTRIES_54" | awk 'NR==8'
+    echo "$ENTRIES_54" | awk 'NR==9'
+
+    echo "$ENTRIES_55" | awk 'NR==1'
+    echo "$ENTRIES_55" | awk 'NR==2'
+    echo "$ENTRIES_55" | awk 'NR==3'
+    echo "$ENTRIES_55" | awk 'NR==4'
+    echo "$ENTRIES_55" | awk 'NR==5'
+    echo "$ENTRIES_55" | awk 'NR==6'
+    echo "$ENTRIES_55" | awk 'NR==7'
+    echo "$ENTRIES_55" | awk 'NR==8'
+    echo "$ENTRIES_55" | awk 'NR==9'
+
+    echo "$ENTRIES_56" | awk 'NR==1'
+    echo "$ENTRIES_56" | awk 'NR==2'
+    echo "$ENTRIES_56" | awk 'NR==3'
+    echo "$ENTRIES_56" | awk 'NR==4'
+    echo "$ENTRIES_56" | awk 'NR==5'
+    echo "$ENTRIES_56" | awk 'NR==6'
+    echo "$ENTRIES_56" | awk 'NR==7'
+    echo "$ENTRIES_56" | awk 'NR==8'
+    echo "$ENTRIES_56" | awk 'NR==9'
+
+    echo "$ENTRIES_57" | awk 'NR==1'
+    echo "$ENTRIES_57" | awk 'NR==2'
+    echo "$ENTRIES_57" | awk 'NR==3'
+    echo "$ENTRIES_57" | awk 'NR==4'
+    echo "$ENTRIES_57" | awk 'NR==5'
+    echo "$ENTRIES_57" | awk 'NR==6'
+    echo "$ENTRIES_57" | awk 'NR==7'
+    echo "$ENTRIES_57" | awk 'NR==8'
+    echo "$ENTRIES_57" | awk 'NR==9'
+
+    echo "$ENTRIES_58" | awk 'NR==1'
+    echo "$ENTRIES_58" | awk 'NR==2'
+    echo "$ENTRIES_58" | awk 'NR==3'
+    echo "$ENTRIES_58" | awk 'NR==4'
+    echo "$ENTRIES_58" | awk 'NR==5'
+    echo "$ENTRIES_58" | awk 'NR==6'
+    echo "$ENTRIES_58" | awk 'NR==7'
+    echo "$ENTRIES_58" | awk 'NR==8'
+    echo "$ENTRIES_58" | awk 'NR==9'
+
+    echo "$ENTRIES_59" | awk 'NR==1'
+    echo "$ENTRIES_59" | awk 'NR==2'
+    echo "$ENTRIES_59" | awk 'NR==3'
+    echo "$ENTRIES_59" | awk 'NR==4'
+    echo "$ENTRIES_59" | awk 'NR==5'
+    echo "$ENTRIES_59" | awk 'NR==6'
+    echo "$ENTRIES_59" | awk 'NR==7'
+    echo "$ENTRIES_59" | awk 'NR==8'
+    echo "$ENTRIES_59" | awk 'NR==9'
+
+    echo "$ENTRIES_60" | awk 'NR==1'
+    echo "$ENTRIES_60" | awk 'NR==2'
+    echo "$ENTRIES_60" | awk 'NR==3'
+    echo "$ENTRIES_60" | awk 'NR==4'
+    echo "$ENTRIES_60" | awk 'NR==5'
+    echo "$ENTRIES_60" | awk 'NR==6'
+    echo "$ENTRIES_60" | awk 'NR==7'
+    echo "$ENTRIES_60" | awk 'NR==8'
+    echo "$ENTRIES_60" | awk 'NR==9'
+
 }
 
 
-if [ -f "$LOGS"/pass_check_entries_youtube ]; then
+if [ -f "$LOGS"/pass_check_entries_youtube ];then
     rm -f "$LOGS"/*check_entries_youtube
     CHECK_ENTRIES > "$LOGS"/check_entries_youtube
-    echo -e "\nENTRIES:============================================\n"
+    echo -e "\n<---------------------- ENTRIES ---------------------->\n"
     cat "$LOGS"/check_entries_youtube
     rm -f "$LOGS"/pass_check_entries_youtube
 fi
 
-if [ ! -f "$LOGS"/pass_check_entries_youtube ]; then
+if [ ! -f "$LOGS"/pass_check_entries_youtube ];then
     CHECK_ENTRIES > "$LOGS"/recheck_entries_youtube
-    echo -e "\nENTRIES:============================================\n"
-    cat "$LOGS"/check_entries_youtube
-    echo -e "\nRECHECK ENTRIES:====================================\n"
+    echo -e "\n<---------------------- RECHECK ENTRIES ---------------------->\n"
     cat "$LOGS"/recheck_entries_youtube
     DIFF=$(diff -s "$LOGS"/check_entries_youtube "$LOGS"/recheck_entries_youtube)
 fi

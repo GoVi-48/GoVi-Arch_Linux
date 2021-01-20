@@ -1,12 +1,22 @@
 [Document 0]
 Bookmarks=
 Encoding=UTF-8
-Highlighting=None
+Highlighting=Bash
 Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+URL=file:///home/govi/.config/polybar/scripts/reload_polybar.sh
+
+[Document 1]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=INI Files
+Highlighting Set By User=true
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-URL=file:///home/govi/.config/polybar/scripts/Logs/Games/recheck_entries_games
+URL=file:///home/govi/.config/polybar/config
 
 [Kate Plugins]
 cuttlefishplugin=false
@@ -36,10 +46,10 @@ textfilterplugin=false
 [MainWindow0]
 Active ViewSpace=0
 HDMI-0 Height 1080=928
-HDMI-0 Width 1920=1093
+HDMI-0 Width 1920=1081
 HDMI-0 XPosition=0
 HDMI-0 YPosition=113
-Kate-MDI-H-Splitter=160,1063,200
+Kate-MDI-H-Splitter=160,1051,200
 Kate-MDI-Sidebar-0-Splitter=0,0
 Kate-MDI-Sidebar-1-Splitter=
 Kate-MDI-Sidebar-2-Splitter=
@@ -67,17 +77,17 @@ Kate-MDI-ToolView-kateprojectinfo-Position=3
 Kate-MDI-ToolView-kateprojectinfo-Sidebar-Position=1
 Kate-MDI-ToolView-kateprojectinfo-Visible=false
 Kate-MDI-V-Splitter=150,830,271
-State=AAAA/wAAAAD9AAAAAAAABEUAAANcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABDkAAANcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 
 [MainWindow0][Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
 
 [MainWindow0 Settings]
 HDMI-0 Height 1080=928
-HDMI-0 Width 1920=1093
+HDMI-0 Width 1920=1081
 HDMI-0 XPosition=0
 HDMI-0 YPosition=113
-State=AAAA/wAAAAD9AAAAAAAABEUAAANcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABDkAAANcAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 WindowState=0
 
 [MainWindow0 Settings][Toolbar mainToolBar]
@@ -86,24 +96,33 @@ ToolButtonStyle=IconOnly
 [MainWindow0-Splitter 0]
 Children=MainWindow0-ViewSpace 0
 Orientation=1
-Sizes=1063
+Sizes=1051
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/govi/.config/polybar/scripts/Logs/Games/recheck_entries_games
-Count=1
-Documents=file:///home/govi/.config/polybar/scripts/Logs/Games/recheck_entries_games
-View 0=file:///home/govi/.config/polybar/scripts/Logs/Games/recheck_entries_games
+Active View=file:///home/govi/.config/polybar/scripts/reload_polybar.sh
+Count=2
+Documents=file:///home/govi/.config/polybar/scripts/reload_polybar.sh,file:///home/govi/.config/polybar/config
+View 0=file:///home/govi/.config/polybar/scripts/reload_polybar.sh
+View 1=file:///home/govi/.config/polybar/config
 
-[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/scripts/Logs/Games/recheck_entries_games]
-CursorColumn=0
-CursorLine=0
+[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/config]
+CursorColumn=14
+CursorLine=144
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=
+ViMarks=.,144,13,[,144,11,],144,13
+
+[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/scripts/reload_polybar.sh]
+CursorColumn=0
+CursorLine=6
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,8,43,[,9,0,],-1,-1
 
 [Open Documents]
-Count=1
+Count=2
 
 [Open MainWindows]
 Count=1
@@ -127,23 +146,23 @@ SearchDiskFiless=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/SR.html
-File10[$e]=$HOME/.config/polybar/scripts/Logs/Games/recheck_entries_games
-File2[$e]=https://www.skidrowreloaded.com/wp-includes/js/wp-embed.min.js?ver=5.0.11
-File3[$e]=$HOME/.config/polybar/sed.sh
-File4[$e]=$HOME/.config/polybar/scripts/rss_youtube_Reset.sh
-File5[$e]=$HOME/.config/polybar/scripts/rss_github_Reset.sh
-File6[$e]=$HOME/.config/polybar/scripts/rss_games_Reset.sh
-File7[$e]=$HOME/.config/polybar/config
-File8[$e]=$HOME/.config/polybar/scripts/rss_github_not.sh
-File9[$e]=$HOME/.config/polybar/scripts/Logs/Games/check_entries_games
-Name1[$e]=SR.html
-Name10[$e]=recheck_entries_games
-Name2[$e]=wp-embed.min.js
-Name3[$e]=sed.sh
-Name4[$e]=rss_youtube_Reset.sh
-Name5[$e]=rss_github_Reset.sh
-Name6[$e]=rss_games_Reset.sh
-Name7[$e]=config
-Name8[$e]=rss_github_not.sh
-Name9[$e]=check_entries_games
+File1[$e]=$HOME/.config/polybar/sed.sh
+File10[$e]=$HOME/.config/polybar/scripts/Logs/YouTube/rss_youtube
+File2[$e]=$HOME/.config/polybar/scripts/rss_youtube_Reset.sh
+File3[$e]=$HOME/.config/polybar/scripts/rss_github_Reset.sh
+File4[$e]=$HOME/.config/polybar/scripts/rss_games_Reset.sh
+File5[$e]=$HOME/.config/polybar/scripts/rss_github_not.sh
+File6[$e]=$HOME/.config/polybar/scripts/Logs/Games/check_entries_games
+File7[$e]=$HOME/.config/polybar/scripts/Logs/Games/recheck_entries_games
+File8[$e]=$HOME/.config/polybar/scripts/reload_polybar.sh
+File9[$e]=$HOME/.config/polybar/config
+Name1[$e]=sed.sh
+Name10[$e]=rss_youtube
+Name2[$e]=rss_youtube_Reset.sh
+Name3[$e]=rss_github_Reset.sh
+Name4[$e]=rss_games_Reset.sh
+Name5[$e]=rss_github_not.sh
+Name6[$e]=check_entries_games
+Name7[$e]=recheck_entries_games
+Name8[$e]=reload_polybar.sh
+Name9[$e]=config

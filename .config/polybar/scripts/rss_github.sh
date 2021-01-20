@@ -1,4 +1,8 @@
-#!/usr/bin/env bash
+#!/bin/bash
+
+if [ pgrep -x "*.exe" ];then
+    exit
+fi
 
 LOGS="$HOME/.config/polybar/scripts/Logs/Github"
 
@@ -131,19 +135,17 @@ CHECK_ENTRIES() {
 }
 
 
-if [ -f "$LOGS"/pass_check_entries_github ]; then
+if [ -f "$LOGS"/pass_check_entries_github ];then
     rm -f "$LOGS"/*check_entries_github
     CHECK_ENTRIES > "$LOGS"/check_entries_github
-    echo -e "\nENTRIES:============================================\n"
+    echo -e "\nENTRIES:============================================>\n"
     cat "$LOGS"/check_entries_github
     rm -f "$LOGS"/pass_check_entries_github
 fi
 
-if [ ! -f "$LOGS"/pass_check_entries_github ]; then
+if [ ! -f "$LOGS"/pass_check_entries_github ];then
     CHECK_ENTRIES > "$LOGS"/recheck_entries_github
-    echo -e "\nENTRIES:============================================\n"
-    cat "$LOGS"/check_entries_github
-    echo -e "\nRECHECK ENTRIES:====================================\n"
+    echo -e "\nRECHECK ENTRIES:====================================>\n"
     cat "$LOGS"/recheck_entries_github
     DIFF=$(diff -s "$LOGS"/check_entries_github "$LOGS"/recheck_entries_github)
 fi

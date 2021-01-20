@@ -142,7 +142,7 @@ interval = 300
 type = custom/script
 exec = ~/.config/polybar/scripts/rss_youtube_not.sh
 click-left =  liferea & ~/.config/polybar/scripts/rss_youtube_Reset.sh
-interval = 1000
+interval = 300
 
 [module/rss_games]
 type = custom/script

@@ -1,5 +1,9 @@
 #!/bin/bash
 
+if [ pgrep -x "*.exe" ];then
+    exit
+fi
+
 LOGS="$HOME/.config/polybar/scripts/Logs/Games"
 
 [ ! -d "$LOGS" ] && mkdir -p "$LOGS"
@@ -32,19 +36,17 @@ CHECK_ENTRIES() {
 }
 
 
-if [ -f "$LOGS"/pass_check_entries_games ]; then
+if [ -f "$LOGS"/pass_check_entries_games ];then
     rm -f "$LOGS"/*check_entries_games
     CHECK_ENTRIES > "$LOGS"/check_entries_games
-    echo -e "\nENTRIES:============================================\n"
+    echo -e "\nENTRIES:============================================>\n"
     cat "$LOGS"/check_entries_games
     rm -f "$LOGS"/pass_check_entries_games
 fi
 
-if [ ! -f "$LOGS"/pass_check_entries_games ]; then
+if [ ! -f "$LOGS"/pass_check_entries_games ];then
     CHECK_ENTRIES > "$LOGS"/recheck_entries_games
-    echo -e "\nENTRIES:============================================\n"
-    cat "$LOGS"/check_entries_games
-    echo -e "\nRECHECK ENTRIES:====================================\n"
+    echo -e "\nRECHECK ENTRIES:====================================>\n"
     cat "$LOGS"/recheck_entries_games
     DIFF=$(diff -s "$LOGS"/check_entries_games "$LOGS"/recheck_entries_games)
 fi

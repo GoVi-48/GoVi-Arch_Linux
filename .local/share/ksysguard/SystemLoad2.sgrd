@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE KSysGuardWorkSheet>
-<WorkSheet rows="3" interval="0.5" title="System Load" locked="1" columns="1">
- <host port="-1" shell="" name="localhost" command="ksysguardd"/>
- <display version="1" fontSize="8" stacked="0" svgBackground="widgets/plot-background" manualRange="0" vLines="0" title="CPU History" row="0" vDistance="30" column="0" labels="1" autoRange="0" hScale="6" showUnit="0" hLines="1" rowSpan="1" vScroll="0" class="FancyPlotter" unit="" columnSpan="1">
+<WorkSheet title="System Load" locked="1" columns="1" interval="0.5" rows="3">
+ <host port="-1" command="ksysguardd" name="localhost" shell=""/>
+ <display vLines="0" row="0" hScale="6" labels="1" title="CPU History" vScroll="0" vDistance="30" rowSpan="1" unit="" columnSpan="1" showUnit="0" autoRange="0" fontSize="8" version="1" column="0" hLines="1" stacked="0" manualRange="0" svgBackground="widgets/plot-background" class="FancyPlotter">
   <beam color="0xffff8000,0xffe20800,0xfff3c300,0xffff0000" regexpSensorName="cpu/cpu.*/TotalLoad" hostName="localhost" sensorType="float"/>
  </display>
- <display version="1" fontSize="8" stacked="0" svgBackground="widgets/plot-background" manualRange="0" vLines="0" title="Memory and Swap History" row="1" vDistance="30" column="0" labels="1" autoRange="0" hScale="6" showUnit="0" hLines="1" rowSpan="1" vScroll="0" class="FancyPlotter" unit="" columnSpan="1">
-  <beam sensorName="mem/physical/application" summationName="Memory" color="0xffc000c0" hostName="localhost" sensorType="integer"/>
-  <beam sensorName="mem/swap/used" summationName="Swap" color="0xff00c000" hostName="localhost" sensorType="integer"/>
+ <display vLines="0" row="1" hScale="6" labels="1" title="Memory and Swap History" vScroll="0" vDistance="30" rowSpan="1" unit="" columnSpan="1" showUnit="0" autoRange="0" fontSize="8" version="1" column="0" hLines="1" stacked="0" manualRange="0" svgBackground="widgets/plot-background" class="FancyPlotter">
+  <beam color="0xffc000c0" summationName="Memory" sensorName="mem/physical/application" hostName="localhost" sensorType="integer"/>
+  <beam color="0xff00c000" summationName="Swap" sensorName="mem/swap/used" hostName="localhost" sensorType="integer"/>
  </display>
- <display version="1" fontSize="8" stacked="0" svgBackground="widgets/plot-background" manualRange="1" vLines="0" title="Network History" row="2" vDistance="30" column="0" labels="1" autoRange="1" min="0" hScale="6" max="20" showUnit="0" hLines="1" rowSpan="1" vScroll="0" class="FancyPlotter" unit="" columnSpan="1">
-  <beam summationName="Receiving" color="0xffb3a52d" regexpSensorName="network/interfaces/(?!lo|bridge|usbus|bond).*/receiver/data" hostName="localhost" sensorType="float"/>
-  <beam summationName="Sending" color="0xff844798" regexpSensorName="network/interfaces/(?!lo|bridge|usbus|bond).*/transmitter/data" hostName="localhost" sensorType="float"/>
+ <display vLines="0" row="2" hScale="6" labels="1" title="Network History" vScroll="0" vDistance="30" rowSpan="1" unit="" columnSpan="1" showUnit="0" autoRange="1" fontSize="8" version="1" column="0" max="20" hLines="1" stacked="0" manualRange="1" min="0" svgBackground="widgets/plot-background" class="FancyPlotter">
+  <beam color="0xffb3a52d" summationName="Receiving" regexpSensorName="network/interfaces/(?!lo|bridge|usbus|bond).*/receiver/data" hostName="localhost" sensorType="float"/>
+  <beam color="0xff844798" summationName="Sending" regexpSensorName="network/interfaces/(?!lo|bridge|usbus|bond).*/transmitter/data" hostName="localhost" sensorType="float"/>
  </display>
 </WorkSheet>

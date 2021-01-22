@@ -15,11 +15,11 @@ GUIx_coordinate = (Screen_width / 2) - (GUI_width / 2)
 GUIy_coordinate = (Screen_height / 2) - (GUI_height / 2)
 GUI.geometry('%dx%d+%d+%d' % (GUI_width, GUI_height, GUIx_coordinate, GUIy_coordinate))
 
-GUI.iconphoto(True, PhotoImage(file='/Media/GoVi/Proyectos/Python/resources/Pass/lock.png'))
+GUI.iconphoto(True, PhotoImage(file='@resources/lock.png'))
 GUI.title('Password Utility')
 
-Font_large = ('Arial Bold', 14)
-Font_middle = ('Arial Bold', 10)
+Font_large = ('Arial Bold', 12)
+Font_middle = ('Arial Bold', 9)
 
 frame_left = Frame(GUI, width=184, height=400, bg='white')
 frame_left.grid(column=0, row=0, sticky=W)
@@ -28,15 +28,19 @@ frame_center.grid(column=1, row=0, sticky=W)
 frame_bottom = Frame(GUI, width=550, height=50)
 frame_bottom.grid(column=1, row=1, sticky=E)
 
-Banner = PhotoImage(file='/Media/GoVi/Proyectos/Python/resources/Kodi/Kodi_bg.gif')
-banner = Label(frame_left, image=Banner, width=184, height=400).grid()
+
+banner_left_img = PhotoImage(file='@resources/pass-vertical-banner.gif')
+banner_left = Label(frame_left, image=banner_left_img, width=184, height=400).grid()
 banner_2 = Label(frame_center, bg='lightgrey', width=400, height=2).place(x=0, y=0)
+
 
 Button_1 = Button(frame_center, bg='black', bd=0, font=Font_large, text='Password Store',
                   width=8, height=1).place(x=5, y=50)
 Button_1_desc = Label(frame_center, width=35, height=2, bd=1, relief='sunken', font=Font_middle,
                       text='Show all the sites that have passwords\nstored',
                       anchor=NW, justify=LEFT, padx=2).place(x=200, y=50)
+Button_1_img(frame_center, text="Button", image="image.png", compound=LEFT)
+
 
 Button_2 = Button(frame_center, bg='black', bd=0, font=Font_large, text='Show Password',
                   width=8, height=1).place(x=5, y=100)

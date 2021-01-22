@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export LANG=C.UTF-8
+
 pgrep -x "wineserver" > /dev/null  && exit
 
 LOGS="$HOME/.config/polybar/scripts/Logs/Github"
@@ -22,31 +24,30 @@ CHECK_ENTRIES() {
 }
 
 
-if [ -f "$LOGS"/pass_check_entries_github ];then
-    rm -f "$LOGS"/*check_entries_github
-    CHECK_ENTRIES > "$LOGS"/check_entries_github
+if [ -f "${LOGS}/pass_check_entries_github" ];then
+    rm -f "${LOGS}/*check_entries_github"
+    CHECK_ENTRIES > "${LOGS}/check_entries_github"
     echo -e "\n<---------------------- ENTRIES ---------------------->\n"
-    cat "$LOGS"/check_entries_github
-    rm -f "$LOGS"/pass_check_entries_github
+    cat "${LOGS}/check_entries_github"
+    rm -f "${LOGS}/pass_check_entries_github"
 fi
 
-if [ ! -f "$LOGS"/pass_check_entries_github ];then
-    CHECK_ENTRIES > "$LOGS"/recheck_entries_github
+if [ ! -f "${LOGS}/pass_check_entries_github" ];then
+    CHECK_ENTRIES > "${LOGS}/recheck_entries_github"
     echo -e "\n<---------------------- RECHECK ENTRIES ---------------------->\n"
-    cat "$LOGS"/recheck_entries_github
+    cat "${LOGS}/recheck_entries_github"
 fi
 
-UPDATES="$(diff -s "$LOGS"/check_entries_github "$LOGS"/recheck_entries_github)"
-UPDATES_COUNT="$($UPDATES | grep -c '^>')"
+UPDATES="$(diff -s "${LOGS}/check_entries_github" "${LOGS}/recheck_entries_github" | grep -c '^>')"
 
-echo "$UPDATES_COUNT" > "$LOGS"/rss_github
-echo -e "\n$UPDATES_COUNT Updates\n"
+echo "$UPDATES" > "${LOGS}/rss_github"
+echo -e "\n$UPDATES Updates\n"
 
-[ "$UPDATES_COUNT" -eq 1 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES_COUNT Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
-[ "$UPDATES_COUNT" -eq 5 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES_COUNT Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
-[ "$UPDATES_COUNT" -eq 10 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES_COUNT Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
-[ "$UPDATES_COUNT" -eq 15 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES_COUNT Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
-[ "$UPDATES_COUNT" -eq 20 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES_COUNT Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
+[ "$UPDATES" -eq 1 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
+[ "$UPDATES" -eq 5 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
+[ "$UPDATES" -eq 10 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
+[ "$UPDATES" -eq 15 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
+[ "$UPDATES" -eq 20 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
 
 # crontab -e
 # */5 * * * * ~/.config/polybar/scripts/rss_github.sh

@@ -1,11 +1,13 @@
 #!/bin/bash
 
+export LANG=C.UTF-8
+
 pgrep -x "wineserver" > /dev/null  && exit
 
 LOGS="$HOME/.config/polybar/scripts/Logs/YouTube"
 
-[ ! -d "$LOGS" ] && mkdir -p "$LOGS"ithub
-[ ! -f "$LOGS/rss_youtube" ] && echo "0" > "$LOGS"/rss_youtube
+[ ! -d "$LOGS" ] && mkdir -p "${LOGS}/YouTube"
+[ ! -f "${LOGS}/rss_youtube" ] && echo "0" > "${LOGS}/rss_youtube"
 
 echo -e "\nUpdating Entries...\n"
 
@@ -148,31 +150,30 @@ CHECK_ENTRIES(){
 }
 
 
-if [ -f "$LOGS"/pass_check_entries_youtube ];then
-    rm -f "$LOGS"/*check_entries_youtube
-    CHECK_ENTRIES > "$LOGS"/check_entries_youtube
+if [ -f "${LOGS}/pass_check_entries_youtube" ];then
+    rm -f "${LOGS}/*check_entries_youtube"
+    CHECK_ENTRIES > "${LOGS}/check_entries_youtube"
     echo -e "\n<---------------------- ENTRIES ---------------------->\n"
-    cat "$LOGS"/check_entries_youtube
-    rm -f "$LOGS"/pass_check_entries_youtube
+    cat "${LOGS}/check_entries_youtube"
+    rm -f "${LOGS}/pass_check_entries_youtube"
 fi
 
-if [ ! -f "$LOGS"/pass_check_entries_youtube ];then
-    CHECK_ENTRIES > "$LOGS"/recheck_entries_youtube
+if [ ! -f "${LOGS}/pass_check_entries_youtube" ];then
+    CHECK_ENTRIES > "${LOGS}/recheck_entries_youtube"
     echo -e "\n<---------------------- RECHECK ENTRIES ---------------------->\n"
-    cat "$LOGS"/recheck_entries_youtube
+    cat "${LOGS}/recheck_entries_youtube"
 fi
 
-UPDATES="$(diff -s "$LOGS"/check_entries_youtube "$LOGS"/recheck_entries_youtube)"
-UPDATES_COUNT="$($UPDATES | grep -c '^>')"
+UPDATES="$(diff -s "${LOGS}/check_entries_youtube" "${LOGS}/recheck_entries_youtube" | grep -c '^>')"
 
-echo "$UPDATES_COUNT" > "$LOGS"/rss_youtube
-echo -e "\n$UPDATES_COUNT Updates\n"
+echo "$UPDATES" > "${LOGS}/rss_youtube"
+echo -e "\n$UPDATES Updates\n"
 
-[ "$UPDATES_COUNT" -eq 1 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES_COUNT Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
-[ "$UPDATES_COUNT" -eq 5 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES_COUNT Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
-[ "$UPDATES_COUNT" -eq 10 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES_COUNT Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
-[ "$UPDATES_COUNT" -eq 15 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES_COUNT Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
-[ "$UPDATES_COUNT" -eq 20 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES_COUNT Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
+[ "$UPDATES" -eq 1 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
+[ "$UPDATES" -eq 5 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
+[ "$UPDATES" -eq 10 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
+[ "$UPDATES" -eq 15 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
+[ "$UPDATES" -eq 20 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
 
 # crontab -e
 # */5 * * * * ~/.config/polybar/scripts/rss_youtube.sh

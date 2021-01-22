@@ -6,47 +6,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-URL=file:///home/govi/.config/polybar/scripts/rss_youtube_Reset.sh
-
-[Document 1]
-Bookmarks=
-Encoding=ISO-8859-15
-Highlighting=None
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Normal
-Mode Set By User=false
-URL=file:///home/govi/.config/polybar/scripts/Logs/YouTube/rss_youtube
-
-[Document 2]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-URL=file:///home/govi/.config/polybar/scripts/rss_github_Reset.sh
-
-[Document 3]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-URL=file:///home/govi/.config/polybar/scripts/rss_games_Reset.sh
-
-[Document 4]
-Bookmarks=
-Encoding=UTF-8
-Highlighting=Bash
-Highlighting Set By User=false
-Indentation Mode=normal
-Mode=Bash
-Mode Set By User=false
-URL=file:///home/govi/.config/polybar/scripts/rss_youtube_not.sh
+URL=file:///home/govi/Scripts/Bash/examples.sh
 
 [Kate Plugins]
 cuttlefishplugin=false
@@ -129,57 +89,21 @@ Orientation=1
 Sizes=820
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/govi/.config/polybar/scripts/Logs/YouTube/rss_youtube
-Count=5
-Documents=file:///home/govi/.config/polybar/scripts/Logs/YouTube/rss_youtube,file:///home/govi/.config/polybar/scripts/rss_youtube_Reset.sh,file:///home/govi/.config/polybar/scripts/rss_github_Reset.sh,file:///home/govi/.config/polybar/scripts/rss_games_Reset.sh,file:///home/govi/.config/polybar/scripts/rss_youtube_not.sh
-View 0=file:///home/govi/.config/polybar/scripts/Logs/YouTube/rss_youtube
-View 1=file:///home/govi/.config/polybar/scripts/rss_youtube_Reset.sh
-View 2=file:///home/govi/.config/polybar/scripts/rss_github_Reset.sh
-View 3=file:///home/govi/.config/polybar/scripts/rss_games_Reset.sh
-View 4=file:///home/govi/.config/polybar/scripts/rss_youtube_not.sh
+Active View=file:///home/govi/Scripts/Bash/examples.sh
+Count=1
+Documents=file:///home/govi/Scripts/Bash/examples.sh
+View 0=file:///home/govi/Scripts/Bash/examples.sh
 
-[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/scripts/Logs/YouTube/rss_youtube]
+[MainWindow0-ViewSpace 0 file:///home/govi/Scripts/Bash/examples.sh]
 CursorColumn=0
-CursorLine=1
-Dynamic Word Wrap=false
-JumpList=
-TextFolding=[]
-ViMarks=
-
-[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/scripts/rss_games_Reset.sh]
-CursorColumn=0
-CursorLine=13
-Dynamic Word Wrap=false
-JumpList=
-TextFolding=[]
-ViMarks=.,2,29,[,2,29,],2,29
-
-[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/scripts/rss_github_Reset.sh]
-CursorColumn=29
-CursorLine=2
-Dynamic Word Wrap=false
-JumpList=
-TextFolding=[]
-ViMarks=.,2,29,[,2,29,],2,29
-
-[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/scripts/rss_youtube_Reset.sh]
-CursorColumn=0
-CursorLine=3
-Dynamic Word Wrap=false
-JumpList=
-TextFolding=[]
-ViMarks=.,3,0,[,3,0,],3,0
-
-[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/scripts/rss_youtube_not.sh]
-CursorColumn=0
-CursorLine=0
+CursorLine=16
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
 ViMarks=
 
 [Open Documents]
-Count=5
+Count=1
 
 [Open MainWindows]
 Count=1
@@ -197,29 +121,29 @@ MatchCase=true
 Place=0
 Recursive=true
 Replaces=|,/7,/,GOVI_ARCH_LINUX,FLAGS,cairo-dock > /dev/null 2>&1,    killall cairo-dock,latte-dock,    latte-dock &,     latte-dock &,    killall latte-dock,$WINE,    /home/$USER/Scripts/Bash/Polybar/launch.sh,cairo-dock cairo-dock-plug-ins,&,    cairo-dock > /dev/null 2>&1 &,    cairo-dock &,killall cairo-dock,cairo-dock,export WINEDLLOVERRIDES="mscoree\\,mshtml="export WINEFSYNC=1,5.18,5.19,5.20,5.21
-Search=/,</a></h2>,1.5.1,/tree/,version,of the engine,&lt;td&gt; of the engine&lt;/td&gt;,title,Version,+,tag,assets,1.6,GoVi_Arch_Linux,PARAMETERS,$ ,latte-dock,killall latte-dock,    latte-dock &,    killall latte-dock,dock,cairo-dock,cairo-dock &,     latte-dock &
+Search=PARAMETERS,/,</a></h2>,1.5.1,/tree/,version,of the engine,&lt;td&gt; of the engine&lt;/td&gt;,title,Version,+,tag,assets,1.6,GoVi_Arch_Linux,$ ,latte-dock,killall latte-dock,    latte-dock &,    killall latte-dock,dock,cairo-dock,cairo-dock &,     latte-dock &
 SearchDiskFiles=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 SearchDiskFiless=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/.config/polybar/scripts/Logs/Github/rss_github
-File10[$e]=$HOME/.config/polybar/scripts/Logs/YouTube/recheck_entries_youtube
-File2[$e]=$HOME/.config/polybar/scripts/Logs/Games/rss_games
-File3[$e]=$HOME/.config/polybar/scripts/Logs/YouTube/check_entries_youtube
-File4[$e]=$HOME/.config/polybar/scripts/email.sh
-File5[$e]=$HOME/.config/polybar/scripts/Logs/YouTube/rss_youtube
-File6[$e]=$HOME/.config/polybar/scripts/rss_youtube_Reset.sh
-File7[$e]=$HOME/.config/polybar/scripts/rss_github_Reset.sh
-File8[$e]=$HOME/.config/polybar/scripts/rss_games_Reset.sh
-File9[$e]=$HOME/.config/polybar/scripts/rss_youtube_not.sh
-Name1[$e]=rss_github
-Name10[$e]=recheck_entries_youtube
-Name2[$e]=rss_games
-Name3[$e]=check_entries_youtube
-Name4[$e]=email.sh
-Name5[$e]=rss_youtube
-Name6[$e]=rss_youtube_Reset.sh
-Name7[$e]=rss_github_Reset.sh
-Name8[$e]=rss_games_Reset.sh
-Name9[$e]=rss_youtube_not.sh
+File1[$e]=$HOME/.config/polybar/scripts/Logs/YouTube/rss_youtube
+File10[$e]=$HOME/Scripts/Bash/examples.sh
+File2[$e]=$HOME/.config/polybar/scripts/rss_youtube_Reset.sh
+File3[$e]=$HOME/.config/polybar/scripts/rss_github_Reset.sh
+File4[$e]=$HOME/.config/polybar/scripts/rss_games_Reset.sh
+File5[$e]=$HOME/.config/polybar/scripts/rss_youtube_not.sh
+File6[$e]=$HOME/.config/polybar/scripts/Logs/YouTube/recheck_entries_youtube
+File7[$e]=/Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Launch-STAR_WARS_Battlefront_II.sh
+File8[$e]=/Datos/Games/PC/-Launchers/Epic Games/Wine/Launch_Epic_Games.sh
+File9[$e]=/Datos/Games/PC/-Launchers/Origin/Wine/Launch-Origin.sh
+Name1[$e]=rss_youtube
+Name10[$e]=examples.sh
+Name2[$e]=rss_youtube_Reset.sh
+Name3[$e]=rss_github_Reset.sh
+Name4[$e]=rss_games_Reset.sh
+Name5[$e]=rss_youtube_not.sh
+Name6[$e]=recheck_entries_youtube
+Name7[$e]=Launch-STAR_WARS_Battlefront_II.sh
+Name8[$e]=Launch_Epic_Games.sh
+Name9[$e]=Launch-Origin.sh

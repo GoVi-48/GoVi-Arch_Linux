@@ -1,11 +1,15 @@
 #!/bin/bash
 
+pgrep -x liferea || killall liferea
+
+liferea &
+
 touch "$HOME/.config/polybar/scripts/Logs/Games/pass_check_entries_games"
 
 echo "0" > "$HOME/.config/polybar/scripts/Logs/Games/rss_games"
 
-"$HOME/.config/polybar/scripts/reload_polybar.sh"
+~/.config/polybar/scripts/rss_games.sh
 
-killall -q polybar
+~/.config/polybar/scripts/rss_games_not.sh
 
-polybar -r govi >> /tmp/polygovi.log 2>&1 &
+~/.config/polybar/scripts/reload_polybar.sh

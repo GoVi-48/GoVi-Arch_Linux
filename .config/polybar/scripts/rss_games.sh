@@ -28,8 +28,6 @@ CHECK_ENTRIES() {
     echo "$ENTRIES" | awk 'NR==16'
     echo "$ENTRIES" | awk 'NR==17'
     echo "$ENTRIES" | awk 'NR==18'
-    echo "$ENTRIES" | awk 'NR==19'
-    echo "$ENTRIES" | awk 'NR==20'
 
 }
 

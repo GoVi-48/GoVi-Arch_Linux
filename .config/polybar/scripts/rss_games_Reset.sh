@@ -1,8 +1,6 @@
 #!/bin/bash
 
-pgrep -x liferea || killall liferea
-
-liferea &
+pgrep -x liferea || liferea &
 
 touch "$HOME/.config/polybar/scripts/Logs/Games/pass_check_entries_games"
 

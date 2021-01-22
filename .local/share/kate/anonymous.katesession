@@ -6,17 +6,47 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-URL=file:///home/govi/Escritorio/pp
+URL=file:///home/govi/.config/polybar/scripts/rss_youtube_Reset.sh
 
 [Document 1]
 Bookmarks=
-Encoding=UTF-8
+Encoding=ISO-8859-15
 Highlighting=None
 Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-URL=file:///home/govi/Escritorio/pppp
+URL=file:///home/govi/.config/polybar/scripts/Logs/YouTube/rss_youtube
+
+[Document 2]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+URL=file:///home/govi/.config/polybar/scripts/rss_github_Reset.sh
+
+[Document 3]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+URL=file:///home/govi/.config/polybar/scripts/rss_games_Reset.sh
+
+[Document 4]
+Bookmarks=
+Encoding=UTF-8
+Highlighting=Bash
+Highlighting Set By User=false
+Indentation Mode=normal
+Mode=Bash
+Mode Set By User=false
+URL=file:///home/govi/.config/polybar/scripts/rss_youtube_not.sh
 
 [Kate Plugins]
 cuttlefishplugin=false
@@ -46,16 +76,16 @@ textfilterplugin=false
 [MainWindow0]
 Active ViewSpace=0
 HDMI-0 Height 1080=754
-HDMI-0 Width 1920=819
-HDMI-0 XPosition=1097
+HDMI-0 Width 1920=820
+HDMI-0 XPosition=1100
 HDMI-0 YPosition=75
-Kate-MDI-H-Splitter=160,789,200
+Kate-MDI-H-Splitter=160,820,200
 Kate-MDI-Sidebar-0-Splitter=0,0
 Kate-MDI-Sidebar-1-Splitter=
 Kate-MDI-Sidebar-2-Splitter=
 Kate-MDI-Sidebar-3-Splitter=0,0,0
 Kate-MDI-Sidebar-Style=2
-Kate-MDI-Sidebar-Visible=true
+Kate-MDI-Sidebar-Visible=false
 Kate-MDI-ToolView-kate_plugin_katesearch-Persistent=false
 Kate-MDI-ToolView-kate_plugin_katesearch-Position=3
 Kate-MDI-ToolView-kate_plugin_katesearch-Sidebar-Position=0
@@ -76,18 +106,18 @@ Kate-MDI-ToolView-kateprojectinfo-Persistent=false
 Kate-MDI-ToolView-kateprojectinfo-Position=3
 Kate-MDI-ToolView-kateprojectinfo-Sidebar-Position=1
 Kate-MDI-ToolView-kateprojectinfo-Visible=false
-Kate-MDI-V-Splitter=150,656,271
-State=AAAA/wAAAAD9AAAAAAAAAzMAAAKuAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Kate-MDI-V-Splitter=150,686,271
+State=AAAA/wAAAAD9AAAAAAAAAzQAAAKuAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 
 [MainWindow0][Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
 
 [MainWindow0 Settings]
 HDMI-0 Height 1080=754
-HDMI-0 Width 1920=819
-HDMI-0 XPosition=1097
+HDMI-0 Width 1920=820
+HDMI-0 XPosition=1100
 HDMI-0 YPosition=75
-State=AAAA/wAAAAD9AAAAAAAAAzMAAAKuAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAAAzQAAAKuAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 WindowState=0
 
 [MainWindow0 Settings][Toolbar mainToolBar]
@@ -96,33 +126,60 @@ ToolButtonStyle=IconOnly
 [MainWindow0-Splitter 0]
 Children=MainWindow0-ViewSpace 0
 Orientation=1
-Sizes=789
+Sizes=820
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/govi/Escritorio/pppp
-Count=2
-Documents=file:///home/govi/Escritorio/pp,file:///home/govi/Escritorio/pppp
-View 0=file:///home/govi/Escritorio/pp
-View 1=file:///home/govi/Escritorio/pppp
+Active View=file:///home/govi/.config/polybar/scripts/Logs/YouTube/rss_youtube
+Count=5
+Documents=file:///home/govi/.config/polybar/scripts/Logs/YouTube/rss_youtube,file:///home/govi/.config/polybar/scripts/rss_youtube_Reset.sh,file:///home/govi/.config/polybar/scripts/rss_github_Reset.sh,file:///home/govi/.config/polybar/scripts/rss_games_Reset.sh,file:///home/govi/.config/polybar/scripts/rss_youtube_not.sh
+View 0=file:///home/govi/.config/polybar/scripts/Logs/YouTube/rss_youtube
+View 1=file:///home/govi/.config/polybar/scripts/rss_youtube_Reset.sh
+View 2=file:///home/govi/.config/polybar/scripts/rss_github_Reset.sh
+View 3=file:///home/govi/.config/polybar/scripts/rss_games_Reset.sh
+View 4=file:///home/govi/.config/polybar/scripts/rss_youtube_not.sh
 
-[MainWindow0-ViewSpace 0 file:///home/govi/Escritorio/pp]
+[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/scripts/Logs/YouTube/rss_youtube]
+CursorColumn=0
+CursorLine=1
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=
+
+[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/scripts/rss_games_Reset.sh]
+CursorColumn=0
+CursorLine=13
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,2,29,[,2,29,],2,29
+
+[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/scripts/rss_github_Reset.sh]
+CursorColumn=29
+CursorLine=2
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,2,29,[,2,29,],2,29
+
+[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/scripts/rss_youtube_Reset.sh]
+CursorColumn=0
+CursorLine=3
+Dynamic Word Wrap=false
+JumpList=
+TextFolding=[]
+ViMarks=.,3,0,[,3,0,],3,0
+
+[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/scripts/rss_youtube_not.sh]
 CursorColumn=0
 CursorLine=0
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=.,0,0,[,0,0,],0,0
-
-[MainWindow0-ViewSpace 0 file:///home/govi/Escritorio/pppp]
-CursorColumn=0
-CursorLine=10
-Dynamic Word Wrap=false
-JumpList=
-TextFolding=[]
-ViMarks=.,25,0,[,25,0,],25,0
+ViMarks=
 
 [Open Documents]
-Count=2
+Count=5
 
 [Open MainWindows]
 Count=1
@@ -146,23 +203,23 @@ SearchDiskFiless=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/.config/polybar/scripts/rss_youtube_Reset.sh
-File10[$e]=$HOME/Escritorio/pppp
-File2[$e]=$HOME/Scripts/Python/GUI.py
-File3[$e]=/Media/GoVi/Proyectos/Python/Examples/GUI.py
-File4[$e]=/Media/GoVi/Proyectos/Python/Examples/Backup_Files.py
-File5[$e]=/Media/GoVi/Proyectos/Python/Examples/Scheduler.py
-File6[$e]=/Media/GoVi/Proyectos/Python/Examples/Open_py.py
-File7[$e]=/Media/GoVi/Proyectos/Python/Examples/Open_exe.py
-File8[$e]=$HOME/Scripts/Python/Webgrab_to_GIT.py
-File9[$e]=$HOME/Escritorio/pp
-Name1[$e]=rss_youtube_Reset.sh
-Name10[$e]=pppp
-Name2[$e]=GUI.py
-Name3[$e]=GUI.py
-Name4[$e]=Backup_Files.py
-Name5[$e]=Scheduler.py
-Name6[$e]=Open_py.py
-Name7[$e]=Open_exe.py
-Name8[$e]=Webgrab_to_GIT.py
-Name9[$e]=pp
+File1[$e]=$HOME/.config/polybar/scripts/Logs/Github/rss_github
+File10[$e]=$HOME/.config/polybar/scripts/Logs/YouTube/recheck_entries_youtube
+File2[$e]=$HOME/.config/polybar/scripts/Logs/Games/rss_games
+File3[$e]=$HOME/.config/polybar/scripts/Logs/YouTube/check_entries_youtube
+File4[$e]=$HOME/.config/polybar/scripts/email.sh
+File5[$e]=$HOME/.config/polybar/scripts/Logs/YouTube/rss_youtube
+File6[$e]=$HOME/.config/polybar/scripts/rss_youtube_Reset.sh
+File7[$e]=$HOME/.config/polybar/scripts/rss_github_Reset.sh
+File8[$e]=$HOME/.config/polybar/scripts/rss_games_Reset.sh
+File9[$e]=$HOME/.config/polybar/scripts/rss_youtube_not.sh
+Name1[$e]=rss_github
+Name10[$e]=recheck_entries_youtube
+Name2[$e]=rss_games
+Name3[$e]=check_entries_youtube
+Name4[$e]=email.sh
+Name5[$e]=rss_youtube
+Name6[$e]=rss_youtube_Reset.sh
+Name7[$e]=rss_github_Reset.sh
+Name8[$e]=rss_games_Reset.sh
+Name9[$e]=rss_youtube_not.sh

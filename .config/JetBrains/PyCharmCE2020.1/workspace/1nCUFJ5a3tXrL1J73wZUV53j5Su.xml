@@ -13,8 +13,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            <state relative-caret-position="764">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
             </state>
           </provider>
         </entry>
@@ -22,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_github.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="631">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -31,8 +31,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_youtube.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="568">
-              <caret line="318" selection-start-line="318" selection-end-line="318" />
+            <state relative-caret-position="433">
+              <caret line="165" column="41" selection-start-line="165" selection-start-column="41" selection-end-line="165" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -59,18 +59,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>youtube</find>
-      <find>github</find>
-      <find>git</find>
-      <find>games</find>
-      <find>pass</find>
-      <find>sed -n 's/&lt;media:title&gt;/&lt;\/media:title&gt;/p' | sed 's/&lt;\/media:title&gt;//g' | sed 's/^[ \t]*//')</find>
-      <find>sed -n 's/&lt;title&gt;/&lt;\/title&gt;/p' | sed ' s/&lt;\/title&gt;//g' | sed 's/^[ \t]*//')</find>
-      <find>41</find>
-      <find>; then</find>
-      <find>$ENTRIES_59</find>
-      <find>#</find>
-      <find>&quot;</find>
       <find>h</find>
       <find>$URL_65</find>
       <find>$URL_5</find>
@@ -82,30 +70,27 @@
       <find>;'</find>
       <find>=</find>
       <find>Linux</find>
-      <find>#END</find>
       <find>D:/THC/Proyectos</find>
       <find>/Media</find>
       <find>D:/THC</find>
       <find>/Media/</find>
       <find>$ENTRIES_2_6</find>
       <find>$ENTRIES_9_7</find>
+      <find>${NC}</find>
+      <find>{print $2}')</find>
+      <find>echo -e &quot;</find>
+      <find>:\n=</find>
+      <find>_</find>
+      <find>&amp;&amp; &quot;$NOT&quot;</find>
+      <find>github</find>
+      <find>youtube</find>
+      <find>#END</find>
+      <find>&quot;$NOT&quot;</find>
+      <find>Scripts/Bash/Polybar</find>
+      <find>$UPDATES</find>
+      <find>UPDATES_COUNT</find>
     </findStrings>
     <replaceStrings>
-      <replace>$ENTRIES_1_5</replace>
-      <replace>$ENTRIES_1_6</replace>
-      <replace>$ENTRIES_1_7</replace>
-      <replace>$ENTRIES_1_8</replace>
-      <replace>$ENTRIES_1_9</replace>
-      <replace>$ENTRIES_1_10</replace>
-      <replace>$ENTRIES_2_1</replace>
-      <replace>$ENTRIES_2_2</replace>
-      <replace>$ENTRIES_3_21</replace>
-      <replace>$ENTRIES_5_21</replace>
-      <replace>$ENTRIES_6_1</replace>
-      <replace>$ENTRIES_9_</replace>
-      <replace>';</replace>
-      <replace>-</replace>
-      <replace>$HOME</replace>
       <replace>/Media/GoVi/Proyectos</replace>
       <replace>Z:/Media</replace>
       <replace>/Media</replace>
@@ -121,6 +106,21 @@
       <replace>$ENTRIES_ANGEL_RUIZ_OJEDA</replace>
       <replace>$ENTRIES_Canal_de_Roly_Polanco</replace>
       <replace>$ENTRIES_Viction</replace>
+      <replace>echo -e &quot;</replace>
+      <replace>{print $2}')&quot;</replace>
+      <replace>echo -e &quot;\n</replace>
+      <replace>:\n</replace>
+      <replace />
+      <replace>#END</replace>
+      <replace>&amp;&amp; ${&quot;NOT&quot;}</replace>
+      <replace>games</replace>
+      <replace>github</replace>
+      <replace># END</replace>
+      <replace>config/polybar/scripts</replace>
+      <replace>.config/polybar/scripts</replace>
+      <replace>kdialog --icon &quot;$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg&quot; --passivepopup &quot;$UPDATES Updates&quot; 8 &amp;&amp; paplay &quot;$HOME/.local/share/sounds/cause-and-effect.ogg&quot;</replace>
+      <replace>$UPDATES_COUNT</replace>
+      <replace>UPDATES_COUNT</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -139,13 +139,13 @@
         <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_youtube_not.sh" />
         <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_youtube_Reset.sh" />
         <option value="$USER_HOME$/Scripts/Bash/Games/-Launch_Game.sh" />
-        <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_github.sh" />
         <option value="$USER_HOME$/Scripts/Bash/Games/Star_Wars_Battlefront_II.sh" />
-        <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh" />
         <option value="$USER_HOME$/.config/liferea/feedlist.opml" />
         <option value="$USER_HOME$/Proyectos/Python/Examples/GUI.py" />
         <option value="/Media/GoVi/Proyectos/Python/Examples/GUI.py" />
         <option value="$USER_HOME$/Scripts/Python/GUI_example.py" />
+        <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_github.sh" />
+        <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh" />
         <option value="$USER_HOME$/Scripts/Bash/Polybar/rss_youtube.sh" />
       </list>
     </option>
@@ -157,7 +157,7 @@
       </set>
     </option>
   </component>
-  <component name="ProjectFrameBounds" x="0" y="36" width="1081" height="1009" extendedState="4" />
+  <component name="ProjectFrameBounds" x="0" y="36" width="1096" height="1009" />
   <component name="ProjectView">
     <navigator proportions="" version="1" />
     <panes />
@@ -313,20 +313,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" selection-start-line="30" selection-end-line="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_github.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Scripts/Python/GUI.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -341,10 +327,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_games.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="764">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_github.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Scripts/Bash/Polybar/rss_youtube.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="568">
-          <caret line="318" selection-start-line="318" selection-end-line="318" />
+        <state relative-caret-position="433">
+          <caret line="165" column="41" selection-start-line="165" selection-start-column="41" selection-end-line="165" selection-end-column="42" />
         </state>
       </provider>
     </entry>

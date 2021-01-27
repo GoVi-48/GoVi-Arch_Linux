@@ -1,81 +1,147 @@
-import tkinter
 from tkinter import *
+import tkinter as tk
+import os
+import subprocess
 
-# path = sys.path[0]
-# GUI.iconphoto(True, PhotoImage(file=os.path.join(program_directory, "test.png")))
+GUI = tk.Tk()
 
-GUI = Tk()
-GUI_width = 720
-GUI_height = 455
-GUI.resizable(width=False, height=False)
-
-Screen_width = GUI.winfo_screenwidth()
-Screen_height = GUI.winfo_screenheight()
-GUIx_coordinate = (Screen_width / 2) - (GUI_width / 2)
-GUIy_coordinate = (Screen_height / 2) - (GUI_height / 2)
+# Dimensions
+GUI_width = 1000
+GUI_height = 400
+SCREEN_width = GUI.winfo_screenwidth()
+SCREEN_height = GUI.winfo_screenheight()
+GUIx_coordinate = (SCREEN_width / 2) - (GUI_width / 2)
+GUIy_coordinate = (SCREEN_height / 2) - (GUI_height / 2)
 GUI.geometry('%dx%d+%d+%d' % (GUI_width, GUI_height, GUIx_coordinate, GUIy_coordinate))
 
-GUI.iconphoto(True, PhotoImage(file='@resources/lock.png'))
+# Font
+FONT_large = ('Hack Bold', 12)
+FONT_middle = ('Hack Bold', 9)
+
+# Title and Logo
 GUI.title('Password Utility')
+GUI.call('wm', 'iconphoto', GUI._w, PhotoImage(file='resources/lock.png'))
 
-Font_large = ('Arial Bold', 12)
-Font_middle = ('Arial Bold', 9)
+# Frames
+FRAME_top_left = Frame(GUI, width=730, height=400, bg='white', padx=210)
+FRAME_top_right = Frame(GUI, width=270, height=400, bg='grey')
+# FRAME_bottom = Frame(GUI, width=720, height=400, bg='#c5c5c5').place(x=0, y=400)
 
-frame_left = Frame(GUI, width=184, height=400, bg='white')
-frame_left.grid(column=0, row=0, sticky=W)
-frame_center = Frame(GUI, width=540, height=400, bg='white')
-frame_center.grid(column=1, row=0, sticky=W)
-frame_bottom = Frame(GUI, width=550, height=50)
-frame_bottom.grid(column=1, row=1, sticky=E)
-
-
-banner_left_img = PhotoImage(file='@resources/pass-vertical-banner.gif')
-banner_left = Label(frame_left, image=banner_left_img, width=184, height=400).grid()
-banner_2 = Label(frame_center, bg='lightgrey', width=400, height=2).place(x=0, y=0)
+# Banner
+BANNER_left_img = PhotoImage(file='resources/banner.png')
+BANNER_left = Label(image=BANNER_left_img).place(x=0, y=0)
 
 
-Button_1 = Button(frame_center, bg='black', bd=0, font=Font_large, text='Password Store',
-                  width=8, height=1).place(x=5, y=50)
-Button_1_desc = Label(frame_center, width=35, height=2, bd=1, relief='sunken', font=Font_middle,
-                      text='Show all the sites that have passwords\nstored',
-                      anchor=NW, justify=LEFT, padx=2).place(x=200, y=50)
-Button_1_img(frame_center, text="Button", image="image.png", compound=LEFT)
+# <=========================== Button_1 ===========================> #
+def PASSWORD_STORE():
+    output = os.system("passtore.sh")
+    Label(FRAME_top_right, bg='#242729', bd=1, font=FONT_middle,
+    width=270, height=380,  anchor=NW, justify=LEFT, padx=3, textvariable=output).place(x=0, y=10)
+    scrollbar = Scrollbar(FRAME_top_right, orient='vertical').place(x=250, y=10, height=380)
 
 
-Button_2 = Button(frame_center, bg='black', bd=0, font=Font_large, text='Show Password',
-                  width=8, height=1).place(x=5, y=100)
-Button_2_desc = Label(frame_center, width=35, height=2, bd=1, relief='sunken', font=Font_middle,
-                      text='Show Password of a site',
-                      anchor=NW, justify=LEFT, padx=2).place(x=200, y=100)
+LOGO_1_img = PhotoImage(file='resources/encrypt.png')
+LOGO_1 = Label(FRAME_top_left, image=LOGO_1_img, height=30).place(x=0, y=50)
+
+BUTTON_1 = Button(
+    FRAME_top_left, bg='black', bd=1, font=FONT_large,
+    width=8, height=1, text='Password Store',
+    command=PASSWORD_STORE).place(x=35, y=50)
+
+BUTTON_1_desc = Label(
+    FRAME_top_left, bg='grey', bd=2, relief='sunken', font=FONT_middle,
+    width=21, height=2, anchor=NW, justify=LEFT, padx=3,
+    text='Show all the sites that have passwords\nstored').place(x=210, y=50)
+
+FRAME_top_left.grid(row=0, column=0, sticky=W)
+# # <=========================== Button_2 ===========================> #
+# def VIEW():
+#     os.system("")
 #
-# Button_3 = Button(frame_center, bg='white', bd=0, font=Font_large, text='Restaurar',
-#                   width=18, height=1).place(x=0, y=230)
-# Button_3_desc = Label(frame_center, width=35, height=3, bd=4, relief='sunken', font=Font_middle,
-#                       text='Restaura Kodi a la versión anterior.\nLa de la copia de Seguridad. Si se desea, se\npuede '
-#                            'restaurar su versión original.',
-#                       anchor=NW, justify=LEFT, padx=2).place(x=200, y=230)
 #
-# Button_4 = Button(frame_center, bg='white', bd=0, font=('Arial Bold', 18), text='Instalar',
-#                   width=12, height=1).place(x=10, y=330)
-# Button_4_desc = Label(frame_center, width=35, height=3, bd=4, relief='sunken', font=Font_middle,
-#                       text='Instala la versión de Kodi preconfigurada con:\nSkin Estuary GoVi + Selección de Add-ons.',
-#                       anchor=NW, justify=LEFT, padx=2).place(x=200, y=320)
+# LOGO_2_img = PhotoImage(file='resources/view.png')
+# LOGO_2 = Label(FRAME_top_left, image=LOGO_2_img, width=32, height=32).place(x=210, y=100)
 #
-# Icon_1 = PhotoImage(file='/Media/GoVi/Proyectos/Python/resources/Kodi/Clean.png')
-# icon_1 = Label(frame_center, bg='white', image=Icon_1, width=30, height=30).place(x=3, y=50)
-# Icon_2 = PhotoImage(file='/Media/GoVi/Proyectos/Python/resources/Kodi/Backup.png')
-# icon_2 = Label(frame_center, bg='white', image=Icon_2, width=30, height=30).place(x=5, y=140)
-# Icon_3 = PhotoImage(file='/Media/GoVi/Proyectos/Python/resources/Kodi/Restore.png')
-# icon_3 = Label(frame_center, bg='white', image=Icon_3, width=30, height=30).place(x=5, y=230)
-# Icon_4 = PhotoImage(file='/Media/GoVi/Proyectos/Python/resources/Kodi/Install.png')
-# icon_4 = Label(frame_center, bg='white', image=Icon_4, width=30, height=30).place(x=5, y=330)
+# BUTTON_2 = Button(
+#     FRAME_top_left, bg='black', bd=2, font=FONT_large,
+#     width=8, height=1, text='View',
+#     command=VIEW).place(x=245, y=100)
+#
+# BUTTON_2_desc = Label(FRAME_top_left,
+#     bg='grey', bd=3, relief='sunken', font=FONT_middle,
+#     width=35, height=2, anchor=NW, padx=3,
+#     text='View Password of a site').place(x=420, y=100)
+#
+
+# # <=========================== Button_3 ===========================> #
+# def ADD():
+#     os.system("")
+#
+#
+# LOGO_3_img = PhotoImage(file='resources/add.png')
+# LOGO_3 = Label(FRAME_top_left, image=LOGO_3_img, width=32, height=30).place(x=210, y=150)
+#
+# BUTTON_3 = Button(
+#     FRAME_top_left,
+#     bg='black', bd=2, font=FONT_large,
+#     width=8, height=1, text='Add',
+#     command=ADD).place(x=245, y=150)
+#
+# BUTTON_3_desc = Label(
+#     FRAME_top_left, bg='grey', bd=3, relief='sunken', font=FONT_middle,
+#     width=35, height=2, anchor=NW, justify=LEFT, padx=3,
+#     text='Add a Password to a site').place(x=420, y=150)
+#
+#
+# # <=========================== Button_4 ===========================> #
+# def REMOVE():
+#     os.system("")
+#
+#
+# LOGO_4_img = PhotoImage(file='resources/clean.png')
+# LOGO_4 = Label(FRAME_top_left, image=LOGO_4_img, width=32, height=30).place(x=2100, y=200)
+#
+# BUTTON_4 = Button(
+#     FRAME_top_left,
+#     bg='black', bd=2, font=FONT_large,
+#     width=8, height=1, text='Remove',
+#     command=REMOVE).place(x=245, y=200)
+#
+#
+# BUTTON_4_desc = Label(
+#     FRAME_top_left, bg='grey', bd=3, relief='sunken', font=FONT_middle,
+#     width=35, height=2, anchor=NW, justify=LEFT, padx=3,
+#     text='Remove a Password of a site').place(x=420, y=200)
+#
+#
+# # <=========================== Button_5 ===========================> #
+# def MODIFY():
+#     os.system("")
+#
+#
+# LOGO_5_img = PhotoImage(file='resources/decrypt.png')
+# LOGO_5 = Label(FRAME_top_left, image=LOGO_5_img, width=32, height=30).place(x=210, y=250)
+#
+# BUTTON_5 = Button(
+#     FRAME_top_left, bg='black', bd=2, font=FONT_large,
+#     width=8, height=1, text='Modify',
+#     command=MODIFY).place(x=245, y=250)
+#
+#
+# BUTTON_5_desc = Label(
+#     FRAME_top_left, bg='grey', bd=3, relief='sunken', font=FONT_middle,
+#     width=35, height=2, anchor=NW, justify=LEFT, padx=3,
+#     text='Modify a Password of a site').place(x=420, y=250)
+#
+#
+FRAME_top_right.grid(row=0, column=1, sticky=E)
 #
 #
 # def Button_exit():
 #     exit()
 #
 #
-# Button_exit = Button(frame_bottom, text="Salir", font=Font_middle, bd=4, relief='raised', command=Button_exit)
+# Button_exit = Button(FRAME_bottom, text="Salir", font=FONT_middle, bd=4, relief='raised', command=Button_exit)
 # Button_exit.pack(padx=10, pady=10)
 
 GUI.mainloop()

@@ -6,7 +6,7 @@ Highlighting Set By User=false
 Indentation Mode=normal
 Mode=Bash
 Mode Set By User=false
-URL=file:///home/govi/Scripts/Bash/examples.sh
+URL=file:///home/govi/Scripts/Bash/Games/-Launch_Game.sh
 
 [Kate Plugins]
 cuttlefishplugin=false
@@ -35,17 +35,17 @@ textfilterplugin=false
 
 [MainWindow0]
 Active ViewSpace=0
-HDMI-0 Height 1080=754
-HDMI-0 Width 1920=820
-HDMI-0 XPosition=1100
+HDMI-0 Height 1080=971
+HDMI-0 Width 1920=1095
+HDMI-0 XPosition=0
 HDMI-0 YPosition=75
-Kate-MDI-H-Splitter=160,820,200
+Kate-MDI-H-Splitter=160,1065,200
 Kate-MDI-Sidebar-0-Splitter=0,0
 Kate-MDI-Sidebar-1-Splitter=
 Kate-MDI-Sidebar-2-Splitter=
 Kate-MDI-Sidebar-3-Splitter=0,0,0
 Kate-MDI-Sidebar-Style=2
-Kate-MDI-Sidebar-Visible=false
+Kate-MDI-Sidebar-Visible=true
 Kate-MDI-ToolView-kate_plugin_katesearch-Persistent=false
 Kate-MDI-ToolView-kate_plugin_katesearch-Position=3
 Kate-MDI-ToolView-kate_plugin_katesearch-Sidebar-Position=0
@@ -66,18 +66,18 @@ Kate-MDI-ToolView-kateprojectinfo-Persistent=false
 Kate-MDI-ToolView-kateprojectinfo-Position=3
 Kate-MDI-ToolView-kateprojectinfo-Sidebar-Position=1
 Kate-MDI-ToolView-kateprojectinfo-Visible=false
-Kate-MDI-V-Splitter=150,686,271
-State=AAAA/wAAAAD9AAAAAAAAAzQAAAKuAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+Kate-MDI-V-Splitter=150,873,271
+State=AAAA/wAAAAD9AAAAAAAABEcAAAOHAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 
 [MainWindow0][Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
 
 [MainWindow0 Settings]
-HDMI-0 Height 1080=754
-HDMI-0 Width 1920=820
-HDMI-0 XPosition=1100
+HDMI-0 Height 1080=971
+HDMI-0 Width 1920=1095
+HDMI-0 XPosition=0
 HDMI-0 YPosition=75
-State=AAAA/wAAAAD9AAAAAAAAAzQAAAKuAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABEcAAAOHAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 WindowState=0
 
 [MainWindow0 Settings][Toolbar mainToolBar]
@@ -86,17 +86,17 @@ ToolButtonStyle=IconOnly
 [MainWindow0-Splitter 0]
 Children=MainWindow0-ViewSpace 0
 Orientation=1
-Sizes=820
+Sizes=1065
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///home/govi/Scripts/Bash/examples.sh
+Active View=file:///home/govi/Scripts/Bash/Games/-Launch_Game.sh
 Count=1
-Documents=file:///home/govi/Scripts/Bash/examples.sh
-View 0=file:///home/govi/Scripts/Bash/examples.sh
+Documents=file:///home/govi/Scripts/Bash/Games/-Launch_Game.sh
+View 0=file:///home/govi/Scripts/Bash/Games/-Launch_Game.sh
 
-[MainWindow0-ViewSpace 0 file:///home/govi/Scripts/Bash/examples.sh]
+[MainWindow0-ViewSpace 0 file:///home/govi/Scripts/Bash/Games/-Launch_Game.sh]
 CursorColumn=0
-CursorLine=16
+CursorLine=0
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
@@ -118,32 +118,32 @@ Filters=\\0
 FollowSymLink=false
 HiddenFiles=false
 MatchCase=true
-Place=0
+Place=1
 Recursive=true
-Replaces=|,/7,/,GOVI_ARCH_LINUX,FLAGS,cairo-dock > /dev/null 2>&1,    killall cairo-dock,latte-dock,    latte-dock &,     latte-dock &,    killall latte-dock,$WINE,    /home/$USER/Scripts/Bash/Polybar/launch.sh,cairo-dock cairo-dock-plug-ins,&,    cairo-dock > /dev/null 2>&1 &,    cairo-dock &,killall cairo-dock,cairo-dock,export WINEDLLOVERRIDES="mscoree\\,mshtml="export WINEFSYNC=1,5.18,5.19,5.20,5.21
-Search=PARAMETERS,/,</a></h2>,1.5.1,/tree/,version,of the engine,&lt;td&gt; of the engine&lt;/td&gt;,title,Version,+,tag,assets,1.6,GoVi_Arch_Linux,$ ,latte-dock,killall latte-dock,    latte-dock &,    killall latte-dock,dock,cairo-dock,cairo-dock &,     latte-dock &
+Replaces=ARGS,|,/7,/,GOVI_ARCH_LINUX,FLAGS,cairo-dock > /dev/null 2>&1,    killall cairo-dock,latte-dock,    latte-dock &,     latte-dock &,    killall latte-dock,$WINE,    /home/$USER/Scripts/Bash/Polybar/launch.sh,cairo-dock cairo-dock-plug-ins,&,    cairo-dock > /dev/null 2>&1 &,    cairo-dock &,killall cairo-dock,cairo-dock,export WINEDLLOVERRIDES="mscoree\\,mshtml="export WINEFSYNC=1,5.18,5.19,5.20
+Search=FLAGS,PARAMETERS,/,</a></h2>,1.5.1,/tree/,version,of the engine,&lt;td&gt; of the engine&lt;/td&gt;,title,Version,+,tag,assets,1.6,GoVi_Arch_Linux,$ ,latte-dock,killall latte-dock,    latte-dock &,    killall latte-dock,dock,cairo-dock,cairo-dock &
 SearchDiskFiles=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 SearchDiskFiless=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/.config/polybar/scripts/Logs/YouTube/rss_youtube
-File10[$e]=$HOME/Scripts/Bash/examples.sh
-File2[$e]=$HOME/.config/polybar/scripts/rss_youtube_Reset.sh
-File3[$e]=$HOME/.config/polybar/scripts/rss_github_Reset.sh
-File4[$e]=$HOME/.config/polybar/scripts/rss_games_Reset.sh
-File5[$e]=$HOME/.config/polybar/scripts/rss_youtube_not.sh
-File6[$e]=$HOME/.config/polybar/scripts/Logs/YouTube/recheck_entries_youtube
-File7[$e]=/Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Launch-STAR_WARS_Battlefront_II.sh
-File8[$e]=/Datos/Games/PC/-Launchers/Epic Games/Wine/Launch_Epic_Games.sh
-File9[$e]=/Datos/Games/PC/-Launchers/Origin/Wine/Launch-Origin.sh
-Name1[$e]=rss_youtube
-Name10[$e]=examples.sh
-Name2[$e]=rss_youtube_Reset.sh
-Name3[$e]=rss_github_Reset.sh
-Name4[$e]=rss_games_Reset.sh
-Name5[$e]=rss_youtube_not.sh
-Name6[$e]=recheck_entries_youtube
-Name7[$e]=Launch-STAR_WARS_Battlefront_II.sh
-Name8[$e]=Launch_Epic_Games.sh
-Name9[$e]=Launch-Origin.sh
+File1[$e]=$HOME/Scripts/Bash/Games/-Test/Trials_Rising.sh
+File10[$e]=$HOME/Scripts/Bash/Games/-Launch_Game.sh
+File2[$e]=$HOME/Scripts/Bash/Games/-Test/Marvels_Avengers.sh
+File3[$e]=$HOME/Scripts/Bash/Games/-Test/Mafia.sh
+File4[$e]=$HOME/Scripts/Bash/Games/-Test/Godfall.sh
+File5[$e]=$HOME/Scripts/Bash/Games/-Test/Dirt_Rally_2.0.sh
+File6[$e]=$HOME/Scripts/Bash/Games/-Test/-Launch
+File7[$e]=/Media/Games/PC/STAR WARS Jedi Fallen Order/Wine/Launch_Star_Wars_JFO.sh
+File8[$e]=/Media/GoVi/Proyectos/Github/GoVi-Arch_Linux/Arch_Gaming.txt
+File9[$e]=/Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Launch-STAR_WARS_Battlefront_II.sh
+Name1[$e]=Trials_Rising.sh
+Name10[$e]=-Launch_Game.sh
+Name2[$e]=Marvels_Avengers.sh
+Name3[$e]=Mafia.sh
+Name4[$e]=Godfall.sh
+Name5[$e]=Dirt_Rally_2.0.sh
+Name6[$e]=-Launch
+Name7[$e]=Launch_Star_Wars_JFO.sh
+Name8[$e]=Arch_Gaming.txt
+Name9[$e]=Launch-STAR_WARS_Battlefront_II.sh

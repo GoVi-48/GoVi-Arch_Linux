@@ -5,7 +5,7 @@
     <property name="description" />
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2020.1.5.0.0</property>
-    <property name="modified">2021-01-18T04:57:43</property>
+    <property name="modified">2021-01-23T21:51:05</property>
     <property name="originalScheme">GoV</property>
     <property name="vendorMail" />
     <property name="vendorName">GoVi_Pycharm_Theme</property>
@@ -260,9 +260,24 @@
         <option name="FOREGROUND" value="ff000b" />
       </value>
     </option>
+    <option name="PY.DOT">
+      <value>
+        <option name="FOREGROUND" value="ffab20" />
+      </value>
+    </option>
     <option name="PY.FSTRING_FRAGMENT_COLON">
       <value>
         <option name="FOREGROUND" value="cf000b" />
+      </value>
+    </option>
+    <option name="PY.FUNCTION_CALL">
+      <value>
+        <option name="FOREGROUND" value="b98eff" />
+      </value>
+    </option>
+    <option name="PY.FUNC_DEFINITION">
+      <value>
+        <option name="FOREGROUND" value="b98eff" />
       </value>
     </option>
     <option name="PY.KEYWORD">
@@ -273,6 +288,16 @@
     <option name="PY.KEYWORD_ARGUMENT">
       <value>
         <option name="FOREGROUND" value="e29a1b" />
+      </value>
+    </option>
+    <option name="PY.OPERATION_SIGN">
+      <value>
+        <option name="FOREGROUND" value="cc070a" />
+      </value>
+    </option>
+    <option name="PY.PARENTHS">
+      <value>
+        <option name="FOREGROUND" value="cc070a" />
       </value>
     </option>
     <option name="SEARCH_RESULT_ATTRIBUTES">

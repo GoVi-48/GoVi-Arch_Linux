@@ -1,0 +1,1000 @@
+ln -s "$GOVI_ARCH_LINUX/Scripts/Bash/Games/" "$GOVI_ARCH_LINUX/Gaming/Scripts/"
+ln -sf "$GOVI_ARCH_LINUX/Scripts/Bash/Games/" "$GOVI_ARCH_LINUX/Gaming/Scripts/"
+mkdir -p $GOVI_ARCH_LINUX/Gaming/Scripts && ln -sf "$GOVI_ARCH_LINUX/Scripts/Bash/Games/" "$GOVI_ARCH_LINUX/Gaming/Scripts/"
+ln -sf "$GOVI_ARCH_LINUX/Scripts/Bash/Games/" "$GOVI_ARCH_LINUX/Gaming/"
+mv "$GOVI_ARCH_LINUX/Gaming/Games/" "$GOVI_ARCH_LINUX/Gaming/Scripts/"
+mv -fv "$GOVI_ARCH_LINUX/Gaming/Games/" "$GOVI_ARCH_LINUX/Gaming/Scripts/"
+mv -rfv "$GOVI_ARCH_LINUX/Gaming/Games/" "$GOVI_ARCH_LINUX/Gaming/Scripts/"
+mv -fv "$GOVI_ARCH_LINUX/Gaming/Games/" "$GOVI_ARCH_LINUX/Gaming/Scripts/"
+mv "$GOVI_ARCH_LINUX/Gaming/Games" "$GOVI_ARCH_LINUX/Gaming/Scripts"
+ln -sf "$GOVI_ARCH_LINUX/Scripts/Bash/Games" "$GOVI_ARCH_LINUX/Gaming/"
+mv "$GOVI_ARCH_LINUX/Gaming/Games" "$GOVI_ARCH_LINUX/Gaming/Scripts"
+~/.local/share/
+du1
+du1|sth
+~/.local/share/
+du1|sth
+/home/govi/Proyectos/Github/GoVi-Arch_Linux/.local.bak
+du1
+du1|sth
+share
+du1|sth
+l
+rm baloo
+du1|sth
+GOVI_ARCH_LINUX="$HOME/Proyectos/Github/GoVi-Arch_Linux"
+EXCLUDE=\!(~/.local/share/baloo ~/.local/share/apps)
+EXCLUDE=(~/.local/share/baloo ~/.local/share/apps)
+mkdir -p "$GOVI_ARCH_LINUX/.local.bak/share/" && cp -rfv )EXCLUDE ~/.local/share/* $_
+EXCLUDE="~/.local/share/baloo ~/.local/share/apps"
+mkdir -p "$GOVI_ARCH_LINUX/.local.bak/share/" && cp -rfv )EXCLUDE ~/.local/share/* $_
+GOVI_ARCH_LINUX="$HOME/Proyectos/Github/GoVi-Arch_Linux"
+EXCLUDE="--exclude='~/.local/share/baloo' --exclude='~/.local/share/apps'"
+mkdir -p "$GOVI_ARCH_LINUX/.local.bak/share/" && rsync -avr $EXCLUDE ~/.local/share/* $_
+man rsync
+GOVI_ARCH_LINUX="$HOME/Proyectos/Github/GoVi-Arch_Linux"
+EXCLUDE="--exclude '~/.local/share/baloo' --exclude '~/.local/share/apps'"
+mkdir -p "$GOVI_ARCH_LINUX/.local.bak/share/" && rsync -avr $EXCLUDE ~/.local/share/* $_
+rsync -avr $EXCLUDE ~/.local/share/* "$GOVI_ARCH_LINUX/.local.bak/share/"
+EXCLUDE="--exclude '$HOME/.local/share/baloo' --exclude '$HOME/.local/share/apps'"
+GOVI_ARCH_LINUX="$HOME/Proyectos/Github/GoVi-Arch_Linux"
+rsync -avr $EXCLUDE ~/.local/share/* "$GOVI_ARCH_LINUX/.local.bak/share/"
+EXCLUDE="--exclude '/home/$USER/.local/share/baloo' --exclude '/home/$USER/.local/share/apps'"
+GOVI_ARCH_LINUX="$HOME/Proyectos/Github/GoVi-Arch_Linux"
+rsync -avr $EXCLUDE ~/.local/share/* "$GOVI_ARCH_LINUX/.local.bak/share/"
+EXCLUDE="--exclude '/home/govi/.local/share/baloo' --exclude '/home/govi/.local/share/apps'"
+rsync -avr $EXCLUDE ~/.local/share/* "$GOVI_ARCH_LINUX/.local.bak/share/"
+rsync -avr --exclude '/home/govi/.local/share/baloo' ~/.local/share/* "$GOVI_ARCH_LINUX/.local.bak/share/"
+EXCLUDE="--exclude '~/.local/share/baloo'"
+GOVI_ARCH_LINUX="$HOME/Proyectos/Github/GoVi-Arch_Linux"
+rsync -av $EXCLUDE ~/.local/share/* "$GOVI_ARCH_LINUX/.local.bak/share/"
+rsync -a $EXCLUDE ~/.local/share/* "$GOVI_ARCH_LINUX/.local.bak/share/"
+EXCLUDE="--exclude 'baloo'"
+rsync -av $EXCLUDE ~/.local/share/* "$GOVI_ARCH_LINUX/.local.bak/share/"
+GOVI_ARCH_LINUX="$HOME/Proyectos/Github/GoVi-Arch_Linux"
+EXCLUDE="--exclude 'baloo'"
+rsync -av $EXCLUDE ~/.local/share/* "$GOVI_ARCH_LINUX/.local.bak/share/"
+EXCLUDE=--exclude 'baloo'
+rsync -av --exclude 'baloo' ~/.local/share/* "$GOVI_ARCH_LINUX/.local.bak/share/"
+mkdir -p "$GOVI_ARCH_LINUX/.local.bak/share/" && rsync -av --exclude 'baloo' ~/.local/share/* $_
+GOVI_ARCH_LINUX="$HOME/Proyectos/Github/GoVi-Arch_Linux"
+mkdir -p "$GOVI_ARCH_LINUX/.local.bak/share/" && rsync -arv --exclude 'baloo' ~/.local/share/* $_
+gc https://github.com/GoVi-48/GoVi-Arch_Linux.git ~/Escritorio/
+gc https://github.com/GoVi-48/GoVi-Arch_Linux.git ~/Escritorio/GoVi-Arch_Linux
+gc https://github.com/GoVi-48/GoVi-Arch_Linux.git "Escritorio/GoVi-Arch_Linux"
+gcl https://github.com/GoVi-48/GoVi-Arch_Linux.git "Escritorio/GoVi-Arch_Linux"
+du1|sth
+pm -Ss raven
+yay -Ss raven
+yay raven-reader-bin
+yay -Rsn raven-reader-bin
+pm -S pass
+spm -S pass
+man read
+gpg --full-generate-key
+pass init
+pass init"84D648983BE0AF2C"
+pass init "84D648983BE0AF2C"
+pass
+printf pass
+printf $(pass)
+Pass
+Pass.sh 
+pass --help
+man read
+read --help
+timeshift --help
+timeshift --list
+sudo timeshift --list
+kate /etc/fstab
+sudo timeshift --list | grep 0
+sudo timeshift --list > 2>&1 /dev/null
+sudo timeshift --list > /dev/null 2>&1
+sudo timeshift --list > /dev/null 2>
+sudo timeshift --list > /dev/null 2
+sudo timeshift --list 2> /dev/null
+sudo timeshift --list
+sudo timeshift --list 2> /dev/null
+sudo timeshift --list | grep ^0
+sudo timeshift --list | sed -n '13p'
+sudo timeshift --list 2> /dev/null | sed -n '13p'
+Timeshift.sh 
+sudo timeshift --list 2> /dev/null
+Timeshift.sh 
+/run/timeshift/
+du1|sth
+~
+sudo timeshift-launcher
+yt https://www.youtube.com/watch?v=7Pc6uv8N2RY
+📃
+ls
+printf "I ${RED}love${NC} Stack Overflow\n"
+tput setaf 1; echo "this is red text"
+tput setaf ; echo "this is red text"
+tput sgr0 ; echo "this is red text"
+red=`tput setaf 1`
+green=`tput setaf 2`
+reset=`tput sgr0`
+echo "${red}red text ${green}green text${reset}"
+man tput
+cat 
+echo $(tput bold) huh
+BOLD=$(tput bold)
+RESET=$(tput rmso)
+BLD=$(tput bold)
+RST=$(tput rmso)
+Timeshift.sh 
+GOVI_ARCH_LINUX="$HOME/Proyectos/Github/GoVi-Arch_Linux"
+rm -rfv "$GOVI_ARCH_LINUX/Backups/"*
+rm -rfv "$GOVI_ARCH_LINUX/Backups/*"
+rm -rfv "$GOVI_ARCH_LINUX/Backups/"*
+Pass.sh 
+Somosgmailalehate*48
+Pass.sh 
+B=$(tput bold) # Bold
+R=$(tput rmso) # Reset
+Timeshift.sh 
+spm -Ss Akregator
+spm -S akregator
+spm -RnS akregator
+spm -Rns akregator
+pm -Ss rssowl
+yay -Ss rssowl
+yay rssowlnix-bin
+yt https://www.youtube.com/watch?v=JMI0AfupnJs
+yay -Rsn rssowlnix-bin
+Pass.sh 
+yay -S winds
+yay -S feedreader
+yay -S ThinFeeder
+yay -Ss ThinFeeder
+pm -Ss ThinFeeder
+NOTF=`kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg`
+$NOTF
+NOTF=`kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup "Complete" 8 && paplay ~/.local/share/sounds/cause-and-effect.ogg`
+NOTF=$(kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup "Complete" 8 && paplay ~/.local/share/sounds/cause-and-effect.ogg)
+$NOTF
+NOTF="$(kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup "Complete" 8 && paplay ~/.local/share/sounds/cause-and-effect.ogg)"
+$NOTF
+NOTF=$(kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup "Complete" 8 && paplay ~/.local/share/sounds/cause-and-effect.ogg)
+NOTF='kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg'
+$NOTF
+NOTF='$(kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg)'
+$NOTF
+NOTF='$(kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8) && $(paplay $HOME/.local/share/sounds/cause-and-effect.ogg)'
+$NOTF
+NOTF='kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg'
+$NOTF
+NOTF=`kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete"` 8 && `paplay $HOME/.local/share/sounds/cause-and-effect.ogg`
+NOTF=`kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8` && `paplay $HOME/.local/share/sounds/cause-and-effect.ogg`
+$NOTF
+NOTF=`kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg`
+$NOTF
+NOTF=`"kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg"`
+NOTF="kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg"
+$NOTF
+NOTF=$("kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg")
+NOTF=$("kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"")
+NOTF=$("kdialog --icon '$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg' --passivepopup "Complete" 8 && paplay '$HOME/.local/share/sounds/cause-and-effect.ogg'")
+NOTF=$("kdialog --icon '~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg' --passivepopup "Complete" 8 && paplay '~/.local/share/sounds/cause-and-effect.ogg'")
+NOTF=$("kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup "Complete" 8 && paplay ~/.local/share/sounds/cause-and-effect.ogg")
+NOTF=$"(kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup "Complete" 8 && paplay ~/.local/share/sounds/cause-and-effect.ogg)"
+$NOTF
+NOTF="$(kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup "Complete" 8 && paplay ~/.local/share/sounds/cause-and-effect.ogg)"
+$NOTF
+NOTF="$(kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup 'Complete' 8 && paplay ~/.local/share/sounds/cause-and-effect.ogg)"
+$NOTF
+NOTF="kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup 'Complete' 8 && paplay ~/.local/share/sounds/cause-and-effect.ogg"
+$NOTF
+NOTF=kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup 'Complete' 8 && paplay ~/.local/share/sounds/cause-and-effect.ogg
+NOTF=kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup "Complete" 8 && paplay ~/.local/share/sounds/cause-and-effect.ogg
+NOTF='kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup "Complete" 8 && paplay ~/.local/share/sounds/cause-and-effect.ogg'
+$NOTF
+NOTF=$(kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup "Complete" 8) && $(paplay ~/.local/share/sounds/cause-and-effect.ogg)
+$NOTF
+NOTF="$(kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup "Complete" 8) && $(paplay ~/.local/share/sounds/cause-and-effect.ogg)"
+$NOTF
+NOTF="$(kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup "Complete" 8) $(paplay ~/.local/share/sounds/cause-and-effect.ogg)"
+$NOTF
+NOTF='$(kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup "Complete" 8) $(paplay ~/.local/share/sounds/cause-and-effect.ogg)'
+$NOTF
+NOTF="$(kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup "Complete" 8)"
+SOUND="$(paplay ~/.local/share/sounds/cause-and-effect.ogg)"
+$NOTF\_$SOUND
+$NOTF\$SOUND
+$NOTF
+NOTF='$(kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup "Complete" 8)'
+SOUND='$(paplay ~/.local/share/sounds/cause-and-effect.ogg)'
+$NOTF
+NOTF=`$(kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup "Complete" 8)`
+SOUND=`$(paplay ~/.local/share/sounds/cause-and-effect.ogg)`
+$NOTF\$SOUND
+$NOTF
+NOTF="$(kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup \"Complete\" 8)"
+SOUND="$(paplay ~/.local/share/sounds/cause-and-effect.ogg)"
+$NOTF
+NOTF="kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup \"Complete\" 8"
+SOUND="paplay ~/.local/share/sounds/cause-and-effect.ogg"
+NOTF="kdialog --icon ~/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup \"Complete\" 8"
+SOUND="paplay ~/.local/share/sounds/cause-and-effect.ogg"
+$NOTF
+$NOTF\$SOUND
+$SOUND
+SOUND="paplay ~/.local/share/sounds/cause-and-effect.ogg"
+$SOUND
+SOUND="paplay $HOME/.local/share/sounds/cause-and-effect.ogg"
+$SOUND
+NOTF="kdialog --icon $HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup \"Complete\" 8"
+SOUND="paplay $HOME/.local/share/sounds/cause-and-effect.ogg"
+$NOTF\$SOUND
+$NOTF&&$SOUND
+$NOTF&$SOUND
+$NOTF;$SOUND
+$NOTF$SOUND
+$NOTF\$SOUND
+$NOTF\_$SOUND
+$NOTF;$SOUND
+$NOTF $SOUND
+$NOTF&$SOUND
+Timeshift.sh 
+cd ~/.password-store/
+pass edit Games/Origin
+Pass.sh 
+$TERMINAL -e ~/Scripts/Bash/Utils/Pass.sh
+gtk-launch Pass
+gtk-launch Pass.desktop
+kate .config/alacritty/alacritty.yml 
+read --help
+df
+man df
+vim .bashrc 
+df -h /Media --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
+df -h /Media
+df -h /Media --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' ' && echo ""
+df -h /Media --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' ' && echo -en ""
+df -h /Media --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' ' && echo -e ""
+df -h /Media --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' ' && echo -en "|"
+df -h /Media --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' ' && echo -n "|"
+df -h /Media --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' ' &;echo -n "|"
+df -h /Media --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' ' &; echo -n "|"
+df -h /Media --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' ' ; echo -n "|"
+df -h /Media --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' ' ; echo e-n "|"
+df -h /Media --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' ' ; echo -en "|"
+spm -Ss newsboat
+spm -S newsboat
+newsboat
+dp /home/govi/.newsboat
+liferea --help
+liferea -w
+liferea -w--mainwindow-state=ESTADO
+liferea -w --mainwindow-state=shown
+liferea
+dp .newsboat
+Star_Wars_Battlefront_II.sh 
+newsboat
+echo $(newsboat)
+echo $"(newsboat)"
+echo "$(newsboat)"
+newsboat --help
+cat /home/govi/.newsboat/cache.db
+newsboat
+newsboat --help
+pycharm /home/govi/.newsboat/urls
+https://www.skidrowreloaded.com/feed/
+crontab -e
+/home/govi/.newsboat/Url_entries.sh
+chmod +x /home/govi/.newsboat/Url_entries.sh
+/home/govi/.newsboat/Url_entries.sh
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|<br />|p' | sed -s 's|<br />||g
+'`
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|<br />|p' | sed -s 's|<br />||g'
+curl https://www.skidrowreloaded.com/
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|<br />|p'
+curl https://www.skidrowreloaded.com/ > skidrow
+curl https://www.skidrowreloaded.com/
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|<br/>|p'
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|<br />|p'
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|<br />|g'
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|<br />|p'
+curl https://www.skidrowreloaded.com/
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|:<br />|p'
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|:<br />|p' | sed -e 's/<p><a href=/\1#\2/g'
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|:<br />|\2|p'
+curl https://www.skidrowreloaded.com/ | sed -n 's@\(<p>\)\(:<br />)@\1#\2@;t1'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br \/>/p' | sed -i -e 's/\(<p><a href=\).*\(:<br \)/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|:<br />|p' | sed -i -e 's/\(<p><a href=\).*\(:<br />\)/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br />/p' | sed -i -e 's/\(<p><a href=\).*\(:<br />\)/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|:<br />|p' | sed -i -e 's|\(<p><a href=\).*\(:<br />\)|\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|:<br />|p' | sed -i -e 's|\(<p><a href=\).*\(:<br />\)|\1\2|'
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|:<br />|p' | sed -i -e 's|\(<p><a href=\).*\(:<br \)|\1\2|'
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|:<br />|p' | sed -i -e 's/\(<p><a href=\).*\(:<br \)/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|:<br />|p' | sed -e 's@\(<p>\)blabla(:<br />)@\1#\2@;t1'
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|:<br />|p' | sed -e 's@\(<p>\)*(:<br />)@\1blablabla\2@;t1'
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|:<br />|p' | sed -e 's/\(<p>\).*\(:<br />\)/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|:<br />|p' | sed -e 's|\(<p>\).*\(:<br />\)|\1\2|'
+curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|:<br />|p' | sed -e 's|\(<p><a href=\).*\(:<br />\)|\1\2|'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br \/>/p' | sed -i -e 's/\(<p><a href=\).*\(:<br \)/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br \/>/p'
+URL=`curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br \/>/p'`
+$URL
+URL=$(`curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br \/>/p'`)
+URL=$(curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br \/>/p')
+$URL
+URL="$(curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br \/>/p')"
+$URL
+"$URL"
+"$URL" | sed -i -e 's/\(<p><a href=\).*\(:<br \)/\1\2/'
+URL="$(curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br \/>/p')"
+"$URL" | sed -i -e 's/\(<p><a href=\).*\(:<br \)/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br \/>/p' | sed -i -e 's/\(<p><a href=\).*\(:<br\ )/\1\2/'
+curl --help
+curl -d https://www.skidrowreloaded.com/
+curl https://www.skidrowreloaded.com/ -d
+curl https://www.skidrowreloaded.com/ -d --data
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br \/>/p' | sed -i -e 's/\(<p><a href=\).*\(:<br\ )/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br \/>/p' | sed -i -e 's/\(<p><a href=\).*\(:<br\)/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br \/>/p' | sed -i -e 's/\(<p><a href=).*\(:<br\)/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br\/>/p'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br\ >/p' | sed -i -e 's/\(<p><a href=\).*\(:<br\ )/\1\2/')
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br\ >/p' | sed -i -e 's/\(<p><a href=\).*\(:<br\ )/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br\ >/p' | sed -i -e 's/(<p><a\ href=).*\(:<br\ >)/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br\ >/p' | sed -i -e 's/(<p><a href=).*\(:<br >)/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br\ />/p' | sed -i -e 's/(<p><a\ href=).*\(:<br\ />)/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br\ />/p'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br />/p' | sed -i -e 's/(<p><a href=).*\(:<br />)/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br />/p'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br />/p' | sed -i -e 's/(<p><a href=).*\(:<br />)/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br />/p'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br\ />/p'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br/p'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br /p'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br \/>/p'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br \/>/p' | sed -i -e 's/(<p><a href=).*\(:<br \/>)/\1\2/'
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br \/>/p' | sed -i -e 's/(<p><a href=\).*\(:<br \/>\)/\1\2/'
+curl https://www.skidrowreloaded.com/ |     sed -n 's/<p>/:<br \/>/p' |     sed '/<p><a href=/,/:<br \/>/d' |     sed -i -e "s|(:<br />\|%\)||g"
+curl https://www.skidrowreloaded.com/ | sed -n 's/<p>/:<br \/>/p' | sed '/<p><a href=/,/:<br \/>/d'
+curl https://www.skidrowreloaded.com/ |     sed -n 's/<p>/:<br \/>/p' |     sed '/<p><a href=/,/:<br \/>/d' |     sed -s "s|(:<br />|%)||g"
+curl https://www.skidrowreloaded.com/ |     sed -n 's/<p>/:<br \/>/p' |     sed '/<p><a href=/,/:<br \/>/d' |     sed -s 's/:<br \/>//g'
+curl https://www.skidrowreloaded.com/ |     sed -n 's/<p>/:<br \/>/p' |     sed '/<p><a href=/,/:<br \/>/d' |     sed -i -e "s|(:<br />\|%\)||"
+curl https://www.skidrowreloaded.com/ |     sed -n 's/<p>/:<br \/>/p' |     sed '/<p><a href=/,/:<br \/>/d' |     sed -i -e "s/(:<br \/>\|%\)//"
+curl https://www.skidrowreloaded.com/ |     sed -n 's/<p>/:<br \/>/p' |     sed '/<p><a href=/,/:<br \/>/d' |     sed -i -e 's/(:<br \/>\|%\)//'
+curl https://www.skidrowreloaded.com/ |     sed -n 's/<p>/:<br \/>/p' |     sed '/<p><a href=/,/:<br \/>/d' |     sed -i -e 's/\(:<br \/>\|%\)//'
+curl https://www.skidrowreloaded.com/ |     sed -n 's/<p>/:<br \/>/p' |     sed '/<p><a href=/,/:<br \/>/d'
+curl https://www.skidrowreloaded.com/ |     sed -n 's/<p>/:<br \/>/p' |     sed '/<p><a href=/,/:<br \/>/d' |     sed -i -e 's/\(:<br \/>\|B\)/8/'
+curl https://www.skidrowreloaded.com/ |     sed -n 's/<p>/:<br \/>/p' |     sed '/<p><a href=/,/:<br \/>/d'
+curl https://www.skidrowreloaded.com/ |     sed -n 's/<p>/:<br \/>/p' |     sed '/<p><a href=/,/:<br \/>/d' |     sed -i -e 's/\(:<br \/>|B)/8/'
+sed --help
+man diff
+fontforge
+yay _Ss fontforge
+yay -Ss fontforge
+yay -S fontforge
+polybar govi
+/home/govi/Scripts/Bash/Polybar/rss_games.sh
+ENTRIES_OUTPUT=~/Scripts/Bash/Polybar/rss_games.sh > /dev/null 2>&1
+sed -n '/^%{T3}/p' $ENTRIES_OUTPUT
+sed -n '/^%{T3}/p' $ENTRIES_sed -n '/^%\{T3\}/p' $ENTRIES_OUTPUTOUTPUT
+sed -n '/^%\{T3\}/p' $ENTRIES_OUTPUT
+$ENTRIES_OUTPUT | sed -n '/^%{T3}/p'
+ENTRIES_OUTPUT="~/Scripts/Bash/Polybar/rss_games.sh"
+$ENTRIES_OUTPUT | sed -n '/^%{T3}/p'
+ENTRIES_OUTPUT="$HOME/Scripts/Bash/Polybar/rss_games.sh"
+$ENTRIES_OUTPUT | sed -n '/^%{T3}/p'
+ENTRIES=$HOME/Scripts/Bash/Polybar/Logs/rss_game_entries | sed 's/ New Entries//p'
+$ENTRIES
+ENTRIES=$HOME/Scripts/Bash/Polybar/Logs/rss_game_entries | sed -s 's/ New Entries//p'
+$ENTRIES
+ENTRIES="$HOME/Scripts/Bash/Polybar/Logs/rss_game_entries" | sed -s 's/ New Entries//p'
+$ENTRIES
+ENTRIES=$("$HOME/Scripts/Bash/Polybar/Logs/rss_game_entries" | sed -s 's/ New Entries//g')
+ENTRIES=$(echo "$HOME/Scripts/Bash/Polybar/Logs/rss_game_entries" | sed -s 's/ New Entries//g')
+$ENTRIES
+ENTRIES=$(cat "$HOME/Scripts/Bash/Polybar/Logs/rss_game_entries" | sed -s 's/ New Entries//g')
+ENTRIES=$(cat "$HOME/Scripts/Bash/Polybar/Logs/rss_game_entries" | awk '{print $1;}')
+$ENTRIES
+ENTRIES=$(awk '{print $1;}' "$HOME/Scripts/Bash/Polybar/Logs/rss_game_entries")
+echo $ENTRIES
+liferea --help
+liferea --help-all
+man liferea
+crontab -e
+crontab -l
+/home/govi/Scripts/Bash/Polybar/rss_games.sh
+/home/govi/Scripts/Bash/Polybar/rss_games_not.sh
+/home/govi/Scripts/Bash/Polybar/rss_games.sh
+ENTRIES=$(awk '{print $1;}' "$HOME/Scripts/Bash/Polybar/Logs/rss_game_entries" | sed -n 's|+||p')
+ENTRIES
+$ENTRIES
+/home/govi/Scripts/Bash/Polybar/rss_games_not.sh
+/home/govi/Scripts/Bash/Polybar/rss_games.sh
+ENTRIES=$(
+    curl -s https://www.skidrowreloaded.com/ |
+        sed -s 's|/|+|g' |
+        sed -n 's/<h2>/<+h2>/p' |
+        sed -e 's/<+h2><a href=.*">//' |
+        sed -e 's/<+a>.*<+h2>//'
+)
+LOGS=~/Scripts/Bash/Polybar/Logs
+ENTRY_1=$(echo "$ENTRIES" | awk 'NR==1{print $1,$2;}') > $LOGS/entry_1.log
+/home/govi/Scripts/Bash/Polybar/rss_games.sh
+sed --help
+/home/govi/Scripts/Bash/Polybar/rss_games.sh
+man sed
+/home/govi/Scripts/Bash/Polybar/rss_games.sh
+polybar govi
+/home/govi/Scripts/Bash/Polybar/rss_games.sh
+/home/govi/Scripts/Bash/Polybar/rss_games_not.sh
+ht
+rm -rfv /home/govi/Programas/Pycharm/PycharmProjects
+rm -rfv /home/govi/Programas/Pycharm/PycharmProjects/Bash/lib/python3.8/site-packages
+sudo rm -rfv /home/govi/Programas/Pycharm/PycharmProjects/Bash/lib/python3.8/site-packages
+/home/govi/Scripts/Bash/Polybar/rss_YT.sh
+/home/govi/Scripts/Bash/Polybar/rss_games.sh
+/home/govi/Scripts/Bash/Polybar/rss_YT.sh
+/home/govi/Scripts/Bash/Polybar/rss_games.sh
+/home/govi/Scripts/Bash/Polybar/rss_YT.sh
+LOGS=~/Scripts/Bash/Polybar/Logs
+echo $DIFF
+/home/govi/.config/polybar/scripts/rss_games
+/home/govi/.config/polybar/scripts/rss_games.sh
+chmod +x /home/govi/.config/polybar/scripts/rss_games.sh
+/home/govi/.config/polybar/scripts/rss_games.sh
+/home/govi/Scripts/Bash/Polybar/rss_YT.sh
+/home/govi/.config/polybar/scripts/rss_games.sh
+/home/govi/Scripts/Bash/Polybar/rss_YT.sh
+/home/govi/Scripts/Bash/Polybar/rss_youtube.sh
+/home/govi/Scripts/Bash/Polybar/rss_youtube_not.sh
+/home/govi/Scripts/Bash/Polybar/rss_youtube.sh
+polybar govi
+crontrab -e
+crontab -e
+/home/govi/Scripts/Bash/Polybar/rss_youtube.sh
+/bin/bash  /home/govi/Scripts/Bash/Polybar/rss_YT.sh 
+/bin/bash  /home/govi/.config/polybar/scripts/rss_games 
+/bin/bash  /home/govi/Scripts/Bash/Polybar/rss_YT.sh 
+/bin/bash  /home/govi/Scripts/Bash/Polybar/rss_games.sh 
+/bin/bash  /home/govi/.config/polybar/scripts/rss_games 
+/bin/bash  /home/govi/Scripts/Bash/Polybar/rss_games.sh 
+/home/govi/Scripts/Bash/Polybar/rss_youtube.sh
+/bin/bash  /home/govi/Scripts/Bash/Polybar/rss_YT.sh 
+curl https://github.com/doitsujin/dxvk/releases.atom
+curl https://github.com/doitsujin/dxvk/releases.atom | sed -n 's/<title>/<+title>/p'
+curl-s https://github.com/doitsujin/dxvk/releases.atom| sed 's|/|+|g' | sed -n 's/Version/<+title>/p'
+curl -s https://github.com/doitsujin/dxvk/releases.atom| sed 's|/|+|g' | sed -n 's/Version/<+title>/p'
+curl -s https://github.com/doitsujin/dxvk/releases.atom | sed 's|/|+|g' | sed -n 's/Version/<+title>/p' | sed 's/<title><+title>//g' | sed 's/^[ \t]*//'
+curl -s https://github.com/doitsujin/dxvk/releases.atom | sed 's|/|+|g' | sed -n 's/<tittle><+title>/p'
+curl -s https://github.com/doitsujin/dxvk/releases.atom | sed 's|/|+|g' | sed -n 's/<tittle>/<+title>/p'
+curl -s https://github.com/doitsujin/dxvk/releases.atom | sed 's|/|+|g' | sed -n 's/Version/<+title>/p'
+curl -s https://github.com/doitsujin/dxvk/releases.atom | sed 's|/|+|g' | sed -n 's/Version/<+title>/p' | sed 's/<title><+title><+title>//g' | sed 's/^[ \t]*//'
+curl -s https://github.com/doitsujin/dxvk/releases.atom | sed -n 's/Version/<+title>/p' | sed 's/<title><+title>//; s/<+title>/g' | sed 's/^[ \t]*//'
+curl -s https://github.com/doitsujin/dxvk/releases.atom | sed -n 's/Version/<+title>/p' | sed 's/<title><+title>//; s/<+title/>/g' | sed 's/^[ \t]*//'
+curl -s https://github.com/doitsujin/dxvk/releases.atom | sed 's|/|+|g' | sed -n 's/Version/<+title>/p' | sed 's/<title><+title>//; s/<+title/>/g' | sed 's/^[ \t]*//'
+URL_1="https://github.com/doitsujin/dxvk/releases.atom"
+curl -s "$URL_1" | sed 's|/|+|g' | sed -n 's/Version/<+title>/p' | sed 's/<title><+title>//; s/<+title>//g' | sed 's/^[ \t]*//'
+/home/govi/Scripts/Bash/Polybar/rss_github.sh
+curl -s https://github.com/FeralInteractive/gamemode/releases
+curl -s https://github.com/FeralInteractive/gamemode/releases > Escritorio/ppp
+URL_3="https://github.com/flightlessmango/MangoHud/releases.atom" # MangoHud
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/title="/">/p' |
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/title="/">/p'
+URL_2="https://github.com/FeralInteractive/gamemode/releases.atom" # Gamemode
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/title="/">/p'
+URL_2="https://github.com/FeralInteractive/gamemode/releases.atom"
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/title="/">/p'
+curl -s "$URL_2" | sed -n 's/title="/">/p'
+curl -s "$URL_2" | sed -n 's/ title="/">/p'
+curl -s "$URL_2" | sed -n 's/ title=/>/p'
+curl -s "$URL_2" | sed -n 's/title=/>/p'
+curl -s "$URL_2"
+curl -s "$URL_2" | sed -n 's/tree/"/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/tag+/">/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/title="/">/p' | sed 's/+archive+/.zip//g'
+curl -s "$URL_2" | sed 's|/|+|g' | sed-n  's/+archive+/.zip/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+archive+/.zip/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+archive+/zip/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/archive+/zip/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/archive/zip/p'
+curl -s "$URL_2" | sed 's|/|+|g'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+archive+/.tar.gz/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+archive+/tar/p'
+URL_2="https://github.com/FeralInteractive/gamemode/tags.atom" # Gamemode
+curl -s "$URL_2"
+URL_2="https://github.com/FeralInteractive/gamemode/tags
+"
+curl -s "$URL_2"
+URL_2="https://github.com/FeralInteractive/gamemode/tags/"
+curl -s "$URL_2"
+URL_2="https://github.com/FeralInteractive/gamemode/tags/"
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/to/<+pre>/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/">/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/">/p'| sed -n 's/>/>/p | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/">/p'| sed -n 's/>/>/p' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/">/p'| sed 's/<a href=/>/p' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/">/p'| sed 's/<a href="/">/p' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/"|+|g' | sed -n 's/+releases+tag+/+>/p'| sed 's/<a href=/+>/p' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/"|+|g' | sed -n 's/+releases+tag+/+>/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/+>/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed 's/<a href="+/>/p' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/^<a href="+/>/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href="+/>/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/<a href="+/>/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href="+/>/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href="+/>/p' | sed -n 's/>FeralInteractive+gamemode>/">/p'
+sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href=*>/>/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href=*>/>/p' | sed 's|">||g' | sed 's/^[ \t]*//')
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href=*>/>/p' | sed 's|">||g' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href=*>/>/p' | sed 's|\">||g' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href=*>/>/p' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href=*>/>/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href="+>/>/p' | sed 's|">||g' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href="+>/>/p' | sed 's|>||g' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href="+>/>/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href="+/>/p' | sed 's|">||g' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href="+/>/p' | sed 's|"\>||g' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href="+>/>/p' | sed 's|"\>||g' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href="+*>/>/p' | sed 's|"\>||g' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href="+/>/p' | sed 's|"\>||g' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href="++FeralInteractive+gamemode>/">/p' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'| sed -n 's/<a href="+FeralInteractive+gamemode>/">/p' | sed 's/^[ \t]*//'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p' | sed -n 's/>/">/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p' | sed -n 's/">/">/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p' | sed -n 's/>/>/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p' | sed -n 's/>/">/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p' | sed -n 's/">/">/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p' | sed -n 's/\">/\">/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p' | sed -n 's/>/\">/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed -n 's/+releases+tag+/>/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed 's/^[ \t]*//'| sed -n 's/+releases+tag+/>/p' | sed -n 's/>/\">/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed 's/^[ \t]*//'|curl -s "$URL_2" | sed 's/^[ \t]*//' | sed 's|/|+|g' | sed -n 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*//' | sed 's|/|+|g' | sed -n 's/+releases+tag+/\">/p'
+sed --help
+curl -s "$URL_2" | sed 's|/|+|g'; 's/^[ \t]*//' ; 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed -n 's|/|+|g' ; 's/^[ \t]*//' ; 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's|/|+|g' ; 's/^[ \t]*//' | sed -n 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's|/|+|g'; 's/^[ \t]*//' | sed -n 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's|/|+|g';'s/^[ \t]*//' | sed -n 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*//' ; 's|/|+|g' | sed -n 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's|/|+|g' | sed 's/^[ \t]*//' | sed -n 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's|/|+|' ; 's/^[ \t]*//' | sed -n 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's|/|+|'; 's/^[ \t]*//' | sed -n 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's|/|+|';'s/^[ \t]*//' | sed -n 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's|/|+|'; 's/^[ \t]*//g' | sed -n 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*//' | sed 's|/|+|g' | sed -n 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*//'; 's|/|+|g' | sed -n 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*//' | sed 's|/|+|g' | sed -n 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*//' | sed 's|/|+|g'; 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*//' | sed 's|/|+|g' | sed -n 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*//' | sed 's|/|+|g' | sed -n 's/+releases+tag+/\">/p'; 's/+gamemode\">/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*//;s|/|+|g' | sed -n 's/+releases+tag+/\">/p'; 's/+gamemode\">/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s|/|+|g' | sed -n 's/+releases+tag+/\">/p' | sed 's/+gamemode\">/\">/p')
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s|/|+|g' | sed -n 's/+releases+tag+/\">/p' | sed 's/+gamemode\">/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s|/|+|g' | sed -n 's/+releases+tag+/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/">/p' | sed 's/+gamemode">/">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\>/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/>/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\>/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | 's/href/\"/'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | 's/href/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/href/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/href*"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/href*/"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/href/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/href=/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/\"/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/\"/\"/'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/\"/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/\"/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/\"/\"\>/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/"/p' | sed -n 's/<gamemode\"/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/"/p' | sed -n 's/+gamemode\"/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/"/p' | sed -n 's/+gamemode\"/\"\>/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/"/p' | sed -n 's/*gamemode\"/\"\>/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/"/p' | sed -n 's/\*gamemode\"/\"\>/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/"/p' | sed -n 's/.*gamemode\"/\"\>/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/"/p' | sed -n 's/.*gamemode\"/\"\>/p' | 's/\">//g'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/"/p' | sed -n 's/.*gamemode\"/\"\>/p' | sed 's/\">//g'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p ; s/<a h/"/p ; s/.*gamemode\"/\"\>/p ; s/\">//g'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p ; s/<a h/"/p ; s/.*gamemode\"/\"\>/p' | sed 's/\">//g'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/"/p' | sed -n 's/.*gamemode\"/\"\>/p' | sed 's/\">//g'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p ; s/<a h/"/p ; s/.*gamemode\"/\"\>/p' | sed 's/\">//g'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/"/p' | sed -n 's/.*gamemode\"/\"\>/p' | sed 's/\">//g'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p ; s/<a h/\"/p ; s/.*gamemode\"/\"\>/p' | sed 's/\">//g'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/\"/p' | sed -n 's/.*gamemode\"/\"\>/p' | sed 's/\">//g'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/\"/p' | sed -n 's/.*gamemode\"/\">/p' | sed 's/\">//g'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p ; s/<a h/\"/p ; s/.*gamemode\"/\">/p' | sed 's/\">//g'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/\"/p' | sed -n 's/.*gamemode\"/\">/p' | sed 's/\">//g'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p;s/<a h/\"/p' | sed -n 's/.*gamemode\"/\">/p' | sed 's/\">//g'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p ; s/<a h/\"/p' | sed -n 's/.*gamemode\"/\">/p' | sed 's/\">//g'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p ; s/<a h/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/<a h/\"/p' | sed -n 's/.*gamemode\"/\">/p' | sed 's/\">//g'
+ENTRIES_2=$(curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/a h/\"/p' | sed -n 's/.*gamemode\"/\">/p' | sed 's/\">//g')
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/a h/\"/p' | sed -n 's/.*gamemode\"/\">/p' | sed 's/\">//g'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/a h/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/h/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases+tag+/\"/p' | sed -n 's/a h/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/+releases/\"/p' | sed -n 's/a h/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\"/p' | sed -n 's/a h/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\"/p' | sed -n 's/a h/\"/p' | sed -n 's/+tag+/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p' | sed -n '/tag+/\">/'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p' | sed -n '/tag+/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p' | sed -n 's/tag+/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p' | sed -n 's/tag+/\"\>/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p' | sed -n 's/tag/\"\>/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p' | sed -n 's/+/\"\>/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p' | sed -n 's/tag\+/\"\>/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p' | sed -n 's/tag\+/\>/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p'| sed -n 's/a h/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p'| sed -n 's/a h/\>/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p'| sed -n 's/a h/\"/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p'| sed -n 's/a h//p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p'| sed -n 's/a h/">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p'| sed -n 's/a h/">/'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p'| sed -n 's/a h/">/g'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p'| sed -n 's/a h/\">/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p'| sed -n 's/a h/p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\>/p'| sed -n 's/a h//p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases/\/p'| sed -n 's/a h//p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases//p'| sed -n 's/a h//p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n '/releases//p'| sed -n 's/a h//p'
+curl -s "$URL_2" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/releases//p'| sed -n 's/a h//p'
+LOGS=~/Scripts/Bash/Polybar/Logs/YouTube
+UPDATES=$(echo -e "\n$DIFF\n" | grep -c '^>')
+echo "$UPDATES"
+chmod -x /home/govi/Scripts/Bash/Polybar/rss_youtube_not.sh
+chmod -x /home/govi/Scripts/Bash/Polybar/rss_youtube.sh
+chmod -x /home/govi/Scripts/Bash/Polybar/rss_games_not.sh
+chmod -x /home/govi/Scripts/Bash/Polybar/rss_games.sh
+chmod -x /home/govi/Scripts/Bash/Polybar/rss_github.sh
+chmod -x /home/govi/Scripts/Bash/Polybar/rss_github_not.sh
+ENTRIES=$(cat "$HOME/Scripts/Bash/Polybar/Logs/YouTube/rss_youtube_entries")
+/home/govi/Scripts/Bash/Polybar/rss_youtube_not.sh
+LOGS=~/Scripts/Bash/Polybar/Logs/YouTube
+UPDATES=$(echo -e "\n$DIFF\n" | grep -c '^>')
+echo "$UPDATES"
+touch "$HOME/Scripts/Polybar/Logs/Games/check_entries_pass"
+touch -f "$HOME/Scripts/Polybar/Logs/Games/check_entries_pass"
+touch --help
+touch "$HOME/.config/polybar/scripts/Logs/Games/check_entries_pass"
+LOGS="$HOME/.config/polybar/scripts/Logs/Games"
+UPDATES=$(echo -e "\n$DIFF\n" | grep -c '^>')
+echo "$UPDATES"
+echo "$UPDATES" > "$LOGS/rss_game_entries"
+echo "" > "$HOME/Scripts/Bash/Polybar/Logs/YouTube/recheck_entries"
+echo -e "\c" > "$HOME/Scripts/Bash/Polybar/Logs/YouTube/recheck_entries"
+echo "" > "$HOME/Scripts/Bash/Polybar/Logs/Games/recheck_entries"
+/home/govi/Scripts/Bash/Polybar/rss_games.sh
+touch "$HOME/.config/polybar/scripts/Logs/Games/check_entries_pass"
+touch --help
+touch "$HOME/Scripts/Polybar/Logs/Games/check_entries_pass"
+touch -h "$HOME/Scripts/Polybar/Logs/Games/check_entries_pass"
+/home/govi/Scripts/Bash/Polybar/rss_games.sh
+plasmashell --replace &>/dev/null &
+kwin_x11 --replace &>/dev/null &
+export WINE=/home/govi/Wine/wine_6.0/usr/bin/wine
+export WINEPREFIX="/home/govi/Games/PC/STAR WARS Battlefront II/Wine/wine-pfx"
+/Datos/Games/PC/-Launchers/Origin/Wine/Launch-Origin.sh
+fd "STAR WARS Battlefront II"
+/Datos/
+fd "STAR WARS Battlefront II"
+/bin/bash  /home/govi/Scripts/Bash/Polybar/rss_games.sh 
+/bin/bash  /home/govi/Games/PC/STAR\ WARS\ Battlefront\ II/Wine/Launch-Star_Wars_Battlefront_II.sh 
+~
+export WINE="/home/govi/Games/PC/STAR WARS Battlefront II/Wine/wine"
+export WINEPREFIX="/home/govi/Games/PC/STAR WARS Battlefront II/Wine/wine-pfx"
+$WINE "/Datos/Games/PC/-Launchers/Origin/Origin.exe"
+/Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine
+"/Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine"
+$WINE "/Datos/Games/PC/-Launchers/Origin/Origin.exe"
+~
+cd "/Datos/Games/PC/-Launchers/Origin"
+$WINE Origin.exe
+WINEPREFIX=="home/govi/Games/PC/STAR WARS Battlefront II/Wine/wine-pfx" "/home/govi/Games/PC/STAR WARS Battlefront II/Wine/wine"  Origin.exe
+WINEPREFIX=="/Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/wine-pfx" "/home/govi/Games/PC/STAR WARS Battlefront II/Wine/wine"  Origin.exe
+WINEPREFIX=="/Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/wine-pfx" "/Datos/Games/Wine/wine_6.0/usr/bin/wine"  Origin.exe
+WINEPREFIX="/Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/wine-pfx" "/Datos/Games/Wine/wine_6.0/usr/bin/wine"  Origin.exe
+/bin/bash  /home/govi/Scripts/Bash/Polybar/rss_youtube.sh 
+Star_Wars_Battlefront_II.sh 
+crontab -e
+vim .bashrc
+rss_youtube
+rss_youtube.sh
+LOGS="$HOME/.config/polybar/scripts/Logs/YouTube"
+rm -f "$LOGS/.*check_entries_youtube"
+rm -f "$LOGS/*.check_entries_youtube"
+rm -f "$LOGS/*check_entries_youtube"
+rm -f "$LOGS/*.*check_entries_youtube"
+rm -f "$LOGS/*^check_entries_youtube"
+rm -f "$LOGS/^check_entries_youtube"
+rss_youtube.sh
+rm -rf "$LOGS/*check_entries_youtube"
+rm -f "$LOGS"/*check_entries_youtube
+rss_youtube.sh
+LOGS="$HOME/.config/polybar/scripts/Logs/YouTube"
+rss_youtube.sh
+rm -f "$LOGS"/*check_entries_youtube
+rss_youtube.sh
+[ ! -f ~/.config/scripts/polybar/Logs/Github/rss_games ] && touch -p ~/.config/scripts/polybar/Logs/Github/rss_github
+[ ! -f ~/.config/scripts/polybar/Logs/Github/rss_games ] && touch ~/.config/scripts/polybar/Logs/Github/rss_github
+[ ! -f ~/.config/scripts/polybar/Logs/Github/rss_games ] && touch $HOME/.config/scripts/polybar/Logs/Github/rss_github
+[ ! -f ~/.config/scripts/polybar/Logs/Github/rss_games ] && touch "$HOME/.config/scripts/polybar/Logs/Github/rss_github"
+[ ! -f ~/.config/scripts/polybar/Logs/Github/rss_github ] && touch "$HOME/.config/scripts/polybar/Logs/Github/rss_github"
+[ ! -f "$HOME/.config/scripts/polybar/Logs/Github/rss_github" ] && touch "$HOME/.config/scripts/polybar/Logs/Github/rss_github"
+LOGS="$HOME/.config/polybar/scripts/Logs/Github"
+[ ! -f "$LOGS/Github/rss_github" ] && touch "$LOGS/Github/rss_github"
+[ ! -f "$LOGS/rss_github" ] && touch "$LOGS/rss_github"
+[ ! -d "$LOGS" ] && mkdir -p "$LOGS"
+[ ! -f "$LOGS/rss_github" ] && echo "0" > "$LOGS/rss_github"
+rss_youtube
+rss_youtube.sh
+rss_github.sh 
+curl -s "$URL_3" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/Version/<+title>/p' | sed 's/<title><+title>// ; s/<+title>//g'
+URL_3="https://github.com/flightlessmango/MangoHud/releases.atom" # MangoHud
+curl -s "$URL_3" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/Version/<+title>/p' | sed 's/<title><+title>// ; s/<+title>//g'
+curl -s "$URL_3" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/Version/<+title>/p' | sed 's/<title><+title>//'
+curl -s "$URL_3" | sed 's/^[ \t]*// ; s/\//+/g' | sed -n 's/Version/<+title>/p'
+curl -s "$URL_3" | sed 's/^[ \t]*// ; s/\//+/g'
+curl -s "$URL_3"
+curl -s "$URL_3" | sed sed -n 's/Version/<\/title>/p'
+curl -s "$URL_3" | sed -n 's/Version/<\/title>/p'
+curl -s "$URL_3" | sed  's/Version/<\/title>/p'
+curl -s "$URL_3" | sed -n 's/Version/<\/title>/
+curl -s "$URL_3" | sed  's/Version/<\/title>/p'
+curl -s "$URL_3" | sed -n 's/Version/<\/title>/p'
+curl -s "$URL_3" | sed -n 's/Version/<\/title>/p; s/<title>//g'
+curl -s "$URL_3" | sed -n 's/Version/<\/title>/p' | sed ' s/<title>//g'
+curl -s "$URL_3" | sed -n 's/Version/<\/title>/p' | sed 's/<title>//g; s/<\/title>//g'
+curl -s "$URL_3" | sed -n 's/Version/<\/title>/p'
+curl -s "$URL_3" | sed -n 's/Version/<\//title>/p'
+curl -s "$URL_3" | sed -n 's/Version/<\/title>/p'
+curl -s "$URL_3" | sed -n 's/Version/title/p'
+curl -s "$URL_3" | sed -n 's/Version/\<\/title\>/p'
+curl -s "$URL_3" | sed -n 's/Version/title/p'
+curl -s "$URL_3" | awk '/Version/,/<\/title>/'
+curl -s "$URL_3" | awk '/Version/,/</title>/'
+curl -s "$URL_3" | sed -n 's/Version/title/p'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/title//g'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/<title>//g'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/<title>//g; s/<title>//g'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/<title>//g; s/</title>//g'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/<title>//g; s/<\/title>//g'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/<title>//g; s/<\/title>//g; s/title//g'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/<title><\/title>/g/'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/<title>//g; s/<\/title>//g; s/title//g'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/title//g'; s/<title>//g; s/<\/title>//g)
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/title//g'; s/<title>//g; s/<\/title>//g
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/title//g; s/<title>//g; s/<\/title>//g'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/<\///g; s/title//g'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/<\/>//g; s/title//g'
+curl -s "$URL_3" | sed -n 's/Version/title/p'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/<\/>//g; s/title//g'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed s/title//g'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/title//g'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/title//g; s/<*>//g;'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/title//g; s/<.*>//g;'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/title//g; s/<\/>//g;'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/title//g;
+'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/title//g'
+curl -s "$URL_3" | sed -n 's/Version/title/p' | sed 's/title//g; s/<>//g; s/title//g; s/<\/>//g'
+rss_github.sh 
+curl https://github.com/FeralInteractive/gamemode/releases
+curl https://github.com/FeralInteractive/gamemode/releases | sed 's/Version/\"/g'
+curl https://github.com/FeralInteractive/gamemode/releases | sed 's/Version=/\"/g'
+curl https://github.com/FeralInteractive/gamemode/releases | sed 's/Version=\"/\"/'
+curl https://github.com/FeralInteractive/gamemode/releases | sed 's/Version=\"/\ /'
+curl https://github.com/FeralInteractive/gamemode/releases | sed 's/Version=\"/\role/'
+curl https://github.com/FeralInteractive/gamemode/releases | sed-n  's/Version=\"/\rolep/'
+curl https://github.com/FeralInteractive/gamemode/releases | sed-n  's/Version=\"/\role/p'
+curl https://github.com/FeralInteractive/gamemode/releases | sed -n  's/Version=\"/\role/p'
+curl https://github.com/FeralInteractive/gamemode/releases | sed -n  's/Version=\"/role/p'
+curl -s "https://github.com/FeralInteractive/gamemode/releases" | sed -n  's/Version=\"/role/p'
+curl -s "https://github.com/FeralInteractive/gamemode/releases" | sed -n  's/Version/role/p'
+curl -s "https://github.com/FeralInteractive/gamemode/releases"
+curl -s "https://github.com/FeralInteractive/gamemode/releases" > ~/Escritorio/gm.html
+curl -s "https://github.com/FeralInteractive/gamemode/releases" | sed -n  's/tree/class/p'
+curl -s "https://github.com/FeralInteractive/gamemode/releases" | sed -n  's\/tree\/class/p'
+curl -s "https://github.com/FeralInteractive/gamemode/releases" | sed -n  's/\/tree\//class/p'
+rss_github.sh 
+URL_1="https://github.com/doitsujin/dxvk/releases.atom" # Dxvk
+URL_2="https://github.com/FeralInteractive/gamemode/tags.atom" # Gamemode
+URL_3="https://github.com/flightlessmango/MangoHud/releases.atom" # MangoHud
+URL_4="https://github.com/z0z0z/mf-install/releases.atom" # MF
+URL_5="https://github.com/polybar/polybar/releases.atom" # Polybar
+URL_6="https://github.com/GloriousEggroll/proton-ge-custom/releases.atom" # Proton-ge-custom
+URL_7="https://github.com/DadSchoorse/vkBasalt/releases.atom" # vkBasalt
+URL_8="https://github.com/wine-staging/wine-staging/releases.atom" # Wine-staging
+URL_9="https://github.com/Frogging-Family/wine-tkg-git/releases.atom" # Wine-tkg-git
+URL_1="https://github.com/doitsujin/dxvk/releases.atom" # Dxvk
+URL_2="https://github.com/FeralInteractive/gamemode/releases.atom" # Gamemode
+URL_3="https://github.com/flightlessmango/MangoHud/releases.atom" # MangoHud
+URL_4="https://github.com/z0z0z/mf-install/releases.atom" # MF
+URL_5="https://github.com/polybar/polybar/releases.atom" # Polybar
+URL_6="https://github.com/GloriousEggroll/proton-ge-custom/releases.atom" # Proton-ge-custom
+URL_7="https://github.com/DadSchoorse/vkBasalt/releases.atom" # vkBasalt
+URL_8="https://github.com/wine-staging/wine-staging/releases.atom" # Wine-staging
+URL_9="https://github.com/Frogging-Family/wine-tkg-git/releases.atom" # Wine-tkg-git
+URL_2="https://github.com/FeralInteractive/gamemode/releases.atom" > gm.html
+curl -s ="https://github.com/FeralInteractive/gamemode/releases.atom" > gm.html
+curl -s "https://github.com/FeralInteractive/gamemode/releases.atom" > gm.html
+curl -s "https://github.com/FeralInteractive/gamemode/releases.atom" | sed -n 's/title/title/p'
+curl -s "https://github.com/FeralInteractive/gamemode/releases.atom" | sed -n 's/title/title/g'
+curl -s "https://github.com/FeralInteractive/gamemode/releases.atom" | sed -n 's/title/title/p'
+curl -s "https://github.com/FeralInteractive/gamemode/releases.atom" | sed -n 's/id/id/p'
+curl -s "https://github.com/FeralInteractive/gamemode/releases.atom" | sed -n 's/\//id/p'
+curl -s "https://github.com/FeralInteractive/gamemode/releases.atom" | sed -n 's/title/title/p'
+curl -s "https://github.com/FeralInteractive/gamemode/releases.atom" | sed -n 's/title/title/p' |sed ' s/title/>>>>>>>>>>>>>>>>>>>>>/g'
+curl -s "https://github.com/FeralInteractive/gamemode/releases.atom" | sed -n 's/<title>/<\/title>/p' |sed ' s/title/>>>>>>>>>>>>>>>>>>>>>/g'
+curl -s "https://github.com/FeralInteractive/gamemode/releases.atom" | sed -n 's/<title>/<\/title>/p' |sed ' s/title//g'
+curl -s "https://github.com/FeralInteractive/gamemode/releases.atom" | sed -n 's/<title>/<\/title>/p'
+curl -s "https://github.com/FeralInteractive/gamemode/releases.atom"  | sed -n 's/<title>/<\/title>/p' | sed ' s/<\/title//g' | sed 's/^[ \t]*//'
+curl -s "https://github.com/FeralInteractive/gamemode/releases.atom"  | sed -n 's/<title>/<\/title>/p' | sed ' s/<\/title>//g' | sed 's/^[ \t]*//'
+rss_github.sh 
+/home/govi/Scripts/Bash/Polybar/rss_github_not.sh
+crontab -e
+crontab -l
+rss_youtube.sh 
+crontab -e
+crontab -l
+/bin/bash  /home/govi/Scripts/Bash/Polybar/rss_games.sh 
+/bin/bash  /home/govi/Scripts/Bash/Polybar/rss_games.sh 
+rss_youtube.sh 
+)
+curl -s https://www.skidrowreloaded.com/ | sed -n 's/<h2>/<\/h2>/p'
+curl -s https://www.skidrowreloaded.com/ > SR.html
+curl -s https://www.skidrowreloaded.com/ | sed -n 's/>/<\/a>\/h2>/p'
+curl -s https://www.skidrowreloaded.com/ | sed -n 's/>/<\/a><\/h2>/p'
+curl -s https://www.skidrowreloaded.com/ | sed -n 's/\">/<\/a><\/h2>/p'
+curl -s https://www.skidrowreloaded.com/ | sed -n 's/<h2><a href=/<\/a><\/h2>/p'
+curl -s https://www.skidrowreloaded.com/ | sed -n 's/.*<h2><a href=\([^=]*\)<\/a><\/h2>.*/\1/p'
+curl -s https://www.skidrowreloaded.com/ | sed -e 's|<h2><a href=\(.*\)<\a><\h2>|\1|'
+curl -s https://www.skidrowreloaded.com/ | sed -e 's|<h2><a href=\(.*\)</a></h2>|\1|'
+curl -s https://www.skidrowreloaded.com/ | sed -e 's|<h2><a href=\(.*\)</a></h2>|\1|p'
+curl -s https://www.skidrowreloaded.com/ | sed -e 's/<h2><a href=\(.*\)<\/a><\/h2>/\1/'
+curl -s https://www.skidrowreloaded.com/ | sed -e 's/.*<h2><a href=\(.*\)<\/a><\/h2>.*/\1/'
+curl -s https://www.skidrowreloaded.com/ | awk -v FS="(<h2><a href=|<\/a><\/h2>)" '{print $2}'
+curl -s https://www.skidrowreloaded.com/ | awk -v FS="(<h2><a href=|</a></h2>)" '{print $2}'
+curl -s https://www.skidrowreloaded.com/ | sed 's/<h2><a href=\(.*\)<\/a><\/h2>/\1/g'
+curl -s https://www.skidrowreloaded.com/ | sed 's/.* <h2><a href= \(.*\) <\/a><\/h2> .*/\1/'
+curl -s https://www.skidrowreloaded.com/ | sed 's/.*<h2><a href=\(.*\)<\/a><\/h2>.*/\1/'
+curl -s https://www.skidrowreloaded.com/ | sed -E 's/.*<h2><a href= (.*) <\/a><\/h2>.*/\1/'
+curl -s https://www.skidrowreloaded.com/ | sed -E 's/.*<h2><a href=(.*)<\/a><\/h2>.*/\1/'
+curl -s https://www.skidrowreloaded.com/ | awk -F"<h2><a href=|</a></h2>" '{print $2}'
+curl -s https://www.skidrowreloaded.com/ | awk -F"<h2><a href=|</a></h2>" '{print $2}' | sed 's/   //g'
+curl -s https://www.skidrowreloaded.com/ | awk -F"<h2><a href=|</a></h2>" '{print $2}' | sed 's/^[[ \t]*//'
+curl -s https://www.skidrowreloaded.com/ | awk -F"<h2><a href=|</a></h2>" '{print $2}' | sed 's/^$//g'
+curl -s https://www.skidrowreloaded.com/ | awk -F"<h2><a href=|</a></h2>" '{print $2}' | awk 'NF'
+curl -s https://www.skidrowreloaded.com/ | awk -F"<h2><a href=|</a></h2>" '{print $2}' 'NF'
+curl -s https://www.skidrowreloaded.com/ | awk -F"<h2><a href=|</a></h2>" '{print $2} NF'
+curl -s https://www.skidrowreloaded.com/ | awk -F"<h2><a href=|</a></h2>" '{print $2} {NF}'
+curl -s https://www.skidrowreloaded.com/ | awk -F"<h2><a href=|</a></h2>" '{print $2}' | awk 'NF'
+curl -s https://www.skidrowreloaded.com/ | awk -F"<h2><a href=|</a></h2>" '{print $2}' | grep '\S'
+curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" '{print $2}' | grep '\S'
+curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" '{print $2}' | grep '\S' | time
+time curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" '{print $2}' | grep '\S'
+time curl -s https://www.skidrowreloaded.com/ |sed -n 's/.*<h2><a href=\([^=]*\)<\/a><\/h2>.*/\1/p' 
+time curl -s https://www.skidrowreloaded.com/ | awk -v FS="(<h2><a href=|</a></h2>)" '{print $2}' | awk 'NF'
+time curl -s https://www.skidrowreloaded.com/ | awk -v FS="(<h2><a href=|</a></h2>)" '{print $2}' | grep '\S'
+time curl -s https://www.skidrowreloaded.com/ | awk -v FS="(<h2><a href=|</a></h2>)" '{print $2}' | awk 'NF'
+time curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" '{print $2}' | awk 'NF'
+time curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" '{print $2}' | grep '\S'
+time curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" '{print $2}'; 'NF'
+time curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" '{print $2}'; {'NF'}
+time curl -s https://www.skidrowreloaded.com/ | awk -NF "<h2><a href=|</a></h2>" '{print $2}'
+time curl -s https://www.skidrowreloaded.com/ | awk -F 'NF' "<h2><a href=|</a></h2>" '{print $2}'
+time curl -s https://www.skidrowreloaded.com/ | awk -F 'NF' "<h2><a href=|</a></h2>" '{print $2}' NF
+time curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" '{print $2}' NF
+time curl -s https://www.skidrowreloaded.com/ | awk NF -F "<h2><a href=|</a></h2>" '{print $2}'
+time curl -s https://www.skidrowreloaded.com/ | awk 'NF' -F "<h2><a href=|</a></h2>" '{print $2}'
+time curl -s https://www.skidrowreloaded.com/ | awk 'NF'; -F "<h2><a href=|</a></h2>" '{print $2}'
+time curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" '{print $2} NF'
+time curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" '{print $2}'
+time curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" ' NF {print $2}'
+time curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" 'NF {print $2}'
+time curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" 'NF > 1 {print $2}'
+time curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" 'NF > {print $2}'
+time curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" 'NF>1 {print $2}'
+rss_games.sh 
+curl -s https://www.skidrowreloaded.com/ | awk -F "<h2><a href=|</a></h2>" 'NF>1 {print $2}'
+rss_games.sh 
+killall liferea
+k9 353591
+k9 355362
+k9 352708
+/home/govi/Scripts/Bash/Polybar/rss_games.sh
+crontab -l
+/home/govi/Scripts/Bash/Polybar/rss_games.sh
+curl -s https://www.skidrowreloaded.com//feed/ | awk -F "<h2><a href=|</a></h2>" 'NF>1 {print $2}'
+/home/govi/Scripts/Bash/Polybar/rss_games.sh
+curl -s https://www.skidrowreloaded.com/feed/ | awk -F "<h2><a href=|</a></h2>" 'NF>1 {print $2}'
+curl -s https://www.skidrowreloaded.com/feed | awk -F <title>" 'NF>1 {print $2}'
+curl -s https://www.skidrowreloaded.com/feed/
+curl -s https://www.skidrowreloaded.com/feed/ > SR.html
+curl -s https://www.skidrowreloaded.com/feed/ | awk -F "<title>|</title>" 'NF>1 {print $2}'
+curl -s https://www.skidrowreloaded.com/feed/ | awk -F "<title>|</title>" 'NF>1 {print $2} | sed 's/Skidrow &amp\; Reloaded Games//g'
+curl -s https://www.skidrowreloaded.com/feed/ | awk -F "<title>|</title>" 'NF>1 {print $2}'| sed 's/Skidrow &amp\; Reloaded Games//g'
+curl -s https://www.skidrowreloaded.com/feed/ | awk -F "<title>|</title>" 'NF>1 {print $1}'
+curl -s https://www.skidrowreloaded.com/feed/ | awk -F "<title>|</title>" 'NF>1 {print $3}'
+curl -s https://www.skidrowreloaded.com/feed/ | awk -F "<title>|</title>" 'NF>1 {print $2}'
+/home/govi/Scripts/Bash/Polybar/rss_games.sh
+rss_games.sh
+rss_github.sh 
+rss_youtube.sh 
+curl -s https://www.skidrowreloaded.com/feed/ | awk -F "<title>|</title>" '{print $2}'| sed 's/Skidrow &amp\; Reloaded Games//g'| awk 'NF'
+rss_youtube.sh 
+cat /home/govi/888
+cat /home/govi/888 | awk -F "xmlUrl=| htmlUrl=" {print$2}"
+cat /home/govi/888 | awk -F "xmlUrl=| htmlUrl=\" {print$2}"
+cat /home/govi/888 | awk -F "xmlUrl=| htmlUrl=\" {print $2}"
+cat /home/govi/888 | awk -F "xmlUrl=| htmlUrl=\"" {print $2}
+cat /home/govi/888 | awk -F "xmlUrl=| htmlUrl=\"" '{print $2}'
+cat /home/govi/888 | awk -F "description|type" '{print $2}' 
+rss_youtube.sh 
+crontab -e
+/home/govi/.config/polybar/scripts/reload_polybar.sh
+crontab -e
+vim .bashrc
+Star_Wars_Battlefront_II.sh 
+rss_games.sh 
+pidof winedevice.exe
+k9 825110
+Star_Wars_Battlefront_II.sh 
+Star_Wars_Battlefront_II.sh 
+"/home/govi/Games/PC/STAR WARS Battlefront II/Wine"
+fd Origin
+export WINEPREFIX="/home/govi/Games/PC/-Launchers/Steam/-wine-pfx/4241727315/pfx"
+export WINE="/home/govi/Wine/wine_Proton/Proton-5.13/dist/bin/wine"
+/Media/GoVi/Sistema/Programas/Windows/Pc Launchers
+"/Media/GoVi/Sistema/Programas/Windows/Pc Launchers"
+$WINE OriginThinSetup.exe
+Pass
+Pass.sh 
+pidof liferea
+k9 435036
+export WINEPREFIX="/home/govi/Games/PC/-Launchers/Steam/-wine-pfx/4241727315/pfx"
+export WINE="/home/govi/Wine/wine_Proton/Proton-5.13/dist/bin/wine"
+"/Media/GoVi/Sistema/Programas/Windows/Pc Launchers"
+$WINE OriginThinSetup.exe
+spm -Syu
+yay
+y
+yay
+spm -Syyu
+spm -Syyyu
+Star_Wars_Battlefront_II.sh 
+export WINEPREFIX="/Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/wine-pfx"
+export WINEPREFIX="/home/govi/Wine/wine_Lutris/wine-pfx_SWBII"
+"/Media/GoVi/Sistema/Programas/Windows/Pc Launchers/OriginThinSetup.exe"
+export WINEPREFIX="/home/govi/Wine/wine_Lutris/wine-pfx_SWBII"
+export WINEPREFIX="/Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/wine-pfx"
+Star_Wars_Battlefront_II.sh 
+/Datos/Games/PC/-Launchers/Origin/Wine/Launch-Origin.sh
+export WINEPREFIX="/Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/wine-pfx"
+Star_Wars_Battlefront_II.sh 
+spm -Syu
+sudo rm -f /usr/include/ini.h
+spm -Syu
+sudo rm -f /usr/include/INIReader.h
+sudo rm -f /usr/lib/libINIReader.so
+sudo rm -f /usr/lib/libINIReader.so.0
+sudo rm -f /usr/lib/libinih.so
+sudo rm -f /usr/lib/libinih.so.0
+sudo rm -f /usr/lib/pkgconfig/INIReader.pc
+sudo rm -f /usr/lib/pkgconfig/inih.pc
+spm -Syu
+ff lutris_origin
+ff "lutris_origin*"
+/bin/bash  /home/govi/Scripts/Bash/Polybar/rss_youtube.sh 

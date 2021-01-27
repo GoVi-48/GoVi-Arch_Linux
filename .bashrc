@@ -143,7 +143,7 @@ alias kd1-pp1="kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emble
 alias wrt="wrestool -x --output=. -t14"
 alias dp="dolphin"
 alias yt="youtube-dl --add-metadata -ic"
-alias pyc="pycharm.sh"
+alias py="python3"
 alias am="alsamixer"
 
 # Games aliases

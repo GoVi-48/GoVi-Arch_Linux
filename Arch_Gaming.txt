@@ -134,7 +134,9 @@
     wget -P ~/Escritorio https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
     chmod +x ~/Escritorio/winetricks
     cd ~/Escritorio/winetricks
-    sh winetricks corefonts vcrun6
+    winetricks d3dcompiler_43 d3dcompiler_47 d3dx9 
+    winetricks --force vcrun2013 vcrun2015 vcrun2017
+    winetricks win10
 
     
  # Fonts

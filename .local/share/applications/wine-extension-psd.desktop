@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Adobe Photoshop 2021
+MimeType=image/vnd.adobe.photoshop;
+Exec=env WINEPREFIX="/home/govi/Programas/Adobe/wine-pfx_mf-dxvk-1.7.3" /home/ubuntu/buildbot/runners/wine/lutris-5.7-11-x86_64/bin/wine start /ProgIDOpen Photoshop.Image.22 %f
+NoDisplay=true
+StartupNotify=true
+Icon=FA96_Photoshop.0

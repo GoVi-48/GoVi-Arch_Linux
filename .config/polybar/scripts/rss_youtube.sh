@@ -14,7 +14,7 @@ echo -e "\nUpdating Entries...\n"
 L_BLUE='\033[1;34m'
 NC='\033[0m'
 
-#awk '/L_BLUE}Linux/{flag=1; next} /    # END/{flag=0} flag {print}' /home/govi/Scripts/Bash/Polybar/rss_youtube.sh
+#awk '/L_BLUE}Linux/{flag=1; next} /# END/{flag=0} flag {print}' /home/govi/Scripts/Bash/Polybar/rss_youtube.sh
 
 CHECK_ENTRIES(){
     echo -e "\n${L_BLUE}<==============================================================>"
@@ -44,11 +44,9 @@ CHECK_ENTRIES(){
     echo -e "\nImKibitz:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCz9qw5nupdzCGwHwQiqs7qA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nInsertMoreCoins:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCq8n2oMl5dVugY_u4pzwoOQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nj0hnbane:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCtSKdz7X4QhaL6LgyOhCViQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
-    echo -e "\nLethamyr:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCkNYoWK1LqjFhxYI6BM_kOA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nLoeya:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCARoT-xFUIxso8TDKulWSYA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nMrGrimmmz:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCNRrmKwVzQThSs2w2JpDM1A" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nOh Long Johnson:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCdQdmd81Mw0Qx-GJn7ExJRw" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
-    echo -e "\nRosdri:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCLdrFLVHsqyLt2Z6lQmf5cQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nSl1pg8r:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCB9y6hNzccY5rTQlnI1KNqA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nthatdenverguy:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCN_kkuZ1b1emUHq2Fz3DWuQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nTortilla Squad:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC3C9dOKpyemQCCJqsYt3ySQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"

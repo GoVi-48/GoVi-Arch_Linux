@@ -1,0 +1,17 @@
+game:
+  args: -opengl -SkipBuildPatchPrereq
+  exe: /Media/Games/PC/STAR WARS Battlefront II/starwarsbattlefrontii.exe
+  prefix: ~/Wine/wine_Lutris/wine-pfx_STAR_WARS_BFII
+system:
+  env:
+    MESA_GL_VERSION_OVERRIDE: 4.4COMPAT
+    __GL_SHADER_DISK_CACHE: '1'
+    __GL_SHADER_DISK_CACHE_PATH: /Datos/Games/PC/-Launchers/Epic Games/Cache
+wine:
+  esync: true
+  fsync: false
+  overrides:
+    libEGL: disabled
+    nvapi: disabled
+    nvapi64: disabled
+  version: lutris-5.21-2-x86_64

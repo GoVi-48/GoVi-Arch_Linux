@@ -8,7 +8,7 @@ DIR=$(dirname "$(realpath "$0")" | sed -s "s|/Wine||g")
 # Game Executable
 EXE="./bin/x64/Game.exe"
 PROCESS="Game.exe"
-FLAGS="-vulkan"
+ARGS="-vulkan"
 
 # Wine Directories
 WINE="$DIR/Wine/wine"
@@ -24,7 +24,7 @@ export ENABLE_VKBASALT=1
 
 # Launch
 cd "$DIR"
-gamemoderun WINEPREFIX="$WINEPREFIX" "$WINE" "$EXE" $FLAGS &
+gamemoderun WINEPREFIX="$WINEPREFIX" "$WINE" "$EXE" $ARGS &
 echo "Launching $DIR/$EXE"
 
 # Before Launch

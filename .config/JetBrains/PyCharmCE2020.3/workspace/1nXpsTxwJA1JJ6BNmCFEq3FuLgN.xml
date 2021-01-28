@@ -1,38 +1,48 @@
 <project version="4">
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Scripts/Bash/Games/_Create_wine-pfx/Create-wine-pfx.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="37" column="44" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="64" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Wine/Scripts/_Create_wine-pfx/Setups/Install-Origin.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Wine/Scripts/_Create_wine-pfx/Setups/Install-Launch-Epic_Games.sh">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Scripts/Bash/Games/Create-wine-pfx/Create-wine-pfx.sh">
+        <entry file="file://$USER_HOME$/Wine/Scripts/Launch-Game_Template.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1743">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="218">
+              <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Launch-STAR_WARS_Battlefront_II.sh">
+        <entry file="file://$USER_HOME$/Games/PC/STAR WARS Jedi Fallen Order/Wine/Launch-STAR_WARS_Jedi_Fallen_Order.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="252">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Install-Origin.sh">
+        <entry file="file://$USER_HOME$/Games/PC/Dyson Sphere Program/Wine/Launch-Dyson_Sphere_Program.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Install-Launch-Epic_Games.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="588">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="2058">
+              <caret line="98" column="25" selection-start-line="98" selection-end-line="99" />
             </state>
           </provider>
         </entry>
@@ -59,6 +69,17 @@
       <find>${DIR}</find>
       <find>Install_S</find>
       <find>Install_Scripts</find>
+      <find>pfx</find>
+      <find>WINE</find>
+      <find>export WINE</find>
+      <find>Enter</find>
+      <find>pres</find>
+      <find>Create</find>
+      <find>need</find>
+      <find>$DIR</find>
+      <find>&amp;&amp;</find>
+      <find>TCreating</find>
+      <find>symlinc</find>
     </findStrings>
     <replaceStrings>
       <replace>width=32</replace>
@@ -78,6 +99,10 @@
       <replace>[y/n]'</replace>
       <replace>ln -sf</replace>
       <replace>&gt; /dev/null</replace>
+      <replace>${DIR}</replace>
+      <replace>&amp;&amp;</replace>
+      <replace>Creating</replace>
+      <replace>2 &amp;&amp;</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
@@ -100,11 +125,20 @@
       <option value="$USER_HOME$/Games/PC/STAR WARS Battlefront II/Wine&#10;/Launch-STAR_WARS_Battlefront_II.sh" />
       <option value="/Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine&#10;/Launch-STAR_WARS_Battlefront_II.sh" />
       <option value="$USER_HOME$/Scripts/Bash/Games/Create-wine-pfx/Install_Scripts/Create-wine-pfx.sh" />
-      <option value="$USER_HOME$/Scripts/Bash/Games/Create-wine-pfx/Create-wine-pfx.sh" />
       <option value="/Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Install-Origin.sh" />
       <option value="/Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Install-Epic_Games.sh" />
       <option value="/Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Install-Launch-Epic_Games.sh" />
       <option value="/Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Launch-STAR_WARS_Battlefront_II.sh" />
+      <option value="$USER_HOME$/Scripts/Bash/Games/Create-wine-pfx/Create-wine-pfx.sh" />
+      <option value="$USER_HOME$/Scripts/Bash/Games/_Create_wine-pfx/Create-wine-pfx.sh" />
+      <option value="$USER_HOME$/Scripts/Bash/Games/_Create_wine-pfx/Create_wine-pfx.sh" />
+      <option value="$USER_HOME$/Wine/Scripts/-Launch_Game-Template.sh" />
+      <option value="$USER_HOME$/Games/PC/STAR WARS Jedi Fallen Order/Wino/Launch-STAR_WARS_Jedi_Fallen_Order.sh" />
+      <option value="$USER_HOME$/Games/PC/Dyson Sphere Program/wine/Launch-Dyson_Sphere_Program.sh" />
+      <option value="$USER_HOME$/Wine/Scripts/_Create_wine-pfx/Setups/Launch-STAR_WARS_Battlefront_II.sh" />
+      <option value="$USER_HOME$/Games/PC/Dyson Sphere Program/Wine/Launch-Dyson_Sphere_Program.sh" />
+      <option value="$USER_HOME$/Wine/Scripts/Launch-Game_Template.sh" />
+      <option value="$USER_HOME$/Games/PC/STAR WARS Jedi Fallen Order/Wine/Launch-STAR_WARS_Jedi_Fallen_Order.sh" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -120,10 +154,11 @@
   </component>
   <component name="TerminalArrangementManager">
     <option name="myTabStates">
-      <TerminalTabState tabName="Install_Epic_Games.sh" currentWorkingDirectory="$USER_HOME$/Games/PC/STAR WARS Battlefront II/Wine/Install_Scripts" commandHistoryFileName="history-257" />
+      <TerminalTabState tabName="Install_Epic_Games.sh" commandHistoryFileName="history-257" />
       <TerminalTabState tabName="Launch-STAR_WARS_Battlefront_II.sh" commandHistoryFileName="history-246" />
+      <TerminalTabState tabName="Create-wine-pfx.sh" currentWorkingDirectory="$USER_HOME$/Scripts/Bash/Games/Create-wine-pfx" commandHistoryFileName="history-89" />
     </option>
-    <option name="mySelectedTabIndex" value="1" />
+    <option name="mySelectedTabIndex" value="2" />
   </component>
   <component name="ToolWindowManager">
     <editor active="true" />
@@ -142,7 +177,7 @@
       <window_info anchor="bottom" id="Messages" order="5" weight="0.32874617" />
       <window_info anchor="bottom" id="Problems View" order="6" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.3993135" />
-      <window_info active="true" anchor="bottom" x="1100" y="75" width="808" height="747" id="Terminal" order="8" type="WINDOWED" weight="0.32911393" />
+      <window_info active="true" anchor="bottom" x="1106" y="75" width="802" height="747" id="Terminal" order="8" type="WINDOWED" weight="0.32911393" />
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Services" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
@@ -153,14 +188,22 @@
       <screen x="0" y="36" width="1920" height="1009" />
     </state>
     <state x="146" y="202" width="808" height="741" key="#Intentions/0.36.1920.1009@0.36.1920.1009" timestamp="1611773400024" />
-    <state x="346" y="237" key="#Menus_and_Toolbars" timestamp="1611546921466">
+    <state x="346" y="237" key="#Menus_and_Toolbars" timestamp="1611817423353">
       <screen x="0" y="36" width="1920" height="1009" />
     </state>
-    <state x="346" y="237" key="#Menus_and_Toolbars/0.36.1920.1009@0.36.1920.1009" timestamp="1611546921466" />
-    <state x="330" y="292" key="FileChooserDialogImpl" timestamp="1611693143260">
+    <state x="346" y="237" key="#Menus_and_Toolbars/0.36.1920.1009@0.36.1920.1009" timestamp="1611817423353" />
+    <state x="368" y="232" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1611817418117">
       <screen x="0" y="36" width="1920" height="1009" />
     </state>
-    <state x="330" y="292" key="FileChooserDialogImpl/0.36.1920.1009@0.36.1920.1009" timestamp="1611693143260" />
+    <state x="368" y="232" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog/0.36.1920.1009@0.36.1920.1009" timestamp="1611817418117" />
+    <state x="235" y="271" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1611861940698">
+      <screen x="0" y="36" width="1920" height="1009" />
+    </state>
+    <state x="235" y="271" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.36.1920.1009@0.36.1920.1009" timestamp="1611861940698" />
+    <state x="330" y="292" key="FileChooserDialogImpl" timestamp="1611817411640">
+      <screen x="0" y="36" width="1920" height="1009" />
+    </state>
+    <state x="330" y="292" key="FileChooserDialogImpl/0.36.1920.1009@0.36.1920.1009" timestamp="1611817411640" />
     <state width="808" height="720" key="GridCell.Tab.0.bottom" timestamp="1611611359407">
       <screen x="0" y="36" width="1920" height="1009" />
     </state>
@@ -193,10 +236,10 @@
       <screen x="0" y="36" width="1920" height="1009" />
     </state>
     <state width="1092" height="321" key="GridCell.Tab.1.right/0.36.1920.1009@0.36.1920.1009" timestamp="1611547662566" />
-    <state x="757" y="64" width="1007" height="743" key="SettingsEditor" timestamp="1611795518659">
+    <state x="757" y="64" width="1007" height="743" key="SettingsEditor" timestamp="1611862169555">
       <screen x="0" y="36" width="1920" height="1009" />
     </state>
-    <state x="757" y="64" width="1007" height="743" key="SettingsEditor/0.36.1920.1009@0.36.1920.1009" timestamp="1611795518659" />
+    <state x="757" y="64" width="1007" height="743" key="SettingsEditor/0.36.1920.1009@0.36.1920.1009" timestamp="1611862169555" />
     <state x="423" y="476" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog" timestamp="1611546919212">
       <screen x="0" y="36" width="1920" height="1009" />
     </state>
@@ -264,13 +307,7 @@
     <entry file="file://$USER_HOME$/Wine/Scripts/Wine/Launch-STAR_WARS_Battlefront_II.sh" />
     <entry file="file://$USER_HOME$/Games/PC/STAR WARS Battlefront II/Wine&#10;/Launch-STAR_WARS_Battlefront_II.sh" />
     <entry file="file:///Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine&#10;/Launch-STAR_WARS_Battlefront_II.sh" />
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/-Launch_Game.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Games/-Launch_Game.sh" />
     <entry file="file:///Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Launch-Epic_Games.sh" />
     <entry file="file://$USER_HOME$/Scripts/Bash/Games/Create-wine-pfx/Install_Scripts/Create-wine-pfx.sh" />
     <entry file="file://$USER_HOME$/Scripts/Bash/Utils/Pass.sh">
@@ -280,34 +317,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Install-Epic_Games.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="68" lean-forward="true" selection-start-line="22" selection-start-column="68" selection-end-line="22" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Install-Origin.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Install-Launch-Epic_Games.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="588">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Launch-STAR_WARS_Battlefront_II.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Install-Epic_Games.sh" />
     <entry file="file://$USER_HOME$/Scripts/Python/Pass GUI/passtore.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -322,10 +332,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Scripts/Bash/Games/Create-wine-pfx/Create-wine-pfx.sh">
+    <entry file="file:///Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Install-Launch-Epic_Games.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1743">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="588">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Bash/Games/Create-wine-pfx/Create-wine-pfx.sh" />
+    <entry file="file:///Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Install-Origin.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Datos/Games/PC/-Launchers/Origin/-Library/STAR WARS Battlefront II/Wine/Launch-STAR_WARS_Battlefront_II.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Wine/Scripts/-Launch_Game-Template.sh" />
+    <entry file="file://$USER_HOME$/Scripts/Bash/Games/_Create_wine-pfx/Create_wine-pfx.sh" />
+    <entry file="file://$USER_HOME$/Wine/Scripts/_Create_wine-pfx/Create-wine-pfx.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Games/PC/STAR WARS Jedi Fallen Order/Wino/Launch-STAR_WARS_Jedi_Fallen_Order.sh" />
+    <entry file="file://$USER_HOME$/Games/PC/Dyson Sphere Program/wine/Launch-Dyson_Sphere_Program.sh" />
+    <entry file="file://$USER_HOME$/Wine/Scripts/_Create_wine-pfx/Setups/Launch-STAR_WARS_Battlefront_II.sh" />
+    <entry file="file://$USER_HOME$/Scripts/Bash/Games/_Create_wine-pfx/Create-wine-pfx.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="44" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Wine/Scripts/_Create_wine-pfx/Setups/Install-Origin.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Wine/Scripts/_Create_wine-pfx/Setups/Install-Launch-Epic_Games.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Games/PC/Dyson Sphere Program/Wine/Launch-Dyson_Sphere_Program.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2058">
+          <caret line="98" column="25" selection-start-line="98" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Games/PC/STAR WARS Jedi Fallen Order/Wine/Launch-STAR_WARS_Jedi_Fallen_Order.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Wine/Scripts/Launch-Game_Template.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="27" column="33" lean-forward="true" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
         </state>
       </provider>
     </entry>

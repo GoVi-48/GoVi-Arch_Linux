@@ -1,12 +1,12 @@
 kdeinit5: preparing to launch '/usr/lib/kf5/klauncher'
-kdeinit5: Launched KLauncher, pid = 599, result = 0
+kdeinit5: Launched KLauncher, pid = 592, result = 0
 kdeinit5: opened connection to :0
-kdeinit5: Got SETENV 'GTK_RC_FILES=/etc/gtk/gtkrc:/home/govi/.gtkrc:/home/govi/.config/gtkrc' from launcher.
-kdeinit5: Got SETENV 'GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/govi/.gtkrc-2.0:/home/govi/.config/gtkrc-2.0' from launcher.
 kdeinit5: Got SETENV 'XCURSOR_THEME=GoVi-Cu' from launcher.
 kdeinit5: Got SETENV 'XCURSOR_SIZE=24' from launcher.
-kdeinit5: Got SETENV 'SESSION_MANAGER=local/GoVi-PC:@/tmp/.ICE-unix/646,unix/GoVi-PC:/tmp/.ICE-unix/646' from launcher.
-kdeinit5: Got SETENV 'SESSION_MANAGER=local/GoVi-PC:@/tmp/.ICE-unix/646,unix/GoVi-PC:/tmp/.ICE-unix/646' from launcher.
+kdeinit5: Got SETENV 'GTK_RC_FILES=/etc/gtk/gtkrc:/home/govi/.gtkrc:/home/govi/.config/gtkrc' from launcher.
+kdeinit5: Got SETENV 'GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/govi/.gtkrc-2.0:/home/govi/.config/gtkrc-2.0' from launcher.
+kdeinit5: Got SETENV 'SESSION_MANAGER=local/GoVi-PC:@/tmp/.ICE-unix/652,unix/GoVi-PC:/tmp/.ICE-unix/652' from launcher.
+kdeinit5: Got SETENV 'SESSION_MANAGER=local/GoVi-PC:@/tmp/.ICE-unix/652,unix/GoVi-PC:/tmp/.ICE-unix/652' from launcher.
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/trash.so' from launcher.
@@ -25,10 +25,10 @@ kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/desktop.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/desktop.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
 imwheel: no process found
-INFO: imwheel started (pid=941)
+INFO: imwheel started (pid=1006)
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
@@ -39,145 +39,498 @@ Could not open alacritty using a library: Cannot load library libkdeinit5_alacri
 kdeinit5: Got EXEC_NEW 'onboard' from launcher.
 kdeinit5: preparing to launch 'libkdeinit5_onboard'
 Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-23:49:30.739 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
+00:52:57.133 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
-2021-01-27 23:50:06,450 [    450]   WARN - llij.ide.plugins.PluginManager - Resource bundle redefinition for plugin 'com.jetbrains.pycharm.community.customization'. Old value: messages.ActionsBundle, new value: messages.PyBundle 
-2021-01-27 23:50:06,559 [    559]   WARN - llij.ide.plugins.PluginManager - Problems found loading plugins:
-  The BashSupport (id=BashSupport, path=~/.local/share/JetBrains/PyCharmCE2020.3/BashSupport, version=1.7.19.201) plugin Plugin 'BashSupport' (version '1.7.19.201') is not compatible with the current version of the IDE, because it requires build 201.* or older but the current build is PC-203.6682.179 
-2021-01-27 23:50:08,417 [   2417]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
-2021-01-27 23:50:08,419 [   2419]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij] 
-2021-01-27 23:50:08,419 [   2419]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij] 
-2021-01-27 23:50:08,419 [   2419]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
-2021-01-27 23:50:08,518 [   2518]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: org.jetbrains.plugins.github] 
-2021-01-27 23:50:08,530 [   2530]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: PythonCore] 
-2021-01-27 23:50:08,530 [   2530]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: PythonCore] 
-2021-01-27 23:50:18,388 [  12388]   WARN - .skeletons.PySkeletonRefresher - Some skeletons failed to generate 
-2021-01-27 23:50:18,388 [  12388]   WARN - .skeletons.PySkeletonRefresher - _decimal 
-kdeinit5: PID 865 terminated.
-kdeinit5: PID 1812 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 874 terminated.
-kdeinit5: PID 866 terminated.
-kdeinit5: PID 877 terminated.
-kdeinit5: PID 871 terminated.
+kdeinit5: PID 879 terminated.
+kdeinit5: PID 869 terminated.
+kdeinit5: PID 913 terminated.
+kdeinit5: PID 1254 terminated.
+kdeinit5: PID 1303 terminated.
+kdeinit5: PID 878 terminated.
 kdeinit5: PID 880 terminated.
-kdeinit5: PID 919 terminated.
-kdeinit5: PID 917 terminated.
-kdeinit5: PID 1237 terminated.
-kdeinit5: PID 1239 terminated.
-kdeinit5: PID 864 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: PID 872 terminated.
+kdeinit5: PID 1206 terminated.
+kdeinit5: PID 971 terminated.
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+2021-01-28 00:57:11,330 [    391]   WARN - llij.ide.plugins.PluginManager - Resource bundle redefinition for plugin 'com.jetbrains.pycharm.community.customization'. Old value: messages.ActionsBundle, new value: messages.PyBundle 
+2021-01-28 00:57:11,446 [    507]   WARN - llij.ide.plugins.PluginManager - Problems found loading plugins:
+  The BashSupport (id=BashSupport, path=~/.local/share/JetBrains/PyCharmCE2020.3/BashSupport, version=1.7.19.201) plugin Plugin 'BashSupport' (version '1.7.19.201') is not compatible with the current version of the IDE, because it requires build 201.* or older but the current build is PC-203.6682.179 
+2021-01-28 00:57:12,998 [   2059]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-01-28 00:57:13,000 [   2061]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: com.intellij] 
+2021-01-28 00:57:13,000 [   2061]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: com.intellij] 
+2021-01-28 00:57:13,000 [   2061]   WARN - nSystem.impl.ActionManagerImpl - keymap "Visual Studio" not found [Plugin: com.intellij] 
+2021-01-28 00:57:13,043 [   2104]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: org.jetbrains.plugins.github] 
+2021-01-28 00:57:13,059 [   2120]   WARN - nSystem.impl.ActionManagerImpl - keymap "Eclipse" not found [Plugin: PythonCore] 
+2021-01-28 00:57:13,059 [   2120]   WARN - nSystem.impl.ActionManagerImpl - keymap "NetBeans 6.5" not found [Plugin: PythonCore] 
+2021-01-28 00:57:22,315 [  11376]   WARN - .skeletons.PySkeletonRefresher - Some skeletons failed to generate 
+2021-01-28 00:57:22,315 [  11376]   WARN - .skeletons.PySkeletonRefresher - _decimal 
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 7530 terminated.
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 7966 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 2068 terminated.
+kdeinit5: PID 1883 terminated.
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+01:04:40.689 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
+kdeinit5: PID 16429 terminated.
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 9353 terminated.
-kdeinit5: PID 9354 terminated.
-kdeinit5: PID 2004 terminated.
-kdeinit5: PID 875 terminated.
-kdeinit5: PID 9441 terminated.
-kdeinit5: PID 9961 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-00:06:14.928 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+kdeinit5: PID 14480 terminated.
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 23448 terminated.
-kdeinit5: PID 5404 terminated.
-kdeinit5: PID 21630 terminated.
-2021-01-28 00:09:15,928: Your version of python-magic is too old.
-2021-01-28 00:09:16,210: Initializing lutris
-2021-01-28 00:09:16,582: Downloading DXVK releases to /home/govi/.local/share/lutris/runtime/dxvk/dxvk_versions.json
-2021-01-28 00:09:16,583: Runtime updated. Initialization complete.
-kdeinit5: PID 22967 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-00:13:28.435 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 22975 terminated.
-kdeinit5: PID 29455 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 27239 terminated.
-kdeinit5: PID 21518 terminated.
-kdeinit5: PID 26964 terminated.
-kdeinit5: PID 22972 terminated.
-2021-01-28 00:19:52,950: Your version of python-magic is too old.
-2021-01-28 00:19:53,089: Initializing lutris
-2021-01-28 00:19:53,437: Downloading DXVK releases to /home/govi/.local/share/lutris/runtime/dxvk/dxvk_versions.json
-2021-01-28 00:19:53,438: Runtime updated. Initialization complete.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 35522 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 38332 terminated.
-kdeinit5: PID 29796 terminated.
-kdeinit5: PID 29904 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-2021-01-28 00:23:23,802: Your version of python-magic is too old.
-2021-01-28 00:26:33,803: Your version of python-magic is too old.
-kdeinit5: PID 39602 terminated.
-kdeinit5: PID 29903 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 44850 terminated.
-kdeinit5: PID 39181 terminated.
-kdeinit5: PID 39603 terminated.
-2021-01-28 00:31:21,933 [2475933]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (14)!!! 
-2021-01-28 00:31:21,938 [2475938]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (14)!!! 
-2021-01-28 00:31:21,957 [2475957]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (14)!!! 
-2021-01-28 00:31:21,963 [2475963]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (14)!!! 
-2021-01-28 00:31:21,969 [2475969]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (14)!!! 
-2021-01-28 00:31:21,975 [2475975]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (14)!!! 
-2021-01-28 00:31:21,977 [2475977]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (14)!!! 
-2021-01-28 00:31:21,982 [2475982]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (14)!!! 
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
 kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
 kdeinit5: preparing to launch 'libkdeinit5_alacritty'
 Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
 kdeinit5: Got EXEC_NEW 'onboard' from launcher.
 kdeinit5: preparing to launch 'libkdeinit5_onboard'
 Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 50799 terminated.
+01:11:11.046 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
+kdeinit5: PID 23346 terminated.
+kdeinit5: PID 20772 terminated.
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 28053 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/trash.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/trash.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 30144 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 30126 terminated.
+kdeinit5: PID 30204 terminated.
+kdeinit5: PID 30131 terminated.
+kdeinit5: PID 30130 terminated.
+kdeinit5: PID 30270 terminated.
+kdeinit5: PID 23556 terminated.
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 34596 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+2021-01-28 01:31:06,604 [2035665]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (11)!!! 
+2021-01-28 01:31:06,960 [2036021]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (17)!!! 
+2021-01-28 01:31:56,394 [2085455]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (11)!!! 
+2021-01-28 01:31:56,398 [2085459]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (11)!!! 
+2021-01-28 01:31:56,408 [2085469]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (11)!!! 
+2021-01-28 01:31:56,410 [2085471]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (11)!!! 
+2021-01-28 01:31:56,420 [2085481]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (11)!!! 
+2021-01-28 01:31:57,689 [2086750]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (21)!!! 
+2021-01-28 01:31:57,692 [2086753]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (21)!!! 
+2021-01-28 01:31:57,703 [2086764]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (21)!!! 
+2021-01-28 01:31:57,704 [2086765]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (21)!!! 
+2021-01-28 01:31:57,780 [2086841]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (21)!!! 
+2021-01-28 01:31:57,787 [2086848]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (22)!!! 
+2021-01-28 01:32:49,545 [2138606]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (11)!!! 
+2021-01-28 01:32:49,553 [2138614]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (11)!!! 
+2021-01-28 01:32:49,556 [2138617]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (11)!!! 
+2021-01-28 01:32:49,576 [2138637]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (11)!!! 
+2021-01-28 01:32:50,450 [2139511]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (15)!!! 
+2021-01-28 01:33:14,485 [2163546]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (11)!!! 
+2021-01-28 01:33:16,091 [2165152]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (11)!!! 
+2021-01-28 01:33:16,097 [2165158]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (11)!!! 
+2021-01-28 01:33:16,103 [2165164]   WARN - com.intellij.ide.IdeEventQueue - Too many mouse clicks (11)!!! 
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: PID 37733 terminated.
+kdeinit5: PID 23743 terminated.
+kdeinit5: PID 30134 terminated.
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+kdeinit5: PID 43995 terminated.
+kdeinit5: PID 46436 terminated.
+kdeinit5: PID 873 terminated.
+2021-01-28 01:41:06,865 [2635926]   WARN - tions.ex.ConfigurableCardPanel - auto-dispose 'Plugins' id=preferences.pluginManager 
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+01:43:03.216 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 59237 terminated.
+kdeinit5: PID 881 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: PID 67894 terminated.
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 67777 terminated.
+kdeinit5: PID 70198 terminated.
+kdeinit5: PID 69291 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: PID 73265 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 69292 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 81728 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
+kdeinit5: PID 77646 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
+kdeinit5: PID 91179 terminated.
+kdeinit5: PID 91180 terminated.
+kdeinit5: PID 91195 terminated.
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 49105 terminated.
+kdeinit5: PID 77524 terminated.
+kdeinit5: PID 82142 terminated.
+kdeinit5: PID 98810 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/desktop.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/desktop.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 101880 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: PID 90416 terminated.
+kdeinit5: PID 101518 terminated.
+kdeinit5: PID 101516 terminated.
+kdeinit5: PID 90984 terminated.
+kdeinit5: PID 102408 terminated.
+kdeinit5: PID 101890 terminated.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+kdeinit5: PID 58921 terminated.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+02:42:03.695 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
+[Child 165016, MediaDecoderStateMachine #1] WARNING: Decoder=7f8a5c9a4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 165016, MediaDecoderStateMachine #1] WARNING: Decoder=7f8a5c9a4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 165016, MediaDecoderStateMachine #1] WARNING: Decoder=7f8a5c9a4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 165016, MediaDecoderStateMachine #1] WARNING: Decoder=7f8a5c9a4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 165016, MediaDecoderStateMachine #1] WARNING: Decoder=7f8a5c9a4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 165016, MediaDecoderStateMachine #1] WARNING: Decoder=7f8a5c9a4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 165016, MediaDecoderStateMachine #1] WARNING: Decoder=7f8a5c9a4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 165016, MediaDecoderStateMachine #1] WARNING: Decoder=7f8a5c9a4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 165016, MediaDecoderStateMachine #1] WARNING: Decoder=7f8a5c9a4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 165016, MediaDecoderStateMachine #1] WARNING: Decoder=7f8a5c9a4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 165016, MediaDecoderStateMachine #1] WARNING: Decoder=7f8a5c9a4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 165016, MediaDecoderStateMachine #1] WARNING: Decoder=7f8a5c9a4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 165016, MediaDecoderStateMachine #1] WARNING: Decoder=7f8a5c9a4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 165016, MediaDecoderStateMachine #1] WARNING: Decoder=7f8a5c9a4400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 375428 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 375497 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 375502 terminated.
+kdeinit5: PID 376649 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 376813 terminated.
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 383921 terminated.
+kdeinit5: PID 101879 terminated.
+kdeinit5: PID 376765 terminated.
+kdeinit5: PID 375324 terminated.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+kdeinit5: PID 381187 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 393342 terminated.
+kdeinit5: PID 393344 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 404014 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 404016 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 375496 terminated.
+kdeinit5: PID 409550 terminated.
+kdeinit5: PID 409523 terminated.
+kdeinit5: PID 409533 terminated.
+kdeinit5: PID 410680 terminated.
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 434435 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 434593 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 438133 terminated.
+kdeinit5: PID 434600 terminated.
+2021-01-28 03:54:36,305: Your version of python-magic is too old.
+2021-01-28 03:54:36,714: Initializing lutris
+2021-01-28 03:54:37,077: Downloading DXVK releases to /home/govi/.local/share/lutris/runtime/dxvk/dxvk_versions.json
+2021-01-28 03:54:37,081: Runtime updated. Initialization complete.
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 440948 terminated.
+OpenJDK 64-Bit Server VM warning: Option UseConcMarkSweepGC was deprecated in version 9.0 and will likely be removed in a future release.
+kdeinit5: PID 435140 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 442025 terminated.
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 443665 terminated.
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+[937:937:0128/035835.679215:ERROR:network_service_instance_impl.cc(262)] Network service crashed, restarting service.
+kdeinit5: PID 443696 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/desktop.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/desktop.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: PID 259441 terminated.
+kdeinit5: PID 442027 terminated.
+2021-01-28 03:59:44,541: Your version of python-magic is too old.
+kdeinit5: PID 445306 terminated.
+kdeinit5: PID 445304 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/http.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/http.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/http.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/http.so'
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+04:03:56.342 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/trash.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/trash.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: PID 409524 terminated.
+kdeinit5: PID 452812 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 452779 terminated.
+kdeinit5: PID 452372 terminated.
+kdeinit5: PID 452373 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 455393 terminated.
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 452780 terminated.
+kdeinit5: PID 452778 terminated.
+kdeinit5: PID 452953 terminated.
+kdeinit5: PID 461565 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/http.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/http.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/http.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/http.so'
+kdeinit5: PID 466478 terminated.
+kdeinit5: PID 466479 terminated.
+kdeinit5: PID 452424 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/http.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/http.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/http.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/http.so'
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: PID 473766 terminated.
+kdeinit5: PID 473765 terminated.
+kdeinit5: PID 475677 terminated.
+kdeinit5: PID 452783 terminated.
+kdeinit5: PID 475512 terminated.
+kdeinit5: PID 475534 terminated.
+kdeinit5: PID 461767 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/http.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/http.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: PID 484528 terminated.
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 487910 terminated.
+kdeinit5: PID 475098 terminated.
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 484222 terminated.
+kdeinit5: PID 484751 terminated.
+kdeinit5: PID 475513 terminated.
+kdeinit5: PID 483252 terminated.
+kdeinit5: PID 483257 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 494675 terminated.
+kdeinit5: PID 483691 terminated.
+kdeinit5: PID 494676 terminated.
+kdeinit5: PID 490480 terminated.
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
@@ -186,23 +539,126 @@ kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 28805 terminated.
-kdeinit5: PID 54367 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 53624 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/http.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/http.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/http.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/http.so'
+kdeinit5: PID 494674 terminated.
+kdeinit5: PID 504917 terminated.
+kdeinit5: PID 503208 terminated.
+kdeinit5: PID 503206 terminated.
+kdeinit5: PID 507508 terminated.
+kdeinit5: PID 507507 terminated.
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
 kdeinit5: Got EXEC_NEW 'onboard' from launcher.
 kdeinit5: preparing to launch 'libkdeinit5_onboard'
 Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-00:37:30.077 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 60293 terminated.
-kdeinit5: PID 50574 terminated.
-kdeinit5: PID 53627 terminated.
+kdeinit5: PID 513129 terminated.
+kdeinit5: PID 512931 terminated.
+kdeinit5: PID 502379 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 50692 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 73173 terminated.
-kdeinit5: PID 60555 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
+kdeinit5: PID 516442 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 517778 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 518768 terminated.
+kdeinit5: PID 518767 terminated.
+kdeinit5: PID 518766 terminated.
+kdeinit5: PID 518769 terminated.
+kdeinit5: PID 518770 terminated.
+kdeinit5: PID 517785 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 523306 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 523486 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 523986 terminated.
+kdeinit5: PID 528159 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 528187 terminated.
+kdeinit5: PID 529317 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 530947 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 532504 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 532854 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 533121 terminated.
+kdeinit5: PID 516789 terminated.
+kdeinit5: PID 503207 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: PID 533341 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
+kdeinit5: PID 538675 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 541858 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 516439 terminated.
+kdeinit5: PID 538438 terminated.
+kdeinit5: PID 541900 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: PID 545576 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: PID 538799 terminated.
+kdeinit5: PID 516472 terminated.
+kdeinit5: PID 546821 terminated.
+kdeinit5: PID 538437 terminated.
+kdeinit5: PID 538436 terminated.
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'

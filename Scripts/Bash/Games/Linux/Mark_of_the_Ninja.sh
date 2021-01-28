@@ -1,1 +1,0 @@
-/Media/Games/PC/Mark of the Ninja/Launch-Mark_of_the_Ninja.sh

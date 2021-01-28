@@ -1,1 +1,0 @@
-/Media/Games/PC/Cyberpunk 2077/Wine/Launch-Cyberpunk_2077.sh

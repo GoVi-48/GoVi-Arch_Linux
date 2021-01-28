@@ -1,1 +1,0 @@
-/Datos/Games/PC/-Launchers/Epic Games/-Library/Metro2033Redux/Wine/Launch-Metro_2033_Redux.sh

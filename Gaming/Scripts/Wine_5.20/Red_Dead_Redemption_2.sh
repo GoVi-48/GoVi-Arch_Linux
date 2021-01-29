@@ -1,0 +1,1 @@
+/Datos/Games/PC/Red Dead Redemption 2/Wine/Launch_RDR2.sh

@@ -1,0 +1,1 @@
+/home/govi/Games/PC/Medium/Wine/Launch-Medium.sh

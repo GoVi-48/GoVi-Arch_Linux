@@ -4,12 +4,16 @@ Width 1920=847
 
 [MainWindow]
 CommandList=
+HDMI-0 Height 1024=910
+HDMI-0 Height 1050=936
 HDMI-0 Height 1080=966
 HDMI-0 Height 480=402
 HDMI-0 Height 720=607
-HDMI-0 Height 900=821
-HDMI-0 Width 1280=950
-HDMI-0 Width 1600=950
+HDMI-0 Height 800=686
+HDMI-0 Height 900=786
+HDMI-0 Width 1280=1096
+HDMI-0 Width 1600=1096
+HDMI-0 Width 1680=1096
 HDMI-0 Width 1920=1096
 HDMI-0 Width 640=636
 HDMI-0 XPosition=0
@@ -29,7 +33,7 @@ Width 1680=950
 Width 1920=950
 Width 640=636
 currentSheet=0
-isMinimized=false
+isMinimized=true
 
 [Notification Messages]
 endconfirmation=false

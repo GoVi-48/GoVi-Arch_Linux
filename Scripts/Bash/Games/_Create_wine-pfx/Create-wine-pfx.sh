@@ -8,6 +8,7 @@ WIN_VER="win10"
 DIR="$(dirname "$(realpath "$0")")"
 
 while true; do
+
     if [ -d "${DIR}/wine-pfx" ]; then
         echo -e "\nThere is already a wine-pfx folder"
         echo -e "\nDo you want to make a new wine-prefix or overwrite this one?"
@@ -17,15 +18,19 @@ while true; do
         if [ $INPUT = "n" ] || [ $INPUT = "N" ]; then
             rm -rfv "${DIR}/wine-pfx"
             break
+            
         elif [ $INPUT = "o" ] || [ $INPUT = "O" ]; then
             break
+            
         elif [ $INPUT = "e" ] || [ $INPUT = "E" ]; then
             echo -e "\nExiting..."
             sleep 4
             exit
+            
         else
             echo -e "\n Invalid Key\n"
         fi
+        
     else
         break
     fi
@@ -34,6 +39,7 @@ done
 [ ! -d "${DIR}/wine-build" ] && mkdir -p "${DIR}/wine-build"
 
 while true; do
+
     if [ ! -f "${DIR}/wine" ]; then
         WINE=$(find -L "${DIR}/wine-build" -type f -iname "wine") 2> /dev/null
         ln -sf "$WINE" "${DIR}/wine" > /dev/null 2>&1
@@ -140,9 +146,14 @@ MF
 DXVK
 EXTRA_LIBRARIES
 
+#winetricks winegstreamer=disabled
+#winetricks nvapi=disabled
+#winetricks nvapi64=disabled
+#winetricks d3d10=disabled d3d10_1=disabled d3d10core=disabled d3d11=disabled
+#winetricks d3d11=native dxgi=native
 winetricks $WIN_VER
 
-echo -e "\n ALL DONE"
+echo -e "\n ALL DONE" &
 read -rsn1 -p "$(echo -e "\nPress any key to open wine prefix config...\n")"
 "$WINE" winecfg
 exit

@@ -14,6 +14,7 @@ rsync -arv --exclude={'.directory','discord','email.sh','skypeforlinux','spotify
 rsync -arv --exclude={'baloo','spotify','teamviewer15'} --delete ~/.local/share/ "$GOVI_ARCH_LINUX"/Dotfiles/.local/share/
 
 # Backups
+rsync -arv ~/.password-store/ ~/Backups/Linux/.password-store/
 rsync -arv --delete ~/Backups/Linux/ "$GOVI_ARCH_LINUX"/Backups/
 rsync -arv /etc/fstab "$GOVI_ARCH_LINUX"/Backups/
 rsync -arv ~/.config/liferea/feedlist.opml "$GOVI_ARCH_LINUX"/Backups/
@@ -30,7 +31,7 @@ mv "$GOVI_ARCH_LINUX"/Gaming/Games "$GOVI_ARCH_LINUX"/Gaming/Scripts
 
 # Push to Github
 cd "$GOVI_ARCH_LINUX"
-echo -e '\nUploading to Github...\n'
+echo -e '\nUploading to Github...\n'; sleep 2
 git add .
 git commit -m "Updated"
 git push -u origin master

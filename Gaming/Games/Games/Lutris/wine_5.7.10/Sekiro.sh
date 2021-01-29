@@ -1,0 +1,1 @@
+/Media/Games/PC/Sekiro - Shadows Die Twice/Wine/Launch-Sekiro.sh

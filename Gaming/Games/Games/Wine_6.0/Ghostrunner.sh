@@ -1,0 +1,1 @@
+/Media/Games/PC/Ghostrunner/Wine/Launch-Ghostrunner.sh

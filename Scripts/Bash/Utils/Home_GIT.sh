@@ -30,6 +30,7 @@ mv "$GOVI_ARCH_LINUX"/Gaming/Games "$GOVI_ARCH_LINUX"/Gaming/Scripts
 
 # Push to Github
 cd "$GOVI_ARCH_LINUX"
+echo -e '\nUploading to Github...\n'
 git add .
 git commit -m "Updated"
 git push -u origin master

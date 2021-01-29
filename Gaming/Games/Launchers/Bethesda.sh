@@ -1,0 +1,1 @@
+/Datos/Games/PC/-Launchers/Bethesda/Wine/Launch-Bethesda.sh

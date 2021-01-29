@@ -1,1 +1,0 @@
-/Datos/Games/PC/-Launchers/Epic Games/Wine/Launch_Epic_Games.sh

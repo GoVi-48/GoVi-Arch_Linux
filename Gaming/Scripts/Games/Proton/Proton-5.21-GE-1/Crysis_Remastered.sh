@@ -1,1 +1,0 @@
-/home/govi/Games/PC/Crysis Remastered/Wine/Launch-Crysis_Remastered.sh

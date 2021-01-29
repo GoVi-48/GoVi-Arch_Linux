@@ -1,1 +1,0 @@
-/Media/Games/PC/-Emulators/RPCS3/Launch_Scripts/RPCS3.sh

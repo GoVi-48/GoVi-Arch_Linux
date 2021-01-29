@@ -1,1 +1,0 @@
-/home/govi/Games/PC/Horizon Zero Dawn/Wine/Launch-Horizon_Zero_Down.sh

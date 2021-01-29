@@ -23,11 +23,10 @@ rsync -arv ~/.config/liferea/feedlist.opml "$GOVI_ARCH_LINUX"/Backups/
 rsync -arv  /etc/pacman.conf "$GOVI_ARCH_LINUX"/Gaming/
 rsync -arv ~/.config/MangoHud/MangoHud.conf "$GOVI_ARCH_LINUX"/Gaming/
 rsync -arv --delete ~/.config/vkBasalt/ "$GOVI_ARCH_LINUX"/Gaming/vkBasalt/
+ln -sf "$GOVI_ARCH_LINUX"/Scripts/Bash/Games "$GOVI_ARCH_LINUX"/Gaming/Scripts
 
 # Scripts
 rsync -arv --delete ~/Scripts/ "$GOVI_ARCH_LINUX"/Scripts/
-mv "$GOVI_ARCH_LINUX"/Scripts/Bash/Games "$GOVI_ARCH_LINUX"/Gaming/Games
-mv "$GOVI_ARCH_LINUX"/Gaming/Games "$GOVI_ARCH_LINUX"/Gaming/Scripts
 
 # Push to Github
 cd "$GOVI_ARCH_LINUX"

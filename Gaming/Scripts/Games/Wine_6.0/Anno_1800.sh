@@ -1,1 +1,0 @@
-/home/govi/Games/PC/Anno 1800/Wine/Launch-Anno_1800.sh

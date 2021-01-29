@@ -1,1 +1,0 @@
-/Datos/Games/PC/Satisfactory//Wine/Launch_Satisfactory.sh

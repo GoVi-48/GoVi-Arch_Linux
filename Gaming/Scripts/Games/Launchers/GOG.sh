@@ -1,0 +1,1 @@
+/Datos/Games/PC/-Launchers/GOG/Wine/Launch_GOG.sh

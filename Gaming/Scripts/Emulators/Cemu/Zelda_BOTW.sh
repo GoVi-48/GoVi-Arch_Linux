@@ -1,0 +1,1 @@
+/Media/Games/PC/-Emulators/Cemu/Launch_Scripts/Launch-Zelda_BOTW.sh

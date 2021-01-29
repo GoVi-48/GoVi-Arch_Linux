@@ -1,33 +1,32 @@
 #!/usr/bin/env bash
 
+# Destination
 GOVI_ARCH_LINUX="$HOME/Proyectos/Github/GoVi-Arch_Linux"
 
-# Remove
-rm -rfv "$GOVI_ARCH_LINUX/.config/"*
-rm -rfv "$GOVI_ARCH_LINUX/.local/share/"*
-rm -rfv "$GOVI_ARCH_LINUX/Backups/"*
-rm -rfv "$GOVI_ARCH_LINUX/Gaming/"*
-rm -rfv "$GOVI_ARCH_LINUX/Scripts/"*
+# ~/
+rsync -arv ~/.bashrc "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv ~/.vimrc "$GOVI_ARCH_LINUX"/Dotfiles/
 
-# Backup ~/.config/
-mkdir -p "$GOVI_ARCH_LINUX/.config/" && rsync -arv --exclude 'email.sh' ~/.config/* $_
+# ~/.config/
+rsync -arv --exclude={'.directory','discord','email.sh','skypeforlinux','spotify','teamviewer','vivaldi'} --delete ~/.config/ "$GOVI_ARCH_LINUX"/Dotfiles/.config/
 
-# Backup ~/.local/share/
-mkdir -p "$GOVI_ARCH_LINUX/.local/share/" && rsync -arv --exclude={'baloo','dir1/Some File.sh'} ~/.local/share/* $_
+# ~/.local/share/
+rsync -arv --exclude={'baloo','spotify','teamviewer15'} --delete ~/.local/share/ "$GOVI_ARCH_LINUX"/Dotfiles/.local/share/
 
-# Backup ~/
-mkdir -p "$GOVI_ARCH_LINUX/Backups/" && cp -rfv ~/Backups/Linux/* $_
-mkdir -p "$GOVI_ARCH_LINUX/Scripts/" && cp -rfv ~/Scripts/* $_
-cp -rfv /etc/fstab "$GOVI_ARCH_LINUX"
-cp -rfv ~/.bashrc "$GOVI_ARCH_LINUX"
-cp -rfv ~/.vimrc "$GOVI_ARCH_LINUX"
+# Backups
+rsync -arv --delete ~/Backups/Linux/ "$GOVI_ARCH_LINUX"/Backups/
+rsync -arv /etc/fstab "$GOVI_ARCH_LINUX"/Backups/
+rsync -arv ~/.config/liferea/feedlist.opml "$GOVI_ARCH_LINUX"/Backups/
 
 # Gaming
-mkdir -p $GOVI_ARCH_LINUX/Gaming/ && cp -rfv /etc/pacman.conf $_
-mkdir -p $GOVI_ARCH_LINUX/Gaming/ && cp -rfv ~/.config/MangoHud/MangoHud.conf $_
-mkdir -p $GOVI_ARCH_LINUX/Gaming/vkBasalt/ && cp -rfv ~/.config/vkBasalt/* $_
-ln -sf "$GOVI_ARCH_LINUX/Scripts/Bash/Games" "$GOVI_ARCH_LINUX/Gaming/"
-mv "$GOVI_ARCH_LINUX/Gaming/Games" "$GOVI_ARCH_LINUX/Gaming/Scripts"
+rsync -arv  /etc/pacman.conf "$GOVI_ARCH_LINUX"/Gaming/
+rsync -arv ~/.config/MangoHud/MangoHud.conf "$GOVI_ARCH_LINUX"/Gaming/
+rsync -arv --delete ~/.config/vkBasalt/ "$GOVI_ARCH_LINUX"/Gaming/vkBasalt/
+
+# Scripts
+rsync -arv --delete ~/Scripts/ "$GOVI_ARCH_LINUX"/Scripts/
+mv "$GOVI_ARCH_LINUX"/Scripts/Bash/Games "$GOVI_ARCH_LINUX"/Gaming/Games
+mv "$GOVI_ARCH_LINUX"/Gaming/Games "$GOVI_ARCH_LINUX"/Gaming/Scripts
 
 # Push to Github
 cd "$GOVI_ARCH_LINUX"
@@ -45,11 +44,11 @@ while true; do
             sleep 2
             firefox https://github.com/GoVi-48/GoVi-Arch_Linux
             exit
-            
+
         elif [[ $INPUT = $'\e' ]]; then
             exit
-            
-        else 
+
+        else
             echo "Invalid Key"
         fi
 done

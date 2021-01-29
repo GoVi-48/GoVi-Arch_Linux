@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Uninstall The Medium
+Exec=env WINEPREFIX="/home/govi/.wine" /usr/bin/wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/govi/.wine/dosdevices/c:/ProgramData/Microsoft/Windows/Start\\ Menu/Programs/GOG.com/The\\ Medium/Uninstall\\ The\\ Medium.lnk
+Type=Application
+StartupNotify=true
+Path=/home/govi/.wine/dosdevices/z:/Media/Games/PC/Medium
+Icon=6799_unins000.0
+StartupWMClass=unins000.exe

@@ -78,52 +78,47 @@
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Terminal.OpenInTerminal" is_action="true" action_type="1" position="15">
+    <group value="ChooseDebugConfiguration" is_action="true" action_type="1" position="15">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="ChooseDebugConfiguration" is_action="true" action_type="1" position="16">
+    <group value="Run" is_action="true" action_type="1" position="16">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Run" is_action="true" action_type="1" position="17">
+    <group seperator="true" action_type="1" position="17">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group seperator="true" action_type="1" position="18">
+    <group value="CommentByLineComment" is_action="true" action_type="1" position="18">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="CommentByLineComment" is_action="true" action_type="1" position="19">
+    <group value="EditorToggleCase" is_action="true" action_type="1" position="19">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="EditorToggleCase" is_action="true" action_type="1" position="20">
+    <group value="Replace" is_action="true" action_type="1" position="21">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Replace" is_action="true" action_type="1" position="22">
+    <group value="Find" is_action="true" action_type="1" position="22">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="Find" is_action="true" action_type="1" position="23">
+    <group seperator="true" action_type="1" position="23">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group seperator="true" action_type="1" position="24">
-      <path value="root" />
-      <path value="Main Toolbar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="RevealIn" is_action="true" action_type="1" position="25">
+    <group value="RevealIn" is_action="true" action_type="1" position="24">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
@@ -131,5 +126,6 @@
     <action id="EditorToggleCase" icon="$APPLICATION_HOME_DIR$/lib/icons/actions/matchCaseHovered.svg" />
     <action id="CommentByLineComment" icon="$APPLICATION_HOME_DIR$/lib/icons/general/balloon_dark.svg" />
     <action id="NewElement" icon="$APPLICATION_HOME_DIR$/lib/icons/fileTypes/addAny.svg" />
+    <action id="RevealIn" icon="$APPLICATION_HOME_DIR$/lib/icons/system-file-manager.png" />
   </component>
 </application>

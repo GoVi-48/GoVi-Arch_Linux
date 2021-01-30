@@ -10,20 +10,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Bash/Games/Launch-Game_Template.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Bash/Utils/Home_GIT.sh">
+        <entry file="file://$PROJECT_DIR$/../Wine/Scripts/Launch-Game_Template.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="84">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -36,6 +27,7 @@
       <find>Backups</find>
       <find>dotfiles</find>
       <find>Scripts</find>
+      <find>password</find>
     </findStrings>
     <replaceStrings>
       <replace>mkdir -p</replace>
@@ -44,9 +36,13 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Bash/Games/Launch-Game_Template.sh" />
       <option value="$PROJECT_DIR$/Bash/Games/Create-wine-pfx.sh" />
       <option value="$PROJECT_DIR$/Bash/Utils/Home_GIT.sh" />
+      <option value="$PROJECT_DIR$/Bash/Games/Launch-Game_Template.sh" />
+      <option value="$PROJECT_DIR$/../Games/PC/Godfall/Wine/Launch-Godfall.sh" />
+      <option value="$PROJECT_DIR$/../Wine/Scripts/-Test/Dirt_Rally_2.0.sh" />
+      <option value="$PROJECT_DIR$/../Games/PC/DiRT Rally 2.0/Wine/Launch-Dirt_Rally_2.0.sh" />
+      <option value="$PROJECT_DIR$/../Games/PC/Marvels Avengers/Wine/Launch-Marvels_Avengers.sh" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -62,10 +58,11 @@
   </component>
   <component name="TerminalArrangementManager">
     <option name="myTabStates">
-      <TerminalTabState tabName="Home_GIT.sh" currentWorkingDirectory="$PROJECT_DIR$/Bash/Utils" commandHistoryFileName="history-20" />
-      <TerminalTabState tabName="Home_GIT.sh" currentWorkingDirectory="$PROJECT_DIR$/Bash/Utils" commandHistoryFileName="history-97" />
+      <TerminalTabState tabName="Launch-Dirt_Rally_2.0.sh" currentWorkingDirectory="$PROJECT_DIR$/../Games/PC/DiRT Rally 2.0/Wine" commandHistoryFileName="history-385" />
+      <TerminalTabState tabName="Local" currentWorkingDirectory="$PROJECT_DIR$/../Games/PC/Marvels Avengers/Wine" commandHistoryFileName="history-85" />
+      <TerminalTabState tabName="Local (2)" currentWorkingDirectory="$PROJECT_DIR$/../Games/PC/Marvels Avengers/Wine" commandHistoryFileName="history-399" />
     </option>
-    <option name="mySelectedTabIndex" value="1" />
+    <option name="mySelectedTabIndex" value="2" />
   </component>
   <component name="ToolWindowManager">
     <layout>
@@ -83,29 +80,29 @@
       <window_info anchor="bottom" id="Messages" order="5" weight="0.32874617" />
       <window_info anchor="bottom" id="Problems View" order="6" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32911393" />
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Services" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
     </layout>
   </component>
   <component name="WindowStateProjectService">
-    <state x="346" y="244" width="386" height="606" key="#Menus_and_Toolbars" timestamp="1611919749310">
+    <state x="346" y="244" width="386" height="606" key="#Menus_and_Toolbars" timestamp="1611963358305">
       <screen x="0" y="36" width="1920" height="1009" />
     </state>
-    <state x="346" y="244" width="386" height="606" key="#Menus_and_Toolbars/0.36.1920.1009@0.36.1920.1009" timestamp="1611919749310" />
-    <state x="323" y="284" key="FileChooserDialogImpl" timestamp="1611919737441">
+    <state x="346" y="244" width="386" height="606" key="#Menus_and_Toolbars/0.36.1920.1009@0.36.1920.1009" timestamp="1611963358305" />
+    <state x="323" y="284" key="FileChooserDialogImpl" timestamp="1611963294529">
       <screen x="0" y="36" width="1920" height="1009" />
     </state>
-    <state x="323" y="284" key="FileChooserDialogImpl/0.36.1920.1009@0.36.1920.1009" timestamp="1611919737441" />
+    <state x="323" y="284" key="FileChooserDialogImpl/0.36.1920.1009@0.36.1920.1009" timestamp="1611963294529" />
     <state x="49" y="169" key="SettingsEditor" timestamp="1611935854359">
       <screen x="0" y="36" width="1920" height="1009" />
     </state>
     <state x="49" y="169" key="SettingsEditor/0.36.1920.1009@0.36.1920.1009" timestamp="1611935854359" />
-    <state x="423" y="483" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog" timestamp="1611919739349">
+    <state x="423" y="483" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog" timestamp="1611963296203">
       <screen x="0" y="36" width="1920" height="1009" />
     </state>
-    <state x="423" y="483" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog/0.36.1920.1009@0.36.1920.1009" timestamp="1611919739349" />
+    <state x="423" y="483" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog/0.36.1920.1009@0.36.1920.1009" timestamp="1611963296203" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../Games/PC/Satisfactory/Wine/Launch-Satisfactory.sh">
@@ -125,17 +122,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bash/Games/Launch-Game_Template.sh">
+    <entry file="file://$PROJECT_DIR$/Bash/Utils/Home_GIT.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+        <state relative-caret-position="176">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Bash/Utils/Home_GIT.sh">
+    <entry file="file://$PROJECT_DIR$/../Games/PC/Horizon Zero Dawn/Wine/Launch-Horizon_Zero_Down.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state relative-caret-position="-315" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bash/Games/Launch-Game_Template.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="7" column="17" lean-forward="true" selection-end-line="101" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Wine/Scripts/-Test/Dirt_Rally_2.0.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Games/PC/DiRT Rally 2.0/Wine/Launch-Dirt_Rally_2.0.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Games/PC/Godfall/Wine/Launch-Godfall.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Wine/Scripts/-Test/Marvels_Avengers.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Wine/Scripts/-Test/Medium.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Games/PC/Medium/Wine/Launch-Medium.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Games/PC/Marvels Avengers/Wine/Launch-Marvels_Avengers.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Wine/Scripts/Launch-Game_Template.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="16" lean-forward="true" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>

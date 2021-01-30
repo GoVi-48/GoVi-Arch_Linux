@@ -7,24 +7,896 @@ kdeinit5: Got SETENV 'XCURSOR_THEME=GoVi-Cu' from launcher.
 kdeinit5: Got SETENV 'XCURSOR_SIZE=24' from launcher.
 kdeinit5: Got SETENV 'SESSION_MANAGER=local/GoVi-PC:@/tmp/.ICE-unix/647,unix/GoVi-PC:/tmp/.ICE-unix/647' from launcher.
 kdeinit5: Got SETENV 'SESSION_MANAGER=local/GoVi-PC:@/tmp/.ICE-unix/647,unix/GoVi-PC:/tmp/.ICE-unix/647' from launcher.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/trash.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/trash.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.236: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.238: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.240: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.242: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.245: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.249: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.251: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.254: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.256: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.258: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.261: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.263: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.265: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.267: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.283: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.286: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.294: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.297: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.305: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.308: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.310: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.312: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.314: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.316: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.317: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.319: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.321: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.322: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.325: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.327: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.329: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.331: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.332: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.334: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.336: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.338: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.340: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.342: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.344: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.346: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.348: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.350: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.352: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.353: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.355: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.357: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.365: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.367: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.369: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.375: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.380: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.382: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.384: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.386: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.387: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.389: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.391: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.397: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.400: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.402: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.405: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.408: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.411: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.415: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.417: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.422: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.424: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.427: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.430: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.432: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.434: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.436: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.438: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.440: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.442: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.455: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.457: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.459: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.461: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.463: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.464: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.466: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.468: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.469: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.471: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.473: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.474: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.476: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.478: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.480: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.482: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.484: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.485: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.490: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.492: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.494: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.496: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.498: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.499: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.502: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.503: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.505: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.505: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.507: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.508: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.509: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.511: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.512: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.513: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.515: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
+
+(liferea:707): libsecret-CRITICAL **: 03:43:55.516: secret_service_load_collections_sync: assertion 'paths != NULL' failed
+Traceback (most recent call last):
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 54, in do_query
+    coll = self.get_collection()
+  File "/usr/lib/liferea/plugins/gnome-keyring.py", line 44, in get_collection
+    colls = service.get_collections()
+AttributeError: 'NoneType' object has no attribute 'get_collections'
 imwheel: no process found
-INFO: imwheel started (pid=1023)
+INFO: imwheel started (pid=936)
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/desktop.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/desktop.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
@@ -33,114 +905,48 @@ kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
+kdeinit5: PID 1145 terminated.
+kdeinit5: PID 1236 terminated.
+kdeinit5: PID 1238 terminated.
+kdeinit5: PID 1053 terminated.
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f774fb82c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f774fb82c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f774fb82c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f774fb82c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f774fb82c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f774fb82c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f774fb82c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f774fb82c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f774fb82c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f774fb82c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f774fb82c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/http.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/http.so'
+kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/http.so' from launcher.
+kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/http.so'
+kdeinit5: PID 180538 terminated.
+kdeinit5: PID 180537 terminated.
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+07:02:21.326 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
+kdeinit5: PID 185449 terminated.
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+07:05:25.877 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
 kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
 kdeinit5: preparing to launch 'libkdeinit5_alacritty'
 Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 188311 terminated.
 kdeinit5: Got EXEC_NEW 'onboard' from launcher.
 kdeinit5: preparing to launch 'libkdeinit5_onboard'
 Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-08:20:21.835 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 910 terminated.
-kdeinit5: PID 900 terminated.
-kdeinit5: PID 909 terminated.
-kdeinit5: PID 903 terminated.
-kdeinit5: PID 902 terminated.
-kdeinit5: PID 1570 terminated.
-kdeinit5: PID 1756 terminated.
-2021-01-29 08:24:25,333: Your version of python-magic is too old.
-2021-01-29 08:24:25,645: Initializing lutris
-2021-01-29 08:24:26,002: Downloading DXVK releases to /home/govi/.local/share/lutris/runtime/dxvk/dxvk_versions.json
-2021-01-29 08:24:26,006: Runtime updated. Initialization complete.
-kdeinit5: PID 917 terminated.
-kdeinit5: PID 1309 terminated.
-kdeinit5: PID 1212 terminated.
-kdeinit5: PID 1354 terminated.
-kdeinit5: PID 1034 terminated.
-kdeinit5: PID 912 terminated.
-kdeinit5: PID 908 terminated.
-kdeinit5: Got SETENV 'XCURSOR_THEME=GoVi-Cu' from launcher.
-kdeinit5: Got SETENV 'XCURSOR_SIZE=24' from launcher.
-kdeinit5: Got SETENV 'XCURSOR_THEME=GoVi-Cu' from launcher.
-kdeinit5: Got SETENV 'XCURSOR_SIZE=24' from launcher.
-kdeinit5: Got SETENV 'XCURSOR_THEME=GoVi-Cu' from launcher.
-kdeinit5: Got SETENV 'XCURSOR_SIZE=24' from launcher.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-12:13:01.884 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
+07:20:10.610 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/trash.so' from launcher.
@@ -153,11 +959,43 @@ kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 132852 terminated.
-kdeinit5: PID 132846 terminated.
-kdeinit5: PID 132847 terminated.
+kdeinit5: PID 260235 terminated.
+kdeinit5: PID 260323 terminated.
+kdeinit5: PID 260246 terminated.
+kdeinit5: PID 260233 terminated.
+kdeinit5: PID 260234 terminated.
+kdeinit5: PID 260260 terminated.
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 286799 terminated.
+kdeinit5: PID 258074 terminated.
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f7762977400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f7762977400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f7762977400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f7762977400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f7762977400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f7762977400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f7762977400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f7762977400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f7762977400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f7762977400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+[Child 1136, MediaDecoderStateMachine #1] WARNING: Decoder=7f7762977400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+07:44:41.683 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
+kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_alacritty'
+Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+kdeinit5: PID 301962 terminated.
+kdeinit5: PID 301452 terminated.
+
+** (liferea:707): WARNING **: 07:45:20.904: Cannot write temporary CSS file "/home/govi/.cache/liferea/style.css"!
+kdeinit5: Got EXEC_NEW 'onboard' from launcher.
+kdeinit5: preparing to launch 'libkdeinit5_onboard'
+Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
+07:53:11.641 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/trash.so' from launcher.
@@ -168,943 +1006,5 @@ kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 132848 terminated.
-kdeinit5: PID 133299 terminated.
-kdeinit5: PID 132851 terminated.
-kdeinit5: PID 133654 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 124995 terminated.
-kdeinit5: PID 138543 terminated.
-kdeinit5: PID 138542 terminated.
-kdeinit5: PID 138555 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-12:32:27.756 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 138662 terminated.
-kdeinit5: PID 138541 terminated.
-kdeinit5: PID 141835 terminated.
-kdeinit5: PID 145302 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-12:47:10.366 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 138546 terminated.
-kdeinit5: PID 160732 terminated.
-kdeinit5: PID 160798 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-13:07:55.968 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/trash.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/trash.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 185280 terminated.
-kdeinit5: PID 183298 terminated.
-kdeinit5: PID 183299 terminated.
-kdeinit5: PID 183344 terminated.
-kdeinit5: PID 183297 terminated.
-kdeinit5: PID 185288 terminated.
-kdeinit5: PID 185291 terminated.
-kdeinit5: PID 185278 terminated.
-kdeinit5: PID 189090 terminated.
-kdeinit5: PID 183447 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-13:23:40.524 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 199989 terminated.
-kdeinit5: PID 189292 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-13:28:02.786 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 200538 terminated.
-kdeinit5: PID 208591 terminated.
-kdeinit5: PID 207641 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 227572 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 234265 terminated.
-kdeinit5: PID 206652 terminated.
-kdeinit5: PID 234512 terminated.
-kdeinit5: PID 228150 terminated.
-kdeinit5: PID 234266 terminated.
-kdeinit5: PID 234589 terminated.
-kdeinit5: PID 183172 terminated.
-kdeinit5: PID 231769 terminated.
-kdeinit5: PID 229648 terminated.
-kdeinit5: PID 231770 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/trash.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/trash.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 237434 terminated.
-kdeinit5: PID 237435 terminated.
-kdeinit5: PID 237436 terminated.
-kdeinit5: PID 237440 terminated.
-kdeinit5: PID 237439 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 250557 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 204524 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-14:13:05.608 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 251913 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-14:15:08.852 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 254149 terminated.
-kdeinit5: PID 254373 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-14:21:49.396 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 251722 terminated.
-kdeinit5: PID 261429 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-14:24:18.429 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 266874 terminated.
-kdeinit5: PID 263923 terminated.
-kdeinit5: PID 249941 terminated.
-kdeinit5: PID 249942 terminated.
-kdeinit5: PID 249936 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 264100 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 260889 terminated.
-kdeinit5: PID 273241 terminated.
-kdeinit5: PID 274271 terminated.
-kdeinit5: PID 185626 terminated.
-kdeinit5: PID 251837 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/trash.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/trash.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 277381 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-14:37:20.351 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 277376 terminated.
-kdeinit5: PID 277377 terminated.
-kdeinit5: PID 277679 terminated.
-kdeinit5: PID 277382 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 284666 terminated.
-kdeinit5: PID 278138 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-14:47:43.543 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 288634 terminated.
-kdeinit5: PID 250886 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 288922 terminated.
-kdeinit5: PID 284660 terminated.
-kdeinit5: PID 288554 terminated.
-kdeinit5: PID 284661 terminated.
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-kdeinit5: PID 285237 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-14:57:05.810 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 297744 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 277378 terminated.
-kdeinit5: PID 298374 terminated.
-kdeinit5: PID 297825 terminated.
-kdeinit5: PID 297827 terminated.
-kdeinit5: PID 297832 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/trash.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/trash.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 300646 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 300662 terminated.
-kdeinit5: PID 305952 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 297292 terminated.
-kdeinit5: PID 300645 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-15:10:28.388 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 309463 terminated.
-kdeinit5: PID 310432 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-15:16:26.503 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 300650 terminated.
-kdeinit5: PID 300647 terminated.
-kdeinit5: PID 307289 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 316639 terminated.
-kdeinit5: PID 316069 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-15:19:17.985 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 318878 terminated.
-kdeinit5: PID 319039 terminated.
-kdeinit5: PID 319038 terminated.
-kdeinit5: PID 300737 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 329222 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 329096 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 276104 terminated.
-kdeinit5: PID 335732 terminated.
-kdeinit5: PID 329223 terminated.
-kdeinit5: PID 319323 terminated.
-kdeinit5: PID 318917 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-15:44:13.281 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 343810 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 343597 terminated.
-kdeinit5: PID 343598 terminated.
-kdeinit5: PID 329798 terminated.
-kdeinit5: PID 348869 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 358954 terminated.
-kdeinit5: PID 357570 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 358988 terminated.
-kdeinit5: PID 359080 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 357546 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 360697 terminated.
-kdeinit5: PID 343356 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-16:10:09.783 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 369258 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 360397 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-16:17:46.593 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 373495 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 381853 terminated.
-kdeinit5: PID 381795 terminated.
-kdeinit5: PID 376381 terminated.
-kdeinit5: PID 330220 terminated.
-kdeinit5: PID 362149 terminated.
-kdeinit5: PID 376842 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-16:39:33.193 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 357603 terminated.
-kdeinit5: PID 402545 terminated.
-kdeinit5: PID 403500 terminated.
-kdeinit5: PID 402275 terminated.
-kdeinit5: PID 402276 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/trash.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/trash.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 405492 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 405441 terminated.
-kdeinit5: PID 405436 terminated.
-kdeinit5: PID 356879 terminated.
-kdeinit5: PID 405435 terminated.
-kdeinit5: PID 399945 terminated.
-kdeinit5: PID 405437 terminated.
-kdeinit5: PID 405440 terminated.
-kdeinit5: PID 408518 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-16:53:47.827 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 416515 terminated.
-kdeinit5: PID 414988 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 425043 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 425044 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-17:02:47.453 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 425470 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 408516 terminated.
-kdeinit5: PID 425057 terminated.
-kdeinit5: PID 425042 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 425129 terminated.
-kdeinit5: PID 425041 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 435989 terminated.
-kdeinit5: PID 427567 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 425423 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-17:14:04.831 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 437498 terminated.
-kdeinit5: PID 431354 terminated.
-kdeinit5: PID 439433 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 446809 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 438573 terminated.
-kdeinit5: PID 453408 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-17:27:13.512 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 454926 terminated.
-kdeinit5: PID 453673 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-18:11:31.866 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 501343 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 502894 terminated.
-kdeinit5: PID 437480 terminated.
-kdeinit5: PID 506820 terminated.
-kdeinit5: PID 511224 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-18:26:11.452 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 519340 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-18:27:32.683 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 526109 terminated.
-kdeinit5: PID 522731 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 531658 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 504747 terminated.
-kdeinit5: PID 540168 terminated.
-kdeinit5: PID 540655 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 548723 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 552083 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 552082 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 549755 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 552084 terminated.
-kdeinit5: PID 552081 terminated.
-kdeinit5: PID 540650 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 557389 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 436412 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 561872 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 564463 terminated.
-kdeinit5: PID 561119 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 560112 terminated.
-kdeinit5: PID 560712 terminated.
-kdeinit5: PID 555091 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 520921 terminated.
-kdeinit5: PID 568143 terminated.
-kdeinit5: PID 560022 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-19:12:44.606 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 570899 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-19:15:26.579 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 569599 terminated.
-kdeinit5: PID 569817 terminated.
-kdeinit5: PID 568142 terminated.
-kdeinit5: PID 569816 terminated.
-kdeinit5: PID 560711 terminated.
-kdeinit5: PID 568144 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 591217 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 591224 terminated.
-kdeinit5: PID 595319 terminated.
-kdeinit5: PID 591220 terminated.
-kdeinit5: PID 569815 terminated.
-kdeinit5: PID 573785 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-19:43:49.542 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 607200 terminated.
-kdeinit5: PID 607230 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 623237 terminated.
-kdeinit5: PID 595113 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-20:06:57.966 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 653713 terminated.
-kdeinit5: PID 566097 terminated.
-kdeinit5: PID 641244 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 658334 terminated.
-kdeinit5: PID 633925 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: PID 669583 terminated.
-kdeinit5: Got SETENV 'XCURSOR_THEME=GoVi-Cu' from launcher.
-kdeinit5: Got SETENV 'XCURSOR_SIZE=24' from launcher.
-kdeinit5: Got SETENV 'XCURSOR_THEME=GoVi-Cu' from launcher.
-kdeinit5: Got SETENV 'XCURSOR_SIZE=24' from launcher.
-kdeinit5: Got SETENV 'XCURSOR_THEME=GoVi-Cu' from launcher.
-kdeinit5: Got SETENV 'XCURSOR_SIZE=24' from launcher.
-kdeinit5: PID 670836 terminated.
-kdeinit5: PID 669582 terminated.
-kdeinit5: PID 623234 terminated.
-kdeinit5: PID 670432 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 679805 terminated.
-kdeinit5: PID 669581 terminated.
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-20:48:48.869 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 685822 terminated.
-kdeinit5: PID 686046 terminated.
-[Child 936, MediaDecoderStateMachine #1] WARNING: Decoder=7f5970388000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 936, MediaDecoderStateMachine #1] WARNING: Decoder=7f5970388000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 936, MediaDecoderStateMachine #1] WARNING: Decoder=7f5970388000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 936, MediaDecoderStateMachine #1] WARNING: Decoder=7f596fce7800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 936, MediaDecoderStateMachine #1] WARNING: Decoder=7f596fce7800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 936, MediaDecoderStateMachine #1] WARNING: Decoder=7f596fce7800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 936, MediaDecoderStateMachine #1] WARNING: Decoder=7f596fce7800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 936, MediaDecoderStateMachine #1] WARNING: Decoder=7f596fce7800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 936, MediaDecoderStateMachine #1] WARNING: Decoder=7f596fce7800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 936, MediaDecoderStateMachine #1] WARNING: Decoder=7f596fce7800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 936, MediaDecoderStateMachine #1] WARNING: Decoder=7f596fce7800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 936, MediaDecoderStateMachine #1] WARNING: Decoder=7f596fce7800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 936, MediaDecoderStateMachine #1] WARNING: Decoder=7f596fce7800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 936, MediaDecoderStateMachine #1] WARNING: Decoder=7f596fce7800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 936, MediaDecoderStateMachine #1] WARNING: Decoder=7f596fce7800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 936, MediaDecoderStateMachine #1] WARNING: Decoder=7f596fce7800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-21:33:32.672 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-[Child 737524, MediaDecoderStateMachine #1] WARNING: Decoder=7f535afbc400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 737524, MediaDecoderStateMachine #1] WARNING: Decoder=7f535afbc400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 737524, MediaDecoderStateMachine #1] WARNING: Decoder=7f535afbc400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 737524, MediaDecoderStateMachine #1] WARNING: Decoder=7f535afbc400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-[Child 737524, MediaDecoderStateMachine #1] WARNING: Decoder=7f535afbc400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox/src/firefox-85.0/dom/media/MediaDecoderStateMachine.cpp:3465
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-kdeinit5: PID 736984 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-21:45:47.994 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 754376 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW 'alacritty' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_alacritty'
-Could not open alacritty using a library: Cannot load library libkdeinit5_alacritty: (libkdeinit5_alacritty: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 756015 terminated.
-kdeinit5: PID 756354 terminated.
-kdeinit5: PID 753827 terminated.
-kdeinit5: PID 753903 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 750322 terminated.
-kdeinit5: PID 763098 terminated.
-kdeinit5: PID 763052 terminated.
-kdeinit5: PID 763205 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-kdeinit5: PID 772812 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: PID 752070 terminated.
-kdeinit5: Got EXEC_NEW 'onboard' from launcher.
-kdeinit5: preparing to launch 'libkdeinit5_onboard'
-Could not open onboard using a library: Cannot load library libkdeinit5_onboard: (libkdeinit5_onboard: no se puede abrir el fichero del objeto compartido: No existe el fichero o el directorio)
-22:07:10.631 WARNING Config: mousetweaks GSettings schema not found, mousetweaks integration disabled.
-kdeinit5: PID 771055 terminated.
-kdeinit5: PID 784757 terminated.
-kdeinit5: PID 789734 terminated.
-kdeinit5: PID 771056 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/thumbnail.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/thumbnail.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'
-kdeinit5: PID 802560 terminated.
-kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/tags.so' from launcher.
-kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/tags.so'
 kdeinit5: Got EXEC_NEW '/usr/lib/qt/plugins/kf5/kio/file.so' from launcher.
 kdeinit5: preparing to launch '/usr/lib/qt/plugins/kf5/kio/file.so'

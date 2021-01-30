@@ -11,6 +11,7 @@ PROCESS="Game.exe"
 ARGS="-vulkan"
 
 # Environment
+#export __GL_THREADED_OPTIMIZATIONS=1 # NVIDIA
 export WINEDLLOVERRIDES="mscoree,mshtml="
 export WINEFSYNC=1
 export MANGOHUD=1

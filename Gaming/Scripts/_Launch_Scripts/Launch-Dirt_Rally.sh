@@ -32,7 +32,7 @@ while pgrep -x "$PROCESS" > /dev/null; do sleep 1; done
     sleep 5
     killall steam
     sleep 5
-    killall gamemoded &
+    killall gamemoded
     exit
 
 # ======================================================================== #

@@ -94,8 +94,8 @@ winetricks $VCRUN
 [ ! -d "${DIR}/wine-pfx/drive_c/Program Files (x86)/OpenAL" ] &&
     "$WINE" "./oalinst.exe" >/dev/null 2>&1
 
-EXTRA_LIBS
 DXVK
+EXTRA_LIBS
 
 #winetricks donet48
 #winetricks winegstreamer=disabled

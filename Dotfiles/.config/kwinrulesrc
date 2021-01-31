@@ -2,19 +2,31 @@
 update_info=kwinrules.upd:replace-placement-string-to-enum
 
 [1]
-Description=Preferencias de la ventana de jetbrains-pycharm-ce
+Description=Preferencias de la ventana de mpv
 clientmachinematch=0
-position=1100,36
+position=-4,36
 positionrule=4
-size=824,793
+size=1106,592
 sizerule=4
-title=Run - Pycharm
-titlematch=1
 types=1
-wmclass=jetbrains-pycharm-ce
+wmclass=gl mpv
+wmclasscomplete=true
 wmclassmatch=1
 
 [10]
+Description=Preferencias de la ventana de alacritty
+clientmachinematch=0
+position=1103,36
+positionrule=4
+size=821,794
+sizerule=4
+title=Alacritty
+titlematch=1
+types=1
+wmclass=alacritty
+wmclassmatch=2
+
+[11]
 Description=Preferencias de la ventana de akregator
 clientmachinematch=0
 position=594,75
@@ -27,7 +39,7 @@ windowrolematch=1
 wmclass=akregator
 wmclassmatch=1
 
-[11]
+[12]
 Description=Preferencias de la ventana de timeshift-gtk
 clientmachinematch=0
 position=285,166
@@ -40,7 +52,7 @@ types=1
 wmclass=timeshift-gtk
 wmclassmatch=1
 
-[12]
+[13]
 Description=Preferencias de la ventana de timeshift-gtk
 clientmachinematch=0
 position=710,282
@@ -53,7 +65,7 @@ types=1
 wmclass=timeshift-gtk
 wmclassmatch=1
 
-[13]
+[14]
 Description=Preferencias de la ventana de raven reader
 clientmachinematch=0
 position=518,74
@@ -66,7 +78,7 @@ windowrolematch=1
 wmclass=raven reader
 wmclassmatch=1
 
-[14]
+[15]
 Description=Preferencias de la ventana de kmenuedit
 clientmachinematch=0
 position=216,148
@@ -79,7 +91,7 @@ windowrolematch=1
 wmclass=kmenuedit
 wmclassmatch=1
 
-[15]
+[16]
 Description=Preferencias de la ventana de kmenuedit
 clientmachinematch=0
 position=414,116
@@ -92,7 +104,7 @@ types=32
 wmclass=kmenuedit
 wmclassmatch=1
 
-[16]
+[17]
 Description=Preferencias de la ventana de liferea
 clientmachinematch=0
 position=-4,139
@@ -105,7 +117,7 @@ types=1
 wmclass=liferea
 wmclassmatch=1
 
-[17]
+[18]
 Description=Preferencias de la ventana de cemu.exe
 clientmachinematch=0
 position=0,36
@@ -118,9 +130,8 @@ types=1
 wmclass=cemu.exe
 wmclassmatch=1
 
-[18]
+[19]
 Description=Preferencias de la ventana de jetbrains-pycharm-ce
-clientmachinematch=0
 position=0,36
 positionrule=4
 size=1083,1009
@@ -131,7 +142,20 @@ types=1
 wmclass=jetbrains-pycharm-ce
 wmclassmatch=1
 
-[19]
+[2]
+Description=Preferencias de la ventana de jetbrains-pycharm-ce
+clientmachinematch=0
+position=1100,36
+positionrule=4
+size=824,793
+sizerule=4
+title=Run - Pycharm
+titlematch=1
+types=1
+wmclass=jetbrains-pycharm-ce
+wmclassmatch=1
+
+[20]
 Description=Preferencias de la ventana de timeshift-gtk
 position=285,166
 positionrule=4
@@ -143,20 +167,7 @@ types=1
 wmclass=timeshift-gtk
 wmclassmatch=1
 
-[2]
-Description=Preferencias de la ventana de jetbrains-pycharm-ce
-clientmachinematch=0
-position=0,36
-positionrule=4
-size=1100,1009
-sizerule=4
-title=Pycharm – ~/Scripts/Python/Pass GUI/Pass_GUI.py
-titlematch=1
-types=1
-wmclass=jetbrains-pycharm-ce
-wmclassmatch=1
-
-[20]
+[21]
 Description=Preferencias de la ventana de cemu.exe
 position=0,0
 positionrule=4
@@ -168,7 +179,7 @@ types=1
 wmclass=cemu.exe
 wmclassmatch=1
 
-[21]
+[22]
 Description=Preferencias de la ventana de vlc
 position=55,74
 positionrule=4
@@ -180,7 +191,7 @@ windowrolematch=1
 wmclass=vlc
 wmclassmatch=1
 
-[22]
+[23]
 Description=Preferencias de la ventana de vlc
 position=858,74
 positionrule=4
@@ -192,7 +203,7 @@ windowrolematch=1
 wmclass=vlc
 wmclassmatch=1
 
-[23]
+[24]
 Description=Preferencias para la aplicación fontforge
 maximizehoriz=true
 maximizehorizrule=4
@@ -202,7 +213,7 @@ types=1
 wmclass=fontforge
 wmclassmatch=1
 
-[24]
+[25]
 Description=Preferencias para la aplicación fontforge
 maximizehorizrule=1
 maximizevertrule=1
@@ -210,7 +221,7 @@ types=1
 wmclass=fontforge
 wmclassmatch=1
 
-[25]
+[26]
 Description=Preferencias para la aplicación fontforge
 position=145,103
 positionrule=4
@@ -220,7 +231,7 @@ types=1
 wmclass=fontforge
 wmclassmatch=1
 
-[26]
+[27]
 Description=Preferencias de la ventana de fontforge
 position=62,174
 positionrule=4
@@ -228,14 +239,6 @@ size=750,476
 sizerule=4
 title=Find Problems
 titlematch=1
-types=1
-wmclass=fontforge
-wmclassmatch=1
-
-[27]
-Description=Preferencias para la aplicación fontforge
-size=1251,753
-sizerule=4
 types=1
 wmclass=fontforge
 wmclassmatch=1
@@ -249,6 +252,27 @@ wmclass=fontforge
 wmclassmatch=1
 
 [29]
+Description=Preferencias para la aplicación fontforge
+size=1251,753
+sizerule=4
+types=1
+wmclass=fontforge
+wmclassmatch=1
+
+[3]
+Description=Preferencias de la ventana de jetbrains-pycharm-ce
+clientmachinematch=0
+position=0,36
+positionrule=4
+size=1100,1009
+sizerule=4
+title=Pycharm – ~/Scripts/Python/Pass GUI/Pass_GUI.py
+titlematch=1
+types=1
+wmclass=jetbrains-pycharm-ce
+wmclassmatch=1
+
+[30]
 Description=Preferencias para la aplicación virtualbox machine
 position=731,36
 positionrule=4
@@ -258,20 +282,7 @@ types=1
 wmclass=virtualbox machine
 wmclassmatch=1
 
-[3]
-Description=Preferencias de la ventana de jetbrains-pycharm-ce
-clientmachinematch=0
-position=0,36
-positionrule=4
-size=1099,672
-sizerule=4
-title=Bash – ~/Scripts/Python/Pass GUI/Pass_GUI.py
-titlematch=1
-types=1
-wmclass=jetbrains-pycharm-ce
-wmclassmatch=1
-
-[30]
+[31]
 Description=Preferencias para la aplicación virtualbox machine
 position=636,216
 positionrule=1
@@ -279,17 +290,6 @@ size=1032,864
 sizerule=1
 types=1
 wmclass=virtualbox machine
-wmclassmatch=1
-
-[31]
-Description=Preferencias para la aplicación alacritty
-aboverule=4
-position=1103,36
-positionrule=4
-size=821,794
-sizerule=4
-types=1
-wmclass=alacritty
 wmclassmatch=1
 
 [32]
@@ -304,6 +304,17 @@ wmclass=alacritty
 wmclassmatch=1
 
 [33]
+Description=Preferencias para la aplicación alacritty
+aboverule=4
+position=1103,36
+positionrule=4
+size=821,794
+sizerule=4
+types=1
+wmclass=alacritty
+wmclassmatch=1
+
+[34]
 Description=Preferencias para la aplicación terminator
 position=1142,225
 positionrule=4
@@ -311,16 +322,6 @@ size=782,641
 sizerule=4
 types=1
 wmclass=terminator
-wmclassmatch=1
-
-[34]
-Description=Preferencias para la aplicación ksysguard
-position=-4,36
-positionrule=4
-size=1104,1009
-sizerule=4
-types=1
-wmclass=ksysguard
 wmclassmatch=1
 
 [35]
@@ -335,6 +336,16 @@ wmclassmatch=1
 
 [36]
 Description=Preferencias para la aplicación ksysguard
+position=-4,36
+positionrule=4
+size=1104,1009
+sizerule=4
+types=1
+wmclass=ksysguard
+wmclassmatch=1
+
+[37]
+Description=Preferencias para la aplicación ksysguard
 position=0,36
 positionrule=1
 size=958,1037
@@ -343,18 +354,18 @@ types=1
 wmclass=ksysguard
 wmclassmatch=1
 
-[37]
+[38]
 Description=Preferencias para la aplicación transmission
 clientmachine=localhost
 position=923,36
 positionrule=4
-size=941,582
+size=997,715
 sizerule=4
 wmclass=transmission-qt transmission
 wmclasscomplete=true
 wmclassmatch=1
 
-[38]
+[39]
 Description=Preferencias para la aplicación systemmonitor
 clientmachine=localhost
 position=87,36
@@ -364,7 +375,20 @@ sizerule=4
 wmclass=systemmonitor
 wmclassmatch=1
 
-[39]
+[4]
+Description=Preferencias de la ventana de jetbrains-pycharm-ce
+clientmachinematch=0
+position=0,36
+positionrule=4
+size=1099,672
+sizerule=4
+title=Bash – ~/Scripts/Python/Pass GUI/Pass_GUI.py
+titlematch=1
+types=1
+wmclass=jetbrains-pycharm-ce
+wmclassmatch=1
+
+[40]
 Description=Preferencias para la aplicación cemu.exe
 clientmachine=localhost
 position=0,36
@@ -372,17 +396,7 @@ positionrule=4
 wmclass=cemu.exe
 wmclassmatch=1
 
-[4]
-Description=Preferencias para la aplicación dolphin
-clientmachinematch=0
-position=0,36
-positionrule=1
-size=400,425
-sizerule=1
-wmclass=dolphin
-wmclassmatch=1
-
-[40]
+[41]
 Description=Preferencias para la aplicación spectacle
 clientmachine=localhost
 position=0,36
@@ -392,7 +406,7 @@ sizerule=4
 wmclass=spectacle
 wmclassmatch=1
 
-[41]
+[42]
 Description=Preferencias para la aplicación winecfg.exe
 clientmachine=localhost
 position=601,358
@@ -400,15 +414,15 @@ positionrule=4
 wmclass=winecfg.exe
 wmclassmatch=1
 
-[42]
+[43]
 Description=Preferencias para la aplicación dolphin
-position=1162,288
+position=1256,290
 positionrule=4
 types=959
 wmclass=dolphin
 wmclassmatch=1
 
-[43]
+[44]
 Description=Preferencias para la aplicación gwenview
 clientmachine=localhost
 position=-4,171
@@ -418,7 +432,7 @@ sizerule=4
 wmclass=gwenview
 wmclassmatch=1
 
-[44]
+[45]
 Description=Preferencias para la aplicación inkscape
 maximizehoriz=true
 maximizehorizrule=4
@@ -433,14 +447,14 @@ wmclass=org.inkscape.inkscape
 wmclasscomplete=true
 wmclassmatch=1
 
-[45]
+[46]
 Description=Preferencias para la aplicación polkit-kde-authentication-agent-1
 aboverule=2
 clientmachine=localhost
 wmclass=polkit-kde-authentication-agent-1
 wmclassmatch=1
 
-[46]
+[47]
 Description=Preferencias de la ventana de kodi
 clientmachine=govi-pc
 position=800,70
@@ -453,7 +467,7 @@ types=1
 wmclass=kodi
 wmclassmatch=1
 
-[47]
+[48]
 Description=Preferencias de la ventana de virtualbox machine
 clientmachine=localhost
 position=542,90
@@ -466,7 +480,7 @@ types=1
 wmclass=virtualbox machine
 wmclassmatch=1
 
-[48]
+[49]
 Description=Preferencias para la aplicación virtualbox manager
 clientmachine=localhost
 position=843,116
@@ -476,7 +490,17 @@ sizerule=4
 wmclass=virtualbox manager
 wmclassmatch=1
 
-[49]
+[5]
+Description=Preferencias para la aplicación dolphin
+clientmachinematch=0
+position=0,36
+positionrule=1
+size=400,425
+sizerule=1
+wmclass=dolphin
+wmclassmatch=1
+
+[50]
 Description=Preferencias para la aplicación kfind
 clientmachine=localhost
 position=-4,147
@@ -486,20 +510,7 @@ sizerule=4
 wmclass=kfind
 wmclassmatch=1
 
-[5]
-Description=Preferencias de la ventana de alacritty
-clientmachinematch=0
-position=1103,36
-positionrule=4
-size=821,794
-sizerule=4
-title=Alacritty
-titlematch=1
-types=1
-wmclass=alacritty
-wmclassmatch=1
-
-[50]
+[51]
 Description=Preferencias para la aplicación kodi
 clientmachine=govi-pc
 position=800,70
@@ -509,7 +520,7 @@ sizerule=4
 wmclass=kodi
 wmclassmatch=1
 
-[51]
+[52]
 Description=Preferencias para la aplicación brave-browser
 clientmachine=govi-pc
 maximizehoriz=true
@@ -523,7 +534,7 @@ sizerule=4
 wmclass=brave-browser
 wmclassmatch=1
 
-[52]
+[53]
 Description=Preferencias para la aplicación kate
 position=-4,36
 positionrule=4
@@ -533,7 +544,7 @@ types=1
 wmclass=kate
 wmclassmatch=1
 
-[53]
+[54]
 Description=Preferencias para la aplicación terminator
 position=1142,225
 positionrule=1
@@ -543,7 +554,7 @@ types=1
 wmclass=terminator
 wmclassmatch=1
 
-[54]
+[55]
 Description=Preferencias para la aplicación vivaldi
 position=0,36
 positionrule=4
@@ -552,7 +563,7 @@ sizerule=4
 wmclass=vivaldi-stable
 wmclassmatch=1
 
-[55]
+[56]
 Description=Preferencias para la aplicación lutris
 position=432,79
 positionrule=4
@@ -562,6 +573,19 @@ wmclass=lutris
 wmclassmatch=1
 
 [6]
+Description=Preferencias de la ventana de alacritty
+clientmachinematch=0
+position=1103,36
+positionrule=4
+size=821,794
+sizerule=4
+title=Alacritty
+titlematch=1
+types=1
+wmclass=alacritty
+wmclassmatch=1
+
+[7]
 Description=Preferencias de la ventana de dolphin
 clientmachinematch=0
 position=338,285
@@ -574,7 +598,7 @@ types=32
 wmclass=dolphin
 wmclassmatch=1
 
-[7]
+[8]
 Description=Preferencias de la ventana de jetbrains-pycharm-ce
 clientmachinematch=0
 position=1099,36
@@ -587,7 +611,7 @@ types=1
 wmclass=jetbrains-pycharm-ce
 wmclassmatch=1
 
-[8]
+[9]
 Description=Preferencias de la ventana de jetbrains-pycharm-ce
 clientmachinematch=0
 position=1095,36
@@ -600,18 +624,5 @@ types=1
 wmclass=jetbrains-pycharm-ce
 wmclassmatch=1
 
-[9]
-Description=Preferencias de la ventana de alacritty
-clientmachinematch=0
-position=1103,36
-positionrule=4
-size=821,794
-sizerule=4
-title=Alacritty
-titlematch=1
-types=1
-wmclass=alacritty
-wmclassmatch=2
-
 [General]
-count=55
+count=56

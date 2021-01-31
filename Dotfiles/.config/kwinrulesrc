@@ -4,9 +4,9 @@ update_info=kwinrules.upd:replace-placement-string-to-enum
 [1]
 Description=Preferencias de la ventana de dolphin
 clientmachinematch=0
-position=1097,36
+position=-4,36
 positionrule=4
-size=823,798
+size=1103,793
 sizerule=4
 types=1
 windowrole=dolphin#1
@@ -56,9 +56,9 @@ wmclassmatch=1
 [13]
 Description=Preferencias de la ventana de alacritty
 clientmachinematch=0
-position=1103,0
+position=1103,36
 positionrule=4
-size=821,794
+size=821,792
 sizerule=4
 title=Alacritty
 titlematch=1
@@ -329,9 +329,9 @@ wmclassmatch=1
 [35]
 Description=Preferencias para la aplicación alacritty
 aboverule=4
-position=1103,0
+position=1103,36
 positionrule=4
-size=821,794
+size=821,792
 sizerule=4
 types=1
 wmclass=alacritty
@@ -340,9 +340,9 @@ wmclassmatch=1
 [36]
 Description=Preferencias para la aplicación alacritty
 aboverule=4
-position=1103,0
+position=1103,36
 positionrule=4
-size=821,794
+size=821,792
 sizerule=4
 types=1
 wmclass=alacritty
@@ -449,7 +449,7 @@ wmclassmatch=1
 
 [46]
 Description=Preferencias para la aplicación dolphin
-position=1097,36
+position=-4,36
 positionrule=4
 types=959
 wmclass=dolphin
@@ -637,9 +637,9 @@ wmclassmatch=1
 [8]
 Description=Preferencias para la aplicación dolphin
 clientmachinematch=0
-position=1097,36
+position=-4,36
 positionrule=4
-size=600,209
+size=1103,793
 sizerule=4
 wmclass=dolphin
 wmclassmatch=1
@@ -647,9 +647,9 @@ wmclassmatch=1
 [9]
 Description=Preferencias de la ventana de alacritty
 clientmachinematch=0
-position=1103,0
+position=1103,36
 positionrule=4
-size=821,794
+size=821,792
 sizerule=4
 title=Alacritty
 titlematch=1

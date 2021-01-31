@@ -151,7 +151,6 @@
     
 # Media Files
     rm ~/.wine && winecfg
-    ~/Wine/Windows_Utils/Windows_Utils.sh
     git clone https://github.com/z0z0z/mf-install.git "$HOME/Escritorio/wine-mf"
     cd ~/Escritorio/wine-mf
     mkdir -p ~/Escritorio/wine-pfx_mf && cp ~/.wine/* $_

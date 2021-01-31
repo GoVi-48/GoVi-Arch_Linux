@@ -1,12 +1,9 @@
 <application>
-  <component name="FileTypeManager" version="17">
-    <ignoreFiles list="*$py.class;*.hprof;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
+  <component name="FileTypeManager" version="18">
+    <ignoreFiles list="*$py.class;*.pyc;*.pyo;*.rbc;*.yarb;*~;.DS_Store;.git;.hg;.svn;CVS;__pycache__;_svn;vssver.scc;vssver2.scc;" />
     <extensionMap>
       <mapping pattern="urls" type="ARCHIVE" />
-      <mapping pattern="rss_games_2" type="Bash" />
-      <mapping pattern="Arch Install" type="Bash" />
-      <mapping pattern="Howto Arch" type="Bash" />
-      <mapping pattern="Arch Install.txt" type="Bash" />
+      <mapping pattern="Install_DXVK" type="AUTO_DETECTED" />
       <mapping ext="exe" type="GitExclude file" />
       <mapping pattern="config" type="Ini" />
       <mapping pattern="skydrow" type="PLAIN_TEXT" />
@@ -14,9 +11,13 @@
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="pyo" type="PLAIN_TEXT" />
       <mapping pattern="attribWin10" type="Shell Script" />
+      <mapping pattern="gh" type="XML" />
       <mapping pattern="WebGrab++.config.xml" type="XML" />
       <mapping pattern="ls_YT" type="XML" />
-      <mapping pattern="gh" type="XML" />
+      <mapping pattern="Arch Install" type="Bash" />
+      <mapping pattern="Arch Install.txt" type="Bash" />
+      <mapping pattern="Howto Arch" type="Bash" />
+      <mapping pattern="rss_games_2" type="Bash" />
     </extensionMap>
   </component>
 </application>

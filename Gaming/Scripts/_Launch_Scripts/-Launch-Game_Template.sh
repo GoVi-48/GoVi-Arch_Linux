@@ -11,11 +11,14 @@ PROCESS="Game.exe"
 ARGS="-vulkan"
 
 # Environment
-#export __GL_THREADED_OPTIMIZATIONS=1 # NVIDIA
 export WINEDLLOVERRIDES="mscoree,mshtml="
 export WINEFSYNC=1
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
+# NVIDIA export __GL_THREADED_OPTIMIZATIONS=1
+export __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
+export __GL_SHADER_DISK_CACHE=1
+export __GL_SHADER_DISK_CACHE_PATH="$DIR"
 
 # ======================================================================== #
 
@@ -23,21 +26,24 @@ export ENABLE_VKBASALT=1
 LAUNCH_GAME="$(find "${DIR}/Wine" -type f -iname "Launch-*")"
 
 while true; do
+
     if [ ! -f "$LAUNCH_GAME" ]; then
         clear & sleep 1
-        echo -e '\nThis Script needs to be in a folder called "Wine" inside the Current (Game) folder.'
+        echo -e '\nThis Script needs to be in a folder called "Wine", with the prename "Launch-" (example: Launch-My_Game.sh) inside the Game folder.'
         [ ! -d "${DIR}/Wine" ] &&
         echo -e "\nCreating one in the current directory..." &&
         sleep 2 && mkdir -p "${DIR}/Wine"
         echo -e '\nPlease, put this script in it and put "Wine" folder whatever you want in the Game folder.'
-        read -rsn1 -p "$(echo -e "\nPress any key to close this script and make the changes...")"
+        read -rsn1 -p "$(echo -e "\nPress any key to close this script, make the changes and run it again...")"
         echo "" & exit
+
     else
         break
     fi
 done
 
 while true; do
+
     if [ ! -f "${DIR}/Wine/wine-pfx/system.reg" ]; then
         clear & sleep 1
         echo -e "\nThere is not a valid wine-pfx folder.\nThis is neccesary to run this script."
@@ -53,6 +59,7 @@ while true; do
 done
 
 while true; do
+
     if [ ! -d "${DIR}/Wine/wine-build" ] && [ ! -f "${DIR}/Wine/wine" ]; then
         clear & sleep 1
         echo -e '\nThere is not a valid "wine-build folder" or symlink to a "wine" file\nThis is neccesary to run this script'

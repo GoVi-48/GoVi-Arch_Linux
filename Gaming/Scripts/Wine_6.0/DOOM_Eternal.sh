@@ -1,0 +1,1 @@
+/home/govi/Games/PC/DOOM Eternal/Wine/Launch-DOOM_Eternal.sh

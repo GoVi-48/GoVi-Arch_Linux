@@ -1,7 +1,10 @@
-<!DOCTYPE kpartgui SYSTEM 'kpartgui.dtd'>
-<kpartgui name="dolphin" version="33">
- <MenuBar>
-  <Menu name="file">
+<!DOCTYPE gui>
+<gui name="dolphin" translationDomain="kxmlgui5" version="33">
+ <MenuBar alreadyVisited="1">
+  <Menu name="file" alreadyVisited="1" noMerge="1">
+   <text translationDomain="kxmlgui5">&amp;File</text>
+   <Action name="file_new"/>
+   <Separator weakSeparator="1"/>
    <Action name="new_menu"/>
    <Action name="file_new"/>
    <Action name="new_tab"/>
@@ -18,8 +21,23 @@
    <Action name="show_target"/>
    <Separator/>
    <Action name="properties"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_close"/>
+   <Separator weakSeparator="1"/>
+   <Action name="file_quit"/>
   </Menu>
-  <Menu name="edit">
+  <Menu name="edit" alreadyVisited="1" noMerge="1">
+   <text translationDomain="kxmlgui5">&amp;Edit</text>
+   <Action name="edit_undo"/>
+   <Separator weakSeparator="1"/>
+   <Action name="edit_cut"/>
+   <Action name="edit_copy"/>
+   <Action name="edit_paste"/>
+   <Separator weakSeparator="1"/>
+   <Action name="edit_select_all"/>
+   <Separator weakSeparator="1"/>
+   <Action name="edit_find"/>
+   <Separator weakSeparator="1"/>
    <Action name="edit_undo"/>
    <Separator/>
    <Action name="edit_cut"/>
@@ -34,7 +52,13 @@
    <Action name="edit_select_all"/>
    <Action name="invert_selection"/>
   </Menu>
-  <Menu name="view">
+  <Menu name="view" alreadyVisited="1" noMerge="1">
+   <text translationDomain="kxmlgui5">&amp;View</text>
+   <Action name="view_zoom_in"/>
+   <Action name="view_zoom_out"/>
+   <Separator weakSeparator="1"/>
+   <Action name="view_redisplay"/>
+   <Separator weakSeparator="1"/>
    <Action name="view_zoom_in"/>
    <Action name="view_zoom_reset"/>
    <Action name="view_zoom_out"/>
@@ -52,19 +76,26 @@
    <Action name="stop"/>
    <Separator/>
    <Action name="panels"/>
-   <Menu name="location_bar" icon="edit-select-text">
-    <text context="@title:menu">Location Bar</text>
+   <Menu name="location_bar" icon="edit-select-text" noMerge="1">
+    <text translationDomain="dolphin" context="@title:menu">Location Bar</text>
     <Action name="editable_location"/>
     <Action name="replace_location"/>
    </Menu>
    <Separator/>
    <Action name="view_properties"/>
   </Menu>
-  <Menu name="go">
+  <Menu name="go" alreadyVisited="1" noMerge="1">
+   <text translationDomain="kxmlgui5">&amp;Go</text>
+   <Action name="go_up"/>
+   <Action name="go_back"/>
+   <Action name="go_forward"/>
+   <Action name="go_home"/>
+   <Separator weakSeparator="1"/>
    <Action name="bookmarks"/>
    <Action name="closed_tabs"/>
   </Menu>
-  <Menu name="tools">
+  <Menu name="tools" alreadyVisited="1" noMerge="1">
+   <text translationDomain="kxmlgui5">&amp;Tools</text>
    <Action name="show_filter_bar"/>
    <Action name="open_preferred_search_tool"/>
    <Action name="open_terminal"/>
@@ -72,8 +103,33 @@
    <Action name="compare_files"/>
    <Action name="change_remote_encoding"/>
   </Menu>
+  <Menu name="settings" noMerge="1">
+   <text translationDomain="kxmlgui5">&amp;Settings</text>
+   <Action name="options_show_menubar"/>
+   <Merge name="StandardToolBarMenuHandler"/>
+   <Merge name="KMDIViewActions"/>
+   <Separator weakSeparator="1"/>
+   <Action name="switch_application_language"/>
+   <Action name="options_configure_keybinding"/>
+   <Action name="options_configure_toolbars"/>
+   <Action name="options_configure"/>
+  </Menu>
+  <Separator weakSeparator="1"/>
+  <Menu name="help" noMerge="1">
+   <text translationDomain="kxmlgui5">&amp;Help</text>
+   <Action name="help_contents"/>
+   <Action name="help_whats_this"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_report_bug"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_donate"/>
+   <Separator weakSeparator="1"/>
+   <Action name="help_about_app"/>
+   <Action name="help_about_kde"/>
+  </Menu>
  </MenuBar>
- <ToolBar alreadyVisited="1" name="mainToolBar" noMerge="1">
+ <ToolBar name="mainToolBar" alreadyVisited="1" noMerge="1">
+  <Action name="show_places_panel"/>
   <text translationDomain="dolphin" context="@title:menu">Main Toolbar</text>
   <Action name="go_back"/>
   <Action name="go_forward"/>
@@ -134,27 +190,27 @@
   </disable>
  </State>
  <ActionProperties scheme="Default">
-  <Action priority="0" name="compact"/>
-  <Action priority="0" name="details"/>
-  <Action priority="0" name="edit_copy"/>
-  <Action priority="0" name="edit_cut"/>
-  <Action priority="0" name="edit_find"/>
-  <Action priority="0" name="edit_paste"/>
-  <Action priority="0" name="edit_select_all"/>
-  <Action priority="0" name="go_back"/>
-  <Action priority="0" name="go_forward"/>
-  <Action priority="0" name="go_home"/>
-  <Action priority="0" name="go_up"/>
-  <Action priority="0" name="icons"/>
-  <Action priority="0" name="new_tab"/>
-  <Action priority="0" name="show_hidden_files"/>
-  <Action priority="0" name="show_preview"/>
-  <Action priority="128" name="split_stash"/>
-  <Action priority="0" name="split_view"/>
-  <Action priority="0" name="stop"/>
-  <Action priority="0" name="toggle_search"/>
-  <Action priority="0" name="view_zoom_in"/>
-  <Action priority="0" name="view_zoom_out"/>
-  <Action priority="0" name="view_zoom_reset"/>
+  <Action name="compact" priority="0"/>
+  <Action name="details" priority="0"/>
+  <Action name="edit_copy" priority="0"/>
+  <Action name="edit_cut" priority="0"/>
+  <Action name="edit_find" priority="0"/>
+  <Action name="edit_paste" priority="0"/>
+  <Action name="edit_select_all" priority="0"/>
+  <Action name="go_back" priority="0"/>
+  <Action name="go_forward" priority="0"/>
+  <Action name="go_home" priority="0"/>
+  <Action name="go_up" priority="0"/>
+  <Action name="icons" priority="0"/>
+  <Action name="new_tab" priority="0"/>
+  <Action name="show_hidden_files" priority="0"/>
+  <Action name="show_preview" priority="0"/>
+  <Action name="split_stash" priority="128"/>
+  <Action name="split_view" priority="0"/>
+  <Action name="stop" priority="0"/>
+  <Action name="toggle_search" priority="0"/>
+  <Action name="view_zoom_in" priority="0"/>
+  <Action name="view_zoom_out" priority="0"/>
+  <Action name="view_zoom_reset" priority="0"/>
  </ActionProperties>
-</kpartgui>
+</gui>

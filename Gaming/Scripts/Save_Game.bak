@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+
+SOURCE="$HOME/Games/PC/Satisfactory/Save Game/"
+DESTINATION="$HOME/Backups/Games/Save Games - Backup/Satisfactory/FactoryGame/"
+
+if [ ! -d "$DESTINATION" ]; then
+    mkdir -p "$DESTINATION" && cp -rfv "$SOURCE"* "$DESTINATION"
+
+else
+    cp -rfv "$SOURCE" "$DESTINATION"
+
+fi

@@ -34,7 +34,7 @@ git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si PKGBUILD
 
-yay -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox font-manager java-8-openjdk liferea picard skype spotify teamviewer timeshift tiny-media-manager ttf-ms-fonts
+yay -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox font-manager java-8-openjdk liferea mpc-qt picard skype spotify teamviewer timeshift tiny-media-manager ttf-ms-fonts
 
 # Kodi
 sudo pacman -S kodi kodi-x11

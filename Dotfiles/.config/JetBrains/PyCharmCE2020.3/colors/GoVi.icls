@@ -5,7 +5,7 @@
     <property name="description" />
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2020.1.5.0.0</property>
-    <property name="modified">2021-01-28T01:58:38</property>
+    <property name="modified">2021-02-01T05:10:02</property>
     <property name="originalScheme">GoV</property>
     <property name="vendorMail" />
     <property name="vendorName">GoVi_Pycharm_Theme</property>
@@ -176,40 +176,42 @@
     </option>
     <option name="DEFAULT_BRACES">
       <value>
-        <option name="FOREGROUND" value="97fff8" />
+        <option name="FOREGROUND" value="7ae5ff" />
       </value>
     </option>
     <option name="DEFAULT_BRACKETS">
       <value>
-        <option name="FOREGROUND" value="97fff8" />
+        <option name="FOREGROUND" value="7ae5ff" />
       </value>
     </option>
     <option name="DEFAULT_COMMA">
       <value>
-        <option name="FOREGROUND" value="cf000b" />
+        <option name="FOREGROUND" value="ff913c" />
       </value>
     </option>
     <option name="DEFAULT_DOT">
       <value>
-        <option name="FOREGROUND" value="cf000b" />
+        <option name="FOREGROUND" value="de2626" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_CALL">
       <value>
-        <option name="FOREGROUND" value="fefffe" />
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="DEFAULT_FUNCTION_DECLARATION">
-      <value />
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="242729" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
     </option>
     <option name="DEFAULT_GLOBAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="c14fe5" />
       </value>
     </option>
-    <option name="DEFAULT_IDENTIFIER">
-      <value />
-    </option>
+    <option name="DEFAULT_IDENTIFIER" baseAttributes="TEXT" />
     <option name="DEFAULT_KEYWORD">
       <value>
         <option name="FOREGROUND" value="f6fa93" />
@@ -220,24 +222,36 @@
         <option name="FOREGROUND" value="737572" />
       </value>
     </option>
+    <option name="DEFAULT_METADATA">
+      <value>
+        <option name="FOREGROUND" value="ee7728" />
+      </value>
+    </option>
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="cc070a" />
       </value>
     </option>
+    <option name="DEFAULT_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
+        <option name="BACKGROUND" value="242729" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="DEFAULT_PARENTHS">
       <value>
-        <option name="FOREGROUND" value="97fff8" />
+        <option name="FOREGROUND" value="7ae5ff" />
       </value>
     </option>
     <option name="DEFAULT_SEMICOLON">
       <value>
-        <option name="FOREGROUND" value="cf000b" />
+        <option name="FOREGROUND" value="f3cd4d" />
       </value>
     </option>
     <option name="DEFAULT_STRING">
       <value>
-        <option name="FOREGROUND" value="97d5ff" />
+        <option name="FOREGROUND" value="bee2ff" />
       </value>
     </option>
     <option name="DEFAULT_TEMPLATE_LANGUAGE_COLOR">

@@ -140,12 +140,11 @@ Top=None
 
 [Windows]
 ActiveMouseScreen=true
-AutoRaiseInterval=1250
+AutoRaiseInterval=400
 AutogroupInForeground=true
 AutogroupSimilarWindows=false
 BorderSnapZone=10
 CenterSnapZone=0
-ClickRaise=false
 DelayFocusInterval=0
 ElectricBorderCooldown=350
 ElectricBorderCornerRatio=0.25
@@ -154,7 +153,6 @@ ElectricBorderMaximize=true
 ElectricBorderTiling=true
 ElectricBorders=0
 FocusPolicy=FocusFollowsMouse
-FocusStealingPreventionLevel=1
 HideUtilityWindowsForInactive=true
 InactiveTabsSkipTaskbar=false
 MaximizeButtonLeftClickCommand=Maximize
@@ -165,7 +163,6 @@ Placement=Centered
 SeparateScreenFocus=false
 ShadeHover=false
 ShadeHoverInterval=250
-SnapOnlyWhenOverlapping=false
 WindowSnapZone=10
 
 [org.kde.kdecoration2]

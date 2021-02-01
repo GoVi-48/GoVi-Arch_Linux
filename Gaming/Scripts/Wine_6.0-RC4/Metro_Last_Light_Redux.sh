@@ -1,0 +1,1 @@
+/Datos/Games/PC/-Launchers/GOG/-Library/Metro Last Light Redux/Wine/Launch-Metro_Last_Light_Redux.sh

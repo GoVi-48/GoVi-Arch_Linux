@@ -141,7 +141,7 @@ interval = 300
 [module/rss_youtube]
 type = custom/script
 exec = ~/.config/polybar/scripts/rss_youtube_not.sh
-click-left = ~/.config/polybar/scripts/rss_youtube_Reset.sh
+click-left = ~/.config/polybar/scripts/rss_youtube_Reset.sh & firefox https://www.youtube.com/
 interval = 300
 
 [module/rss_games]
@@ -153,7 +153,7 @@ interval = 300
 [module/rss_github]
 type = custom/script
 exec = ~/.config/polybar/scripts/rss_github_not.sh
-click-left = ~/.config/polybar/scripts/rss_github_Reset.sh
+click-left = ~/.config/polybar/scripts/rss_github_Reset.sh & firefox https://github.com/watching
 interval = 300
 
 [module/updates_pacman]

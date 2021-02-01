@@ -151,19 +151,24 @@ alias ga="git add"
 alias gcm="git commit -m"
 alias gpm="git push -u origin master"
 
+# Environment Games
+# export WINEFSYNC=1
+# export MANGOHUD=1
+# export MANGOHUD_DLSYM=1
+# export ENABLE_VKBASALT=1
+export VKBASALT_CONFIG_FILE="$HOME/.config/vkBasalt/vkBasalt.conf"
+
 # Environment
-export WINEFSYNC=1
-export MANGOHUD=1
-export MANGOHUD_DLSYM=1
+
+export BROWSER="firefox"
+export FILEMANAGER="dolphin"
+export TERMINAL="alacritty"
 export TERM=xterm-color
 export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
 export CLICOLOR=1
-export EDITOR=vim
+export EDITOR="vim"
 export EDITOR VISUAL
 export VISUAL=$EDITOR
-export TERMINAL="alacritty"
-export BROWSER="firefox"
-export FILEMANAGER="dolphin"
 export PATH=$PATH:$HOME/Scripts/Bash/
 export PATH=$PATH:$HOME/Scripts/Bash/Autostart/
 export PATH=$PATH:$HOME/Scripts/Bash/Games/
@@ -172,9 +177,6 @@ export PATH=$PATH:$HOME/Scripts/Bash/Programs/
 export PATH=$PATH:$HOME/Scripts/Bash/Utils/
 export PATH=$PATH:$HOME/Programas/Pycharm/bin/
 export JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
-
-# export VKBASALT_CONFIG_FILE="$HOME/.config/vkBasalt/vkBasalt.conf"
-# export ENABLE_VKBASALT=1
 
 # System Info
 neofetch

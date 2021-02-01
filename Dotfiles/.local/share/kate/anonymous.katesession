@@ -1,15 +1,14 @@
 [Document 0]
 Bookmarks=
-Encoding=ISO-8859-15
-Highlighting=None
-Highlighting Set By User=false
+Encoding=UTF-8
+Highlighting=INI Files
+Highlighting Set By User=true
 Indentation Mode=normal
 Mode=Normal
 Mode Set By User=false
-URL=file:///Media/GoVi/Documentos/.GoVi-Docs/Upload/Youtube etiquetas.txt
+URL=file:///home/govi/.config/polybar/config
 
 [Kate Plugins]
-cuttlefishplugin=false
 externaltoolsplugin=true
 katebacktracebrowserplugin=false
 katebuildplugin=false
@@ -36,10 +35,10 @@ textfilterplugin=false
 [MainWindow0]
 Active ViewSpace=0
 HDMI-0 Height 1080=966
-HDMI-0 Width 1920=1095
+HDMI-0 Width 1920=1099
 HDMI-0 XPosition=0
 HDMI-0 YPosition=75
-Kate-MDI-H-Splitter=160,1065,200
+Kate-MDI-H-Splitter=160,1069,200
 Kate-MDI-Sidebar-0-Splitter=0,0
 Kate-MDI-Sidebar-1-Splitter=
 Kate-MDI-Sidebar-2-Splitter=
@@ -67,17 +66,17 @@ Kate-MDI-ToolView-kateprojectinfo-Position=3
 Kate-MDI-ToolView-kateprojectinfo-Sidebar-Position=1
 Kate-MDI-ToolView-kateprojectinfo-Visible=false
 Kate-MDI-V-Splitter=150,868,271
-State=AAAA/wAAAAD9AAAAAAAABEcAAAOCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABEsAAAOCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 
 [MainWindow0][Toolbar mainToolBar]
 ToolButtonStyle=IconOnly
 
 [MainWindow0 Settings]
 HDMI-0 Height 1080=966
-HDMI-0 Width 1920=1095
+HDMI-0 Width 1920=1099
 HDMI-0 XPosition=0
 HDMI-0 YPosition=75
-State=AAAA/wAAAAD9AAAAAAAABEcAAAOCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+State=AAAA/wAAAAD9AAAAAAAABEsAAAOCAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
 WindowState=0
 
 [MainWindow0 Settings][Toolbar mainToolBar]
@@ -86,21 +85,21 @@ ToolButtonStyle=IconOnly
 [MainWindow0-Splitter 0]
 Children=MainWindow0-ViewSpace 0
 Orientation=1
-Sizes=1065
+Sizes=1069
 
 [MainWindow0-ViewSpace 0]
-Active View=file:///Media/GoVi/Documentos/.GoVi-Docs/Upload/Youtube etiquetas.txt
+Active View=file:///home/govi/.config/polybar/config
 Count=1
-Documents=file:///Media/GoVi/Documentos/.GoVi-Docs/Upload/Youtube etiquetas.txt
-View 0=file:///Media/GoVi/Documentos/.GoVi-Docs/Upload/Youtube etiquetas.txt
+Documents=file:///home/govi/.config/polybar/config
+View 0=file:///home/govi/.config/polybar/config
 
-[MainWindow0-ViewSpace 0 file:///Media/GoVi/Documentos/.GoVi-Docs/Upload/Youtube etiquetas.txt]
-CursorColumn=78
-CursorLine=0
+[MainWindow0-ViewSpace 0 file:///home/govi/.config/polybar/config]
+CursorColumn=70
+CursorLine=143
 Dynamic Word Wrap=false
 JumpList=
 TextFolding=[]
-ViMarks=
+ViMarks=.,143,62,[,143,62,],143,69
 
 [Open Documents]
 Count=1
@@ -127,11 +126,23 @@ SearchDiskFiless=/home/govi/.kodi/addons/skin.aeon.govi/1080p
 UseRegExp=false
 
 [Recent Files]
-File1[$e]=$HOME/.dbus/session-bus/fdb01e46ab244932a0fa3beea0031142-0
-File2[$e]=/Media/GoVi/Proyectos/Github/GoVi-Arch_Linux/Arch_Howto
-File3[$e]=/Media/GoVi/Documentos/.GoVi-Docs/Upload/Youtube Copyright.txt
-File4[$e]=/Media/GoVi/Documentos/.GoVi-Docs/Upload/Youtube etiquetas.txt
-Name1[$e]=fdb01e46ab244932a0fa3beea0031142-0
-Name2[$e]=Arch_Howto
-Name3[$e]=Youtube Copyright.txt
-Name4[$e]=Youtube etiquetas.txt
+File1[$e]=/Media/Games/PC/Dyson Sphere Program/Wine/Launch-Dyson_Sphere_Program.sh
+File10[$e]=$HOME/.config/polybar/config
+File2[$e]=/Media/Games/PC/DOOM Eternal/Wine/Launch-DOOM_Eternal.sh
+File3[$e]=/Media/Games/PC/Anno 1800/Wine/Launch-Anno_1800.sh
+File4[$e]=/Datos/Games/PC/-Launchers/Epic Games/-Library/Metro2033Redux/Wine/Launch-Metro_2033_Redux.sh
+File5[$e]=/Datos/Downloads/Star.Wars.Jedi.Fallen.Order-CODEX/codex.nfo
+File6[$e]=/Media/Games/PC/STAR WARS Jedi Fallen Order/Wine/wine-pfx/drive_c/Games/Star Wars Jedi Fallen Order/__Installer/installerdata.xml
+File7[$e]=/Media/Games/PC/STAR WARS Jedi Fallen Order/Wine/wine-pfx/drive_c/Games/Star Wars Jedi Fallen Order/__Installer/Touchup.dat
+File8[$e]=/Media/Games/PC/STAR WARS Jedi Fallen Order/Wine/wine-pfx/drive_c/Games/Star Wars Jedi Fallen Order/SwGame/Binaries/Win64/codex.cfg
+File9[$e]=$HOME/Escritorio/Star Wars Jedi Fallen Order.desktop
+Name1[$e]=Launch-Dyson_Sphere_Program.sh
+Name10[$e]=config
+Name2[$e]=Launch-DOOM_Eternal.sh
+Name3[$e]=Launch-Anno_1800.sh
+Name4[$e]=Launch-Metro_2033_Redux.sh
+Name5[$e]=codex.nfo
+Name6[$e]=installerdata.xml
+Name7[$e]=Touchup.dat
+Name8[$e]=codex.cfg
+Name9[$e]=Star Wars Jedi Fallen Order.desktop

@@ -141,7 +141,7 @@ interval = 300
 [module/rss_youtube]
 type = custom/script
 exec = ~/.config/polybar/scripts/rss_youtube_not.sh
-click-left = ~/.config/polybar/scripts/rss_youtube_Reset.sh & firefox https://www.youtube.com/
+click-left = ~/.config/polybar/scripts/rss_youtube_Reset.sh
 interval = 300
 
 [module/rss_games]

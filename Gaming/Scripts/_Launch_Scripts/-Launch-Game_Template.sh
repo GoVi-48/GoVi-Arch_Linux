@@ -15,7 +15,7 @@ export WINEDLLOVERRIDES="mscoree,mshtml="
 export WINEFSYNC=1
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
-# NVIDIA export __GL_THREADED_OPTIMIZATIONS=1
+export __GL_THREADED_OPTIMIZATIONS=1 # NVIDIA
 export __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
 export __GL_SHADER_DISK_CACHE=1
 export __GL_SHADER_DISK_CACHE_PATH="$DIR"
@@ -40,6 +40,23 @@ while true; do
         break
     fi
 done
+
+#while true; do
+#    case "$LAUNCH_GAME" in
+#        ~"*/Wine/Launch-*" )
+#           break ;;
+#        !~"/Wine/*" )
+#            clear & sleep 1
+#            echo -e '\nThis Script needs to be in a folder called "Wine" inside the Game folder.'
+#            echo -e "\nCreating one in the current directory..."; sleep 2; mkdir -p "${DIR}/Wine" ;;
+#        !~"*/Launch-*" )
+#            echo -e 'Invalid script name. Need to have the prename "Launch-" (example: Launch-My_Game.sh)' ;;
+#        !~"*/Wine/Launch-*" )
+#            echo -e '\nPlease, put this script in it and put "Wine" folder whatever you want in the Game folder.'
+#            read -rn1 -p "$(echo -e "\nPress any key to close this script, make the changes and run it again...")"; echo & exit ;;
+#    esac
+#done
+
 
 # Chech if wine-pfx exist
 while true; do
@@ -80,6 +97,7 @@ while true; do
     fi
 done
 
+# Set wine-build & wineprefix
 WINE="$DIR/Wine/wine"
 WINEPREFIX="$DIR/Wine/wine-pfx/"
 

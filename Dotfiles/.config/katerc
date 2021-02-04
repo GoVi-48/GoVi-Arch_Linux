@@ -31,8 +31,8 @@ Startup Session=last
 Tabbar Tab Limit=0
 
 [KFileDialog Settings]
-Recent Files[$e]=file:$HOME/Scripts/Bash/Games/Launchers/Epic_Games.sh,file:$HOME/Escritorio/GG.html,file:$HOME/Scripts/Bash/Polybar/launch.sh
-Recent URLs[$e]=file:$HOME/Scripts/Bash/Games/,file:$HOME/Scripts/Bash/Games/-Test/,file:$HOME/Scripts/Bash/Games/Wine_6.0/,file:///Media/Games/PC/Cyberpunk 2077/Wine/,file:$HOME/Games/PC/,file:$HOME/Scripts/Bash/,file:$HOME/.config/polybar/,file:$HOME/,file:$HOME/Scripts/Python/Pass GUI/,file:$HOME/Games/PC/STAR WARS Battlefront II/Wine/,file:$HOME/Escritorio/
+Recent Files[$e]=file:$HOME/Scripts/Bash/Games/Launchers/Epic_Games.sh,file:$HOME/Proyectos/Github/GoVi-Arch_Linux/Arch_Howto,file:$HOME/Proyectos/Github/GoVi-Arch_Linux/Arch_Install,file:$HOME/Scripts/Bash/Polybar/launch.sh
+Recent URLs[$e]=file:$HOME/Scripts/Bash/Games/Wine_6.0/,file:///Media/Games/PC/Cyberpunk 2077/Wine/,file:$HOME/Games/PC/,file:$HOME/Scripts/Bash/,file:$HOME/.config/polybar/,file:$HOME/,file:$HOME/Scripts/Python/Pass GUI/,file:$HOME/Games/PC/STAR WARS Battlefront II/Wine/,file:$HOME/Escritorio/,file:$HOME/Proyectos/Github/GoVi-Arch_Linux/,file:$HOME/Proyectos/Github/
 detailViewIconSize=0
 iconViewIconSize=43
 listViewIconSize=0
@@ -132,7 +132,7 @@ Word Completion Remove Tail=true
 
 [KTextEditor::Search]
 Replace History=\\0
-Search History=robot,<p>,curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|<br />|p' | sed -s 's|<br />||g',tar,j,vsync,WINEPREFIX=~/Wine/wine-pfx_5.13-dxvk-1.7-mf,vs,UnFocusHDIndicator,addon,tools,m ,formula,formula 1,res,cpu,date,bottom,font-0,ttf,background,backgr,colors,font,Mangohud,gam,govi,git,vulkan,WheelScrollLines,text,"MenuText"="219 220 222",Text,open min,winetricks,under,4023,export,#!/usr/bin/env xdg-open,timebar,disney,clan,estrenos,m.,preview,4311,4314,4315,4301,now,button_up,mute,vol,error,warning,Label3
+Search History=GCC_COLORS,robot,<p>,curl https://www.skidrowreloaded.com/ | sed -n 's|<p>|<br />|p' | sed -s 's|<br />||g',tar,j,vsync,WINEPREFIX=~/Wine/wine-pfx_5.13-dxvk-1.7-mf,vs,UnFocusHDIndicator,addon,tools,m ,formula,formula 1,res,cpu,date,bottom,font-0,ttf,background,backgr,colors,font,Mangohud,gam,govi,git,vulkan,WheelScrollLines,text,"MenuText"="219 220 222",Text,open min,winetricks,under,4023,export,#!/usr/bin/env xdg-open,timebar,disney,clan,estrenos,m.,preview,4311,4314,4315,4301,now,button_up,mute,vol,error,warning,Label3
 
 [MainWindow]
 HDMI-0 Height 1080=966
@@ -144,7 +144,7 @@ HDMI-0 Width 1600=1126
 HDMI-0 Width 1920=1099
 HDMI-0 Width 640=636
 HDMI-0 XPosition=0
-HDMI-0 YPosition=110
+HDMI-0 YPosition=75
 Height 1080=840
 Height 768=480
 Height 900=787
@@ -162,7 +162,7 @@ CompletionMode=1
 History=ala
 
 [UiSettings]
-ColorScheme=Brisa oscuro
+ColorScheme=Breeze Dark Transparent Title
 
 [filetree]
 editShade=33,84,111

@@ -10,7 +10,10 @@
       <mapping pattern=".data" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="pyo" type="PLAIN_TEXT" />
+      <mapping pattern=".bashrc" type="Shell Script" />
       <mapping pattern="attribWin10" type="Shell Script" />
+      <mapping pattern="Arch_Install" type="Shell Script" />
+      <mapping pattern="Arch_Howto" type="Shell Script" />
       <mapping pattern="gh" type="XML" />
       <mapping pattern="WebGrab++.config.xml" type="XML" />
       <mapping pattern="ls_YT" type="XML" />

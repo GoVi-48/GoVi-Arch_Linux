@@ -14,8 +14,12 @@ Include = /etc/pacman.d/mirrorlist
 sudo pacman -Syu
 
 # Packages
-sudo pacman -S alacritty audacity exa ffmpeg firefox gimp htop inkscape kdenlive lm_sensors mono neofetch obs-studio pass transmission-qt virtualbox vlc youtube-dl
-sudo pacman -S ark bc conky extra-cmake-modules gparted icoutils jdk-openjdk kate kcalc kdialog net-tools okular packagekit-qt5 spectacle unrar zip wget
+sudo pacman -S alacritty audacity exa ffmpeg firefox gimp htop inkscape kdenlive lm_sensors mono neofetch obs-studio pass transmission-qt virtualbox youtube-dl
+sudo pacman -S ark bc conky extra-cmake-modules gparted icoutils jdk-openjdk net-tools packagekit-qt5 unrar zip wget
+
+# ZSH
+sudo pacman -S zsh zsh-autosuggestions zsh-syntax-highlighting
+chsh -s /bin/zsh $USER
 
 # Antivirus
 sudo pacman -S clamav
@@ -30,7 +34,7 @@ systemctl enable firewalld
 firewall-config
 
 # AUR packages
-git clone https://aur.archlinux.org/yay.git
+git clone https://aur.archlinux.org/yay-git.git
 cd yay
 makepkg -si PKGBUILD
 
@@ -89,10 +93,12 @@ systemctl enable --now cronie.service
 crontab -e
 # -----------------------------------------------------------------------------
 MAILTO=""
-00 00 * * * ~/Scripts/Bash/Webgrab_Update_to_GIT.sh > ~/Scripts/Logs/Cron/crontab.log 2>&1
-10 00 * * * export DISPLAY=:0 && kate ~/Scripts/Logs/Cron/crontab.log
-00 12 * * * ~/Scripts/Bash/Webgrab_Update_to_GIT.sh > ~/Scripts/Logs/Cron/crontab.log 2>&1
-10 12 * * * export DISPLAY=:0 && kate ~/Scripts/Logs/Cron/crontab.log
+00 00 * * * ~/Scripts/Bash/Utils/Webgrab_GIT.sh > ~/Programas/Webgrab++/webgrab.log
+00 12 * * * ~/Scripts/Bash/Utils/Webgrab_GIT.sh > ~/Programas/Webgrab++/webgrab.log
+*/20  * * * * ~/.config/polybar/scripts/rss_games.sh
+*/30 * * * * ~/.config/polybar/scripts/rss_youtube.sh
+0 */1 * * * ~/.config/polybar/scripts/rss_github.sh
+*/4 * * * * nitrogen --set-zoom-fill --random ~/Imágenes/Wallpapers/Desktop --save
 # ----------------------------------------------------
 crontab -l
 
@@ -115,13 +121,7 @@ sudo vim ~/.imwheelrc
     Control_L, Down, Control_L|Button5
 # -----------------------------------------------------------------------------
 
-sudo vim ~/.config/autostart/imwheel.sh
-# -----------------------------------------------------------------------------
-killall imwheel
-imwheel -b 45
-# -----------------------------------------------------------------------------
-
-# Gestures
+# Gestures KDE
 qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.shortcutNames
 qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut "Cube"
 
@@ -152,15 +152,15 @@ realtime-priority = 5
 # Required for custom Kernels
 sudo pacman -S nvidia-dkms
 
-# Kernel TKG
-git clone https://github.com/Frogging-Family/linux-tkg.git
-cd linux-tkg/linux58-tkg
-# Edit customization.cfg file
-makepkg -si
-sudo grub-mkconfig -o /boot/grub/grub.cfg
-
 # Kernel Zen
 sudo pacman -S linux-zen linux-zen-headers
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+
+# Kernel TKG
+git clone https://github.com/Frogging-Family/linux-tkg.git
+cd linux-tkg/
+# Edit customization.cfg file before continue
+makepkg -si
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 # Kernel CK

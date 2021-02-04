@@ -21,7 +21,7 @@
   </inspection_tool>
   <inspection_tool class="PyProtectedMemberInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="ShellCheck" enabled="true" level="ERROR" enabled_by_default="true">
-    <shellcheck_settings value="SC2015,SC2050,SC2057,SC2086,SC2140,SC2164,SC2226" />
+    <shellcheck_settings value="SC1036,SC1088,SC1090,SC2015,SC2050,SC2057,SC2086,SC2099,SC2139,SC2140,SC2164,SC2226" />
   </inspection_tool>
   <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
     <option name="processCode" value="true" />

@@ -1,1 +1,0 @@
-/Datos/Games/PC/-Launchers/Origin/Wine/Launch-Origin.sh

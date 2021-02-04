@@ -1,1 +1,0 @@
-/Media/Games/PC/-Emulators/Cemu/Launch_Scripts/Launch-Mario_Kart_8.sh

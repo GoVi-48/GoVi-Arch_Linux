@@ -10,38 +10,74 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Bash/Games/Launch-Game_Template.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="43" selection-start-line="43" selection-start-column="1" selection-end-line="57" selection-end-column="5" />
+            <state relative-caret-position="168">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Games/PC/DOOM Eternal/Wine/Launch-DOOM_Eternal.sh">
+        <entry file="file://$PROJECT_DIR$/../Proyectos/Github/GoVi-Arch_Linux/Arch_Install">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2016">
-              <caret line="111" column="16" selection-start-line="111" selection-end-line="112" />
+            <state relative-caret-position="3822">
+              <caret line="182" column="12" selection-start-line="182" selection-start-column="12" selection-end-line="182" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Wine/Scripts/-Test/Star_Wars_Jedi_Fallen_Order.sh">
+        <entry file="file://$PROJECT_DIR$/../Proyectos/Github/GoVi-Arch_Linux/Arch_Howto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+            <state relative-caret-position="570">
+              <caret line="158" column="12" selection-start-line="158" selection-start-column="12" selection-end-line="158" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../Games/PC/Satisfactory/Wine/Launch-Satisfactory.sh">
+        <entry file="file://$PROJECT_DIR$/../.bashrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
+            <state relative-caret-position="2268">
+              <caret line="108" column="45" selection-start-line="108" selection-end-line="109" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../.xinitrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="815">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../.config/polybar/config">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4347">
+              <caret line="207" selection-start-line="207" selection-end-line="207" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Bash/Utils/Home_GIT.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -63,6 +99,13 @@
       <find>Exiting</find>
       <find>return</find>
       <find>DIR</find>
+      <find>picom</find>
+      <find>#</find>
+      <find>vim</find>
+      <find>=</find>
+      <find>pcmanfm</find>
+      <find>BROWSER</find>
+      <find>- {</find>
     </findStrings>
     <replaceStrings>
       <replace>mkdir -p</replace>
@@ -70,11 +113,15 @@
       <replace>sleep 2</replace>
       <replace>\nInvalid input.&quot;</replace>
       <replace>exit</replace>
+      <replace>#</replace>
+      <replace>=</replace>
+      <replace>$BROWSER</replace>
+      <replace>FILEMANAGER</replace>
+      <replace>- {</replace>
     </replaceStrings>
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Bash/Utils/Home_GIT.sh" />
       <option value="$PROJECT_DIR$/../Games/PC/Godfall/Wine/Launch-Godfall.sh" />
       <option value="$PROJECT_DIR$/../Wine/Scripts/-Test/Dirt_Rally_2.0.sh" />
       <option value="$PROJECT_DIR$/../Games/PC/DiRT Rally 2.0/Wine/Launch-Dirt_Rally_2.0.sh" />
@@ -89,9 +136,19 @@
       <option value="$PROJECT_DIR$/Bash/Games/_Create_wine-pfx/Install_MF.sh" />
       <option value="$PROJECT_DIR$/Bash/Games/Create-wine-pfx.sh" />
       <option value="$PROJECT_DIR$/Bash/Games/_Create_wine-pfx/Install_DXVK.sh" />
-      <option value="$PROJECT_DIR$/../.bashrc" />
       <option value="$PROJECT_DIR$/../Wine/Scripts/-Test/Star_Wars_Jedi_Fallen_Order.sh" />
+      <option value="$PROJECT_DIR$/../.bashrc" />
+      <option value="$PROJECT_DIR$/../.config/neofetch/config.conf" />
+      <option value="$PROJECT_DIR$/../.xinitrc" />
+      <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.sh" />
       <option value="$PROJECT_DIR$/Bash/Games/Launch-Game_Template.sh" />
+      <option value="$PROJECT_DIR$/../.config/qtile/config.py" />
+      <option value="$PROJECT_DIR$/Bash/Polybar/cpu_load.sh" />
+      <option value="$PROJECT_DIR$/../.config/alacritty/alacritty.yml" />
+      <option value="$PROJECT_DIR$/../.config/polybar/config" />
+      <option value="$PROJECT_DIR$/../Proyectos/Github/GoVi-Arch_Linux/Arch_Install" />
+      <option value="$PROJECT_DIR$/../Proyectos/Github/GoVi-Arch_Linux/Arch_Howto" />
+      <option value="$PROJECT_DIR$/Bash/Utils/Home_GIT.sh" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -106,14 +163,13 @@
     <panes />
   </component>
   <component name="TerminalArrangementManager">
-    <option name="myTabStates">
-      <TerminalTabState tabName="Launch-DOOM_Eternal.sh" currentWorkingDirectory="$PROJECT_DIR$/../Games/PC/DOOM Eternal/Wine" commandHistoryFileName="history-147" />
-    </option>
+    <option name="mySelectedTabIndex" value="-1" />
   </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.3172093" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Structure" order="1" weight="0.2497309" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="Commit" order="3" />
       <window_info id="Pull Requests" order="4" />
@@ -124,12 +180,14 @@
       <window_info anchor="bottom" id="TODO" order="3" />
       <window_info anchor="bottom" id="Run" order="4" />
       <window_info anchor="bottom" id="Messages" order="5" weight="0.32874617" />
-      <window_info anchor="bottom" id="Problems View" order="6" />
+      <window_info anchor="bottom" id="Problems View" order="6" weight="0.3295099" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32911393" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3287827" />
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Services" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="right" x="0" y="0" width="426" height="799" id="Documentation" order="0" side_tool="true" visible="true" weight="0.32992464" />
+      <window_info anchor="right" id="Hierarchy" order="1" show_stripe_button="false" weight="0.32992464" />
     </layout>
   </component>
   <component name="WindowStateProjectService">
@@ -141,39 +199,48 @@
       <screen x="0" y="36" width="1920" height="1009" />
     </state>
     <state x="254" y="359" key="#Notifications/0.36.1920.1009@0.36.1920.1009" timestamp="1611991152725" />
-    <state x="219" y="317" width="659" height="459" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612045044440">
-      <screen x="0" y="36" width="1920" height="1009" />
+    <state x="219" y="301" width="659" height="459" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1612416033938">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="219" y="317" width="659" height="459" key="#com.intellij.fileTypes.FileTypeChooser/0.36.1920.1009@0.36.1920.1009" timestamp="1612045044440" />
-    <state x="323" y="284" key="FileChooserDialogImpl" timestamp="1611963294529">
-      <screen x="0" y="36" width="1920" height="1009" />
+    <state x="219" y="301" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1612416033938" />
+    <state x="219" y="317" width="659" height="459" key="#com.intellij.fileTypes.FileTypeChooser/0.36.1920.1009@0.36.1920.1009" timestamp="1612297691133" />
+    <state x="323" y="265" key="FileChooserDialogImpl" timestamp="1612402486553">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="323" y="265" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1612402486553" />
     <state x="323" y="284" key="FileChooserDialogImpl/0.36.1920.1009@0.36.1920.1009" timestamp="1611963294529" />
-    <state x="960" y="36" width="960" height="1009" key="SettingsEditor" timestamp="1612152601742">
-      <screen x="0" y="36" width="1920" height="1009" />
+    <state x="923" y="0" width="960" height="1009" key="SettingsEditor" timestamp="1612367753962">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="923" y="0" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1612367753962" />
     <state x="960" y="36" width="960" height="1009" key="SettingsEditor/0.36.1920.1009@0.36.1920.1009" timestamp="1612152601742" />
-    <state x="100" y="136" width="899" height="809" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612030360812">
-      <screen x="0" y="36" width="1920" height="1009" />
+    <state x="966" y="36" width="944" height="491" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1612453840646">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
+    <state x="966" y="36" width="944" height="491" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612453840646" />
     <state x="100" y="136" width="899" height="809" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.36.1920.1009@0.36.1920.1009" timestamp="1612030360812" />
     <state x="423" y="483" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog" timestamp="1611963296203">
       <screen x="0" y="36" width="1920" height="1009" />
     </state>
     <state x="423" y="483" key="com.intellij.ide.ui.customization.CustomizableActionsPanel$EditIconDialog/0.36.1920.1009@0.36.1920.1009" timestamp="1611963296203" />
+    <state x="264" y="232" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1612453622952">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="264" y="232" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1612453622952" />
+    <state x="766" y="465" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1612385253926">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="766" y="465" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1612385253926" />
+    <state x="690" y="439" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1612351193792">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="690" y="439" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1612351193792" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Bash/Polybar/rss_youtube.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="421">
           <caret line="163" column="2" lean-forward="true" selection-start-line="163" selection-start-column="2" selection-end-line="163" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Bash/Utils/Home_GIT.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -250,31 +317,86 @@
         <state relative-caret-position="-378" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.bashrc">
+    <entry file="file:///usr/share/xsessions/qtile.desktop">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="153" column="19" lean-forward="true" selection-start-line="153" selection-start-column="19" selection-end-line="153" selection-end-column="19" />
+        <state relative-caret-position="63">
+          <caret line="3" column="10" lean-forward="true" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Games/PC/Satisfactory/Wine/Launch-Satisfactory.sh">
+    <entry file="file:///etc/X11/xinit/xinitrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="41" selection-start-line="15" selection-start-column="41" selection-end-line="15" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Wine/Scripts/-Test/Star_Wars_Jedi_Fallen_Order.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="378">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Games/PC/DOOM Eternal/Wine/Launch-DOOM_Eternal.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2016">
+        <state relative-caret-position="850">
           <caret line="111" column="16" selection-start-line="111" selection-end-line="112" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/share/doc/qtile/default_config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="118" column="12" lean-forward="true" selection-start-line="115" selection-end-line="138" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/neofetch/config.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-819">
+          <caret line="684" column="1" lean-forward="true" selection-start-line="684" selection-start-column="1" selection-end-line="684" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Wine/Scripts/-Test/Star_Wars_Jedi_Fallen_Order.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Games/PC/Satisfactory/Wine/Launch-Satisfactory.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/picom/picom.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8158" />
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="61" lean-forward="true" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../qtile.bak.sh" />
+    <entry file="file://$PROJECT_DIR$/Bash/Polybar/cpu_temp.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/alacritty/alacritty.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="640" selection-start-line="640" selection-end-line="648" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bash/Polybar/cpu_load.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -287,8 +409,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Bash/Games/Launch-Game_Template.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="43" selection-start-line="43" selection-start-column="1" selection-end-line="57" selection-end-column="5" />
+        <state relative-caret-position="168">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Proyectos/Github/GoVi-Arch_Linux/Arch_Install">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3822">
+          <caret line="182" column="12" selection-start-line="182" selection-start-column="12" selection-end-line="182" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.bashrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2268">
+          <caret line="108" column="45" selection-start-line="108" selection-end-line="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/polybar/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4347">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Proyectos/Github/GoVi-Arch_Linux/Arch_Howto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="158" column="12" selection-start-line="158" selection-start-column="12" selection-end-line="158" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="86" column="35" selection-start-line="86" selection-start-column="35" selection-end-line="86" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.xinitrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="815">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bash/Utils/Home_GIT.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="50" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
         </state>
       </provider>
     </entry>

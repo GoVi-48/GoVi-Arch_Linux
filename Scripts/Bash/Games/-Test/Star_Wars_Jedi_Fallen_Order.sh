@@ -1,1 +1,0 @@
-/home/govi/Games/PC/STAR WARS Jedi Fallen Order/Wine/Launch-STAR_WARS_Jedi_Fallen_Order.sh

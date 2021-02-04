@@ -1,1 +1,0 @@
-/Datos/Games/PC/-Launchers/Steam/-Library/DiRT Rally/Wine/Launch-Dirt_Rally.sh

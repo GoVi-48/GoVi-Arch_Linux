@@ -17,7 +17,7 @@
 ;==========================================================
 
 [colors]
-background = #222
+background = #242729
 background-alt = #444
 foreground = #dfdfdf
 foreground-alt = #555
@@ -102,28 +102,28 @@ interval = 60
 type = custom/script
 format-prefix = "%{T3}2%{T-} "
 exec = df -h / --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
-click-left = dolphin /
+click-left = pcmanfm /
 interval = 60
 
 [module/filesystem_home]
 type = custom/script
 format-prefix =  "%{T3}H%{T-} "
 exec = df -h /home --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
-click-left = dolphin ~/
+click-left = pcmanfm ~/
 interval = 60
 
 [module/filesystem_Datos]
 type = custom/script
 format-prefix = "/Datos: "
 exec = df -h /Datos --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
-click-left = dolphin /Datos
+click-left = pcmanfm /Datos
 interval = 60
 
 [module/filesystem_Media]
 type = custom/script
 format-prefix = "/Media: "
 exec = df -h /Media --output=avail | awk 'NR>1' "$PGLIST" | tr -d ' '
-click-left = dolphin /Media
+click-left = pcmanfm /Media
 interval = 60
 
 [module/notifications]

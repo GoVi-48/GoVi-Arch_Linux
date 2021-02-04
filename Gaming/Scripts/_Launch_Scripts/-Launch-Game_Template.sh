@@ -2,8 +2,12 @@
 
 # ======================================================================== #
 
-# Game Directory
+# Current Directory
 DIR=$(dirname "$(realpath "$0")" | sed -s "s|/Wine||g")
+
+# Compositor
+COMP_Enabled="picom &"
+COMP_Disabled="picom -CGb"
 
 # Game Executable
 EXE="./bin/x64/Game.exe"
@@ -110,7 +114,7 @@ echo -e "\nLaunching $DIR/$EXE\n" | sed 's/\.\///g'
 
 # Before Launch
 while ! pgrep -x "$PROCESS" > /dev/null; do sleep 1; done
-    qdbus org.kde.KWin /Compositor suspend
+    "$COMP_Disabled"
     killall polybar
     sleep 5
     killall lutris
@@ -118,7 +122,7 @@ while ! pgrep -x "$PROCESS" > /dev/null; do sleep 1; done
 
 # After Launch
 while pgrep -x "$PROCESS" > /dev/null; do sleep 1; done
-    qdbus org.kde.KWin /Compositor resume
+    "$COMP_Enabled"
     $HOME/Scripts/Bash/Polybar/launch.sh
     cairo-dock > /dev/null 2>&1 &
     sleep 5

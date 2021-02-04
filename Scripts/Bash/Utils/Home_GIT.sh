@@ -4,8 +4,11 @@
 GOVI_ARCH_LINUX="$HOME/Proyectos/Github/GoVi-Arch_Linux"
 
 # ~/
+rsync -arv ~/.xinitrc "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv ~/.zshrc "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.bashrc "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.vimrc "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv ~/.easystroke "$GOVI_ARCH_LINUX"/Dotfiles/
 
 # ~/.config/
 rsync -arv --exclude={'.directory','discord','email.sh','skypeforlinux','spotify','teamviewer','vivaldi'} --delete ~/.config/ "$GOVI_ARCH_LINUX"/Dotfiles/.config/

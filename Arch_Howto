@@ -38,10 +38,10 @@ git clone https://aur.archlinux.org/yay-git.git
 cd yay
 makepkg -si PKGBUILD
 
-yay -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke font-manager java-8-openjdk liferea mpc-qt picard skype spotify teamviewer timeshift tiny-media-manager ttf-ms-fonts
+yay -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke font-manager geany java-8-openjdk liferea mpc-qt picard skype spotify teamviewer timeshift tiny-media-manager ttf-ms-fonts
 
 # Kodi
-sudo pacman -S kodi kodi-x11
+sudo pacman -S kodi
 yay -S kodi-addon-pvr-iptvsimple
 
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Destination
-GOVI_ARCH_LINUX="$HOME/Proyectos/Github/GoVi-Arch_Linux"
+GOVI_ARCH_LINUX="$HOME/Proyects/Github/GoVi-Arch_Linux"
 
 # ~/
 rsync -arv ~/.xinitrc "$GOVI_ARCH_LINUX"/Dotfiles/

@@ -6,6 +6,38 @@
 (protocol-version 26)
 (file-version 5)
 
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/web-browser/web-browser" 1601838911
+    (proc-def "plug-in-web-browser" 1
+         "Open an URL in the user specified web browser"
+         "Opens the given URL in the user specified web browser."
+         "Henrik Brix Andersen <brix@gimp.org>"
+         "2003"
+         "2003/09/16"
+         ""
+         0
+        (icon icon-name -1 "")
+         ""
+         1 0
+        (proc-arg 4 "url" "URL to open")))
+(plug-in-def "${gimp_plug_in_dir}/plug-ins/wavelet-decompose/wavelet-decompose" 1601838911
+    (proc-def "plug-in-wavelet-decompose" 1
+         "Wavelet decompose"
+         "Compute and render wavelet scales"
+         "Miroslav Talasek <miroslav.talasek@seznam.cz>"
+         "Miroslav Talasek <miroslav.talasek@seznam.cz>"
+         "19january 2017"
+         "_Wavelet-decompose..."
+         1
+        (menu-path "<Image>/Filters/Enhance")
+        (icon icon-name -1 "")
+         "RGB*, GRAY*"
+         6 0
+        (proc-arg 0 "run-mode" "The run mode { RUN-INTERACTIVE (0), RUN-NONINTERACTIVE (1) }")
+        (proc-arg 13 "image" "Input image (unused)")
+        (proc-arg 16 "drawable" "Input drawable")
+        (proc-arg 0 "scales" "Number of scales (1-7)")
+        (proc-arg 0 "create-group" "Create a layer group to store the decomposition")
+        (proc-arg 0 "create-masks" "Add a layer mask to each scales layers")))
 (plug-in-def "${gimp_plug_in_dir}/plug-ins/warp/warp" 1601838911
     (proc-def "plug-in-warp" 1
          "Twist or smear image in many different ways"
@@ -4344,37 +4376,5 @@
         (proc-arg 16 "drawable" "Input drawable (not used)")
         (proc-arg 0 "link-after-alignment" "Link the visible layers after alignment { TRUE, FALSE }")
         (proc-arg 0 "use-bottom" "use the bottom layer as the base of alignment { TRUE, FALSE }")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/web-browser/web-browser" 1601838911
-    (proc-def "plug-in-web-browser" 1
-         "Open an URL in the user specified web browser"
-         "Opens the given URL in the user specified web browser."
-         "Henrik Brix Andersen <brix@gimp.org>"
-         "2003"
-         "2003/09/16"
-         ""
-         0
-        (icon icon-name -1 "")
-         ""
-         1 0
-        (proc-arg 4 "url" "URL to open")))
-(plug-in-def "${gimp_plug_in_dir}/plug-ins/wavelet-decompose/wavelet-decompose" 1601838911
-    (proc-def "plug-in-wavelet-decompose" 1
-         "Wavelet decompose"
-         "Compute and render wavelet scales"
-         "Miroslav Talasek <miroslav.talasek@seznam.cz>"
-         "Miroslav Talasek <miroslav.talasek@seznam.cz>"
-         "19january 2017"
-         "_Wavelet-decompose..."
-         1
-        (menu-path "<Image>/Filters/Enhance")
-        (icon icon-name -1 "")
-         "RGB*, GRAY*"
-         6 0
-        (proc-arg 0 "run-mode" "The run mode { RUN-INTERACTIVE (0), RUN-NONINTERACTIVE (1) }")
-        (proc-arg 13 "image" "Input image (unused)")
-        (proc-arg 16 "drawable" "Input drawable")
-        (proc-arg 0 "scales" "Number of scales (1-7)")
-        (proc-arg 0 "create-group" "Create a layer group to store the decomposition")
-        (proc-arg 0 "create-masks" "Add a layer mask to each scales layers")))
 
 # end of pluginrc

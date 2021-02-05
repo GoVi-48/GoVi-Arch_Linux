@@ -139,7 +139,7 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.Image(filename='~/Imágenes/GoVi-Theme/Theme Icons/GoVi-Ic/apps/64/archlinux.png', mouse_callbacks={}),
+                widget.Image(filename='~/Images/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/archlinux.png', mouse_callbacks={}),
                 widget.GroupBox(),
                 widget.TaskList(background='#242729', foreground='#dfdfdf', title_width_method='uniform'),
                 widget.Chord(
@@ -201,3 +201,4 @@ focus_on_window_activation = "smart"
 # We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
 # java that happens to be on java's whitelist.
 wmname = "LG3D"
+

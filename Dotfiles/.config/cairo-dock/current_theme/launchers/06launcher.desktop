@@ -14,14 +14,14 @@ Container=_MainDock_
 sep_display=
 
 #s[Default] Launcher's name:
-Name=
+Name=Geany
 
 #S+[Default] Image's name or path:
-Icon=/home/govi/Images/Icons/Programs/png/inkscape.png
+Icon=
 
 #s[Default] Command to launch on click:
 #{Example: nautilus --no-desktop, gedit, etc. You can even enter a shortkey, e.g. <Alt>F1, <Ctrl>c,  <Ctrl>v, etc}
-Exec=
+Exec=geany
 
 
 #X[Extra parameters]
@@ -43,8 +43,8 @@ Terminal=false
 ShowOnViewport=0
 
 #f[0;100] Order you want for this launcher among the others:
-Order=7.2718505859375
+Order=6.609375
 
 Icon Type=0
 Type=Application
-Origin=/usr/share/applications/org.inkscape.Inkscape.desktop
+Origin=/usr/share/applications/geany.desktop

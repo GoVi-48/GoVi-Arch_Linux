@@ -111,7 +111,7 @@ export PATH=$PATH:$HOME/Scripts/Bash/Games/
 export PATH=$PATH:$HOME/Scripts/Bash/Polybar/
 export PATH=$PATH:$HOME/Scripts/Bash/Programs/
 export PATH=$PATH:$HOME/Scripts/Bash/Utils/
-export PATH=$PATH:$HOME/Programas/Pycharm/bin/
+export PATH=$PATH:$HOME/Programs/Pycharm/bin/
 export JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
 
 # System Info

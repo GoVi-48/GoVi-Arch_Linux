@@ -141,7 +141,7 @@ screens = [
             [
                 widget.Image(filename='~/Images/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/archlinux.png', mouse_callbacks={}),
                 widget.GroupBox(),
-                widget.TaskList(background='#242729', foreground='#dfdfdf', title_width_method='uniform'),
+                widget.TaskList(background='#242729', foreground='#dfdfdf', title_width_method='None'),
                 widget.Chord(
                     chords_colors={
                         'launch': ("#ff0000", "#ffffff"),

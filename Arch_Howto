@@ -18,6 +18,11 @@ sudo pacman -Syu
 sudo pacman -S alacritty audacity exa ffmpeg firefox gimp htop inkscape kdenlive lm_sensors mono neofetch obs-studio pass transmission-qt virtualbox youtube-dl
 sudo pacman -S ark bc conky extra-cmake-modules gparted icoutils jdk-openjdk net-tools packagekit-qt5 unrar zip wget
 
+# File Manager
+sudo pacman pcmanfm
+sudo pacman gtk-engine-murrine gtk-engines ffmpegthumbnailer tumbler
+yay folderpreview
+
 # ZSH
 sudo pacman -S zsh zsh-autosuggestions zsh-syntax-highlighting
 chsh -s /bin/zsh $USER
@@ -39,7 +44,7 @@ git clone https://aur.archlinux.org/yay-git.git
 cd yay
 makepkg -si PKGBUILD
 
-yay -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke font-manager geany java-8-openjdk liferea mpc-qt picard skype spotify teamviewer timeshift tiny-media-manager ttf-ms-fonts
+yay -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke font-manager java-8-openjdk liferea mpc-qt picard skype spotify teamviewer timeshift tiny-media-manager ttf-ms-fonts
 
 # Kodi
 sudo pacman -S kodi

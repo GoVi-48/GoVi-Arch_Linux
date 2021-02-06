@@ -233,12 +233,9 @@ ramp-volume-2 = %{T3}<%{T-}
 ramp-volume-3 = %{T3}=%{T-}
 
 [module/date]
-type = internal/date
-label = %date% %time%
-date ="📅 %a %d/%m/%Y "
-date-alt = "	📅 %a %d/%m/%Y "
-time =
-time-alt = "🕓 %H:%M "
+type = custom/script
+exec = echo -e "📅 $(date '+%a %d/%m/%Y') "
+click-left =
 interval = 5
 
 # =================================================================================================== #

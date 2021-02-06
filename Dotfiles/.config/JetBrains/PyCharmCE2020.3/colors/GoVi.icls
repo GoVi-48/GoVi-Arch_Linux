@@ -5,7 +5,7 @@
     <property name="description" />
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2020.1.5.0.0</property>
-    <property name="modified">2021-02-01T05:10:02</property>
+    <property name="modified">2021-02-06T19:00:56</property>
     <property name="originalScheme">GoV</property>
     <property name="vendorMail" />
     <property name="vendorName">GoVi_Pycharm_Theme</property>
@@ -13,6 +13,7 @@
     <property name="version">0.1</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="JetBrains Mono" />
+  <option name="CONSOLE_FONT_SIZE" value="14" />
   <option name="CONSOLE_LINE_SPACING" value="1.2" />
   <colors>
     <option name="FOLDED_TEXT_BORDER_COLOR" value="46464a" />
@@ -35,6 +36,16 @@
         <option name="BACKGROUND" value="425768" />
       </value>
     </option>
+    <option name="BASH.BRACE">
+      <value>
+        <option name="FOREGROUND" value="edf33d" />
+      </value>
+    </option>
+    <option name="BASH.BRACKET">
+      <value>
+        <option name="FOREGROUND" value="edf33d" />
+      </value>
+    </option>
     <option name="BASH.CONDITIONAL">
       <value>
         <option name="FOREGROUND" value="27ae60" />
@@ -43,7 +54,6 @@
     <option name="BASH.EXTERNAL_COMMAND">
       <value>
         <option name="FOREGROUND" value="2f81e2" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="BASH.FUNCTION_CALL">
@@ -66,22 +76,22 @@
     </option>
     <option name="BASH.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="fff387" />
+        <option name="FOREGROUND" value="ff9e47" />
       </value>
     </option>
     <option name="BASH.LINE_COMMENT">
       <value>
-        <option name="FOREGROUND" value="757373" />
+        <option name="FOREGROUND" value="616f7d" />
       </value>
     </option>
     <option name="BASH.NUMBER">
       <value>
-        <option name="FOREGROUND" value="a2d7ff" />
+        <option name="FOREGROUND" value="2f81e2" />
       </value>
     </option>
     <option name="BASH.PAREN">
       <value>
-        <option name="FOREGROUND" value="ff4757" />
+        <option name="FOREGROUND" value="edf33d" />
       </value>
     </option>
     <option name="BASH.REDIRECTION">
@@ -91,13 +101,13 @@
     </option>
     <option name="BASH.SHEBANG">
       <value>
-        <option name="FOREGROUND" value="737572" />
+        <option name="FOREGROUND" value="ffffff" />
         <option name="FONT_TYPE" value="1" />
       </value>
     </option>
     <option name="BASH.STRING">
       <value>
-        <option name="FOREGROUND" value="97d5ff" />
+        <option name="FOREGROUND" value="edf2f6" />
       </value>
     </option>
     <option name="BASH.STRING2">
@@ -268,15 +278,39 @@
     <option name="INI.KEY">
       <value />
     </option>
+    <option name="INJECTED_LANGUAGE_FRAGMENT">
+      <value>
+        <option name="BACKGROUND" value="2c2f32" />
+      </value>
+    </option>
     <option name="LIVE_TEMPLATE_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="3c3f41" />
         <option name="EFFECT_COLOR" value="ff0000" />
       </value>
     </option>
+    <option name="MATCHED_BRACE_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ffef28" />
+        <option name="BACKGROUND" value="3b514d" />
+      </value>
+    </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ff000b" />
+      </value>
+    </option>
+    <option name="PY.CLASS_DEFINITION">
+      <value>
+        <option name="FOREGROUND" value="c4b6ef" />
+        <option name="BACKGROUND" value="35383e" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="PY.DECORATOR">
+      <value>
+        <option name="FOREGROUND" value="60c43d" />
+        <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
     <option name="PY.DOT">
@@ -301,12 +335,17 @@
     </option>
     <option name="PY.KEYWORD">
       <value>
-        <option name="FOREGROUND" value="ff3139" />
+        <option name="FOREGROUND" value="f8296c" />
       </value>
     </option>
     <option name="PY.KEYWORD_ARGUMENT">
       <value>
-        <option name="FOREGROUND" value="e29a1b" />
+        <option name="FOREGROUND" value="e7a145" />
+      </value>
+    </option>
+    <option name="PY.LINE_COMMENT">
+      <value>
+        <option name="FOREGROUND" value="6d737f" />
       </value>
     </option>
     <option name="PY.OPERATION_SIGN">
@@ -329,7 +368,7 @@
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="fffdf8" />
-        <option name="BACKGROUND" value="242729" />
+        <option name="BACKGROUND" value="21242b" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>

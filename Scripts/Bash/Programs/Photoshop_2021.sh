@@ -1,1 +1,0 @@
-/home/govi/Programas/Adobe/Wine/Launch-Photoshop_2021.sh

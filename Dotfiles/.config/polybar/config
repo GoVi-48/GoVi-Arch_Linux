@@ -17,7 +17,7 @@
 ;==========================================================
 
 [colors]
-background = #242729
+background = #21242B
 background-alt = #444
 foreground = #dfdfdf
 foreground-alt = #555
@@ -32,7 +32,7 @@ width = 100%
 height = 30
 offset-x = 0
 offset-y = 0
-radius = 0.0
+radius = 0
 fixed-center = false
 enable-ipc = true
 monitor-exact = true
@@ -83,8 +83,6 @@ modules-right = networkspeeddown networkspeedup memory cpu_load cpu_temp gpu_tem
                                             # Modules #
 # =================================================================================================== #
 
-
-# Left
 
 [module/reload_polybar]
 type = custom/script
@@ -168,8 +166,7 @@ exec = ~/.config/polybar/scripts/updates_AUR.sh
 click-left = alacritty -e yay -Syua && ~/.config/polybar/scripts/reload_polybar.sh
 interval = 1000
 
-
-# Right
+# =================================================================================================== #
 
 [module/networkspeeddown]
 type = internal/network
@@ -486,7 +483,7 @@ screenchange-reload = true
 pseudo-transparency = false
 
 [global/wm]
-margin-top = 5
-margin-bottom = 5
+margin-top = 0
+margin-bottom = 0
 
 ; vim:ft=dosini

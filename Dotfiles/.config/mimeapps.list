@@ -1,8 +1,8 @@
 [Added Associations]
-application/octet-stream=org.kde.kate.desktop;
+application/octet-stream=skypeforlinux-share.desktop;org.kde.kate.desktop;
 application/x-bittorrent=transmission-qt.desktop;org.kde.kget.desktop;
 application/x-compressed-tar=org.kde.ark.desktop;org.kde.kate.desktop;
-application/x-desktop=org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;wine-extension-txt.desktop;vim.desktop;
+application/x-desktop=vim.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;wine-extension-txt.desktop;
 application/x-dlc-container=JDownloader.sh.desktop;jd-containers.desktop;
 application/x-extension-htm=firefox.desktop;
 application/x-extension-html=firefox.desktop;
@@ -28,7 +28,7 @@ image/svg+xml=org.inkscape.Inkscape.desktop;gimp.desktop;org.kde.kate.desktop;br
 image/svg+xml-compressed=org.inkscape.Inkscape.desktop;org.kde.kolourpaint.desktop;org.kde.ark.desktop;
 image/vnd.adobe.photoshop=Photoshop.desktop;okularApplication_kimgio.desktop;gimp.desktop;
 image/x-xcf=gimp.desktop;okularApplication_kimgio.desktop;
-inode/directory=org.kde.dolphin.desktop;
+inode/directory=mpc-qt.desktop;org.kde.dolphin.desktop;
 message/rfc822=userapp-Thunderbird-P4BTL0.desktop;
 text/html=vivaldi-stable.desktop;org.kde.kate.desktop;org.kde.kimagemapeditor.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;wine-extension-txt.desktop;vim.desktop;firefox.desktop;
 text/markdown=org.kde.kate.desktop;okularApplication_md.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;wine-extension-txt.desktop;vim.desktop;
@@ -55,10 +55,10 @@ x-scheme-handler/mailto=userapp-Thunderbird-P4BTL0.desktop;
 text/plain=userapp-sudo vim-RDJCY0.desktop;
 
 [Default Applications]
-application/octet-stream=org.kde.kate.desktop;
+application/octet-stream=skypeforlinux-share.desktop;org.kde.kate.desktop;
 application/x-bittorrent=transmission-qt.desktop;
 application/x-compressed-tar=org.kde.ark.desktop;
-application/x-desktop=org.kde.kate.desktop;
+application/x-desktop=vim.desktop;org.kde.kate.desktop;
 application/x-dlc-container=JDownloader.sh.desktop;
 application/x-extension-htm=firefox.desktop
 application/x-extension-html=firefox.desktop
@@ -84,7 +84,7 @@ image/svg+xml=org.inkscape.Inkscape.desktop;
 image/svg+xml-compressed=org.inkscape.Inkscape.desktop;
 image/vnd.adobe.photoshop=Photoshop.desktop;
 image/x-xcf=gimp.desktop;
-inode/directory=org.kde.dolphin.desktop;
+inode/directory=mpc-qt.desktop;org.kde.dolphin.desktop;
 message/rfc822=userapp-Thunderbird-P4BTL0.desktop
 text/html=firefox.desktop
 text/markdown=org.kde.kate.desktop;

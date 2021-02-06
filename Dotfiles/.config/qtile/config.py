@@ -29,6 +29,8 @@ from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
+import socket
+import webbrowser
 
 mod = "mod4"
 terminal = guess_terminal()
@@ -48,6 +50,7 @@ def window_to_prev_group(qtile):
         qtile.currentWindow.togroup(qtile.groups[i - 1].name)
 
 
+# ================================= SHORTCUTS =================================  #
 keys = [
     # Switch between windows in current stack pane
     Key([mod], "k", lazy.layout.down(),
@@ -84,9 +87,10 @@ keys = [
 ]
 
 
+# ================================= GROUPS =================================  #
 groups = [Group(i) for i in "123456"]
 
-# Switch Groupsnn
+# Switch Groups
 for i in groups:
     keys.extend([
         # mod + letter of group = switch to group
@@ -106,18 +110,19 @@ for i in groups:
         #   desc="move focused window to group {}".format(i.name)),
     ])
 
-# Layouts
+
+# ================================= LAYOUTS =================================  #
 layout_theme = {"border_width": 2,
-                "margin": 6,
+                "margin": 11,
                 "border_focus": "62a2d4",
                 "border_normal": "305673"
                 }
 layouts = [
     layout.MonadTall(**layout_theme),
-    layout.Max(),
-    # layout.Stack(num_stacks=2),
-    # Try more layouts by unleashing below layouts.
     # layout.Bsp(),
+    layout.Max(),
+    # layout.Floating(),
+    # layout.Stack(num_stacks=2),
     # layout.Columns(),
     # layout.Matrix(),
     # layout.MonadWide(),
@@ -129,13 +134,29 @@ layouts = [
 ]
 
 
-# Widgets
+# ================================= WIDGETS =================================  #
 def pavucontrol(qtile):
     qtile.cmd_spawn('pavucontrol')
 
 
+def lightdm(qtile):
+    qtile.cmd_spawn('lightdm-webkit2-greeter')
+
+
+# def check_network():
+#    try:
+#        socket.create_connection(('Google.com', 80))
+#        network = '~/Pictures/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/eth_on'
+#    except OSError:
+#        network = '~/Pictures/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/eth_off'
+
+
+# def open_url():
+#    webbrowser.open_new_tab('https://www.speedtest.net/')
+
+
 widget_defaults = dict(
-    font='hack',
+    font='Source Code Pro',
     fontsize=15,
     padding=3,
 )
@@ -146,27 +167,32 @@ screens = [
         top=bar.Bar(
             [
                 widget.Image(filename='~/Pictures/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/archlinux.png',
-                             mouse_callbacks={}),
+                             mouse_callbacks={'Button1': lightdm}),
 
-                widget.GroupBox(fontsize=17),
+                widget.GroupBox(fontsize=17, background='#20242B'),
 
-                widget.TaskList(background='#242729', foreground='#dfdfdf', title_width_method='None'),
+                widget.TaskList(background='#21242B', foreground='#dfdfdf'),
 
                 widget.Chord(chords_colors={'launch': ("#ff0000", "#ffffff")},
                              name_transform=lambda name: name.upper()),
 
                 widget.Systray(),
 
+                # widget.Image(filename=network()),
+                #              margin=5, background='#21242B',
+                #              mouse_callbacks={'Button1': open_url()}),
+
                 widget.Image(filename='~/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/panel/audio-volume-zero-panel.svg',
-                             margin=5,
+                             margin=5, background='#21242B',
                              mouse_callbacks={'Button1': pavucontrol}),
 
-                widget.Clock(background='242729', foreground='#dfdfdf'),
+                widget.Clock(background='#21242B', foreground='#dfdfdf'),
             ],
             30,
         ),
     ),
 ]
+
 
 # Drag floating layouts.
 mouse = [

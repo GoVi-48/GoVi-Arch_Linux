@@ -11,3 +11,5 @@ cmap º <C-C>
 imap º <Esc>
 nmap W :w!<CR> 
 nmap Q :q!<CR>
+       
+let g:airline_theme='one'

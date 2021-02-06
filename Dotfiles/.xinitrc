@@ -39,7 +39,7 @@ fi
 # exec xterm -geometry 80x66+0+0 -name login
 
 # Autostart
-export PATH=$PATH:$HOME/Scripts/Bash/Autostart/
+export PATH=$PATH:$HOME/Scripts/Shell/Autostart/
 
 nvidia_led.sh &
 

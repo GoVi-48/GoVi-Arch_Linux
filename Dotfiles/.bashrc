@@ -105,12 +105,12 @@ export CLICOLOR=1
 export EDITOR="vim"
 export EDITOR VISUAL
 export VISUAL=$EDITOR
-export PATH=$PATH:$HOME/Scripts/Bash/
-export PATH=$PATH:$HOME/Scripts/Bash/Autostart/
-export PATH=$PATH:$HOME/Scripts/Bash/Games/
-export PATH=$PATH:$HOME/Scripts/Bash/Polybar/
-export PATH=$PATH:$HOME/Scripts/Bash/Programs/
-export PATH=$PATH:$HOME/Scripts/Bash/Utils/
+export PATH=$PATH:$HOME/Scripts/Shell/
+export PATH=$PATH:$HOME/Scripts/Shell/Autostart/
+export PATH=$PATH:$HOME/Scripts/Shell/Games/
+export PATH=$PATH:$HOME/Scripts/Shell/Polybar/
+export PATH=$PATH:$HOME/Scripts/Shell/Programs/
+export PATH=$PATH:$HOME/Scripts/Shell/Utils/
 export PATH=$PATH:$HOME/Programs/Pycharm/bin/
 export JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
 

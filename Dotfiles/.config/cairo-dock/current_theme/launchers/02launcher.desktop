@@ -21,7 +21,7 @@ Icon=/home/govi/.local/share/icons/hicolor/128x128/apps/lutris_uplay.png
 
 #s[Default] Command to launch on click:
 #{Example: nautilus --no-desktop, gedit, etc. You can even enter a shortkey, e.g. <Alt>F1, <Ctrl>c,  <Ctrl>v, etc}
-Exec=bash -c ~/Scripts/Bash/Games/Launchers/Uplay.sh
+Exec=bash -c ~/Scripts/Shell/Games/Launchers/Uplay.sh
 
 
 #X[Extra parameters]

@@ -179,8 +179,8 @@ draw_bold_text_with_bright_colors: true
 colors:
   # Default colors
   primary:
-    background: '#000000'
-    foreground: '#eaeaea'
+    background: '#21242B'
+    foreground: '#EDF2F6'
 
     # Bright and dim foreground colors
     #
@@ -210,7 +210,7 @@ colors:
   # Normal colors
   normal:
     black:   '#000000'
-    red:     '#f92672'
+    red:     '#FF006D'
     green:   '#27ae60'
     yellow:  '#fdbc4b'
     blue:    '#2980b9'
@@ -221,12 +221,12 @@ colors:
   # Bright colors
   bright:
     black:   '#666666'
-    red:     '#fe4e60'
+    red:     '#FF006D'
     green:   '#2ed473'
-    yellow:  '#fde47c'
+    yellow:  '#F6FA93'
     blue:    '#7aa6da'
     magenta: '#c397d8'
-    cyan:    '#66d9ef'
+    cyan:    '#BEE2FF'
     white:   '#ffffff'
 
   # Dim colors
@@ -298,7 +298,7 @@ colors:
 #
 # Window opacity as a floating point number from `0.0` to `1.0`.
 # The value `0.0` is completely transparent and `1.0` is opaque.
-background_opacity: 0.88
+background_opacity: 0.94
 
 #selection:
 semantic_escape_chars: ",│`|:\"' ()[]{}<>\t"
@@ -639,8 +639,8 @@ mouse_bindings:
 # If the same trigger is assigned to multiple actions, all of them are executed
 # in the order they were defined in.
 key_bindings:
-  - { key: Paste,                                       action: Paste          }
-  - { key: Copy,                                        action: Copy           }
+  - { key: V,         mods: Control,                    action: Paste          }
+  - { key: C,         mods: Control|Shift,              action: Copy           }
   - { key: L,         mods: Control,                    action: ClearLogNotice }
   - { key: L,         mods: Control, mode: ~Vi|~Search, chars: "\x0c"          }
   - { key: PageUp,    mods: Shift,   mode: ~Alt,        action: ScrollPageUp,  }

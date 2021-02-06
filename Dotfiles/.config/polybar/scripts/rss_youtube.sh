@@ -14,7 +14,7 @@ echo -e "\nUpdating Entries...\n"
 L_BLUE='\033[1;34m'
 NC='\033[0m'
 
-#awk '/L_BLUE}Linux/{flag=1; next} /# END/{flag=0} flag {print}' /home/govi/Scripts/Bash/Polybar/rss_youtube.sh
+#awk '/L_BLUE}Linux/{flag=1; next} /# END/{flag=0} flag {print}' /home/govi/Scripts/Shell/Polybar/rss_youtube.sh
 
 CHECK_ENTRIES(){
     echo -e "\n${L_BLUE}<==============================================================>"

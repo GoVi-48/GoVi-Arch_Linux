@@ -5,18 +5,19 @@
 
 # Repositories
 sudo vim /etc/pacman.conf
-# -----------------------------------------------------------------------------
+# ======================================================================================= #
 CacheDir    = /Datos/pacman_cache
 Color
 [multilib]
 Include = /etc/pacman.d/mirrorlist
-# -----------------------------------------------------------------------------
+# ======================================================================================= #
+
 
 sudo pacman -Syu
 
 # Packages
-sudo pacman -S alacritty audacity exa ffmpeg firefox gimp htop inkscape kdenlive lm_sensors mono neofetch obs-studio pass transmission-qt virtualbox youtube-dl
-sudo pacman -S ark bc conky extra-cmake-modules gparted icoutils jdk-openjdk net-tools packagekit-qt5 unrar zip wget
+sudo pacman -S alacritty audacity exa ffmpeg firefox gimp htop inkscape kdenlive neofetch obs-studio pass transmission-qt virtualbox youtube-dl
+sudo pacman -S ark bc conky extra-cmake-modules gparted icoutils jdk-openjdk lm_sensors mono net-tools nvidia-led packagekit-qt5 unrar zip wget
 
 # File Manager
 sudo pacman pcmanfm
@@ -57,8 +58,9 @@ yay -S kodi-addon-pvr-iptvsimple
 
 lsblk
 sudo blkid
+
 sudo vim /etc/fstab
-# -----------------------------------------------------------------------------
+# ======================================================================================= #
 # /dev/sda5 (boot)
 UUID=7DB8-60AC                              /boot       vfat    rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 1
 
@@ -79,7 +81,8 @@ UUID=94F0F35BF0F34252                       /Media      ntfs   defaults    0 0
 
 # /dev/sda4 (Windows)
 UUID=2AE63D01E63CCF37                       /Windows    ntfs    defaults    0 0
-# -----------------------------------------------------------------------------
+# ======================================================================================= #
+
 
 sudo mkdir /Datos
 sudo mkdir /Media
@@ -96,8 +99,9 @@ ls -l /
 
 sudo pacman -S cronie
 systemctl enable --now cronie.service
+
 crontab -e
-# -----------------------------------------------------------------------------
+# ======================================================================================= #
 MAILTO=""
 00 00 * * * ~/Scripts/Bash/Utils/Webgrab_GIT.sh > ~/Programas/Webgrab++/webgrab.log
 00 12 * * * ~/Scripts/Bash/Utils/Webgrab_GIT.sh > ~/Programas/Webgrab++/webgrab.log
@@ -105,7 +109,9 @@ MAILTO=""
 */30 * * * * ~/.config/polybar/scripts/rss_youtube.sh
 0 */1 * * * ~/.config/polybar/scripts/rss_github.sh
 */4 * * * * nitrogen --set-zoom-fill --random ~/Imágenes/Wallpapers/Desktop --save
-# ----------------------------------------------------
+# ======================================================================================= #
+
+
 crontab -l
 
 
@@ -114,10 +120,10 @@ crontab -l
 # ============================================================================= #
 
 sudo pacman -S imwheel
-xprop WM_CLASS | grep -o '"[^"]*"' | head -n 1
-# click on window for output
+xprop WM_CLASS | grep -o '"[^"]*"' | head -n 1 # click on window for output
+
 sudo vim ~/.imwheelrc
-# -----------------------------------------------------------------------------
+# ======================================================================================= #
 "^firefox$"
     None, Up, Button4, 2
     None, Down, Button5, 2imwheel -b 45
@@ -125,7 +131,8 @@ sudo vim ~/.imwheelrc
     Shift_L,   Down, Shift_L|Button5, 4
     Control_L, Up,   Control_L|Button4
     Control_L, Down, Control_L|Button5
-# -----------------------------------------------------------------------------
+# ======================================================================================= #
+
 
 # Gestures KDE
 qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.shortcutNames
@@ -138,21 +145,22 @@ qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invoke
 
 # Sudoers
 sudo vim /etc/sudoers
-# -----------------------------------------------------------------------------
+# ======================================================================================= #
 %wheel ALL=(ALL) ALL
 Defaults env_reset,pwfeedback
 Defaults editor=/usr/bin/vim, !env_editor
-# -----------------------------------------------------------------------------
+# ======================================================================================= #
+
 
 # Tuning PulseAudio
 sudo vim /etc/pulse/daemon.conf
-# -----------------------------------------------------------------------------
+# ======================================================================================= #
 high-priority = yes
 nice-level = -11
 
 realtime-scheduling = yes
 realtime-priority = 5
-# -----------------------------------------------------------------------------
+# ======================================================================================= #
 
 
 # Required for custom Kernels

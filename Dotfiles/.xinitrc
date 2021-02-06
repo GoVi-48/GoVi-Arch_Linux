@@ -47,16 +47,16 @@ nvidia-settings --load-config-only &
 
 picom &
 
+setxkbmap -layout es &
+
 nitrogen --restore &
 
 polybar.sh &
-
-cairo-dock &
 
 easystroke &
 
 imwheel.sh &
 
-setxkbmap -layout es &
+cairo-dock &
 
 exec qtile

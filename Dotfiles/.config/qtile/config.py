@@ -106,7 +106,7 @@ for i in groups:
         #   desc="move focused window to group {}".format(i.name)),
     ])
 
-
+# Layouts
 layout_theme = {"border_width": 2,
                 "margin": 6,
                 "border_focus": "62a2d4",
@@ -128,9 +128,15 @@ layouts = [
     # layout.Zoomy(),
 ]
 
+
+# Widgets
+def pavucontrol(qtile):
+    qtile.cmd_spawn('pavucontrol')
+
+
 widget_defaults = dict(
     font='hack',
-    fontsize=16,
+    fontsize=15,
     padding=3,
 )
 extension_defaults = widget_defaults.copy()
@@ -139,17 +145,22 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.Image(filename='~/Pictures/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/archlinux.png', mouse_callbacks={}),
-                widget.GroupBox(),
+                widget.Image(filename='~/Pictures/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/archlinux.png',
+                             mouse_callbacks={}),
+
+                widget.GroupBox(fontsize=17),
+
                 widget.TaskList(background='#242729', foreground='#dfdfdf', title_width_method='None'),
-                widget.Chord(
-                    chords_colors={
-                        'launch': ("#ff0000", "#ffffff"),
-                    },
-                    name_transform=lambda name: name.upper(),
-                ),
+
+                widget.Chord(chords_colors={'launch': ("#ff0000", "#ffffff")},
+                             name_transform=lambda name: name.upper()),
+
                 widget.Systray(),
-                widget.TextBox(text=' '),
+
+                widget.Image(filename='~/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/panel/audio-volume-zero-panel.svg',
+                             margin=5,
+                             mouse_callbacks={'Button1': pavucontrol}),
+
                 widget.Clock(background='242729', foreground='#dfdfdf'),
             ],
             30,

@@ -38,7 +38,7 @@ git add .
 git commit -m "Updated"
 git push -u origin master
 
-kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+zenity --text --text "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg
 
 while true; do
     echo -e '\nPress "Enter" to Open Github or "Escape" to Exit\n'

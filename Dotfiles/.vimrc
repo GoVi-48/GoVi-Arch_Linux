@@ -1,5 +1,9 @@
+set viminfo+=n~/.vim/.viminfo
+
 syntax on
 
+set directory=~/.temp/vim
+set shortmess+=F
 set title
 set titlestring=%F
 set number
@@ -13,3 +17,5 @@ nmap W :w!<CR>
 nmap Q :q!<CR>
        
 let g:airline_theme='one'
+
+au VimLeave * :!clear

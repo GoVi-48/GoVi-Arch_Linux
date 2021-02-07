@@ -7,8 +7,11 @@ GOVI_ARCH_LINUX="$HOME/Proyects/Github/GoVi-Arch_Linux"
 rsync -arv ~/.xinitrc "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.zshrc "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.bashrc "$GOVI_ARCH_LINUX"/Dotfiles/
-rsync -arv ~/.vimrc "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv ~/.vim/.vimrc "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv ~/.profile "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv ~/.xprofile "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.easystroke "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv ~/.gtkrc-3.0 "$GOVI_ARCH_LINUX"/Dotfiles/
 
 # ~/.config/
 rsync -arv --exclude={'.directory','discord','email.sh','skypeforlinux','spotify','teamviewer','vivaldi'} --delete ~/.config/ "$GOVI_ARCH_LINUX"/Dotfiles/.config/

@@ -69,7 +69,6 @@ alias k9="kill -9"
 alias ka="killall"
 alias D1-P1="zenity --info --text "Complete" && paplay $HOME/.local/share/sounds/cause-and-effect.ogg"
 alias l="exa -al --color=always --group-directories-first"
-alias ksg="ksysguard &"
 alias ht="htop"
 alias hy="history"
 alias mv="mv -fv"
@@ -99,12 +98,13 @@ export VKBASALT_CONFIG_FILE="$HOME/.config/vkBasalt/vkBasalt.conf"
 export BROWSER="firefox"
 export FILEMANAGER="pcmanfm"
 export TERMINAL="alacritty"
-export TERM=xterm-color
+export TERM="xterm-color"
 export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
 export CLICOLOR=1
 export EDITOR="vim"
-export EDITOR VISUAL
 export VISUAL=$EDITOR
+export VIMINIT='source $MYVIMRC'
+export MYVIMRC='~/.vim/.vimrc'
 export PATH=$PATH:$HOME/Scripts/Shell/
 export PATH=$PATH:$HOME/Scripts/Shell/Autostart/
 export PATH=$PATH:$HOME/Scripts/Shell/Games/

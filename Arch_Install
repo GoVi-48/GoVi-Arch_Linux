@@ -64,6 +64,11 @@ vim /etc/locale.gen
 es_ES.UTF-8 UTF-8
 # ======================================================================================= #
 
+vim /etc/environment
+# ======================================================================================= #
+es_ES.UTF-8
+# ======================================================================================= #
+
 
 locale-gen
 echo "LANG=es_ES.UTF8" >> /etc/locale.conf
@@ -110,7 +115,7 @@ reboot
 
 sudo pacman -S xf86-video-amdgpu # AMD
 sudo pacman -S nvidia nvidia-utils nvidia-settings # NVIDIA
-sudo pacman -S lightdm lightdm-webkit2-greeter nitrogen picom pcmanfm qtile xorg xorg-xinit
+sudo pacman -S lightdm lightdm-webkit2-greeter lxappearance nitrogen pavucontrol pcmanfm-gtk3 picom-jonaburg-git qtile xorg xorg-xinit
 
 systemctl eneble lightdm.service
 cp /usr/share/doc/qtile/default_config.py ~/.config/qtile/config.py

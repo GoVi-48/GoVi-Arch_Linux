@@ -16,8 +16,8 @@ Include = /etc/pacman.d/mirrorlist
 sudo pacman -Syu
 
 # Packages
-sudo pacman -S alacritty audacity exa ffmpeg firefox gimp htop inkscape kdenlive neofetch obs-studio pass transmission-qt virtualbox youtube-dl
-sudo pacman -S ark bc conky extra-cmake-modules gparted icoutils jdk-openjdk lm_sensors mono net-tools nvidia-led packagekit-qt5 unrar zip wget
+sudo pacman -S alacritty audacity exa ffmpeg firefox gimp gparted htop inkscape kdenlive neofetch obs-studio pass transmission-qt virtualbox youtube-dl
+sudo pacman -S alsa-utils ark bc extra-cmake-modules icoutils jdk-openjdk lm_sensors mono net-tools nvidia-led packagekit-qt5 unrar zip wget
 
 # File Manager
 sudo pacman pcmanfm
@@ -161,6 +161,11 @@ nice-level = -11
 realtime-scheduling = yes
 realtime-priority = 5
 # ======================================================================================= #
+
+
+# Autologin
+ groupadd -r autologin
+ gpasswd -a "username" autologin
 
 
 # Required for custom Kernels

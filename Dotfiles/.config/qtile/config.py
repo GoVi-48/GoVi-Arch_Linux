@@ -120,7 +120,6 @@ layout_theme = {"border_width": 2,
 layouts = [
     layout.MonadTall(**layout_theme),
     # layout.Bsp(),
-    layout.Max(),
     # layout.Floating(),
     # layout.Stack(num_stacks=2),
     # layout.Columns(),
@@ -131,16 +130,17 @@ layouts = [
     # layout.TreeTab(),
     # layout.VerticalTile(),
     # layout.Zoomy(),
+    layout.Max()
 ]
 
 
 # ================================= WIDGETS =================================  #
-def pavucontrol(qtile):
-    qtile.cmd_spawn('pavucontrol')
-
-
 def lightdm(qtile):
     qtile.cmd_spawn('lightdm-webkit2-greeter')
+
+
+def pavucontrol(qtile):
+    qtile.cmd_spawn('pavucontrol')
 
 
 # def check_network():
@@ -156,9 +156,12 @@ def lightdm(qtile):
 
 
 widget_defaults = dict(
+    background='#21242B',
+    foreground='#dfdfdf',
     font='Source Code Pro',
     fontsize=15,
-    padding=3,
+    margin=5,
+    padding=3
 )
 extension_defaults = widget_defaults.copy()
 
@@ -167,26 +170,26 @@ screens = [
         top=bar.Bar(
             [
                 widget.Image(filename='~/Pictures/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/archlinux.png',
+                             margin=0,
                              mouse_callbacks={'Button1': lightdm}),
 
-                widget.GroupBox(fontsize=17, background='#20242B'),
+                widget.GroupBox(fontsize=17),
 
-                widget.TaskList(background='#21242B', foreground='#dfdfdf'),
+                widget.CurrentLayoutIcon(scale=0.7),
 
-                widget.Chord(chords_colors={'launch': ("#ff0000", "#ffffff")},
-                             name_transform=lambda name: name.upper()),
+                widget.TaskList(),
 
                 widget.Systray(),
 
                 # widget.Image(filename=network()),
-                #              margin=5, background='#21242B',
                 #              mouse_callbacks={'Button1': open_url()}),
 
+                widget.Clipboard(),
+
                 widget.Image(filename='~/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/panel/audio-volume-zero-panel.svg',
-                             margin=5, background='#21242B',
                              mouse_callbacks={'Button1': pavucontrol}),
 
-                widget.Clock(background='#21242B', foreground='#dfdfdf'),
+                widget.Clock(),
             ],
             30,
         ),

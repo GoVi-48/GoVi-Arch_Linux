@@ -7,7 +7,7 @@ GOVI_ARCH_LINUX="$HOME/Proyects/Github/GoVi-Arch_Linux"
 rsync -arv ~/.xinitrc "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.zshrc "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.bashrc "$GOVI_ARCH_LINUX"/Dotfiles/
-rsync -arv ~/.vim/.vimrc "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv --delete ~/.vim/ "$GOVI_ARCH_LINUX"/Dotfiles/.vim/
 rsync -arv ~/.profile "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.xprofile "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.easystroke "$GOVI_ARCH_LINUX"/Dotfiles/
@@ -21,9 +21,10 @@ rsync -arv --exclude={'baloo','spotify','teamviewer15'} --delete ~/.local/share/
 
 # Backups
 rsync -arv --delete ~/.password-store/ ~/Backups/Linux/.p-store/
+rsync -arv --delete ~/Pictures/GoVi-Theme/ ~/Backups/Linux/Themes/Theme-GoVi/
+rsync -arv /etc/fstab ~/Backups/Linux/
+rsync -arv /etc/lightdm/ ~/Backups/Linux/Lightººººººººººººººººdm/
 rsync -arv --delete ~/Backups/Linux/ "$GOVI_ARCH_LINUX"/Backups/
-rsync -arv /etc/fstab "$GOVI_ARCH_LINUX"/Backups/
-rsync -arv ~/.config/liferea/feedlist.opml "$GOVI_ARCH_LINUX"/Backups/
 
 # Gaming
 rsync -arv  /etc/pacman.conf "$GOVI_ARCH_LINUX"/Gaming/

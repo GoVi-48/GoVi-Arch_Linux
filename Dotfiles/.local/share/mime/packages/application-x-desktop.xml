@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mime-info xmlns="http://www.freedesktop.org/standards/shared-mime-info">
+    <mime-type type="application/x-desktop">
+        <comment>archivo de configuración del escritorio</comment>
+        <glob-deleteall/>
+        <glob pattern="*.desktop"/>
+        <glob pattern="*.kdelnk"/>
+        <glob pattern="*.sh"/>
+    </mime-type>
+</mime-info>

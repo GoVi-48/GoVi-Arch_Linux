@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Medium DX12
+Exec=env WINEPREFIX="/home/govi/.wine" /usr/bin/wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/govi/.wine/dosdevices/c:/ProgramData/Microsoft/Windows/Start\\ Menu/Programs/GOG.com/The\\ Medium/Medium\\ DX12.lnk
+Type=Application
+StartupNotify=true
+Comment=Medium DX12
+Path=/home/govi/.wine/dosdevices/z:/Media/Games/PC/Medium/
+Icon=E0DA_Medium.0
+StartupWMClass=medium.exe

@@ -18,6 +18,7 @@ rsync -arv ~/.zshrc "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv --exclude={'.directory','discord','email.sh','skypeforlinux','spotify','teamviewer','vivaldi'} --delete ~/.config/ "$GOVI_ARCH_LINUX"/Dotfiles/.config/
 
 # ~/.local/share/
+mkdir -p "$GOVI_ARCH_LINUX"/Dotfiles/.local/share/
 rsync -arv --exclude={'.directory','baloo','spotify','teamviewer15'} --delete ~/.local/share/ "$GOVI_ARCH_LINUX"/Dotfiles/.local/share/
 
 # Backups

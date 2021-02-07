@@ -4,14 +4,15 @@
 GOVI_ARCH_LINUX="$HOME/Proyects/Github/GoVi-Arch_Linux"
 
 # ~/
-rsync -arv ~/.xinitrc "$GOVI_ARCH_LINUX"/Dotfiles/
-rsync -arv ~/.zshrc "$GOVI_ARCH_LINUX"/Dotfiles/
-rsync -arv ~/.bashrc "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv --delete ~/.vim/ "$GOVI_ARCH_LINUX"/Dotfiles/.vim/
-rsync -arv ~/.profile "$GOVI_ARCH_LINUX"/Dotfiles/
-rsync -arv ~/.xprofile "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv ~/.bashrc "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.easystroke "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.gtkrc-3.0 "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv ~/.nvidia-settings-rc "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv ~/.profile "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv ~/.xprofile "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv ~/.xinitrc "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv ~/.zshrc "$GOVI_ARCH_LINUX"/Dotfiles/
 
 # ~/.config/
 rsync -arv --exclude={'.directory','discord','email.sh','skypeforlinux','spotify','teamviewer','vivaldi'} --delete ~/.config/ "$GOVI_ARCH_LINUX"/Dotfiles/.config/
@@ -23,7 +24,7 @@ rsync -arv --exclude={'baloo','spotify','teamviewer15'} --delete ~/.local/share/
 rsync -arv --delete ~/.password-store/ ~/Backups/Linux/.p-store/
 rsync -arv --delete ~/Pictures/GoVi-Theme/ ~/Backups/Linux/Themes/Theme-GoVi/
 rsync -arv /etc/fstab ~/Backups/Linux/
-rsync -arv /etc/lightdm/ ~/Backups/Linux/Lightººººººººººººººººdm/
+rsync -arv /etc/lightdm/ ~/Backups/Linux/Lightdm/
 rsync -arv --delete ~/Backups/Linux/ "$GOVI_ARCH_LINUX"/Backups/
 
 # Gaming

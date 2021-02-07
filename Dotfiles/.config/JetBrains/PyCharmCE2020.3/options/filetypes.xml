@@ -8,10 +8,11 @@
       <mapping pattern="config" type="Ini" />
       <mapping pattern="skydrow" type="PLAIN_TEXT" />
       <mapping pattern=".data" type="PLAIN_TEXT" />
+      <mapping ext="log" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="pyo" type="PLAIN_TEXT" />
-      <mapping pattern="attribWin10" type="Shell Script" />
       <mapping pattern=".bashrc" type="Shell Script" />
+      <mapping pattern="attribWin10" type="Shell Script" />
       <mapping pattern="Arch_Install" type="Shell Script" />
       <mapping pattern="Arch_Gaming.txt" type="Shell Script" />
       <mapping pattern="Arch_Howto" type="Shell Script" />

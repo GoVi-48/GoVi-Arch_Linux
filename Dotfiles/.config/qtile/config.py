@@ -114,8 +114,8 @@ for i in groups:
 # ================================= LAYOUTS =================================  #
 layout_theme = {"border_width": 2,
                 "margin": 11,
-                "border_focus": "62a2d4",
-                "border_normal": "305673"
+                "border_focus": "#62a2d4",
+                "border_normal": "#305673"
                 }
 layouts = [
     layout.MonadTall(**layout_theme),
@@ -161,7 +161,7 @@ widget_defaults = dict(
     font='Source Code Pro',
     fontsize=15,
     margin=5,
-    padding=3
+    padding=3,
 )
 extension_defaults = widget_defaults.copy()
 
@@ -169,33 +169,23 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.Image(filename='~/Pictures/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/archlinux.png',
+                widget.Image(filename='~/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/apps/64/archlinux.png',
                              margin=0,
                              mouse_callbacks={'Button1': lightdm}),
-
-                widget.GroupBox(fontsize=17),
-
                 widget.CurrentLayoutIcon(scale=0.7),
-
+                widget.GroupBox(),
                 widget.TaskList(),
-
                 widget.Systray(),
-
                 # widget.Image(filename=network()),
                 #              mouse_callbacks={'Button1': open_url()}),
-
-                widget.Clipboard(),
-
                 widget.Image(filename='~/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/panel/audio-volume-zero-panel.svg',
                              mouse_callbacks={'Button1': pavucontrol}),
-
-                widget.Clock(),
+                widget.Clock(fontsize=17),
             ],
             30,
         ),
     ),
 ]
-
 
 # Drag floating layouts.
 mouse = [

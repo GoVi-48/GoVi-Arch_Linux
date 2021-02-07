@@ -21691,3 +21691,425 @@ Traceback (most recent call last):
   File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
     raise error(buf)
 xcffib.xproto.ValueError
+2021-02-07 20:09:28,943 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 600, in handle_UnmapNotify
+    self.qtile.unmap_window(event.window)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 560, in unmap_window
+    self.unmanage(window_id)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 608, in unmanage
+    self.remove_strut(c.strut)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 540, in remove_strut
+    self.add_strut([-i for i in strut])
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 537, in add_strut
+    self.current_screen.resize()
+  File "/usr/lib/python3.9/site-packages/libqtile/config.py", line 413, in resize
+    self._configure(self.qtile, self.index, x, y, w, h, self.group)
+  File "/usr/lib/python3.9/site-packages/libqtile/config.py", line 289, in _configure
+    i._configure(qtile, self)
+  File "/usr/lib/python3.9/site-packages/libqtile/bar.py", line 205, in _configure
+    i._configure(qtile, self)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/image.py", line 63, in _configure
+    raise ValueError("File does not exist: {}".format(self.filename))
+ValueError: File does not exist: /home/govi/Pictures/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/archlinux.png
+2021-02-07 20:09:28,944 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 594, in handle_DestroyNotify
+    self.qtile.unmanage(event.window)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 608, in unmanage
+    self.remove_strut(c.strut)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 540, in remove_strut
+    self.add_strut([-i for i in strut])
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 537, in add_strut
+    self.current_screen.resize()
+  File "/usr/lib/python3.9/site-packages/libqtile/config.py", line 413, in resize
+    self._configure(self.qtile, self.index, x, y, w, h, self.group)
+  File "/usr/lib/python3.9/site-packages/libqtile/config.py", line 289, in _configure
+    i._configure(qtile, self)
+  File "/usr/lib/python3.9/site-packages/libqtile/bar.py", line 205, in _configure
+    i._configure(qtile, self)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/image.py", line 63, in _configure
+    raise ValueError("File does not exist: {}".format(self.filename))
+ValueError: File does not exist: /home/govi/Pictures/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/archlinux.png
+2021-02-07 20:09:28,945 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 594, in handle_DestroyNotify
+    self.qtile.unmanage(event.window)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 608, in unmanage
+    self.remove_strut(c.strut)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 540, in remove_strut
+    self.add_strut([-i for i in strut])
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 537, in add_strut
+    self.current_screen.resize()
+  File "/usr/lib/python3.9/site-packages/libqtile/config.py", line 413, in resize
+    self._configure(self.qtile, self.index, x, y, w, h, self.group)
+  File "/usr/lib/python3.9/site-packages/libqtile/config.py", line 289, in _configure
+    i._configure(qtile, self)
+  File "/usr/lib/python3.9/site-packages/libqtile/bar.py", line 205, in _configure
+    i._configure(qtile, self)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/image.py", line 63, in _configure
+    raise ValueError("File does not exist: {}".format(self.filename))
+ValueError: File does not exist: /home/govi/Pictures/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/archlinux.png
+2021-02-07 20:09:29,945 ERROR libqtile manager.py:handle_exception():L77 Static('polybar-govi_HDMI-0')
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 927, in f
+    func(*args)
+  File "/usr/lib/python3.9/site-packages/libqtile/dgroups.py", line 245, in delete_client
+    del self.timeout[client]
+KeyError: Static('polybar-govi_HDMI-0')
+2021-02-07 20:09:29,946 ERROR libqtile manager.py:handle_exception():L77 Static('polybar-govi_HDMI-0')
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 927, in f
+    func(*args)
+  File "/usr/lib/python3.9/site-packages/libqtile/dgroups.py", line 245, in delete_client
+    del self.timeout[client]
+KeyError: Static('polybar-govi_HDMI-0')
+2021-02-07 20:13:30,184 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 594, in handle_DestroyNotify
+    self.qtile.unmanage(event.window)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 608, in unmanage
+    self.remove_strut(c.strut)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 540, in remove_strut
+    self.add_strut([-i for i in strut])
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 537, in add_strut
+    self.current_screen.resize()
+  File "/usr/lib/python3.9/site-packages/libqtile/config.py", line 413, in resize
+    self._configure(self.qtile, self.index, x, y, w, h, self.group)
+  File "/usr/lib/python3.9/site-packages/libqtile/config.py", line 289, in _configure
+    i._configure(qtile, self)
+  File "/usr/lib/python3.9/site-packages/libqtile/bar.py", line 205, in _configure
+    i._configure(qtile, self)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/image.py", line 63, in _configure
+    raise ValueError("File does not exist: {}".format(self.filename))
+ValueError: File does not exist: /home/govi/Pictures/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/archlinux.png
+2021-02-07 20:14:08,247 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 14680094
+2021-02-07 20:14:21,178 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 594, in handle_DestroyNotify
+    self.qtile.unmanage(event.window)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 608, in unmanage
+    self.remove_strut(c.strut)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 540, in remove_strut
+    self.add_strut([-i for i in strut])
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 537, in add_strut
+    self.current_screen.resize()
+  File "/usr/lib/python3.9/site-packages/libqtile/config.py", line 413, in resize
+    self._configure(self.qtile, self.index, x, y, w, h, self.group)
+  File "/usr/lib/python3.9/site-packages/libqtile/config.py", line 289, in _configure
+    i._configure(qtile, self)
+  File "/usr/lib/python3.9/site-packages/libqtile/bar.py", line 205, in _configure
+    i._configure(qtile, self)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/image.py", line 63, in _configure
+    raise ValueError("File does not exist: {}".format(self.filename))
+ValueError: File does not exist: /home/govi/Pictures/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/archlinux.png
+2021-02-07 20:14:21,303 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 589, in handle_MapRequest
+    self.qtile.map_window(window)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 543, in map_window
+    c = self.manage(window)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 585, in manage
+    c.cmd_static(self.current_screen.index)
+  File "/usr/lib/python3.9/site-packages/libqtile/window.py", line 970, in cmd_static
+    s = Static(self.window, self.qtile, screen, x, y, width, height)
+  File "/usr/lib/python3.9/site-packages/libqtile/window.py", line 725, in __init__
+    self.update_strut()
+  File "/usr/lib/python3.9/site-packages/libqtile/window.py", line 758, in update_strut
+    self.qtile.add_strut(strut)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 537, in add_strut
+    self.current_screen.resize()
+  File "/usr/lib/python3.9/site-packages/libqtile/config.py", line 413, in resize
+    self._configure(self.qtile, self.index, x, y, w, h, self.group)
+  File "/usr/lib/python3.9/site-packages/libqtile/config.py", line 289, in _configure
+    i._configure(qtile, self)
+  File "/usr/lib/python3.9/site-packages/libqtile/bar.py", line 205, in _configure
+    i._configure(qtile, self)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/image.py", line 63, in _configure
+    raise ValueError("File does not exist: {}".format(self.filename))
+ValueError: File does not exist: /home/govi/Pictures/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/archlinux.png
+2021-02-07 20:29:18,013 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 20:33:36,728 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 20:34:13,919 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 20:37:00,793 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 20:53:04,785 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 21:06:11,557 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 21:08:44,149 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+                                                                                                             2021-02-07 21:11:53,542 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 21:13:50,654 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 21:17:40,312 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 21:25:55,050 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 21:34:52,045 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 21:35:23,261 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 21:35:23,660 ERROR libqtile group.py:layout():L126 No such layout: stack
+2021-02-07 21:37:21,298 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 21:39:01,163 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 21:42:49,779 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 21:49:44,008 ERROR libqtile manager.py:process_key_event():L375 KB command error kill: No object window in path 'window'
+2021-02-07 21:49:44,640 ERROR libqtile manager.py:process_key_event():L375 KB command error kill: No object window in path 'window'
+2021-02-07 21:49:44,824 ERROR libqtile manager.py:process_key_event():L375 KB command error kill: No object window in path 'window'
+2021-02-07 21:49:44,976 ERROR libqtile manager.py:process_key_event():L375 KB command error kill: No object window in path 'window'
+2021-02-07 21:54:26,966 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 21:56:28,262 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 21:57:16,594 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 21:59:20,416 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+2021-02-07 21:59:20,417 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+
+2021-02-07 21:59:25,944 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+2021-02-07 21:59:25,944 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+
+2021-02-07 22:00:05,586 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+2021-02-07 22:00:05,586 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+
+2021-02-07 22:00:30,226 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 22:01:04,226 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 22:01:43,954 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+2021-02-07 22:01:43,955 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+
+2021-02-07 22:02:41,222 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+2021-02-07 22:02:41,222 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+
+2021-02-07 22:03:19,124 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+2021-02-07 22:03:19,125 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+
+2021-02-07 22:04:45,282 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+2021-02-07 22:04:45,282 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+
+2021-02-07 22:04:51,576 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+2021-02-07 22:04:51,576 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+
+2021-02-07 22:05:19,902 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 22:05:26,017 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+2021-02-07 22:05:26,018 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 152, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+
+2021-02-07 22:06:22,138 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 155, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+2021-02-07 22:06:22,138 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 155, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+
+2021-02-07 22:06:59,376 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 155, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+2021-02-07 22:06:59,376 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 155, in <module>
+    mouse_callbacks={'Button1': lightdm}),
+NameError: name 'lightdm' is not defined
+
+2021-02-07 22:07:50,034 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 22:08:22,845 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 22:09:35,689 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 22:10:04,440 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 22:10:21,445 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 22:11:05,239 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 22:11:58,640 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 22:12:51,928 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 22:13:09,065 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 22:13:57,391 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)

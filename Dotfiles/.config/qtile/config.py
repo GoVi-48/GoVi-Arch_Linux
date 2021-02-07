@@ -118,6 +118,7 @@ layout_theme = {"border_width": 2,
                 "border_normal": "#305673"
                 }
 layouts = [
+    layout.Max(),
     layout.MonadTall(**layout_theme),
     # layout.Bsp(),
     # layout.Floating(),
@@ -130,7 +131,6 @@ layouts = [
     # layout.TreeTab(),
     # layout.VerticalTile(),
     # layout.Zoomy(),
-    layout.Max()
 ]
 
 

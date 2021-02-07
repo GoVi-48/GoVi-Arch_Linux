@@ -22113,3 +22113,512 @@ NameError: name 'lightdm' is not defined
 2021-02-07 22:12:51,928 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
 2021-02-07 22:13:09,065 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
 2021-02-07 22:13:57,391 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 22:16:59,102 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-07 22:18:08,499 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:37:00,603 ERROR libqtile manager.py:process_key_event():L375 KB command error shuffle_down: No such command
+2021-02-07 22:42:18,250 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:42:22,976 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:42:34,156 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:42:38,805 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:42:43,488 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:42:50,868 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:43:00,752 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:43:05,461 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:43:09,674 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:44:29,743 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:44:54,146 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:45:11,657 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:45:36,463 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:46:56,208 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:47:03,519 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:47:43,353 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:47:48,024 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:47:52,706 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:47:59,677 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:48:15,823 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:48:46,755 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:48:59,427 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:49:20,176 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:49:33,804 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:49:38,411 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:49:49,060 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:50:03,944 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:50:13,910 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:50:38,656 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:50:44,717 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:50:51,727 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:50:56,397 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:51:10,380 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:52:08,446 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:52:13,113 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:52:18,548 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 22:52:23,263 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-07 23:08:56,289 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError

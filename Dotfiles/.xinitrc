@@ -45,7 +45,7 @@ nvidia_led.sh &
 
 nvidia-settings --load-config-only &
 
-picom &
+picom -cCGb &
 
 setxkbmap -layout es &
 

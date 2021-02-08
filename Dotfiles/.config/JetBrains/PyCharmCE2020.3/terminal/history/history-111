@@ -1,0 +1,1000 @@
+sudo pacman -S nvidia nvidia-dkms nvidia-utils lib32-nvidia-utils nvidia-settings vulkan-icd-loader lib32-vulkan-icd-loader
+sudo pacman -S pulseaudio pulseaudio-alsa
+yay -Ss polybar
+yay -S polybar
+vim .bashrc
+l
+sh .xinitrc 
+startx
+sh .xinitrc 
+reboot
+firefox &exit
+cairo-dock & exit
+cairo-dock &
+yay -S cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke font-manager java-8-openjdk liferea mpc-qt picard skype spotify teamviewer timeshift tiny-media-manager ttf-ms-fonts
+yay
+pcmanfm & exit
+vim .bashrc
+cat .bashrc
+yay -S cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke font-manager liferea mpc-qt picard skype spotify teamviewer timeshift tiny-media-manager ttf-ms-fonts
+sh .xinitrc 
+startx
+reboot
+polybar govi
+yay -Ss hack
+yay -S ttf-hack
+sudo pacpam -S top√
+sudo pampam -S top√
+sudo pcmanm -S top√
+sudo pcmnm -S to√
+spm m -S top
+spm -S  top
+top
+top -b -n1 | awk '/^%Cpu/ {print $2 + $4}'
+top
+top -b -n1 | awk '/^%Cpu/ {print $2 + $4}'
+top -b -n1 | awk '/^%Cpu/ {print $2}'
+lm-sensors
+sudo sensors-detect
+sudo pacman -S alacritty audacity exa ffmpeg firefox gimp htop inkscape kdenlive lm_sensors mono neofetch obs-studio pass transmission-qt virtualbox youtube-dl
+lm_sensors
+lm-sensors
+spm -S lm-sensors
+spm -Ss sensors
+sensors
+sensors --help
+sensors --help -s
+sensors -s
+sudo sensors -s
+vim .config/alacritty/alacritty.yml
+sh .xinitrc 
+startx
+reboot
+pm -Ss GTK
+top
+pm -Ss GTKtop -b -n1 | awk '/^%Cpu/ {print $2 + $4}
+top -b -n1 | awk '/^%Cpu/ {print $2 + $4}
+'
+top -b -n1 | awk '/^%Cpu/ {print $2 + $4}'
+top -b -n1 | awk -F '.' '{print $1}'q
+top -b -n1 | awk '/^%Cpu/ {print $2 + $4}'
+top -b -n1 | awk '/^%Cpu/ {print $2 + $4}' | awk -F '.' '{print $1}'~
+top -b -n1 | awk '/^%Cpu/ {print $2 + $4}' | awk -F '.' '{print $1}'
+top -b -n1 | awk '/^%Cpu/
+'
+ff "alacritty.yml"
+/usr
+ff "alacritty.yml"
+/
+ff "alacritty.yml"
+ff "alacritty.yml" 2> /dev/null
+sh .xinitrc 
+startx
+/usr/share/onboard/themes/
+l
+sv ModelM.colors
+cl
+l
+sv ModelM.theme 
+polybar govi
+polybar.sh 
+ln -sf /usr/share/zoneinfo/Europe/Madrid /etc/localtime
+sudo ln -sf /usr/share/zoneinfo/Europe/Madrid /etc/localtime
+sudo hwclock --systohc
+vim /etc/locale.gen
+cat /etc/locale.conf
+cat /etc/vconsole.conf
+sudo echo "KEYMAP=es" >> /etc/vconsole.conf
+sv /etc/vconsole.conf
+vim /etc/hostname
+sv /etc/hostname
+cat /etc/hostname
+cat /etc/hosts
+crontab -l
+crontab -e
+sudo blkid
+pm -Qa imwheel
+pm -Qs imwheel
+sudo pacman -S imwheel
+xprop WM_CLASS | grep -o '"[^"]*"' | head -n 1
+sudo vim ~/.imwheelrc
+sudo vim ~/.config/autostart/imwheel.sh
+cat~/.config/autostart/
+cat ~/.config/autostart/
+~/.config/autostart/
+l
+rm -rfv .config/autostart
+cd ..
+l
+sudo vim /etc/pulse/daemon.conf
+~
+sudo pacman -S nvidia-dkms
+git clone https://github.com/Frogging-Family/linux-tkg.git
+cd linux-tkg/linux58-tkg
+l
+cd linux-tkg
+l
+makepkg -si
+rm -rfv linux-tkg
+sudo pacman -S linux-zen linux-zen-headers
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+sh .xinitrc 
+startx
+reboot
+spm -Rsn atom
+spm -S lutris
+spm -S steam
+cairo-dock & exit
+easystroke --show
+easystroke -show
+easystroke
+timeshift &√ß
+timeshift  --gui&√
+man timeshift
+timeshift  --√
+sudo timeshift --gui
+sudo timeshift
+gcl https://github.com/GoVi-48/GoVi-Arch_Linux
+du1 /home/govi/Proyectos/Github/GoVi-Arch_Linux
+du1 /home/govi/Proyectos/Github/GoVi-Arch_Linux/Backups
+du1 /home/govi/Proyectos/Github/GoVi-Arch_Linux/Backups/Arch_Linux-KDE
+Home_GIT.sh 
+Timeshift.sh 
+vim .config/alacritty.yml
+vim .config/alacritty/alacritty.yml
+ln -sf "/Media/GoVi/Sistema/Programas/Windows/Multimedia/Edici√≥n/Adobe/Adobe Photoshop 2021" "/home/govi/Programas/Adobe"
+pm -Ss visual
+pm -Ss visual-studio
+pm -Ss visual studio
+yay -Ss Visual Studio
+spm -S code
+code
+du1
+du1 |sth
+.npm
+l
+cd ..
+System_Clean.sh 
+sv /etc/pacman.conf
+yay -Ss Visual Studio
+spm -Rsn code
+spm -geany
+spm -S geany
+geany
+sudo pacman -S lightdm
+systemctl enable lightdm.service --force
+sh .xinitrc 
+startx
+reboot
+spm -S lightdm-webkit2-greeter
+sv /etc/lightdm/lightdm.conf
+spm -Ss webkit
+geany
+/fontconfig/
+fc-list : file
+xset q
+/usr/local/share/fonts
+/usr/local/share/fonts/
+pm -Qs font
+spm -Ss webkit
+hy
+svm /etc/lightdm/lightdm.conf 
+sv /etc/lightdm/lightdm.conf 
+cp /etc/lightdm/lightdm.conf .
+sv /etc/lightdm/lightdm-webkit2-greeter.conf
+cp /etc/lightdm/lightdm-webkit2-greeter.conf .
+startx
+reboot
+sudo systemctl enable lightdm
+lightdm --test-mode --debug
+startx
+cairo-dock & exit
+ln -sf /Media/Multimedia/Images /home/govi/Images
+nitrogen
+.config
+l
+nitrogen
+l
+cd nitrogen
+l
+vim itrogen.cfg
+l
+vim bg-saved.cfg
+nitrogen
+vim bg-saved.cfg
+nitrogen
+vim bg-saved.cfg
+nitrogen
+vim bg-saved.cfg
+hy
+1984 !
+! 1984
+.config
+vim bg-saved.cfg
+hy
+cd nitrogen
+vim bg-saved.cfg
+l
+v nitrogen.cfg
+sv nitrogen.cfg
+nitrogen
+crontab -e
+.config
+cd qtile
+l
+geany config.py & exit
+rm -rfv .config/qtile/config.py
+startx
+.config
+qtile
+reboot
+Nitrogen
+nitrogen
+nitrogen &
+font
+font: list
+font-manager 
+nitrogen
+vim .bashrc
+pycharm.sh 
+rimeshift-launcher
+timeshift-launcher
+sudo timeshift-launcher
+rm -rfv ~/home/timeshift
+rm -rfv ~/home/timeshift/
+rm -rfv /home/timeshift/
+sudo rm -rfv /home/timeshift/
+/
+l
+sudo rm ÔøΩDatos
+sudo rm ÔøÔøΩDatos
+lightdm --test-mode --debug
+sudo pacman -S kodi
+yay -S kodi-addon-pvr-iptvsimple
+/etc/lightdm/
+l
+sv √lightdm.conf
+l
+sv lightdm.conf
+hy
+/etc/lightdm/
+l
+sv users.conf
+l
+sv keys.cof
+l
+lightdm-webkit2-greeter.conf
+sv lightdm-webkit2-greeter.conf
+spm -Rsn lightdm lightdm-webkit2-greeter
+hy
+sudo systemctl enable lightdm
+startx
+reboot
+startx
+systemctl status lightdm
+pm -Ss dark
+yay -Ss dark
+pcmanfm --desktop-pref
+pcmanfm --desktop
+reboot
+spm -S tumbler
+spm -S ffmpegthumbnailer
+yay folderpreview
+pcmanfm --desktop &
+logout
+exit
+startx
+reboot
+3startx
+startx
+reboot
+Ho¬¬m
+Home_GIT.sh 
+ff "system-file-manager*"
+vim .bashrc
+startx
+reboot
+sudo pacman -S gtk-engine-murrine gtk-engines
+startx
+reboot
+gsettings set org.gnome.desktop.interface gtk-theme "GoVi_gtk-Windows"
+gsettings set org.gnome.desktop.wm.preferences theme "GoVi_gtk-Windows"
+sv /etc/lightdm/lightdm-webkit2-greeter.conf 
+ls -1 /usr/share/xgreeters/
+crontab -l
+crontab -e
+systemctl enable --now cronie.service
+sudo vim /etc/pacman.conf
+sudo vim /etc/X11/xorg.conf.d/10-keyboard.conf
+/etc/X11/xorg.conf.d/
+l
+~
+sudo vim /etc/X11/xorg.conf.d/10-keyboard.conf
+sudo nvidia-xconfig 
+sv /etc/X11/xorg.conf
+reboot
+polybar govi
+cat /etc/locale.conf
+cat /etc/vconsole.conf 
+ln -sf /usr/share/zoneinfo/Europe/Madrid /etc/localtime
+sudo ln -sf /usr/share/zoneinfo/Europe/Madrid /etc/localtime
+spm -Rsn geany
+ff "*geany*"
+rm .config/geany/geany.conf
+rm .config/geany
+Home_GIT.sh 
+hy |grep spm
+hy |grep sudo
+hy |grep sudo pacman
+hy |grep "sudo pacman"
+hy |grep spm
+hy |yay
+hy |grep yay
+pc
+yay
+vim ./config/user-dirs.dirs
+touch ./config/user-dirs.dirs
+spm -S xdg-user-dirs
+sv /etc/xdg/user-dirs.defaults
+sv ~/.config/user-dirs.dirs
+nitrogen
+.config/nitrogen
+l
+sv nitrogen.cfg
+l
+nitrogen
+l
+sv bg-saved.cfg
+ln -sf /Media/Multimedia/Pictures ~/Pictures
+startx
+reboot
+Home_GIT.sh 
+rm /etc/lightdm
+sudo rm /etc/lightdm
+sudo rm /etc/lightdm/
+sudo rm -fv /etc/lightdm/
+sudo rm -fv /etc/lightdm
+sudo rm -rfv /etc/lightdm
+startx
+reboot
+paplay
+pm -Qs dialog
+dialog
+zenity --info --text "Compete"
+vim .bashrc
+startx
+spm -Rsn lightdm
+spm -Rsn lightdm lightdm-webkit2-greeter
+reboot
+spm -S lightdm lightdm-webkit2-greeter
+hy | system
+hy | grep system
+enable lightdm.service --force
+systemctl enable lightdm.service --force
+sudo rm /etc/X11/xorg.conf.d/10-keyboard.conf
+sv ~/.xprofile
+startx
+reboot
+startx
+sudo systemctl --failed
+sudo journalctl -p 3 -xb
+cat /var/log/lightdm
+sudo cat /var/log/lightdm
+/var/log/lightdm
+l
+su
+vim .vimrc
+~
+vim .vimrc
+mkdir -p .vim/swap
+sudo mkdir -p .vim/swap
+vim .vimrc
+vim .vimrc√
+reboot
+vim .vimrc√
+vim .bashrc
+vim .vimrc√
+rm /home/govi/.vim/swap
+sudo rm /home/govi/.vim/swap
+sudo rm -fv /home/govi/.vim/swap
+sudo rm -fv /home/govi/.vim/swap/
+sudo rm -rfv /home/govi/.vim/swap/
+vim .vimrc√
+sv /etc/lightdm/lightdm.conf
+spm -Ss nvidia led
+yay -Ss nvidia led
+yay -S nvidia led
+yay -S nvidia-led
+nitrogen
+pm -Qs xorg
+sv /etc/lightdm/lightdm.conf
+ls -1 /usr/share/xgreeters/
+lightdm-webkit2-greeter-settings
+lightdm-webkit2-greeter
+startx
+sv .vimrc
+vim .vimrc
+vim .bashrc
+sv bashrc
+sv .bashrc
+am
+pulse
+pulseaudio
+pulseaudio --help
+pulseaudio-alsa
+paman
+yay paman
+paman
+yay -Rsn paman
+pulseaudio
+pulseaudio -reset
+spm -S paprefs
+paprefs
+spm -Rsn paprefs
+spm -S pavucontrol
+pavucontrol
+spm -S amixer
+spm -S alsa-mixer
+spm -Ss alsa-mixer
+yay -Ss alsa-mixer
+yay -Ss alsa
+yay alsa-utils
+am
+pavucontrol
+am
+ff qtile.desktop
+/usr
+ff qtile.desktop
+am
+qm
+am
+pavucontrol
+am
+rm .config/qtile/config.py
+startx
+reboot
+pavucontrol
+/usr
+ss qtile.desktop
+ff qtile.desktop
+rm /usr/share/xsessions/kodi.desktop
+sudo rm /usr/share/xsessions/kodi.desktop
+cd /etc
+ff qtile.desktop
+hy |grep svm
+hy |grep sv
+sv ~/.xprofile
+cat ~/.xprofile
+sudo vim /usr/share/xsessions/qtile.desktop
+vim .config/qtile/config.py 
+startx
+reboot
+picom -CGb
+picom &
+nitrogen
+pavucontrol
+Home_GIT.sh 
+time
+timedate
+date %d/%m/%Y
+date %d %m %Y
+polybar.sh
+Home_GIT.sh 
+date +%d/%m/%Y
+date +%a %d/%m/%Y
+date +%a +%d/%m/%Y
+date %a +%d/%m/%Y
+date '+%a +%d/%m/%Y'
+vim .bashrc
+zenity --text --text "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+zenity --text --text "Complete" && paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+zenity --text --text "Complete"
+zenity --info --text "Complete"
+zenity --text --text "Complete"
+zenity --text --text "Complete" 2> /dev/null && paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+zenity --info --text "Complete" 2> /dev/null && paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+zenity --info --text "Complete" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+zenity --help
+zenity --notification --text "Complete" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+zenity --entry --text "Complete" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+zenity --text info --text "Complete" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+zenity --text-info --text "Complete" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+zenity --info --text "Complete" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+network manager
+network-manager
+net
+networkctl
+netcap
+vim .config/alacritty/alacritty.yml 
+spm -S spacefm
+spm -Ss file manager
+yay spacefm
+vim %F .bashrc
+spacefm
+yay -Rsn spacefm
+polybar.sh
+picom
+picom &
+vim .config/qtile/config.py 
+reboot
+ln -sf "/home/govi/Programs/Adobe/Adobe Photoshop 2021" "/home/govi/Scripts/Shell/Programs/Photoshop_2021.sh"
+ln -sf "/home/govi/Programs/Adobe/Adobe Photoshop 2021" "/home/govi/Programs/Adobe/Wine/Launch-Photoshop_2021.sh"
+e
+ln -sf "/Media/GoVi/Sistema/Programas/Windows/Multimedia/Edici√≥n/Adobe/Photoshop 2021" /home/govi/Programs/Adobe"
+"
+ln -sf "/Media/GoVi/Sistema/Programas/Windows/Multimedia/Edici√≥n/Adobe/Photoshop 2021" "/home/govi/Programs/Adobe"
+ln -sf "/home/govi/Scripts/Shell/Games" "/home/govi/Wine"
+ln -sf "/home/govi/Scripts/Shell/Games" "/home/govi/Wine" .
+gcl https://github.com/GoVi-48/GoVi-Arch_Linux/blob/master/Scripts/Bash/Programs/Photoshop_2021.sh
+gcl "https://github.com/GoVi-48/GoVi-Arch_Linux/blob/master/Scripts/Bash/Programs/Photoshop_2021.sh"
+gcl "https://github.com/GoVi-48/GoVi-Arch_Linux/blob/master/Scripts/Bash/Programs/Photoshop_2021.sh" .
+gcl "https://github.com/GoVi-48/GoVi-Arch_Linux/blob/master/Scripts/Bash/Programs/Photoshop_2021.sh" ./PS
+gcl "https://github.com/GoVi-48/GoVi-Arch_Linux/Scripts/Bash/Programs/Photoshop_2021.sh" ./PS
+wget https://github.com/GoVi-48/GoVi-Arch_Linux/blob/master/Scripts/Bash/Programs/Photoshop_2021.sh
+curl https://github.com/GoVi-48/GoVi-Arch_Linux/blob/master/Scripts/Bash/Programs/Photoshop_2021.sh
+ff "Launch-Ph*"
+/Datos
+ff "Launch-Ph*"
+/Media
+ff "Launch-Ph*"
+chmod +x /home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh
+"/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh"
+reboot
+vim .config/qtile/config.py 
+startx
+ln -sf /Datos/Games/Wine/.
+ln -sf /Datos/Games/Wine/ .
+"/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh"
+ln -sf "/Datos/Games/Wine/wine_Lutris/wine-build_6.0/bin/wine64" "/home/govi/Programs/Adobe/Wine"
+"/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh"
+yay gamemoderun
+yay gamemode
+"/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh"
+spm -S wine-staging
+"/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh"
+ln -sf /home/govi/Scripts/Shell/Games/_Create_wine-pfx/Create-wine-pfx.sh /home/govi/Scripts/Shell/Games
+export WINEPREFIX="/home/govi/Programs/Adobe/Wine/wine-pfx"
+export WINE="/home/govi/Wine/wine_Lutris/wine-build_6.0/bin/wine64"
+"$WINE" winecfg
+ln -sf /Media/Games .
+yay mangohud
+ln -sf /Media/Games .
+ln -sf /Media/Games /home/govi
+ln -sf /Media/Games/ /home/govi/
+Games
+l
+polybar.sh 
+"/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh"
+"/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh"√
+"/home/govi/Programs/Adobe/Wine/Launch-Photoshop.s"
+ln -sf "/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh" "/home/govi/Scripts/Shell/Programs"
+ln -sf "/home/govi/Wine/wine_Lutris/wine-build_6.0/bin/wine" "/home/govi/Programs/Adobe/Wine"
+"/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh"
+"/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh"
+ln -sf "/home/govi/Wine/wine_6.1/wine-build_tkg/usr/bin/wine64" "/home/govi/Programs/Adobe/Wine"
+sudo pacman -S pulseaudio pulseaudio-alsa mesa lib32-mesa libva-mesa-driver lib32-libva-mesa-driver mesa-vdpau lib32-mesa-vdpau
+sudo pacman -S giflib lib32-giflib libpng lib32-libpng libldap lib32-libldap gnutls lib32-gnutls mpg123 lib32-mpg123 openal lib32-openal v4l-utils lib32-v4l-utils libpulse lib32-libpulse libgpg-error lib32-libgpg-error alsa-plugins lib32-alsa-plugins alsa-lib lib32-alsa-lib libjpeg-turbo lib32-libjpeg-turbo sqlite lib32-sqlite libxcomposite lib32-libxcomposite libxinerama lib32-libgcrypt libgcrypt lib32-libxinerama ncurses lib32-ncurses opencl-icd-loader lib32-opencl-icd-loader libxslt lib32-libxslt libva lib32-libva gtk3 lib32-gtk3 gst-plugins-base-libs lib32-gst-plugins-base-libs
+vim .config/alacritty/alacritty.yml 
+sudo pacman -S ttf-liberation
+"/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh"
+hy |export
+hy |grep export
+export WINEPREFIX="/home/govi/Programs/Adobe/Wine/wine-pfx"
+ln -sf "/home/govi/Wine/wine_5.21/wine-build_tkg/usr/bin/wine64" "/home/govi/Programs/Adobe/Wine"
+"/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh"
+ln -sf "/home/govi/Wine/wine_6.0/wine-build_tkg/usr/bin/wine64" "/home/govi/Programs/Adobe/Wine"
+"/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh"
+export WINEPREFIX="/home/govi/Programs/Adobe/Wine/wine-pfx"
+winetricks
+/home/govi/Wine/Scripts/_Create_wine-pfx/Setups/winetricks 
+ln -sf "/home/govi/Wine/wine_Lutris/wine-build_6.0/bin/wine64" "/home/govi/Programs/Adobe/Wine"
+ln -sf "/home/govi/Wine/wine_Lutris/wine-build_6.0/bin/wine" "/home/govi/Programs/Adobe/Wine"
+ln -sf "/home/govi/Wine/wine_Lutris/wine-build_6.0/bin/wine64" "/home/govi/Programs/Adobe/Wine"
+"/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh"
+yay -Ss file manager
+yay -Ss picom
+yay picom-jonaburg-git
+spm gtk
+spm -Ss gtk
+lspci -v | grep -A1 -e VGA -e 3D
+pm -Qs lib32-nvidia-utils 	
+pm -Ss lib32-nvidia-utils 	
+reboot
+fc-list : file
+xset q
+cd /etc/fonts/conf.d
+ln -s ../conf.avail/10-sub-pixel-rgb.conf
+sudo ln -s ../conf.avail/10-sub-pixel-rgb.conf
+/usr/share/gtk-2.0/gtkrc
+cd /usr/share/gtk-2.0/gtkrc
+cd /usr/share/gtk-2.0
+l
+sv gtkrc
+reboot
+yay arc
+yay -Ss ark dark
+yay -Ss ark dark theme
+spm arc-theme
+spm -S arc-theme
+yay arc-theme
+yay S-s arc-theme
+yay -Ss arc-theme
+spm -S arc-gtk-theme-git
+yay -Ss gtk-theme
+yay arc-gtk-theme
+picom
+picom &
+picom & exit
+fd GoVi_gtk-Windows
+fd "arc*"
+picom & exit
+picom
+picom & exit
+40
+spm -Ss kitty
+kitty -Ss kitty
+yay -Ss kitty
+yay -Ss w3m
+yay -Ss vim
+picom &
+picom & exit
+vim .bashrc
+vim ~/.vimrc
+spm -S lxappearance
+lxappearance
+top
+top | grep liferea
+k9 235676
+k9 
+k9 235320
+k9 235676
+k9 236020
+k9 235417
+k9 235320
+htop | grep liferea
+top | grep liferea
+top
+sudo cp "/home/govi/Pictures/Icons/Other/CannabisPower.png" /etc/lightdm/
+sudo cp "/home/govi/Pictures/Wallpapers/Desktop/tricomas_17230867.jpg" /etc/lightdm/
+sv /etc/lightdm/lightdm-webkit2-greeter.conf
+lightdm-webkit2-greeter
+sv /etc/lightdm/keys.conf 
+sv /etc/lightdm/lightdm.conf
+lightdm'But
+export WINEPREFIX="/home/govi/Programs/Adobe/Wine/wine-pfx"
+¬"/home/govi/Programs/Adobe/Wine/Install_DXVK.sh"
+"/home/govi/Programs/Adobe/Wine/Install_DXVK.sh"
+"/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh"
+reboot
+"/home/govi/Games/PC/STAR WARS Battlefront II/Wine/Install-Launch-Epic_Games.sh"
+reboot
+"/home/govi/Games/PC/STAR WARS Battlefront II/Wine/Launch-STAR_WARS_Battlefront_II.sh"
+reboot
+sv .config/qtile/config.py 
+Home_GIT.sh 
+pm -Qs picom
+hy |grep spm
+pm -Qs mixer
+hy |grep sudo p
+hy |grep "sudo p"
+hy |grep yay
+yay -Ss paman
+lightdm-webkit2-greeter
+pm -Qs mixer
+pm -Qs alsa
+pm -Qs conky
+pm -Rsn conky
+sudo pm -Rsn conky
+spm -Rsn conky
+yay -Qs light
+spm -S lightdm-webkit-theme-aether
+yay lightdm-webkit-theme-aether
+sv /etc/lightdm/lightdm-webkit2-greeter.conf 
+sv /etc/lightdm/lightdm-webkit2-greeter.conf √
+groupadd -r autologin
+sudo groupadd -r autologin
+sudo gpasswd -a govi autologin
+sv /etc/lightdm/light.r.co
+/usr/share/xsessions
+l
+sv lightdm.conf
+sv /etc/lightdm/lightdm.conf
+yay -Rsn lightdm-webkit-theme-aether
+spm -Rsn lightdm-webkit-theme-aether
+sv /etc/environment
+yay -Ss pcmanfm
+spm -S pcmanfm-git
+yay -S pcmanfm-git
+yay -Rsn pcmanfm
+yay -S pcmanfm-git
+lightdm-gtk-greeter-settings
+lightdm-webkit2-greeter-settings
+yay -Rsn pcmanfm-git
+yay -Ss pcmanfm
+spm -S pcmanfm-gtk3
+spm -S gtk-theme-config
+yay gtk-theme-config
+gtk-theme-config
+yay -Rsn gtk-theme-config
+lightdm-webkit2-greeter --help
+sv /etc/lightdm/lightdm-webkit2-greeter.conf 
+/etc/lightdm/
+l
+sudo mv CannabisPower.png ./Resources
+l
+mv tricomas_17230867.jpg ./Resources
+sudo mv tricomas_17230867.jpg ./Resources
+l
+Resources
+cd Resources 
+Resources
+mkdir -p Resources
+sudo mv Resources tricomas_17230867.jpg
+l
+mkdir -p ./Resources
+sudo mkdir -p ./Resources
+l
+sudo mv tricomas_17230867.jpg ./Resources/
+l
+sudo mv "/home/govi/Pictures/Icons/Other/CannabisPower.png" ./Resources/
+Resources
+l
+lightdm-webkit2-greeter --settings
+htop [-dChusv]
+htop -p
+htop -s
+htop --help
+htop -t
+vim .vimrc
+sudo mkdir -p .vim/swap
+vim .vimrc
+vim .vimrc√
+vim .vimrc
+rm /home/govi/.vim/swap
+sudo rm /home/govi/.vim/swap
+sudo rm -fv /home/govi/.vim/swap
+sudo rm -fv /home/govi/.vim/swap/
+sudo rm -rfv /home/govi/.vim/swap/
+vim .bashrc
+mv .vimrc ./.vim
+sudo mv .vimrc ./.vim
+vim .bashrc
+vim .vimrc
+vim ./vim/.vimrc
+vim .bashrc
+mv .viminfo ./.vim/
+vim .bashrc
+sudo mv .viminfo ./.vim/
+vim ./.vim/.vimrc
+clear
+vim ./.vim/.vimrc
+vim .bashrc
+vi .bashrc
+vim .bashrc
+sv .basrc
+vim ./.vim/.vimrc
+sv ./.vim/.vimrc
+vim ./.vim/.vimrc
+sudo rm /home/govi/.vim/viminfo
+vim ./.vim/.vimrc
+sudo rm .viminfo
+vim ./.vim/.vimrc
+clear
+vim ./.vim/.vimrc
+sudo rm .viminfo
+Home_GIT.sh 
+sudo rm .viminfo
+l
+sudo rm .Xauthority
+l
+reboor
+reboot
+ln -sf "/Datos/Games/PC/-Launchers/Epic Games/-Library/Metro Last Light Redux" /home/govi/Games/PC
+ln -sf /home/govi/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Windows ./.themes
+ln -sf /home/govi/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons ./.themes
+ln -sf /home/govi/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Cursors ./.themes
+ln -sf /home/govi/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Cursors ./.local/share/icons
+ln -sf /home/govi/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons ./.local/share/icons
+ln -sf /home/govi/Pictures/GoVi-Theme/GoVi_gtk/GoVi_kde-Icons ./.local/share/icons
+ln -sf /home/govi/Pictures/GoVi-Theme/GoVi_kde/GoVi_kde-Icons ./.local/share/icons
+ln -sf /home/govi/Pictures/GoVi-Theme/GoVi_kde/GoVi_kde-Cursors ./.local/share/icons
+ln -sf /home/govi/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Windows ./.local/share/aurorae/themes
+ln -sf /home/govi/Pictures/GoVi-Theme/GoVi_kde/GoVi_kde-Windows ./.local/share/aurorae/themes
+rsync -arv --delete ~/.local/share/onboard ~/Backups/Linux/Themes/Theme-Onboard/
+rsync -arv --delete ~/.local/share/onboard/ ~/Backups/Linux/Themes/Theme-Onboard/
+sv /etc/lightdm/lightdm.conf 
+sv /etc/lightdm/lightdm-webkit2-greeter.conf
+sv .config/nitrogen/nitrogen.cfg
+nitrogen
+rsync -arv ~/.vim "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv ~/.vim/ "$GOVI_ARCH_LINUX"/Dotfiles/
+GOVI_ARCH_LINUX="$HOME/Proyects/Github/GoVi-Arch_Linux"
+rsync -arv --delete ~/.vim/ "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv --delete ~/.vim/ "$GOVI_ARCH_LINUX"/Dotfiles/.vim/
+√ß
+rsync -arv --delete ~/.config/JetBrains/ ~/Backups/Linux/Pycharm/
+ln -sf /home/govi/.local/share/fonts/GoVi_Icons.ttf /home/govi/Backups/Linux/GoVi_font-Icons/
+ln -sf /home/govi/Pictures/GoVi-Theme/GoVi_font-Icons/GoVi_Icons.ttf ./.local share/fonts/
+ln -sf /home/govi/Pictures/GoVi-Theme/GoVi_font-Icons/GoVi_Icons.ttf ./.local/share/fonts/
+rsync -arv --delete ~/Pictures/GoVi-Theme/ ~/Backups/Linux/Themes/Theme-GoVi/
+rm /Media/[SaveData]/Linux/feedlist.opml
+sudo rm /Media/[SaveData]/Linux/feedlist.opml
+sudo rm /Media/[SaveData]/Linux/qtile_bar.py
+rsync -arv /etc/lightdm/ ~/Backups/Linux/Lightdm/
+Home_GIT.sh 
+rm /home/govi/Proyects/Github/GoVi-Arch_Linux/Dotfiles/.bashrc.Bhha9k
+rm "/home/govi/Proyects/Github/GoVi-Arch_Linux/Dotfiles/.zshrc.ZwPtC2"
+sudo rm "/home/govi/Proyects/Github/GoVi-Arch_Linux/Dotfiles/.zshrc.ZwPtC2"
+Home_GIT.sh 
+GOVI_ARCH_LINUX="$HOME/Proyects/Github/GoVi-Arch_Linux"
+rsync -arv --exclude={'.directory','baloo','spotify','teamviewer15'} --delete ~/.local/share/ "$GOVI_ARCH_LINUX"/Dotfiles/.local/share/
+mkdir -p "$GOVI_ARCH_LINUX"/Dotfiles/.local/share/
+polybar.sh
+htop
+startx
+sv .config/qtile/config.py 
+reboot
+startx
+vim .xinitrc
+startx
+rebooty
+reboot
+vim .xinitrc
+~
+vim .xinitrc
+pycharm
+pycharm.sh
+Home_GIT.sh 
+rm .config/qtile/config.py 
+startx
+nitrogen
+locale -a
+ln -sf /usr/share/zoneinfo/Europe/Madrid/etc/localtime
+sv /etc/locale.gen
+locale-gen
+sudo locale-gen
+sv /etc/locale.conf
+sv /etc/vconsole.conf
+rm .Xauthority 
+reboot
+locale
+nitrogen
+sv /etc/lightdm/lightdm.conf 
+sv /etc/lightdm/lightdm-webkit2-greeter.conf
+Home_GIT.sh 
+pm -Qas light
+pm -Qs light
+rm .Xauthority 
+l
+startx
+sv /etc/lightdm/lightdm-webkit2-greeter.co
+lightdm
+pm -Qs light
+spm -Rsn lightdm-webkit-theme-aether-git
+spm -Ss lightdm theme
+yay -Ss lightdm theme
+yay -Ss lightdm-webkit-theme-aether
+yay -S lightdm-webkit-theme-aether
+sv /etc/lightdm/lightdm.conf
+sv /etc/lightdm/lightdm-webkit2-greeter.co
+sv /etc/lightdm/lightdm-webkit2-greeter.conf
+rm .Xauthority 
+startx
+sv /etc/lightdm/lightdm-webkit2-greeter.conf
+mv /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/CannabisPower.png /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/avarar-CannabisPower.png
+sudo mv /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/CannabisPower.png /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/avarar-CannabisPower.png
+sudo mv /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/avarar-CannabisPower.png /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/avatar-CannabisPower.png
+sudo rm /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/avatar-background.png
+sudo mv /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/avatar-CannabisPower.png /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/avatar-background.png
+id
+sudo cat /etc/sudoers
+sv /etc/sudoers
+sudo mv /etc/lightdm/Resources /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/wallpapers /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/wallpapers
+sudo mv /etc/lightdm/Resources /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/wallpapers
+sudo mv /etc/lightdm/Resources/ /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/wallpapers
+sudo mv /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/wallpapers/Resources/tricomas_17230867.jpg /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/wallpapers
+sudo mv /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/wallpapers/Resources/CannabisPower.png /usr/share/lightdm-webkit/themes/lightdm-webkit-theme-aether/src/img/
+sv /etc/lightdm/lightdm-webkit2-greeter.conf
+rm .Xauthority 
+reboot
+ls -ldn ~
+id
+echo $XAUTHORITY
+ls -la ~/.ICEauthority
+ls -la ~/.Xauthority
+grep -i xau ~/.bashrc ~/.profile /etc/bash.bashrc
+diff ~/.bashrc /etc/skel/.bashrc 
+diff ~/.profile /etc/skel/.profile
+mv  ~/.bashrc  ~/.bashrc.old
+mv  ~/.profile  ~/.profile.old
+mv  ~/.bash_logout  ~/.bash_logout.old
+cp -v /etc/skel/.[bp]* ~/
+vim .bashrc
+startx
+rm .Xauthority 
+reboot
+sv /etc/lightdm/lightdm.conf
+sudo groupadd -r autologin
+sudo gpasswd -a govi autologin
+sudo vim /usr/share/xsessions/qtile.desktop
+startx
+sv /etc/lightdm/lightdm.conf
+mv /home/govi/.bash_logout.old /home/govi/.bash_logout
+mv /home/govi/.profile.old /home/govi/.profile
+rm /home/govi/.bash_logout.old
+rm /home/govi/.bash_logout
+rm /home/govi/.bashrc.old
+sv /etc/lightdm/lightdm.conf
+rm .Xauthority 
+startx
+sv /etc/lightdm/lightdm.conf
+cat /etc/lightdm/lightdm.conf
+Home_GIT.sh 
+sv /etc/lightdm/lightdm.conf 
+cat /etc/lightdm/lightdm.conf 
+Home_GIT.sh 
+$mod+Shift+e
+mod+Shift+e
+qtile exit
+qtile --help
+qtile --help
+qtile -c
+qtile -c CONFIGFILE
+easystroke &% exit
+easystroke & exit
+sudo vim .config/qtile/config.py 
+startx
+sv .config/qtile/config.py 
+startx
+cd Proyects
+l
+Github
+GoVi-Arch_Linux/
+Dotfiles/
+.config/
+qtile
+cd qtile
+l
+cp config.py  /home/govi/.config/qtile/config.py 
+startx
+lightdm --help
+lightdm-webkit2-greeter --help
+man lightdm-webkit2-greeter
+lightdm.restart
+lightdm.restart()
+nitrogen
+gnome-session-save --logout
+logout
+`exit'
+spm -S numlockx
+sv /etc/lightdm/lightdm.conf
+service lightdm restart
+Home_GIT.sh 
+pulsemixer
+spm -S pulsemixer
+pulsemixer
+spm -Rsn pulsemixer
+sudo vim .config/qtile/config.py 
+startx
+easystroke & exit
+vim .config/qtile/config.py 
+.xinitrc
+sh .xinitrc
+startx
+picom -CG
+killall picom
+picom -cCGb &
+killall picom
+picom -cCGb &
+picom -cGb
+picom --help
+qtile --help
+killall qtile && sleep 5 && qtile
+"/home/govi/Games/PC/STAR WARS Battlefront II/Wine/Launch-STAR_WARS_Battlefront_II.sh"
+export WINEPREFIX="/home/govi/Games/PC/STAR WARS Battlefront II/Wine/wine-pfx"
+export WINE="/home/govi/Games/PC/STAR WARS Battlefront II/Wine/wine"
+"$WINE" winecfg
+"/home/govi/Games/PC/STAR WARS Battlefront II/Wine/Launch-STAR_WARS_Battlefront_II.sh"
+ln -sf "/home/govi/Wine/wine_Lutris/wine-build_6.0/bin/wine" "/home/govi/Games/PC/STAR WARS Battlefront II/Wine/"
+"/home/govi/Games/PC/STAR WARS Battlefront II/Wine/Launch-STAR_WARS_Battlefront_II.sh"
+/bin/bash /home/govi/Games/PC/STAR\ WARS\ Battlefront\ II/Wine/Launch-STAR_WARS_Battlefront_II.sh

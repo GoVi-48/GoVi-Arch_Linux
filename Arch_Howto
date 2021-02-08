@@ -164,8 +164,16 @@ realtime-priority = 5
 
 
 # Autologin
- groupadd -r autologin
- gpasswd -a "username" autologin
+sudo groupadd -r autologin
+sudo gpasswd -a "username" autologin
+
+sudo vim /etc/lightdm/lightdm.conf
+# ======================================================================================= #
+autologin-guest=false
+autologin-user=govi
+autologin-user-timeout=0
+autologin-session=qtile
+# ======================================================================================= #
 
 
 # Required for custom Kernels

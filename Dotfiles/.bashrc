@@ -3,10 +3,9 @@
 # for examples
 
 # If not running interactively, don't do anything
-case $- in
-    *i*) ;;
-      *) return;;
-esac
+[[ $- != *i* ]] && return
+
+alias ls='ls --color=auto'
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
@@ -116,3 +115,4 @@ export JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswin
 
 # System Info
 neofetch
+

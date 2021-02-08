@@ -136,7 +136,7 @@ layouts = [
 
 # ================================= WIDGETS =================================  #
 def lightdm(qtile):
-    qtile.cmd_spawn('lightdm-webkit2-greeter')
+    qtile.cmd_spawn('kill -9 -1')
 
 
 def pavucontrol(qtile):

@@ -14,10 +14,10 @@
 ~Msle0~/\<Session\>
 
 # Historia de Línea de órdenes (de lo más nuevo a lo más antiguo):
+:wq!
+|2,0,1612747434,,"wq!"
 :wq
 |2,0,1612742820,,"wq"
-:wq!
-|2,0,1612726015,,"wq!"
 :message
 |2,0,1612705085,,"message"
 
@@ -61,44 +61,78 @@
 |3,0,36,0,1,0,1612745042,"greeter-session=lightdm-webkit2-greeter"
 
 # Marcas en el archivo:
-'0  119  0  /etc/lightdm/lightdm.conf
-|4,48,119,0,1612746150,"/etc/lightdm/lightdm.conf"
-'1  102  38  /etc/lightdm/lightdm.conf
-|4,49,102,38,1612745056,"/etc/lightdm/lightdm.conf"
-'2  102  38  /etc/lightdm/lightdm.conf
-|4,50,102,38,1612745056,"/etc/lightdm/lightdm.conf"
-'3  124  16  /etc/lightdm/lightdm.conf
-|4,51,124,16,1612744175,"/etc/lightdm/lightdm.conf"
-'4  124  16  /etc/lightdm/lightdm.conf
-|4,52,124,16,1612744175,"/etc/lightdm/lightdm.conf"
-'5  124  16  /etc/lightdm/lightdm.conf
-|4,53,124,16,1612744175,"/etc/lightdm/lightdm.conf"
-'6  124  16  /etc/lightdm/lightdm.conf
-|4,54,124,16,1612744175,"/etc/lightdm/lightdm.conf"
-'7  117  2  /etc/lightdm/lightdm.conf
-|4,55,117,2,1612744042,"/etc/lightdm/lightdm.conf"
-'8  117  2  /etc/lightdm/lightdm.conf
-|4,56,117,2,1612744042,"/etc/lightdm/lightdm.conf"
-'9  117  2  /etc/lightdm/lightdm.conf
-|4,57,117,2,1612744042,"/etc/lightdm/lightdm.conf"
+'0  120  0  /etc/lightdm/lightdm.conf
+|4,48,120,0,1612751662,"/etc/lightdm/lightdm.conf"
+'1  139  2  ~/.config/qtile/config.py
+|4,49,139,2,1612747434,"~/.config/qtile/config.py"
+'2  119  0  /etc/lightdm/lightdm.conf
+|4,50,119,0,1612746150,"/etc/lightdm/lightdm.conf"
+'3  102  38  /etc/lightdm/lightdm.conf
+|4,51,102,38,1612745056,"/etc/lightdm/lightdm.conf"
+'4  102  38  /etc/lightdm/lightdm.conf
+|4,52,102,38,1612745056,"/etc/lightdm/lightdm.conf"
+'5  102  38  /etc/lightdm/lightdm.conf
+|4,53,102,38,1612745056,"/etc/lightdm/lightdm.conf"
+'6  102  38  /etc/lightdm/lightdm.conf
+|4,54,102,38,1612745056,"/etc/lightdm/lightdm.conf"
+'7  125  16  /etc/lightdm/lightdm.conf
+|4,55,125,16,1612744175,"/etc/lightdm/lightdm.conf"
+'8  125  16  /etc/lightdm/lightdm.conf
+|4,56,125,16,1612744175,"/etc/lightdm/lightdm.conf"
+'9  125  16  /etc/lightdm/lightdm.conf
+|4,57,125,16,1612744175,"/etc/lightdm/lightdm.conf"
 
 # Lista de saltos (el más reciente va primero):
+-'  120  0  /etc/lightdm/lightdm.conf
+|4,39,120,0,1612751662,"/etc/lightdm/lightdm.conf"
+-'  1  0  /etc/lightdm/lightdm.conf
+|4,39,1,0,1612751255,"/etc/lightdm/lightdm.conf"
+-'  139  2  ~/.config/qtile/config.py
+|4,39,139,2,1612747434,"~/.config/qtile/config.py"
+-'  139  2  ~/.config/qtile/config.py
+|4,39,139,2,1612747434,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1612747348,"~/.config/qtile/config.py"
+-'  1  0  ~/.config/qtile/config.py
+|4,39,1,0,1612747348,"~/.config/qtile/config.py"
 -'  119  0  /etc/lightdm/lightdm.conf
 |4,39,119,0,1612746150,"/etc/lightdm/lightdm.conf"
+-'  119  0  /etc/lightdm/lightdm.conf
+|4,39,119,0,1612746150,"/etc/lightdm/lightdm.conf"
+-'  1  0  /etc/lightdm/lightdm.conf
+|4,39,1,0,1612746105,"/etc/lightdm/lightdm.conf"
 -'  1  0  /etc/lightdm/lightdm.conf
 |4,39,1,0,1612746105,"/etc/lightdm/lightdm.conf"
 -'  102  38  /etc/lightdm/lightdm.conf
 |4,39,102,38,1612745056,"/etc/lightdm/lightdm.conf"
 -'  102  38  /etc/lightdm/lightdm.conf
 |4,39,102,38,1612745056,"/etc/lightdm/lightdm.conf"
+-'  102  38  /etc/lightdm/lightdm.conf
+|4,39,102,38,1612745056,"/etc/lightdm/lightdm.conf"
+-'  102  38  /etc/lightdm/lightdm.conf
+|4,39,102,38,1612745056,"/etc/lightdm/lightdm.conf"
+-'  102  38  /etc/lightdm/lightdm.conf
+|4,39,102,38,1612745056,"/etc/lightdm/lightdm.conf"
 -'  1  0  /etc/lightdm/lightdm.conf
 |4,39,1,0,1612744983,"/etc/lightdm/lightdm.conf"
+-'  1  0  /etc/lightdm/lightdm.conf
+|4,39,1,0,1612744983,"/etc/lightdm/lightdm.conf"
+-'  125  16  /etc/lightdm/lightdm.conf
+|4,39,125,16,1612744175,"/etc/lightdm/lightdm.conf"
 -'  124  16  /etc/lightdm/lightdm.conf
 |4,39,124,16,1612744175,"/etc/lightdm/lightdm.conf"
 -'  124  16  /etc/lightdm/lightdm.conf
 |4,39,124,16,1612744175,"/etc/lightdm/lightdm.conf"
 -'  124  16  /etc/lightdm/lightdm.conf
 |4,39,124,16,1612744175,"/etc/lightdm/lightdm.conf"
+-'  124  16  /etc/lightdm/lightdm.conf
+|4,39,124,16,1612744175,"/etc/lightdm/lightdm.conf"
+-'  124  16  /etc/lightdm/lightdm.conf
+|4,39,124,16,1612744175,"/etc/lightdm/lightdm.conf"
+-'  124  16  /etc/lightdm/lightdm.conf
+|4,39,124,16,1612744175,"/etc/lightdm/lightdm.conf"
+-'  1  0  /etc/lightdm/lightdm.conf
+|4,39,1,0,1612744044,"/etc/lightdm/lightdm.conf"
 -'  1  0  /etc/lightdm/lightdm.conf
 |4,39,1,0,1612744044,"/etc/lightdm/lightdm.conf"
 -'  117  2  /etc/lightdm/lightdm.conf
@@ -109,6 +143,18 @@
 |4,39,117,2,1612744042,"/etc/lightdm/lightdm.conf"
 -'  117  2  /etc/lightdm/lightdm.conf
 |4,39,117,2,1612744042,"/etc/lightdm/lightdm.conf"
+-'  117  2  /etc/lightdm/lightdm.conf
+|4,39,117,2,1612744042,"/etc/lightdm/lightdm.conf"
+-'  117  2  /etc/lightdm/lightdm.conf
+|4,39,117,2,1612744042,"/etc/lightdm/lightdm.conf"
+-'  117  2  /etc/lightdm/lightdm.conf
+|4,39,117,2,1612744042,"/etc/lightdm/lightdm.conf"
+-'  117  2  /etc/lightdm/lightdm.conf
+|4,39,117,2,1612744042,"/etc/lightdm/lightdm.conf"
+-'  117  2  /etc/lightdm/lightdm.conf
+|4,39,117,2,1612744042,"/etc/lightdm/lightdm.conf"
+-'  1  0  /etc/lightdm/lightdm.conf
+|4,39,1,0,1612743946,"/etc/lightdm/lightdm.conf"
 -'  1  0  /etc/lightdm/lightdm.conf
 |4,39,1,0,1612743946,"/etc/lightdm/lightdm.conf"
 -'  91  0  /etc/lightdm/lightdm.conf
@@ -121,8 +167,24 @@
 |4,39,91,0,1612743054,"/etc/lightdm/lightdm.conf"
 -'  91  0  /etc/lightdm/lightdm.conf
 |4,39,91,0,1612743054,"/etc/lightdm/lightdm.conf"
+-'  91  0  /etc/lightdm/lightdm.conf
+|4,39,91,0,1612743054,"/etc/lightdm/lightdm.conf"
+-'  91  0  /etc/lightdm/lightdm.conf
+|4,39,91,0,1612743054,"/etc/lightdm/lightdm.conf"
+-'  91  0  /etc/lightdm/lightdm.conf
+|4,39,91,0,1612743054,"/etc/lightdm/lightdm.conf"
+-'  91  0  /etc/lightdm/lightdm.conf
+|4,39,91,0,1612743054,"/etc/lightdm/lightdm.conf"
+-'  91  0  /etc/lightdm/lightdm.conf
+|4,39,91,0,1612743054,"/etc/lightdm/lightdm.conf"
+-'  91  0  /etc/lightdm/lightdm.conf
+|4,39,91,0,1612743054,"/etc/lightdm/lightdm.conf"
 -'  1  0  /etc/lightdm/lightdm.conf
 |4,39,1,0,1612743028,"/etc/lightdm/lightdm.conf"
+-'  1  0  /etc/lightdm/lightdm.conf
+|4,39,1,0,1612743028,"/etc/lightdm/lightdm.conf"
+-'  161  0  /etc/lightdm/lightdm.conf
+|4,39,161,0,1612742820,"/etc/lightdm/lightdm.conf"
 -'  160  0  /etc/lightdm/lightdm.conf
 |4,39,160,0,1612742820,"/etc/lightdm/lightdm.conf"
 -'  160  0  /etc/lightdm/lightdm.conf
@@ -135,6 +197,20 @@
 |4,39,160,0,1612742820,"/etc/lightdm/lightdm.conf"
 -'  160  0  /etc/lightdm/lightdm.conf
 |4,39,160,0,1612742820,"/etc/lightdm/lightdm.conf"
+-'  160  0  /etc/lightdm/lightdm.conf
+|4,39,160,0,1612742820,"/etc/lightdm/lightdm.conf"
+-'  160  0  /etc/lightdm/lightdm.conf
+|4,39,160,0,1612742820,"/etc/lightdm/lightdm.conf"
+-'  160  0  /etc/lightdm/lightdm.conf
+|4,39,160,0,1612742820,"/etc/lightdm/lightdm.conf"
+-'  160  0  /etc/lightdm/lightdm.conf
+|4,39,160,0,1612742820,"/etc/lightdm/lightdm.conf"
+-'  160  0  /etc/lightdm/lightdm.conf
+|4,39,160,0,1612742820,"/etc/lightdm/lightdm.conf"
+-'  160  0  /etc/lightdm/lightdm.conf
+|4,39,160,0,1612742820,"/etc/lightdm/lightdm.conf"
+-'  1  0  /etc/lightdm/lightdm.conf
+|4,39,1,0,1612742695,"/etc/lightdm/lightdm.conf"
 -'  1  0  /etc/lightdm/lightdm.conf
 |4,39,1,0,1612742695,"/etc/lightdm/lightdm.conf"
 -'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
@@ -207,98 +283,53 @@
 |4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
 -'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
 |4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  1  0  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,1,0,1612741242,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  34  21  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,34,21,1612741100,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  34  21  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,34,21,1612741100,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  34  21  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,34,21,1612741100,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  34  21  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,34,21,1612741100,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  34  21  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,34,21,1612741100,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  34  21  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,34,21,1612741100,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  34  21  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,34,21,1612741100,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  34  21  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,34,21,1612741100,"/etc/lightdm/lightdm-webkit2-greeter.conf"
--'  34  21  /etc/lightdm/lightdm-webkit2-greeter.conf
-|4,39,34,21,1612741100,"/etc/lightdm/lightdm-webkit2-greeter.conf"
 
 # Historia de las marcas en los archivos (de la más reciente a la más antigua):
 
 > /etc/lightdm/lightdm.conf
-	*	1612746123	0
-	"	119	0
-	^	119	0
-	.	119	0
-	+	119	0
-	+	119	22
+	*	1612751662	0
+	"	120	0
+	^	119	41
+	.	119	40
+	+	120	0
+	+	120	22
 	+	117	0
-	+	119	0
+	+	120	0
 	+	117	1
 	+	102	0
-	+	124	0
-	+	119	0
+	+	125	0
+	+	120	0
+	+	119	40
+
+> ~/.config/qtile/config.py
+	*	1612747429	0
+	"	139	2
+	^	139	3
+	.	139	3
+	+	138	20
+	+	140	0
+	+	141	0
+	+	142	0
+	+	143	0
+	+	144	0
+	+	147	1
+	+	148	0
+	+	151	1
+	+	152	0
+	+	176	15
+	+	178	15
+	+	179	14
+	+	180	15
+	+	123	10
+	+	124	12
+	+	142	0
+	+	118	41
+	+	133	16
+	+	192	29
+	+	174	57
+	+	138	0
+	+	138	19
+	+	139	3
 
 > /etc/lightdm/lightdm-webkit2-greeter.conf
 	*	1612741205	0
@@ -343,32 +374,6 @@
 > /etc/locale.gen
 	*	1612735462	0
 	"	511	0
-
-> ~/.config/qtile/config.py
-	*	1612726009	0
-	"	192	28
-	^	192	29
-	.	192	29
-	+	139	1
-	+	140	0
-	+	141	0
-	+	142	0
-	+	143	0
-	+	144	0
-	+	147	1
-	+	148	0
-	+	151	1
-	+	152	0
-	+	176	15
-	+	178	15
-	+	179	14
-	+	180	15
-	+	123	10
-	+	124	12
-	+	142	0
-	+	118	41
-	+	133	16
-	+	192	29
 
 > ~/.config/nitrogen/nitrogen.cfg
 	*	1612717947	0

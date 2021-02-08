@@ -166,13 +166,16 @@ realtime-priority = 5
 # Autologin
 sudo groupadd -r autologin
 sudo gpasswd -a "username" autologin
+sudo pacman -S numlockx
 
 sudo vim /etc/lightdm/lightdm.conf
 # ======================================================================================= #
+greeter-setup-script=/usr/bin/numlockx on
 autologin-guest=false
 autologin-user=govi
 autologin-user-timeout=0
 autologin-session=qtile
+
 # ======================================================================================= #
 
 

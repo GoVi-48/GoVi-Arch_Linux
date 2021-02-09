@@ -16,13 +16,23 @@ Include = /etc/pacman.d/mirrorlist
 sudo pacman -Syu
 
 # Packages
-sudo pacman -S alacritty audacity exa ffmpeg firefox gimp gparted htop inkscape kdenlive neofetch obs-studio pass transmission-qt virtualbox youtube-dl
-sudo pacman -S alsa-utils ark bc extra-cmake-modules icoutils jdk-openjdk lm_sensors mono net-tools nvidia-led packagekit-qt5 unrar zip wget
+sudo pacman -S alacritty audacity exa ffmpeg firefox gimp gparted inkscape kdenlive neofetch obs-studio pass transmission-qt virtualbox youtube-dl
+sudo pacman -S bc extra-cmake-modules icoutils jdk-openjdk lm_sensors mono nvidia-led packagekit-qt5 unrar zip wget
+
+# AUR packages
+git clone https://aur.archlinux.org/yay-git.git
+cd yay && makepkg -si PKGBUILD
+yay paru
+paru -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke font-manager java-8-openjdk liferea mpc-qt picard skype spotify teamviewer thunar timeshift tiny-media-manager ttf-ms-fonts
+
+# Fonts
+ln -s /windows/Windows/Fonts /usr/share/fonts/WindowsFonts
+fc-cache --force
 
 # File Manager
 sudo pacman pcmanfm
 sudo pacman gtk-engine-murrine gtk-engines ffmpegthumbnailer tumbler
-yay folderpreview
+paru folderpreview
 
 # ZSH
 sudo pacman -S zsh zsh-autosuggestions zsh-syntax-highlighting
@@ -40,16 +50,9 @@ sudo pacman -S firewalld
 systemctl enable firewalld
 firewall-config
 
-# AUR packages
-git clone https://aur.archlinux.org/yay-git.git
-cd yay
-makepkg -si PKGBUILD
-
-yay -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke font-manager java-8-openjdk liferea mpc-qt picard skype spotify teamviewer timeshift tiny-media-manager ttf-ms-fonts
-
 # Kodi
 sudo pacman -S kodi
-yay -S kodi-addon-pvr-iptvsimple
+paru -S kodi-addon-pvr-iptvsimple
 
 
 # ============================================================================= # #
@@ -194,5 +197,5 @@ makepkg -si
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 # Kernel CK
-yay -S linux-ck linux-ck-headers
+paru -S linux-ck linux-ck-headers
 sudo grub-mkconfig -o /boot/grub/grub.cfg

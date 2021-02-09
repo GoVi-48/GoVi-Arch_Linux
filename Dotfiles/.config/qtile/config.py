@@ -53,37 +53,66 @@ def window_to_prev_group(qtile):
 # ================================= SHORTCUTS =================================  #
 keys = [
     # Switch between windows in current stack pane
-    Key([mod], "k", lazy.layout.down(),
-        desc="Move focus down in stack pane"),
-    Key([mod], "j", lazy.layout.up(),
-        desc="Move focus up in stack pane"),
+    Key([mod], "k", lazy.layout.down(),),
+    Key([mod], "j", lazy.layout.up(),),
 
     # Move windows up or down in current stack
-    Key([mod, "control"], "k", lazy.layout.shuffle_down(),
-        desc="Move window down in current stack "),
-    Key([mod, "control"], "j", lazy.layout.shuffle_up(),
-        desc="Move window up in current stack "),
+    Key([mod, "control"], "k", lazy.layout.shuffle_down(),),
+    Key([mod, "control"], "j", lazy.layout.shuffle_up(),),
+
+    # Window grow Right
+    Key([mod, "control"], "Right",
+        lazy.layout.grow_right(),
+        lazy.layout.grow(),
+        lazy.layout.increase_ratio(),
+        lazy.layout.delete(),),
+
+    # Window grow Light
+    Key([mod, "control"], "Left",
+        lazy.layout.grow_left(),
+        lazy.layout.shrink(),
+        lazy.layout.decrease(),
+        lazy.layout.add(),),
+
+    # Window grow Right
+    Key([mod, "control"], "Up",
+        lazy.layout.grow_up(),
+        lazy.layout.grow(),
+        lazy.layout.increase_ratio(),
+        lazy.layout.delete(), ),
+
+    # Window grow Light
+    Key([mod, "control"], "Down",
+        lazy.layout.grow_down(),
+        lazy.layout.shrink(),
+        lazy.layout.decrease(),
+        lazy.layout.add(), ),
 
     # Switch window focus to other pane(s) of stack
-    Key([mod], "space", lazy.layout.next(),
-        desc="Switch window focus to other pane(s) of stack"),
+    Key([mod], "space", lazy.layout.next(),),
 
     # Swap panes of split stack
-    Key([mod, "shift"], "space", lazy.layout.rotate(),
-        desc="Swap panes of split stack"),
+    Key([mod, "shift"], "space", lazy.layout.rotate(),),
 
     # Toggle between split and unsplit sides of stack.
-    Key([mod, "shift"], "Return", lazy.layout.toggle_split(),
-        desc="Toggle between split and unsplit sides of stack"),
-    Key([mod], "t", lazy.spawn(terminal), desc="Launch terminal"),
+    Key([mod, "shift"], "Return", lazy.layout.toggle_split(),),
 
     # Toggle between different layouts as defined below
-    Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
-    Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
+    Key([mod], "Tab", lazy.next_layout(),),
 
-    Key([mod, "control"], "r", lazy.restart(), desc="Restart qtile"),
-    Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown qtile"),
-    Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
+    # Kill Window
+    Key([mod], "w", lazy.window.kill(),),
+
+    # Terminal
+    Key([mod], "t", lazy.spawn(terminal),),
+
+    # Run Command
+    Key([mod], "r", lazy.spawncmd(),),
+
+    # Restart Shutdown
+    Key([mod, "control"], "r", lazy.restart(),),
+    Key([mod, "control"], "q", lazy.shutdown(),),
+
 ]
 
 
@@ -112,9 +141,9 @@ for i in groups:
 
 
 # ================================= LAYOUTS =================================  #
-layout_theme = {"border_width": 2,
+layout_theme = {"border_width": 3,
                 "margin": 11,
-                "border_focus": "#62a2d4",
+                "border_focus": "#86ACE0",
                 "border_normal": "#305673"
                 }
 layouts = [
@@ -135,7 +164,7 @@ layouts = [
 
 
 # ================================= WIDGETS =================================  #
-def lightdm(qtile):
+def logout(qtile):
     qtile.cmd_spawn('kill -9 -1')
 
 
@@ -161,8 +190,8 @@ widget_defaults = dict(
     font='Source Code Pro',
     fontsize=15,
     margin=5,
-    padding=3,
-)
+    padding=3,)
+
 extension_defaults = widget_defaults.copy()
 
 screens = [
@@ -171,18 +200,19 @@ screens = [
             [
                 widget.Image(filename='~/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/apps/64/archlinux.png',
                              margin=0,
-                             mouse_callbacks={'Button1': lightdm}),
+                             mouse_callbacks={'Button1': logout}),
                 widget.CurrentLayoutIcon(scale=0.7),
                 widget.GroupBox(),
-                widget.TaskList(),
+                widget.Prompt(),
+                widget.TaskList(borderwidth=2, border="#5C718E", fontsize=14, max_title_width=300,),
                 widget.Systray(),
                 # widget.Image(filename=network()),
                 #              mouse_callbacks={'Button1': open_url()}),
                 widget.Image(filename='~/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/panel/audio-volume-zero-panel.svg',
                              mouse_callbacks={'Button1': pavucontrol}),
-                widget.Clock(fontsize=17),
+                widget.Clock(fontsize=17,),
             ],
-            30,
+            32,
         ),
     ),
 ]

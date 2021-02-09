@@ -38,12 +38,12 @@ terminal = guess_terminal()
 # ================================= SHORTCUTS =================================  #
 keys = [
     # Switch between windows in current stack pane
-    Key([mod], "k", lazy.layout.down(),),
-    Key([mod], "j", lazy.layout.up(),),
+    Key([mod], "k", lazy.layout.down(), ),
+    Key([mod], "j", lazy.layout.up(), ),
 
     # Move windows up or down in current stack
-    Key([mod, "control"], "k", lazy.layout.shuffle_down(),),
-    Key([mod, "control"], "j", lazy.layout.shuffle_up(),),
+    Key([mod, "control"], "k", lazy.layout.shuffle_down(), ),
+    Key([mod, "control"], "j", lazy.layout.shuffle_up(), ),
 
     # Window grow Up
     Key([mod, "control"], "Up",
@@ -71,32 +71,32 @@ keys = [
         lazy.layout.grow_right(),
         lazy.layout.grow(),
         lazy.layout.increase_ratio(),
-        lazy.layout.delete(),),
+        lazy.layout.delete(), ),
 
     # Switch window focus to other pane(s) of stack
-    Key([mod], "space", lazy.layout.next(),),
+    Key([mod], "space", lazy.layout.next(), ),
 
     # Swap panes of split stack
-    Key([mod, "shift"], "space", lazy.layout.rotate(),),
+    Key([mod, "shift"], "space", lazy.layout.rotate(), ),
 
     # Toggle between split and unsplit sides of stack.
-    Key([mod, "shift"], "Return", lazy.layout.toggle_split(),),
+    Key([mod, "shift"], "Return", lazy.layout.toggle_split(), ),
 
     # Toggle between different layouts as defined below
-    Key([mod], "Tab", lazy.next_layout(),),
+    Key([mod], "Tab", lazy.next_layout(), ),
 
     # Kill Window
-    Key([mod], "w", lazy.window.kill(),),
+    Key([mod], "w", lazy.window.kill(), ),
 
     # Terminal
-    Key([mod], "t", lazy.spawn(terminal),),
+    Key([mod], "t", lazy.spawn(terminal), ),
 
     # Run Command
-    Key([mod], "r", lazy.spawncmd(),),
+    Key([mod], "r", lazy.spawncmd(), ),
 
     # Restart Shutdown
-    Key([mod, "control"], "r", lazy.restart(),),
-    Key([mod, "control"], "q", lazy.shutdown(),),
+    Key([mod, "control"], "r", lazy.restart(), ),
+    Key([mod, "control"], "q", lazy.shutdown(), ),
 
 ]
 
@@ -118,15 +118,15 @@ groups = []
 
 group_names = ["1", "2", "3", "4", "5", "6", "7", "8", ]
 group_labels = ["", "", "", "", "", "", "", "", ]
-group_layouts = ["max", "monadtall", "floating", "monadtall", "monadtall", "monadtall", "monadtall",
-                 "monadtall", ]
+group_layouts = ["max", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall",
+                 "floating", ]
 
 for i in range(len(group_names)):
     groups.append(
         Group(
             name=group_names[i],
             layout=group_layouts[i].lower(),
-            label=group_labels[i],))
+            label=group_labels[i], ))
 
 # Switch Groups
 for i in groups:
@@ -196,7 +196,7 @@ widget_defaults = dict(
     font='Source Code Pro',
     fontsize=15,
     margin=5,
-    padding=3,)
+    padding=3, )
 
 extension_defaults = widget_defaults.copy()
 
@@ -207,16 +207,30 @@ screens = [
                 widget.Image(filename='~/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/apps/64/archlinux.png',
                              margin=0,
                              mouse_callbacks={'Button1': logout}),
+
                 widget.CurrentLayoutIcon(scale=0.7),
-                widget.GroupBox(),
+
+                widget.GroupBox(font='FontAw4esome',
+                                disable_drag=True,
+                                highlight_method="text",
+                                block_highlight_text_color='#86ACE0',
+                                active='#DFDFDF',
+                                inactive='#717171',),
+
                 widget.Prompt(),
-                widget.TaskList(borderwidth=2, border="#5C718E", fontsize=14, max_title_width=300,),
+
+                widget.TaskList(borderwidth=2, border="#5C718E", fontsize=14,
+                                max_title_width=300, ),
+
                 widget.Systray(),
+
                 # widget.Image(filename=network()),
                 #              mouse_callbacks={'Button1': open_url()}),
+
                 widget.Image(filename='~/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/panel/audio-volume-zero-panel.svg',
                              mouse_callbacks={'Button1': pavucontrol}),
-                widget.Clock(fontsize=17,),
+
+                widget.Clock(fontsize=17, ),
             ],
             32,
         ),

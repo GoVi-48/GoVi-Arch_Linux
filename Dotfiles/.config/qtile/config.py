@@ -35,21 +35,6 @@ import webbrowser
 mod = "mod4"
 terminal = guess_terminal()
 
-
-@lazy.function
-def window_to_next_group(qtile):
-    if qtile.currentWindow is not None:
-        i = qtile.groups.index(qtile.currentGroup)
-        qtile.currentWindow.togroup(qtile.groups[i + 1].name)
-
-
-@lazy.function
-def window_to_prev_group(qtile):
-    if qtile.currentWindow is not None:
-        i = qtile.groups.index(qtile.currentGroup)
-        qtile.currentWindow.togroup(qtile.groups[i - 1].name)
-
-
 # ================================= SHORTCUTS =================================  #
 keys = [
     # Switch between windows in current stack pane
@@ -60,33 +45,33 @@ keys = [
     Key([mod, "control"], "k", lazy.layout.shuffle_down(),),
     Key([mod, "control"], "j", lazy.layout.shuffle_up(),),
 
-    # Window grow Right
-    Key([mod, "control"], "Right",
-        lazy.layout.grow_right(),
-        lazy.layout.grow(),
-        lazy.layout.increase_ratio(),
-        lazy.layout.delete(),),
-
-    # Window grow Light
-    Key([mod, "control"], "Left",
-        lazy.layout.grow_left(),
-        lazy.layout.shrink(),
-        lazy.layout.decrease(),
-        lazy.layout.add(),),
-
-    # Window grow Right
+    # Window grow Up
     Key([mod, "control"], "Up",
         lazy.layout.grow_up(),
         lazy.layout.grow(),
         lazy.layout.increase_ratio(),
         lazy.layout.delete(), ),
 
-    # Window grow Light
+    # Window grow Down
     Key([mod, "control"], "Down",
         lazy.layout.grow_down(),
         lazy.layout.shrink(),
         lazy.layout.decrease(),
         lazy.layout.add(), ),
+
+    # Window grow Left
+    Key([mod, "control"], "Left",
+        lazy.layout.grow_left(),
+        lazy.layout.shrink(),
+        lazy.layout.decrease(),
+        lazy.layout.add(), ),
+
+    # Window grow Right
+    Key([mod, "control"], "Right",
+        lazy.layout.grow_right(),
+        lazy.layout.grow(),
+        lazy.layout.increase_ratio(),
+        lazy.layout.delete(),),
 
     # Switch window focus to other pane(s) of stack
     Key([mod], "space", lazy.layout.next(),),
@@ -117,28 +102,49 @@ keys = [
 
 
 # ================================= GROUPS =================================  #
-groups = [Group(i) for i in "123456"]
+def window_to_prev_group(qtile):
+    if qtile.currentWindow is not None:
+        i = qtile.groups.index(qtile.currentGroup)
+        qtile.currentWindow.togroup(qtile.groups[i - 1].name)
+
+
+def window_to_next_group(qtile):
+    if qtile.currentWindow is not None:
+        i = qtile.groups.index(qtile.currentGroup)
+        qtile.currentWindow.togroup(qtile.groups[i + 1].name)
+
+
+groups = []
+
+group_names = ["1", "2", "3", "4", "5", "6", "7", "8", ]
+group_labels = ["", "", "", "", "", "", "", "", ]
+group_layouts = ["max", "monadtall", "floating", "monadtall", "monadtall", "monadtall", "monadtall",
+                 "monadtall", ]
+
+for i in range(len(group_names)):
+    groups.append(
+        Group(
+            name=group_names[i],
+            layout=group_layouts[i].lower(),
+            label=group_labels[i],))
 
 # Switch Groups
 for i in groups:
     keys.extend([
-        # mod + letter of group = switch to group
+        # Switch to group (mod + number of group)
         Key([mod], i.name, lazy.group[i.name].toscreen()),
 
-        # mod + n = Next group, mod + p = Previous group
+        # Next group, Previous group
         Key([mod], "n", lazy.screen.next_group()),
         Key([mod], "p", lazy.screen.prev_group()),
 
-        # mod + shift + letter of group = switch to & move focused window to group
-        Key([mod, "shift"], i.name, lazy.window.togroup(i.name, switch_group=True),
-            desc="Switch to & move focused window to group {}".format(i.name)),
-        # Or, use below if you prefer not to switch to that group.
+        # Switch to & Move focused window to group (mod + shift + number of group)
+        Key([mod, "shift"], i.name, lazy.window.togroup(i.name, switch_group=True), ),
 
-        # mod + shift + letter of group = move focused window to group
+        # Move focused window to group (mod + shift + letter of group)
         # Key([mod, "shift"], i.name, lazy.window".format(i.name)),w.togroup(i.name),
         #   desc="move focused window to group {}".format(i.name)),
     ])
-
 
 # ================================= LAYOUTS =================================  #
 layout_theme = {"border_width": 3,
@@ -149,8 +155,8 @@ layout_theme = {"border_width": 3,
 layouts = [
     layout.Max(),
     layout.MonadTall(**layout_theme),
+    layout.Floating(**layout_theme),
     # layout.Bsp(),
-    # layout.Floating(),
     # layout.Stack(num_stacks=2),
     # layout.Columns(),
     # layout.Matrix(),

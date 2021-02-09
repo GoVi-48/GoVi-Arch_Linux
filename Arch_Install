@@ -115,7 +115,13 @@ reboot
 
 sudo pacman -S xf86-video-amdgpu # AMD
 sudo pacman -S nvidia nvidia-utils nvidia-settings # NVIDIA
-sudo pacman -S alsa-utils feh htop lightdm lightdm-webkit2-greeter lxappearance nautilus nitrogen pavucontrol picom-jonaburg-git qtile rofi xorg xorg-xinit
+sudo pacman -S alsa-utils feh htop lxappearance nautilus nitrogen pavucontrol picom-jonaburg-git qtile xorg xorg-xinit
+
+1sudo pacman -S lightdm lightdm-webkit2-greeter
+git clone https://aur.archlinux.org/yay-git.git
+cd yay && makepkg -si PKGBUILD
+yay paru
+paru lightdm-webkit-theme-aether
 
 systemctl enable lightdm.service
 cp /usr/share/doc/qtile/default_config.py ~/.config/qtile/config.py

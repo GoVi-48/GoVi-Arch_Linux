@@ -27500,3 +27500,624 @@ Traceback (most recent call last):
   File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
     raise error(buf)
 xcffib.xproto.ValueError
+2021-02-09 04:59:32,798 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 04:59:32,852 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 04:59:32,852 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 04:59:33,561 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 04:59:33,618 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 04:59:33,618 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 05:03:38,936 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-09 05:51:51,652 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 10485790
+2021-02-09 06:22:09,767 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 06:26:54,875 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-09 06:27:45,170 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 06:27:45,208 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 06:27:45,208 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 06:27:45,990 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 06:27:46,035 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 06:27:46,035 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 06:30:15,386 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-09 06:30:25,360 ERROR libqtile manager.py:process_key_event():L375 KB command error kill: No object window in path 'window'
+2021-02-09 06:35:10,334 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-09 06:37:50,576 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 234, in <module>
+    Drag([mod], d, "Button1", lazy.window.set_position_floating(),
+NameError: name 'd' is not defined
+2021-02-09 06:37:50,577 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 234, in <module>
+    Drag([mod], d, "Button1", lazy.window.set_position_floating(),
+NameError: name 'd' is not defined
+
+2021-02-09 06:37:55,510 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 234, in <module>
+    Drag([mod], d, "Button1", lazy.window.set_position_floating(),
+NameError: name 'd' is not defined
+2021-02-09 06:37:55,510 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 234, in <module>
+    Drag([mod], d, "Button1", lazy.window.set_position_floating(),
+NameError: name 'd' is not defined
+
+2021-02-09 06:39:44,290 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 234, in <module>
+    Drag([mod, d], "Button1", lazy.window.set_position_floating(),
+NameError: name 'd' is not defined
+2021-02-09 06:39:44,290 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 234, in <module>
+    Drag([mod, d], "Button1", lazy.window.set_position_floating(),
+NameError: name 'd' is not defined
+
+2021-02-09 06:40:29,371 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 06:40:46,724 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 234, in <module>
+    Drag([mod], d, "Button1", lazy.window.set_position_floating(),
+NameError: name 'd' is not defined
+2021-02-09 06:40:46,725 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 234, in <module>
+    Drag([mod], d, "Button1", lazy.window.set_position_floating(),
+NameError: name 'd' is not defined
+
+2021-02-09 06:40:59,209 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 234, in <module>
+    Drag([mod, d], "Button1", lazy.window.set_position_floating(),
+NameError: name 'd' is not defined
+2021-02-09 06:40:59,210 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 234, in <module>
+    Drag([mod, d], "Button1", lazy.window.set_position_floating(),
+NameError: name 'd' is not defined
+
+2021-02-09 06:41:25,895 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 234, in <module>
+    Drag([mod], "Button1", d, lazy.window.set_position_floating(),
+NameError: name 'd' is not defined
+2021-02-09 06:41:25,895 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 234, in <module>
+    Drag([mod], "Button1", d, lazy.window.set_position_floating(),
+NameError: name 'd' is not defined
+
+2021-02-09 06:41:35,904 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 234, in <module>
+    Drag([mod, "Button1"], d, lazy.window.set_position_floating(),
+NameError: name 'd' is not defined
+2021-02-09 06:41:35,905 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 234, in <module>
+    Drag([mod, "Button1"], d, lazy.window.set_position_floating(),
+NameError: name 'd' is not defined
+
+2021-02-09 06:41:49,596 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 06:42:07,107 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: No such modifier: d
+2021-02-09 06:42:19,633 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 234, in <module>
+    Drag([mod], "d", "Button1", lazy.window.set_position_floating(),
+  File "/usr/lib/python3.9/site-packages/libqtile/config.py", line 116, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.9/site-packages/libqtile/config.py", line 101, in __init__
+    self.button_code = int(self.button.replace('Button', ''))
+ValueError: invalid literal for int() with base 10: 'd'
+2021-02-09 06:42:19,634 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 234, in <module>
+    Drag([mod], "d", "Button1", lazy.window.set_position_floating(),
+  File "/usr/lib/python3.9/site-packages/libqtile/config.py", line 116, in __init__
+    super().__init__(*args, **kwargs)
+  File "/usr/lib/python3.9/site-packages/libqtile/config.py", line 101, in __init__
+    self.button_code = int(self.button.replace('Button', ''))
+ValueError: invalid literal for int() with base 10: 'd'
+
+2021-02-09 06:43:22,305 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 08:08:37,291 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(**layout_theme, border_width=0),
+TypeError: libqtile.layout.floating.Floating() got multiple values for keyword argument 'border_width'
+2021-02-09 08:08:37,291 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(**layout_theme, border_width=0),
+TypeError: libqtile.layout.floating.Floating() got multiple values for keyword argument 'border_width'
+
+2021-02-09 08:09:07,212 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(**layout_theme, border_width=0),
+TypeError: libqtile.layout.floating.Floating() got multiple values for keyword argument 'border_width'
+2021-02-09 08:09:07,212 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(**layout_theme, border_width=0),
+TypeError: libqtile.layout.floating.Floating() got multiple values for keyword argument 'border_width'
+
+2021-02-09 08:09:50,014 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 08:17:03,128 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(**layout_theme, border_width=0),
+TypeError: libqtile.layout.floating.Floating() got multiple values for keyword argument 'border_width'
+2021-02-09 08:17:03,129 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(**layout_theme, border_width=0),
+TypeError: libqtile.layout.floating.Floating() got multiple values for keyword argument 'border_width'
+
+2021-02-09 08:18:32,577 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(**layout_theme, border_width=0,),
+TypeError: libqtile.layout.floating.Floating() got multiple values for keyword argument 'border_width'
+2021-02-09 08:18:32,577 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(**layout_theme, border_width=0,),
+TypeError: libqtile.layout.floating.Floating() got multiple values for keyword argument 'border_width'
+
+2021-02-09 08:18:36,205 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(**layout_theme, border_width=0,),
+TypeError: libqtile.layout.floating.Floating() got multiple values for keyword argument 'border_width'
+2021-02-09 08:18:36,206 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(**layout_theme, border_width=0,),
+TypeError: libqtile.layout.floating.Floating() got multiple values for keyword argument 'border_width'
+
+2021-02-09 08:22:24,774 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 08:42:24,849 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(**layout_theme, border_width=0,),
+TypeError: libqtile.layout.floating.Floating() got multiple values for keyword argument 'border_width'
+2021-02-09 08:42:24,850 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(**layout_theme, border_width=0,),
+TypeError: libqtile.layout.floating.Floating() got multiple values for keyword argument 'border_width'
+
+2021-02-09 13:33:04,013 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 156
+    layouts = [rite parameter of multiplevariable
+                    ^
+SyntaxError: invalid syntax
+2021-02-09 13:33:04,013 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 156
+    layouts = [rite parameter of multiplevariable
+                    ^
+SyntaxError: invalid syntax
+
+2021-02-09 13:43:37,518 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 14:01:18,984 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 158, in <module>
+    layout.MonadTall(layout_theme),
+TypeError: __init__() takes 1 positional argument but 2 were given
+2021-02-09 14:01:18,985 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 158, in <module>
+    layout.MonadTall(layout_theme),
+TypeError: __init__() takes 1 positional argument but 2 were given
+
+2021-02-09 14:01:27,889 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 158, in <module>
+    layout.MonadTall(layout_theme),
+TypeError: __init__() takes 1 positional argument but 2 were given
+2021-02-09 14:01:27,890 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 158, in <module>
+    layout.MonadTall(layout_theme),
+TypeError: __init__() takes 1 positional argument but 2 were given
+
+2021-02-09 14:03:18,478 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 160, in <module>
+    layout.MonadTall(layout_theme),
+NameError: name 'layout_theme' is not defined
+2021-02-09 14:03:18,478 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 160, in <module>
+    layout.MonadTall(layout_theme),
+NameError: name 'layout_theme' is not defined
+
+2021-02-09 14:05:08,808 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 161, in <module>
+    layout.MonadTall(layout_theme),
+NameError: name 'layout_theme' is not defined
+2021-02-09 14:05:08,810 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 161, in <module>
+    layout.MonadTall(layout_theme),
+NameError: name 'layout_theme' is not defined
+
+2021-02-09 14:05:38,317 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 14:07:01,301 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 14:09:02,827 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 14:14:02,535 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(layout_theme[:border_width] + layout_theme[border_width-3:]),
+NameError: name 'border_width' is not defined
+2021-02-09 14:14:02,536 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(layout_theme[:border_width] + layout_theme[border_width-3:]),
+NameError: name 'border_width' is not defined
+
+2021-02-09 14:15:42,174 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(layout_theme[:border_width] + layout_theme[border_width: 0]),
+NameError: name 'border_width' is not defined
+2021-02-09 14:15:42,175 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(layout_theme[:border_width] + layout_theme[border_width: 0]),
+NameError: name 'border_width' is not defined
+
+2021-02-09 14:15:57,207 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(layout_theme[border_width: 0]),
+NameError: name 'border_width' is not defined
+2021-02-09 14:15:57,208 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(layout_theme[border_width: 0]),
+NameError: name 'border_width' is not defined
+
+2021-02-09 14:16:10,351 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(*layout_theme[border_width: 0]),
+NameError: name 'border_width' is not defined
+2021-02-09 14:16:10,351 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(*layout_theme[border_width: 0]),
+NameError: name 'border_width' is not defined
+
+2021-02-09 14:16:38,465 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(**layout_theme[border_width: 0]),
+NameError: name 'border_width' is not defined
+2021-02-09 14:16:38,467 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(**layout_theme[border_width: 0]),
+NameError: name 'border_width' is not defined
+
+2021-02-09 14:17:37,588 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(**layout_theme[border_width: 0, ]),
+NameError: name 'border_width' is not defined
+2021-02-09 14:17:37,589 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 159, in <module>
+    layout.Floating(**layout_theme[border_width: 0, ]),
+NameError: name 'border_width' is not defined
+
+2021-02-09 14:19:54,289 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 14:20:48,450 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 158, in <module>
+    layout.MonadTall(layout_theme),
+TypeError: __init__() takes 1 positional argument but 2 were given
+2021-02-09 14:20:48,452 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 158, in <module>
+    layout.MonadTall(layout_theme),
+TypeError: __init__() takes 1 positional argument but 2 were given
+
+2021-02-09 14:20:58,455 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 14:22:52,659 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:22:52,685 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:22:52,685 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:22:53,656 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:22:53,701 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:22:53,701 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:22:57,943 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 14:24:21,280 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 14:24:46,695 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 14:32:47,326 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_down: No such command
+2021-02-09 14:32:47,345 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:32:47,345 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:32:49,664 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_down: No such command
+2021-02-09 14:32:49,696 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:32:49,696 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:32:51,015 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:32:51,023 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:32:51,023 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:32:52,680 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-09 14:32:52,687 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:32:52,687 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:32:53,748 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:32:53,790 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:32:53,791 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:32:54,482 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:32:54,522 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:32:54,522 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:32:57,221 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_down: No such command
+2021-02-09 14:32:57,250 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:32:57,250 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:32:58,158 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_down: No such command
+2021-02-09 14:32:58,168 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:32:58,168 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:33:20,900 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_up: No such command
+2021-02-09 14:33:20,939 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:33:20,939 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:33:22,231 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_up: No such command
+2021-02-09 14:33:22,239 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:33:22,239 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:33:23,110 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_up: No such command
+2021-02-09 14:33:23,122 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:33:23,123 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:33:24,783 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_down: No such command
+2021-02-09 14:33:24,798 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:33:24,799 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:33:25,632 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_down: No such command
+2021-02-09 14:33:25,667 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:33:25,667 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:44:32,288 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:44:32,358 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:44:32,358 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:44:33,055 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:44:33,097 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:44:33,098 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:48:52,859 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-09 14:48:52,868 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:48:52,868 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:48:54,239 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-09 14:48:54,261 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:48:54,261 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:48:56,255 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:48:56,282 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:48:56,282 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:48:57,323 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:48:57,347 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:48:57,347 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:48:59,775 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:48:59,790 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:48:59,791 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:49:01,995 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-09 14:49:02,015 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:49:02,015 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:49:12,374 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:49:12,395 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:49:12,396 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:49:13,526 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:49:13,609 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:49:13,609 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:49:14,510 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:49:14,543 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:49:14,544 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:49:21,087 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-09 14:49:21,098 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:49:21,099 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:49:22,263 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-09 14:49:22,277 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:49:22,277 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:49:23,876 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-09 14:49:23,894 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:49:23,894 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:49:28,579 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-09 14:49:28,641 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:49:28,641 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:51:15,242 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 14:51:19,864 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:51:19,909 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:51:19,909 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:51:20,979 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:51:21,026 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:51:21,026 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:51:21,828 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:51:21,876 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:51:21,876 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:51:22,979 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:51:23,013 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:51:23,013 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:51:25,578 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-09 14:51:25,628 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:51:25,628 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:51:28,458 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-09 14:51:28,483 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:51:28,483 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:53:51,678 ERROR libqtile manager.py:process_key_event():L375 KB command error shuffle_up: No such command
+2021-02-09 14:55:20,405 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-09 14:55:20,423 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:55:20,424 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:55:21,597 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:55:21,631 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:55:21,631 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:55:44,008 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:55:44,015 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:55:44,015 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:55:45,325 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:55:45,348 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:55:45,348 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:55:47,055 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-09 14:55:47,096 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:55:47,096 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:55:55,341 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-09 14:55:55,345 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:55:55,345 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:55:56,675 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-09 14:55:56,691 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 14:55:56,691 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 14:55:57,866 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:55:57,879 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:55:57,879 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:55:58,856 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:55:58,865 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:55:58,866 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 14:56:00,842 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 14:56:00,849 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 14:56:00,849 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 15:15:46,035 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-09 15:16:37,894 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 15:16:37,928 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 15:16:37,928 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 15:16:38,803 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 15:16:38,849 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 15:16:38,849 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command

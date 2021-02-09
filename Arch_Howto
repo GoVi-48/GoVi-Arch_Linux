@@ -20,9 +20,6 @@ sudo pacman -S alacritty audacity exa ffmpeg firefox gimp gparted inkscape kdenl
 sudo pacman -S bc extra-cmake-modules icoutils jdk-openjdk lm_sensors mono nvidia-led packagekit-qt5 unrar zip wget
 
 # AUR packages
-git clone https://aur.archlinux.org/yay-git.git
-cd yay && makepkg -si PKGBUILD
-yay paru
 paru -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke font-manager java-8-openjdk liferea mpc-qt picard skype spotify teamviewer thunar timeshift tiny-media-manager ttf-ms-fonts
 
 # Fonts

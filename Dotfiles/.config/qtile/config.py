@@ -45,20 +45,6 @@ keys = [
     Key([mod, "control"], "k", lazy.layout.shuffle_down(), ),
     Key([mod, "control"], "j", lazy.layout.shuffle_up(), ),
 
-    # Window grow Up
-    Key([mod, "control"], "Up",
-        lazy.layout.grow_up(),
-        lazy.layout.grow(),
-        lazy.layout.increase_ratio(),
-        lazy.layout.delete(), ),
-
-    # Window grow Down
-    Key([mod, "control"], "Down",
-        lazy.layout.grow_down(),
-        lazy.layout.shrink(),
-        lazy.layout.decrease(),
-        lazy.layout.add(), ),
-
     # Window grow Left
     Key([mod, "control"], "Left",
         lazy.layout.grow_left(),
@@ -116,10 +102,11 @@ def window_to_next_group(qtile):
 
 groups = []
 
-group_names = ["1", "2", "3", "4", "5", "6", "7", "8", ]
-group_labels = ["", "", "", "", "", "", "", "", ]
-group_layouts = ["max", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall", "monadtall",
-                 "floating", ]
+group_names = ['1', '2', '3', '4', '5', '6', '7', '8', ]
+group_labels = ['', '', '', '', '', '', '', '', ]
+group_layouts = ['max', 'monadtall', 'monadtall', 'monadtall',
+                 'monadtall', 'monadtall', 'monadtall', 'floating', ]
+
 
 for i in range(len(group_names)):
     groups.append(
@@ -147,18 +134,19 @@ for i in groups:
     ])
 
 # ================================= LAYOUTS =================================  #
-layout_theme = {"border_width": 3,
-                "margin": 11,
-                "border_focus": "#86ACE0",
-                "border_normal": "#305673"
-                }
+layout_theme = {'border_width': 3,
+                'margin': 11,
+                'border_focus': '#86ACE0',
+                'border_normal': '#305673',
+                'single_border_width': 0, }
+
 layouts = [
     layout.Max(),
     layout.MonadTall(**layout_theme),
-    layout.Floating(**layout_theme),
+    layout.Floating(layout_theme, border_width=0),
     # layout.Bsp(),
     # layout.Stack(num_stacks=2),
-    # layout.Columns(),
+    # layout.Columns(),layout_theme
     # layout.Matrix(),
     # layout.MonadWide(),
     # layout.RatioTile(),
@@ -183,12 +171,12 @@ layouts = [
 
 
 widget_defaults = dict(
-    background='#21242B',
-    foreground='#dfdfdf',
-    font='Source Code Pro',
-    fontsize=15,
-    margin=5,
-    padding=3, )
+                background='#21242B',
+                foreground='#dfdfdf',
+                font='Source Code Pro',
+                fontsize=15,
+                margin=5,
+                padding=3,)
 
 extension_defaults = widget_defaults.copy()
 
@@ -204,14 +192,14 @@ screens = [
 
                 widget.GroupBox(font='FontAw4esome',
                                 disable_drag=True,
-                                highlight_method="text",
+                                highlight_method='text',
                                 block_highlight_text_color='#86ACE0',
                                 active='#DFDFDF',
                                 inactive='#717171',),
 
                 widget.Prompt(),
 
-                widget.TaskList(borderwidth=2, border="#5C718E", fontsize=14,
+                widget.TaskList(borderwidth=2, border='#5C718E', fontsize=14,
                                 max_title_width=300, ),
 
                 widget.Systray(),
@@ -231,11 +219,11 @@ screens = [
 
 # Drag floating layouts.
 mouse = [
-    Drag([mod], "Button1", lazy.window.set_position_floating(),
+    Drag([mod], 'Button1', lazy.window.set_position_floating(),
          start=lazy.window.get_position()),
-    Drag([mod], "Button3", lazy.window.set_size_floating(),
+    Drag([mod], 'Button3', lazy.window.set_size_floating(),
          start=lazy.window.get_size()),
-    Click([mod], "Button2", lazy.window.bring_to_front())
+    Click([mod], 'Button2', lazy.window.bring_to_front())
 ]
 
 dgroups_key_binder = None
@@ -260,6 +248,7 @@ floating_layout = layout.Floating(float_rules=[
     {'wname': 'branchdialog'},  # gitk
     {'wname': 'pinentry'},  # GPG key password entry
     {'wmclass': 'ssh-askpass'},  # ssh-askpass
+    {'wmclass': 'ssh-askpass'},
 ])
 auto_fullscreen = True
 focus_on_window_activation = "smart"

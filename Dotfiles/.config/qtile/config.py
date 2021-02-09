@@ -170,14 +170,6 @@ layouts = [
 
 
 # ================================= WIDGETS =================================  #
-def logout(qtile):
-    qtile.cmd_spawn('kill -9 -1')
-
-
-def pavucontrol(qtile):
-    qtile.cmd_spawn('pavucontrol')
-
-
 # def check_network():
 #    try:
 #        socket.create_connection(('Google.com', 80))
@@ -206,7 +198,7 @@ screens = [
             [
                 widget.Image(filename='~/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/apps/64/archlinux.png',
                              margin=0,
-                             mouse_callbacks={'Button1': logout}),
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('kill -9 -1')}),
 
                 widget.CurrentLayoutIcon(scale=0.7),
 
@@ -228,7 +220,7 @@ screens = [
                 #              mouse_callbacks={'Button1': open_url()}),
 
                 widget.Image(filename='~/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/panel/audio-volume-zero-panel.svg',
-                             mouse_callbacks={'Button1': pavucontrol}),
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('pavucontrol')}),
 
                 widget.Clock(fontsize=17, ),
             ],

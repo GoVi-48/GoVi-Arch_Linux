@@ -27308,3 +27308,195 @@ xcffib.xproto.ValueError
 2021-02-09 04:02:56,073 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
 2021-02-09 04:02:56,114 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
 2021-02-09 04:02:56,114 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 04:07:13,548 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 56623110
+2021-02-09 04:07:13,696 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-09 04:07:13,696 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 56623136
+2021-02-09 04:07:41,863 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 67108894
+2021-02-09 04:15:20,464 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 04:15:20,465 ERROR libqtile manager.py:process_key_event():L375 KB command error grow: No such command
+2021-02-09 04:15:20,465 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 04:15:20,465 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 04:15:21,718 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 04:15:21,718 ERROR libqtile manager.py:process_key_event():L375 KB command error grow: No such command
+2021-02-09 04:15:21,718 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 04:15:21,718 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 04:44:51,994 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 04:44:52,045 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 04:44:52,045 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 04:44:54,206 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 04:44:54,265 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 04:44:54,265 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 04:46:00,167 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-09 04:46:00,213 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 04:46:00,213 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 04:46:01,022 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-09 04:46:01,095 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-09 04:46:01,095 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-09 04:46:02,560 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 04:46:02,615 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 04:46:02,615 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 04:46:08,275 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 227
+    mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn(myTerm + ' -e pavucontrol'}),
+                                                                                        ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+2021-02-09 04:46:08,275 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 227
+    mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn(myTerm + ' -e pavucontrol'}),
+                                                                                        ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+
+2021-02-09 04:46:12,106 ERROR libqtile confreader.py:load():L96 Could not import config file '/home/govi/.config/qtile/config.py'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 227
+    mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn(myTerm + ' -e pavucontrol'}),
+                                                                                        ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+2021-02-09 04:46:12,106 ERROR libqtile manager.py:cmd_restart():L1150 Preventing restart because of a configuration error: Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/confreader.py", line 92, in load
+    config = __import__(name)  # noqa: F811
+  File "/home/govi/.config/qtile/config.py", line 227
+    mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn(myTerm + ' -e pavucontrol'}),
+                                                                                        ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+
+2021-02-09 04:47:55,904 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 04:48:15,618 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 04:48:15,663 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 04:48:15,663 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 04:48:16,442 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-09 04:48:16,499 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-09 04:48:16,499 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-09 04:48:40,917 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/bar.py", line 304, in handle_ButtonPress
+    widget.button_press(
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 227, in button_press
+    self.mouse_callbacks[name](self.qtile)
+  File "/home/govi/.config/qtile/config.py", line 227, in <lambda>
+    mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn(myTerm + ' -e pavucontrol')}),
+NameError: name 'myTerm' is not defined
+2021-02-09 04:48:42,772 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/bar.py", line 304, in handle_ButtonPress
+    widget.button_press(
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 227, in button_press
+    self.mouse_callbacks[name](self.qtile)
+  File "/home/govi/.config/qtile/config.py", line 227, in <lambda>
+    mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn(myTerm + ' -e pavucontrol')}),
+NameError: name 'myTerm' is not defined
+2021-02-09 04:48:42,980 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/bar.py", line 304, in handle_ButtonPress
+    widget.button_press(
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 227, in button_press
+    self.mouse_callbacks[name](self.qtile)
+  File "/home/govi/.config/qtile/config.py", line 227, in <lambda>
+    mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn(myTerm + ' -e pavucontrol')}),
+NameError: name 'myTerm' is not defined
+2021-02-09 04:48:43,166 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/bar.py", line 304, in handle_ButtonPress
+    widget.button_press(
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 227, in button_press
+    self.mouse_callbacks[name](self.qtile)
+  File "/home/govi/.config/qtile/config.py", line 227, in <lambda>
+    mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn(myTerm + ' -e pavucontrol')}),
+NameError: name 'myTerm' is not defined
+2021-02-09 04:48:43,366 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/bar.py", line 304, in handle_ButtonPress
+    widget.button_press(
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 227, in button_press
+    self.mouse_callbacks[name](self.qtile)
+  File "/home/govi/.config/qtile/config.py", line 227, in <lambda>
+    mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn(myTerm + ' -e pavucontrol')}),
+NameError: name 'myTerm' is not defined
+2021-02-09 04:49:08,432 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 04:50:28,651 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-09 04:51:05,817 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-09 04:51:39,678 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-09 04:58:13,263 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError

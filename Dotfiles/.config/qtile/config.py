@@ -174,7 +174,7 @@ screens = [
             [
                 widget.Image(filename='~/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/apps/64/archlinux.png',
                              margin=0,
-                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('ulauncher --hide-window &')}),
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('ulauncher --hide-window')}),
 
                 widget.CurrentLayoutIcon(scale=0.7),
 
@@ -192,15 +192,15 @@ screens = [
 
                 widget.Systray(),
 
-                widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/pulseaudio.png',
+                widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/preferences/32/preferences-desktop-sound.svg',
                              mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('pavucontrol')}),
 
-                widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/nvidia.png',
+                widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/nvidia3.png',
                              mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('nvidia-settings')}),
 
-                widget.Clock(fontsize=17, ),
+                widget.Clock(fontsize=18, ),
             ],
-            33,
+            34,
         ),
     ),
 ]
@@ -229,6 +229,7 @@ floating_layout = layout.Floating(float_rules=[
     {'wmclass': 'error'},
     {'wmclass': 'file_progress'},
     {'wmclass': 'notification'},
+    {'wmclass': 'onboard'},
     {'wmclass': 'splash'},
     {'wmclass': 'toolbar'},
     {'wmclass': 'confirmreset'},  # gitk

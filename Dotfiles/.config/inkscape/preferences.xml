@@ -316,7 +316,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -552,10 +552,10 @@
        x="0"
        y="0"
        w="514"
-       h="489"
+       h="441"
        visible="1"
        state="2"
-       placement="5" />
+       placement="2" />
     <group
        id="filtereffects" />
     <group
@@ -578,10 +578,10 @@
        x="0"
        y="0"
        w="514"
-       h="489"
+       h="437"
        visible="1"
        state="2"
-       placement="5" />
+       placement="1" />
     <group
        id="xml"
        panedpos="135"
@@ -632,10 +632,10 @@
        x="0"
        y="0"
        w="514"
-       h="489"
+       h="340"
        visible="1"
        state="2"
-       placement="5" />
+       placement="2" />
     <group
        id="export"
        default=""
@@ -647,7 +647,7 @@
        h="489"
        visible="1"
        state="2"
-       placement="5">
+       placement="1">
       <group
          id="exportarea"
          value="page" />
@@ -711,10 +711,10 @@
        x="0"
        y="0"
        w="514"
-       h="489"
+       h="226"
        visible="1"
        state="2"
-       placement="5" />
+       placement="2" />
     <group
        id="extensioneditor" />
     <group
@@ -738,11 +738,11 @@
        id="objects"
        x="0"
        y="0"
-       w="274"
-       h="660"
+       w="514"
+       h="225"
        visible="1"
        state="2"
-       placement="3" />
+       placement="2" />
     <group
        id="livepatheffect"
        x="0"
@@ -1073,12 +1073,12 @@
      xrayactive="0">
     <group
        width="1920"
-       height="1020"
+       height="1016"
        x="0"
-       y="30"
+       y="34"
        fullscreen="0"
        id="geometry"
-       maximized="1" />
+       maximized="0" />
     <group
        id="XYfront" />
     <group

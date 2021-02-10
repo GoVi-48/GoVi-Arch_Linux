@@ -34,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../.config/polybar/config">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1992">
+            <state relative-caret-position="791">
               <caret line="83" column="104" selection-start-line="83" selection-start-column="104" selection-end-line="83" selection-end-column="104" />
             </state>
           </provider>
@@ -52,7 +52,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
+            <state relative-caret-position="4656">
               <caret line="194" column="121" selection-start-line="194" selection-start-column="121" selection-end-line="194" selection-end-column="121" />
             </state>
           </provider>
@@ -61,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Install">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="797">
+            <state relative-caret-position="617">
               <caret line="174" column="10" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="10" />
             </state>
           </provider>
@@ -70,8 +70,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Howto">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-end-line="47" />
+            <state relative-caret-position="777">
+              <caret line="113" selection-start-line="113" selection-end-line="113" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../.bashrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="102" column="17" lean-forward="true" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -105,11 +114,11 @@
       <find>&quot;</find>
       <find>firefox</find>
       <find>FILEMANAGER</find>
-      <find>vim</find>
       <find>paru -S</find>
       <find>paru</find>
       <find>yay</find>
       <find>$BROWSER</find>
+      <find>vim</find>
     </findStrings>
     <replaceStrings>
       <replace>mkdir -p</replace>
@@ -136,9 +145,9 @@
       <replace>$BROWSER</replace>
       <replace>$FILEMANAGER</replace>
       <replace>neovim</replace>
-      <replace>nvim</replace>
       <replace>paru</replace>
       <replace>firefox</replace>
+      <replace>nvim</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/Shell/Games/_Launch_Scripts</dir>
@@ -188,15 +197,15 @@
       <option value="/Media/Games/PC/STAR WARS Battlefront II/Wine/init.vim" />
       <option value="$PROJECT_DIR$/Shell/Utils/Home_GIT.sh" />
       <option value="$PROJECT_DIR$/../.config/nvim/init.vim" />
-      <option value="$PROJECT_DIR$/../.bashrc" />
       <option value="$PROJECT_DIR$/../.config/polybar/config" />
-      <option value="$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Howto" />
       <option value="$PROJECT_DIR$/../.xinitrc" />
       <option value="$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/set_backround.sh" />
       <option value="$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Install" />
       <option value="$PROJECT_DIR$/../.config/alacritty/alacritty.yml" />
       <option value="$PROJECT_DIR$/../.config/picom/picom.conf" />
       <option value="$PROJECT_DIR$/../.config/qtile/config.py" />
+      <option value="$PROJECT_DIR$/../.bashrc" />
+      <option value="$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Howto" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -216,6 +225,7 @@
     </option>
   </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.6456522" />
       <window_info id="Structure" order="1" weight="0.24891305" />
@@ -499,13 +509,6 @@
     <entry file="file://$PROJECT_DIR$/../.config/nvim/init.vim">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.bashrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="80" column="32" selection-start-line="80" selection-start-column="32" selection-end-line="80" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shell/Utils/Home_GIT.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -552,20 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Media/Games/PC/STAR WARS Battlefront II/Wine/Launch-STAR_WARS_Battlefront_II.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/polybar/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1992">
-          <caret line="83" column="104" selection-start-line="83" selection-start-column="104" selection-end-line="83" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.xinitrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="984">
@@ -575,22 +564,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="194" column="121" lean-forward="true" selection-start-line="194" selection-start-column="121" selection-end-line="194" selection-end-column="121" />
+        <state relative-caret-position="4656">
+          <caret line="194" column="121" selection-start-line="194" selection-start-column="121" selection-end-line="194" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Media/Games/PC/STAR WARS Battlefront II/Wine/Launch-STAR_WARS_Battlefront_II.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/polybar/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="791">
+          <caret line="83" column="104" selection-start-line="83" selection-start-column="104" selection-end-line="83" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.bashrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="102" column="17" lean-forward="true" selection-start-line="102" selection-start-column="17" selection-end-line="102" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Install">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
+        <state relative-caret-position="617">
           <caret line="174" column="10" selection-start-line="174" selection-start-column="10" selection-end-line="174" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Howto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="46" column="11" lean-forward="true" selection-start-line="46" selection-end-line="47" />
+        <state relative-caret-position="777">
+          <caret line="113" selection-start-line="113" selection-end-line="113" selection-end-column="10" />
         </state>
       </provider>
     </entry>

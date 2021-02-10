@@ -49,7 +49,7 @@ shopt -s autocd
 
 # Colors
 unset color_prompt force_color_prompt
-export PS1="[\[\e[1;33m\]\u\[\e[1;37m\]@\[\e[1;32m\]\h\[\e[0;31m\]:\[\e[1;34m\]\w\[\e[m\]]\[\e[1;37m\]$ \[\e[m\]"
+export PS1="\[\e[0;31m\][\[\e[1;33m\]\u\[\e[1;37m\]@\[\e[1;32m\]\h\[\e[1;37m\]:\[\e[1;34m\]\w\[\e[0;31m\]]\[\e[1;37m\]$ \[\e[m\]"
 alias grep="grep --color=auto"
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
@@ -71,14 +71,14 @@ alias l="exa -al --color=always --group-directories-first"
 alias ht="htop"
 alias hy="history"
 alias mv="mv -fv"
-alias nv="nvim && clear"
+alias nv="nvim"
 alias pm="pacman"
 alias pu="paru"
 alias py="python3"
 alias rm="rm -rfv"
 alias spm="sudo pacman"
 alias sth="sort -h"
-alias snv="sudo -E nvim && clear"
+alias snv="sudo -E nvim"
 alias wrt="wrestool -x --output=. -t14"
 alias yt="youtube-dl --add-metadata -ic"
 
@@ -103,7 +103,7 @@ export TERM="xterm-color"
 export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
 export CLICOLOR=1
 export EDITOR="nvim"
-export VISUAL=$EDITOR
+export VISUAL="nvim"
 export PATH=$PATH:$HOME/Scripts/Shell/
 export PATH=$PATH:$HOME/Scripts/Shell/Autostart/
 export PATH=$PATH:$HOME/Scripts/Shell/Games/

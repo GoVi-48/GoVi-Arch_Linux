@@ -29700,3 +29700,9 @@ Traceback (most recent call last):
   File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
     raise error(buf)
 xcffib.xproto.ValueError
+2021-02-10 13:22:39,613 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-10 13:22:39,660 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-10 13:22:39,660 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-10 13:35:23,251 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-10 13:35:23,283 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-10 13:35:23,283 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command

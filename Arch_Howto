@@ -4,7 +4,7 @@
 # ============================================================================= # #
 
 # Repositories
-sudo vim /etc/pacman.conf
+sudo nvim /etc/pacman.conf
 # ======================================================================================= #
 CacheDir    = /Datos/pacman_cache
 Color
@@ -58,7 +58,7 @@ paru kodi-addon-pvr-iptvsimple
 lsblk
 sudo blkid
 
-sudo vim /etc/fstab
+sudo nvim /etc/fstab
 # ======================================================================================= #
 # /dev/sda5 (boot)
 UUID=7DB8-60AC                              /boot       vfat    rw,relatime,fmask=0022,dmask=0022,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro	0 1
@@ -102,12 +102,12 @@ systemctl enable --now cronie.service
 crontab -e
 # ======================================================================================= #
 MAILTO=""
-00 00 * * * ~/Scripts/Bash/Utils/Webgrab_GIT.sh > ~/Programas/Webgrab++/webgrab.log
-00 12 * * * ~/Scripts/Bash/Utils/Webgrab_GIT.sh > ~/Programas/Webgrab++/webgrab.log
+00 00 * * * ~/Scripts/Shell/Utils/Webgrab_GIT.sh > ~/Programas/Webgrab++/webgrab.log
+00 12 * * * ~/Scripts/Shell/Utils/Webgrab_GIT.sh > ~/Programas/Webgrab++/webgrab.log
 */20  * * * * ~/.config/polybar/scripts/rss_games.sh
 */30 * * * * ~/.config/polybar/scripts/rss_youtube.sh
 0 */1 * * * ~/.config/polybar/scripts/rss_github.sh
-*/4 * * * * nitrogen --set-zoom-fill --random ~/Imágenes/Wallpapers/Desktop --save
+*/4 * * * * ~/Scripts/Shell/Utils/set_backround.sh
 # ======================================================================================= #
 
 
@@ -121,7 +121,7 @@ crontab -l
 sudo pacman -S imwheel
 xprop WM_CLASS | grep -o '"[^"]*"' | head -n 1 # click on window for output
 
-sudo vim ~/.imwheelrc
+sudo nvim ~/.imwheelrc
 # ======================================================================================= #
 "^firefox$"
     None, Up, Button4, 2
@@ -143,16 +143,17 @@ qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invoke
 # ============================================================================= #
 
 # Sudoers
-sudo vim /etc/sudoers
+sudo ln -s /usr/bin/nvim /usr/bin/vi
+sudo visudo
 # ======================================================================================= #
 %wheel ALL=(ALL) ALL
 Defaults env_reset,pwfeedback
-Defaults editor=/usr/bin/vim, !env_editor
+Defaults editor=/usr/bin/nvim, !env_editor
 # ======================================================================================= #
 
 
 # Tuning PulseAudio
-sudo vim /etc/pulse/daemon.conf
+sudo nvim /etc/pulse/daemon.conf
 # ======================================================================================= #
 high-priority = yes
 nice-level = -11
@@ -167,7 +168,7 @@ sudo groupadd -r autologin
 sudo gpasswd -a "username" autologin
 sudo pacman -S numlockx
 
-sudo vim /etc/lightdm/lightdm.conf
+sudo nvim /etc/lightdm/lightdm.conf
 # ======================================================================================= #
 greeter-setup-script=/usr/bin/numlockx on
 autologin-guest=false

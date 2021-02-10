@@ -5,13 +5,12 @@
 # Si elimina todos los archivos session*, SpaceFM se restablecerá a la configuración predeterminada.
 
 [General]
-show_thumbnail=1
 big_icon_size=64
 tool_icon_size=4
 
 [Window]
-width=1920
-height=1016
+width=1898
+height=994
 maximized=0
 
 [Desktop]
@@ -70,7 +69,7 @@ main_terminal-key=65473
 main_save_tabs-b=1
 main_exit-key=113
 main_exit-keymod=4
-panel1_show-s=////home/govi////home/govi/.local/share/icons/GoVi_gtk-Icons/preferences/32
+panel1_show-s=////home/govi////usr/bin
 panel1_show-x=1
 panel1_show-key=49
 panel1_show-keymod=4
@@ -248,6 +247,7 @@ prop_info-keymod=8
 prop_perm-key=112
 prop_perm-keymod=4
 panel1_show_toolbox-b=1
+panel1_show_dirtree-b=1
 panel1_show_book-b=1
 panel1_show_sidebar-b=2
 panel1_list_detailed-b=2

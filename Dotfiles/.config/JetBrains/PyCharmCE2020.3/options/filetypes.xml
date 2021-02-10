@@ -4,10 +4,12 @@
     <extensionMap>
       <mapping pattern="urls" type="ARCHIVE" />
       <mapping pattern="Install_DXVK" type="AUTO_DETECTED" />
+      <mapping pattern="sudoers" type="AUTO_DETECTED" />
       <mapping ext="exe" type="GitExclude file" />
       <mapping pattern="config" type="Ini" />
       <mapping pattern="skydrow" type="PLAIN_TEXT" />
       <mapping pattern=".data" type="PLAIN_TEXT" />
+      <mapping ext="tmp" type="PLAIN_TEXT" />
       <mapping ext="log" type="PLAIN_TEXT" />
       <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="rc" type="PLAIN_TEXT" />

@@ -2,7 +2,7 @@
 
 if ping -c5 google.com > /dev/null 2>&1; then
 
-    UPDATES_AUR=$(yay -Qua | wc -l)
+    UPDATES_AUR=$(paru -Qua | wc -l)
     NOTF_SOUND=~/.config/polybar/scripts/notf_sound
 
     if [ "$UPDATES_AUR" -eq 0 ]; then

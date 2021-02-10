@@ -1,355 +1,349 @@
-2021-02-10 13:18:29,216 | INFO | ulauncher: main() | Ulauncher version 5.10.0
-2021-02-10 13:18:29,217 | INFO | ulauncher: main() | Extension API version 2.0.0
-2021-02-10 13:18:29,217 | INFO | ulauncher: main() | GTK+ 3.24.24
-2021-02-10 13:18:29,217 | INFO | ulauncher: main() | Is Wayland: False
-2021-02-10 13:18:29,217 | INFO | ulauncher: main() | Wayland compatibility: off
-2021-02-10 13:18:29,226 | DEBUG | ulauncher.ui.windows.Builder: __init__() | consider using a pythonic name instead of design name 'input-box'
-2021-02-10 13:18:29,228 | DEBUG | ulauncher.ui.windows.Builder: do_connect() | connect builder by name 'ulauncher_window','destroy', 'on_destroy'
-2021-02-10 13:18:29,228 | DEBUG | ulauncher.ui.windows.Builder: do_connect() | connect builder by name 'ulauncher_window','focus_in_event', 'on_focus_in_event'
-2021-02-10 13:18:29,228 | DEBUG | ulauncher.ui.windows.Builder: do_connect() | connect builder by name 'ulauncher_window','focus_out_event', 'on_focus_out_event'
-2021-02-10 13:18:29,229 | DEBUG | ulauncher.ui.windows.Builder: do_connect() | connect builder by name 'input','key_press_event', 'on_input_key_press_event'
-2021-02-10 13:18:29,229 | DEBUG | ulauncher.ui.windows.Builder: log_unconnected_functions() | Not connected to builder 'on_input_changed'
-2021-02-10 13:18:29,229 | DEBUG | ulauncher.ui.windows.Builder: log_unconnected_functions() | Not connected to builder 'on_mnu_about_activate'
-2021-02-10 13:18:29,229 | DEBUG | ulauncher.ui.windows.Builder: log_unconnected_functions() | Not connected to builder 'on_mnu_close_activate'
-2021-02-10 13:18:29,229 | DEBUG | ulauncher.ui.windows.Builder: log_unconnected_functions() | Not connected to builder 'on_mnu_preferences_activate'
-2021-02-10 13:18:29,229 | DEBUG | ulauncher.ui.windows.Builder: log_unconnected_functions() | Not connected to builder 'on_preferences_dialog_destroyed'
-2021-02-10 13:18:29,230 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
-2021-02-10 13:18:29,230 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 1920, H: 1080
-2021-02-10 13:18:29,244 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 0 results
-2021-02-10 13:18:29,246 | INFO | ulauncher.api.server.ExtensionServer: _start_thread() | Starting WS server on port 5054
-2021-02-10 13:18:29,248 | INFO | ulauncher.search.apps.app_watcher: start() | Started scanning desktop dirs
-2021-02-10 13:18:29,258 | DEBUG | ulauncher.utils.semver: parse_range() | range ^2.0.0 False
-2021-02-10 13:18:29,258 | DEBUG | ulauncher.utils.semver: parse_range() | hyphen replace ^2.0.0
-2021-02-10 13:18:29,258 | DEBUG | ulauncher.utils.semver: parse_range() | comparator trim ^2.0.0, re.compile('(\\s*)((?:<|>)?=?)\\s*([v=\\s]*([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-?((?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*)(?:\\.(?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?|[v, re.MULTILINE)
-2021-02-10 13:18:29,258 | DEBUG | ulauncher.utils.semver: parse_comparator() | comp ^2.0.0
-2021-02-10 13:18:29,258 | DEBUG | ulauncher.utils.semver: repl() | caret ^2.0.0 ^2.0.0 2 0 0 None
-2021-02-10 13:18:29,258 | DEBUG | ulauncher.utils.semver: repl() | caret return >=2.0.0 <3.0.0
-2021-02-10 13:18:29,258 | DEBUG | ulauncher.utils.semver: parse_comparator() | caret >=2.0.0 <3.0.0
-2021-02-10 13:18:29,258 | DEBUG | ulauncher.utils.semver: parse_comparator() | tildes >=2.0.0 <3.0.0
-2021-02-10 13:18:29,258 | DEBUG | ulauncher.utils.semver: replace_xranges() | replaceXRanges >=2.0.0 <3.0.0 False
-2021-02-10 13:18:29,258 | DEBUG | ulauncher.utils.semver: repl() | xrange >=2.0.0 >=2.0.0 >= 2 0 0 None
-2021-02-10 13:18:29,258 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=>= any_x=False
-2021-02-10 13:18:29,258 | DEBUG | ulauncher.utils.semver: repl() | xRange return >=2.0.0
-2021-02-10 13:18:29,258 | DEBUG | ulauncher.utils.semver: repl() | xrange <3.0.0 <3.0.0 < 3 0 0 None
-2021-02-10 13:18:29,258 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=< any_x=False
-2021-02-10 13:18:29,258 | DEBUG | ulauncher.utils.semver: repl() | xRange return <3.0.0
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: parse_comparator() | xrange >=2.0.0 <3.0.0
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: replace_stars() | replaceStars >=2.0.0 <3.0.0 False
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: parse_comparator() | stars >=2.0.0 <3.0.0
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: __init__() | comparator: >=2.0.0 False
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: parse() | parse comp=>=2.0.0
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: __init__() | comparator: <3.0.0 False
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: parse() | parse comp=<3.0.0
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 3.0.0, False
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: format() | Range format >=2.0.0 <3.0.0
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: cmp() | cmp: >=
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 2.0.0
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: compare() | compare result 0
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: cmp() | cmp: <
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 3.0.0
-2021-02-10 13:18:29,259 | DEBUG | ulauncher.utils.semver: compare() | compare result -1
-2021-02-10 13:18:29,261 | DEBUG | ulauncher.utils.semver: parse_range() | range ^2.0.0 False
-2021-02-10 13:18:29,261 | DEBUG | ulauncher.utils.semver: parse_range() | hyphen replace ^2.0.0
-2021-02-10 13:18:29,261 | DEBUG | ulauncher.utils.semver: parse_range() | comparator trim ^2.0.0, re.compile('(\\s*)((?:<|>)?=?)\\s*([v=\\s]*([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-?((?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*)(?:\\.(?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?|[v, re.MULTILINE)
-2021-02-10 13:18:29,261 | DEBUG | ulauncher.utils.semver: parse_comparator() | comp ^2.0.0
-2021-02-10 13:18:29,261 | DEBUG | ulauncher.utils.semver: repl() | caret ^2.0.0 ^2.0.0 2 0 0 None
-2021-02-10 13:18:29,262 | INFO | ulauncher.api.server.ExtensionRunner: _run_process() | Extension "com.github.mikebarkmin.ulauncher-duckduckgo" started. PID 862
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: repl() | caret return >=2.0.0 <3.0.0
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: parse_comparator() | caret >=2.0.0 <3.0.0
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: parse_comparator() | tildes >=2.0.0 <3.0.0
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: replace_xranges() | replaceXRanges >=2.0.0 <3.0.0 False
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: repl() | xrange >=2.0.0 >=2.0.0 >= 2 0 0 None
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=>= any_x=False
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: repl() | xRange return >=2.0.0
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: repl() | xrange <3.0.0 <3.0.0 < 3 0 0 None
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=< any_x=False
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: repl() | xRange return <3.0.0
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: parse_comparator() | xrange >=2.0.0 <3.0.0
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: replace_stars() | replaceStars >=2.0.0 <3.0.0 False
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: parse_comparator() | stars >=2.0.0 <3.0.0
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: __init__() | comparator: >=2.0.0 False
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: parse() | parse comp=>=2.0.0
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: __init__() | comparator: <3.0.0 False
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: parse() | parse comp=<3.0.0
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 3.0.0, False
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: format() | Range format >=2.0.0 <3.0.0
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: cmp() | cmp: >=
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 2.0.0
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: compare() | compare result 0
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
-2021-02-10 13:18:29,262 | DEBUG | ulauncher.utils.semver: cmp() | cmp: <
-2021-02-10 13:18:29,263 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 3.0.0
-2021-02-10 13:18:29,263 | DEBUG | ulauncher.utils.semver: compare() | compare result -1
-2021-02-10 13:18:29,265 | INFO | ulauncher.api.server.ExtensionRunner: _run_process() | Extension "com.github.yannishuber.pass-ulauncher" started. PID 864
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: parse_range() | range ^2.0.0 False
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: parse_range() | hyphen replace ^2.0.0
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: parse_range() | comparator trim ^2.0.0, re.compile('(\\s*)((?:<|>)?=?)\\s*([v=\\s]*([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-?((?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*)(?:\\.(?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?|[v, re.MULTILINE)
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: parse_comparator() | comp ^2.0.0
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: repl() | caret ^2.0.0 ^2.0.0 2 0 0 None
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: repl() | caret return >=2.0.0 <3.0.0
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: parse_comparator() | caret >=2.0.0 <3.0.0
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: parse_comparator() | tildes >=2.0.0 <3.0.0
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: replace_xranges() | replaceXRanges >=2.0.0 <3.0.0 False
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: repl() | xrange >=2.0.0 >=2.0.0 >= 2 0 0 None
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=>= any_x=False
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: repl() | xRange return >=2.0.0
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: repl() | xrange <3.0.0 <3.0.0 < 3 0 0 None
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=< any_x=False
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: repl() | xRange return <3.0.0
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: parse_comparator() | xrange >=2.0.0 <3.0.0
-2021-02-10 13:18:29,265 | DEBUG | ulauncher.utils.semver: replace_stars() | replaceStars >=2.0.0 <3.0.0 False
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: parse_comparator() | stars >=2.0.0 <3.0.0
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: __init__() | comparator: >=2.0.0 False
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: parse() | parse comp=>=2.0.0
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: __init__() | comparator: <3.0.0 False
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: parse() | parse comp=<3.0.0
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 3.0.0, False
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: format() | Range format >=2.0.0 <3.0.0
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: cmp() | cmp: >=
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 2.0.0
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: compare() | compare result 0
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: cmp() | cmp: <
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 3.0.0
-2021-02-10 13:18:29,266 | DEBUG | ulauncher.utils.semver: compare() | compare result -1
-2021-02-10 13:18:29,268 | DEBUG | ulauncher.utils.semver: parse_range() | range ^2.0.0 False
-2021-02-10 13:18:29,268 | DEBUG | ulauncher.utils.semver: parse_range() | hyphen replace ^2.0.0
-2021-02-10 13:18:29,268 | DEBUG | ulauncher.utils.semver: parse_range() | comparator trim ^2.0.0, re.compile('(\\s*)((?:<|>)?=?)\\s*([v=\\s]*([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-?((?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*)(?:\\.(?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?|[v, re.MULTILINE)
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: parse_comparator() | comp ^2.0.0
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: repl() | caret ^2.0.0 ^2.0.0 2 0 0 None
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: repl() | caret return >=2.0.0 <3.0.0
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: parse_comparator() | caret >=2.0.0 <3.0.0
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: parse_comparator() | tildes >=2.0.0 <3.0.0
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: replace_xranges() | replaceXRanges >=2.0.0 <3.0.0 False
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: repl() | xrange >=2.0.0 >=2.0.0 >= 2 0 0 None
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=>= any_x=False
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: repl() | xRange return >=2.0.0
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: repl() | xrange <3.0.0 <3.0.0 < 3 0 0 None
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=< any_x=False
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: repl() | xRange return <3.0.0
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: parse_comparator() | xrange >=2.0.0 <3.0.0
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: replace_stars() | replaceStars >=2.0.0 <3.0.0 False
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: parse_comparator() | stars >=2.0.0 <3.0.0
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: __init__() | comparator: >=2.0.0 False
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: parse() | parse comp=>=2.0.0
-2021-02-10 13:18:29,269 | INFO | ulauncher.api.server.ExtensionRunner: _run_process() | Extension "com.github.briceio.ulauncher-baloo" started. PID 866
-2021-02-10 13:18:29,269 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
-2021-02-10 13:18:29,270 | DEBUG | ulauncher.utils.semver: __init__() | comparator: <3.0.0 False
-2021-02-10 13:18:29,270 | DEBUG | ulauncher.utils.semver: parse() | parse comp=<3.0.0
-2021-02-10 13:18:29,270 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 3.0.0, False
-2021-02-10 13:18:29,270 | DEBUG | ulauncher.utils.semver: format() | Range format >=2.0.0 <3.0.0
-2021-02-10 13:18:29,270 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
-2021-02-10 13:18:29,270 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
-2021-02-10 13:18:29,270 | DEBUG | ulauncher.utils.semver: cmp() | cmp: >=
-2021-02-10 13:18:29,270 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 2.0.0
-2021-02-10 13:18:29,270 | DEBUG | ulauncher.utils.semver: compare() | compare result 0
-2021-02-10 13:18:29,270 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
-2021-02-10 13:18:29,270 | DEBUG | ulauncher.utils.semver: cmp() | cmp: <
-2021-02-10 13:18:29,270 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 3.0.0
-2021-02-10 13:18:29,270 | DEBUG | ulauncher.utils.semver: compare() | compare result -1
-2021-02-10 13:18:29,271 | DEBUG | ulauncher.utils.semver: parse_range() | range 2 False
-2021-02-10 13:18:29,271 | DEBUG | ulauncher.utils.semver: parse_range() | hyphen replace 2
-2021-02-10 13:18:29,271 | DEBUG | ulauncher.utils.semver: parse_range() | comparator trim 2, re.compile('(\\s*)((?:<|>)?=?)\\s*([v=\\s]*([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-?((?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*)(?:\\.(?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?|[v, re.MULTILINE)
-2021-02-10 13:18:29,271 | DEBUG | ulauncher.utils.semver: parse_comparator() | comp 2
-2021-02-10 13:18:29,271 | DEBUG | ulauncher.utils.semver: parse_comparator() | caret 2
-2021-02-10 13:18:29,271 | DEBUG | ulauncher.utils.semver: parse_comparator() | tildes 2
-2021-02-10 13:18:29,271 | DEBUG | ulauncher.utils.semver: replace_xranges() | replaceXRanges 2 False
-2021-02-10 13:18:29,271 | DEBUG | ulauncher.utils.semver: repl() | xrange 2 2  2 None None None
-2021-02-10 13:18:29,271 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt= any_x=True
-2021-02-10 13:18:29,271 | DEBUG | ulauncher.utils.semver: repl() | xRange return >=2.0.0 <3.0.0
-2021-02-10 13:18:29,271 | DEBUG | ulauncher.utils.semver: parse_comparator() | xrange >=2.0.0 <3.0.0
-2021-02-10 13:18:29,271 | DEBUG | ulauncher.utils.semver: replace_stars() | replaceStars >=2.0.0 <3.0.0 False
-2021-02-10 13:18:29,271 | DEBUG | ulauncher.utils.semver: parse_comparator() | stars >=2.0.0 <3.0.0
-2021-02-10 13:18:29,272 | DEBUG | ulauncher.utils.semver: __init__() | comparator: >=2.0.0 False
-2021-02-10 13:18:29,272 | DEBUG | ulauncher.utils.semver: parse() | parse comp=>=2.0.0
-2021-02-10 13:18:29,273 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
-2021-02-10 13:18:29,273 | DEBUG | ulauncher.utils.semver: __init__() | comparator: <3.0.0 False
-2021-02-10 13:18:29,273 | DEBUG | ulauncher.utils.semver: parse() | parse comp=<3.0.0
-2021-02-10 13:18:29,273 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 3.0.0, False
-2021-02-10 13:18:29,273 | DEBUG | ulauncher.utils.semver: format() | Range format >=2.0.0 <3.0.0
-2021-02-10 13:18:29,274 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
-2021-02-10 13:18:29,274 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
-2021-02-10 13:18:29,274 | DEBUG | ulauncher.utils.semver: cmp() | cmp: >=
-2021-02-10 13:18:29,274 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 2.0.0
-2021-02-10 13:18:29,274 | DEBUG | ulauncher.utils.semver: compare() | compare result 0
-2021-02-10 13:18:29,274 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
-2021-02-10 13:18:29,274 | DEBUG | ulauncher.utils.semver: cmp() | cmp: <
-2021-02-10 13:18:29,274 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 3.0.0
-2021-02-10 13:18:29,274 | DEBUG | ulauncher.utils.semver: compare() | compare result -1
-2021-02-10 13:18:29,277 | INFO | ulauncher.api.server.ExtensionRunner: _run_process() | Extension "com.github.friday.ulauncher-clipboard" started. PID 870
-2021-02-10 13:18:29,278 | DEBUG | ulauncher.utils.semver: parse_range() | range ^2.0.0 False
-2021-02-10 13:18:29,278 | DEBUG | ulauncher.utils.semver: parse_range() | hyphen replace ^2.0.0
-2021-02-10 13:18:29,278 | DEBUG | ulauncher.utils.semver: parse_range() | comparator trim ^2.0.0, re.compile('(\\s*)((?:<|>)?=?)\\s*([v=\\s]*([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-?((?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*)(?:\\.(?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?|[v, re.MULTILINE)
-2021-02-10 13:18:29,278 | DEBUG | ulauncher.utils.semver: parse_comparator() | comp ^2.0.0
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: repl() | caret ^2.0.0 ^2.0.0 2 0 0 None
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: repl() | caret return >=2.0.0 <3.0.0
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: parse_comparator() | caret >=2.0.0 <3.0.0
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: parse_comparator() | tildes >=2.0.0 <3.0.0
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: replace_xranges() | replaceXRanges >=2.0.0 <3.0.0 False
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: repl() | xrange >=2.0.0 >=2.0.0 >= 2 0 0 None
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=>= any_x=False
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: repl() | xRange return >=2.0.0
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: repl() | xrange <3.0.0 <3.0.0 < 3 0 0 None
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=< any_x=False
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: repl() | xRange return <3.0.0
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: parse_comparator() | xrange >=2.0.0 <3.0.0
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: replace_stars() | replaceStars >=2.0.0 <3.0.0 False
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: parse_comparator() | stars >=2.0.0 <3.0.0
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: __init__() | comparator: >=2.0.0 False
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: parse() | parse comp=>=2.0.0
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: __init__() | comparator: <3.0.0 False
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: parse() | parse comp=<3.0.0
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 3.0.0, False
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: format() | Range format >=2.0.0 <3.0.0
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: cmp() | cmp: >=
-2021-02-10 13:18:29,279 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 2.0.0
-2021-02-10 13:18:29,280 | DEBUG | ulauncher.utils.semver: compare() | compare result 0
-2021-02-10 13:18:29,280 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
-2021-02-10 13:18:29,280 | DEBUG | ulauncher.utils.semver: cmp() | cmp: <
-2021-02-10 13:18:29,280 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 3.0.0
-2021-02-10 13:18:29,280 | DEBUG | ulauncher.utils.semver: compare() | compare result -1
-2021-02-10 13:18:29,283 | INFO | ulauncher.utils.desktop.reader: find_apps_cached() | Found 66 apps in cache
-2021-02-10 13:18:29,285 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/System Clean.desktop": constructor returned NULL
-2021-02-10 13:18:29,286 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Wine.desktop": constructor returned NULL
-2021-02-10 13:18:29,286 | INFO | ulauncher.api.server.ExtensionRunner: _run_process() | Extension "com.github.isacikgoz.ukill" started. PID 868
-2021-02-10 13:18:29,287 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/steam.desktop": constructor returned NULL
-2021-02-10 13:18:29,289 | DEBUG | ulauncher.utils.semver: parse_range() | range ^2.0.0 False
-2021-02-10 13:18:29,289 | DEBUG | ulauncher.utils.semver: parse_range() | hyphen replace ^2.0.0
-2021-02-10 13:18:29,289 | DEBUG | ulauncher.utils.semver: parse_range() | comparator trim ^2.0.0, re.compile('(\\s*)((?:<|>)?=?)\\s*([v=\\s]*([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-?((?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*)(?:\\.(?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?|[v, re.MULTILINE)
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: parse_comparator() | comp ^2.0.0
-2021-02-10 13:18:29,290 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Home GIT.desktop": constructor returned NULL
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: repl() | caret ^2.0.0 ^2.0.0 2 0 0 None
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: repl() | caret return >=2.0.0 <3.0.0
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: parse_comparator() | caret >=2.0.0 <3.0.0
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: parse_comparator() | tildes >=2.0.0 <3.0.0
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: replace_xranges() | replaceXRanges >=2.0.0 <3.0.0 False
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: repl() | xrange >=2.0.0 >=2.0.0 >= 2 0 0 None
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=>= any_x=False
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: repl() | xRange return >=2.0.0
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: repl() | xrange <3.0.0 <3.0.0 < 3 0 0 None
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=< any_x=False
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: repl() | xRange return <3.0.0
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: parse_comparator() | xrange >=2.0.0 <3.0.0
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: replace_stars() | replaceStars >=2.0.0 <3.0.0 False
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: parse_comparator() | stars >=2.0.0 <3.0.0
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: __init__() | comparator: >=2.0.0 False
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: parse() | parse comp=>=2.0.0
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: __init__() | comparator: <3.0.0 False
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: parse() | parse comp=<3.0.0
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 3.0.0, False
-2021-02-10 13:18:29,290 | DEBUG | ulauncher.utils.semver: format() | Range format >=2.0.0 <3.0.0
-2021-02-10 13:18:29,291 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
-2021-02-10 13:18:29,291 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
-2021-02-10 13:18:29,291 | DEBUG | ulauncher.utils.semver: cmp() | cmp: >=
-2021-02-10 13:18:29,291 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 2.0.0
-2021-02-10 13:18:29,291 | DEBUG | ulauncher.utils.semver: compare() | compare result 0
-2021-02-10 13:18:29,291 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
-2021-02-10 13:18:29,291 | DEBUG | ulauncher.utils.semver: cmp() | cmp: <
-2021-02-10 13:18:29,291 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 3.0.0
-2021-02-10 13:18:29,291 | DEBUG | ulauncher.utils.semver: compare() | compare result -1
-2021-02-10 13:18:29,292 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Games-Uplay.desktop": constructor returned NULL
-2021-02-10 13:18:29,292 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/.desktop": constructor returned NULL
-2021-02-10 13:18:29,293 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Polybar.desktop": constructor returned NULL
-2021-02-10 13:18:29,294 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Epic Games.desktop": constructor returned NULL
-2021-02-10 13:18:29,295 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/lxshortcut.desktop": constructor returned NULL
-2021-02-10 13:18:29,295 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/libfm-pref-apps.desktop": constructor returned NULL
-2021-02-10 13:18:29,295 | INFO | ulauncher.api.server.ExtensionRunner: _run_process() | Extension "com.github.nastuzzisamy.ulauncher-translate" started. PID 872
-2021-02-10 13:18:29,296 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Pass.desktop": constructor returned NULL
-2021-02-10 13:18:29,296 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Pycharm.desktop": constructor returned NULL
-2021-02-10 13:18:29,296 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Bethesda.desktop": constructor returned NULL
-2021-02-10 13:18:29,297 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Emulation Station.desktop": constructor returned NULL
-2021-02-10 13:18:29,297 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/jdownloader.desktop": constructor returned NULL
-2021-02-10 13:18:29,299 | DEBUG | ulauncher.utils.semver: parse_range() | range ^2.0.0 False
-2021-02-10 13:18:29,299 | DEBUG | ulauncher.utils.semver: parse_range() | hyphen replace ^2.0.0
-2021-02-10 13:18:29,299 | DEBUG | ulauncher.utils.semver: parse_range() | comparator trim ^2.0.0, re.compile('(\\s*)((?:<|>)?=?)\\s*([v=\\s]*([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-?((?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*)(?:\\.(?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?|[v, re.MULTILINE)
-2021-02-10 13:18:29,299 | DEBUG | ulauncher.utils.semver: parse_comparator() | comp ^2.0.0
-2021-02-10 13:18:29,299 | DEBUG | ulauncher.utils.semver: repl() | caret ^2.0.0 ^2.0.0 2 0 0 None
-2021-02-10 13:18:29,299 | DEBUG | ulauncher.utils.semver: repl() | caret return >=2.0.0 <3.0.0
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: parse_comparator() | caret >=2.0.0 <3.0.0
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: parse_comparator() | tildes >=2.0.0 <3.0.0
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: replace_xranges() | replaceXRanges >=2.0.0 <3.0.0 False
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: repl() | xrange >=2.0.0 >=2.0.0 >= 2 0 0 None
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=>= any_x=False
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: repl() | xRange return >=2.0.0
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: repl() | xrange <3.0.0 <3.0.0 < 3 0 0 None
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=< any_x=False
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: repl() | xRange return <3.0.0
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: parse_comparator() | xrange >=2.0.0 <3.0.0
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: replace_stars() | replaceStars >=2.0.0 <3.0.0 False
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: parse_comparator() | stars >=2.0.0 <3.0.0
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: __init__() | comparator: >=2.0.0 False
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: parse() | parse comp=>=2.0.0
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: __init__() | comparator: <3.0.0 False
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: parse() | parse comp=<3.0.0
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 3.0.0, False
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: format() | Range format >=2.0.0 <3.0.0
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: cmp() | cmp: >=
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 2.0.0
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: compare() | compare result 0
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: cmp() | cmp: <
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 3.0.0
-2021-02-10 13:18:29,300 | DEBUG | ulauncher.utils.semver: compare() | compare result -1
-2021-02-10 13:18:29,301 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Origin.desktop": constructor returned NULL
-2021-02-10 13:18:29,301 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Photoshop.desktop": constructor returned NULL
-2021-02-10 13:18:29,301 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/GOG.desktop": constructor returned NULL
-2021-02-10 13:18:29,302 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Cemu Emulator.desktop": constructor returned NULL
-2021-02-10 13:18:29,302 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Lutris.desktop": constructor returned NULL
-2021-02-10 13:18:29,303 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/conky.desktop": constructor returned NULL
-2021-02-10 13:18:29,304 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/TeamViewer.desktop": constructor returned NULL
-2021-02-10 13:18:29,304 | INFO | ulauncher.api.server.ExtensionRunner: _run_process() | Extension "com.github.nastuzzisamy.ulauncher-custom-scripts" started. PID 874
-2021-02-10 13:18:29,308 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/usr/share/applications/org.kde.kded5.desktop": constructor returned NULL
-2021-02-10 13:18:29,312 | INFO | ulauncher.utils.desktop.reader: find_apps_cached() | Found 66 apps in the system
-2021-02-10 13:18:29,312 | INFO | ulauncher.search.apps.app_watcher: start() | Scanned desktop dirs in 0.06 seconds
-2021-02-10 13:18:29,319 | INFO | ulauncher.api.server.ExtensionRunner: _run_process() | Extension "com.github.nastuzzisamy.ulauncher-youtube-search" started. PID 877
-2021-02-10 13:18:29,331 | INFO | ulauncher.ui.windows.UlauncherWindow: bind_show_app_hotkey() | Trying to bind app hotkey: <Primary>space
-2021-02-10 13:18:29,338 | DEBUG | ulauncher.search.apps.app_watcher: start() | Start watching desktop files...
-2021-02-10 13:18:29,508 | INFO | ulauncher.api.server.ExtensionController: handleConnected() | Extension "com.github.nastuzzisamy.ulauncher-custom-scripts" connected
-2021-02-10 13:18:29,509 | DEBUG | ulauncher.api.server.ExtensionController: _send_event() | Send event PreferencesEvent to "com.github.nastuzzisamy.ulauncher-custom-scripts"
-2021-02-10 13:18:29,559 | INFO | ulauncher.api.server.ExtensionController: handleConnected() | Extension "com.github.briceio.ulauncher-baloo" connected
-2021-02-10 13:18:29,560 | DEBUG | ulauncher.api.server.ExtensionController: _send_event() | Send event PreferencesEvent to "com.github.briceio.ulauncher-baloo"
-2021-02-10 13:18:29,564 | INFO | ulauncher.api.server.ExtensionController: handleConnected() | Extension "com.github.isacikgoz.ukill" connected
-2021-02-10 13:18:29,564 | DEBUG | ulauncher.api.server.ExtensionController: _send_event() | Send event PreferencesEvent to "com.github.isacikgoz.ukill"
-2021-02-10 13:18:29,576 | INFO | ulauncher.api.server.ExtensionController: handleConnected() | Extension "com.github.friday.ulauncher-clipboard" connected
-2021-02-10 13:18:29,577 | DEBUG | ulauncher.api.server.ExtensionController: _send_event() | Send event PreferencesEvent to "com.github.friday.ulauncher-clipboard"
-2021-02-10 13:18:29,595 | INFO | ulauncher.api.server.ExtensionController: handleConnected() | Extension "com.github.mikebarkmin.ulauncher-duckduckgo" connected
-2021-02-10 13:18:29,595 | DEBUG | ulauncher.api.server.ExtensionController: _send_event() | Send event PreferencesEvent to "com.github.mikebarkmin.ulauncher-duckduckgo"
-2021-02-10 13:18:29,620 | INFO | ulauncher.api.server.ExtensionController: handleConnected() | Extension "com.github.yannishuber.pass-ulauncher" connected
-2021-02-10 13:18:29,621 | DEBUG | ulauncher.api.server.ExtensionController: _send_event() | Send event PreferencesEvent to "com.github.yannishuber.pass-ulauncher"
-2021-02-10 13:18:29,621 | INFO | ulauncher.api.server.ExtensionController: handleConnected() | Extension "com.github.nastuzzisamy.ulauncher-translate" connected
-2021-02-10 13:18:29,621 | DEBUG | ulauncher.api.server.ExtensionController: _send_event() | Send event PreferencesEvent to "com.github.nastuzzisamy.ulauncher-translate"
-2021-02-10 13:18:29,689 | INFO | ulauncher.api.server.ExtensionController: handleConnected() | Extension "com.github.nastuzzisamy.ulauncher-youtube-search" connected
-2021-02-10 13:18:29,690 | DEBUG | ulauncher.api.server.ExtensionController: _send_event() | Send event PreferencesEvent to "com.github.nastuzzisamy.ulauncher-youtube-search"
-2021-02-10 13:18:30,477 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
-2021-02-10 13:18:30,478 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 1920, H: 1080
-2021-02-10 13:18:30,478 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 0 results
-2021-02-10 13:18:30,485 | DEBUG | ulauncher.ui.windows.UlauncherWindow: on_focus_in_event() | Focus in event, grabbing pointer: <enum GDK_GRAB_SUCCESS of type Gdk.GrabStatus>
-2021-02-10 13:18:34,522 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 1 results
-2021-02-10 13:18:36,420 | DEBUG | ulauncher.api.shared.action.RunScriptAction: run() | Running a script from /tmp/ulauncher_RunScript_s5jh5iyk
-2021-02-10 13:18:36,447 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 0 results
-2021-02-10 13:18:37,423 | DEBUG | ulauncher.api.shared.action.RunScriptAction: remove_temp_file() | Deleting a temporary file /tmp/ulauncher_RunScript_s5jh5iyk
-2021-02-10 14:04:12,885 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
-2021-02-10 14:04:12,886 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 1920, H: 1080
-2021-02-10 14:04:12,886 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 0 results
-2021-02-10 14:04:12,925 | DEBUG | ulauncher.ui.windows.UlauncherWindow: on_focus_in_event() | Focus in event, grabbing pointer: <enum GDK_GRAB_SUCCESS of type Gdk.GrabStatus>
-2021-02-10 14:04:17,711 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 1 results
-2021-02-10 14:04:19,630 | DEBUG | ulauncher.api.shared.action.RunScriptAction: run() | Running a script from /tmp/ulauncher_RunScript_nwnf16pb
-2021-02-10 14:04:19,655 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 0 results
-2021-02-10 14:04:20,634 | DEBUG | ulauncher.api.shared.action.RunScriptAction: remove_temp_file() | Deleting a temporary file /tmp/ulauncher_RunScript_nwnf16pb
+2021-02-10 18:47:05,987 | INFO | ulauncher: main() | Ulauncher version 5.10.0
+2021-02-10 18:47:05,987 | INFO | ulauncher: main() | Extension API version 2.0.0
+2021-02-10 18:47:05,987 | INFO | ulauncher: main() | GTK+ 3.24.24
+2021-02-10 18:47:05,987 | INFO | ulauncher: main() | Is Wayland: False
+2021-02-10 18:47:05,987 | INFO | ulauncher: main() | Wayland compatibility: off
+2021-02-10 18:47:05,997 | DEBUG | ulauncher.ui.windows.Builder: __init__() | consider using a pythonic name instead of design name 'input-box'
+2021-02-10 18:47:05,999 | DEBUG | ulauncher.ui.windows.Builder: do_connect() | connect builder by name 'ulauncher_window','destroy', 'on_destroy'
+2021-02-10 18:47:05,999 | DEBUG | ulauncher.ui.windows.Builder: do_connect() | connect builder by name 'ulauncher_window','focus_in_event', 'on_focus_in_event'
+2021-02-10 18:47:05,999 | DEBUG | ulauncher.ui.windows.Builder: do_connect() | connect builder by name 'ulauncher_window','focus_out_event', 'on_focus_out_event'
+2021-02-10 18:47:06,000 | DEBUG | ulauncher.ui.windows.Builder: do_connect() | connect builder by name 'input','key_press_event', 'on_input_key_press_event'
+2021-02-10 18:47:06,000 | DEBUG | ulauncher.ui.windows.Builder: log_unconnected_functions() | Not connected to builder 'on_input_changed'
+2021-02-10 18:47:06,000 | DEBUG | ulauncher.ui.windows.Builder: log_unconnected_functions() | Not connected to builder 'on_mnu_about_activate'
+2021-02-10 18:47:06,000 | DEBUG | ulauncher.ui.windows.Builder: log_unconnected_functions() | Not connected to builder 'on_mnu_close_activate'
+2021-02-10 18:47:06,000 | DEBUG | ulauncher.ui.windows.Builder: log_unconnected_functions() | Not connected to builder 'on_mnu_preferences_activate'
+2021-02-10 18:47:06,000 | DEBUG | ulauncher.ui.windows.Builder: log_unconnected_functions() | Not connected to builder 'on_preferences_dialog_destroyed'
+2021-02-10 18:47:06,001 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-02-10 18:47:06,001 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 1920, H: 1080
+2021-02-10 18:47:06,015 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 0 results
+2021-02-10 18:47:06,016 | INFO | ulauncher.api.server.ExtensionServer: _start_thread() | Starting WS server on port 5054
+2021-02-10 18:47:06,018 | INFO | ulauncher.search.apps.app_watcher: start() | Started scanning desktop dirs
+2021-02-10 18:47:06,027 | DEBUG | ulauncher.utils.semver: parse_range() | range ^2.0.0 False
+2021-02-10 18:47:06,027 | DEBUG | ulauncher.utils.semver: parse_range() | hyphen replace ^2.0.0
+2021-02-10 18:47:06,027 | DEBUG | ulauncher.utils.semver: parse_range() | comparator trim ^2.0.0, re.compile('(\\s*)((?:<|>)?=?)\\s*([v=\\s]*([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-?((?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*)(?:\\.(?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?|[v, re.MULTILINE)
+2021-02-10 18:47:06,027 | DEBUG | ulauncher.utils.semver: parse_comparator() | comp ^2.0.0
+2021-02-10 18:47:06,027 | DEBUG | ulauncher.utils.semver: repl() | caret ^2.0.0 ^2.0.0 2 0 0 None
+2021-02-10 18:47:06,027 | DEBUG | ulauncher.utils.semver: repl() | caret return >=2.0.0 <3.0.0
+2021-02-10 18:47:06,027 | DEBUG | ulauncher.utils.semver: parse_comparator() | caret >=2.0.0 <3.0.0
+2021-02-10 18:47:06,027 | DEBUG | ulauncher.utils.semver: parse_comparator() | tildes >=2.0.0 <3.0.0
+2021-02-10 18:47:06,027 | DEBUG | ulauncher.utils.semver: replace_xranges() | replaceXRanges >=2.0.0 <3.0.0 False
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: repl() | xrange >=2.0.0 >=2.0.0 >= 2 0 0 None
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=>= any_x=False
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: repl() | xRange return >=2.0.0
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: repl() | xrange <3.0.0 <3.0.0 < 3 0 0 None
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=< any_x=False
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: repl() | xRange return <3.0.0
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: parse_comparator() | xrange >=2.0.0 <3.0.0
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: replace_stars() | replaceStars >=2.0.0 <3.0.0 False
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: parse_comparator() | stars >=2.0.0 <3.0.0
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: __init__() | comparator: >=2.0.0 False
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: parse() | parse comp=>=2.0.0
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: __init__() | comparator: <3.0.0 False
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: parse() | parse comp=<3.0.0
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 3.0.0, False
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: format() | Range format >=2.0.0 <3.0.0
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: cmp() | cmp: >=
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 2.0.0
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: compare() | compare result 0
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: cmp() | cmp: <
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 3.0.0
+2021-02-10 18:47:06,028 | DEBUG | ulauncher.utils.semver: compare() | compare result -1
+2021-02-10 18:47:06,032 | DEBUG | ulauncher.utils.semver: parse_range() | range ^2.0.0 False
+2021-02-10 18:47:06,032 | INFO | ulauncher.api.server.ExtensionRunner: _run_process() | Extension "com.github.mikebarkmin.ulauncher-duckduckgo" started. PID 206070
+2021-02-10 18:47:06,032 | DEBUG | ulauncher.utils.semver: parse_range() | hyphen replace ^2.0.0
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: parse_range() | comparator trim ^2.0.0, re.compile('(\\s*)((?:<|>)?=?)\\s*([v=\\s]*([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-?((?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*)(?:\\.(?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?|[v, re.MULTILINE)
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: parse_comparator() | comp ^2.0.0
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: repl() | caret ^2.0.0 ^2.0.0 2 0 0 None
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: repl() | caret return >=2.0.0 <3.0.0
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: parse_comparator() | caret >=2.0.0 <3.0.0
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: parse_comparator() | tildes >=2.0.0 <3.0.0
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: replace_xranges() | replaceXRanges >=2.0.0 <3.0.0 False
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: repl() | xrange >=2.0.0 >=2.0.0 >= 2 0 0 None
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=>= any_x=False
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: repl() | xRange return >=2.0.0
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: repl() | xrange <3.0.0 <3.0.0 < 3 0 0 None
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=< any_x=False
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: repl() | xRange return <3.0.0
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: parse_comparator() | xrange >=2.0.0 <3.0.0
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: replace_stars() | replaceStars >=2.0.0 <3.0.0 False
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: parse_comparator() | stars >=2.0.0 <3.0.0
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: __init__() | comparator: >=2.0.0 False
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: parse() | parse comp=>=2.0.0
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: __init__() | comparator: <3.0.0 False
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: parse() | parse comp=<3.0.0
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 3.0.0, False
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: format() | Range format >=2.0.0 <3.0.0
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
+2021-02-10 18:47:06,033 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
+2021-02-10 18:47:06,034 | DEBUG | ulauncher.utils.semver: cmp() | cmp: >=
+2021-02-10 18:47:06,034 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 2.0.0
+2021-02-10 18:47:06,034 | DEBUG | ulauncher.utils.semver: compare() | compare result 0
+2021-02-10 18:47:06,034 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
+2021-02-10 18:47:06,034 | DEBUG | ulauncher.utils.semver: cmp() | cmp: <
+2021-02-10 18:47:06,034 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 3.0.0
+2021-02-10 18:47:06,034 | DEBUG | ulauncher.utils.semver: compare() | compare result -1
+2021-02-10 18:47:06,036 | DEBUG | ulauncher.utils.semver: parse_range() | range ^2.0.0 False
+2021-02-10 18:47:06,036 | DEBUG | ulauncher.utils.semver: parse_range() | hyphen replace ^2.0.0
+2021-02-10 18:47:06,036 | DEBUG | ulauncher.utils.semver: parse_range() | comparator trim ^2.0.0, re.compile('(\\s*)((?:<|>)?=?)\\s*([v=\\s]*([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-?((?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*)(?:\\.(?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?|[v, re.MULTILINE)
+2021-02-10 18:47:06,036 | DEBUG | ulauncher.utils.semver: parse_comparator() | comp ^2.0.0
+2021-02-10 18:47:06,036 | DEBUG | ulauncher.utils.semver: repl() | caret ^2.0.0 ^2.0.0 2 0 0 None
+2021-02-10 18:47:06,036 | DEBUG | ulauncher.utils.semver: repl() | caret return >=2.0.0 <3.0.0
+2021-02-10 18:47:06,036 | DEBUG | ulauncher.utils.semver: parse_comparator() | caret >=2.0.0 <3.0.0
+2021-02-10 18:47:06,036 | DEBUG | ulauncher.utils.semver: parse_comparator() | tildes >=2.0.0 <3.0.0
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: replace_xranges() | replaceXRanges >=2.0.0 <3.0.0 False
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: repl() | xrange >=2.0.0 >=2.0.0 >= 2 0 0 None
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=>= any_x=False
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: repl() | xRange return >=2.0.0
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: repl() | xrange <3.0.0 <3.0.0 < 3 0 0 None
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=< any_x=False
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: repl() | xRange return <3.0.0
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: parse_comparator() | xrange >=2.0.0 <3.0.0
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: replace_stars() | replaceStars >=2.0.0 <3.0.0 False
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: parse_comparator() | stars >=2.0.0 <3.0.0
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: __init__() | comparator: >=2.0.0 False
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: parse() | parse comp=>=2.0.0
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: __init__() | comparator: <3.0.0 False
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: parse() | parse comp=<3.0.0
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 3.0.0, False
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: format() | Range format >=2.0.0 <3.0.0
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: cmp() | cmp: >=
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 2.0.0
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: compare() | compare result 0
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: cmp() | cmp: <
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 3.0.0
+2021-02-10 18:47:06,037 | DEBUG | ulauncher.utils.semver: compare() | compare result -1
+2021-02-10 18:47:06,037 | INFO | ulauncher.api.server.ExtensionRunner: _run_process() | Extension "com.github.yannishuber.pass-ulauncher" started. PID 206072
+2021-02-10 18:47:06,040 | DEBUG | ulauncher.utils.semver: parse_range() | range ^2.0.0 False
+2021-02-10 18:47:06,040 | DEBUG | ulauncher.utils.semver: parse_range() | hyphen replace ^2.0.0
+2021-02-10 18:47:06,040 | DEBUG | ulauncher.utils.semver: parse_range() | comparator trim ^2.0.0, re.compile('(\\s*)((?:<|>)?=?)\\s*([v=\\s]*([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-?((?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*)(?:\\.(?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?|[v, re.MULTILINE)
+2021-02-10 18:47:06,040 | DEBUG | ulauncher.utils.semver: parse_comparator() | comp ^2.0.0
+2021-02-10 18:47:06,040 | DEBUG | ulauncher.utils.semver: repl() | caret ^2.0.0 ^2.0.0 2 0 0 None
+2021-02-10 18:47:06,040 | DEBUG | ulauncher.utils.semver: repl() | caret return >=2.0.0 <3.0.0
+2021-02-10 18:47:06,040 | DEBUG | ulauncher.utils.semver: parse_comparator() | caret >=2.0.0 <3.0.0
+2021-02-10 18:47:06,040 | DEBUG | ulauncher.utils.semver: parse_comparator() | tildes >=2.0.0 <3.0.0
+2021-02-10 18:47:06,040 | DEBUG | ulauncher.utils.semver: replace_xranges() | replaceXRanges >=2.0.0 <3.0.0 False
+2021-02-10 18:47:06,040 | DEBUG | ulauncher.utils.semver: repl() | xrange >=2.0.0 >=2.0.0 >= 2 0 0 None
+2021-02-10 18:47:06,040 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=>= any_x=False
+2021-02-10 18:47:06,040 | DEBUG | ulauncher.utils.semver: repl() | xRange return >=2.0.0
+2021-02-10 18:47:06,040 | DEBUG | ulauncher.utils.semver: repl() | xrange <3.0.0 <3.0.0 < 3 0 0 None
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=< any_x=False
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: repl() | xRange return <3.0.0
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: parse_comparator() | xrange >=2.0.0 <3.0.0
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: replace_stars() | replaceStars >=2.0.0 <3.0.0 False
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: parse_comparator() | stars >=2.0.0 <3.0.0
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: __init__() | comparator: >=2.0.0 False
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: parse() | parse comp=>=2.0.0
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: __init__() | comparator: <3.0.0 False
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: parse() | parse comp=<3.0.0
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 3.0.0, False
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: format() | Range format >=2.0.0 <3.0.0
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: cmp() | cmp: >=
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 2.0.0
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: compare() | compare result 0
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: cmp() | cmp: <
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 3.0.0
+2021-02-10 18:47:06,041 | DEBUG | ulauncher.utils.semver: compare() | compare result -1
+2021-02-10 18:47:06,042 | DEBUG | ulauncher.utils.semver: parse_range() | range 2 False
+2021-02-10 18:47:06,042 | DEBUG | ulauncher.utils.semver: parse_range() | hyphen replace 2
+2021-02-10 18:47:06,042 | DEBUG | ulauncher.utils.semver: parse_range() | comparator trim 2, re.compile('(\\s*)((?:<|>)?=?)\\s*([v=\\s]*([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-?((?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*)(?:\\.(?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?|[v, re.MULTILINE)
+2021-02-10 18:47:06,042 | DEBUG | ulauncher.utils.semver: parse_comparator() | comp 2
+2021-02-10 18:47:06,043 | DEBUG | ulauncher.utils.semver: parse_comparator() | caret 2
+2021-02-10 18:47:06,043 | DEBUG | ulauncher.utils.semver: parse_comparator() | tildes 2
+2021-02-10 18:47:06,043 | DEBUG | ulauncher.utils.semver: replace_xranges() | replaceXRanges 2 False
+2021-02-10 18:47:06,043 | DEBUG | ulauncher.utils.semver: repl() | xrange 2 2  2 None None None
+2021-02-10 18:47:06,043 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt= any_x=True
+2021-02-10 18:47:06,043 | DEBUG | ulauncher.utils.semver: repl() | xRange return >=2.0.0 <3.0.0
+2021-02-10 18:47:06,043 | DEBUG | ulauncher.utils.semver: parse_comparator() | xrange >=2.0.0 <3.0.0
+2021-02-10 18:47:06,044 | INFO | ulauncher.api.server.ExtensionRunner: _run_process() | Extension "com.github.briceio.ulauncher-baloo" started. PID 206074
+2021-02-10 18:47:06,045 | DEBUG | ulauncher.utils.semver: replace_stars() | replaceStars >=2.0.0 <3.0.0 False
+2021-02-10 18:47:06,045 | DEBUG | ulauncher.utils.semver: parse_comparator() | stars >=2.0.0 <3.0.0
+2021-02-10 18:47:06,045 | DEBUG | ulauncher.utils.semver: __init__() | comparator: >=2.0.0 False
+2021-02-10 18:47:06,046 | DEBUG | ulauncher.utils.semver: parse() | parse comp=>=2.0.0
+2021-02-10 18:47:06,046 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
+2021-02-10 18:47:06,046 | DEBUG | ulauncher.utils.semver: __init__() | comparator: <3.0.0 False
+2021-02-10 18:47:06,046 | DEBUG | ulauncher.utils.semver: parse() | parse comp=<3.0.0
+2021-02-10 18:47:06,046 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 3.0.0, False
+2021-02-10 18:47:06,046 | DEBUG | ulauncher.utils.semver: format() | Range format >=2.0.0 <3.0.0
+2021-02-10 18:47:06,046 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
+2021-02-10 18:47:06,046 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
+2021-02-10 18:47:06,046 | DEBUG | ulauncher.utils.semver: cmp() | cmp: >=
+2021-02-10 18:47:06,046 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 2.0.0
+2021-02-10 18:47:06,046 | DEBUG | ulauncher.utils.semver: compare() | compare result 0
+2021-02-10 18:47:06,046 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
+2021-02-10 18:47:06,046 | DEBUG | ulauncher.utils.semver: cmp() | cmp: <
+2021-02-10 18:47:06,046 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 3.0.0
+2021-02-10 18:47:06,046 | DEBUG | ulauncher.utils.semver: compare() | compare result -1
+2021-02-10 18:47:06,048 | DEBUG | ulauncher.utils.semver: parse_range() | range ^2.0.0 False
+2021-02-10 18:47:06,048 | DEBUG | ulauncher.utils.semver: parse_range() | hyphen replace ^2.0.0
+2021-02-10 18:47:06,048 | DEBUG | ulauncher.utils.semver: parse_range() | comparator trim ^2.0.0, re.compile('(\\s*)((?:<|>)?=?)\\s*([v=\\s]*([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-?((?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*)(?:\\.(?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?|[v, re.MULTILINE)
+2021-02-10 18:47:06,048 | DEBUG | ulauncher.utils.semver: parse_comparator() | comp ^2.0.0
+2021-02-10 18:47:06,048 | DEBUG | ulauncher.utils.semver: repl() | caret ^2.0.0 ^2.0.0 2 0 0 None
+2021-02-10 18:47:06,048 | DEBUG | ulauncher.utils.semver: repl() | caret return >=2.0.0 <3.0.0
+2021-02-10 18:47:06,050 | DEBUG | ulauncher.utils.semver: parse_comparator() | caret >=2.0.0 <3.0.0
+2021-02-10 18:47:06,050 | DEBUG | ulauncher.utils.semver: parse_comparator() | tildes >=2.0.0 <3.0.0
+2021-02-10 18:47:06,050 | DEBUG | ulauncher.utils.semver: replace_xranges() | replaceXRanges >=2.0.0 <3.0.0 False
+2021-02-10 18:47:06,050 | DEBUG | ulauncher.utils.semver: repl() | xrange >=2.0.0 >=2.0.0 >= 2 0 0 None
+2021-02-10 18:47:06,050 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=>= any_x=False
+2021-02-10 18:47:06,050 | DEBUG | ulauncher.utils.semver: repl() | xRange return >=2.0.0
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: repl() | xrange <3.0.0 <3.0.0 < 3 0 0 None
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=< any_x=False
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: repl() | xRange return <3.0.0
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: parse_comparator() | xrange >=2.0.0 <3.0.0
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: replace_stars() | replaceStars >=2.0.0 <3.0.0 False
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: parse_comparator() | stars >=2.0.0 <3.0.0
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: __init__() | comparator: >=2.0.0 False
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: parse() | parse comp=>=2.0.0
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: __init__() | comparator: <3.0.0 False
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: parse() | parse comp=<3.0.0
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 3.0.0, False
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: format() | Range format >=2.0.0 <3.0.0
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: cmp() | cmp: >=
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 2.0.0
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: compare() | compare result 0
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: cmp() | cmp: <
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 3.0.0
+2021-02-10 18:47:06,051 | DEBUG | ulauncher.utils.semver: compare() | compare result -1
+2021-02-10 18:47:06,052 | INFO | ulauncher.api.server.ExtensionRunner: _run_process() | Extension "com.github.friday.ulauncher-clipboard" started. PID 206078
+2021-02-10 18:47:06,055 | INFO | ulauncher.utils.desktop.reader: find_apps_cached() | Found 66 apps in cache
+2021-02-10 18:47:06,056 | DEBUG | ulauncher.utils.semver: parse_range() | range ^2.0.0 False
+2021-02-10 18:47:06,058 | DEBUG | ulauncher.utils.semver: parse_range() | hyphen replace ^2.0.0
+2021-02-10 18:47:06,059 | DEBUG | ulauncher.utils.semver: parse_range() | comparator trim ^2.0.0, re.compile('(\\s*)((?:<|>)?=?)\\s*([v=\\s]*([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-?((?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*)(?:\\.(?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?|[v, re.MULTILINE)
+2021-02-10 18:47:06,059 | DEBUG | ulauncher.utils.semver: parse_comparator() | comp ^2.0.0
+2021-02-10 18:47:06,059 | DEBUG | ulauncher.utils.semver: repl() | caret ^2.0.0 ^2.0.0 2 0 0 None
+2021-02-10 18:47:06,059 | DEBUG | ulauncher.utils.semver: repl() | caret return >=2.0.0 <3.0.0
+2021-02-10 18:47:06,059 | DEBUG | ulauncher.utils.semver: parse_comparator() | caret >=2.0.0 <3.0.0
+2021-02-10 18:47:06,059 | DEBUG | ulauncher.utils.semver: parse_comparator() | tildes >=2.0.0 <3.0.0
+2021-02-10 18:47:06,059 | DEBUG | ulauncher.utils.semver: replace_xranges() | replaceXRanges >=2.0.0 <3.0.0 False
+2021-02-10 18:47:06,059 | DEBUG | ulauncher.utils.semver: repl() | xrange >=2.0.0 >=2.0.0 >= 2 0 0 None
+2021-02-10 18:47:06,059 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=>= any_x=False
+2021-02-10 18:47:06,060 | DEBUG | ulauncher.utils.semver: repl() | xRange return >=2.0.0
+2021-02-10 18:47:06,060 | DEBUG | ulauncher.utils.semver: repl() | xrange <3.0.0 <3.0.0 < 3 0 0 None
+2021-02-10 18:47:06,060 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=< any_x=False
+2021-02-10 18:47:06,060 | DEBUG | ulauncher.utils.semver: repl() | xRange return <3.0.0
+2021-02-10 18:47:06,060 | DEBUG | ulauncher.utils.semver: parse_comparator() | xrange >=2.0.0 <3.0.0
+2021-02-10 18:47:06,060 | INFO | ulauncher.api.server.ExtensionRunner: _run_process() | Extension "com.github.isacikgoz.ukill" started. PID 206076
+2021-02-10 18:47:06,060 | DEBUG | ulauncher.utils.semver: replace_stars() | replaceStars >=2.0.0 <3.0.0 False
+2021-02-10 18:47:06,061 | DEBUG | ulauncher.utils.semver: parse_comparator() | stars >=2.0.0 <3.0.0
+2021-02-10 18:47:06,061 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/System Clean.desktop": constructor returned NULL
+2021-02-10 18:47:06,061 | DEBUG | ulauncher.utils.semver: __init__() | comparator: >=2.0.0 False
+2021-02-10 18:47:06,061 | DEBUG | ulauncher.utils.semver: parse() | parse comp=>=2.0.0
+2021-02-10 18:47:06,061 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
+2021-02-10 18:47:06,061 | DEBUG | ulauncher.utils.semver: __init__() | comparator: <3.0.0 False
+2021-02-10 18:47:06,061 | DEBUG | ulauncher.utils.semver: parse() | parse comp=<3.0.0
+2021-02-10 18:47:06,061 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 3.0.0, False
+2021-02-10 18:47:06,061 | DEBUG | ulauncher.utils.semver: format() | Range format >=2.0.0 <3.0.0
+2021-02-10 18:47:06,061 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
+2021-02-10 18:47:06,062 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
+2021-02-10 18:47:06,062 | DEBUG | ulauncher.utils.semver: cmp() | cmp: >=
+2021-02-10 18:47:06,062 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 2.0.0
+2021-02-10 18:47:06,062 | DEBUG | ulauncher.utils.semver: compare() | compare result 0
+2021-02-10 18:47:06,062 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
+2021-02-10 18:47:06,062 | DEBUG | ulauncher.utils.semver: cmp() | cmp: <
+2021-02-10 18:47:06,062 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 3.0.0
+2021-02-10 18:47:06,062 | DEBUG | ulauncher.utils.semver: compare() | compare result -1
+2021-02-10 18:47:06,062 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Wine.desktop": constructor returned NULL
+2021-02-10 18:47:06,062 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/steam.desktop": constructor returned NULL
+2021-02-10 18:47:06,063 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Home GIT.desktop": constructor returned NULL
+2021-02-10 18:47:06,065 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Games-Uplay.desktop": constructor returned NULL
+2021-02-10 18:47:06,065 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/.desktop": constructor returned NULL
+2021-02-10 18:47:06,066 | INFO | ulauncher.api.server.ExtensionRunner: _run_process() | Extension "com.github.nastuzzisamy.ulauncher-translate" started. PID 206080
+2021-02-10 18:47:06,066 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Polybar.desktop": constructor returned NULL
+2021-02-10 18:47:06,067 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Epic Games.desktop": constructor returned NULL
+2021-02-10 18:47:06,067 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/lxshortcut.desktop": constructor returned NULL
+2021-02-10 18:47:06,067 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/libfm-pref-apps.desktop": constructor returned NULL
+2021-02-10 18:47:06,068 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Pass.desktop": constructor returned NULL
+2021-02-10 18:47:06,068 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Pycharm.desktop": constructor returned NULL
+2021-02-10 18:47:06,068 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Bethesda.desktop": constructor returned NULL
+2021-02-10 18:47:06,068 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Emulation Station.desktop": constructor returned NULL
+2021-02-10 18:47:06,069 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/jdownloader.desktop": constructor returned NULL
+2021-02-10 18:47:06,069 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Origin.desktop": constructor returned NULL
+2021-02-10 18:47:06,069 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Photoshop.desktop": constructor returned NULL
+2021-02-10 18:47:06,071 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/GOG.desktop": constructor returned NULL
+2021-02-10 18:47:06,076 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Cemu Emulator.desktop": constructor returned NULL
+2021-02-10 18:47:06,079 | DEBUG | ulauncher.utils.semver: parse_range() | range ^2.0.0 False
+2021-02-10 18:47:06,079 | DEBUG | ulauncher.utils.semver: parse_range() | hyphen replace ^2.0.0
+2021-02-10 18:47:06,079 | DEBUG | ulauncher.utils.semver: parse_range() | comparator trim ^2.0.0, re.compile('(\\s*)((?:<|>)?=?)\\s*([v=\\s]*([0-9]+)\\.([0-9]+)\\.([0-9]+)(?:-?((?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*)(?:\\.(?:[0-9]+|\\d*[a-zA-Z-][a-zA-Z0-9-]*))*))?(?:\\+([0-9A-Za-z-]+(?:\\.[0-9A-Za-z-]+)*))?|[v, re.MULTILINE)
+2021-02-10 18:47:06,079 | DEBUG | ulauncher.utils.semver: parse_comparator() | comp ^2.0.0
+2021-02-10 18:47:06,079 | DEBUG | ulauncher.utils.semver: repl() | caret ^2.0.0 ^2.0.0 2 0 0 None
+2021-02-10 18:47:06,079 | DEBUG | ulauncher.utils.semver: repl() | caret return >=2.0.0 <3.0.0
+2021-02-10 18:47:06,079 | DEBUG | ulauncher.utils.semver: parse_comparator() | caret >=2.0.0 <3.0.0
+2021-02-10 18:47:06,079 | DEBUG | ulauncher.utils.semver: parse_comparator() | tildes >=2.0.0 <3.0.0
+2021-02-10 18:47:06,080 | DEBUG | ulauncher.utils.semver: replace_xranges() | replaceXRanges >=2.0.0 <3.0.0 False
+2021-02-10 18:47:06,080 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/Lutris.desktop": constructor returned NULL
+2021-02-10 18:47:06,080 | DEBUG | ulauncher.utils.semver: repl() | xrange >=2.0.0 >=2.0.0 >= 2 0 0 None
+2021-02-10 18:47:06,080 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=>= any_x=False
+2021-02-10 18:47:06,080 | DEBUG | ulauncher.utils.semver: repl() | xRange return >=2.0.0
+2021-02-10 18:47:06,080 | DEBUG | ulauncher.utils.semver: repl() | xrange <3.0.0 <3.0.0 < 3 0 0 None
+2021-02-10 18:47:06,080 | DEBUG | ulauncher.utils.semver: repl() | xrange gtlt=< any_x=False
+2021-02-10 18:47:06,080 | DEBUG | ulauncher.utils.semver: repl() | xRange return <3.0.0
+2021-02-10 18:47:06,080 | DEBUG | ulauncher.utils.semver: parse_comparator() | xrange >=2.0.0 <3.0.0
+2021-02-10 18:47:06,080 | DEBUG | ulauncher.utils.semver: replace_stars() | replaceStars >=2.0.0 <3.0.0 False
+2021-02-10 18:47:06,080 | DEBUG | ulauncher.utils.semver: parse_comparator() | stars >=2.0.0 <3.0.0
+2021-02-10 18:47:06,080 | DEBUG | ulauncher.utils.semver: __init__() | comparator: >=2.0.0 False
+2021-02-10 18:47:06,080 | DEBUG | ulauncher.utils.semver: parse() | parse comp=>=2.0.0
+2021-02-10 18:47:06,080 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
+2021-02-10 18:47:06,081 | DEBUG | ulauncher.utils.semver: __init__() | comparator: <3.0.0 False
+2021-02-10 18:47:06,081 | DEBUG | ulauncher.utils.semver: parse() | parse comp=<3.0.0
+2021-02-10 18:47:06,081 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 3.0.0, False
+2021-02-10 18:47:06,081 | DEBUG | ulauncher.utils.semver: format() | Range format >=2.0.0 <3.0.0
+2021-02-10 18:47:06,081 | DEBUG | ulauncher.utils.semver: __init__() | SemVer 2.0.0, False
+2021-02-10 18:47:06,081 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
+2021-02-10 18:47:06,081 | DEBUG | ulauncher.utils.semver: cmp() | cmp: >=
+2021-02-10 18:47:06,081 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 2.0.0
+2021-02-10 18:47:06,081 | DEBUG | ulauncher.utils.semver: compare() | compare result 0
+2021-02-10 18:47:06,081 | DEBUG | ulauncher.utils.semver: test() | Comparator, test 2.0.0, False
+2021-02-10 18:47:06,081 | DEBUG | ulauncher.utils.semver: cmp() | cmp: <
+2021-02-10 18:47:06,081 | DEBUG | ulauncher.utils.semver: compare() | SemVer.compare 2.0.0 False 3.0.0
+2021-02-10 18:47:06,081 | DEBUG | ulauncher.utils.semver: compare() | compare result -1
+2021-02-10 18:47:06,081 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/conky.desktop": constructor returned NULL
+2021-02-10 18:47:06,082 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/home/govi/.local/share/applications/TeamViewer.desktop": constructor returned NULL
+2021-02-10 18:47:06,084 | INFO | ulauncher.utils.desktop.reader: read_desktop_file() | Could not read "/usr/share/applications/org.kde.kded5.desktop": constructor returned NULL
+2021-02-10 18:47:06,087 | INFO | ulauncher.api.server.ExtensionRunner: _run_process() | Extension "com.github.nastuzzisamy.ulauncher-custom-scripts" started. PID 206082
+2021-02-10 18:47:06,100 | INFO | ulauncher.utils.desktop.reader: find_apps_cached() | Found 66 apps in the system
+2021-02-10 18:47:06,100 | INFO | ulauncher.search.apps.app_watcher: start() | Scanned desktop dirs in 0.08 seconds
+2021-02-10 18:47:06,105 | INFO | ulauncher.api.server.ExtensionRunner: _run_process() | Extension "com.github.nastuzzisamy.ulauncher-youtube-search" started. PID 206084
+2021-02-10 18:47:06,121 | INFO | ulauncher.ui.windows.UlauncherWindow: bind_show_app_hotkey() | Trying to bind app hotkey: <Primary>space
+2021-02-10 18:47:06,130 | DEBUG | ulauncher.search.apps.app_watcher: start() | Start watching desktop files...
+2021-02-10 18:47:06,324 | INFO | ulauncher.api.server.ExtensionController: handleConnected() | Extension "com.github.isacikgoz.ukill" connected
+2021-02-10 18:47:06,325 | DEBUG | ulauncher.api.server.ExtensionController: _send_event() | Send event PreferencesEvent to "com.github.isacikgoz.ukill"
+2021-02-10 18:47:06,415 | INFO | ulauncher.api.server.ExtensionController: handleConnected() | Extension "com.github.nastuzzisamy.ulauncher-translate" connected
+2021-02-10 18:47:06,415 | DEBUG | ulauncher.api.server.ExtensionController: _send_event() | Send event PreferencesEvent to "com.github.nastuzzisamy.ulauncher-translate"
+2021-02-10 18:47:06,439 | INFO | ulauncher.api.server.ExtensionController: handleConnected() | Extension "com.github.friday.ulauncher-clipboard" connected
+2021-02-10 18:47:06,439 | DEBUG | ulauncher.api.server.ExtensionController: _send_event() | Send event PreferencesEvent to "com.github.friday.ulauncher-clipboard"
+2021-02-10 18:47:06,442 | INFO | ulauncher.api.server.ExtensionController: handleConnected() | Extension "com.github.briceio.ulauncher-baloo" connected
+2021-02-10 18:47:06,442 | DEBUG | ulauncher.api.server.ExtensionController: _send_event() | Send event PreferencesEvent to "com.github.briceio.ulauncher-baloo"
+2021-02-10 18:47:06,468 | INFO | ulauncher.api.server.ExtensionController: handleConnected() | Extension "com.github.yannishuber.pass-ulauncher" connected
+2021-02-10 18:47:06,468 | DEBUG | ulauncher.api.server.ExtensionController: _send_event() | Send event PreferencesEvent to "com.github.yannishuber.pass-ulauncher"
+2021-02-10 18:47:06,484 | INFO | ulauncher.api.server.ExtensionController: handleConnected() | Extension "com.github.mikebarkmin.ulauncher-duckduckgo" connected
+2021-02-10 18:47:06,484 | DEBUG | ulauncher.api.server.ExtensionController: _send_event() | Send event PreferencesEvent to "com.github.mikebarkmin.ulauncher-duckduckgo"
+2021-02-10 18:47:06,501 | INFO | ulauncher.api.server.ExtensionController: handleConnected() | Extension "com.github.nastuzzisamy.ulauncher-custom-scripts" connected
+2021-02-10 18:47:06,502 | DEBUG | ulauncher.api.server.ExtensionController: _send_event() | Send event PreferencesEvent to "com.github.nastuzzisamy.ulauncher-custom-scripts"
+2021-02-10 18:47:06,549 | INFO | ulauncher.api.server.ExtensionController: handleConnected() | Extension "com.github.nastuzzisamy.ulauncher-youtube-search" connected
+2021-02-10 18:47:06,550 | DEBUG | ulauncher.api.server.ExtensionController: _send_event() | Send event PreferencesEvent to "com.github.nastuzzisamy.ulauncher-youtube-search"
+2021-02-10 18:47:08,531 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-02-10 18:47:08,531 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 1920, H: 1080
+2021-02-10 18:47:08,531 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 0 results
+2021-02-10 18:47:08,569 | DEBUG | ulauncher.ui.windows.UlauncherWindow: on_focus_in_event() | Focus in event, grabbing pointer: <enum GDK_GRAB_SUCCESS of type Gdk.GrabStatus>
+2021-02-10 18:47:10,862 | INFO | ulauncher.utils.image_loader: get_app_icon_pixbuf() | Could not load icon for java15-openjdk. E: gtk-icon-theme-error-quark: Icon 'java15-openjdk' not present in theme GoVi_gtk-Icons (0)
+2021-02-10 18:47:10,971 | INFO | ulauncher.utils.image_loader: get_app_icon_pixbuf() | Could not load icon for java15-openjdk. E: gtk-icon-theme-error-quark: Icon 'java15-openjdk' not present in theme GoVi_gtk-Icons (0)
+2021-02-10 18:47:11,131 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 2 results
+2021-02-10 18:47:13,410 | DEBUG | ulauncher.api.shared.action.RunScriptAction: run() | Running a script from /tmp/ulauncher_RunScript_nn1uo69t
+2021-02-10 18:47:13,414 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 0 results
+2021-02-10 18:47:14,413 | DEBUG | ulauncher.api.shared.action.RunScriptAction: remove_temp_file() | Deleting a temporary file /tmp/ulauncher_RunScript_nn1uo69t

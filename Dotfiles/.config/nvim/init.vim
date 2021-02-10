@@ -17,9 +17,9 @@ imap º <Esc>
 nmap 1 <Esc>i
 nmap <C-A> gg
 nmap <C-E> G
-nmap C :+c<CR>
-nmap c :+y<CR>
-nmap v :+p<CR>
+nmap <C-X> :+c<CR>
+nmap <C-C> :+y<CR>
+nmap <C-V> :+p<CR>
 nmap W :w!<CR>
 nmap Q :q!<CR>
 

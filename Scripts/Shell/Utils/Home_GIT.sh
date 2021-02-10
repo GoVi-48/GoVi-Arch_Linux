@@ -4,7 +4,6 @@
 GOVI_ARCH_LINUX="$HOME/Proyects/Github/GoVi-Arch_Linux"
 
 # ~/
-rsync -arv --delete ~/.vim/ "$GOVI_ARCH_LINUX"/Dotfiles/.vim/
 rsync -arv ~/.bashrc "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.easystroke "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.gtkrc-3.0 "$GOVI_ARCH_LINUX"/Dotfiles/

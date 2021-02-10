@@ -71,13 +71,14 @@ alias l="exa -al --color=always --group-directories-first"
 alias ht="htop"
 alias hy="history"
 alias mv="mv -fv"
+alias nv="nvim && clear"
 alias pm="pacman"
 alias pu="paru"
 alias py="python3"
 alias rm="rm -rfv"
 alias spm="sudo pacman"
 alias sth="sort -h"
-alias sv="sudo -E vim"
+alias snv="sudo -E nvim && clear"
 alias wrt="wrestool -x --output=. -t14"
 alias yt="youtube-dl --add-metadata -ic"
 
@@ -96,15 +97,13 @@ export VKBASALT_CONFIG_FILE="$HOME/.config/vkBasalt/vkBasalt.conf"
 
 # Environment
 export BROWSER="firefox"
-export FILEMANAGER="pcmanfm"
+export FILEMANAGER="nautilus"
 export TERMINAL="alacritty"
 export TERM="xterm-color"
 export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
 export CLICOLOR=1
-export EDITOR="vim"
+export EDITOR="nvim"
 export VISUAL=$EDITOR
-export VIMINIT='source $MYVIMRC'
-export MYVIMRC='~/.vim/.vimrc'
 export PATH=$PATH:$HOME/Scripts/Shell/
 export PATH=$PATH:$HOME/Scripts/Shell/Autostart/
 export PATH=$PATH:$HOME/Scripts/Shell/Games/

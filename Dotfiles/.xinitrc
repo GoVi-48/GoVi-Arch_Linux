@@ -45,6 +45,8 @@ nvidia_led.sh &
 
 nvidia-settings --load-config-only &
 
+nm-applet --sm-disable &
+
 picom -cCGb &
 
 setxkbmap -layout es &

@@ -20,16 +20,14 @@ sudo pacman -S alacritty audacity exa ffmpeg firefox gimp gparted inkscape kdenl
 sudo pacman -S bc extra-cmake-modules icoutils jdk-openjdk lm_sensors mono nvidia-led packagekit-qt5 unrar zip wget
 
 # AUR packages
-paru -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke font-manager java-8-openjdk liferea mpc-qt picard skype spotify teamviewer thunar timeshift tiny-media-manager ttf-ms-fonts
+paru balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke font-manager java-8-openjdk liferea mpc-qt picard skype spotify teamviewer timeshift tiny-media-manager ttf-ms-fonts
 
 # Fonts
 ln -s /windows/Windows/Fonts /usr/share/fonts/WindowsFonts
 fc-cache --force
 
 # File Manager
-sudo pacman pcmanfm
-sudo pacman gtk-engine-murrine gtk-engines ffmpegthumbnailer tumbler
-paru folderpreview
+paru spacefm ffmpegthumbnailer
 
 # ZSH
 sudo pacman -S zsh zsh-autosuggestions zsh-syntax-highlighting
@@ -49,7 +47,7 @@ firewall-config
 
 # Kodi
 sudo pacman -S kodi
-paru -S kodi-addon-pvr-iptvsimple
+paru kodi-addon-pvr-iptvsimple
 
 
 # ============================================================================= # #
@@ -194,5 +192,5 @@ makepkg -si
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 # Kernel CK
-paru -S linux-ck linux-ck-headers
+paru linux-ck linux-ck-headers
 sudo grub-mkconfig -o /boot/grub/grub.cfg

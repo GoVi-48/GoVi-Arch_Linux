@@ -29,11 +29,10 @@ from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
-import socket
-import webbrowser
 
 mod = "mod4"
 terminal = guess_terminal()
+
 
 # ================================= SHORTCUTS =================================  #
 keys = [
@@ -103,7 +102,7 @@ def window_to_next_group(qtile):
 groups = []
 
 group_names = ['1', '2', '3', '4', '5', '6', '7', '8', ]
-group_labels = ['', '', '', '', '', '', '', '', ]
+group_labels = ['', '', '', '', '', '', '', '', ]
 group_layouts = ['max', 'monadtall', 'monadtall', 'monadtall',
                  'monadtall', 'monadtall', 'monadtall', 'floating', ]
 
@@ -133,6 +132,7 @@ for i in groups:
         #   desc="move focused window to group {}".format(i.name)),
     ])
 
+
 # ================================= LAYOUTS =================================  #
 layout_theme = {'border_width': 3,
                 'margin': 11,
@@ -158,18 +158,6 @@ layouts = [
 
 
 # ================================= WIDGETS =================================  #
-# def check_network():
-#    try:
-#        socket.create_connection(('Google.com', 80))
-#        network = '~/Pictures/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/eth_on'
-#    except OSError:
-#        network = '~/Pictures/GoVi-Theme/Icons/GoVi_gtk-Icons/apps/64/eth_off'
-
-
-# def open_url():
-#    webbrowser.open_new_tab('https://www.speedtest.net/')
-
-
 widget_defaults = dict(
                 background='#21242B',
                 foreground='#dfdfdf',
@@ -186,7 +174,7 @@ screens = [
             [
                 widget.Image(filename='~/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/apps/64/archlinux.png',
                              margin=0,
-                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('kill -9 -1')}),
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('ulauncher --hide-window &')}),
 
                 widget.CurrentLayoutIcon(scale=0.7),
 
@@ -204,9 +192,6 @@ screens = [
 
                 widget.Systray(),
 
-                # widget.Image(filename=network()),
-                #              mouse_callbacks={'Button1': open_url()}),
-
                 widget.Image(filename='~/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/panel/audio-volume-zero-panel.svg',
                              mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('pavucontrol')}),
 
@@ -217,7 +202,8 @@ screens = [
     ),
 ]
 
-# Drag floating layouts.
+
+# ================================= FLOATING LAYOUTS =================================  #
 mouse = [
     Drag([mod], 'Button1', lazy.window.set_position_floating(),
          start=lazy.window.get_position()),
@@ -248,17 +234,11 @@ floating_layout = layout.Floating(float_rules=[
     {'wname': 'branchdialog'},  # gitk
     {'wname': 'pinentry'},  # GPG key password entry
     {'wmclass': 'ssh-askpass'},  # ssh-askpass
-    {'wmclass': 'ssh-askpass'},
+    {'wmclass': 'ulauncher'},
 ])
+
+
 auto_fullscreen = True
 focus_on_window_activation = "smart"
 
-# XXX: Gasp! We're lying here. In fact, nobody really uses or cares about this
-# string besides java UI toolkits; you can see several discussions on the
-# mailing lists, GitHub issues, and other WM documentation that suggest setting
-# this string if your java app doesn't work correctly. We may as well just lie
-# and say that we're a working one by default.
-#
-# We choose LG3D to maximize irony: it is a 3D non-reparenting WM written in
-# java that happens to be on java's whitelist.
 wmname = "LG3D"

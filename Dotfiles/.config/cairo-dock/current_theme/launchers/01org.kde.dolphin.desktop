@@ -14,14 +14,14 @@ Container=_MainDock_
 sep_display=
 
 #s[Default] Launcher's name:
-Name=Nautilus
+Name=SpaceFM
 
 #S+[Default] Image's name or path:
 Icon=/home/govi/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/apps/64/system-file-manager.svg
 
 #s[Default] Command to launch on click:
 #{Example: nautilus --no-desktop, gedit, etc. You can even enter a shortkey, e.g. <Alt>F1, <Ctrl>c,  <Ctrl>v, etc}
-Exec=nautilus
+Exec=spacefm
 
 
 #X[Extra parameters]
@@ -47,4 +47,4 @@ Order=2.953125
 
 Icon Type=0
 Type=Application
-Origin=/usr/share/applications/pcmanfm.desktop
+Origin=/usr/share/applications/spacefm.desktop

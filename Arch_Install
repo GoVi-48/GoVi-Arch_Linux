@@ -115,7 +115,7 @@ reboot
 
 sudo pacman -S xf86-video-amdgpu # AMD
 sudo pacman -S nvidia nvidia-utils nvidia-settings # NVIDIA
-sudo pacman -S alsa-utils feh htop lxappearance nitrogen pavucontrol picom-jonaburg-git qtile xorg xorg-xinit
+sudo pacman -S alsa-utils feh htop lxappearance pavucontrol picom-jonaburg-git qtile xorg xorg-xinit
 
 1sudo pacman -S lightdm lightdm-webkit2-greeter
 git clone https://aur.archlinux.org/yay-git.git
@@ -150,17 +150,19 @@ cp /etc/X11/xinit/xinitrc ~/.xinitrc
 nvim ~/.xinitrc
 # ======================================================================================= #
 # Autostart
-export PATH=$PATH:$HOME/Scripts/Bash/Autostart/
+export PATH=$PATH:$HOME/Scripts/Shell/Autostart/
 
 nvidia_led.sh &
 
 nvidia-settings --load-config-only &
 
-picom &
+nm-applet --sm-disable &
+
+picom -cCGb &
 
 setxkbmap -layout es &
 
-nitrogen --restore &    m
+feh --bg-fill --no-fehbg --randomize ~/Pictures/Desktop/* &
 
 polybar.sh &
 

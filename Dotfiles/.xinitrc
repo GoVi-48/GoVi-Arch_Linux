@@ -51,7 +51,7 @@ picom -cCGb &
 
 setxkbmap -layout es &
 
-nitrogen --restore &
+feh --bg-fill --no-fehbg --randomize ~/Pictures/Desktop/* &
 
 polybar.sh &
 

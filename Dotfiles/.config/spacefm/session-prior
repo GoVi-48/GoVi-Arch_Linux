@@ -5,12 +5,11 @@
 # Si elimina todos los archivos session*, SpaceFM se restablecerá a la configuración predeterminada.
 
 [General]
-show_thumbnail=1
 big_icon_size=64
 
 [Window]
-width=932
-height=990
+width=836
+height=480
 maximized=0
 
 [Desktop]
@@ -18,7 +17,7 @@ show_wallpaper=1
 wallpaper=/home/govi/Pictures/Desktop/tricomas_17230867.jpg
 wallpaper_mode=1
 bg1=8481,9252,11051
-bg2=52139,11941,0
+bg2=52883,14553,0
 text=65535,65535,65535
 shadow=0,0,0
 
@@ -69,8 +68,8 @@ main_terminal-key=65473
 main_save_tabs-b=1
 main_exit-key=113
 main_exit-keymod=4
-panel1_show-s=////home/govi////home/govi/.local/share/applications////
-panel1_show-x=2
+panel1_show-s=////home/govi/Scripts/Shell/Utils////home/govi/Scripts/Shell/Utils////home/govi////////home/govi////home/govi
+panel1_show-x=5
 panel1_show-key=49
 panel1_show-keymod=4
 panel1_show-b=1
@@ -95,7 +94,6 @@ main_full-key=65480
 main_full-b=2
 main_tool-child=cstm_6e0fc862
 root_bar-b=1
-view_thumb-b=1
 plug_cverb-b=1
 main_help-key=65470
 task_col_status-x=0
@@ -160,6 +158,8 @@ arc_def_ex-b=1
 arc_def_parent-b=1
 arc_def_write-b=1
 arc_conf2-s=hand_arc_+7z hand_arc_+rar hand_arc_+tar hand_arc_+tar_bz2 hand_arc_+tar_gz hand_arc_+tar_xz hand_arc_+zip hand_arc_+gz hand_arc_+xz
+arc_conf2-x=855
+arc_conf2-y=471
 new_file-key=70
 new_file-keymod=5
 new_folder-key=102
@@ -349,7 +349,7 @@ panel1_detcol_perm0-b=2
 panel1_detcol_owner0-b=2
 panel1_detcol_date0-b=2
 panel1_slider_positions0-s=71
-panel1_slider_positions0-x=241
+panel1_slider_positions0-x=180
 panel1_slider_positions0-y=67
 panel1_tool_l-child=cstm_039f807e
 cstm_039f807e-next=cstm_3b2e7f4d
@@ -529,7 +529,9 @@ cstm_146aab45-tool=17
 cstm_146aab45-prev=cstm_0b9d0905
 drag_action-x=0
 app_dlg-s=589
-app_dlg-z=385
+app_dlg-x=600
+app_dlg-y=600
+app_dlg-z=414
 file_dlg-x=1203
 file_dlg-y=902
 cstm_2044d2b7-x=3

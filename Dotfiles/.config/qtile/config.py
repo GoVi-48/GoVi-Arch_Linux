@@ -163,7 +163,7 @@ widget_defaults = dict(
                 foreground='#dfdfdf',
                 font='Source Code Pro',
                 fontsize=15,
-                margin=5,
+                margin=7,
                 padding=3,)
 
 extension_defaults = widget_defaults.copy()
@@ -192,12 +192,15 @@ screens = [
 
                 widget.Systray(),
 
-                widget.Image(filename='~/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/panel/audio-volume-zero-panel.svg',
+                widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/pulseaudio.png',
                              mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('pavucontrol')}),
+
+                widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/nvidia.png',
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('nvidia-settings')}),
 
                 widget.Clock(fontsize=17, ),
             ],
-            32,
+            33,
         ),
     ),
 ]

@@ -1,1 +1,60 @@
-/usr/lib/steam/steam.desktop
+[Desktop Action BigPicture]
+Exec=steam steam://open/bigpicture
+Name=Big Picture
+
+[Desktop Action Community]
+Exec=steam steam://url/SteamIDControlPage
+Name[es_ES]=Comunidad
+Name=Community
+
+[Desktop Action Friends]
+Exec=steam steam://open/friends
+Name[es_ES]=Amigos
+Name=Friends
+
+[Desktop Action Library]
+Exec=steam steam://open/games
+Name[es_ES]=Biblioteca
+Name=Library
+
+[Desktop Action News]
+Exec=steam steam://open/news
+Name[es_ES]=Noticias
+Name=News
+
+[Desktop Action Screenshots]
+Exec=steam steam://open/screenshots
+Name[es_ES]=Capturas
+Name=Screenshots
+
+[Desktop Action Servers]
+Exec=steam steam://open/servers
+Name[es_ES]=Servidores
+Name=Servers
+
+[Desktop Action Settings]
+Exec=steam steam://open/settings
+Name[es_ES]=Parámetros
+Name=Settings
+
+[Desktop Action Store]
+Exec=steam steam://store
+Name[es_ES]=Tienda
+Name=Store
+
+[Desktop Entry]
+Actions=Store;Community;Library;Servers;Screenshots;News;Settings;BigPicture;Friends;
+Categories=Network;FileTransfer;Game;
+Comment=Aplicación para administrar y ejecutar juegos en Steam
+Exec=/usr/bin/steam-runtime %U
+Icon=steam
+MimeType=x-scheme-handler/steam;
+Name=Steam
+NoDisplay=false
+Path[$e]=/Datos/Games/PC/-Launchers/Steam
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=

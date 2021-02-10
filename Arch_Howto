@@ -17,12 +17,13 @@ sudo pacman -Syu
 
 # Packages
 sudo pacman -S alacritty audacity exa ffmpeg firefox gimp gparted inkscape kdenlive neofetch obs-studio pass transmission-qt virtualbox youtube-dl
-sudo pacman -S bc extra-cmake-modules icoutils jdk-openjdk lm_sensors mono nvidia-led packagekit-qt5 unrar zip wget
+sudo pacman -S bc extra-cmake-modules gnome-themes-extra icoutils jdk-openjdk lm_sensors mono nvidia-led packagekit-qt5 unrar zip wget
 
 # AUR packages
-paru balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke font-manager java-8-openjdk liferea mpc-qt picard skype spotify teamviewer timeshift tiny-media-manager ttf-ms-fonts
+paru balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke java-8-openjdk liferea mpc-qt picard skype spotify teamviewer timeshift tiny-media-manager
 
 # Fonts
+paru font-manager ttf-ms-fonts
 ln -s /windows/Windows/Fonts /usr/share/fonts/WindowsFonts
 fc-cache --force
 

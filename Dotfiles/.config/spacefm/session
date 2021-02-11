@@ -7,7 +7,6 @@
 [General]
 show_thumbnail=1
 big_icon_size=64
-tool_icon_size=4
 
 [Window]
 width=1898
@@ -15,11 +14,10 @@ height=994
 maximized=0
 
 [Desktop]
-show_wallpaper=1
 wallpaper=/home/govi/Pictures/Desktop/tricomas_17230867.jpg
 wallpaper_mode=1
 bg1=8481,9252,11051
-bg2=33332,10273,0
+bg2=36714,12542,0
 text=65535,65535,65535
 shadow=0,0,0
 
@@ -72,8 +70,8 @@ main_terminal-key=65473
 main_save_tabs-b=1
 main_exit-key=113
 main_exit-keymod=4
-panel1_show-s=////home/govi/Programs/Adobe////Media/GoVi/Downloads
-panel1_show-x=0
+panel1_show-s=////home/govi/.local/share/applications////Media/GoVi/Downloads////home/govi/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Windows/gtk-3.0////home/govi/Downloads/Peace-Harmony-GTK/Peace-Harmony-GTK
+panel1_show-x=2
 panel1_show-key=49
 panel1_show-keymod=4
 panel1_show-b=1
@@ -99,6 +97,7 @@ main_full-b=2
 main_tool-child=cstm_6e0fc862
 root_bar-b=1
 view_thumb-b=1
+view_dirsize-b=1
 plug_cverb-b=1
 main_help-key=65470
 main_help-b=1
@@ -343,7 +342,7 @@ editor-s=nvim %F
 editor-b=2
 book_new-key=100
 book_new-keymod=4
-config_version-s=38
+config_version-s=40
 cstm_265ae2e2-x=3
 cstm_265ae2e2-y=
 cstm_265ae2e2-z=/home/govi
@@ -656,4 +655,5 @@ cstm_1111f038-prev=cstm_776af8ab
 cstm_7adf8f34-next=cstm_3094bdb2
 cstm_7adf8f34-tool=10
 cstm_7adf8f34-prev=cstm_1111f038
+root_editor-s=sudo nvim
 

@@ -30494,3 +30494,335 @@ xcffib.xproto.ValueError
 2021-02-11 03:50:01,063 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
 2021-02-11 03:50:01,120 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
 2021-02-11 03:50:01,120 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-11 06:44:28,665 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-11 06:50:24,747 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-11 06:58:20,866 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-11 06:58:20,917 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-11 06:58:20,918 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-11 13:54:54,704 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 6291462
+2021-02-11 13:54:54,864 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-11 13:54:54,864 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 6291475
+2021-02-11 14:07:00,514 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 44040222
+2021-02-11 14:07:29,480 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 6291483
+2021-02-11 14:07:29,679 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 6291491
+2021-02-11 14:07:29,679 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-11 15:26:00,276 ERROR libqtile manager.py:process_key_event():L375 KB command error kill: No object window in path 'window'
+2021-02-11 16:45:19,279 ERROR libqtile manager.py:process_key_event():L375 KB command error kill: No object window in path 'window'
+2021-02-11 16:49:13,057 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 6291499
+2021-02-11 16:49:13,221 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 6291507
+2021-02-11 16:49:13,222 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-11 17:37:01,536 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 6291515
+2021-02-11 17:37:01,739 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 6291523
+2021-02-11 17:37:01,739 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-11 17:37:07,517 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 6291531
+2021-02-11 17:37:07,704 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-11 17:37:07,704 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 6291539
+2021-02-11 17:57:07,505 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-11 17:57:07,527 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-11 17:57:07,528 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-11 18:15:59,206 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 6291547
+2021-02-11 18:18:33,657 ERROR libqtile manager.py:get_interesting_pid():L631 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 658, in wait_for_reply
+    self._process_error(error_p[0])
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 645, in _process_error
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 629, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcbq.py", line 612, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcbq.py", line 705, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 332, in reply
+    data = self.conn.wait_for_reply(self.sequence)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 573, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2021-02-11 18:18:33,657 ERROR libqtile manager.py:get_interesting_pid():L631 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 629, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcbq.py", line 612, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcbq.py", line 705, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.9/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2021-02-11 18:18:33,658 ERROR libqtile xcore.py:_xpoll():L269 Shutting down due to X connection error XCB_CONN_ERROR (1)
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2021-02-11 18:18:33,658 ERROR libqtile manager.py:get_interesting_pid():L631 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 629, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcbq.py", line 612, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcbq.py", line 705, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.9/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2021-02-11 18:18:33,671 ERROR libqtile manager.py:get_interesting_pid():L631 Got an exception in getting the window pid
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 629, in get_interesting_pid
+    return win.window.get_net_wm_pid()
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcbq.py", line 612, in get_net_wm_pid
+    r = self.get_property("_NET_WM_PID", unpack=int)
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcbq.py", line 705, in get_property
+    r = self.conn.conn.core.GetProperty(
+  File "/usr/lib/python3.9/site-packages/xcffib/xproto.py", line 2720, in GetProperty
+    return self.send_request(20, buf, GetPropertyCookie, is_checked=is_checked)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2021-02-11 18:18:33,672 ERROR libqtile manager.py:finalize():L320 exception during finalize
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 310, in finalize
+    widget.finalize()
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 208, in finalize
+    self.drawer.finalize()
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 247, in finalize
+    self.qtile.conn.conn.core.FreeGC(self.gc)
+  File "/usr/lib/python3.9/site-packages/xcffib/xproto.py", line 3027, in FreeGC
+    return self.send_request(60, buf, is_checked=is_checked)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 559, in invalid
+    raise ConnectionException(err)
+xcffib.ConnectionException: xcb connection errors because of socket, pipe and other stream errors.
+2021-02-11 18:18:57,066 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-11 18:23:35,947 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-11 18:23:35,950 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-11 18:23:35,950 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-11 18:25:24,771 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-11 18:25:24,816 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-11 18:25:24,816 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-11 18:25:27,147 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-11 18:25:27,176 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-11 18:25:27,176 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command

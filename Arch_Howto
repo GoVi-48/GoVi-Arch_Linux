@@ -23,8 +23,9 @@ sudo pacman -S bc extra-cmake-modules gnome-themes-extra icoutils jdk-openjdk lm
 paru balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke java-8-openjdk liferea mpc-qt picard skype spotify teamviewer timeshift tiny-media-manager
 
 # Fonts
-paru font-manager ttf-ms-fonts
 ln -s /windows/Windows/Fonts /usr/share/fonts/WindowsFonts
+paru font-manager ttf-ms-fonts
+sudo pacman -S cantarell-fonts noto-fonts noto-fonts-extra noto-fonts-emoji ttf-font-awesome ttf-hack ttf-jetbrains-mono ttf-ubuntu-font-family
 fc-cache --force
 
 # File Manager

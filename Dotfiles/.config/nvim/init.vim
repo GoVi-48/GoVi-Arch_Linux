@@ -24,3 +24,4 @@ nmap W :w!<CR>
 nmap Q :q!<CR>
 
 let g:airline_theme='one'
+

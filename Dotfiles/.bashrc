@@ -116,6 +116,7 @@ export PATH=$PATH:$HOME/Scripts/Shell/Utils/
 export PATH=$PATH:$HOME/Programs/Pycharm/bin/
 export JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
 
+
 # System Info
 neofetch
 

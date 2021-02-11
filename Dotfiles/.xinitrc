@@ -45,8 +45,6 @@ nvidia_led.sh &
 
 nvidia-settings --load-config-only &
 
-nm-applet --sm-disable &
-
 picom -cCGb &
 
 setxkbmap -layout es &
@@ -55,10 +53,14 @@ feh --bg-fill --no-fehbg --randomize ~/Pictures/Desktop/* &
 
 polybar.sh &
 
+firewall-applet &
+
+nm-applet --sm-disable &
+
+cairo-dock &
+
 easystroke &
 
 imwheel.sh &
-
-cairo-dock &
 
 exec qtile

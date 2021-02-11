@@ -4,9 +4,10 @@
 GOVI_ARCH_LINUX="$HOME/Proyects/Github/GoVi-Arch_Linux"
 
 # ~/
-rsync -arv ~/.bashrc "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.easystroke "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv ~/.gtkrc-2.0 "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.gtkrc-3.0 "$GOVI_ARCH_LINUX"/Dotfiles/
+rsync -arv ~/.imwheelrc "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.nvidia-settings-rc "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.profile "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.xprofile "$GOVI_ARCH_LINUX"/Dotfiles/

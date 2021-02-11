@@ -33,6 +33,7 @@ paru spacefm ffmpegthumbnailer
 
 # ZSH
 sudo pacman -S zsh zsh-autosuggestions zsh-syntax-highlighting
+chsh -l
 chsh -s /bin/zsh
 
 # Antivirus

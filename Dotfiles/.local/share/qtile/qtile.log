@@ -30826,3 +30826,120 @@ xcffib.xproto.ValueError
 2021-02-11 18:25:27,147 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
 2021-02-11 18:25:27,176 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
 2021-02-11 18:25:27,176 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-11 20:10:31,388 ERROR libqtile manager.py:process_key_event():L375 KB command error kill: No object window in path 'window'
+2021-02-11 20:11:04,086 ERROR libqtile manager.py:process_key_event():L375 KB command error kill: No object window in path 'window'
+2021-02-11 21:09:16,339 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-11 21:09:16,370 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-11 21:09:16,370 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-11 21:39:27,494 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 23068678
+2021-02-11 21:39:27,659 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-11 21:39:27,660 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 23068691
+2021-02-11 21:40:13,566 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 54525982
+2021-02-11 22:42:59,084 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-11 22:43:40,364 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-11 22:43:40,412 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-11 22:43:40,413 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-11 22:47:12,994 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-11 22:49:33,604 ERROR libqtile manager.py:process_key_event():L375 KB command error kill: No object window in path 'window'
+2021-02-11 22:51:07,082 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-11 23:04:09,037 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-11 23:04:09,090 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-11 23:04:09,090 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-11 23:09:56,053 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-11 23:14:40,173 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-11 23:14:40,211 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-11 23:14:40,212 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-11 23:16:56,166 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-11 23:21:51,412 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-11 23:21:51,457 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-11 23:21:51,458 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command

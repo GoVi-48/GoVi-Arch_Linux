@@ -1,7 +1,3 @@
-# Enable colors and change prompt:
-autoload -U colors && colors
-PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M %{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
-
 # History in cache directory:
 HISTSIZE=10000
 SAVEHIST=10000
@@ -66,17 +62,13 @@ bindkey '^e' edit-command-line
 [ -f "$HOME/.config/shortcutrc" ] && source "$HOME/.config/shortcutrc"
 [ -f "$HOME/.config/aliasrc" ] && source "$HOME/.config/aliasrc"
 
-# Load zsh-syntax-highlighting; should be last.
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null
-
-# ================================================================= #
-
 # Autocd
 setopt autocd
 
 # Colors
 unset color_prompt force_color_prompt
-# export PS1="\[\e[0;31m\][\[\e[1;33m\]\u\[\e[1;37m\]@\[\e[1;32m\]\h\[\e[1;37m\]:\[\e[1;34m\]\w\[\e[0;31m\]]\[\e[1;37m\]$ \[\e[m\]"
+autoload -U colors && colors
+PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M$fg[green]%}:%{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
 alias grep="grep --color=auto"
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
@@ -87,22 +79,23 @@ export ccat="highlight --out-format=ansi"
 # Aliases
 alias am="alsamixer"
 alias cp="cp -rfv"
-alias dp="dolphin"
+alias d1-p1="zenity --info --text "Complete" && paplay $HOME/.local/share/sounds/cause-and-effect.ogg"
 alias du1="du -d1 -h"
 alias ff="find "." -type f -iname "
 alias fd="find "." -type d -iname "
-alias k9="kill -9"
-alias ka="killall"
-alias D1-P1="zenity --info --text "Complete" && paplay $HOME/.local/share/sounds/cause-and-effect.ogg"
-alias l="exa -al --color=always --group-directories-first"
 alias ht="htop"
 alias hy="history"
+alias k9="kill -9"
+alias ka="killall"
+alias l="exa -al --color=always --group-directories-first"
 alias mv="mv -fv"
 alias nv="nvim"
+alias pc="pavucontrol &"
 alias pm="pacman"
 alias pu="paru"
 alias py="python3"
 alias rm="rm -rfv"
+alias sfm="spacefm"
 alias spm="sudo pacman"
 alias sth="sort -h"
 alias snv="sudo -E nvim"
@@ -124,7 +117,7 @@ export VKBASALT_CONFIG_FILE="$HOME/.config/vkBasalt/vkBasalt.conf"
 
 # Environment
 export BROWSER="firefox"
-export FILEMANAGER="nautilus"
+export FILEMANAGER="spacefm"
 export TERMINAL="alacritty"
 export TERM="xterm-color"
 export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'
@@ -140,6 +133,8 @@ export PATH=$PATH:$HOME/Scripts/Shell/Utils/
 export PATH=$PATH:$HOME/Programs/Pycharm/bin/
 export JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true -Dswing.defaultlaf=com.sun.java.swing.plaf.gtk.GTKLookAndFeel'
 
-
 # System Info
 neofetch
+
+# Load zsh-syntax-highlighting; should be last.
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null

@@ -75,6 +75,7 @@ alias ht="htop"
 alias hy="history"
 alias mv="mv -fv"
 alias nv="nvim"
+alias pc="pavucontrol &"
 alias pm="pacman"
 alias pu="paru"
 alias py="python3"
@@ -100,7 +101,7 @@ export VKBASALT_CONFIG_FILE="$HOME/.config/vkBasalt/vkBasalt.conf"
 
 # Environment
 export BROWSER="firefox"
-export FILEMANAGER="nautilus"
+export FILEMANAGER="spacefm"
 export TERMINAL="alacritty"
 export TERM="xterm-color"
 export GREP_OPTIONS='--color=auto' GREP_COLOR='1;32'

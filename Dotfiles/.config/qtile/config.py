@@ -37,51 +37,51 @@ terminal = guess_terminal()
 # ================================= SHORTCUTS =================================  #
 keys = [
     # Switch between windows in current stack pane
-    Key([mod], "k", lazy.layout.down(), ),
-    Key([mod], "j", lazy.layout.up(), ),
+    Key([mod], "k", lazy.layout.down()),
+    Key([mod], "j", lazy.layout.up()),
 
     # Move windows up or down in current stack
-    Key([mod, "control"], "k", lazy.layout.shuffle_down(), ),
-    Key([mod, "control"], "j", lazy.layout.shuffle_up(), ),
+    Key([mod, "control"], "k", lazy.layout.shuffle_down()),
+    Key([mod, "control"], "j", lazy.layout.shuffle_up()),
 
     # Window grow Left
     Key([mod, "control"], "Left",
         lazy.layout.grow_left(),
         lazy.layout.shrink(),
         lazy.layout.decrease(),
-        lazy.layout.add(), ),
+        lazy.layout.add()),
 
     # Window grow Right
     Key([mod, "control"], "Right",
         lazy.layout.grow_right(),
         lazy.layout.grow(),
         lazy.layout.increase_ratio(),
-        lazy.layout.delete(), ),
+        lazy.layout.delete()),
 
     # Switch window focus to other pane(s) of stack
-    Key([mod], "space", lazy.layout.next(), ),
+    Key([mod], "space", lazy.layout.next()),
 
     # Swap panes of split stack
-    Key([mod, "shift"], "space", lazy.layout.rotate(), ),
+    Key([mod, "shift"], "space", lazy.layout.rotate()),
 
     # Toggle between split and unsplit sides of stack.
-    Key([mod, "shift"], "Return", lazy.layout.toggle_split(), ),
+    Key([mod, "shift"], "Return", lazy.layout.toggle_split()),
 
     # Toggle between different layouts as defined below
-    Key([mod], "Tab", lazy.next_layout(), ),
+    Key([mod], "Tab", lazy.next_layout()),
 
     # Kill Window
-    Key([mod], "w", lazy.window.kill(), ),
+    Key([mod], "w", lazy.window.kill()),
 
     # Terminal
-    Key([mod], "t", lazy.spawn(terminal), ),
+    Key([mod], "t", lazy.spawn(terminal)),
 
     # Run Command
-    Key([mod], "r", lazy.spawncmd(), ),
+    Key([mod], "r", lazy.spawncmd()),
 
     # Restart Shutdown
-    Key([mod, "control"], "r", lazy.restart(), ),
-    Key([mod, "control"], "q", lazy.shutdown(), ),
+    Key([mod, "control"], "r", lazy.restart()),
+    Key([mod, "control"], "q", lazy.shutdown()),
 
 ]
 
@@ -119,7 +119,7 @@ for i in groups:
         Key([mod], "p", lazy.screen.prev_group()),
 
         # Switch to & Move focused window to group (mod + shift + number of group)
-        Key([mod, "shift"], i.name, lazy.window.togroup(i.name, switch_group=True), ),
+        Key([mod, "shift"], i.name, lazy.window.togroup(i.name, switch_group=True)),
 
         # Move focused window to group (mod + shift + letter of group)
         # Key([mod, "shift"], i.name, lazy.window".format(i.name)),w.togroup(i.name),
@@ -132,12 +132,12 @@ layout_theme = {'border_width': 3,
                 'margin': 11,
                 'border_focus': '#86ACE0',
                 'border_normal': '#305673',
-                'single_border_width': 0, }
+                'single_border_width': 0}
 
 layouts = [
     layout.Max(),
     layout.MonadTall(**layout_theme),
-    layout.Floating(layout_theme, border_width=0),
+    layout.Floating(layout_theme, border_width=0)
     # layout.Bsp(),
     # layout.Stack(num_stacks=2),
     # layout.Columns(),layout_theme
@@ -158,7 +158,7 @@ widget_defaults = dict(
                 font='Source Code Pro',
                 fontsize=15,
                 margin=7,
-                padding=3,)
+                padding=3)
 
 extension_defaults = widget_defaults.copy()
 
@@ -178,12 +178,12 @@ screens = [
                                 this_current_screen_border='#86ACE0',
                                 borderwidth=0,
                                 active='#DFDFDF',
-                                inactive='#717171',),
+                                inactive='#717171'),
 
                 widget.Prompt(),
 
                 widget.TaskList(borderwidth=2, border='#5C718E', fontsize=14,
-                                max_title_width=300, ),
+                                max_title_width=300),
 
 
                 widget.Systray(padding=10),
@@ -194,7 +194,7 @@ screens = [
                 widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/nvidia3.png',
                              mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('nvidia-settings')}),
 
-                widget.Clock(fontsize=18, ),
+                widget.Clock(fontsize=18),
             ],
             34,
         ),
@@ -235,7 +235,7 @@ floating_layout = layout.Floating(float_rules=[
     {'wname': 'pinentry'},  # GPG key password entry
     {'wmclass': 'ssh-askpass'},  # ssh-askpass
     {'wmclass': 'ulauncher'},
-    {'wmclass': 'onboard'},
+    {'wmclass': 'onboard'}
 ])
 
 

@@ -32410,3 +32410,42 @@ Traceback (most recent call last):
   File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
     raise error(buf)
 xcffib.xproto.ValueError
+2021-02-12 19:32:27,354 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-12 19:33:33,841 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-12 19:33:53,425 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-12 19:33:56,463 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 23068713
+2021-02-12 19:34:19,030 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-12 19:34:19,817 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 23068724
+2021-02-12 19:38:59,009 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-12 19:38:59,867 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 245, in _xpoll
+    ret = target(event)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/systray.py", line 88, in handle_DestroyNotify
+    del(self.systray.icons[wid])
+KeyError: 23068735
+2021-02-12 19:39:48,184 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError

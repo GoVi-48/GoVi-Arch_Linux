@@ -53,6 +53,7 @@ x-scheme-handler/https=firefox.desktop;
 x-scheme-handler/magnet=userapp-transmission-gtk-4418J0.desktop;
 x-scheme-handler/mailto=userapp-Thunderbird-P4BTL0.desktop;
 text/plain=userapp-sudo vim-RDJCY0.desktop;
+application/x-cd-image=org.gnome.FileRoller.desktop;
 
 [Default Applications]
 application/octet-stream=skypeforlinux-share.desktop;org.kde.kate.desktop;
@@ -114,6 +115,7 @@ x-scheme-handler/mailto=userapp-Thunderbird-P4BTL0.desktop;
 x-scheme-handler/skype=skypeforlinux.desktop
 x-scheme-handler/tel=skypeforlinux.desktop
 text/plain=userapp-sudo vim-RDJCY0.desktop
+application/x-cd-image=org.gnome.FileRoller.desktop;
 
 [Removed Associations]
 application/x-dlc-container=JDownloader.sh.desktop;

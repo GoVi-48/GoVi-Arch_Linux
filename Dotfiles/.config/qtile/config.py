@@ -26,7 +26,7 @@
 
 from typing import List  # noqa: F401
 from libqtile import bar, layout, widget
-from libqtile.config import Click, Drag, Group, Key, Screen
+from libqtile.config import Click, Drag, Group, Key, Screen, Match
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 
@@ -99,20 +99,14 @@ def window_to_next_group(qtile):
         qtile.currentWindow.togroup(qtile.groups[i + 1].name)
 
 
-groups = []
-
-group_names = ['1', '2', '3', '4', '5', '6', '7', '8', ]
-group_labels = ['', '', '', '', '', '', '', '', ]
-group_layouts = ['max', 'monadtall', 'monadtall', 'monadtall',
-                 'monadtall', 'monadtall', 'monadtall', 'floating', ]
-
-
-for i in range(len(group_names)):
-    groups.append(
-        Group(
-            name=group_names[i],
-            layout=group_layouts[i].lower(),
-            label=group_labels[i], ))
+groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefox"])]),
+          Group("2", label="", layout='monadtall'),
+          Group("3", label="", layout='monadtall'),
+          Group("4", label="", layout='monadtall'),
+          Group("5", label="", layout='monadtall'),
+          Group("6", label="", layout='monadtall'),
+          Group("7", label="", layout='monadtall'),
+          Group("8", label="", layout='floating')]
 
 # Switch Groups
 for i in groups:
@@ -182,6 +176,7 @@ screens = [
                                 disable_drag=True,
                                 highlight_method='text',
                                 this_current_screen_border='#86ACE0',
+                                borderwidth=0,
                                 active='#DFDFDF',
                                 inactive='#717171',),
 
@@ -189,6 +184,7 @@ screens = [
 
                 widget.TaskList(borderwidth=2, border='#5C718E', fontsize=14,
                                 max_title_width=300, ),
+
 
                 widget.Systray(padding=10),
 
@@ -219,8 +215,9 @@ dgroups_key_binder = None
 dgroups_app_rules = []  # type: List
 main = None  # WARNING: this is deprecated and will be removed soon
 follow_mouse_focus = True
-bring_front_click = False
+bring_front_click = True
 cursor_warp = False
+
 floating_layout = layout.Floating(float_rules=[
     # Run the utility of `xprop` to see the wm class and name of an X client.
     {'wmclass': 'confirm'},
@@ -229,7 +226,6 @@ floating_layout = layout.Floating(float_rules=[
     {'wmclass': 'error'},
     {'wmclass': 'file_progress'},
     {'wmclass': 'notification'},
-    {'wmclass': 'onboard'},
     {'wmclass': 'splash'},
     {'wmclass': 'toolbar'},
     {'wmclass': 'confirmreset'},  # gitk
@@ -239,6 +235,7 @@ floating_layout = layout.Floating(float_rules=[
     {'wname': 'pinentry'},  # GPG key password entry
     {'wmclass': 'ssh-askpass'},  # ssh-askpass
     {'wmclass': 'ulauncher'},
+    {'wmclass': 'onboard'},
 ])
 
 

@@ -28,14 +28,14 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 unset color_prompt force_color_prompt
 autoload -U colors && colors
 PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M$fg[green]%}:%{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
-alias diff="diff --color=auto"
+alias diff='diff --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
-alias grep="grep --color=auto"
+alias grep='grep --color=auto'
 export GREP_COLOR='1;32'
 export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 export CLICOLOR=1
-export TERM="xterm-color"
+export TERM='xterm-256color'
 
 # Environment
 export BROWSER="firefox"
@@ -100,6 +100,7 @@ neofetch
 
 # Load zsh-autosuggestions.
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>/dev/null
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=242'
 
 # Load zsh-syntax-highlighting; should be last.
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>/dev/null

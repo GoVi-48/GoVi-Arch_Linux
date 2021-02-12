@@ -181,7 +181,7 @@ screens = [
                 widget.GroupBox(font='FontAw4esome',
                                 disable_drag=True,
                                 highlight_method='text',
-                                block_highlight_text_color='#86ACE0',
+                                this_current_screen_border='#86ACE0',
                                 active='#DFDFDF',
                                 inactive='#717171',),
 
@@ -190,7 +190,7 @@ screens = [
                 widget.TaskList(borderwidth=2, border='#5C718E', fontsize=14,
                                 max_title_width=300, ),
 
-                widget.Systray(),
+                widget.Systray(padding=10),
 
                 widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/preferences/32/preferences-desktop-sound.svg',
                              mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('pavucontrol')}),

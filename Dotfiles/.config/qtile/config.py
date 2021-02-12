@@ -174,7 +174,7 @@ screens = [
             [
                 widget.Image(filename='~/Pictures/GoVi-Theme/GoVi_gtk/GoVi_gtk-Icons/apps/64/archlinux.png',
                              margin=0,
-                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('ulauncher --hide-window')}),
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('ulauncher')}),
 
                 widget.CurrentLayoutIcon(scale=0.7),
 

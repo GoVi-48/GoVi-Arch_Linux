@@ -48,7 +48,6 @@ UUID=94F0F35BF0F34252                       /Media      ntfs-3g   uid=1000,gid=1
 UUID=2AE63D01E63CCF37                       /Windows    ntfs    defaults    0 0
 # ======================================================================================= #
 
-
 arch-chroot /mnt /bin/bash
 
 fallocate -l 3.3GB /swapfile
@@ -69,7 +68,6 @@ nvim /etc/environment
 es_ES.UTF-8
 # ======================================================================================= #
 
-
 locale-gen
 echo "LANG=es_ES.UTF8" >> /etc/locale.conf
 echo "KEYMAP=es" >> /etc/vconsole.conf
@@ -79,14 +77,12 @@ nvim /etc/hostname
 GoVi-PC
 # ======================================================================================= #
 
-
 nvim /etc/hosts
 # ======================================================================================= #
 127.0.0.1   localhost
 ::1         localhost
 127.0.1.1   GoVi-PC
 # ======================================================================================= #
-
 
 passwd
 
@@ -102,7 +98,6 @@ EDITOR=nvim visudo
 # ======================================================================================= #
 %wheel ALL=(ALL) ALL
 # ======================================================================================= #
-
 
 exit
 umount -R /mnt
@@ -121,7 +116,7 @@ sudo pacman -S alsa-utils feh htop lxappearance pavucontrol picom-jonaburg-git q
 git clone https://aur.archlinux.org/yay-git.git
 cd yay && makepkg -si PKGBUILD
 yay paru
-paru lightdm-webkit-theme-aether
+paru -S lightdm-webkit-theme-aether
 
 systemctl enable lightdm.service
 cp /usr/share/doc/qtile/default_config.py ~/.config/qtile/config.py
@@ -141,9 +136,8 @@ Section "Device"
     Option         "ConnectedMonitor" "DFP"
     Option         "RegistryDwords" "EnableBrightnessControl=1"
     BusID          "PCI:1:0:0"
-EndSectionnvidia-settings
+EndSection
 # ======================================================================================= #
-
 
 cp /etc/X11/xinit/xinitrc ~/.xinitrc
 
@@ -177,12 +171,10 @@ imwheel.sh &
 exec qtile
 # ======================================================================================= #
 
-
 sudo nvim ~/.xprofile
 # ======================================================================================= #
 -model pc104 -layout es,es,tr -variant ,deadtilde,dvorak -option grp:alt_shift_toggle
 # ======================================================================================= #
-
 
 sudo nvim /usr/share/xsessions/qtile.desktop
 # ======================================================================================= #

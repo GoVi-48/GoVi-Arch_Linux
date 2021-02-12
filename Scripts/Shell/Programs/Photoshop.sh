@@ -1,1 +1,0 @@
-/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh

@@ -12,7 +12,6 @@ Color
 Include = /etc/pacman.d/mirrorlist
 # ======================================================================================= #
 
-
 sudo pacman -Syu
 
 # Packages
@@ -20,16 +19,16 @@ sudo pacman -S alacritty audacity exa ffmpeg firefox gimp gparted inkscape kdenl
 sudo pacman -S bc extra-cmake-modules gnome-themes-extra icoutils jdk-openjdk lm_sensors mono nvidia-led packagekit-qt5 unrar zip wget
 
 # AUR packages
-paru balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke java-8-openjdk liferea mpc-qt picard skype spotify teamviewer timeshift tiny-media-manager
+paru -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke java-8-openjdk liferea mpc-qt picard skype spotify teamviewer timeshift tiny-media-manager
 
 # Fonts
 ln -s /windows/Windows/Fonts /usr/share/fonts/WindowsFonts
-paru font-manager ttf-ms-fonts
+paru -S font-manager ttf-ms-fonts
 sudo pacman -S cantarell-fonts noto-fonts noto-fonts-extra noto-fonts-emoji ttf-font-awesome ttf-hack ttf-jetbrains-mono ttf-ubuntu-font-family
 fc-cache --force
 
 # File Manager
-paru spacefm ffmpegthumbnailer
+paru -S spacefm ffmpegthumbnailer
 
 # ZSH
 sudo pacman -S zsh zsh-autosuggestions zsh-syntax-highlighting
@@ -50,7 +49,7 @@ sudo firewall-config
 
 # Kodi
 sudo pacman -S kodi
-paru kodi-addon-pvr-iptvsimple
+paru -S kodi-addon-pvr-iptvsimple
 
 
 # ============================================================================= # #
@@ -84,7 +83,6 @@ UUID=94F0F35BF0F34252                       /Media      ntfs   defaults    0 0
 UUID=2AE63D01E63CCF37                       /Windows    ntfs    defaults    0 0
 # ======================================================================================= #
 
-
 sudo mkdir /Datos
 sudo mkdir /Media
 sudo mkdir /Windows
@@ -104,16 +102,15 @@ systemctl enable --now cronie.service
 crontab -e
 # ======================================================================================= #
 MAILTO=""
-*/40 * * * * ~/.config/polybar/scripts/system_update.sh
-*/30 * * * * ~/.config/polybar/scripts/rss_youtube.sh
 */20 * * * * ~/.config/polybar/scripts/rss_games.sh
+*/30 * * * * ~/.config/polybar/scripts/rss_youtube.sh
+*/40 * * * * ~/.config/polybar/scripts/system_update.sh
 0 */1 * * * ~/.config/polybar/scripts/rss_github.sh
 */5 * * * * ~/Scripts/Shell/Autostart/set_background.sh
 00 00 * * * ~/Scripts/Shell/Utils/Webgrab_GIT.sh > ~/Programas/Webgrab++/webgrab.log
 00 12 * * * ~/Scripts/Shell/Utils/Webgrab_GIT.sh > ~/Programas/Webgrab++/webgrab.log
 
 # ======================================================================================= #
-
 
 crontab -l
 
@@ -136,7 +133,6 @@ sudo nvim ~/.imwheelrc
     Control_L, Down, Control_L|Button5
 # ======================================================================================= #
 
-
 # Gestures KDE
 qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.shortcutNames
 qdbus org.kde.kglobalaccel /component/kwin org.kde.kglobalaccel.Component.invokeShortcut "Cube"
@@ -152,10 +148,14 @@ sudo ln -s /usr/bin/nvim /usr/bin/vi
 sudo nvim /etc/sudoers
 # ======================================================================================= #
 %wheel ALL=(ALL) ALL
+ALL ALL=(ALL) NOPASSWD: /usr/bin/pacman -Syy
 Defaults env_reset,pwfeedback
 Defaults editor=/usr/bin/nvim, !env_editor
 # ======================================================================================= #
 
+# Default directory names.
+sudo nvim /etc/xdg/user-dirs.defaults
+nvim ~/.config/user-dirs.dirs
 
 # Tuning PulseAudio
 sudo nvim /etc/pulse/daemon.conf
@@ -166,7 +166,6 @@ nice-level = -11
 realtime-scheduling = yes
 realtime-priority = 5
 # ======================================================================================= #
-
 
 # Autologin
 sudo groupadd -r autologin
@@ -180,9 +179,7 @@ autologin-guest=false
 autologin-user=govi
 autologin-user-timeout=0
 autologin-session=qtile
-
 # ======================================================================================= #
-
 
 # Required for custom Kernels
 sudo pacman -S nvidia-dkms
@@ -199,5 +196,5 @@ makepkg -si
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 # Kernel CK
-paru linux-ck linux-ck-headers
+paru -S linux-ck linux-ck-headers
 sudo grub-mkconfig -o /boot/grub/grub.cfg

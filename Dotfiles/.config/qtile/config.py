@@ -29,6 +29,9 @@ from libqtile import bar, layout, widget
 from libqtile.config import Click, Drag, Group, Key, Screen, Match
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
+from libqtile.widget import base
+import subprocess
+import os
 
 mod = "mod4"
 terminal = guess_terminal()
@@ -99,8 +102,9 @@ def window_to_next_group(qtile):
         qtile.currentWindow.togroup(qtile.groups[i + 1].name)
 
 
+# Run "xprop" to see the wm class and name of an X client.
 groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefox"])]),
-          Group("2", label="", layout='monadtall'),
+          Group("2", label="", layout='monadtall', matches=[Match(wm_class=["jetbrains-pycharm-ce-debug"])]),
           Group("3", label="", layout='monadtall'),
           Group("4", label="", layout='monadtall'),
           Group("5", label="", layout='monadtall'),
@@ -152,6 +156,7 @@ layouts = [
 
 
 # ================================= WIDGETS =================================  #
+
 widget_defaults = dict(
                 background='#21242B',
                 foreground='#dfdfdf',
@@ -161,6 +166,12 @@ widget_defaults = dict(
                 padding=3)
 
 extension_defaults = widget_defaults.copy()
+
+
+def gpu_temp():
+    f = open('/home/govi/.config/qtile/scripts/gpu_temp', 'r')
+    print(f.read(4))
+
 
 screens = [
     Screen(
@@ -195,9 +206,35 @@ screens = [
                              mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('nvidia-settings')}),
 
                 widget.Clock(fontsize=18),
+
             ],
-            34,
-        ),
+            34),
+
+        # bottom=bar.Bar(
+        #     [
+        #         widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/power.png',
+        #                      mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('kill -9 -1')}),
+        #
+        #         widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/ssd.png'),
+        #         widget.DF(partition='/'),
+        #
+        #
+        #         widget.Spacer(length=bar.STRETCH),
+        #
+        #         # widget.TextBox(mb_temp, foreground='#F6FA93'),
+        #
+        #         widget.TextBox(gpu_temp(), foreground='#27AE60'),
+        #
+        #         widget.ThermalSensor(tag_sensor='Package id 0', foreground='#287BDE'),
+        #
+        #         widget.Volume(update_interval=0.2, emoji=True),
+        #         widget.Volume(update_interval=0.2),
+        #
+        #         widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/calendar.png'),
+        #         widget.Clock(fontsize=14, format='%a %d/%m/%Y '),
+        #     ],
+        #     34,),
+
     ),
 ]
 
@@ -240,6 +277,13 @@ floating_layout = layout.Floating(float_rules=[
 
 
 auto_fullscreen = True
-focus_on_window_activation = "smart"
+focus_on_window_activation = "focus"
 
 wmname = "LG3D"
+
+autostart = [
+        "killall nm-applet & sleep 1 && nm-applet --sm-disable &",
+]
+
+for x in autostart:
+    os.system(x)

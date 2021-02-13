@@ -55,7 +55,7 @@ polybar.sh &
 
 firewall-applet &
 
-nm-applet --sm-disable &
+#nm-applet --sm-disable &
 
 cairo-dock &
 

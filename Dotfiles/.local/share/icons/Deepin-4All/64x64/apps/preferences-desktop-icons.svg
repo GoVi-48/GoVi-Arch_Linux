@@ -1,0 +1,32 @@
+<svg width="64" height="64" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<linearGradient id="linearGradient936" x1="-65.6" x2="1.6" y1="-32" y2="-32" gradientTransform="scale(1.0607 .94281)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#54FFCD" offset="0"/>
+<stop stop-color="#23C06D" offset="1"/>
+</linearGradient>
+</defs>
+<rect transform="matrix(0,-1,-1,0,0,0)" x="-60" y="-60" width="56" height="56" rx="2.8" ry="2.8" fill="url(#linearGradient936)" filter="url(#a)"/>
+<path d="m6.8 4c-1.55 0-2.8 1.25-2.8 2.8v1c0-1.55 1.25-2.8 2.8-2.8h50.4c1.55 0 2.8 1.25 2.8 2.8v-1c0-1.55-1.25-2.8-2.8-2.8z" fill="#fff" filter="url(#a)" opacity=".1"/>
+<path d="m4 57.2v1c0 1.55 1.25 2.8 2.8 2.8h50.4c1.55 0 2.8-1.25 2.8-2.8v-1c0 1.55-1.25 2.8-2.8 2.8h-50.4c-1.55 0-2.8-1.25-2.8-2.8z" filter="url(#a)" opacity=".2"/>
+<g transform="matrix(2,0,0,2,0,1)" filter="url(#a)" opacity=".2">
+<rect x="5" y="5" width="6" height="6" rx=".75" ry=".75"/>
+<rect x="13" y="5" width="6" height="6" rx=".75" ry=".75"/>
+<rect x="5" y="13" width="6" height="6" rx=".75" ry=".75"/>
+<rect x="13" y="13" width="6" height="6" rx=".75" ry=".75"/>
+<rect x="5" y="21" width="6" height="6" rx=".75" ry=".75"/>
+</g>
+<g transform="scale(2)" fill="#fff" filter="url(#a)">
+<rect x="5" y="5" width="6" height="6" rx=".75" ry=".75"/>
+<rect x="13" y="5" width="6" height="6" rx=".75" ry=".75"/>
+<rect x="5" y="13" width="6" height="6" rx=".75" ry=".75"/>
+<rect x="13" y="13" width="6" height="6" rx=".75" ry=".75"/>
+<rect x="5" y="21" width="6" height="6" rx=".75" ry=".75"/>
+</g>
+</svg>

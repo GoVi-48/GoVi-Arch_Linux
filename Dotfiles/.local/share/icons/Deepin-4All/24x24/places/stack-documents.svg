@@ -1,0 +1,64 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="stack-documents-a" x="-12.5%" y="-13.9%" width="125%" height="127.8%">
+<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="stack-documents-b" x1="50%" x2="50%" y2="98.094%">
+<stop stop-color="#D9630F" offset="0"/>
+<stop stop-color="#BEBEBE" offset="1"/>
+</linearGradient>
+<linearGradient id="stack-documents-c" x1="50%" x2="50%" y2="96.707%">
+<stop stop-color="#FFA221" offset="0"/>
+<stop stop-color="#FF7248" offset="1"/>
+</linearGradient>
+<linearGradient id="stack-documents-d" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFE3C0" offset="1"/>
+</linearGradient>
+<radialGradient id="stack-documents-e" cx="79.957%" cy="71.832%" r="100%" gradientTransform="matrix(0 -1 .71429 0 .286 1.518)">
+<stop stop-color="#FA9361" offset="0"/>
+<stop stop-color="#5F1CF7" offset="1"/>
+</radialGradient>
+<linearGradient id="stack-documents-f" x1="50%" x2="50%" y1="20.953%" y2="100%">
+<stop stop-color="#0E3BAC" offset="0"/>
+<stop stop-color="#1A0570" offset="1"/>
+</linearGradient>
+<linearGradient id="stack-documents-g" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#242424" offset="0"/>
+<stop offset="1"/>
+</linearGradient>
+<linearGradient id="stack-documents-h" y1="92.893%" y2="92.893%">
+<stop stop-color="#FFE489" offset="0"/>
+<stop stop-color="#8F3F09" offset="1"/>
+</linearGradient>
+<linearGradient id="stack-documents-i" x1="11.779%" x2="76.358%" y1="79.249%" y2="79.249%">
+<stop stop-color="#6A6A6A" offset="0"/>
+<stop stop-color="#0A0A0A" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(2 4)" fill="none" fill-rule="evenodd" filter="url(#stack-documents-a)">
+<polygon points="13 0 18 0 18 16.995 2 16.995 2 1 12 1" fill="url(#stack-documents-b)"/>
+<polygon points="1 17 1 2 19 2 19 17" fill="#F1F1F1"/>
+<polygon points="0 18 0 3 20 3 20 18" fill="url(#stack-documents-c)"/>
+<g transform="translate(1 4)">
+<polygon points="9e-3 1 13 1 12.984 14 0 14" fill="url(#stack-documents-d)"/>
+<g transform="translate(.544 1.062)">
+<polygon points="0.456 0.938 7.456 0.938 7.456 5.938 0.456 5.938" fill="url(#stack-documents-e)"/>
+<ellipse cx="6.5" cy="4.499" rx="1" ry="1" fill="#FF5151"/>
+<path d="m0.45614 5.9385h6l-1.2702-2.0691c-0.14447-0.23534-0.45236-0.309-0.6877-0.16453-0.03665 0.022499-0.070245 0.049633-0.099952 0.080729l-0.2868 0.30021c-0.19075 0.19967-0.50725 0.2069-0.70692 0.016154-0.047598-0.045471-0.085749-0.099894-0.11226-0.16015l-0.44767-1.0173c-0.11123-0.25275-0.40629-0.36748-0.65904-0.25625-0.10816 0.047596-0.19596 0.13196-0.24784 0.23813l-1.4816 3.0321z" fill="url(#stack-documents-f)"/>
+</g>
+<path d="m9 2h3v1h-3v-1zm0 2h3v1h-3v-1zm0 2h3v1h-3v-1zm-8 2h11v1h-11v-1zm0 2h5v1h-5v-1zm0 2h11v1h-11v-1z" fill="#000" fill-opacity=".5"/>
+<g transform="translate(15)">
+<polygon points="0 5 3 5 3 14 0 14" fill="url(#stack-documents-g)"/>
+<polygon points="1.5 0 3 5 0 5" fill="url(#stack-documents-h)"/>
+<polygon points="1.832 1.015 1.221 1.015 1.526 0" fill="url(#stack-documents-i)"/>
+</g>
+</g>
+</g>
+</svg>

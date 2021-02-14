@@ -1,0 +1,30 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation=".7"/>
+<feOffset dx="0" dy=".7" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<linearGradient id="linearGradient903" x1="-.8" x2="32.8" y1="15" y2="15" gradientTransform="scale(1.0408 .96077)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#23FFBE" offset="0"/>
+<stop stop-color="#3FDA88" offset="1"/>
+</linearGradient>
+</defs>
+<path d="m3.4 29c-0.776 0-1.4-0.62-1.4-1.389v-1.611h28v1.611c0 0.77-0.625 1.389-1.4 1.389z" fill="#4f4f4f" filter="url(#a)"/>
+<path d="M 3.4,4 C 2.625,4 2,4.62 2,5.389 V 26 H 30 V 5.39 C 30,4.62 29.375,4 28.6,4 Z" fill="url(#linearGradient903)" filter="url(#a)"/>
+<path d="M 3.4,4 C 2.625,4 2,4.62 2,5.389 v 1 C 2,5.619 2.625,5 3.4,5 H 28.6 C 29.375,5 30,5.62 30,6.389 v -1 C 30,4.619 29.375,4 28.6,4 Z" fill="#fff" filter="url(#a)" opacity=".1"/>
+<rect x="10" y="13" width="12" height="8" rx=".75" ry=".667" filter="url(#a)" opacity=".2"/>
+<path d="m10 14v5.334c0 0.369 0.334 0.666 0.75 0.666h10.5c0.416 0 0.75-0.297 0.75-0.666v-5.334z" fill="#fff" filter="url(#a)"/>
+<path d="m10.75 12h10.5c0.416 0 0.75 0.297 0.75 0.667v1.333h-12v-1.333c0-0.37 0.335-0.667 0.75-0.667z" fill="#4f4f4f" filter="url(#a)"/>
+<rect x="3" y="18" width="3" height="3" rx=".375" ry=".375" filter="url(#a)" opacity=".2"/>
+<rect x="3" y="6" width="3" height="3" rx=".375" ry=".375" filter="url(#a)" opacity=".2"/>
+<rect x="3" y="5" width="3" height="3" rx=".375" ry=".375" fill="#fff" filter="url(#a)"/>
+<rect x="3" y="10" width="3" height="3" rx=".375" ry=".375" filter="url(#a)" opacity=".2"/>
+<rect x="3" y="9" width="3" height="3" rx=".375" ry=".375" fill="#fff" filter="url(#a)"/>
+<rect x="3" y="14" width="3" height="3" rx=".375" ry=".375" filter="url(#a)" opacity=".2"/>
+<rect x="3" y="13" width="3" height="3" rx=".375" ry=".375" fill="#fff" filter="url(#a)"/>
+<rect x="3" y="17" width="3" height="3" rx=".375" ry=".375" fill="#fff" filter="url(#a)"/>
+<path d="m2 27.611v1c0 0.77 0.625 1.389 1.4 1.389h25.2c0.775 0 1.4-0.619 1.4-1.389v-1c0 0.77-0.625 1.389-1.4 1.389h-25.2c-0.775 0-1.4-0.619-1.4-1.389z" filter="url(#a)" opacity=".2"/>
+</svg>

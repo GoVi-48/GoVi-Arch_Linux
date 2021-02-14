@@ -1,0 +1,49 @@
+<svg width="22" height="22" version="1.1" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="stack-pictures-b" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#1850D2" offset="0"/>
+<stop stop-color="#8BC5FF" offset="1"/>
+</linearGradient>
+<polygon id="stack-pictures-a" points="0 16 0 3 18 3 18 16"/>
+<linearGradient id="stack-pictures-d" x1="50%" x2="50%" y1="20.953%" y2="100%">
+<stop stop-color="#0E3BAC" offset="0"/>
+<stop stop-color="#1A0570" offset="1"/>
+</linearGradient>
+<path id="stack-pictures-e" d="m0 12c2.8703-0.97549 2.7006-4.926 5.3664-4.6114 2.6658 0.31457 3.3782 0.69854 4.546 0 1.1679-0.69854 1.709-2.7541 4.1017-2.3321 2.3926 0.42201 4.6187 2.6928 5.9859 3.4434l-1.2007 3.5h-18.799z"/>
+<filter id="stack-pictures-f" x="-5%" y="-14.3%" width="110%" height="128.6%">
+<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation=".5"/>
+<feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.13973199   0 0 0 0 0.558172091   0 0 0 0 0.763472577  0 0 0 0.303357111 0"/>
+</filter>
+<linearGradient id="stack-pictures-g" x1="22.015%" x2="62.934%" y1="88.521%" y2="11.313%">
+<stop stop-color="#FFC8C8" offset="0"/>
+<stop stop-color="#4C82F4" offset="1"/>
+</linearGradient>
+<linearGradient id="stack-pictures-h" x1="22.015%" x2="63.689%" y1="88.521%">
+<stop stop-color="#FFC8C8" offset="0"/>
+<stop stop-color="#4381FF" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(2 3)" fill="none" fill-rule="evenodd">
+<polygon points="11 0 16 0 16 14.995 2 14.995 2 1 10 1" fill="#003BAE"/>
+<polygon points="1 15 1 2 17 2 17 15" fill="#D7D7D7"/>
+<mask id="stack-pictures-c" fill="#fff">
+<use xlink:href="#stack-pictures-a"/>
+</mask>
+<use fill="url(#stack-pictures-b)" xlink:href="#stack-pictures-a"/>
+<g mask="url(#stack-pictures-c)">
+<g transform="translate(0 4)">
+<g transform="translate(1 5)">
+<circle cx="2.5" cy="2.5" r="1.25" fill="#F66161"/>
+<path d="m2.5 3.75c0.69036 0 1.25-0.55964 1.25-1.25s-0.55964-1.25-1.25-1.25-1.25 0.55964-1.25 1.25 0.55964 1.25 1.25 1.25zm0 0.625c-1.0355 0-1.875-0.83947-1.875-1.875s0.83947-1.875 1.875-1.875 1.875 0.83947 1.875 1.875-0.83947 1.875-1.875 1.875z" fill="#FFA279" fill-rule="nonzero" opacity=".5"/>
+<path d="m2.5 4.375c1.0355 0 1.875-0.83947 1.875-1.875s-0.83947-1.875-1.875-1.875-1.875 0.83947-1.875 1.875 0.83947 1.875 1.875 1.875zm0 0.625c-1.3807 0-2.5-1.1193-2.5-2.5s1.1193-2.5 2.5-2.5 2.5 1.1193 2.5 2.5-1.1193 2.5-2.5 2.5z" fill="#FFA279" fill-rule="nonzero" opacity=".2"/>
+</g>
+<use fill="url(#stack-pictures-d)" xlink:href="#stack-pictures-e"/>
+<use fill="#000" filter="url(#stack-pictures-f)" xlink:href="#stack-pictures-e"/>
+<path d="m3.6909 1c0.43077 0 0.78865 0.30516 0.85985 0.70646 0.26204 0.092967 0.44924 0.33855 0.44924 0.62687 0 0.36819-0.30526 0.66667-0.68182 0.66667h-1.6364c-0.37656 0-0.68182-0.29848-0.68182-0.66667 0-0.36819 0.30526-0.66667 0.68182-0.66667 0.052824 0 0.10424 0.0058736 0.15362 0.016989 0.08047-0.39 0.4329-0.68366 0.85547-0.68366z" fill="url(#stack-pictures-g)" opacity=".7"/>
+<path d="m14.818 0c0.71795 0 1.3144 0.45775 1.4331 1.0597 0.43674 0.13945 0.74874 0.50782 0.74874 0.94031 0 0.55228-0.50877 1-1.1364 1h-2.7273c-0.6276 0-1.1364-0.44772-1.1364-1s0.50877-1 1.1364-1c0.08804 0 0.17374 0.0088105 0.25603 0.025484 0.13412-0.58499 0.7215-1.0255 1.4258-1.0255z" fill="url(#stack-pictures-h)" opacity=".7"/>
+</g>
+</g>
+</g>
+</svg>

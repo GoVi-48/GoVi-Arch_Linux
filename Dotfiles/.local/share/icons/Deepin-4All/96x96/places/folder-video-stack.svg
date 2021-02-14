@@ -1,0 +1,65 @@
+<svg width="96" height="96" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-video-stack-a" x="-14.6%" y="-16.7%" width="129.3%" height="133.3%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-video-stack-b" x1="50%" x2="50%" y2="98.094%">
+<stop stop-color="#656565" offset="0"/>
+<stop stop-color="#BEBEBE" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-video-stack-c" x1="50%" x2="50%" y2="97.197%">
+<stop stop-color="#414141" offset="0"/>
+<stop stop-color="#2B2B2B" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-video-stack-f" x1="36.057%" x2="50%" y2="100%">
+<stop stop-color="#FFE00B" offset="0"/>
+<stop stop-color="#D38700" offset="1"/>
+</linearGradient>
+<polygon id="folder-video-stack-e" points="44 29.324 32 37.649 32 21"/>
+<filter id="folder-video-stack-d" x="-125%" y="-90.1%" width="350%" height="280.2%">
+<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 1   0 0 0 0 0.789741848   0 0 0 0 0  0 0 0 0.619650136 0"/>
+</filter>
+</defs>
+<g transform="translate(7 17)" fill="none" fill-rule="evenodd" filter="url(#folder-video-stack-a)">
+<path d="m71.009 0c1.0995 0 1.9908 0.89412 1.9908 1.9987v63.001c0 1.1153-0.90951 2-2 2h-60c-1.105 0-2-0.86559-2-2v-60.007c0-1.1005 0.89447-1.9926 2.0053-1.9926l38.002 9e-8c0.54851 0 1.3142-0.32105 1.7041-0.71096l1.5781-1.5781c0.39265-0.39265 1.1663-0.71096 1.7028-0.71096h17.017z" fill="url(#folder-video-stack-b)"/>
+<path d="m70.994 1c1.1077 0 2.0056 0.90445 2.0056 2.0027v61.978h-64v-58.986c0-1.1014 0.89132-1.9943 1.9996-1.9943l38.76 5e-8c0.54723 1e-8 1.3119-0.32105 1.7018-0.71096l1.5781-1.5781c0.39265-0.39265 1.1492-0.71096 1.7188-0.71096h16.237z" fill="#161616"/>
+<path d="m5 67.007-2e-8 -58.011c0-1.1027 0.89731-1.9966 2.0008-1.9966h67.998c1.105 0 2.0008 0.89484 2.0008 1.9966v58.011h-72z" fill="#757575"/>
+<path d="m5 66v-56.004c0-1.1026 0.89731-1.9965 2.0008-1.9965h67.998c1.105 0 2.0008 0.88783 2.0008 1.9965v56.004h-72z" fill="#262626"/>
+<path d="m2.0066 72c-1.1082 0-2.0066-0.88583-2.0066-1.9949l1.3294e-9 -57.01c2.5692e-11 -1.1018 0.89295-1.9949 2.0066-1.9949h77.987c1.1082 0 2.0066 0.88583 2.0066 1.9949v57.01c0 1.1018-0.89295 1.9949-2.0066 1.9949h-77.987z" fill="url(#folder-video-stack-c)"/>
+<g transform="translate(0 11)">
+<path d="m1.3004e-9 2.9949 2.3319e-11 -1c2.5692e-11 -1.1018 0.89295-1.9949 2.0066-1.9949h77.987c1.1082 0 2.0066 0.88583 2.0066 1.9949v1c0-1.1091-0.89839-1.9949-2.0066-1.9949h-77.987c-1.1137 0-2.0066 0.89315-2.0066 1.9949z" fill="#FFF" fill-opacity=".3"/>
+<path d="m-5.7514e-12 58.005c-2.5862e-11 1.1091 0.89839 1.9949 2.0066 1.9949h77.987c1.1137 0 2.0066-0.89315 2.0066-1.9949v1c0 1.1018-0.89295 1.9949-2.0066 1.9949h-77.987c-1.1082 0-2.0066-0.88583-2.0066-1.9949l2.3319e-11 -1z" fill="#000" fill-opacity=".3"/>
+<path d="m78.993 7.1054e-15h1c1.1082 0 2.0066 0.88583 2.0066 1.9949v57.01c0 1.1018-0.89295 1.9949-2.0066 1.9949h-1c1.1137 0 2.0066-0.89315 2.0066-1.9949v-57.01c0-1.1091-0.89839-1.9949-2.0066-1.9949zm-75.987 0c-1.1137 0-2.0066 0.89315-2.0066 1.9949v57.01c0 1.1091 0.89839 1.9949 2.0066 1.9949h-1c-1.1082 0-2.0066-0.88583-2.0066-1.9949l1.3294e-9 -57.01c2.5692e-11 -1.1018 0.89295-1.9949 2.0066-1.9949h1z" fill="#FFF" fill-opacity=".06"/>
+</g>
+<g transform="translate(5 12)">
+<g transform="translate(0 3)">
+<path d="m0 14.973h9v9h-9v-9zm0-14h9v9h-9v-9zm0 27h9v9h-9v-9zm0 14h9v9h-9v-9z" fill="#1B1B1B"/>
+<path d="m9 15.973h-9v-1h9v1zm0-14h-9v-1h9v1zm0 27h-9v-1h9v1zm0 14h-9v-1h9v1z" fill="#000"/>
+<path d="m9 24.973h-9v-1h9v1zm0-14h-9v-1h9v1zm0 27h-9v-1h9v1zm0 14h-9v-1h9v1z" fill="#FFF" fill-opacity=".1"/>
+</g>
+<g transform="translate(63 3)">
+<path d="m0 14.973h9v9h-9v-9zm0-14h9v9h-9v-9zm0 27h9v9h-9v-9zm0 14h9v9h-9v-9z" fill="#1B1B1B"/>
+<path d="m9 15.973h-9v-1h9v1zm0-14h-9v-1h9v1zm0 27h-9v-1h9v1zm0 14h-9v-1h9v1z" fill="#000"/>
+<path d="m9 24.973h-9v-1h9v1zm0-14h-9v-1h9v1zm0 27h-9v-1h9v1zm0 14h-9v-1h9v1z" fill="#FFF" fill-opacity=".1"/>
+</g>
+<g fill="#000">
+<g fill-opacity=".2">
+<rect x="14" width="44" height="12"/>
+<rect x="14" y="14" width="44" height="30"/>
+<rect x="14" y="46" width="44" height="12"/>
+</g>
+<use filter="url(#folder-video-stack-d)" xlink:href="#folder-video-stack-e"/>
+</g>
+<use fill="url(#folder-video-stack-f)" xlink:href="#folder-video-stack-e"/>
+<path d="m33.5 23.866v10.916l7.8683-5.4582-7.8683-5.4582zm10.5 5.4582-12 8.3243v-16.649l12 8.3243z" fill="#FFF000" fill-opacity=".4" fill-rule="nonzero"/>
+</g>
+</g>
+</svg>

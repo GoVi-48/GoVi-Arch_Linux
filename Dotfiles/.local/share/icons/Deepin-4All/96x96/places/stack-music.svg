@@ -1,0 +1,83 @@
+<svg width="96" height="96" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="stack-music-a" x="-14.6%" y="-16.7%" width="129.3%" height="133.3%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="stack-music-c" x1="50%" x2="50%" y2="95.786%">
+<stop stop-color="#F87136" offset="0"/>
+<stop stop-color="#D22E18" offset="1"/>
+</linearGradient>
+<path id="stack-music-b" d="m2.0066 72c-1.1082 0-2.0066-0.88583-2.0066-1.9949l1.3294e-9 -57.01c2.5692e-11 -1.1018 0.89295-1.9949 2.0066-1.9949h77.987c1.1082 0 2.0066 0.88583 2.0066 1.9949v57.01c0 1.1018-0.89295 1.9949-2.0066 1.9949h-77.987z"/>
+<linearGradient id="stack-music-g" x1="50%" x2="50%" y2="97.774%">
+<stop stop-color="#343434" offset="0"/>
+<stop stop-color="#240B0B" offset="1"/>
+</linearGradient>
+<linearGradient id="stack-music-h" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#151515" offset="0"/>
+<stop offset="1"/>
+</linearGradient>
+<circle id="stack-music-e" cx="25" cy="25" r="25"/>
+<filter id="stack-music-f" x="-13%" y="-9%" width="126%" height="126%">
+<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+<feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1.5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+</filter>
+<filter id="stack-music-j" x="-50%" y="-17.6%" width="200%" height="135.3%">
+<feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+</filter>
+<filter id="stack-music-k" x="-50%" y="-17.6%" width="200%" height="135.3%">
+<feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+</filter>
+<linearGradient id="stack-music-l" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#E91F95" offset="0"/>
+<stop stop-color="#930DCE" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(7 17)" fill="none" fill-rule="evenodd" filter="url(#stack-music-a)">
+<path d="m71.009 0c1.0995 0 1.9908 0.89412 1.9908 1.9987v63.001c0 1.1153-0.90951 2-2 2h-60c-1.105 0-2-0.86559-2-2v-60.007c0-1.1005 0.89447-1.9926 2.0053-1.9926l38.002 9e-8c0.54851 0 1.3142-0.32105 1.7041-0.71096l1.5781-1.5781c0.39265-0.39265 1.1663-0.71096 1.7028-0.71096h17.017z" fill="#FF7942"/>
+<path d="m70.994 1c1.1077 0 2.0056 0.90445 2.0056 2.0027v61.978h-64v-58.986c0-1.1014 0.89132-1.9943 1.9996-1.9943l38.76 5e-8c0.54723 1e-8 1.3119-0.32105 1.7018-0.71096l1.5781-1.5781c0.39265-0.39265 1.1492-0.71096 1.7188-0.71096h16.237z" fill="#D8391D"/>
+<path d="m5 67.007-2e-8 -58.011c0-1.1027 0.89731-1.9966 2.0008-1.9966h67.998c1.105 0 2.0008 0.89484 2.0008 1.9966v58.011h-72z" fill="#FFF"/>
+<path d="m5 66v-56.004c0-1.1026 0.89731-1.9965 2.0008-1.9965h67.998c1.105 0 2.0008 0.88783 2.0008 1.9965v56.004h-72z" fill="#D7D7D7"/>
+<mask id="stack-music-d" fill="#fff">
+<use xlink:href="#stack-music-b"/>
+</mask>
+<use fill="url(#stack-music-c)" xlink:href="#stack-music-b"/>
+<g mask="url(#stack-music-d)">
+<g transform="translate(17 32)">
+<mask id="stack-music-i" fill="#fff">
+<use xlink:href="#stack-music-e"/>
+</mask>
+<use fill="#000" filter="url(#stack-music-f)" xlink:href="#stack-music-e"/>
+<g stroke="url(#stack-music-h)">
+<circle cx="25" cy="25" r="25.5" fill="url(#stack-music-g)"/>
+<circle cx="25" cy="25" r="13.5" mask="url(#stack-music-i)"/>
+<circle cx="25" cy="25" r="15.5" mask="url(#stack-music-i)"/>
+<circle cx="25" cy="25" r="17.5" mask="url(#stack-music-i)"/>
+<circle cx="25" cy="25" r="19.5" mask="url(#stack-music-i)"/>
+<circle cx="25" cy="25" r="21.5" mask="url(#stack-music-i)"/>
+<circle cx="25" cy="25" r="23.5" mask="url(#stack-music-i)"/>
+<circle cx="25" cy="25" r="11.5" mask="url(#stack-music-i)"/>
+</g>
+<path transform="rotate(120 24.5 25.5)" d="m24.5 25.5 9 25.5h-18l9-25.5zm0 0-9-25.5h18l-9 25.5z" fill="#FFF" filter="url(#stack-music-j)" mask="url(#stack-music-i)" opacity=".1"/>
+<path transform="rotate(45 24.5 25.5)" d="m24.5 25.5 9 25.5h-18l9-25.5zm0 0-9-25.5h18l-9 25.5z" fill="#FFF" filter="url(#stack-music-k)" mask="url(#stack-music-i)" opacity=".1"/>
+<circle cx="25" cy="25" r="9.5" fill="url(#stack-music-l)" mask="url(#stack-music-i)" stroke="url(#stack-music-h)"/>
+<polygon points="30 25 22 29 22 21" fill="#FFF" mask="url(#stack-music-i)"/>
+</g>
+</g>
+<g mask="url(#stack-music-d)">
+<g transform="translate(0 11)">
+<path d="m1.306e-9 2.9949 2.3319e-11 -1c2.5692e-11 -1.1018 0.89295-1.9949 2.0066-1.9949h77.987c1.1082 0 2.0066 0.88583 2.0066 1.9949v1c0-1.1091-0.89839-1.9949-2.0066-1.9949h-77.987c-1.1137 0-2.0066 0.89315-2.0066 1.9949z" fill="#FFF" fill-opacity=".3"/>
+<path d="m-6.7073e-14 58.005c-2.5862e-11 1.1091 0.89839 1.9949 2.0066 1.9949h77.987c1.1137 0 2.0066-0.89315 2.0066-1.9949v1c0 1.1018-0.89295 1.9949-2.0066 1.9949h-77.987c-1.1082 0-2.0066-0.88583-2.0066-1.9949l2.3319e-11 -1z" fill="#000" fill-opacity=".3"/>
+<path d="m78.993 7.1054e-15h1c1.1082 0 2.0066 0.88583 2.0066 1.9949v57.01c0 1.1018-0.89295 1.9949-2.0066 1.9949h-1c1.1137 0 2.0066-0.89315 2.0066-1.9949v-57.01c0-1.1091-0.89839-1.9949-2.0066-1.9949zm-75.987 0c-1.1137 0-2.0066 0.89315-2.0066 1.9949v57.01c0 1.1091 0.89839 1.9949 2.0066 1.9949h-1c-1.1082 0-2.0066-0.88583-2.0066-1.9949l1.3294e-9 -57.01c2.5692e-11 -1.1018 0.89295-1.9949 2.0066-1.9949h1z" fill="#FFF" fill-opacity=".06"/>
+</g>
+</g>
+</g>
+</svg>

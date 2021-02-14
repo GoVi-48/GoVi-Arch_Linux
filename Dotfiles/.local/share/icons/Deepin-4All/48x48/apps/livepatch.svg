@@ -1,0 +1,16 @@
+<svg width="48" height="48" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<circle cx="24" cy="24" r="20" fill="#234db8" filter="url(#a)"/>
+<path d="m21 9v3.375c-5.73 1.355-10 6.48-10 12.625 0 7.18 5.82 13 13 13 6.316 0 11.581-4.505 12.755-10.477 0.245-2.523-2.755-2.523-3.027-0.197-1.048 4.401-5.006 7.674-9.728 7.674-5.523 0-10-4.477-10-10 0-4.476 2.945-8.26 7-9.535v3.535l6-5z" fill-rule="evenodd" filter="url(#a)" opacity=".2"/>
+<path d="m21 8v3.375c-5.73 1.355-10 6.48-10 12.625 0 7.18 5.82 13 13 13 6.316 0 11.581-4.505 12.755-10.477 0.245-2.523-2.755-2.523-3.027-0.197-1.048 4.401-5.006 7.674-9.728 7.674-5.523 0-10-4.477-10-10 0-4.476 2.945-8.26 7-9.535v3.535l6-5z" fill="#fff" fill-rule="evenodd" filter="url(#a)"/>
+<path d="M 24,4 A 20,20 0 0 0 4,24 20,20 0 0 0 4.021,24.582 20,20 0 0 1 24,5 20,20 0 0 1 43.979,24.418 20,20 0 0 0 43.999,24 20,20 0 0 0 24,4 Z" fill="#fff" filter="url(#a)" opacity=".2"/>
+<path d="M 43.979,24.418 A 20,20 0 0 1 24,44 20,20 0 0 1 4.022,24.582 20,20 0 0 0 4,25 20,20 0 0 0 24,45 20,20 0 0 0 44,25 20,20 0 0 0 43.979,24.418 Z" filter="url(#a)" opacity=".2"/>
+</svg>

@@ -1,0 +1,85 @@
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-music-stack-a" x="-14.5%" y="-16.7%" width="129.1%" height="133.3%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-music-stack-c" x1="50%" x2="50%" y2="95.786%">
+<stop stop-color="#F87136" offset="0"/>
+<stop stop-color="#D22E18" offset="1"/>
+</linearGradient>
+<path id="folder-music-stack-b" d="m2.9993 96c-1.6565 0-2.9993-1.338-2.9993-2.9912l1.769e-9 -76.018c3.8443e-11 -1.652 1.3511-2.9912 2.9993-2.9912h104c1.6565 0 2.9993 1.338 2.9993 2.9912v76.018c0 1.652-1.3511 2.9912-2.9993 2.9912h-104z"/>
+<linearGradient id="folder-music-stack-g" x1="50%" x2="50%" y2="97.774%">
+<stop stop-color="#343434" offset="0"/>
+<stop stop-color="#240B0B" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-music-stack-h" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#151515" offset="0"/>
+<stop offset="1"/>
+</linearGradient>
+<circle id="folder-music-stack-e" cx="34" cy="34" r="34"/>
+<filter id="folder-music-stack-f" x="-11.8%" y="-8.8%" width="123.5%" height="123.5%">
+<feMorphology in="SourceAlpha" operator="dilate" radius="1" result="shadowSpreadOuter1"/>
+<feOffset dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+</filter>
+<filter id="folder-music-stack-j" x="-50%" y="-17.6%" width="200%" height="135.3%">
+<feGaussianBlur in="SourceGraphic" stdDeviation="4"/>
+</filter>
+<filter id="folder-music-stack-k" x="-50%" y="-17.6%" width="200%" height="135.3%">
+<feGaussianBlur in="SourceGraphic" stdDeviation="4"/>
+</filter>
+<linearGradient id="folder-music-stack-l" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#E91F95" offset="0"/>
+<stop stop-color="#930DCE" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(9 23)" fill="none" fill-rule="evenodd" filter="url(#folder-music-stack-a)">
+<path d="m94.995 0c1.6594 0 3.0047 1.3439 3.0047 3.0084v83.658c0 1.4871-1.2222 2.6667-2.6875 2.6667h-80.625c-1.4849 0-2.6875-1.1541-2.6875-2.6667v-79.676c0-1.6519 1.3346-2.991 3.0012-2.991l50.099 1.3e-7c1.1009 0 2.6232-0.625 3.4146-1.4103l1.1887-1.1795c0.78494-0.77886 2.3154-1.4103 3.4193-1.4103h21.872z" fill="#FF7942"/>
+<path d="m95.007 1c1.6527 0 2.9926 1.34 2.9926 2.9986v82.309h-86v-78.317c0-1.6514 1.3452-2.9902 2.9964-2.9902l51.108 7e-8c1.1027 0 2.6266-0.625 3.418-1.4103l1.1887-1.1795c0.78494-0.77886 2.3117-1.4103 3.4295-1.4103h20.866z" fill="#D8391D"/>
+<path d="m7 89-2e-8 -77.01c0-1.6514 1.3388-2.9901 3.0049-2.9901h89.99c1.6596 0 3.0049 1.3383 3.0049 2.9901v77.01h-96z" fill="#FFF"/>
+<path d="m7 87.333v-74.326c0-1.6612 1.3388-3.0078 3.0049-3.0078h89.99c1.6596 0 3.0049 1.3423 3.0049 3.0078v74.326h-96z" fill="#D7D7D7"/>
+<mask id="folder-music-stack-d" fill="#fff">
+<use xlink:href="#folder-music-stack-b"/>
+</mask>
+<use fill="url(#folder-music-stack-c)" xlink:href="#folder-music-stack-b"/>
+<g mask="url(#folder-music-stack-d)">
+<g transform="translate(21 44)">
+<mask id="folder-music-stack-i" fill="#fff">
+<use xlink:href="#folder-music-stack-e"/>
+</mask>
+<use fill="#000" filter="url(#folder-music-stack-f)" xlink:href="#folder-music-stack-e"/>
+<g stroke="url(#folder-music-stack-h)">
+<circle cx="34" cy="34" r="34.5" fill="url(#folder-music-stack-g)"/>
+<circle cx="34" cy="34" r="32.5" mask="url(#folder-music-stack-i)"/>
+<circle cx="34" cy="34" r="30.5" mask="url(#folder-music-stack-i)"/>
+<circle cx="34" cy="34" r="28.5" mask="url(#folder-music-stack-i)"/>
+<circle cx="34" cy="34" r="26.5" mask="url(#folder-music-stack-i)"/>
+<circle cx="34" cy="34" r="24.5" mask="url(#folder-music-stack-i)"/>
+<circle cx="34" cy="34" r="22.5" mask="url(#folder-music-stack-i)"/>
+<circle cx="34" cy="34" r="20.5" mask="url(#folder-music-stack-i)"/>
+<circle cx="34" cy="34" r="18.5" mask="url(#folder-music-stack-i)"/>
+<circle cx="34" cy="34" r="16.5" mask="url(#folder-music-stack-i)"/>
+</g>
+<path transform="rotate(120 34 34)" d="m34 34 12 34h-24l12-34zm0 0-12-34h24l-12 34z" fill="#FFF" filter="url(#folder-music-stack-j)" mask="url(#folder-music-stack-i)" opacity=".1"/>
+<path transform="rotate(45 34 34)" d="m34 34 12 34h-24l12-34zm0 0-12-34h24l-12 34z" fill="#FFF" filter="url(#folder-music-stack-k)" mask="url(#folder-music-stack-i)" opacity=".1"/>
+<circle cx="34" cy="34" r="14" fill="url(#folder-music-stack-l)" mask="url(#folder-music-stack-i)" stroke="url(#folder-music-stack-h)"/>
+<polygon points="39 34 31 39 31 29" fill="#FFF" mask="url(#folder-music-stack-i)"/>
+</g>
+</g>
+<g mask="url(#folder-music-stack-d)">
+<g transform="translate(0 14)">
+<path d="m1.745e-9 3.9912 2.3271e-11 -1c3.8443e-11 -1.652 1.3511-2.9912 2.9993-2.9912h104c1.6565 0 2.9993 1.338 2.9993 2.9912v1c0-1.6532-1.3428-2.9912-2.9993-2.9912h-104c-1.6482 0-2.9993 1.3392-2.9993 2.9912z" fill="#FFF" fill-opacity=".3"/>
+<path d="m3.9993-3.5527e-15c-1.6482 0-2.9993 1.3392-2.9993 2.9912v76.018c0 1.6532 1.3428 2.9912 2.9993 2.9912h-1c-1.6565 0-2.9993-1.338-2.9993-2.9912l1.769e-9 -76.018c3.8443e-11 -1.652 1.3511-2.9912 2.9993-2.9912h1zm102 0h1c1.6565 0 2.9993 1.338 2.9993 2.9912v76.018c0 1.652-1.3511 2.9912-2.9993 2.9912h-1c1.6482 0 2.9993-1.3392 2.9993-2.9912v-76.018c0-1.6532-1.3428-2.9912-2.9993-2.9912z" fill="#FFF" fill-opacity=".06"/>
+<path d="m-6.6395e-13 78.009c-3.8472e-11 1.6532 1.3428 2.9912 2.9993 2.9912h104c1.6482 0 2.9993-1.3392 2.9993-2.9912v1c0 1.652-1.3511 2.9912-2.9993 2.9912h-104c-1.6565 0-2.9993-1.338-2.9993-2.9912l2.3271e-11 -1z" fill="#000" fill-opacity=".3"/>
+</g>
+</g>
+</g>
+</svg>

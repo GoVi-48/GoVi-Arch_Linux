@@ -1,0 +1,34 @@
+<svg width="48px" height="48px" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>application-x-gzip</title>
+<desc>Created with Sketch.</desc>
+<defs>
+<path id="path-1" d="m11.5 5.125c0-0.62132 0.50368-1.125 1.125-1.125h7.75c0.62132 0 1.125 0.50368 1.125 1.125v-4c0-0.62132 0.50368-1.125 1.125-1.125h8.75c0.62132-1.2178e-15 1.125 0.50368 1.125 1.125v36.75c0 0.62132-0.50368 1.125-1.125 1.125h-8.75c-0.62132 0-1.125-0.50368-1.125-1.125 0 0.62132-0.50368 1.125-1.125 1.125h-7.75c-0.62132 0-1.125-0.50368-1.125-1.125 0 0.62132-0.50368 1.125-1.125 1.125h-8.8929c-0.54242 0-0.98214-0.49302-0.98214-1.1012v-34.798c0-0.60817 0.43972-1.1012 0.98214-1.1012h8.8929c0.62132 0 1.125 0.50368 1.125 1.125v2z"/>
+<filter id="filter-2" x="-10.9%" y="-6.4%" width="121.9%" height="117.9%">
+<feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+</filter>
+<linearGradient id="linearGradient-3" x1="60.88" x2="40.799" y1="10.04" y2="10.04" gradientTransform="matrix(.53108 0 0 1.8829 7.5 5)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C926EA" offset="0"/>
+<stop stop-color="#B505C3" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient-4" x1="40.121" x2="22.262" y1="11.594" y2="11.594" gradientTransform="matrix(.53452 0 0 1.8708 7.5 5)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#628FFF" offset="0"/>
+<stop stop-color="#4084FF" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient-5" x1="21.091" x2="2.2345" y1="11.178" y2="11.178" gradientTransform="matrix(.54525 0 0 1.834 7.5 5)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6DBD00" offset="0"/>
+<stop stop-color="#8FBF12" offset="1"/>
+</linearGradient>
+</defs>
+<g fill-rule="evenodd">
+<g id="Combined-Shape" transform="translate(7.5,5)" fill="#000000">
+<use width="100%" height="100%" filter="url(#filter-2)" xlink:href="#path-1"/>
+<use width="100%" height="100%" fill-opacity=".1" fill-rule="evenodd" xlink:href="#path-1"/>
+</g>
+<path d="m40 6.125v36.75c0 0.62132-0.50368 1.125-1.125 1.125h-8.75c-0.62132 0-1.125-0.50368-1.125-1.125v-36.75c0-0.62132 0.50368-1.125 1.125-1.125h8.75c0.62132 0 1.125 0.50368 1.125 1.125z" fill="url(#linearGradient-3)"/>
+<path d="m29 10.125v32.75c0 0.62132-0.50368 1.125-1.125 1.125h-7.75c-0.62132 0-1.125-0.50368-1.125-1.125v-32.75c0-0.62132 0.50368-1.125 1.125-1.125h7.75c0.62132 0 1.125 0.50368 1.125 1.125z" fill="url(#linearGradient-4)"/>
+<path d="m19 8.125v34.75c0 0.62132-0.50368 1.125-1.125 1.125h-8.875c-0.56028 0-1-0.49302-1-1v-35c0-0.50698 0.43972-1 1-1h8.875c0.62132 0 1.125 0.50368 1.125 1.125z" fill="url(#linearGradient-5)"/>
+</g>
+</svg>

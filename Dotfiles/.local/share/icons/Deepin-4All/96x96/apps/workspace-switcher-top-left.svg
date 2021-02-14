@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96" height="96" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <defs>
+  <filter id="filter923" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".19608" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="1.5"/>
+   <feOffset dx="0" dy="1.5" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+ </defs>
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>深度终端-96px</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <title>深度终端-96px</title>
+ <g transform="matrix(1.5612 0 0 1.5612 -.68557 1.3888)" filter="url(#filter923)">
+  <rect transform="matrix(0,-1,-1,0,0,0)" x="-54" y="-60" width="44" height="56" rx="3" ry="3" fill="#4ab3e4"/>
+  <path d="m4 51v1c0 1.662 1.338 3 3 3h50c1.662 0 3-1.338 3-3v-1c0 1.662-1.338 3-3 3h-50c-1.662 0-3-1.338-3-3z" opacity=".2"/>
+  <path d="m7 10c-1.662 0-3 1.338-3 3v1c0-1.662 1.338-3 3-3h50c1.662 0 3 1.338 3 3v-1c0-1.662-1.338-3-3-3z" fill="#fff" opacity=".1"/>
+  <rect transform="matrix(0,-1,-1,0,0,0)" x="-32" y="-32" width="24" height="30" rx="1" ry="1" fill="#ebebeb"/>
+  <path d="m2 31v1c0 0.554 0.446 1 1 1h28c0.554 0 1-0.446 1-1v-1c0 0.554-0.446 1-1 1h-28c-0.554 0-1-0.446-1-1z" opacity=".1"/>
+ </g>
+</svg>

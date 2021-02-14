@@ -1,0 +1,31 @@
+<svg width="48" height="48" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>bookworm</title>
+<defs>
+<path id="a" d="M32 20.5v18.7a1.8 1.8 0 0 1-1.8 1.8H1.8A1.8 1.8 0 0 1 0 39.2V20.5v17.789a1.8 1.8 0 0 0 1.8 1.8h28.4a1.8 1.8 0 0 0 1.8-1.8V20.5zM1.8 0h28.4A1.8 1.8 0 0 1 32 1.8v36.4a1.8 1.8 0 0 1-1.8 1.8H1.8A1.8 1.8 0 0 1 0 38.2V1.8A1.8 1.8 0 0 1 1.8 0z"/>
+<filter id="b" x="-10.9%" y="-6.1%" width="121.9%" height="117.1%">
+<feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+</filter>
+<path id="c" d="M32 20.5v18.7a1.8 1.8 0 0 1-1.8 1.8H1.8A1.8 1.8 0 0 1 0 39.2V20.5v17.789a1.8 1.8 0 0 0 1.8 1.8h28.4a1.8 1.8 0 0 0 1.8-1.8V20.5z"/>
+<linearGradient id="e" x1="17.889" x2="17.889" y2="35.777" gradientTransform="scale(.89443 1.118)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D224F3" offset="0"/>
+<stop stop-color="#AA008E" offset="1"/>
+</linearGradient>
+<path id="d" d="M1.8 0h28.4A1.8 1.8 0 0 1 32 1.8v36.4a1.8 1.8 0 0 1-1.8 1.8H1.8A1.8 1.8 0 0 1 0 38.2V1.8A1.8 1.8 0 0 1 1.8 0z"/>
+<path id="f" d="M3.9 0H1.8A1.8 1.8 0 0 0 0 1.8v36.4A1.8 1.8 0 0 0 1.8 40H6V0H3.9z"/>
+<path id="g" d="M7 0h1v40H7V0z"/>
+</defs>
+<g fill-rule="evenodd">
+<g transform="translate(9,4)">
+<use width="100%" height="100%" filter="url(#b)" xlink:href="#a"/>
+<use width="100%" height="100%" fill-opacity=".1" fill-rule="evenodd" xlink:href="#a"/>
+</g>
+<use transform="translate(9,4)" width="100%" height="100%" fill="#ffffff" xlink:href="#c"/>
+<use transform="translate(9,4)" width="100%" height="100%" fill="url(#e)" xlink:href="#d"/>
+<use transform="translate(9,4)" width="100%" height="100%" fill="#333333" xlink:href="#f"/>
+<use transform="translate(9,4)" width="100%" height="100%" fill="#921095" xlink:href="#g"/>
+</g>
+<path d="m28 16c-4.4183 0-8 3.5817-8 8s3.5817 8 8 8h5s0.9375 0 1-1c0-1-1-1-1-1h-5c-3.3137 0-6-2.6863-6-6s2.6863-6 6-6 6 2.6863 6 6v1c0 0.55228-0.44772 1-1 1s-1-0.44772-1-1v-1c0-2.2091-1.7909-4-4-4s-4 1.7909-4 4 1.7909 4 4 4c1.0462 0 1.9903-0.4109 2.7031-1.0684 0.57 0.677 1.411 1.068 2.297 1.068 1.6568 0 3-1.3432 3-3v-1c0-4.4183-3.5817-8-8-8zm0 6c1.1046 0 2 0.89543 2 2s-0.89543 2-2 2-2-0.89543-2-2 0.89543-2 2-2z" fill="#fff"/>
+</svg>

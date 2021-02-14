@@ -156,7 +156,6 @@ layouts = [
 
 
 # ================================= WIDGETS =================================  #
-
 widget_defaults = dict(
                 background='#21242B',
                 foreground='#dfdfdf',
@@ -168,9 +167,13 @@ widget_defaults = dict(
 extension_defaults = widget_defaults.copy()
 
 
-def gpu_temp():
-    f = open('/home/govi/.config/qtile/scripts/gpu_temp', 'r')
-    print(f.read(4))
+mb_temp = subprocess.getoutput('~/.config/qtile/scripts/mb_temp.sh')
+
+gpu_temp = subprocess.getoutput('~/.config/qtile/scripts/gpu_temp.sh')
+
+cpu_temp = subprocess.getoutput('~/.config/qtile/scripts/cpu_temp.sh')
+
+notf = subprocess.getoutput('~/.config/qtile/scripts/notifications.sh')
 
 
 screens = [
@@ -193,9 +196,9 @@ screens = [
 
                 widget.Prompt(),
 
-                widget.TaskList(borderwidth=2, border='#5C718E', fontsize=14,
-                                max_title_width=300),
+                widget.TaskList(borderwidth=2, border='#5C718E', fontsize=14, max_title_width=300),
 
+                # ============================================================================================================ #
 
                 widget.Systray(padding=10),
 
@@ -210,30 +213,70 @@ screens = [
             ],
             34),
 
-        # bottom=bar.Bar(
-        #     [
-        #         widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/power.png',
-        #                      mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('kill -9 -1')}),
-        #
-        #         widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/ssd.png'),
-        #         widget.DF(partition='/'),
-        #
-        #
-        #         widget.Spacer(length=bar.STRETCH),
-        #
-        #         # widget.TextBox(mb_temp, foreground='#F6FA93'),
-        #
-        #         widget.TextBox(gpu_temp(), foreground='#27AE60'),
-        #
-        #         widget.ThermalSensor(tag_sensor='Package id 0', foreground='#287BDE'),
-        #
-        #         widget.Volume(update_interval=0.2, emoji=True),
-        #         widget.Volume(update_interval=0.2),
-        #
-        #         widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/calendar.png'),
-        #         widget.Clock(fontsize=14, format='%a %d/%m/%Y '),
-        #     ],
-        #     34,),
+        bottom=bar.Bar(
+            [
+                widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/power.png',
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('kill -9 -1')}),
+
+                widget.Spacer(length=10),
+
+                widget.TextBox(font='GoVi_Icons', text='2'),
+                widget.GenPollText(func=lambda: subprocess.getoutput('df -h / --o=avail | awk "NR>1" | tr -d " "'),
+                                   update_interval=1),
+
+                widget.Spacer(length=10),
+
+                widget.TextBox(font='GoVi_Icons', text='H'),
+                widget.GenPollText(func=lambda: subprocess.getoutput('df -h /home --o=avail | awk "NR>1" | tr -d " "'),
+                                   update_interval=1),
+
+                widget.Spacer(length=10),
+
+                widget.TextBox(text='/Datos:'),
+                widget.GenPollText(func=lambda: subprocess.getoutput('df -h /Datos --o=avail | awk "NR>1" | tr -d " "'),
+                                   update_interval=1),
+
+                widget.Spacer(length=10),
+
+                widget.TextBox(text='/Media:'),
+                widget.GenPollText(
+                    func=lambda: subprocess.getoutput('df -h /Media --o=avail | awk "NR>1" | tr -d " "'),
+                    update_interval=1),
+
+                widget.Spacer(length=20),
+
+                widget.GenPollText(font='Noto Color Emoji',
+                    func=lambda: notf,
+                    update_interval=1),
+
+                widget.Spacer(length=10),
+
+                widget.GenPollText(font='Noto Color Emoji',
+                    func=lambda: subprocess.getoutput('~/.config/qtile/scripts/email.sh'),
+                    update_interval=180),
+
+
+                widget.Spacer(length=bar.STRETCH),
+
+                widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/arrow_down.png'),
+                widget.Net(format='{down}/s', interface='enp3s0'),
+
+                widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/arrow_up.png'),
+                widget.Net(format='{up}/s ', interface='enp3s0'),
+
+                widget.GenPollText(func=lambda: cpu_temp, update_interval=1, foreground='#287BDE'),
+
+                widget.GenPollText(func=lambda: gpu_temp, update_interval=1, foreground='#27AE60'),
+
+                widget.GenPollText(func=lambda: mb_temp, update_interval=1, foreground='#F6FA93'),
+
+                widget.Volume(update_interval=0.2, emoji=True),
+                widget.Volume(update_interval=0.2),
+
+                widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/calendar.png'),
+                widget.Clock(format='%a %d/%m/%Y '),
+            ],
+            34,),
 
     ),
 ]

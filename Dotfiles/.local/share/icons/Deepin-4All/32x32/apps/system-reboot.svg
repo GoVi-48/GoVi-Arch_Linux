@@ -1,0 +1,20 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<radialGradient id="system-shutdown-c" cx="16" cy="18.096" r="10.794" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E3F5FF" offset="0"/>
+<stop stop-color="#FFF" offset="1"/>
+</radialGradient>
+<path id="system-shutdown-b" d="m2 16c0-7.7193 6.28-14 14-14 7.7193 0 14 6.2807 14 14s-6.2807 14-14 14c-7.72 0-14-6.2807-14-14z"/>
+<filter id="system-shutdown-a" x="-12.5%" y="-8.9%" width="125%" height="125%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="1"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+</filter>
+</defs>
+<image x="1" y="2" width="30" height="30" fill="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGOfPtRkwAAAdBJREFUSA29ltlOwzAQRVt2xPIASCAkxP//GbyA2ARlK/eY3GnjNJQ2iS3d2vEyp3M9jToe/a+Nq23005Yj82tte1qONqcJtiEZ3NzRnFnnTC0KAVYB1g5XZ1vPb+a7qwNkSetqmbP/jTb3mYOdJcCu0DlM0zln5k22pk+oYzm2WdGzkDsQiz0MiN2AM7HVQ/BlIWAkuK3mwZYsO9xlHUZkzWC7S7QVz8IaO2P3K8ZYa3ti8VES6m+6ARSrvz1ToIeVrAb8VQBoBKwAR6V5dcAeVhRXid+wc0ks7pjf1pBvLAPdw5oavOvZAj2sAJe2emqL3Q9d3XZ24pfHm9I/LWAzDFhRVBTYjkSpf0hDtAMFJdEXKd0xEMCP0pk0xH0Tk9gwYNUa2R5K11KfLxRiEZPYEddFpbnUXFwXenqWur7DyRTog4TFES8Ha230LmHHpTSR1r1z7vRKupewOKAaz1LnoWrYQRHsS+cSLtxIqRrVL2t72oBjJHUrvUpASSZaeB4zswFr/Fs4lk4kDj5JWIYLdoI9iAyPJM7dSWTJnhpQz6n9BWYD64i7IhMKBCcAufo/NQZAZtQFzjAHcCFU8wutZj5v/gJ5zz4D8j6PUXv+AQPKTCYy2hjvAAAAAElFTkSuQmCC"/>
+<g fill-rule="evenodd">
+<use width="100%" height="100%" fill="#000000" filter="url(#system-shutdown-a)" xlink:href="#system-shutdown-b"/>
+<use width="100%" height="100%" fill="url(#system-shutdown-c)" xlink:href="#system-shutdown-b"/>
+<path d="m16.002 9.0037a0.50005 0.50005 0 1 0 0 1c1.5364-1e-6 3.0685 0.5822 4.2422 1.7559 2.3473 2.3473 2.3473 6.139 0 8.4863-2.3473 2.3473-6.1371 2.3473-8.4844 0-1.1737-1.1737-1.7578-2.7058-1.7578-4.2422 0.96119 6.56e-4 2.0185 0.0055 1.998 0l-1.2832-1.9824-1.2168-2.0176-1.2168 2.0176-1.2832 1.9824s1.0342-0.0018 2.002 0c0 1.7907 0.68607 3.5845 2.0508 4.9492 2.7295 2.7295 7.1689 2.7295 9.8984 0 2.7295-2.7295 2.7295-7.1709 0-9.9004-1.3647-1.3647-3.1585-2.0488-4.9492-2.0488z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#0086ff" image-rendering="auto" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;paint-order:stroke markers fill;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+</g>
+</svg>

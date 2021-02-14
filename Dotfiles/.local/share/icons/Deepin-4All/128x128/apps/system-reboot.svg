@@ -1,0 +1,17 @@
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-color="#908B78" flood-opacity=".498" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<title>deepin-clone</title>
+<path transform="matrix(1.9912 0 0 1.9912 .282 -.713)" d="M 59.958,31.828 A 28,28 0 0 1 32,59 28,28 0 0 1 4.044,32.172 28,28 0 0 0 4,33 28,28 0 0 0 32,61 28,28 0 0 0 60,33 28,28 0 0 0 59.958,31.828 Z" filter="url(#a)" opacity=".2"/>
+<circle transform="matrix(1.9912 0 0 1.9912 .282 -.713)" cx="32" cy="32" r="28" fill="#f5b923" filter="url(#a)"/>
+<path transform="matrix(1.9912 0 0 1.9912 .282 -.713)" d="m28 9v6.469a18 18 0 0 0-14 17.53c0 9.942 8.059 18 18 18 9.159-0.01 16.85-6.897 17.867-16 0 0 0.133-2-1.867-2s-2.16 2-2.16 2a14 14 0 0 1-13.84 12.001c-7.732 0-14-6.267-14-14a14 14 0 0 1 10-13.401v5.401l8-8z" filter="url(#a)" opacity=".2"/>
+<path transform="matrix(1.9912 0 0 1.9912 .282 -.713)" d="m28 8v6.469a18 18 0 0 0-14 17.53c0 9.942 8.059 18 18 18 9.159-0.01 16.85-6.897 17.867-16 0 0 0.133-2-1.867-2s-2.16 2-2.16 2a14 14 0 0 1-13.84 12.001c-7.732 0-14-6.267-14-14a14 14 0 0 1 10-13.401v5.401l8-8z" fill="#fff" filter="url(#a)"/>
+<path transform="matrix(1.9912 0 0 1.9912 .282 -.713)" d="M 31.998,4 A 28,28 0 0 0 4,32 28,28 0 0 0 4.018,32.492 28,28 0 0 1 31.998,5 H 32 A 28,28 0 0 1 59.973,32.5 28,28 0 0 0 59.998,32 28,28 0 0 0 32,4 Z" fill="#fff" filter="url(#a)" opacity=".2"/>
+</svg>

@@ -1,0 +1,34 @@
+<svg width="256" height="256" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg">
+<title>deepin-calculator</title>
+<defs>
+<filter id="filter-2" x="-.101" y="-.062" width="1.202" height="1.163">
+<feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+</filter>
+<linearGradient id="linearGradient-3" x1="322.13" x2="217.5" y1="52.317" y2="52.317" gradientTransform="matrix(.51887 0 0 1.9272 -264.07 15.605)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C926EA" offset="0"/>
+<stop stop-color="#B505C3" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient-4" x1="203.56" x2="106.14" y1="63.657" y2="63.657" gradientTransform="matrix(.5487 0 0 1.8225 -264.07 15.605)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#628FFF" offset="0"/>
+<stop stop-color="#4084FF" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient-5" x1="104.77" x2="6.842" y1="58.797" y2="58.797" gradientTransform="matrix(.53452 0 0 1.8708 -264.07 15.605)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6DBD00" offset="0"/>
+<stop stop-color="#8FBF12" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(308,8)" fill-rule="evenodd">
+<g id="Combined-Shape" transform="translate(-264.07 15.605)">
+<path d="m56 28c0-3.3137 2.6863-6 6-6h44c3.3137 0 6 2.6863 6 6v-22c0-3.3137 2.6863-6 6-6h44c3.3137 0 6 2.6863 6 6v196c0 3.3137-2.6863 6-6 6h-44c-3.3137 0-6-2.6863-6-6 0 3.3137-2.6863 6-6 6h-44c-3.3137 0-6-2.6863-6-6 0 3.3137-2.6863 6-6 6h-45c-2.7614 0-5-2.6117-5-5.8333v-184.33c0-3.2217 2.2386-5.8333 5-5.8333h45c3.3137 0 6 2.6863 6 6z" filter="url(#filter-2)"/>
+<path d="m56 28c0-3.3137 2.6863-6 6-6h44c3.3137 0 6 2.6863 6 6v-22c0-3.3137 2.6863-6 6-6h44c3.3137 0 6 2.6863 6 6v196c0 3.3137-2.6863 6-6 6h-44c-3.3137 0-6-2.6863-6-6 0 3.3137-2.6863 6-6 6h-44c-3.3137 0-6-2.6863-6-6 0 3.3137-2.6863 6-6 6h-45c-2.7614 0-5-2.6117-5-5.8333v-184.33c0-3.2217 2.2386-5.8333 5-5.8333h45c3.3137 0 6 2.6863 6 6z" fill-opacity=".1" fill-rule="evenodd"/>
+</g>
+<path d="m-96.068 21.605v196c0 3.3137-2.6863 6-6 6h-44c-3.3137 0-6-2.6863-6-6v-196c0-3.3137 2.6863-6 6-6h44c3.3137 0 6 2.6863 6 6z" fill="url(#linearGradient-3)"/>
+<path d="m-152.07 43.605v174c0 3.3137-2.6863 6-6 6h-44c-3.3137 0-6-2.6863-6-6v-174c0-3.3137 2.6863-6 6-6h44c3.3137 0 6 2.6863 6 6z" fill="url(#linearGradient-4)"/>
+<path d="m-208.07 33.605v184c0 3.3137-2.6863 6-6 6h-45c-2.7614 0-5-2.6117-5-5.8333v-184.33c0-3.2217 2.2386-5.8333 5-5.8333h45c3.3137 0 6 2.6863 6 6z" fill="url(#linearGradient-5)"/>
+<path d="m-264.07 35.438v-2c0-3.2217 2.2386-5.8333 5-5.8333h45c3.3137 0 6 2.6863 6 6v2c0-3.3137-2.6863-6-6-6h-45c-2.7614 0-5 2.6117-5 5.8333zm56 8.1667c0-3.3137 2.6863-6 6-6h44c3.3137 0 6 2.6863 6 6v88-86c0-3.3137-2.6863-6-6-6h-44c-3.3137 0-6 2.6863-6 6v86zm56-20v-2c0-3.3137 2.6863-6 6-6h44c3.3137 0 6 2.6863 6 6v99-97c0-3.3137-2.6863-6-6-6h-44c-3.3137 0-6 2.6863-6 6z" fill="#fff" fill-opacity=".2"/>
+<path d="m-264.07 215.77c0 3.2217 2.2386 5.8333 5 5.8333h45c3.3137 0 6-2.6863 6-6 0 3.3137 2.6863 6 6 6h44c3.3137 0 6-2.6863 6-6 0 3.3137 2.6863 6 6 6h44c3.3137 0 6-2.6863 6-6v2c0 3.3137-2.6863 6-6 6h-44c-3.3137 0-6-2.6863-6-6 0 3.3137-2.6863 6-6 6h-44c-3.3137 0-6-2.6863-6-6 0 3.3137-2.6863 6-6 6h-45c-2.7614 0-5-2.6117-5-5.8333z" fill-opacity=".2"/>
+</g>
+</svg>

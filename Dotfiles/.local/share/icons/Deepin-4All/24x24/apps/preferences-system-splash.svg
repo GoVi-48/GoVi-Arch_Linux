@@ -1,0 +1,29 @@
+<svg width="24" height="24" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation=".5"/>
+<feOffset dx="0" dy=".5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<linearGradient id="linearGradient924" x2="24" y1="12" y2="12" gradientTransform="matrix(.5 0 0 2 3.75 1.5)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C926EA" offset="0"/>
+<stop stop-color="#B505C3" offset="1"/>
+</linearGradient>
+</defs>
+<path d="m3 3c-0.554 0-1 0.446-1 1v16c0 0.554 0.446 1 1 1h18c0.554 0 1-0.446 1-1v-16c0-0.554-0.446-1-1-1z" fill="url(#linearGradient924)" filter="url(#a)"/>
+<path d="m3 3c-0.554 0-1 0.446-1 1v1c0-0.554 0.446-1.5 1-1.5h18c0.554 0 1 0.946 1 1.5v-1c0-0.554-0.446-1-1-1z" fill="#fff" filter="url(#a)" opacity=".1"/>
+<path d="m2 20v0.5c0 0.554 0.446 1 1 1h18c0.554 0 1-0.446 1-1v-0.5c0 0.554-0.446 1-1 1h-18c-0.554 0-1-0.446-1-1z" filter="url(#a)" opacity=".2"/>
+<g fill="#fff" filter="url(#a)">
+<circle transform="scale(-1,1)" cx="-12" cy="7" r="1" opacity=".6"/>
+<circle transform="scale(-1,1)" cx="-12" cy="17" r="1"/>
+<circle transform="matrix(0,1,1,0,0,0)" cx="12" cy="7" r="1" opacity=".8"/>
+<circle transform="matrix(0,1,1,0,0,0)" cx="12" cy="17" r="1" opacity=".4"/>
+<circle transform="matrix(.70711 .70711 .70711 -.70711 0 0)" cx="16.971" cy="-5" r="1" opacity=".9"/>
+<circle transform="matrix(.70711 .70711 .70711 -.70711 0 0)" cx="16.971" cy="5" r="1" opacity=".5"/>
+<circle transform="rotate(135)" cy="-21.971" r="1" opacity=".3"/>
+<circle transform="rotate(135)" cy="-11.971" r="1" opacity=".7"/>
+</g>
+<path d="m11.032 7.248a1 1 0 0 0-0.032 0.252 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-0.032-0.248 1 1 0 0 1-0.968 0.748 1 1 0 0 1-0.968-0.752zm-1.6 1.466a1 1 0 0 1-0.26 0.458 1 1 0 0 1-1.414 0 1 1 0 0 1-0.26-0.456 1 1 0 0 0 0.26 0.956 1 1 0 0 0 1.414 0 1 1 0 0 0 0.26-0.958zm7.07 0a1 1 0 0 1-0.26 0.458 1 1 0 0 1-1.414 0 1 1 0 0 1-0.26-0.456 1 1 0 0 0 0.26 0.956 1 1 0 0 0 1.414 0 1 1 0 0 0 0.26-0.958zm-10.47 3.534a1 1 0 0 0-0.033 0.252 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-0.032-0.248 1 1 0 0 1-0.967 0.748 1 1 0 0 1-0.967-0.752zm10 0a1 1 0 0 0-0.033 0.252 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-0.032-0.248 1 1 0 0 1-0.967 0.748 1 1 0 0 1-0.967-0.752zm-6.6 3.536a1 1 0 0 1-0.26 0.458 1 1 0 0 1-1.415 0 1 1 0 0 1-0.26-0.456 1 1 0 0 0 0.26 0.956 1 1 0 0 0 1.414 0 1 1 0 0 0 0.26-0.958zm7.07 0a1 1 0 0 1-0.26 0.458 1 1 0 0 1-1.414 0 1 1 0 0 1-0.26-0.456 1 1 0 0 0 0.26 0.956 1 1 0 0 0 1.414 0 1 1 0 0 0 0.26-0.958zm-5.47 1.464a1 1 0 0 0-0.033 0.252 1 1 0 0 0 1 1 1 1 0 0 0 1-1 1 1 0 0 0-0.032-0.248 1 1 0 0 1-0.967 0.748 1 1 0 0 1-0.967-0.752z" filter="url(#a)" opacity=".2"/>
+</svg>

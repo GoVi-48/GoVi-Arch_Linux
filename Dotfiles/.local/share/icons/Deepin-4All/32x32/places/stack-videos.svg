@@ -1,0 +1,35 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="stack-videos-a" x="-15.4%" y="-17.4%" width="130.8%" height="134.8%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="stack-videos-b" x1="50%" x2="50%" y2="97.197%">
+<stop stop-color="#414141" offset="0"/>
+<stop stop-color="#2B2B2B" offset="1"/>
+</linearGradient>
+<linearGradient id="stack-videos-c" x1="23.162%" x2="50%" y2="100%">
+<stop stop-color="#FFE00B" offset="0"/>
+<stop stop-color="#D38700" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(3 6)" fill="none" fill-rule="evenodd" filter="url(#stack-videos-a)">
+<path d="m16.09 0.27325c0.22637-0.15091 0.62625-0.27325 0.90198-0.27325h6.5158c0.27178 0 0.4921 0.21768 0.4921 0.50069v21.493h-22v-20.495c0-0.27517 0.22564-0.49824 0.49374-0.49824h12.013c0.27269 0 0.67767-0.12262 0.90362-0.27325l0.68024-0.45349z" fill="#161616"/>
+<path d="m1.5013 22c-0.27685 0-0.50127-0.22461-0.50127-0.49438l1e-8 -19.011c0-0.27304 0.22227-0.49438 0.50127-0.49438h22.997c0.27685 0 0.50127 0.22461 0.50127 0.49438v19.011c0 0.27304-0.22227 0.49438-0.50127 0.49438h-22.997z" fill="#262626"/>
+<path d="m0.49617 23c-0.27403 0-0.49617-0.22461-0.49617-0.49438l-2.119e-11 -19.011c-3.0434e-13 -0.27304 0.22477-0.49438 0.49617-0.49438h25.008c0.27403 0 0.49617 0.22461 0.49617 0.49438v19.011c0 0.27304-0.22477 0.49438-0.49617 0.49438h-25.008z" fill="url(#stack-videos-b)"/>
+<g transform="translate(1 4)">
+<path d="m0 5h3v3h-3v-3zm0-5h3v3h-3v-3zm0 10h3v3h-3v-3zm0 5h3v3h-3v-3zm21-10h3v3h-3v-3zm0-5h3v3h-3v-3zm0 10h3v3h-3v-3zm0 5h3v3h-3v-3z" fill="#1B1B1B"/>
+<g fill="#000" fill-opacity=".2">
+<rect x="4" width="16" height="2"/>
+<rect x="4" y="3" width="16" height="12"/>
+<rect x="4" y="16" width="16" height="2"/>
+</g>
+<polygon points="16 9 9 13 9 5" fill="url(#stack-videos-c)"/>
+</g>
+</g>
+</svg>

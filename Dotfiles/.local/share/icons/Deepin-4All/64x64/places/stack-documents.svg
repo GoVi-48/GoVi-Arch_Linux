@@ -1,0 +1,103 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="stack-documents-a" x="-22.2%" y="-29.2%" width="144.4%" height="160.4%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="stack-documents-d" x1="50%" x2="50%" y2="98.094%">
+<stop stop-color="#FFAD34" offset="0"/>
+<stop stop-color="#BEBEBE" offset="1"/>
+</linearGradient>
+<path id="stack-documents-c" d="m46.509 9.9341e-9c0.8236 0 1.4964 0.66823 1.5027 1.5027l0.32186 42.151c0 0.74355-0.6069 1.3463-1.3339 1.3463h-39.999c-0.73669 0-1.3339-0.59004-1.3339-1.3463l0.32127-40.147c0.0066608-0.83234 0.67948-1.5071 1.5022-1.5071h25.018c0.27155 0 0.64862-0.15694 0.84006-0.34837l1.3033-1.3033c0.1924-0.1924 0.57401-0.34837 0.84211-0.34837h11.015z"/>
+<filter id="stack-documents-b" x="-16.4%" y="-11.1%" width="132.8%" height="131.1%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+</filter>
+<linearGradient id="stack-documents-e" x1="50%" x2="50%" y2="98.094%">
+<stop stop-color="#D9630F" offset="0"/>
+<stop stop-color="#BEBEBE" offset="1"/>
+</linearGradient>
+<linearGradient id="stack-documents-g" x1="50%" x2="50%" y2="96.707%">
+<stop stop-color="#FFA221" offset="0"/>
+<stop stop-color="#FF7248" offset="1"/>
+</linearGradient>
+<path id="stack-documents-f" d="m1.5006 48c-0.82877 0-1.5006-0.67749-1.5006-1.495l8.6674e-10 -37.01c1.9337e-11 -0.82569 0.66328-1.495 1.5006-1.495h50.999c0.82877 0 1.5006 0.67749 1.5006 1.495v37.01c0 0.82569-0.66328 1.495-1.5006 1.495h-50.999z"/>
+<linearGradient id="stack-documents-i" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFE3C0" offset="1"/>
+</linearGradient>
+<radialGradient id="stack-documents-j" cx="79.957%" cy="71.832%" r="100%" gradientTransform="matrix(0 -1 .64286 0 .338 1.518)">
+<stop stop-color="#FA9361" offset="0"/>
+<stop stop-color="#5F1CF7" offset="1"/>
+</radialGradient>
+<linearGradient id="stack-documents-k" x1="50%" x2="50%" y1="20.953%" y2="100%">
+<stop stop-color="#0E3BAC" offset="0"/>
+<stop stop-color="#1A0570" offset="1"/>
+</linearGradient>
+<filter id="stack-documents-l" x="-100%" y="-9.4%" width="300%" height="118.8%">
+<feGaussianBlur in="SourceGraphic" stdDeviation="1"/>
+</filter>
+<linearGradient id="stack-documents-m" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#242424" offset="0"/>
+<stop offset="1"/>
+</linearGradient>
+<linearGradient id="stack-documents-n" x1="311.24%" x2="0%" y1="45.328%" y2="60.059%">
+<stop stop-color="#463417" offset="0"/>
+<stop stop-color="#281212" offset="1"/>
+</linearGradient>
+<linearGradient id="stack-documents-o" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#080808" offset="0"/>
+<stop stop-color="#481D1D" offset="1"/>
+</linearGradient>
+<linearGradient id="stack-documents-p" x1="11.779%" x2="76.358%" y1="79.249%" y2="79.249%">
+<stop stop-color="#6A6A6A" offset="0"/>
+<stop stop-color="#0A0A0A" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(5 11)" fill="none" fill-rule="evenodd" filter="url(#stack-documents-a)">
+<use fill="#000" filter="url(#stack-documents-b)" xlink:href="#stack-documents-c"/>
+<use fill="url(#stack-documents-d)" xlink:href="#stack-documents-c"/>
+<path d="m46.492 1c0.83273 0 1.513 0.66999 1.5195 1.4931l0.32167 41.161c0 0.74355-0.6069 1.3463-1.3339 1.3463h-39.999c-0.73669 0-1.3339-0.59004-1.3339-1.3463l0.32107-39.159c0.0067704-0.82572 0.69204-1.4951 1.5103-1.4951l25.501-3e-8c0.27658 0 0.65773-0.15694 0.84916-0.34837l1.3033-1.3033c0.1924-0.1924 0.56533-0.34837 0.85387-0.34837h10.487z" fill="url(#stack-documents-e)"/>
+<path d="m3 45.005-1e-8 -38.51c0-0.82579 0.67854-1.4952 1.5025-1.4952h44.995c0.82979 0 1.5025 0.67757 1.5025 1.4952v38.51c0 0.73367-0.6069 1.3284-1.3339 1.3284h-45.332c-0.73669 0-1.3339-0.5843-1.3339-1.3284z" fill="#FFF"/>
+<path d="m3 45.005-1e-8 -37.5c0-0.83127 0.67854-1.5051 1.5025-1.5051h44.995c0.82979 0 1.5025 0.677 1.5025 1.5051v37.5c0 0.73367-0.6069 1.3284-1.3339 1.3284h-45.332c-0.73669 0-1.3339-0.5843-1.3339-1.3284z" fill="#F1F1F1"/>
+<mask id="stack-documents-h" fill="#fff">
+<use xlink:href="#stack-documents-f"/>
+</mask>
+<use fill="url(#stack-documents-g)" xlink:href="#stack-documents-f"/>
+<g mask="url(#stack-documents-h)">
+<g transform="translate(8 15)">
+<polygon points="0.014 0 28 0 27.976 32 0 32" fill="#1D1D1D" fill-opacity=".1"/>
+<polygon points="1.013 1 27 1 26.977 33 1 33" fill="url(#stack-documents-i)"/>
+<g transform="translate(3 4)">
+<path d="m0.25 0.25v8.5h13.5v-8.5h-13.5z" fill="url(#stack-documents-j)" stroke="#000" stroke-opacity=".1" stroke-width=".5"/>
+<circle cx="11" cy="6" r="1" fill="#FF5151"/>
+<path d="m0.5 8.5h8.5l-1.9635-2.54c-0.16889-0.21847-0.48291-0.25867-0.70138-0.08978-0.0046713 0.0036112-0.0092783 0.0073048-0.013819 0.011079l-0.91163 0.7578c-0.21235 0.17652-0.5276 0.14747-0.70412-0.064882-0.01999-0.024048-0.037679-0.049917-0.052837-0.07727l-0.96895-1.7485c-0.13385-0.24154-0.43816-0.32883-0.67969-0.19499-0.075221 0.041684-0.13842 0.10206-0.18349 0.17531l-2.3206 3.7712z" fill="url(#stack-documents-k)"/>
+</g>
+<path d="m18 4h7v1h-7v-1zm0 2h7v1h-7v-1zm0 2h7v1h-7v-1zm0 2h7v1h-7v-1zm0 2h7v1h-7v-1zm-15 2h22v1h-22v-1zm0 2h22v1h-22v-1zm0 2h22v1h-22v-1zm0 2h22v1h-22v-1zm0 2h22v1h-22v-1zm0 2h14v1h-14v-1zm0 4h22v1h-22v-1z" fill="#000" fill-opacity=".5"/>
+<g transform="translate(33 .5)">
+<polygon points="1 5.156 2.5 0 4 5.156 4 32 1 32" fill="#7B3400" fill-opacity=".3" filter="url(#stack-documents-l)"/>
+<polygon points="0 5 3 5 3 32.5 0 32.5" fill="url(#stack-documents-m)"/>
+<polygon points="0 5 1 5 1 32.5 0 32.5" fill="url(#stack-documents-n)"/>
+<polygon points="2 5 3 5 3 32.5 2 32.5" fill="url(#stack-documents-o)"/>
+<polygon points="1.5 0 3 5 0 5" fill="#FFDCAC"/>
+<polygon points="1.5 0 2 5 1 5" fill="#D8915B"/>
+<polygon points="1.5 0 3 5 2 5" fill="#965600"/>
+<polygon points="1.8 1 1.2 1 1.5 0" fill="url(#stack-documents-p)"/>
+</g>
+</g>
+</g>
+<g mask="url(#stack-documents-h)">
+<g transform="translate(0 8)">
+<path d="m3.5527e-15 37.505c-1.9146e-11 0.81755 0.67185 1.495 1.5006 1.495h50.999c0.83735 0 1.5006-0.66935 1.5006-1.495v1c0 0.82569-0.66328 1.495-1.5006 1.495h-50.999c-0.82877 0-1.5006-0.67749-1.5006-1.495l2.3419e-11 -1z" fill="#000" fill-opacity=".3"/>
+<path d="m8.4343e-10 2.495 2.3419e-11 -1c1.9337e-11 -0.82569 0.66328-1.495 1.5006-1.495h50.999c0.82877 0 1.5006 0.67749 1.5006 1.495v1c0-0.81755-0.67185-1.495-1.5006-1.495h-50.999c-0.83735 0-1.5006 0.66935-1.5006 1.495z" fill="#FFF" fill-opacity=".3"/>
+<path d="m2.5006 0c-0.83735 0-1.5006 0.66935-1.5006 1.495v37.01c0 0.81755 0.67185 1.495 1.5006 1.495h-1c-0.82877 0-1.5006-0.67749-1.5006-1.495l8.6674e-10 -37.01c1.9337e-11 -0.82569 0.66328-1.495 1.5006-1.495h1zm48.999 3.5527e-15h1c0.82877 0 1.5006 0.67749 1.5006 1.495v37.01c0 0.82569-0.66328 1.495-1.5006 1.495h-1c0.83735 0 1.5006-0.66935 1.5006-1.495v-37.01c0-0.81755-0.67185-1.495-1.5006-1.495z" fill="#FFF" fill-opacity=".06"/>
+</g>
+</g>
+</g>
+</svg>

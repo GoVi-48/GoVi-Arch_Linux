@@ -1,0 +1,18 @@
+<svg width="48" height="48" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<linearGradient id="linearGradient897" x1="-1.2" x2="49.2" y1="24" y2="24" gradientTransform="matrix(.53452 0 0 1.8708 7.5 5)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#628FFF" offset="0"/>
+<stop stop-color="#4084FF" offset="1"/>
+</linearGradient>
+</defs>
+<path d="m19.5 3a4.49 4.49 0 0 0-4.5 4.5v4.5h-9c-1.662 0-3 1.338-3 3v9h4.5c2.493 0 4.5 2.007 4.5 4.5s-2.007 4.5-4.5 4.5h-4.5v9c0 1.662 1.338 3 3 3h9v-4.5c0-2.493 2.007-4.5 4.5-4.5s4.5 2.007 4.5 4.5v4.5h9c1.662 0 3-1.338 3-3v-9h4.5c2.493 0 4.5-2.007 4.5-4.5s-2.007-4.5-4.5-4.5h-4.5v-9c0-1.662-1.338-3-3-3h-9v-4.5a4.49 4.49 0 0 0-4.5-4.5z" fill="url(#linearGradient897)" filter="url(#a)"/>
+<path d="m19.5 3a4.49 4.49 0 0 0-4.5 4.5v1c0-2.493 2.007-4.5 4.5-4.5s4.5 2.007 4.5 4.5v-1a4.49 4.49 0 0 0-4.5-4.5zm-13.5 9c-1.662 0-3 1.338-3 3v1c0-1.662 1.338-3 3-3h9v-1zm18 0v1h9c1.662 0 3 1.338 3 3v-1c0-1.662-1.338-3-3-3zm12 12v1h4.5c2.321 0 4.199 1.748 4.45 4 0.018-0.166 0.05-0.328 0.05-0.5a4.49 4.49 0 0 0-4.5-4.5zm-24.051 5c-0.25 2.252-2.128 4-4.45 4h-4.499v1h4.5a4.49 4.49 0 0 0 4.5-4.5c0-0.172-0.032-0.334-0.05-0.5z" fill="#fff" filter="url(#a)" opacity=".2"/>
+<path d="m3 24v1h4.5c2.321 0 4.199 1.748 4.45 4 0.018-0.166 0.05-0.328 0.05-0.5a4.49 4.49 0 0 0-4.5-4.5zm41.949 5a4.474 4.474 0 0 1-4.449 4h-4.5v1h4.5a4.49 4.49 0 0 0 4.5-4.5c0-0.172-0.032-0.334-0.051-0.5zm-25.449 7a4.49 4.49 0 0 0-4.5 4.5v1c0-2.493 2.007-4.5 4.5-4.5s4.5 2.007 4.5 4.5v-1a4.49 4.49 0 0 0-4.5-4.5zm-16.5 6v1c0 1.662 1.338 3 3 3h9v-1h-9c-1.662 0-3-1.338-3-3zm33 0c0 1.662-1.338 3-3 3h-9v1h9c1.662 0 3-1.338 3-3z" filter="url(#a)" opacity=".2"/>
+</svg>

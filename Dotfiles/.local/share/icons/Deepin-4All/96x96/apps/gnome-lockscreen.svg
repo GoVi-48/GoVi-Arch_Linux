@@ -1,0 +1,36 @@
+<svg width="96" height="96" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<linearGradient id="a-3" x1="42.933" x2="42.933" y1="15.652" y2="87.207" gradientTransform="matrix(1.118 0 0 .89443 0 -2.34)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#C3D6DE" offset="1"/>
+</linearGradient>
+<linearGradient id="b" x1="38.367" x2="38.367" y1="26.226" y2="80.07" gradientTransform="matrix(1.2511 0 0 .79931 0 -2.34)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0E004D" offset="0"/>
+<stop stop-color="#4735E4" offset="1"/>
+</linearGradient>
+</defs>
+<title>deepin-calculator</title>
+<image x="3" y="8.66" width="90" height="82" fill="none" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABSCAYAAADU+8NvAAAABGdBTUEAA1teXP8meAAABFRJREFUeAHtnVuOGzsMRPO6AfKVzywi+19K1nKBvCaqnj4OW7bLL3YwwBQBmRIplqTTsjFfPW/fbO3tdrgZudxm4isbPJnzHnLAw6uGPr7GjOarTh2ADgr08QLzJJgzUGKzV0HsNAFBPdeWig+lDrDv1tjPtbhMSfcCATEUU/nf69zlZr9fgxWyYoG8UrrT/TfXcXsVF2yN9UR4GqMbu5GA2ImhWIrpYoDmRus2q8UeIwBHuC7UkSQY0BC534shPBcVbrQGSmhcY4rHbicARzFdTAHIE8SvU+LuIADDA9v59pK4QzslhcARxxl0mZtuJ4GA7qRptALawOlMBXQnTaMV0AZOZyqgO2karYA2cDpTAd1J02gFtIHTmQroTppGK6ANnM5UQHfSNFoBbeB0pgK6k6bRCmgDpzMV0J00jVZAGzidqYDupGm0AtrA6UwFdCdNoxXQBk5nKqA7aRqtgDZwOlMB3UnTaAW0gdOZCuhOmkYroA2czlRAd9I0WgFt4HSmArqTptEKaAOnMxXQnTSNVkAbOJ2pgO6kabQC2sDpTAV0J02jFdAGTmcqoDtpGq2ANnA6UwHdSdNoBbSB05kK6E6aRiugDZzOVEB30jRaAW3gdKYCupOm0QpoA6czFdCdNI1WQBs4namA7qRptALawOlMBXQnTaMV0AZOZ2oGzRtjO9d4jVpHHAWa4PJW2HWctznefz3ErrJc+NYbrYBeYKr2ebT6yuMxjF1BQMzEDo4A38BcyI9Jv0b7ONqX0VR49ObYEes2Xsgnr4f/7cEFvo56HZYzHQ78oO6pcmlrLb0KWu372lh7DP/eWoKCrIP+UHIYAooJwr3maitkfe06frZ0Dhpnkz9nLneuhrhqucECLXbz2kc3GrASkQDggaH4rQbk2aODth6m1n/k0Ghyu7R/NGddxrNH41qvejWtA2Ctz7qju73RGispo1AFAiAD1PPo8icAT/larbzW4MCsV+fc2q+HVn9z6FUMQKf8Leuxb9bg4TJe8kBAmPEpz5xrvOplgqamRf9f/XAvxrS3T6OxR+1TBrzn0eXPUw+L2FINELyC9PE1thRd8aFaNR1Av7kvEfLY1mLA5iZuADHpgq8Phj5epU/8CUdQcOjjWaOCJ3bOA/qWmnNa/yqu826+7lcuPHOqZYccoEkeEgSKd7ky7eQ3Ql/Pl3iruc11/zonrcYf6s+gHxIzxfp3GYKt9fRTogPW206fbwL5Gh8lZ41LAKD5ZpKXgPrK66eCv074c3aE9rE9QXNoDsbhdBL1gVpPNoNlXOe4PkBnT03dE7/J9aFQx/w2vxdobViQ5HUggAFbN1ZG/Hl0/HkpP1dcAkVe+6Bpf2rk8LP2Q+O9QGtT2rAOI+MPeAG+FvJSuMMHIAFdPbn2ZW+9MdduAF35c+1arT3mCei5pvXage95o+uGtXHgK177Gv9rqyDp43fZy94Hdvout8thV1EH1OUe2tMf/A7vfrJEhekAAAAASUVORK5CYII="/>
+<g fill-rule="evenodd">
+<path d="m40 71.66h16v10h-16z" fill="#afc0c8"/>
+<rect x="8" y="11.66" width="80" height="64" rx="4" fill="url(#a-3)"/>
+<path d="m8 14.653c0-1.1 0.898-1.993 1.997-1.993h76.006a2 2 0 0 1 1.997 1.993v58.014c0 1.1-0.898 1.993-1.997 1.993h-76.006a2 2 0 0 1-1.997-1.993z" fill="#eff7fb"/>
+<path d="m28 81.66c0-1.105 0.892-2 1.997-2h36.006c1.103 0 1.997 0.888 1.997 2 0 1.105-0.892 2-1.997 2h-36.006a1.994 1.994 0 0 1-1.997-2z" fill="#f6fcff"/>
+<path d="m67.937 82.159a1.994 1.994 0 0 0-1.935-2.499h-36.004a1.997 1.997 0 0 0-1.934 2.501 1.996 1.996 0 0 1 1.933-1.501h36.006c0.93 0 1.713 0.633 1.934 1.499z" fill="#fff"/>
+<path d="m67.937 81.162a1.994 1.994 0 0 1-1.935 2.498h-36.004a1.997 1.997 0 0 1-1.934-2.501 1.996 1.996 0 0 0 1.934 1.501h36.006c0.93 0 1.713-0.633 1.934-1.5z" fill="#c4d6de"/>
+<rect x="10" y="13.66" width="76" height="50" rx="1"/>
+<path d="m12 15.66h72v46h-72z" fill="url(#b)"/>
+<path d="m12 15.66h19l25 46h-44z" fill="#fff" opacity=".123"/>
+</g>
+<g transform="translate(98.243 -4.8337)" fill="#eff7fb">
+<path transform="matrix(1.5026 0 0 1.5026 -98.326 -.833)" d="m32 20c-3.324 0-6 2.676-6 6v2h-1.5c-0.831 0-1.5 0.669-1.5 1.5v9c0 0.831 0.669 1.5 1.5 1.5h15c0.831 0 1.5-0.669 1.5-1.5v-9c0-0.831-0.669-1.5-1.5-1.5h-1.5v-2c0-3.324-2.676-6-6-6zm0 3c1.662 0 3 1.338 3 3v2h-6v-2c0-1.662 1.338-3 3-3z" filter="url(#a)" opacity=".2"/>
+<path transform="matrix(1.5026 0 0 1.5026 -98.326 -.833)" d="m32 19c-3.324 0-6 2.676-6 6v2h-1.5c-0.831 0-1.5 0.669-1.5 1.5v9c0 0.831 0.669 1.5 1.5 1.5h15c0.831 0 1.5-0.669 1.5-1.5v-9c0-0.831-0.669-1.5-1.5-1.5h-1.5v-2c0-3.324-2.676-6-6-6zm0 3c1.662 0 3 1.338 3 3v2h-6v-2c0-1.662 1.338-3 3-3z" filter="url(#a)"/>
+</g>
+</svg>

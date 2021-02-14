@@ -1,0 +1,32 @@
+<svg width="48" height="48" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<linearGradient id="linearGradient903" x1="-48" x2="0" y1="-24" y2="-24" gradientTransform="scale(1.0541 .9487)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#23FFBE" offset="0"/>
+<stop stop-color="#3FDA88" offset="1"/>
+</linearGradient>
+</defs>
+<rect transform="matrix(0,-1,-1,0,0,0)" x="-44" y="-44" width="40" height="40" rx="2" ry="2" fill="url(#linearGradient903)" filter="url(#a)"/>
+<path d="m6 4c-1.108 0-2 0.892-2 2v1c0-1.108 0.892-2 2-2h36c1.108 0 2 0.892 2 2v-1c0-1.108-0.892-2-2-2z" fill="#fff" filter="url(#a)" opacity=".1"/>
+<path d="m6 45c-1.108 0-2-0.892-2-2v-1c0 1.108 0.892 2 2 2h36c1.108 0 2-0.892 2-2v1c0 1.108-0.892 2-2 2z" filter="url(#a)" opacity=".2"/>
+<g transform="translate(0,1)" filter="url(#a)" opacity=".2">
+<rect x="8" y="8" width="8" height="8" rx="1" ry="1"/>
+<rect x="8" y="19" width="8" height="8" rx="1" ry="1"/>
+<rect x="8" y="30" width="8" height="8" rx="1" ry="1"/>
+<rect x="19" y="8" width="8" height="8" rx="1" ry="1"/>
+<rect x="19" y="19" width="8" height="8" rx="1" ry="1"/>
+</g>
+<g fill="#fff" filter="url(#a)">
+<rect x="8" y="8" width="8" height="8" rx="1" ry="1"/>
+<rect x="8" y="19" width="8" height="8" rx="1" ry="1"/>
+<rect x="8" y="30" width="8" height="8" rx="1" ry="1"/>
+<rect x="19" y="8" width="8" height="8" rx="1" ry="1"/>
+<rect x="19" y="19" width="8" height="8" rx="1" ry="1"/>
+</g>
+</svg>

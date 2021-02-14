@@ -1,0 +1,25 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation=".5"/>
+<feOffset dx="0" dy=".5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<linearGradient id="linearGradient915" x2="24" y1="10" y2="10" gradientTransform="matrix(.59409 0 0 1.6833 3.75 1.5)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#628FFF" offset="0"/>
+<stop stop-color="#4084FF" offset="1"/>
+</linearGradient>
+</defs>
+<path d="m3 3c-0.554 0-1 0.446-1 1v13h20v-13c0-0.554-0.446-1-1-1z" fill="url(#linearGradient915)" filter="url(#a)"/>
+<path d="m3 21c-0.554 0-1-0.446-1-1v-3h20v3c0 0.554-0.446 1-1 1z" fill="#253951" filter="url(#a)"/>
+<path d="m3 3c-0.554 0-1 0.446-1 1v0.5c0-0.554 0.446-1 1-1h18c0.554 0 1 0.446 1 1v-0.5c0-0.554-0.446-1-1-1z" fill="#fff" filter="url(#a)" opacity=".1"/>
+<circle cx="13" cy="19.5" r="1" filter="url(#a)" opacity=".2"/>
+<circle cx="13" cy="19" r="1" fill="#fff" filter="url(#a)" opacity=".72"/>
+<circle cx="16" cy="19.5" r="1" filter="url(#a)" opacity=".2"/>
+<circle cx="16" cy="19" r="1" fill="#fff" filter="url(#a)" opacity=".72"/>
+<circle cx="19" cy="19.5" r="1" filter="url(#a)" opacity=".2"/>
+<circle cx="19" cy="19" r="1" fill="#fff" filter="url(#a)" opacity=".72"/>
+<path d="m2 20v0.5c0 0.554 0.446 1 1 1h18c0.554 0 1-0.446 1-1v-0.5c0 0.554-0.446 1-1 1h-18c-0.554 0-1-0.446-1-1z" filter="url(#a)" opacity=".2"/>
+</svg>

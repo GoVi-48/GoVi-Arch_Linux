@@ -1,0 +1,104 @@
+<svg width="256" height="256" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-documents-stack-a" x="-10.5%" y="-14.1%" width="120.9%" height="131.2%">
+<feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-documents-stack-d" x1="50%" x2="50%" y2="98.094%">
+<stop stop-color="#FFAD34" offset="0"/>
+<stop stop-color="#BEBEBE" offset="1"/>
+</linearGradient>
+<path id="folder-documents-stack-c" d="m189.99 0c3.3189 0 6.0094 2.6879 6.0094 5.9917v167.34c0 2.9742-2.4443 5.3333-5.375 5.3333h-161.25c-2.9698 0-5.375-2.3082-5.375-5.3333v-159.33c0-3.3173 2.6828-6.0065 6.0024-6.0065l100.18 2.5e-7c2.2108 1e-8 5.2806-1.2676 6.8456-2.8205l2.3774-2.359c1.5699-1.5577 4.6309-2.8205 6.8386-2.8205h43.745z"/>
+<filter id="folder-documents-stack-b" x="-8.1%" y="-5.6%" width="116.3%" height="115.7%">
+<feOffset dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="4"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+</filter>
+<linearGradient id="folder-documents-stack-e" x1="50%" x2="50%" y2="98.094%">
+<stop stop-color="#D9630F" offset="0"/>
+<stop stop-color="#BEBEBE" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-documents-stack-f" x1="50%" x2="50%" y2="96.707%">
+<stop stop-color="#FFA221" offset="0"/>
+<stop stop-color="#FF7248" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-documents-stack-g" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#FFE3C0" offset="1"/>
+</linearGradient>
+<radialGradient id="folder-documents-stack-h" cx="79.957%" cy="71.832%" r="100%" gradientTransform="matrix(0 -1 .64286 0 .338 1.518)">
+<stop stop-color="#FA9361" offset="0"/>
+<stop stop-color="#5F1CF7" offset="1"/>
+</radialGradient>
+<linearGradient id="folder-documents-stack-i" x1="50%" x2="50%" y1="20.953%" y2="100%">
+<stop stop-color="#0E3BAC" offset="0"/>
+<stop stop-color="#1A0570" offset="1"/>
+</linearGradient>
+<filter id="folder-documents-stack-j" x="-100%" y="-9.4%" width="300%" height="118.8%">
+<feGaussianBlur in="SourceGraphic" stdDeviation="4"/>
+</filter>
+<linearGradient id="folder-documents-stack-k" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#242424" offset="0"/>
+<stop offset="1"/>
+</linearGradient>
+<linearGradient id="folder-documents-stack-l" x1="50.345%" x2="49.934%" y1="45.328%" y2="60.059%">
+<stop stop-color="#463417" offset="0"/>
+<stop stop-color="#281212" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-documents-stack-m" x2="0%" y1="4.317%" y2="100%">
+<stop stop-color="#FFF" stop-opacity=".2" offset="0"/>
+<stop stop-color="#912121" stop-opacity=".4" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-documents-stack-n" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#080808" offset="0"/>
+<stop stop-color="#481D1D" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-documents-stack-o" x2="0%" y1="4.317%" y2="100%">
+<stop stop-color="#FFF" stop-opacity=".1" offset="0"/>
+<stop stop-color="#912121" stop-opacity=".3" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-documents-stack-p" x1="11.779%" x2="76.358%" y1="79.249%" y2="79.249%">
+<stop stop-color="#6A6A6A" offset="0"/>
+<stop stop-color="#0A0A0A" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(18 46)" fill="none" fill-rule="evenodd" filter="url(#folder-documents-stack-a)">
+<use fill="#000" filter="url(#folder-documents-stack-b)" xlink:href="#folder-documents-stack-c"/>
+<use fill="url(#folder-documents-stack-d)" xlink:href="#folder-documents-stack-c"/>
+<path d="m190 2c3.3125 0 5.9978 2.68 5.9978 5.9972v164.62h-172v-156.61c0-3.3163 2.6904-6.0047 5.9929-6.0047l102.22 1.5e-7c2.2055 0 5.2709-1.2676 6.8359-2.8205l2.3774-2.359c1.5699-1.5577 4.6384-2.8205 6.8375-2.8205h41.742z" fill="url(#folder-documents-stack-e)"/>
+<path d="m14 178v-154c0-3.3161 2.6775-6.0043 6.0099-6.0043h179.98c3.3192 0 6.0099 2.6767 6.0099 6.0043v154h-192z" fill="#FFF"/>
+<path d="m14 174.67v-148.67c0-3.3093 2.6775-5.992 6.0099-5.992h179.98c3.3192 0 6.0099 2.6845 6.0099 5.992v148.67h-192z" fill="#F1F1F1"/>
+<path d="m5.9986 192c-3.3129 0-5.9986-2.6928-5.9986-6.0069l3.5368e-9 -151.99c7.72e-11 -3.3175 2.6826-6.0069 5.9986-6.0069h208c3.3129 0 5.9986 2.6928 5.9986 6.0069v151.99c0 3.3175-2.6826 6.0069-5.9986 6.0069h-208z" fill="url(#folder-documents-stack-f)"/>
+<g transform="translate(32 62)">
+<polygon points="0.055 0 112 0 111.9 128 0 128" fill="#1D1D1D" fill-opacity=".1"/>
+<polygon points="2.053 2 110 2 109.91 130 2 130" fill="url(#folder-documents-stack-g)"/>
+<path d="m13 15v34h54v-34h-54z" fill="url(#folder-documents-stack-h)" stroke="#000" stroke-opacity=".1" stroke-width="2"/>
+<circle cx="56" cy="38" r="4" fill="#FF5151"/>
+<path d="m14 48h34l-7.854-10.16c-0.67556-0.8739-1.9316-1.0347-2.8055-0.35912-0.018685 0.014445-0.037113 0.029219-0.055275 0.044316l-3.6465 3.0312c-0.84942 0.70609-2.1104 0.58989-2.8165-0.25953-0.079959-0.09619-0.15072-0.19967-0.21135-0.30908l-3.8758-6.9942c-0.53539-0.96614-1.7526-1.3153-2.7188-0.77995-0.30088 0.16673-0.55367 0.40826-0.73395 0.70123l-9.2823 15.085z" fill="url(#folder-documents-stack-i)"/>
+<path d="m72 14h28v3h-28v-3zm0 8h28v3h-28v-3zm0 8h28v3h-28v-3zm0 8h28v3h-28v-3zm0 8h28v3h-28v-3zm-60 8h88v3h-88v-3zm0 8h88v3h-88v-3zm0 8h88v3h-88v-3zm0 8h88v3h-88v-3zm0 8h88v3h-88v-3zm0 8h56v3h-56v-3zm0 16h88v3h-88v-3z" fill="#000" fill-opacity=".5"/>
+<g transform="translate(134)">
+<polygon points="4 20.625 10 0 16 20.625 16 128 4 128" fill="#7B3400" fill-opacity=".3" filter="url(#folder-documents-stack-j)"/>
+<polygon points="0 20 12 20 12 130 0 130" fill="url(#folder-documents-stack-k)"/>
+<polygon points="0 20 4 20 4 130 0 130" fill="url(#folder-documents-stack-l)"/>
+<polygon points="3 20 4 20 4 130 3 130" fill="url(#folder-documents-stack-m)"/>
+<polygon points="8 20 12 20 12 130 8 130" fill="url(#folder-documents-stack-n)"/>
+<polygon points="8 20 9 20 9 130 8 130" fill="url(#folder-documents-stack-o)"/>
+<polygon points="6 0 12 20 0 20" fill="#FFDCAC"/>
+<polygon points="6 0 8 20 4 20" fill="#D8915B"/>
+<polygon points="6 0 2.998 20 4 20" fill="#FEF0C4"/>
+<polygon points="6 0 12 20 8 20" fill="#965600"/>
+<polygon points="7.2 4 4.8 4 6 0" fill="url(#folder-documents-stack-p)"/>
+</g>
+</g>
+<g transform="translate(0 28)">
+<path d="m3.4895e-9 8.0069 4.6541e-11 -2c7.72e-11 -3.3175 2.6826-6.0069 5.9986-6.0069h208c3.3129 0 5.9986 2.6928 5.9986 6.0069v2c0-3.3141-2.6856-6.0069-5.9986-6.0069h-208c-3.316 0-5.9986 2.6894-5.9986 6.0069z" fill="#FFF" fill-opacity=".3"/>
+<path d="m7.9986-7.1054e-15c-3.316 0-5.9986 2.6894-5.9986 6.0069v151.99c0 3.3141 2.6856 6.0069 5.9986 6.0069h-2c-3.3129 0-5.9986-2.6928-5.9986-6.0069l3.5368e-9 -151.99c7.72e-11 -3.3175 2.6826-6.0069 5.9986-6.0069h2zm204 0h2c3.3129 0 5.9986 2.6928 5.9986 6.0069v151.99c0 3.3175-2.6826 6.0069-5.9986 6.0069h-2c3.316 0 5.9986-2.6894 5.9986-6.0069v-151.99c0-3.3141-2.6856-6.0069-5.9986-6.0069z" fill="#FFF" fill-opacity=".06"/>
+<path d="m-6.7425e-13 155.99c-7.712e-11 3.3141 2.6856 6.0069 5.9986 6.0069h208c3.316 0 5.9986-2.6894 5.9986-6.0069v2c0 3.3175-2.6826 6.0069-5.9986 6.0069h-208c-3.3129 0-5.9986-2.6928-5.9986-6.0069l4.6541e-11 -2z" fill="#000" fill-opacity=".3"/>
+</g>
+</g>
+</svg>

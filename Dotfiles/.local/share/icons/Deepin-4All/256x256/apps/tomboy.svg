@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="256" height="256" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>deepin-calculator</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <title>deepin-calculator</title>
+ <defs>
+  <filter id="filter914" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".19608" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+   <feOffset dx="0" dy="1" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+ </defs>
+ <g transform="matrix(4.9574 0 0 4.9574 276.94 9.763)" filter="url(#filter914)">
+  <path d="m-43.199 11.288 30.977-2.298 2.442 32.913-30.977 2.297z" fill="#f4c53b"/>
+  <path d="m-50.77 9.802 29.604-6.011 6.374 31.39-29.605 6.012z" fill="#f9e855"/>
+  <path d="m-30.897 26.637-3.343 0.252 0.594-2.918 19.221-19.828 1.823 3.605z" fill="#ed9920"/>
+  <path d="m-34.128 26.656-0.048-3.198 16.743-17.075 3.609-0.338z" fill="#f9c975"/>
+  <path d="m-12.452 7.593a1.104 1.104 0 0 1-1.562 0.025l-1.587-1.538a1.105 1.105 0 0 1-0.025-1.562l1.54-1.586a1.105 1.105 0 0 1 1.562-0.024l1.586 1.538c0.438 0.425 0.449 1.124 0.024 1.562z" fill="#fc3a3a"/>
+  <path d="m-12.683 6.937a0.793 0.793 0 0 1-1.122 0.018l-1.14-1.105a0.794 0.794 0 0 1-0.018-1.121l1.106-1.14a0.79 0.79 0 0 1 1.12-0.017l1.141 1.105a0.795 0.795 0 0 1 0.017 1.122z" fill="#ff948f"/>
+  <path d="m-14.857 3.725 3.171 3.075-3.844 3.963-3.172-3.075z" fill="#727171"/>
+  <path d="m-14.76 4.494 2.308 2.239-3.168 3.267-2.31-2.239z" fill="#c9caca"/>
+  <path d="m-15.731 5.447 2.346 2.275-0.385 0.396-2.346-2.275zm-0.935 1.008 2.325 2.254-0.384 0.396-2.326-2.254z" fill="#595757"/>
+  <path d="m-37.55 30.314 3.409-6.899s1.137 0.875 0.178 1.863c-0.956 0.988 0.758-0.955 1.484-0.252 0.728 0.705-1.304 2.567-0.345 1.58 0.956-0.989 1.989 0.011 1.989 0.011z" fill="#c9a063"/>
+  <path d="m-36.488 28.165-1.073 1.941s-0.295 0.532 0.222 0.214c0.518-0.317 1.888-1.162 1.888-1.162z" fill="#231815"/>
+ </g>
+</svg>

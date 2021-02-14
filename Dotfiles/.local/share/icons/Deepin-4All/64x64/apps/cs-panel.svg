@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <filter id="a" color-interpolation-filters="sRGB">
+   <feFlood flood-opacity=".196" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+   <feOffset dx="0" dy="1" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+  <linearGradient id="linearGradient925" x1="-1.599" x2="65.601" y1="29" y2="29" gradientTransform="scale(1.0835 .92296)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#23FFBE" offset="0"/>
+   <stop stop-color="#3FDA88" offset="1"/>
+  </linearGradient>
+ </defs>
+ <path d="m6.8 57a2.783 2.783 0 0 1-2.8-2.778v-3.222h56v3.222a2.783 2.783 0 0 1-2.8 2.778z" fill="#4f4f4f" filter="url(#a)"/>
+ <path d="m6.801 7a2.783 2.783 0 0 0-2.8 2.777v41.223h56v-41.22a2.783 2.783 0 0 0-2.8-2.778h-50.401z" fill="url(#linearGradient925)" filter="url(#a)"/>
+ <path d="m6.8 7a2.783 2.783 0 0 0-2.8 2.777v1a2.783 2.783 0 0 1 2.8-2.777h50.4c1.55 0 2.8 1.238 2.8 2.777v-1a2.784 2.784 0 0 0-2.8-2.777z" fill="#fff" filter="url(#a)" opacity=".1"/>
+ <path d="m4 54.223v1c0 1.54 1.25 2.777 2.8 2.777h50.4a2.781 2.781 0 0 0 2.8-2.777v-1a2.781 2.781 0 0 1-2.8 2.777h-50.4a2.782 2.782 0 0 1-2.8-2.777z" filter="url(#a)" opacity=".2"/>
+</svg>

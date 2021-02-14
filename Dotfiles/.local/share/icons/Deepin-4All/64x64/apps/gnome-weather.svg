@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>深度终端-64px</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <title>深度终端-64px</title>
+ <defs>
+  <filter id="filter850" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".19608" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+   <feOffset dx="0" dy="1" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+ </defs>
+ <g transform="matrix(1.279 0 0 1.279 1.3117 2.0945)" filter="url(#filter850)">
+  <path d="m39.61 24.188c0-0.018 3e-3 -0.035 3e-3 -0.052 0-5.967-4.854-10.821-10.821-10.821s-10.821 4.854-10.821 10.821 4.854 10.821 10.821 10.821c0.239 0 0.473-0.021 0.708-0.036 1.208 2.967 4.12 5.066 7.516 5.066 4.475 0 8.116-3.641 8.116-8.116-1e-3 -3.567-2.317-6.597-5.522-7.683z" fill="#fff"/>
+  <path d="m15.876 32.579c-7.114 0-12.901-5.787-12.901-12.901s5.787-12.901 12.901-12.901 12.901 5.787 12.901 12.901-5.787 12.901-12.901 12.901z" fill="#f8b62d"/>
+  <path d="m26.615 32c0.69-2 1.083-3.084 1.083-4.64 0-5.014-4.065-9.248-9.079-9.248-3.787 0-7.029 2.235-8.391 5.53-4.135 0.425-7.372 3.883-7.372 8.128 0 4.531 3.628 8.2 8.159 8.2l26.031 0.016 0.017-7.986z" fill="#fff"/>
+ </g>
+</svg>

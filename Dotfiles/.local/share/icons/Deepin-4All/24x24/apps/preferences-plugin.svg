@@ -1,0 +1,18 @@
+<svg width="24" height="24" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation=".5"/>
+<feOffset dx="0" dy=".5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<linearGradient id="linearGradient897" x2="24" y1="12" y2="12" gradientTransform="matrix(.59409 0 0 1.6833 3.75 1.5)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#628FFF" offset="0"/>
+<stop stop-color="#4084FF" offset="1"/>
+</linearGradient>
+</defs>
+<path d="m10 2c-1.108 0-2 0.892-2 2v2h-4c-1.108 0-2 0.892-2 2v4h2c1.108 0 2 0.892 2 2s-0.892 2-2 2h-2v4c0 1.108 0.892 2 2 2h4v-2c0-1.108 0.892-2 2-2s2 0.892 2 2v2h4c1.108 0 2-0.892 2-2v-4h2c1.108 0 2-0.892 2-2s-0.892-2-2-2h-2v-4c0-1.108-0.892-2-2-2h-4v-2c0-1.108-0.892-2-2-2z" fill="url(#linearGradient897)" filter="url(#a)"/>
+<path d="m10 2c-1.108 0-2 0.892-2 2v0.5c0-1.108 0.892-2 2-2s2 0.892 2 2v-0.5c0-1.108-0.892-2-2-2zm-6 4c-1.108 0-2 0.892-2 2v0.5c0-1.108 0.892-2 2-2h4v-0.5zm8 0v0.5h4c1.108 0 2 0.892 2 2v-0.5c0-1.108-0.892-2-2-2zm6 6v0.5h2c1.008 0 1.83 0.741 1.97 1.709 0.01-0.07 0.03-0.136 0.03-0.209 0-1.108-0.892-2-2-2zm-12.07 2.5a1.99 1.99 0 0 1-1.93 1.5h-2v0.5h2a1.99 1.99 0 0 0 1.93-1.5c0.024 0.093 0.029 0.194 0.041 0.291 0.014-0.096 0.03-0.191 0.03-0.291 0-0.174-0.03-0.339-0.071-0.5z" fill="#fff" filter="url(#a)" opacity=".2"/>
+<path d="m2 12v0.5h2c1.022 0 1.851 0.762 1.975 1.75 0.01-0.083 0.025-0.164 0.025-0.25 0-1.108-0.892-2-2-2zm19.975 2.25a1.989 1.989 0 0 1-1.975 1.75h-2v0.5h2c1.108 0 2-0.892 2-2 0-0.086-0.015-0.167-0.025-0.25zm-11.975 3.75c-1.108 0-2 0.892-2 2v0.5c0-1.108 0.892-2 2-2s2 0.892 2 2v-0.5c0-1.108-0.892-2-2-2zm-8 2v0.5c0 1.108 0.892 2 2 2h4v-0.5h-4c-1.108 0-2-0.892-2-2zm16 0c0 1.108-0.892 2-2 2h-4v0.5h4c1.108 0 2-0.892 2-2z" filter="url(#a)" opacity=".2"/>
+</svg>

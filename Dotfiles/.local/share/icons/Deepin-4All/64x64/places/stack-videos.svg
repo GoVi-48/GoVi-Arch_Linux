@@ -1,0 +1,67 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="stack-videos-a" x="-22.2%" y="-25%" width="144.4%" height="150%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="stack-videos-b" x1="50%" x2="50%" y2="98.094%">
+<stop stop-color="#656565" offset="0"/>
+<stop stop-color="#BEBEBE" offset="1"/>
+</linearGradient>
+<linearGradient id="stack-videos-d" x1="50%" x2="50%" y2="97.197%">
+<stop stop-color="#414141" offset="0"/>
+<stop stop-color="#2B2B2B" offset="1"/>
+</linearGradient>
+<path id="stack-videos-c" d="m1.5006 48c-0.82877 0-1.5006-0.67749-1.5006-1.495l8.6674e-10 -37.01c1.9337e-11 -0.82569 0.66328-1.495 1.5006-1.495h50.999c0.82877 0 1.5006 0.67749 1.5006 1.495v37.01c0 0.82569-0.66328 1.495-1.5006 1.495h-50.999z"/>
+<linearGradient id="stack-videos-f" x1="23.162%" x2="50%" y2="100%">
+<stop stop-color="#FFE00B" offset="0"/>
+<stop stop-color="#D38700" offset="1"/>
+</linearGradient>
+<filter id="stack-videos-g" x="-187.5%" y="-136.4%" width="475%" height="372.7%">
+<feGaussianBlur in="SourceGraphic" stdDeviation="5"/>
+</filter>
+</defs>
+<g transform="translate(5 11)" fill="none" fill-rule="evenodd" filter="url(#stack-videos-a)">
+<path d="m46.509 9.9342e-9c0.8236 0 1.5244 0.66231 1.5661 1.4932l0.25853 5.1605c0 0.74355-0.6069 1.3463-1.3339 1.3463h-39.999c-0.73669 0-1.3339-0.59004-1.3339-1.3463l0.22603-3.1556c0.059262-0.82736 0.77472-1.4981 1.5974-1.4981h25.018c0.27155 0 0.64862-0.15694 0.84006-0.34837l1.3033-1.3033c0.1924-0.1924 0.57401-0.34837 0.84211-0.34837h11.015z" fill="url(#stack-videos-b)"/>
+<path d="m46.492 1c0.83273 0 1.5473 0.67075 1.5962 1.5002l0.24488 4.1534c0 0.74355-0.6069 1.3463-1.3339 1.3463h-39.999c-0.73669 0-1.3339-0.59004-1.3339-1.3463l0.19775-2.1676c0.074878-0.82075 0.81536-1.4861 1.6336-1.4861l25.501-3e-8c0.27658 0 0.65773-0.15694 0.84916-0.34837l1.3033-1.3033c0.1924-0.1924 0.56533-0.34837 0.85387-0.34837h10.487z" fill="#161616"/>
+<path d="m3 8.0049-1e-8 -1.5025c0-0.82978 0.67854-1.5025 1.5025-1.5025h44.995c0.82979 0 1.5025 0.66689 1.5025 1.5025v1.5025c0 0.73367-0.6069 1.3284-1.3339 1.3284h-45.332c-0.73669 0-1.3339-0.5843-1.3339-1.3284z" fill="#757575"/>
+<path d="m3 45.005-1e-8 -37.5c0-0.83127 0.67854-1.5051 1.5025-1.5051h44.995c0.82979 0 1.5025 0.677 1.5025 1.5051v37.5c0 0.73367-0.6069 1.3284-1.3339 1.3284h-45.332c-0.73669 0-1.3339-0.5843-1.3339-1.3284z" fill="#262626"/>
+<mask id="stack-videos-e" fill="#fff">
+<use xlink:href="#stack-videos-c"/>
+</mask>
+<use fill="url(#stack-videos-d)" xlink:href="#stack-videos-c"/>
+<g mask="url(#stack-videos-e)">
+<g transform="translate(4 9)">
+<g transform="translate(0 2)">
+<path d="m0 9h6v6h-6v-6zm0-9h6v6h-6v-6zm0 18h6v6h-6v-6zm0 9h6v6h-6v-6z" fill="#1B1B1B"/>
+<path d="m6 10h-6v-1h6v1zm0-9h-6v-1h6v1zm0 18h-6v-1h6v1zm0 9h-6v-1h6v1z" fill="#000"/>
+<path d="m6 16h-6v-1h6v1zm0-9h-6v-1h6v1zm0 18h-6v-1h6v1zm0 9h-6v-1h6v1z" fill="#FFF" fill-opacity=".1"/>
+</g>
+<g transform="translate(40 2)">
+<path d="m0 9h6v6h-6v-6zm0-9h6v6h-6v-6zm0 18h6v6h-6v-6zm0 9h6v6h-6v-6z" fill="#1B1B1B"/>
+<path d="m6 10h-6v-1h6v1zm0-9h-6v-1h6v1zm0 18h-6v-1h6v1zm0 9h-6v-1h6v1z" fill="#000"/>
+<path d="m6 16h-6v-1h6v1zm0-9h-6v-1h6v1zm0 18h-6v-1h6v1zm0 9h-6v-1h6v1z" fill="#FFF" fill-opacity=".1"/>
+</g>
+<g fill="#000" fill-opacity=".2">
+<rect x="10" width="26" height="6"/>
+<rect x="10" y="8" width="26" height="21"/>
+<rect x="10" y="31" width="26" height="6"/>
+</g>
+<path d="m27.117 18.5-6.6174-4.5495v9.099l6.6174-4.5495z" fill="url(#stack-videos-f)" stroke="#FFF000" stroke-opacity=".4"/>
+</g>
+</g>
+<polygon points="32 27.5 24 33 24 22" fill="url(#stack-videos-f)" filter="url(#stack-videos-g)" mask="url(#stack-videos-e)"/>
+<g mask="url(#stack-videos-e)">
+<g transform="translate(0 8)">
+<path d="m3.5527e-15 37.505c-1.9146e-11 0.81755 0.67185 1.495 1.5006 1.495h50.999c0.83735 0 1.5006-0.66935 1.5006-1.495v1c0 0.82569-0.66328 1.495-1.5006 1.495h-50.999c-0.82877 0-1.5006-0.67749-1.5006-1.495l2.3419e-11 -1z" fill="#000" fill-opacity=".3"/>
+<path d="m8.4343e-10 2.495 2.3419e-11 -1c1.9337e-11 -0.82569 0.66328-1.495 1.5006-1.495h50.999c0.82877 0 1.5006 0.67749 1.5006 1.495v1c0-0.81755-0.67185-1.495-1.5006-1.495h-50.999c-0.83735 0-1.5006 0.66935-1.5006 1.495z" fill="#FFF" fill-opacity=".3"/>
+<path d="m2.5006 0c-0.83735 0-1.5006 0.66935-1.5006 1.495v37.01c0 0.81755 0.67185 1.495 1.5006 1.495h-1c-0.82877 0-1.5006-0.67749-1.5006-1.495l8.6674e-10 -37.01c1.9337e-11 -0.82569 0.66328-1.495 1.5006-1.495h1zm48.999 3.5527e-15h1c0.82877 0 1.5006 0.67749 1.5006 1.495v37.01c0 0.82569-0.66328 1.495-1.5006 1.495h-1c0.83735 0 1.5006-0.66935 1.5006-1.495v-37.01c0-0.81755-0.67185-1.495-1.5006-1.495z" fill="#FFF" fill-opacity=".06"/>
+</g>
+</g>
+</g>
+</svg>

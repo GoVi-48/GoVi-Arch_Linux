@@ -1,0 +1,51 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="stack-download-a" x="-12.5%" y="-13.9%" width="125%" height="127.8%">
+<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="stack-download-b" x1="50%" x2="50%" y2="98.094%">
+<stop stop-color="#069AA6" offset="0"/>
+<stop stop-color="#BEBEBE" offset="1"/>
+</linearGradient>
+<linearGradient id="stack-download-d" x1="50%" x2="50%" y2="92.487%">
+<stop stop-color="#16C2AC" offset="0"/>
+<stop stop-color="#0A9AB1" offset="1"/>
+</linearGradient>
+<polygon id="stack-download-c" points="0 18 0 3 20 3 20 18"/>
+<radialGradient id="stack-download-f" r="56.897%" fx="50%" fy="50%" gradientTransform="matrix(0 .87879 -1 0 1 .06)">
+<stop stop-color="#FFF" stop-opacity=".217" offset="0"/>
+<stop stop-color="#E9E9E9" stop-opacity=".745" offset="1"/>
+</radialGradient>
+<linearGradient id="stack-download-g" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#FFF" stop-opacity=".418" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".329" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(2 4)" fill="none" fill-rule="evenodd" filter="url(#stack-download-a)">
+<polygon points="13 0 18 0 18 16.995 2 16.995 2 1 12 1" fill="url(#stack-download-b)"/>
+<polygon points="1 17 1 2 19 2 19 17" fill="#F1F1F1"/>
+<mask id="stack-download-e" fill="#fff">
+<use xlink:href="#stack-download-c"/>
+</mask>
+<use fill="url(#stack-download-d)" xlink:href="#stack-download-c"/>
+<g mask="url(#stack-download-e)">
+<g transform="translate(2 5)">
+<path d="m2.8088 9.3276c0.99483 0 2-1.3271 2-2.6034 0-1.1559-0.89929-2.0862-2-2.0862s-2 0.9303-2 2.0862c0 1.2763 1.0052 2.6034 2 2.6034z" fill="url(#stack-download-f)" stroke="#FFF" stroke-opacity=".2"/>
+<g fill="#FFF">
+<ellipse cx="2" cy="6.207" rx="1" ry="1"/>
+<ellipse cx="7.5" cy="2.069" rx="1" ry="1"/>
+<ellipse cx="13.5" cy="5.172" rx="1" ry="1"/>
+</g>
+<path d="m8 5.1897c0.99483 0 2-1.3271 2-2.6034 0-1.1559-0.89929-2.0862-2-2.0862s-2 0.9303-2 2.0862c0 1.2763 1.0052 2.6034 2 2.6034zm6.5 3.1034c0.99483 0 2-1.3271 2-2.6034 0-1.1559-0.89929-2.0862-2-2.0862s-2 0.9303-2 2.0862c0 1.2763 1.0052 2.6034 2 2.6034z" fill="url(#stack-download-f)" stroke="#FFF" stroke-opacity=".2"/>
+<path d="m8 6.2069c0 4.0639 0.12553 6.1895 0.3088 8.614m6.6912-5.5105c0 3.0322-0.53064 2.7515-0.49861 4.5605" stroke="url(#stack-download-g)" stroke-linecap="round"/>
+<path transform="matrix(-1 0 0 1 6.5 0)" d="m4 10.345c0 2.3444-1.5919 2.1274-1.4958 3.526" stroke="url(#stack-download-g)" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>

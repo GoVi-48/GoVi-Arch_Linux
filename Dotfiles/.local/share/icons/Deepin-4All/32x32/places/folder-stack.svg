@@ -1,0 +1,48 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="folder-others-stack-a" x="-15.4%" y="-17.4%" width="130.8%" height="134.8%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-others-stack-b" x1="50%" x2="50%" y2="98.094%">
+<stop stop-color="#069AA6" offset="0"/>
+<stop stop-color="#BEBEBE" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-others-stack-c" x1="50%" x2="50%" y2="92.487%">
+<stop stop-color="#16C2AC" offset="0"/>
+<stop stop-color="#0A9AB1" offset="1"/>
+</linearGradient>
+<radialGradient id="folder-others-stack-d" r="56.897%" fx="50%" fy="50%" gradientTransform="matrix(0 .87879 -1 0 1 .06)">
+<stop stop-color="#FFF" stop-opacity=".217" offset="0"/>
+<stop stop-color="#E9E9E9" stop-opacity=".745" offset="1"/>
+</radialGradient>
+<linearGradient id="folder-others-stack-e" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#FFF" stop-opacity=".418" offset="0"/>
+<stop stop-color="#FFF" stop-opacity=".329" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(3 6)" fill="none" fill-rule="evenodd" filter="url(#folder-others-stack-a)">
+<path d="m16.09 0.27325c0.22637-0.15091 0.62625-0.27325 0.90198-0.27325h6.5158c0.27178 0 0.4921 0.21768 0.4921 0.50069v21.493h-22v-20.495c0-0.27517 0.22564-0.49824 0.49374-0.49824h12.013c0.27269 0 0.67767-0.12262 0.90362-0.27325l0.68024-0.45349z" fill="url(#folder-others-stack-b)"/>
+<path d="m1.5013 22c-0.27685 0-0.50127-0.22461-0.50127-0.49438l1e-8 -19.011c0-0.27304 0.22227-0.49438 0.50127-0.49438h22.997c0.27685 0 0.50127 0.22461 0.50127 0.49438v19.011c0 0.27304-0.22227 0.49438-0.50127 0.49438h-22.997z" fill="#F1F1F1"/>
+<path d="m0.49617 23c-0.27403 0-0.49617-0.22461-0.49617-0.49438l-2.119e-11 -19.011c-3.0434e-13 -0.27304 0.22477-0.49438 0.49617-0.49438h25.008c0.27403 0 0.49617 0.22461 0.49617 0.49438v19.011c0 0.27304-0.22477 0.49438-0.49617 0.49438h-25.008z" fill="url(#folder-others-stack-c)"/>
+<g transform="translate(5 7)">
+<path d="m2.8088 9.3276c0.99483 0 2-1.3271 2-2.6034 0-1.1559-0.89929-2.0862-2-2.0862s-2 0.9303-2 2.0862c0 1.2763 1.0052 2.6034 2 2.6034z" fill="url(#folder-others-stack-d)" stroke="#FFF" stroke-opacity=".2"/>
+<g fill="#FFF">
+<ellipse cx="2" cy="6.207" rx="1" ry="1"/>
+<ellipse cx="7.5" cy="2.069" rx="1" ry="1"/>
+<ellipse cx="13.5" cy="5.172" rx="1" ry="1"/>
+</g>
+<path d="m8 5.1897c0.99483 0 2-1.3271 2-2.6034 0-1.1559-0.89929-2.0862-2-2.0862s-2 0.9303-2 2.0862c0 1.2763 1.0052 2.6034 2 2.6034zm6.5 3.1034c0.99483 0 2-1.3271 2-2.6034 0-1.1559-0.89929-2.0862-2-2.0862s-2 0.9303-2 2.0862c0 1.2763 1.0052 2.6034 2 2.6034z" fill="url(#folder-others-stack-d)" stroke="#FFF" stroke-opacity=".2"/>
+<g stroke="url(#folder-others-stack-e)" stroke-linecap="round">
+<path d="m8 6.2069c0 4.0639 0.12553 6.1895 0.3088 8.614"/>
+<path d="m15 9.3103c0 3.0322-0.53064 2.7515-0.49861 4.5605"/>
+<path transform="matrix(-1 0 0 1 6.5 0)" d="m4 10.345c0 2.3444-1.5919 2.1274-1.4958 3.526"/>
+</g>
+</g>
+</g>
+</svg>

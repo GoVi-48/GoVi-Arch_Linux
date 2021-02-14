@@ -1,0 +1,38 @@
+<svg width="128" height="128" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<linearGradient id="deepin-launcher-c" x1="50%" x2="50%" y1="4.64%" y2="97.178%">
+<stop stop-color="#00ABFF" offset="0"/>
+<stop stop-color="#0163FA" offset="1"/>
+</linearGradient>
+<linearGradient id="deepin-launcher-d" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#32BBFF" offset="0"/>
+<stop stop-color="#004FC5" offset="1"/>
+</linearGradient>
+<path id="deepin-launcher-b" d="m10 64c0-29.823 24.177-54 54-54s54 24.177 54 54-24.177 54-54 54-54-24.177-54-54z"/>
+<filter id="deepin-launcher-a" x="-9.3%" y="-7.4%" width="118.5%" height="118.5%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+</filter>
+<path id="deepin-launcher-f" d="m86.145 23.102c-6.5842-3.5728-14.128-5.602-22.145-5.602-1.9288 0-3.8302 0.11744-5.6974 0.34557-6.9188 9.5321-10.505 25.082-10.22 34.597 0 0-0.45477 14.1 9.1887 19.101 0 0 8.6665 3.8085 14.573-8.5065 0 0 4.0592-6.9499 2.4069-22.657 0 0 1.5808 0.27897 1.7595 0.52963 0.17873 0.24864 3.4912 12.093 1.1637 22.067 0 0-2.1428 11.721-12.678 14.401-10.531 2.6805-18.739-3.8045-24.311-9.9134-4.1499-4.5493-10.311-16.766-13.345-31.421-5.8635 7.7816-9.3397 17.464-9.3397 27.957 0 7.2462 1.6575 14.105 4.6141 20.219 10.265 3.0327 36.351 8.9416 52.946-3.2206 10.985-8.0522 9.5695-20.947 9.5695-20.947-0.18186-9.8088-6.1536-19.552-6.1536-19.552 23.221 21.007 9.4963 44.345 9.4963 44.345-6.3896 13.051-19.525 21.398-31.015 25.126 2.2966 0.34891 4.6484 0.52982 7.0425 0.52982 25.681 0 46.5-20.818 46.5-46.499 0-10.862-3.7244-20.854-9.9658-28.77-2.2724 0.15661-4.9125 0.24832-7.6517 0.15842 0 0-12.354 0.57693-19.282 4.0323 0 0-5.1661 2.3036-10.33 6.2093 0 0-1.096 0.54788-1.043 2.5609 0.046637 2.0068-1.0514 7.3569-4.7103 10.493 0 0-2.6116 1.3427-1.3058 3.2644 0 0 1.7637 2.5609 4.2482-0.12867 0 0 6.4062-6.5911 6.7983-17.213 0 0 2.0266-1.7308 5.2275-2.2413 0 0 0.58932 15.934-7.3177 23.934 0 0-7.5212 8.1912-9.9378-3.968 0 0-2.9423-11.584 12.225-25.341 0 0 10.224-10.21 16.234-14.992 0.83052 0.34617 1.6495 0.71375 2.4563 1.102zm-22.145 91.898c-28.167 0-51-22.833-51-50.999 0-28.166 22.834-51.001 51-51.001s51 22.835 51 51.001c0 28.166-22.833 50.999-51 50.999z"/>
+<filter id="deepin-launcher-e" x="-.5%" y="-.5%" width="101%" height="102%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0"/>
+</filter>
+<filter id="deepin-launcher-g" x="-.5%" y="-.5%" width="101%" height="102%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+</filter>
+</defs>
+<g fill="none" fill-rule="evenodd">
+<use fill="#000" filter="url(#deepin-launcher-a)" xlink:href="#deepin-launcher-b"/>
+<path d="m10.5 64c0 29.547 23.953 53.5 53.5 53.5s53.5-23.953 53.5-53.5-23.953-53.5-53.5-53.5-53.5 23.953-53.5 53.5z" fill="url(#deepin-launcher-c)" stroke="url(#deepin-launcher-d)" stroke-linejoin="square"/>
+<g fill-rule="nonzero">
+<use fill="#000" filter="url(#deepin-launcher-e)" xlink:href="#deepin-launcher-f"/>
+<use fill="#F0F9FF" xlink:href="#deepin-launcher-f"/>
+<use fill="#000" filter="url(#deepin-launcher-g)" xlink:href="#deepin-launcher-f"/>
+</g>
+</g>
+</svg>

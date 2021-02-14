@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>deepin-repair-tools</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <title>deepin-repair-tools</title>
+ <defs>
+  <linearGradient id="b" x1="25.495" x2="25.495" y1="47.12" gradientTransform="matrix(1.0198 0 0 .98058 6 7)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#8E8E8E" offset="0"/>
+   <stop stop-color="#AFAFAF" offset=".932"/>
+   <stop stop-color="#BEBEBE" offset=".932"/>
+   <stop stop-color="#C2C2C2" offset="1"/>
+  </linearGradient>
+  <linearGradient id="c" x1="25.495" x2="25.495" y2="49.89" gradientTransform="matrix(1.0198 0 0 .98058 6 7)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#B3B3B3" offset="0"/>
+   <stop stop-color="#727272" offset="1"/>
+  </linearGradient>
+  <filter id="a" color-interpolation-filters="sRGB">
+   <feFlood flood-opacity=".196" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+   <feOffset dx="0" dy="1" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+ </defs>
+ <path d="m6.563 9.665 1.99-2.056a2 2 0 0 1 1.437-0.609h44.02a2 2 0 0 1 1.437 0.61l1.99 2.055a2 2 0 0 1 0.563 1.391v44.914c0 0.57-0.452 1.031-1.01 1.031h-49.98a1.02 1.02 0 0 1-1.01-1.031v-44.915a2 2 0 0 1 0.562-1.39z" fill="url(#b)" fill-rule="evenodd" filter="url(#a)"/>
+ <path d="m7.288 10.3a1 1 0 0 0-0.288 0.703v44.987c0 4e-3 16.663 7e-3 49.99 0.01 4e-3 0 7e-3 -14.999 0.01-44.997a1 1 0 0 0-0.289-0.703l-1.978-2.003a1 1 0 0 0-0.711-0.297h-44.044a1 1 0 0 0-0.712 0.297zm1.267-2.706a2 2 0 0 1 1.423-0.594h44.044a2 2 0 0 1 1.423 0.594l1.978 2.003a2 2 0 0 1 0.577 1.406v44.987a1.01 1.01 0 0 1-1.01 1.01h-49.98a1.01 1.01 0 0 1-1.01-1.01v-44.987a2 2 0 0 1 0.577-1.406z" fill="url(#c)" filter="url(#a)"/>
+ <g transform="matrix(.94886 0 0 .94886 3.3514 -1.1017)" fill-rule="evenodd">
+  <path d="m12 13.001v33.602l7.9999-11.902 11.086 24.3h9.6279l-16.714-26h16z" opacity=".2"/>
+  <path d="m12 12.001v33.6l7.9999-11.9 12 26.3h9.9999l-18-28h16z" fill="#fff"/>
+ </g>
+</svg>

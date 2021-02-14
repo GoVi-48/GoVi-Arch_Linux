@@ -1,0 +1,32 @@
+<svg width="96px" height="96px" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+<title>folder-desktop-96px</title>
+<desc>Created with Sketch.</desc>
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<linearGradient id="b" x1="45.536" x2="45.536" y1="14.759" y2="90.653" gradientTransform="scale(1.0541 .94867)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#54FFCD" offset="0"/>
+<stop stop-color="#23C06D" offset="1"/>
+</linearGradient>
+<linearGradient id="c" x1="44.899" x2="44.899" y1="16.486" y2="90.87" gradientTransform="scale(1.0691 .9354)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#23FFBE" offset="0"/>
+<stop stop-color="#3FDA88" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(-.078023 3.015)" fill-rule="evenodd" filter="url(#a)">
+<path d="m86.003 14.001a2 2 0 0 1 1.998 2v67.999c0 1.105-0.899 2-1.998 2h-76.005a2 2 0 0 1-1.997-2v-67.998c-1e-3 -1.105 0.898-2.002 1.997-2.002z" fill="url(#b)"/>
+<path d="m86.003 15.001a2 2 0 0 1 1.998 2v65.999c0 1.105-0.899 2-1.998 2h-76.005a2 2 0 0 1-1.997-2v-65.998c-1e-3 -1.105 0.898-2.002 1.997-2.002z" fill="url(#c)"/>
+<g transform="translate(16,22)">
+<rect y="44" width="64" height="12" rx="2" fill="#1fb366" opacity=".801"/>
+<rect y="1" width="12" height="12" rx="2" opacity=".1"/>
+<rect y="21" width="12" height="12" rx="2" opacity=".1"/>
+<rect width="12" height="12" rx="2" fill="#fff"/>
+<rect y="20" width="12" height="12" rx="2" fill="#fff"/>
+</g>
+</g>
+</svg>

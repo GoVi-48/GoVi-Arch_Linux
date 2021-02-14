@@ -1,0 +1,53 @@
+<svg width="256" height="256" version="1.1" viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="filter1089" x="-.144" y="-.144" width="1.288" height="1.288" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="1.6510345"/>
+</filter>
+<linearGradient id="linearGradient914" x1="9.737" x2="19.02" y1="2.5e-8" y2="27.517" gradientUnits="userSpaceOnUse">
+<stop stop-color="#909090" offset=".01378"/>
+<stop stop-color="#585858" offset="1"/>
+</linearGradient>
+<filter id="dcc_nav_mouse_42px-d" x="-.073" y="-.073" width="1.145" height="1.145">
+<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="1.5"/>
+<feOffset dx="-1" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25 0"/>
+</filter>
+<filter id="dcc_nav_mouse_42px-f" x="-.055" y="-.055" width="1.109" height="1.218">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.1 0"/>
+</filter>
+<filter id="dcc_nav_mouse_42px-a" x="-.429" y="-.429" width="1.857" height="1.857">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<filter id="dcc_nav_mouse_42px-h" x="-.031" y="-.032" width="1.063" height="1.129">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feColorMatrix in="shadowOffsetOuter1" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.1 0"/>
+</filter>
+<linearGradient id="linearGradient916" x1="9.4582" x2="11.633" y1="1.931" y2="17.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" stop-opacity=".358" offset="0"/>
+<stop stop-color="#FFF" stop-opacity="0" offset="1"/>
+</linearGradient>
+<mask id="dcc_nav_mouse_42px-e" fill="#fff">
+<path d="m17.818 3.0571 6.6424 6.6423c4.0761 4.0761 4.0761 10.685 0 14.761s-10.685 4.0761-14.761 0l-6.6423-6.6424c-4.0761-4.0761-4.0761-10.685 0-14.761s10.685-4.0761 14.761 0z"/>
+</mask>
+</defs>
+<g transform="matrix(5.2187 0 0 5.2187 7.4589 11.822)">
+<g fill-rule="evenodd">
+<path transform="matrix(1.2525,0,0,1.2525,6.7851,6.7851)" d="m17.818 3.0571 6.6424 6.6423c4.0761 4.0761 4.0761 10.685 0 14.761s-10.685 4.0761-14.761 0l-6.6423-6.6424c-4.0761-4.0761-4.0761-10.685 0-14.761s10.685-4.0761 14.761 0z" fill="#b3b3b3" filter="url(#filter1089)"/>
+<path transform="matrix(1.2525,0,0,1.2525,6.7851,6.7851)" d="m17.818 3.0571 6.6424 6.6423c4.0761 4.0761 4.0761 10.685 0 14.761s-10.685 4.0761-14.761 0l-6.6423-6.6424c-4.0761-4.0761-4.0761-10.685 0-14.761s10.685-4.0761 14.761 0z" fill="url(#linearGradient914)"/>
+<path transform="matrix(1.2525,0,0,1.2525,6.7851,6.7851)" d="m17.818 3.0571 6.6424 6.6423c4.0761 4.0761 4.0761 10.685 0 14.761s-10.685 4.0761-14.761 0l-6.6423-6.6424c-4.0761-4.0761-4.0761-10.685 0-14.761s10.685-4.0761 14.761 0z" filter="url(#dcc_nav_mouse_42px-d)"/>
+</g>
+<polygon transform="matrix(1.2525,0,0,1.2525,6.7851,6.7851)" points="3.537 1.931 11.586 9.981 10.463 11.103 2.414 3.054" filter="url(#dcc_nav_mouse_42px-f)"/>
+<polygon transform="matrix(1.2525,0,0,1.2525,6.7851,6.7851)" points="3.537 1.931 11.586 9.981 10.463 11.103 2.414 3.054" fill="#4a4a4a" filter="url(#dcc_nav_mouse_42px-a)"/>
+<polygon transform="matrix(1.2525,0,0,1.2525,6.7851,6.7851)" points="2.897 17.242 17.741 2.897 18.828 3.999 3.983 18.345" filter="url(#dcc_nav_mouse_42px-h)"/>
+<polygon transform="matrix(1.2525,0,0,1.2525,6.7851,6.7851)" points="2.897 17.242 17.741 2.897 18.828 3.999 3.983 18.345" fill="#4a4a4a" filter="url(#dcc_nav_mouse_42px-a)"/>
+<path transform="matrix(1.2525,0,0,1.2525,6.7851,6.7851)" d="m16.025 4.1836 4.8944 4.8944c3.0034 3.0034 3.0034 7.8729 0 10.876-3.0034 3.0034-7.8729 3.0034-10.876 0l-4.8944-4.8944c-3.0034-3.0034-3.0034-7.8729 0-10.876s7.8729-3.0034 10.876 0z" fill="url(#linearGradient916)" fill-opacity=".75" fill-rule="evenodd" filter="url(#dcc_nav_mouse_42px-a)" mask="url(#dcc_nav_mouse_42px-e)"/>
+</g>
+</svg>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96" height="96" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>深度终端-96px</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <title>深度终端-96px</title>
+ <defs>
+  <linearGradient id="c" x1="44.9" x2="44.9" y1="16.036" y2="90.869" gradientTransform="scale(1.069 .93541)" gradientUnits="userSpaceOnUse">
+   <stop stop-color="#EC3F4C" offset="0"/>
+   <stop stop-color="#DE434E" offset="1"/>
+  </linearGradient>
+  <filter id="filter904" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".19608" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+   <feOffset dx="0" dy="1" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+  <clipPath id="d">
+   <use width="100%" height="100%" overflow="visible" xlink:href="#c"/>
+  </clipPath>
+  <clipPath id="f">
+   <use width="100%" height="100%" overflow="visible" xlink:href="#e"/>
+  </clipPath>
+  <path id="e" d="m6 8h-2a1 1 0 0 0-1 1v32a1 1 0 0 0 1 1h2z"/>
+ </defs>
+ <g transform="matrix(2.1 0 0 2.1 -2.1994 -2.5478)" filter="url(#filter904)">
+  <path d="m45 41a1 1 0 0 1-1 1h-40a1 1 0 0 1-1-1v-32a1 1 0 0 1 1-1h40a1 1 0 0 1 1 1z" fill="#f7f8f8"/>
+  <path d="m26.549 26.978 18.279-17.665c0-0.283-18.953 16.854-18.953 16.854-1.335 0.917-3.059 0.7-4.159-0.132 0 0-18.56-17.009-18.56-16.726l18.375 17.856-14.447 12.95 15.197-12.396c1.063 0.604 2.146 0.76 3.5-0.094l15.228 12.358z" fill="#d8d8d8" opacity=".5"/>
+  <g clip-path="url(#d)">
+   <path d="m52.644 4.806-1.414-1.414a0.999 0.999 0 0 0-1.414 0l-22.628 22.627a0.999 0.999 0 0 0 0 1.414l1.414 1.414z" fill="#ff8080"/>
+   <path d="m56.224 9.652-1.414-1.415a0.999 0.999 0 0 0-1.414 0l-22.628 22.628a0.999 0.999 0 0 0 0 1.414l1.414 1.414z" fill="#80b3ff"/>
+   <path d="m57.247 17.054-1.414-1.414a0.999 0.999 0 0 0-1.414 0l-22.628 22.627a0.999 0.999 0 0 0 0 1.414l1.414 1.414z" fill="#ff8080"/>
+   <path d="m58.785 23.999-1.414-1.414a0.999 0.999 0 0 0-1.414 0l-22.627 22.627a0.999 0.999 0 0 0 0 1.414l1.414 1.414z" fill="#80b3ff"/>
+  </g>
+  <clipPath>
+   <use width="100%" height="100%" overflow="visible" xlink:href="#e"/>
+  </clipPath>
+  <g clip-path="url(#f)">
+   <path d="m16.581 2.04-1.414-1.414a0.999 0.999 0 0 0-1.414 0l-22.627 22.627a0.999 0.999 0 0 0 0 1.414l1.414 1.414z" fill="#ff8080"/>
+   <path d="m20.162 6.885-1.414-1.414a0.999 0.999 0 0 0-1.414 0l-22.628 22.627a0.999 0.999 0 0 0 0 1.414l1.414 1.414z" fill="#80b3ff"/>
+   <path d="m21.185 14.288-1.414-1.414a0.999 0.999 0 0 0-1.414 0l-22.628 22.627a0.999 0.999 0 0 0 0 1.414l1.414 1.414z" fill="#ff8080"/>
+   <path d="m22.723 21.233-1.414-1.414a0.999 0.999 0 0 0-1.414 0l-22.628 22.627a0.999 0.999 0 0 0 0 1.414l1.414 1.414z" fill="#80b3ff"/>
+  </g>
+  <path d="m26.812 25.703c-2.297 2.109-3.797 1.797-5.781-0.047l-16.038-14.793-1.993-1.863a1 1 0 0 1 1-1h40a1 1 0 0 1 1 1z" fill="#fff"/>
+ </g>
+</svg>

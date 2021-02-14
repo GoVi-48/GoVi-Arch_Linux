@@ -1,0 +1,58 @@
+<svg width="32" height="32" version="1.1" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-images-stack-a" x="-15.4%" y="-17.4%" width="130.8%" height="134.8%">
+<feOffset dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-images-stack-c" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#1850D2" offset="0"/>
+<stop stop-color="#8BC5FF" offset="1"/>
+</linearGradient>
+<path id="folder-images-stack-b" d="m0.49617 23c-0.27403 0-0.49617-0.22461-0.49617-0.49438l-2.119e-11 -19.011c-3.0434e-13 -0.27304 0.22477-0.49438 0.49617-0.49438h25.008c0.27403 0 0.49617 0.22461 0.49617 0.49438v19.011c0 0.27304-0.22477 0.49438-0.49617 0.49438h-25.008z"/>
+<linearGradient id="folder-images-stack-e" x1="50%" x2="50%" y1="20.953%" y2="100%">
+<stop stop-color="#0E3BAC" offset="0"/>
+<stop stop-color="#1A0570" offset="1"/>
+</linearGradient>
+<path id="folder-images-stack-f" d="m3.4206e-11 18c4.2699-1.4143 4.0174-7.1418 7.9831-6.6857 3.9657 0.45607 5.0254 1.0128 6.7627 0s2.5424-3.9929 6.1017-3.3811c3.5593 0.61183 6.8709 3.904 8.9047 4.9924l-1.7861 5.0744h-27.966z"/>
+<filter id="folder-images-stack-g" x="-6.7%" y="-19.7%" width="113.4%" height="139.4%">
+<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="1"/>
+<feOffset dy="2" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.13973199   0 0 0 0 0.558172091   0 0 0 0 0.763472577  0 0 0 0.303357111 0"/>
+</filter>
+<linearGradient id="folder-images-stack-h" x1="22.015%" x2="62.934%" y1="69.309%" y2="30.608%">
+<stop stop-color="#FFC8C8" offset="0"/>
+<stop stop-color="#4C82F4" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-images-stack-i" x1="22.015%" x2="63.689%" y1="66.286%" y2="28.862%">
+<stop stop-color="#FFC8C8" offset="0"/>
+<stop stop-color="#4381FF" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(3 6)" fill="none" fill-rule="evenodd" filter="url(#folder-images-stack-a)">
+<path d="m16.09 0.27325c0.22637-0.15091 0.62625-0.27325 0.90198-0.27325h6.5158c0.27178 0 0.4921 0.21768 0.4921 0.50069v21.493h-22v-20.495c0-0.27517 0.22564-0.49824 0.49374-0.49824h12.013c0.27269 0 0.67767-0.12262 0.90362-0.27325l0.68024-0.45349z" fill="#003BAE"/>
+<path d="m1.5013 22c-0.27685 0-0.50127-0.22461-0.50127-0.49438l1e-8 -19.011c0-0.27304 0.22227-0.49438 0.50127-0.49438h22.997c0.27685 0 0.50127 0.22461 0.50127 0.49438v19.011c0 0.27304-0.22227 0.49438-0.50127 0.49438h-22.997z" fill="#D7D7D7"/>
+<mask id="folder-images-stack-d" fill="#fff">
+<use xlink:href="#folder-images-stack-b"/>
+</mask>
+<use fill="url(#folder-images-stack-c)" xlink:href="#folder-images-stack-b"/>
+<g mask="url(#folder-images-stack-d)">
+<g transform="translate(-1 5)">
+<g transform="translate(2.034 6.686)">
+<ellipse cx="4.068" cy="4.114" rx="2.034" ry="2.057" fill="#F66161"/>
+<path d="m4.0678 6.1714c1.1233 0 2.0339-0.92101 2.0339-2.0571 0-1.1361-0.91061-2.0571-2.0339-2.0571s-2.0339 0.92101-2.0339 2.0571c0 1.1361 0.91061 2.0571 2.0339 2.0571zm0 1.0286c-1.6849 0-3.0508-1.3815-3.0508-3.0857s1.3659-3.0857 3.0508-3.0857 3.0508 1.3815 3.0508 3.0857-1.3659 3.0857-3.0508 3.0857z" fill="#FFA279" fill-rule="nonzero" opacity=".5"/>
+<path d="m4.0678 7.2c1.6849 0 3.0508-1.3815 3.0508-3.0857s-1.3659-3.0857-3.0508-3.0857-3.0508 1.3815-3.0508 3.0857 1.3659 3.0857 3.0508 3.0857zm0 1.0286c-2.2466 0-4.0678-1.842-4.0678-4.1143s1.8212-4.1143 4.0678-4.1143 4.0678 1.842 4.0678 4.1143-1.8212 4.1143-4.0678 4.1143z" fill="#FFA279" fill-rule="nonzero" opacity=".2"/>
+</g>
+<use fill="url(#folder-images-stack-e)" xlink:href="#folder-images-stack-f"/>
+<use fill="#000" filter="url(#folder-images-stack-g)" xlink:href="#folder-images-stack-f"/>
+<path d="m7.4422 1.5429c0.73012 0 1.3367 0.5493 1.4574 1.2716 0.44414 0.16734 0.76143 0.60938 0.76143 1.1284 0 0.66274-0.51739 1.2-1.1556 1.2h-2.7735c-0.63823 0-1.1556-0.53726-1.1556-1.2s0.51739-1.2 1.1556-1.2c0.089532 0 0.17669 0.010573 0.26037 0.030581 0.13639-0.70199 0.73373-1.2306 1.45-1.2306z" fill="url(#folder-images-stack-h)" opacity=".7"/>
+<path d="m23.334 0c1.0222 0 1.8714 0.70624 2.0403 1.6349 0.6218 0.21515 1.066 0.78349 1.066 1.4508 0 0.8521-0.72435 1.5429-1.6179 1.5429h-3.8829c-0.89353 0-1.6179-0.69076-1.6179-1.5429 0-0.8521 0.72435-1.5429 1.6179-1.5429 0.12534 0 0.24736 0.013593 0.36451 0.039318 0.19095-0.90256 1.0272-1.5822 2.0299-1.5822z" fill="url(#folder-images-stack-i)" opacity=".7"/>
+</g>
+</g>
+</g>
+</svg>

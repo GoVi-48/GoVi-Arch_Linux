@@ -1,0 +1,15 @@
+<svg width="48" height="48" version="1.1" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<title>deepin-sound-recorder</title>
+<defs>
+<filter id="a-3" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<path d="m15 27.99c0 4.967 4.47 8.976 9 8.976s9-3.01 9-8.976v-5.01h-18zm20 0c0 7.471-5.47 10.983-11 10.983s-11-4.29-11-10.983v-5.017h22v0.505z" fill="#666" filter="url(#a-3)"/>
+<path d="m24 7.9727c-3.878 0-7 3.122-7 7v3h6v1h-6v1h6v1h-6v1h6v1h-6v5c0 3.878 3.122 7 7 7s7-3.122 7-7v-5h-6v-1h6v-1h-6v-1h6v-1h-6v-1h6v-3c0-3.878-3.122-7-7-7zm0 4a1.5 1.5 0 0 1 1.5 1.5 1.5 1.5 0 0 1-1.5 1.5 1.5 1.5 0 0 1-1.5-1.5 1.5 1.5 0 0 1 1.5-1.5z" fill="#999" fill-rule="evenodd" filter="url(#a-3)"/>
+<path d="m17 40.973v2h14v-2h-6v-4h-2v4z" fill="#666" fill-rule="evenodd" filter="url(#a-3)"/>
+</svg>

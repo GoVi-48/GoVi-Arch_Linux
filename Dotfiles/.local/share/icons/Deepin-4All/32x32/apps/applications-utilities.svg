@@ -1,0 +1,23 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation=".7"/>
+<feOffset dx="0" dy=".7" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<linearGradient id="linearGradient906" x1="-.8" x2="32.8" y1="19" y2="19" gradientTransform="matrix(.54525 0 0 1.834 7.5 5)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6DBD00" offset="0"/>
+<stop stop-color="#8FBF12" offset="1"/>
+</linearGradient>
+</defs>
+<path d="m3.4 5c-0.776 0-1.4 0.62-1.4 1.389v22.223c0 0.768 0.624 1.388 1.4 1.388h25.2c0.776 0 1.4-0.619 1.4-1.389v-22.221c0-0.771-0.624-1.39-1.4-1.39z" filter="url(#a)" opacity=".2"/>
+<path d="m3.4 4c-0.776 0-1.4 0.62-1.4 1.389v22.223c0 0.768 0.624 1.388 1.4 1.388h25.2c0.776 0 1.4-0.619 1.4-1.389v-22.221c0-0.771-0.624-1.39-1.4-1.39z" fill="#4f4f4f" filter="url(#a)"/>
+<g filter="url(#a)" stroke-width="0">
+<path d="m2 20h28v2h-28zm0-13h28v2h-28zm0 8h28v2h-28zm0-4h28v2h-28z" opacity=".2"/>
+</g>
+<path d="m6.9 9c4.9 0 3.266 11.95 8.4 12 3.193 0.031 5.806-4 9.1-4s5.6 1.583 5.6 1.583v9.028c0 0.77-0.624 1.389-1.4 1.389h-25.2c-0.776 0-1.4-0.62-1.4-1.389v-13.194s1.036-5.417 4.9-5.417z" fill="url(#linearGradient906)" filter="url(#a)"/>
+<path d="M 3.4,4 C 2.625,4 2,4.62 2,5.389 v 1 C 2,5.619 2.625,5 3.4,5 H 28.6 C 29.375,5 30,5.62 30,6.389 v -1 C 30,4.619 29.375,4 28.6,4 Z" fill="#fff" filter="url(#a)" opacity=".1"/>
+<path d="m6.9 9c4.9 0 3.267 11.95 8.4 12 3.193 0.031 5.806-4 9.1-4s5.6 1.584 5.6 1.584v1s-2.306-1.584-5.6-1.584-5.907 4.031-9.1 4c-5.133-0.05-3.5-12-8.4-12-3.864 0-4.9 5.416-4.9 5.416v-1s1.036-5.416 4.9-5.416z" fill="#fff" filter="url(#a)" opacity=".2"/>
+</svg>

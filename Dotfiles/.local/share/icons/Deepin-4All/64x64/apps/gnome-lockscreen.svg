@@ -1,0 +1,38 @@
+<svg width="64" height="64" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<linearGradient id="a-3" x1="28.555" x2="28.555" y1="10.086" y2="57.412" gradientTransform="matrix(1.1206 0 0 .89235 -3e-6 1.8843)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FFF" offset="0"/>
+<stop stop-color="#C3D6DE" offset="1"/>
+</linearGradient>
+<linearGradient id="b" x1="25.408" x2="25.408" y1="18.725" y2="52.897" gradientTransform="matrix(1.2594 0 0 .794 -3e-6 1.8843)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0E004D" offset="0"/>
+<stop stop-color="#4735E4" offset="1"/>
+</linearGradient>
+<filter id="filter1178" color-interpolation-filters="sRGB">
+<feFlood flood-color="rgb(0,0,0)" flood-opacity=".19608" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1.5"/>
+<feOffset dx="0" dy="1.5" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<g fill-rule="evenodd">
+<path d="m5 12.389c0-0.831 0.663-1.505 1.5-1.505h51c0.828 0 1.5 0.675 1.5 1.505v39.99c0 0.831-0.663 1.505-1.5 1.505h-51c-0.828 0-1.5-0.675-1.5-1.505z" fill="url(#a-3)" filter="url(#filter1178)"/>
+<path d="m5 13.392c0-0.833 0.663-1.508 1.5-1.508h51c0.828 0 1.5 0.677 1.5 1.508v37.984c0 0.833-0.663 1.508-1.5 1.508h-51c-0.828 0-1.5-0.677-1.5-1.508z" fill="#eff7fb" filter="url(#filter1178)"/>
+<path d="m7 13.376c0-0.272 0.223-0.492 0.495-0.492h49.01c0.273 0 0.495 0.228 0.495 0.492v32.016a0.494 0.494 0 0 1-0.495 0.492h-49.01a0.499 0.499 0 0 1-0.495-0.492z" filter="url(#filter1178)"/>
+<path d="m9 14.884h46v29h-46z" fill="url(#b)" filter="url(#filter1178)"/>
+<path d="m9 14.884h12.667l15.833 29h-28.5z" fill="#fff" filter="url(#filter1178)" opacity=".123"/>
+<path d="m7 45.884h50v1h-50z" fill="#fff" filter="url(#filter1178)"/>
+</g>
+<g transform="translate(66 -.11569)" fill="#eff7fb">
+<path d="m-34 20c-3.324 0-6 2.676-6 6v2h-1.5c-0.831 0-1.5 0.669-1.5 1.5v9c0 0.831 0.669 1.5 1.5 1.5h15c0.831 0 1.5-0.669 1.5-1.5v-9c0-0.831-0.669-1.5-1.5-1.5h-1.5v-2c0-3.324-2.676-6-6-6zm0 3c1.662 0 3 1.338 3 3v2h-6v-2c0-1.662 1.338-3 3-3z" filter="url(#a)" opacity=".2"/>
+<path d="m-34 19c-3.324 0-6 2.676-6 6v2h-1.5c-0.831 0-1.5 0.669-1.5 1.5v9c0 0.831 0.669 1.5 1.5 1.5h15c0.831 0 1.5-0.669 1.5-1.5v-9c0-0.831-0.669-1.5-1.5-1.5h-1.5v-2c0-3.324-2.676-6-6-6zm0 3c1.662 0 3 1.338 3 3v2h-6v-2c0-1.662 1.338-3 3-3z" filter="url(#a)"/>
+</g>
+</svg>

@@ -1,0 +1,15 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation=".7"/>
+<feOffset dx="0" dy=".7" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<rect transform="matrix(0,-1,-1,0,0,0)" x="-30" y="-30" width="28" height="28" rx="14" ry="14" fill="#f5b923" filter="url(#a)"/>
+<path d="m16 2c-7.756 0-14 6.244-14 14 0 0.169 0.02 0.333 0.025 0.5 0.265-7.52 6.388-13.5 13.975-13.5s13.711 5.98 13.975 13.5c6e-3 -0.167 0.026-0.331 0.026-0.5 0-7.756-6.244-14-14-14z" fill="#fff" filter="url(#a)" opacity=".1"/>
+<path d="M 16,8 13.881,13.778 8,14.111 12.572,18.016 11.056,24 16,20.635 20.944,24 19.428,18.016 24,14.111 18.119,13.778 Z" fill="#3f3f3f" filter="url(#a)"/>
+<path d="m2.025 16.5c-6e-3 0.167-0.025 0.331-0.025 0.5 0 7.756 6.244 14 14 14s14-6.244 14-14c0-0.169-0.02-0.333-0.025-0.5-0.265 7.521-6.388 13.5-13.975 13.5-7.588 0-13.711-5.979-13.975-13.5z" filter="url(#a)" opacity=".2"/>
+</svg>

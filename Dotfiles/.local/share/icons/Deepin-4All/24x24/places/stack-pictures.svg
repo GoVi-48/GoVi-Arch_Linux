@@ -1,0 +1,58 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="stack-pictures-a" x="-12.5%" y="-13.9%" width="125%" height="127.8%">
+<feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation=".5"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="stack-pictures-c" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#1850D2" offset="0"/>
+<stop stop-color="#8BC5FF" offset="1"/>
+</linearGradient>
+<polygon id="stack-pictures-b" points="0 18 0 3 20 3 20 18"/>
+<linearGradient id="stack-pictures-e" x1="50%" x2="50%" y1="20.953%" y2="100%">
+<stop stop-color="#0E3BAC" offset="0"/>
+<stop stop-color="#1A0570" offset="1"/>
+</linearGradient>
+<path id="stack-pictures-f" d="m6.8411e-11 13c3.1313-1.0214 2.9461-5.158 5.8542-4.8286s3.6853 0.73143 4.9593 0c1.274-0.73143 1.8644-2.8838 4.4746-2.4419s5.0386 2.8196 6.5301 3.6056l-1.3098 3.6648h-20.508z"/>
+<filter id="stack-pictures-g" x="-4.6%" y="-13.6%" width="109.2%" height="127.3%">
+<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation=".5"/>
+<feOffset dy="1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.13973199   0 0 0 0 0.558172091   0 0 0 0 0.763472577  0 0 0 0.303357111 0"/>
+</filter>
+<linearGradient id="stack-pictures-h" x1="22.015%" x2="62.934%" y1="88.521%" y2="11.313%">
+<stop stop-color="#FFC8C8" offset="0"/>
+<stop stop-color="#4C82F4" offset="1"/>
+</linearGradient>
+<linearGradient id="stack-pictures-i" x1="22.015%" x2="63.689%" y1="88.521%">
+<stop stop-color="#FFC8C8" offset="0"/>
+<stop stop-color="#4381FF" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(2 4)" fill="none" fill-rule="evenodd" filter="url(#stack-pictures-a)">
+<polygon points="13 0 18 0 18 16.995 2 16.995 2 1 12 1" fill="#003BAE"/>
+<polygon points="1 17 1 2 19 2 19 17" fill="#D7D7D7"/>
+<mask id="stack-pictures-d" fill="#fff">
+<use xlink:href="#stack-pictures-b"/>
+</mask>
+<use fill="url(#stack-pictures-c)" xlink:href="#stack-pictures-b"/>
+<g mask="url(#stack-pictures-d)">
+<g transform="translate(0 5)">
+<g transform="translate(1.492 4.829)">
+<ellipse cx="2.983" cy="2.971" rx="1.492" ry="1.486" fill="#F66161"/>
+<path d="m2.9831 4.4571c0.82375 0 1.4915-0.66518 1.4915-1.4857s-0.66778-1.4857-1.4915-1.4857c-0.82375 0-1.4915 0.66518-1.4915 1.4857s0.66778 1.4857 1.4915 1.4857zm0 0.74286c-1.2356 0-2.2373-0.99777-2.2373-2.2286 0-1.2308 1.0017-2.2286 2.2373-2.2286s2.2373 0.99777 2.2373 2.2286c0 1.2308-1.0017 2.2286-2.2373 2.2286z" fill="#FFA279" fill-rule="nonzero" opacity=".5"/>
+<path d="m2.9831 5.2c1.2356 0 2.2373-0.99777 2.2373-2.2286 0-1.2308-1.0017-2.2286-2.2373-2.2286s-2.2373 0.99777-2.2373 2.2286c0 1.2308 1.0017 2.2286 2.2373 2.2286zm0 0.74286c-1.6475 0-2.9831-1.3304-2.9831-2.9714 0-1.6411 1.3356-2.9714 2.9831-2.9714s2.9831 1.3304 2.9831 2.9714c0 1.6411-1.3356 2.9714-2.9831 2.9714z" fill="#FFA279" fill-rule="nonzero" opacity=".2"/>
+</g>
+<use fill="url(#stack-pictures-e)" xlink:href="#stack-pictures-f"/>
+<use fill="#000" filter="url(#stack-pictures-g)" xlink:href="#stack-pictures-f"/>
+<path d="m5.4576 1.1143c0.53542 0 0.98024 0.39671 1.0687 0.9184 0.3257 0.12086 0.55838 0.44011 0.55838 0.81494 0 0.47865-0.37942 0.86667-0.84746 0.86667h-2.0339c-0.46804 0-0.84746-0.38802-0.84746-0.86667 0-0.47865 0.37942-0.86667 0.84746-0.86667 0.065657 0 0.12957 0.0076357 0.19094 0.022086 0.10002-0.50699 0.53807-0.88875 1.0633-0.88875z" fill="url(#stack-pictures-h)" opacity=".7"/>
+<path d="m17.112 0c0.74959 0 1.3723 0.51006 1.4962 1.1808 0.45598 0.15539 0.78173 0.56585 0.78173 1.0478 0 0.6154-0.53119 1.1143-1.1864 1.1143h-2.8475c-0.65525 0-1.1864-0.49888-1.1864-1.1143s0.53119-1.1143 1.1864-1.1143c0.09192 0 0.1814 0.0098174 0.26731 0.028397 0.14003-0.65185 0.75329-1.1427 1.4886-1.1427z" fill="url(#stack-pictures-i)" opacity=".7"/>
+</g>
+</g>
+</g>
+</svg>

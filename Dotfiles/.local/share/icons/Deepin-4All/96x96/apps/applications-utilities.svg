@@ -1,0 +1,25 @@
+<svg width="96" height="96" version="1.1" viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<linearGradient id="linearGradient915" x1="-1.6" x2="65.6" y1="37" y2="37" gradientTransform="matrix(.54525 0 0 1.834 15 10)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6DBD00" offset="0"/>
+<stop stop-color="#8FBF12" offset="1"/>
+</linearGradient>
+</defs>
+<title>deepin-calculator</title>
+<path transform="matrix(1.3904,0,0,1.3904,3.354,4.813)" d="m6.8 8a2.783 2.783 0 0 0-2.8 2.778v44.444a2.783 2.783 0 0 0 2.8 2.778h50.4c1.551 0 2.8-1.24 2.8-2.778v-44.444a2.783 2.783 0 0 0-2.8-2.778z" filter="url(#a)" opacity=".2"/>
+<path transform="matrix(1.3904,0,0,1.3904,3.354,4.813)" d="m6.8 7a2.783 2.783 0 0 0-2.8 2.778v44.444a2.783 2.783 0 0 0 2.8 2.778h50.4c1.551 0 2.8-1.24 2.8-2.778v-44.444a2.783 2.783 0 0 0-2.8-2.778z" fill="#4f4f4f" filter="url(#a)"/>
+<g transform="matrix(1.3904,0,0,1.3904,3.354,4.813)" filter="url(#a)" stroke-width="0">
+<path d="m4 32h56v3h-56zm0-18h56v3h-56zm0 12h56v3h-56z" opacity=".2"/>
+</g>
+<path transform="matrix(1.3904,0,0,1.3904,3.354,4.813)" d="m6.8 7a2.783 2.783 0 0 0-2.8 2.777v1a2.783 2.783 0 0 1 2.8-2.777h50.4c1.551 0 2.8 1.238 2.8 2.777v-1a2.783 2.783 0 0 0-2.8-2.777z" fill="#fff" filter="url(#a)" opacity=".1"/>
+<path transform="matrix(1.3904,0,0,1.3904,3.354,4.813)" d="m4 20h56v3h-56z" filter="url(#a)" opacity=".2" stroke-width="0"/>
+<path transform="matrix(1.3904,0,0,1.3904,3.354,4.813)" d="m13.8 17c9.8 0 6.532 19.9 16.8 20 6.385 0.062 11.612-8 18.2-8s11.2 7.167 11.2 7.167v18.056a2.783 2.783 0 0 1-2.8 2.777h-50.4a2.783 2.783 0 0 1-2.8-2.777v-26.39s2.072-10.832 9.8-10.832z" fill="url(#linearGradient915)" filter="url(#a)"/>
+<path transform="matrix(1.3904,0,0,1.3904,3.354,4.813)" d="m13.801 17c9.8 0 6.53 19.9 16.799 20 6.385 0.062 11.613-8 18.201-8s11.199 7.166 11.199 7.166v1s-4.611-7.166-11.199-7.166-11.816 8.062-18.201 8c-10.268-0.1-6.999-20-16.799-20-7.728 0-9.8 10.834-9.8 10.834v-1s2.071-10.834 9.799-10.834z" fill="#fff" filter="url(#a)" opacity=".2"/>
+</svg>

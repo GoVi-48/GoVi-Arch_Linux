@@ -1,0 +1,18 @@
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<path id="system-shutdown-b" d="m2 12c0-5.5138 4.4857-10 10-10 5.5138 0 10 4.4862 10 10s-4.4862 10-10 10c-5.5143 0-10-4.4862-10-10z"/>
+<radialGradient id="radialGradient854" cx="12" cy="13.497" r="7.7102" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E3F5FF" offset="0"/>
+<stop stop-color="#FFF" offset="1"/>
+</radialGradient>
+<filter id="filter1080" x="-.048" y="-.048" width="1.096" height="1.096" color-interpolation-filters="sRGB">
+<feGaussianBlur stdDeviation="0.40000002"/>
+</filter>
+</defs>
+<g fill-rule="evenodd">
+<use transform="matrix(1.15,0,0,1.15,-1.8,-1.8)" width="100%" height="100%" fill="#cccccc" filter="url(#filter1080)" stroke-width=".86957" xlink:href="#system-shutdown-b"/>
+<use transform="matrix(1.1,0,0,1.1,-1.2,-1.2)" width="100%" height="100%" fill="url(#radialGradient854)" stroke-width=".90909" xlink:href="#system-shutdown-b"/>
+<path d="m8.9121 6.9355a0.50005 0.50005 0 0 0-0.26758 0.089844c-0.31915 0.21561-0.61541 0.46112-0.88672 0.73242-0.54261 0.54261-0.98138 1.188-1.2852 1.9062-0.30377 0.7182-0.47266 1.509-0.47266 2.3359 0 3.3078 2.6922 6 6 6 1.6539 0 3.157-0.67259 4.2422-1.7578 1.0852-1.0852 1.7578-2.5883 1.7578-4.2422s-0.67259-3.157-1.7578-4.2422c-0.27131-0.27131-0.56757-0.51681-0.88672-0.73242a0.50005 0.50005 0 1 0-0.56055 0.82812c0.26605 0.17974 0.51389 0.38498 0.74023 0.61133 0.90539 0.90539 1.4648 2.1515 1.4648 3.5352s-0.55946 2.6298-1.4648 3.5352c-0.90539 0.90539-2.1515 1.4648-3.5352 1.4648-2.7673 0-5-2.2327-5-5 0-0.69184 0.13972-1.3475 0.39258-1.9453 0.25286-0.59782 0.61957-1.1372 1.0723-1.5898 0.22635-0.22635 0.47418-0.43159 0.74023-0.61133a0.50005 0.50005 0 0 0-0.29297-0.91797z" color="#000000" color-rendering="auto" dominant-baseline="auto" fill="#0086ff" image-rendering="auto" opacity=".99" shape-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;paint-order:stroke markers fill;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+<path d="m11.3 11.3v-5.6s0-0.7 0.7-0.7 0.7 0.7 0.7 0.7v5.6s0 0.7-0.7 0.7-0.7-0.7-0.7-0.7z" fill="#0086ff"/>
+</g>
+</svg>

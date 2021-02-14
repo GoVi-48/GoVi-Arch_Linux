@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>deepin-manual</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <title>deepin-manual</title>
+ <defs>
+  <filter id="filter898" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".19608" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+   <feOffset dx="0" dy="1" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+ </defs>
+ <g transform="matrix(1.3817 0 0 1.3817 -1.2686 -.86252)" filter="url(#filter898)">
+  <path d="m42 43a1 1 0 0 1-1 1h-34a1 1 0 0 1-1-1v-38a1 1 0 0 1 1-1h34a1 1 0 0 1 1 1z" fill="#d1d1cb"/>
+  <path d="m12 13a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0zm4 0a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0zm10 0a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0zm4 0a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0zm4 0a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0z" fill="#7e807c"/>
+  <circle cx="15.834" cy="33.003" r="7" fill="#969894"/>
+  <circle cx="15.834" cy="33.003" r="5" fill="#d3d4d0"/>
+  <path d="m38 13a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0zm-26 8a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0zm4 0a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0zm10 0a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0zm4 0a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0zm4 0a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0zm4 0a1 1 0 0 1-2 0v-4a1 1 0 0 1 2 0z" fill="#7e807c"/>
+  <path d="m15.834 24.687a8.318 8.318 0 0 0-8.317 8.319c0 1.869 0.624 3.978 1.665 4.978h0.668a7.787 7.787 0 1 1 11.968 0h0.668c1.041-1 1.665-3.11 1.665-4.979a8.318 8.318 0 0 0-8.317-8.318z" fill="#bfbfba"/>
+  <path d="m12.661 27.426-1.7-1.161 0.498 1.934z" fill="#969894"/>
+  <path d="m29 27h8v1h-8zm0 7h8v1h-8zm0 2h8v1h-8zm0 2h8v1h-8z" fill="#fff"/>
+  <path d="m31 26h4v14h-4z" fill="#525252"/>
+  <path d="m28 29h10v4h-10z" fill="#8c8c8c"/>
+  <g fill="#fff">
+   <circle cx="11" cy="9.054" r=".75"/>
+   <circle cx="15" cy="12.904" r=".75"/>
+   <circle cx="24.778" cy="9.054" r=".75"/>
+   <circle cx="28.982" cy="12.913" r=".75"/>
+   <circle cx="33" cy="17.054" r=".75"/>
+   <circle cx="37" cy="20.913" r=".75"/>
+   <circle cx="33" cy="12.913" r=".75"/>
+   <circle cx="25" cy="17.029" r=".75"/>
+   <circle cx="29.018" cy="17.029" r=".75"/>
+   <circle cx="37" cy="12.913" r=".75"/>
+   <circle cx="11" cy="17.029" r=".75"/>
+   <circle cx="15" cy="17.029" r=".75"/>
+  </g>
+ </g>
+</svg>

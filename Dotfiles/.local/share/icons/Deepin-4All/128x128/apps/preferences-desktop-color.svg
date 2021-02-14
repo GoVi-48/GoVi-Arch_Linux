@@ -1,0 +1,36 @@
+<svg width="128px" height="128px" version="1.1" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>application-x-gzip</title>
+<desc>Created with Sketch.</desc>
+<defs>
+<path id="path-1" d="m28 14c0-1.6569 1.3431-3 3-3h22c1.6569 0 3 1.3431 3 3v-11c0-1.6569 1.3431-3 3-3h22c1.6569 1.1672e-15 3 1.3431 3 3v98c0 1.6569-1.3431 3-3 3h-22c-1.6569 0-3-1.3431-3-3 0 1.6569-1.3431 3-3 3h-22c-1.6569 0-3-1.3431-3-3 0 1.6569-1.3431 3-3 3h-22.5c-1.3807 0-2.5-1.3058-2.5-2.9167l-3.5527e-15 -92.167c0-1.6108 1.1193-2.9167 2.5-2.9167h22.5c1.6569 0 3 1.3431 3 3v5z"/>
+<filter id="filter-2" x="-11.9%" y="-7.7%" width="123.8%" height="119.2%">
+<feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="3"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0"/>
+</filter>
+<linearGradient id="linearGradient-3" x1="161.07" x2="108.75" y1="26.158" y2="26.158" gradientTransform="matrix(.51887 0 0 1.9272 22 14)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#C926EA" offset="0"/>
+<stop stop-color="#B505C3" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient-4" x1="101.78" x2="53.069" y1="31.829" y2="31.829" gradientTransform="matrix(.5487 0 0 1.8225 22 14)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#628FFF" offset="0"/>
+<stop stop-color="#4084FF" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient-5" x1="52.383" x2="3.421" y1="29.399" y2="29.399" gradientTransform="matrix(.53452 0 0 1.8708 22 14)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6DBD00" offset="0"/>
+<stop stop-color="#8FBF12" offset="1"/>
+</linearGradient>
+</defs>
+<g fill-rule="evenodd">
+<g id="Combined-Shape" transform="translate(22,14)" fill="#000000">
+<use width="100%" height="100%" filter="url(#filter-2)" xlink:href="#path-1"/>
+<use width="100%" height="100%" fill-opacity=".1" fill-rule="evenodd" xlink:href="#path-1"/>
+</g>
+<path d="m106 17v98c0 1.6568-1.3432 3-3 3h-22c-1.6569 0-3-1.3432-3-3v-98c0-1.6569 1.3431-3 3-3h22c1.6568 0 3 1.3431 3 3z" fill="url(#linearGradient-3)"/>
+<path d="m78 28v87c0 1.6568-1.3431 3-3 3h-22c-1.6569 0-3-1.3432-3-3v-87c0-1.6569 1.3431-3 3-3h22c1.6569 0 3 1.3431 3 3z" fill="url(#linearGradient-4)"/>
+<path d="m50 23v92c0 1.6568-1.3431 3-3 3h-22.5c-1.3807 0-2.5-1.3058-2.5-2.9167v-92.167c0-1.6108 1.1193-2.9167 2.5-2.9167h22.5c1.6569 0 3 1.3431 3 3z" fill="url(#linearGradient-5)"/>
+<path d="m22 23.917v-1c0-1.6108 1.1193-2.9167 2.5-2.9167h22.5c1.6569 0 3 1.3431 3 3v1c0-1.6569-1.3431-3-3-3h-22.5c-1.3807 0-2.5 1.3058-2.5 2.9167zm28 4.0833c0-1.6569 1.3431-3 3-3h22c1.6569 0 3 1.3431 3 3v1c0-1.6569-1.3431-3-3-3h-22c-1.6569 0-3 1.3431-3 3zm28-10v-1c0-1.6569 1.3431-3 3-3h22c1.6568 0 3 1.3431 3 3v1c0-1.6569-1.3432-3-3-3h-22c-1.6569 0-3 1.3431-3 3z" fill="#fff" fill-opacity=".2"/>
+<path d="m22 114.08c0 1.6108 1.1193 2.9167 2.5 2.9167h22.5c1.6569 0 3-1.3432 3-3 0 1.6568 1.3431 3 3 3h22c1.6569 0 3-1.3432 3-3 0 1.6568 1.3431 3 3 3h22c1.6568 0 3-1.3432 3-3v1c0 1.6568-1.3432 3-3 3h-22c-1.6569 0-3-1.3432-3-3 0 1.6568-1.3431 3-3 3h-22c-1.6569 0-3-1.3432-3-3 0 1.6568-1.3431 3-3 3h-22.5c-1.3807 0-2.5-1.3058-2.5-2.9167z" fill-opacity=".2"/>
+</g>
+</svg>

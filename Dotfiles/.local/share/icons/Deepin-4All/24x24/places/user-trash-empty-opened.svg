@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title>user-trash-empty-opened</dc:title>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <filter id="filter1201" color-interpolation-filters="sRGB">
+   <feFlood flood-color="rgb(0,0,0)" flood-opacity=".49804" result="flood"/>
+   <feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+   <feGaussianBlur in="composite1" result="blur" stdDeviation="0.2"/>
+   <feOffset dx="0" dy="0.5" result="offset"/>
+   <feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+  </filter>
+ </defs>
+ <title>user-trash-empty-opened</title>
+ <desc>Created with Sketch.</desc>
+ <g fill="none" fill-rule="evenodd" filter="url(#filter1201)">
+  <g id="user-trash-empty-opened">
+   <image id="Bitmap" x=".5" y="2" width="23" height="21" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAVCAYAAACt4nWrAAAABGdBTUEAA1teXP8meAAAANtJREFUOBG9ldkOwjAMBFPoC+KB//9XaPFYspWjqarEYMmoibOTjemxpJQWybvkTTIqNgF9gK2SDy4CA94a6bbxBhz75Kupjk3AUSbwXfItSZ8iAg68PW8Lm0SEcwzORKRz3cDgOI6EawcMbs5trMWBH/SYbJwzwcM0E+gVDKR2GgF3czn85855z8xEoa+dF8WBXdB3ez7A60tq575rX3JaQe+Mv8GxNPuUFvr6vuYkxdHY8WKg5Q/VLxCavC2MKTwP5qmdBRx0DmZxfesxZqG5YM2V4LS0xN8riL5V6DFRW5mwsgAAAABJRU5ErkJggg=="/>
+   <path id="Combined-Shape" d="m4.4887 20.425c0.079054 0.87137 0.849 1.5752 1.72 1.5752h11.583c0.86631 0 1.6411-0.70523 1.72-1.5752l1.4887-15.425h0.5c0.62582 0 1-0.41746 1-1 0-0.5866-0.41782-1-1-1h-19c-0.57948 0-1 0.41746-1 1 0 0.5866 0.47195 1 1.0541 1h0.44586l1.4887 15.425z" fill="#fff"/>
+  </g>
+ </g>
+</svg>

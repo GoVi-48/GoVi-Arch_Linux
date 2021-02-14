@@ -1,0 +1,74 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="folder-images-stack-a" x="-22.2%" y="-25%" width="144.4%" height="150%">
+<feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="2"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-images-stack-c" x1="50%" x2="50%" y2="100%">
+<stop stop-color="#1850D2" offset="0"/>
+<stop stop-color="#8BC5FF" offset="1"/>
+</linearGradient>
+<path id="folder-images-stack-b" d="m1.5006 48c-0.82877 0-1.5006-0.67749-1.5006-1.495l8.6674e-10 -37.01c1.9337e-11 -0.82569 0.66328-1.495 1.5006-1.495h50.999c0.82877 0 1.5006 0.67749 1.5006 1.495v37.01c0 0.82569-0.66328 1.495-1.5006 1.495h-50.999z"/>
+<linearGradient id="folder-images-stack-e" x1="50%" x2="50%" y1="20.953%" y2="100%">
+<stop stop-color="#0E3BAC" offset="0"/>
+<stop stop-color="#1A0570" offset="1"/>
+</linearGradient>
+<path id="folder-images-stack-f" d="m3.4206e-11 35c8.3975-2.75 7.9008-13.887 15.7-13 7.7992 0.8868 9.8833 1.9692 13.3 0s5-7.764 12-6.5743 13.513 7.5912 17.513 9.7074l-3.5127 9.8669h-55z"/>
+<filter id="folder-images-stack-g" x="-5.1%" y="-15.2%" width="110.3%" height="130.4%">
+<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="1.5"/>
+<feOffset dy="3" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0.13973199   0 0 0 0 0.558172091   0 0 0 0 0.763472577  0 0 0 0.303357111 0"/>
+<feOffset dy="-1" in="SourceAlpha" result="shadowOffsetInner2"/>
+<feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+<feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixInner1"/>
+<feMergeNode in="shadowMatrixInner2"/>
+</feMerge>
+</filter>
+<linearGradient id="folder-images-stack-h" x1="22.015%" x2="62.934%" y1="68.876%" y2="31.044%">
+<stop stop-color="#FFC8C8" offset="0"/>
+<stop stop-color="#4C82F4" offset="1"/>
+</linearGradient>
+<linearGradient id="folder-images-stack-i" x1="22.015%" x2="63.689%" y1="65.92%" y2="29.337%">
+<stop stop-color="#FFC8C8" offset="0"/>
+<stop stop-color="#4381FF" offset="1"/>
+</linearGradient>
+</defs>
+<g transform="translate(5 11)" fill="none" fill-rule="evenodd" filter="url(#folder-images-stack-a)">
+<path d="m46.509 9.934e-9c0.8236 0 1.4964 0.66823 1.5027 1.5027l0.32186 42.151c0 0.74355-0.6069 1.3463-1.3339 1.3463h-39.999c-0.73669 0-1.3339-0.59004-1.3339-1.3463l0.32127-40.147c0.0066608-0.83234 0.67948-1.5071 1.5022-1.5071h25.018c0.27155 0 0.64862-0.15694 0.84006-0.34837l1.3033-1.3033c0.1924-0.1924 0.57401-0.34837 0.84211-0.34837h11.015z" fill="#0A5AF0"/>
+<path d="m46.492 1c0.83273 0 1.513 0.66999 1.5195 1.4931l0.32167 41.161c0 0.74355-0.6069 1.3463-1.3339 1.3463h-39.999c-0.73669 0-1.3339-0.59004-1.3339-1.3463l0.32107-39.159c0.0067704-0.82572 0.69204-1.4951 1.5103-1.4951l25.501-3e-8c0.27658 0 0.65773-0.15694 0.84916-0.34837l1.3033-1.3033c0.1924-0.1924 0.56533-0.34837 0.85387-0.34837h10.487z" fill="#003BAE"/>
+<path d="m3 45.005-1e-8 -38.51c0-0.82579 0.67854-1.4952 1.5025-1.4952h44.995c0.82979 0 1.5025 0.67757 1.5025 1.4952v38.51c0 0.73367-0.6069 1.3284-1.3339 1.3284h-45.332c-0.73669 0-1.3339-0.5843-1.3339-1.3284z" fill="#F6F6F6"/>
+<path d="m3 45.005-1e-8 -37.5c0-0.83127 0.67854-1.5051 1.5025-1.5051h44.995c0.82979 0 1.5025 0.677 1.5025 1.5051v37.5c0 0.73367-0.6069 1.3284-1.3339 1.3284h-45.332c-0.73669 0-1.3339-0.5843-1.3339-1.3284z" fill="#D7D7D7"/>
+<mask id="folder-images-stack-d" fill="#fff">
+<use xlink:href="#folder-images-stack-b"/>
+</mask>
+<use fill="url(#folder-images-stack-c)" xlink:href="#folder-images-stack-b"/>
+<g mask="url(#folder-images-stack-d)">
+<g transform="translate(-1 13)">
+<g transform="translate(4 13)">
+<circle cx="8" cy="8" r="4" fill="#F66161"/>
+<path d="m8 12c2.2091 0 4-1.7909 4-4s-1.7909-4-4-4-4 1.7909-4 4 1.7909 4 4 4zm0 2c-3.3137 0-6-2.6863-6-6s2.6863-6 6-6 6 2.6863 6 6-2.6863 6-6 6z" fill="#FFA279" fill-rule="nonzero" opacity=".5"/>
+<path d="m8 14c3.3137 0 6-2.6863 6-6s-2.6863-6-6-6-6 2.6863-6 6 2.6863 6 6 6zm0 2c-4.4183 0-8-3.5817-8-8s3.5817-8 8-8 8 3.5817 8 8-3.5817 8-8 8z" fill="#FFA279" fill-rule="nonzero" opacity=".2"/>
+</g>
+<use fill="url(#folder-images-stack-e)" xlink:href="#folder-images-stack-f"/>
+<use fill="#000" filter="url(#folder-images-stack-g)" xlink:href="#folder-images-stack-f"/>
+<path d="m14.636 3c1.4359 0 2.6288 1.0681 2.8662 2.4726 0.87348 0.32539 1.4975 1.1849 1.4975 2.1941 0 1.2887-1.0175 2.3333-2.2727 2.3333h-5.4545c-1.2552 0-2.2727-1.0447-2.2727-2.3333 0-1.2887 1.0175-2.3333 2.2727-2.3333 0.17608 0 0.34748 0.020558 0.51206 0.059463 0.26823-1.365 1.443-2.3928 2.8516-2.3928z" fill="url(#folder-images-stack-h)" opacity=".7"/>
+<path d="m45.891 0c2.0103 0 3.6804 1.3732 4.0126 3.1791 1.2229 0.41835 2.0965 1.5235 2.0965 2.8209 0 1.6569-1.4245 3-3.1818 3h-7.6364c-1.7573 0-3.1818-1.3431-3.1818-3s1.4245-3 3.1818-3c0.24651 0 0.48648 0.026431 0.71688 0.076452 0.37553-1.755 2.0202-3.0765 3.9922-3.0765z" fill="url(#folder-images-stack-i)" opacity=".7"/>
+</g>
+</g>
+<g mask="url(#folder-images-stack-d)">
+<g transform="translate(0 8)">
+<path d="m3.5527e-15 37.505c-1.9146e-11 0.81755 0.67185 1.495 1.5006 1.495h50.999c0.83735 0 1.5006-0.66935 1.5006-1.495v1c0 0.82569-0.66328 1.495-1.5006 1.495h-50.999c-0.82877 0-1.5006-0.67749-1.5006-1.495l2.3419e-11 -1z" fill="#000" fill-opacity=".3"/>
+<path d="m8.4343e-10 2.495 2.3419e-11 -1c1.9337e-11 -0.82569 0.66328-1.495 1.5006-1.495h50.999c0.82877 0 1.5006 0.67749 1.5006 1.495v1c0-0.81755-0.67185-1.495-1.5006-1.495h-50.999c-0.83735 0-1.5006 0.66935-1.5006 1.495z" fill="#FFF" fill-opacity=".3"/>
+<path d="m2.5006 0c-0.83735 0-1.5006 0.66935-1.5006 1.495v37.01c0 0.81755 0.67185 1.495 1.5006 1.495h-1c-0.82877 0-1.5006-0.67749-1.5006-1.495l8.6674e-10 -37.01c1.9337e-11 -0.82569 0.66328-1.495 1.5006-1.495h1zm48.999 3.5527e-15h1c0.82877 0 1.5006 0.67749 1.5006 1.495v37.01c0 0.82569-0.66328 1.495-1.5006 1.495h-1c0.83735 0 1.5006-0.66935 1.5006-1.495v-37.01c0-0.81755-0.67185-1.495-1.5006-1.495z" fill="#FFF" fill-opacity=".06"/>
+</g>
+</g>
+</g>
+</svg>

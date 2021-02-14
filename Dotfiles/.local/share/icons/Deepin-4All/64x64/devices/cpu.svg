@@ -1,0 +1,68 @@
+<svg width="64" height="64" version="1.1" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>deepin-devicemanager</title>
+<desc>Created with Sketch.</desc>
+<defs>
+<filter id="filter-1" x="-.114" y="-.125" width="1.227" height="1.25">
+<feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="0.5"/>
+<feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"/>
+<feColorMatrix in="shadowBlurOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixOuter1"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+<linearGradient id="linearGradient-2" x1="5.5074" x2="13.859" y1="1.8202" y2="18.829" gradientTransform="matrix(1.0488 0 0 .95346 1 26)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#2F2F2F" offset="0"/>
+<stop stop-color="#1E1E1E" offset="1"/>
+</linearGradient>
+<linearGradient id="linearGradient-3" x1="2.132" x2="6.8224" y1="42.148" y2="42.279" gradientTransform="scale(2.3452 .4264)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E2D46C" offset="0"/>
+<stop stop-color="#D7BC26" offset=".18149"/>
+<stop stop-color="#CFB009" offset=".38886"/>
+<stop stop-color="#E7BF00" offset=".56473"/>
+<stop stop-color="#D5B630" offset=".70402"/>
+<stop stop-color="#C9A10A" offset=".83443"/>
+<stop stop-color="#C2A422" offset="1"/>
+</linearGradient>
+<path id="path-4" d="M 5.71875,17 C 5.8740801,17 6,17.12592 6,17.28125 v 1.4375 C 6,18.87408 5.8740801,19 5.71875,19 H 5.28125 C 5.1259199,19 5,18.87408 5,18.71875 v -1.4375 C 5,17.12592 5.1259199,17 5.28125,17 Z m 2,0 C 7.8740801,17 8,17.12592 8,17.28125 v 1.4375 C 8,18.87408 7.8740801,19 7.71875,19 H 7.28125 C 7.1259199,19 7,18.87408 7,18.71875 v -1.4375 C 7,17.12592 7.1259199,17 7.28125,17 Z m 2,0 C 9.8740801,17 10,17.12592 10,17.28125 v 1.4375 C 10,18.87408 9.8740801,19 9.71875,19 H 9.28125 C 9.1259199,19 9,18.87408 9,18.71875 v -1.4375 C 9,17.12592 9.1259199,17 9.28125,17 Z m 2,0 C 11.87408,17 12,17.12592 12,17.28125 v 1.4375 C 12,18.87408 11.87408,19 11.71875,19 h -0.4375 C 11.12592,19 11,18.87408 11,18.71875 v -1.4375 C 11,17.12592 11.12592,17 11.28125,17 Z m 2,0 C 13.87408,17 14,17.12592 14,17.28125 v 1.4375 C 14,18.87408 13.87408,19 13.71875,19 h -0.4375 C 13.12592,19 13,18.87408 13,18.71875 v -1.4375 C 13,17.12592 13.12592,17 13.28125,17 Z m 2,0 C 15.87408,17 16,17.12592 16,17.28125 v 1.4375 C 16,18.87408 15.87408,19 15.71875,19 h -0.4375 C 15.12592,19 15,18.87408 15,18.71875 v -1.4375 C 15,17.12592 15.12592,17 15.28125,17 Z"/>
+<filter id="filter-5" x="-.045" y="-.25" width="1.091" height="1.5">
+<feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" values="0 0 0 0 0.926828578   0 0 0 0 0.558558022   0 0 0 0 0  0 0 0 0.55 0"/>
+</filter>
+<linearGradient id="linearGradient-6" x1="6.6537" x2="14.105" y1="4.3683" y2="17.174" gradientTransform="scale(1.069 .93541)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#AAFBE7" offset=".00068623"/>
+<stop stop-color="#6CACFF" offset="1"/>
+</linearGradient>
+<rect id="path-7" x="3" y="3" width="16" height="14" rx="1.5"/>
+<filter id="filter-8" x="-.125" y="-.071" width="1.25" height="1.286">
+<feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"/>
+<feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="0.5"/>
+<feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.515133304 0"/>
+</filter>
+<filter id="filter-9" x="-.125" y="-.071" width="1.25" height="1.286">
+<feGaussianBlur in="SourceAlpha" result="shadowBlurInner1" stdDeviation="0.5"/>
+<feOffset dx="0" dy="-1" in="shadowBlurInner1" result="shadowOffsetInner1"/>
+<feComposite in="shadowOffsetInner1" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner1"/>
+<feColorMatrix in="shadowInnerInner1" result="shadowMatrixInner1" values="0 0 0 0 0   0 0 0 0 0.0510136902   0 0 0 0 0.262143342  0 0 0 0.250573645 0"/>
+<feGaussianBlur in="SourceAlpha" result="shadowBlurInner2" stdDeviation="0.5"/>
+<feOffset dx="0" dy="1" in="shadowBlurInner2" result="shadowOffsetInner2"/>
+<feComposite in="shadowOffsetInner2" in2="SourceAlpha" k2="-1" k3="1" operator="arithmetic" result="shadowInnerInner2"/>
+<feColorMatrix in="shadowInnerInner2" result="shadowMatrixInner2" values="0 0 0 0 0.838719512   0 0 0 0 1   0 0 0 0 0.9690462  0 0 0 0.568209135 0"/>
+<feMerge>
+<feMergeNode in="shadowMatrixInner1"/>
+<feMergeNode in="shadowMatrixInner2"/>
+</feMerge>
+</filter>
+</defs>
+<g transform="matrix(2.4,0,0,2.4,3.6192,-54.4)" fill-rule="evenodd">
+<path d="m20.5 26c1.3807 0 2.5 1.1193 2.5 2.5v2.5c-0.82843 0-1.5 0.67157-1.5 1.5s0.67157 1.5 1.5 1.5v9.5c0 1.3807-1.1193 2.5-2.5 2.5h-17c-1.3807 0-2.5-1.1193-2.5-2.5v-9.5c0.82843 0 1.5-0.67157 1.5-1.5s-0.67157-1.5-1.5-1.5v-2.5c0-1.3807 1.1193-2.5 2.5-2.5zm-17.5 17c-0.55228 0-1 0.44772-1 1s0.44772 1 1 1 1-0.44772 1-1-0.44772-1-1-1zm18 0c-0.55228 0-1 0.44772-1 1s0.44772 1 1 1 1-0.44772 1-1-0.44772-1-1-1zm-18-16c-0.55228 0-1 0.44772-1 1s0.44772 1 1 1 1-0.44772 1-1-0.44772-1-1-1zm18 0c-0.55228 0-1 0.44772-1 1s0.44772 1 1 1 1-0.44772 1-1-0.44772-1-1-1z" fill="url(#linearGradient-2)" filter="url(#filter-1)"/>
+<path id="形状结合" d="m20.5 39c0.27614 0 0.5 0.22386 0.5 0.5v1c0 0.27614-0.22386 0.5-0.5 0.5h-17c-0.27614 0-0.5-0.22386-0.5-0.5v-1c0-0.27614 0.22386-0.5 0.5-0.5zm0-3c0.27614 0 0.5 0.22386 0.5 0.5v1c0 0.27614-0.22386 0.5-0.5 0.5h-17c-0.27614 0-0.5-0.22386-0.5-0.5v-1c0-0.27614 0.22386-0.5 0.5-0.5zm0-3c0.27614 0 0.5 0.22386 0.5 0.5v1c0 0.27614-0.22386 0.5-0.5 0.5h-17c-0.27614 0-0.5-0.22386-0.5-0.5v-1c0-0.27614 0.22386-0.5 0.5-0.5zm0-3c0.27614 0 0.5 0.22386 0.5 0.5v1c0 0.27614-0.22386 0.5-0.5 0.5h-17c-0.27614 0-0.5-0.22386-0.5-0.5v-1c0-0.27614 0.22386-0.5 0.5-0.5z" fill-opacity=".45" filter="url(#filter-1)"/>
+<use transform="translate(1,26)" width="100%" height="100%" fill="url(#linearGradient-3)" filter="url(#filter-1)" xlink:href="#path-4"/>
+<use transform="translate(1,26)" width="100%" height="100%" fill="#000000" filter="url(#filter-5)" xlink:href="#path-4"/>
+<use transform="translate(1,26)" width="100%" height="100%" fill="#000000" filter="url(#filter-8)" xlink:href="#path-7"/>
+<use transform="translate(1,26)" width="100%" height="100%" fill="url(#linearGradient-6)" filter="url(#filter-1)" xlink:href="#path-7"/>
+<use transform="translate(1,26)" width="100%" height="100%" fill="#000000" filter="url(#filter-9)" xlink:href="#path-7"/>
+</g>
+</svg>

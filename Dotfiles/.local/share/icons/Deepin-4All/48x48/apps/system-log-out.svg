@@ -1,0 +1,20 @@
+<svg width="48" height="48" version="1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation="1"/>
+<feOffset dx="0" dy="1" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+<linearGradient id="linearGradient900" x2="48" y1="24" y2="24" gradientTransform="matrix(.54525 0 0 1.834 7.5 5)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#6DBD00" offset="0"/>
+<stop stop-color="#8FBF12" offset="1"/>
+</linearGradient>
+</defs>
+<circle cx="24" cy="24" r="20" fill="url(#linearGradient900)" filter="url(#a)"/>
+<path d="m24 12c7.18 0 13 5.82 13 13s-5.82 13-13 13-13-5.82-13-13 5.82-13 13-13zm0 3c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10-4.477-10-10-10zm0 4 6 6-6 6 0.027-4h-3.933c-1.157 0-2.094-0.892-2.094-2s0.935-2 2.094-2h3.933z" filter="url(#a)" opacity=".2"/>
+<path d="m24 11c7.18 0 13 5.82 13 13s-5.82 13-13 13-13-5.82-13-13 5.82-13 13-13zm0 3c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10-4.477-10-10-10zm0 4 6 6-6 6 0.027-4h-3.933c-1.157 0-2.094-0.892-2.094-2s0.935-2 2.094-2h3.933z" fill="#fff" filter="url(#a)"/>
+<path d="M 24,4 A 20,20 0 0 0 4,24 20,20 0 0 0 4.021,24.582 20,20 0 0 1 24,5 20,20 0 0 1 43.979,24.418 20,20 0 0 0 43.999,24 20,20 0 0 0 24,4 Z" fill="#fff" filter="url(#a)" opacity=".2"/>
+<path d="M 43.979,24.418 A 20,20 0 0 1 24,44 20,20 0 0 1 4.022,24.582 20,20 0 0 0 4,25 20,20 0 0 0 24,45 20,20 0 0 0 44,25 20,20 0 0 0 43.979,24.418 Z" filter="url(#a)" opacity=".2"/>
+</svg>

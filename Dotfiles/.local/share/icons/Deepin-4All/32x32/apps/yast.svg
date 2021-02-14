@@ -1,0 +1,18 @@
+<svg width="32" height="32" version="1" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<filter id="a" color-interpolation-filters="sRGB">
+<feFlood flood-opacity=".196" result="flood"/>
+<feComposite in="flood" in2="SourceGraphic" operator="in" result="composite1"/>
+<feGaussianBlur in="composite1" result="blur" stdDeviation=".7"/>
+<feOffset dx="0" dy=".7" result="offset"/>
+<feComposite in="SourceGraphic" in2="offset" result="composite2"/>
+</filter>
+</defs>
+<rect transform="matrix(0,-1,-1,0,0,0)" x="-30" y="-30" width="28" height="28" rx="1.5" ry="1.5" fill="#f5b923" filter="url(#a)"/>
+<path d="m3.5 2c-0.831 0-1.5 0.669-1.5 1.5v1c0-0.831 0.669-1.5 1.5-1.5h25c0.831 0 1.5 0.669 1.5 1.5v-1c0-0.831-0.669-1.5-1.5-1.5z" fill="#fff" filter="url(#a)" opacity=".2"/>
+<path d="m7.5 8c-0.831 0-1.5 0.669-1.5 1.5v15c0 0.831 0.669 1.5 1.5 1.5s1.5-0.669 1.5-1.5v-15c0-0.831-0.669-1.5-1.5-1.5zm8 0c-0.831 0-1.5 0.669-1.5 1.5v15c0 0.831 0.669 1.5 1.5 1.5s1.5-0.669 1.5-1.5v-15c0-0.831-0.669-1.5-1.5-1.5zm8 0c-0.831 0-1.5 0.669-1.5 1.5v15c0 0.831 0.669 1.5 1.5 1.5s1.5-0.669 1.5-1.5v-15c0-0.831-0.669-1.5-1.5-1.5z" filter="url(#a)" opacity=".3"/>
+<path d="m2 28.5v1c0 0.831 0.669 1.5 1.5 1.5h25c0.831 0 1.5-0.669 1.5-1.5v-1c0 0.831-0.669 1.5-1.5 1.5h-25c-0.831 0-1.5-0.669-1.5-1.5z" filter="url(#a)" opacity=".2"/>
+<path d="m6 14v10.5c0 0.831 0.669 1.5 1.5 1.5s1.5-0.669 1.5-1.5v-10.5zm16 3v7.5c0 0.831 0.669 1.5 1.5 1.5s1.5-0.669 1.5-1.5v-7.5zm-8 4v3.5c0 0.831 0.669 1.5 1.5 1.5s1.5-0.669 1.5-1.5v-3.5z" fill="#4f4f4f" filter="url(#a)"/>
+<path d="m7.5 12a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm16 3a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm-8 4a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z" filter="url(#a)" opacity=".2"/>
+<path d="m7.5 11a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm16 3a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zm-8 4a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5z" fill="#fff" filter="url(#a)"/>
+</svg>

@@ -3,8 +3,8 @@
 (GimpDeviceInfo "Core Pointer"
     (icon-name "gimp-cursor")
     (name "Core Pointer")
-    (tool-options "GimpMagnifyOptions"
-        (tool "gimp-zoom-tool"))
+    (tool-options "GimpFilterOptions"
+        (tool "gimp-brightness-contrast-tool"))
     (use-fg-bg no)
     (use-opacity-paint-mode no)
     (use-brush no)

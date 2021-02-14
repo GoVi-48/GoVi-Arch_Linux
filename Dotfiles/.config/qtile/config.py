@@ -167,15 +167,6 @@ widget_defaults = dict(
 extension_defaults = widget_defaults.copy()
 
 
-mb_temp = subprocess.getoutput('~/.config/qtile/scripts/mb_temp.sh')
-
-gpu_temp = subprocess.getoutput('~/.config/qtile/scripts/gpu_temp.sh')
-
-cpu_temp = subprocess.getoutput('~/.config/qtile/scripts/cpu_temp.sh')
-
-notf = subprocess.getoutput('~/.config/qtile/scripts/notifications.sh')
-
-
 screens = [
     Screen(
         top=bar.Bar(
@@ -246,7 +237,7 @@ screens = [
                 widget.Spacer(length=20),
 
                 widget.GenPollText(font='Noto Color Emoji',
-                    func=lambda: notf,
+                    func=lambda: subprocess.getoutput('~/.config/qtile/scripts/notifications.sh'),
                     update_interval=1),
 
                 widget.Spacer(length=10),
@@ -264,11 +255,14 @@ screens = [
                 widget.Image(filename='~/.local/share/icons/GoVi_gtk-Icons/apps/64/arrow_up.png'),
                 widget.Net(format='{up}/s ', interface='enp3s0'),
 
-                widget.GenPollText(func=lambda: cpu_temp, update_interval=1, foreground='#287BDE'),
+                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/cpu_temp.sh'),
+                   update_interval=1, foreground='#287BDE'),
 
-                widget.GenPollText(func=lambda: gpu_temp, update_interval=1, foreground='#27AE60'),
+                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/gpu_temp.sh'),
+                   update_interval=1, foreground='#27AE60'),
 
-                widget.GenPollText(func=lambda: mb_temp, update_interval=1, foreground='#F6FA93'),
+                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/mb_temp.sh'),
+                   update_interval=1, foreground='#F6FA93'),
 
                 widget.Volume(update_interval=0.2, emoji=True),
                 widget.Volume(update_interval=0.2),

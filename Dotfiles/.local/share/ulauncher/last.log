@@ -344,3 +344,11 @@
 2021-02-14 07:13:17,126 | DEBUG | ulauncher.api.shared.action.RunScriptAction: run() | Running a script from /tmp/ulauncher_RunScript_8h21v393
 2021-02-14 07:13:17,192 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 0 results
 2021-02-14 07:13:18,129 | DEBUG | ulauncher.api.shared.action.RunScriptAction: remove_temp_file() | Deleting a temporary file /tmp/ulauncher_RunScript_8h21v393
+2021-02-14 07:26:17,492 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-02-14 07:26:17,492 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 1920, H: 1080
+2021-02-14 07:26:17,492 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 0 results
+2021-02-14 07:26:17,534 | DEBUG | ulauncher.ui.windows.UlauncherWindow: on_focus_in_event() | Focus in event, grabbing pointer: <enum GDK_GRAB_SUCCESS of type Gdk.GrabStatus>
+2021-02-14 07:26:18,352 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 1 results
+2021-02-14 07:26:19,529 | DEBUG | ulauncher.api.shared.action.RunScriptAction: run() | Running a script from /tmp/ulauncher_RunScript_ebe3znby
+2021-02-14 07:26:19,555 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 0 results
+2021-02-14 07:26:20,533 | DEBUG | ulauncher.api.shared.action.RunScriptAction: remove_temp_file() | Deleting a temporary file /tmp/ulauncher_RunScript_ebe3znby

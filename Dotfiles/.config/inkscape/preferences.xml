@@ -552,10 +552,10 @@
        x="0"
        y="0"
        w="514"
-       h="441"
+       h="487"
        visible="1"
        state="2"
-       placement="2" />
+       placement="1" />
     <group
        id="filtereffects" />
     <group
@@ -578,10 +578,10 @@
        x="0"
        y="0"
        w="514"
-       h="437"
+       h="370"
        visible="1"
        state="2"
-       placement="1" />
+       placement="2" />
     <group
        id="xml"
        panedpos="135"
@@ -609,20 +609,20 @@
     <group
        id="documentoptions"
        state="1"
-       x="1245"
-       y="0"
-       w="675"
+       x="0"
+       y="253"
+       w="711"
        h="656"
        visible="0"
        placement="1" />
     <group
        id="preferences"
        state="1"
-       page="28"
+       page="25"
        x="622"
        y="231"
-       w="675"
-       h="656"
+       w="1049"
+       h="661"
        visible="0"
        placement="1" />
     <group
@@ -632,7 +632,7 @@
        x="0"
        y="0"
        w="514"
-       h="340"
+       h="256"
        visible="1"
        state="2"
        placement="1" />
@@ -644,13 +644,13 @@
        x="0"
        y="0"
        w="514"
-       h="489"
+       h="483"
        visible="1"
        state="2"
-       placement="2">
+       placement="1">
       <group
          id="exportarea"
-         value="page" />
+         value="selection" />
       <group
          id="defaultxdpi"
          value="96" />
@@ -711,10 +711,10 @@
        x="0"
        y="0"
        w="514"
-       h="226"
+       h="257"
        visible="1"
        state="2"
-       placement="2" />
+       placement="1" />
     <group
        id="extensioneditor" />
     <group
@@ -739,7 +739,7 @@
        x="0"
        y="0"
        w="514"
-       h="225"
+       h="257"
        visible="1"
        state="2"
        placement="2" />
@@ -1046,8 +1046,8 @@
      org.inkscape.input.gdkpixbuf.png.scale="auto"
      org.inkscape.input.gdkpixbuf.png.do_not_ask="1"
      org.inkscape.effect.filter.Invert.channels="0"
-     org.inkscape.effect.filter.Invert.hue="1"
-     org.inkscape.effect.filter.Invert.lightness="0"
+     org.inkscape.effect.filter.Invert.hue="0"
+     org.inkscape.effect.filter.Invert.lightness="1"
      org.inkscape.effect.filter.Invert.transparency="0"
      org.inkscape.effect.filter.Invert.__live_effect__="0"
      org.inkscape.effect.filter.Greyscale.red="7.0719"
@@ -1066,19 +1066,20 @@
      org.inkscape.effect.filter.Colorize.__live_effect__="0"
      org.inkscape.effect.filter.Brilliance.lightness="-0.513935"
      org.inkscape.effect.filter.ChannelPaint.saturation="0.477955"
-     org.inkscape.input.svg.scale="auto" />
+     org.inkscape.input.svg.scale="auto"
+     org.inkscape.effect.filter.Invert.opacify="0" />
   <group
      id="desktop"
      style="fill:#000000;stroke-width:3.528;-inkscape-font-specification:Hack;font-family:Hack;font-size:200px;fill-opacity:0.65168542"
      xrayactive="0">
     <group
-       width="1920"
-       height="1016"
-       x="0"
-       y="34"
+       width="943"
+       height="954"
+       x="11"
+       y="45"
        fullscreen="0"
        id="geometry"
-       maximized="1" />
+       maximized="0" />
     <group
        id="XYfront" />
     <group
@@ -1184,15 +1185,15 @@
      menuIcons_layers="0"
      menuIcons_canvas="0"
      iconTheme="breeze"
-     gtkTheme="Breeze"
+     gtkTheme="GoVi_gtk-Windows"
      defaultIconTheme="GoVi_gtk-Icons"
      defaultTheme="GoVi_gtk-Windows"
      id="theme">
     <group
-       symbolicErrorColor="3661911039"
-       symbolicWarningColor="4134797567"
-       symbolicSuccessColor="665739519"
-       symbolicBaseColor="4025545215"
+       symbolicErrorColor="3422552319"
+       symbolicWarningColor="4118348031"
+       symbolicSuccessColor="869366527"
+       symbolicBaseColor="4143314175"
        id="breeze" />
   </group>
 </inkscape>

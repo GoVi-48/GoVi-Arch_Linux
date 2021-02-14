@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
  
-NOTF_SOUND=~/.config/polybar/scripts/NOTF_SOUND
+NOTF_SOUND=~/.config/qtile/scripts/NOTF_SOUND
  
 if [ -f $NOTF_SOUND ]; then
     echo -n "🔔"

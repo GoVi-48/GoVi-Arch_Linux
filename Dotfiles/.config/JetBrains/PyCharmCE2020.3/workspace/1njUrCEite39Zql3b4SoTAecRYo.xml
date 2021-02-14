@@ -23,10 +23,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../.zshrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="29" column="32" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../.config/polybar/config">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="127" column="36" selection-start-line="127" selection-start-column="7" selection-end-line="127" selection-end-column="49" />
+            <state relative-caret-position="3144">
+              <caret line="131" column="14" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -34,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="262">
-              <caret line="265" column="77" selection-start-line="265" selection-start-column="77" selection-end-line="265" selection-end-column="77" />
+            <state relative-caret-position="99">
+              <caret line="280" column="87" selection-start-line="280" selection-start-column="87" selection-end-line="280" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -43,26 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../temp_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="912">
-              <caret line="38" column="4" selection-start-line="37" selection-end-line="44" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/email.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="43" column="19" selection-start-line="43" selection-end-line="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../.zshrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="29" column="32" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="32" />
+            <state>
+              <caret column="22" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -71,8 +62,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>kate</find>
-      <find>ayouts</find>
       <find>Model</find>
       <find>21242B</find>
       <find>backgr</find>
@@ -101,6 +90,8 @@
       <find>.config/polybar/</find>
       <find>Scripts/Shell/Polybar</find>
       <find>Image</find>
+      <find>mouse_callbacks</find>
+      <find>=</find>
     </findStrings>
     <replaceStrings>
       <replace>exit</replace>
@@ -116,7 +107,6 @@
       <replace>~/.config/polybar/</replace>
       <replace>vim</replace>
       <replace>1C1C1F</replace>
-      <replace>=</replace>
       <replace>FILEMANAGER</replace>
       <replace>$TERMINAL</replace>
       <replace>$BROWSER</replace>
@@ -133,6 +123,7 @@
       <replace>°C</replace>
       <replace>/.config/qtile/</replace>
       <replace>qtile</replace>
+      <replace>=</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/Shell/Games/_Launch_Scripts</dir>
@@ -182,14 +173,14 @@
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/mb_temp.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/gpu_temp.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/cpu_temp.sh" />
-      <option value="$PROJECT_DIR$/../temp_test.py" />
-      <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_github_Reset.sh" />
-      <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_games_Reset.sh" />
-      <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_youtube_Reset.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/email.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_youtube_not.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_games_not.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_github_not.sh" />
+      <option value="$PROJECT_DIR$/../temp_test.py" />
+      <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_youtube_Reset.sh" />
+      <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_games_Reset.sh" />
+      <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_github_Reset.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/config.py" />
     </changedPaths>
   </component>
@@ -258,22 +249,22 @@
     </state>
     <state x="323" y="265" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1612930812747" />
     <state x="323" y="284" key="FileChooserDialogImpl/0.36.1920.1009@0.36.1920.1009" timestamp="1611963294529" />
-    <state width="1112" height="183" key="GridCell.Tab.0.bottom" timestamp="1613322262073">
+    <state width="1016" height="183" key="GridCell.Tab.0.bottom" timestamp="1613343635241">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1112" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1613322262073" />
-    <state width="1112" height="183" key="GridCell.Tab.0.center" timestamp="1613322262072">
+    <state width="1016" height="183" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1613343635241" />
+    <state width="1016" height="183" key="GridCell.Tab.0.center" timestamp="1613343635238">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1112" height="183" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1613322262072" />
-    <state width="1112" height="183" key="GridCell.Tab.0.left" timestamp="1613322262072">
+    <state width="1016" height="183" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1613343635238" />
+    <state width="1016" height="183" key="GridCell.Tab.0.left" timestamp="1613343635237">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1112" height="183" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1613322262072" />
-    <state width="1112" height="183" key="GridCell.Tab.0.right" timestamp="1613322262072">
+    <state width="1016" height="183" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1613343635237" />
+    <state width="1016" height="183" key="GridCell.Tab.0.right" timestamp="1613343635239">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1112" height="183" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1613322262072" />
+    <state width="1016" height="183" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1613343635239" />
     <state width="1016" height="305" key="GridCell.Tab.1.bottom" timestamp="1613263339233">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -513,66 +504,10 @@
     <entry file="file://$PROJECT_DIR$/Shell/examples.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_github_Reset.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_games_Reset.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_youtube_Reset.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shell/Utils/Home_GIT.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="191">
           <caret line="46" column="33" selection-start-line="46" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Install">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4248">
-          <caret line="177" selection-start-line="177" selection-end-line="177" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Howto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../temp_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="38" column="4" selection-start-line="37" selection-end-line="44" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/email.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="43" column="19" selection-start-line="43" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/polybar/config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="127" column="36" selection-start-line="127" selection-start-column="7" selection-end-line="127" selection-end-column="49" />
         </state>
       </provider>
     </entry>
@@ -597,17 +532,73 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Install">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4248">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Howto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/polybar/config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3144">
+          <caret line="131" column="14" selection-start-line="131" selection-start-column="14" selection-end-line="131" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_github_Reset.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_games_Reset.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_youtube_Reset.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="52" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../.zshrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
+        <state relative-caret-position="696">
           <caret line="29" column="32" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/email.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="757">
+          <caret line="42" column="23" selection-start-line="42" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../temp_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="265" column="77" selection-start-line="265" selection-start-column="77" selection-end-line="265" selection-end-column="77" />
+        <state relative-caret-position="99">
+          <caret line="280" column="87" selection-start-line="280" selection-start-column="87" selection-end-line="280" selection-end-column="87" />
         </state>
       </provider>
     </entry>

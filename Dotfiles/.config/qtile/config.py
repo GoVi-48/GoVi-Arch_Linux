@@ -251,29 +251,34 @@ screens = [
 
                 widget.GenPollText(font='Noto Color Emoji',
                     func=lambda: subprocess.getoutput('~/.config/qtile/scripts/notifications.sh'),
-                    update_interval=1),
+                    update_interval=1,
+                    mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/notf_switch.sh')}),
 
                 widget.Spacer(length=10),
 
-                widget.Image(filename='~/.config/qtile/@resources/gmail.svg'),
+                widget.Image(filename='~/.config/qtile/@resources/gmail.svg', margin=8),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/email.sh'),
-                    update_interval=300),
+                    update_interval=300,
+                    mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('firefox "http://www.gmail.com"')}),
 
                 widget.Spacer(length=5),
 
-                widget.Image(filename='~/.config/qtile/@resources/youtube.svg'),
+                widget.Image(filename='~/.config/qtile/@resources/youtube.svg',
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_youtube_Reset.sh')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_youtube_not.sh'),
                     update_interval=300),
 
                 widget.Spacer(length=5),
 
-                widget.Image(filename='~/.config/qtile/@resources/gamepad.png'),
+                widget.Image(filename='~/.config/qtile/@resources/gamepad.png',
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_games_Reset.sh')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_games_not.sh'),
                     update_interval=300),
 
                 widget.Spacer(length=5),
 
-                widget.Image(filename='~/.config/qtile/@resources/github.svg'),
+                widget.Image(filename='~/.config/qtile/@resources/github.svg', margin=9,
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_github_Reset.sh')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_github_not.sh'),
                     update_interval=300),
 

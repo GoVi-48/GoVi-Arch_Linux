@@ -1,11 +1,17 @@
 #!/usr/bin/env bash
 
-NOTF_SOUND=~/.config/qtile/scripts/NOTF_SOUND
+notf_ON=~/.config/qtile/scripts/notf_ON
+notf_OFF=~/.config/qtile/scripts/notf_OFF
 
-if [ -f $NOTF_SOUND ]; then
-    rm -f $NOTF_SOUND
+if [ -f $notf_ON ]; then
+    rm -f $notf_ON
+    touch $notf_OFF
     
+elif [ -f $notf_OFF ]; then
+    rm -f $notf_OFF
+    touch $notf_ON
+
 else
-    touch $NOTF_SOUND
-    
+    touch $notf_ON
+
 fi

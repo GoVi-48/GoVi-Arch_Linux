@@ -49,9 +49,7 @@ picom -cCGb &
 
 setxkbmap -layout es &
 
-feh --bg-fill --no-fehbg --randomize ~/Pictures/Desktop/* &
-
-polybar.sh &
+set_background.sh &
 
 firewall-applet &
 

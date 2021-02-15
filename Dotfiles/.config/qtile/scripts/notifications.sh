@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
  
-NOTF_SOUND=~/.config/qtile/scripts/NOTF_SOUND
+notf_ON=~/.config/qtile/scripts/notf_ON
  
-if [ -f $NOTF_SOUND ]; then
+if [ -f $notf_ON ]; then
     echo -n "🔔"
     
 else

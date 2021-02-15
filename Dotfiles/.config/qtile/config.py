@@ -167,20 +167,37 @@ widget_defaults = dict(
 extension_defaults = widget_defaults.copy()
 
 
-cpu_temp = subprocess.getoutput('~/.config/qtile/scripts/cpu_temp.sh | cut -c1-2')
-cpu_temp = int(cpu_temp)
-cold = "0"
-hot = "🔥"
-
 def cpu_icon():
-    if cpu_temp < 55:
-        print(cold)
+    cpu_temp = subprocess.getoutput('~/.config/qtile/scripts/cpu_temp.sh | cut -c1-2')
+    cpu_temp = int(cpu_temp)
 
-    elif cpu_temp > 55:
-        print(hot)
+    if cpu_temp <= 50:
+        return str('0')
+
+    elif cpu_temp >= 51:
+        return str('🔥')
 
 
-cpu_icon()
+def gpu_icon():
+    gpu_temp = subprocess.getoutput('nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits')
+    gpu_temp = int(gpu_temp)
+
+    if gpu_temp <= 45:
+        return str('1')
+
+    elif gpu_temp >= 46:
+        return str('🔥')
+
+
+def mb_icon():
+    mb_temp = subprocess.getoutput('cat "/sys/devices/platform/it87.2608/hwmon/hwmon2/temp1_input" | cut -c -2')
+    mb_temp = int(mb_temp)
+
+    if mb_temp <= 30:
+        return str('3')
+
+    elif mb_temp >= 31:
+        return str('🔥')
 
 
 screens = [
@@ -213,7 +230,7 @@ screens = [
                 widget.Image(filename='~/.config/qtile/@resources/sound-preferences.svg',
                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('pavucontrol')}),
 
-                widget.Image(filename='~/.config/qtile/@resources/nvidia3.png',
+                widget.Image(filename='~/.config/qtile/@resources/nvidia.png',
                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('nvidia-settings')}),
 
                 widget.Clock(fontsize=18),
@@ -294,10 +311,12 @@ screens = [
                 # ================================= WIDGETS BOTTOM RIGHT ================================= #
                 widget.Spacer(length=bar.STRETCH),
 
-                widget.Image(filename='~/.config/qtile/@resources/arrow_down.png'),
                 widget.Net(format='{down}/s', interface='enp3s0'),
 
-                widget.Image(filename='~/.config/qtile/@resources/arrow_up.png'),
+                widget.Spacer(length=10),
+
+                widget.Image(filename='~/.config/qtile/@resources/arrow_up_down.png'),
+
                 widget.Net(format='{up}/s ', interface='enp3s0'),
 
                 widget.TextBox(font='GoVi_Icons', text='4'),
@@ -312,7 +331,8 @@ screens = [
 
                 widget.Spacer(length=10),
 
-                widget.GenPollText(font='GoVi_Icons', func=lambda: cpu_icon(), update_interval=1),
+                widget.GenPollText(font='GoVi_Icons', func=lambda: cpu_icon(),
+                    update_interval=1),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/cpu_temp.sh'),
                     update_interval=1, foreground='#287BDE'),
 

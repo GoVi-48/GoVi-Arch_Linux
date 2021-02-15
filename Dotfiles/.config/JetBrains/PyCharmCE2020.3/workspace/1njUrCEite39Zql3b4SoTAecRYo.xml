@@ -52,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-5925">
-              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            <state relative-caret-position="609">
+              <caret line="335" column="102" selection-start-line="335" selection-start-column="94" selection-end-line="335" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -61,26 +61,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../qtile_TEST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="45" column="7" selection-start-line="44" selection-end-line="57" selection-end-column="10" />
+            <state relative-caret-position="209">
+              <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_AUR.sh">
+        <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/gpu_temp.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
+            <state relative-caret-position="48">
+              <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_pacman.sh">
+        <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/mb_temp.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-end-line="13" />
+            <state relative-caret-position="192">
+              <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -89,8 +89,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>:</find>
-      <find>firefox</find>
       <find>FILEMANAGER</find>
       <find>paru -S</find>
       <find>yay</find>
@@ -119,10 +117,10 @@
       <find>padding=0</find>
       <find>pol</find>
       <find>window_to_prev_group</find>
+      <find>nvidia</find>
+      <find>cpu_temp</find>
     </findStrings>
     <replaceStrings>
-      <replace>#</replace>
-      <replace>- {</replace>
       <replace># ============================================================================= #</replace>
       <replace>...........................................................................................</replace>
       <replace>...............................................................................</replace>
@@ -151,6 +149,8 @@
       <replace>qtile</replace>
       <replace>=</replace>
       <replace>padding=1</replace>
+      <replace>gpu_temp</replace>
+      <replace>mb_temp</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/Shell/Games/_Launch_Scripts</dir>
@@ -198,16 +198,16 @@
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/notifications.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/email.sh" />
       <option value="$PROJECT_DIR$/../.config/polybar/scripts/email.sh" />
-      <option value="$PROJECT_DIR$/../.config/qtile/scripts/cpu_load.sh" />
       <option value="$PROJECT_DIR$/../.xinitrc" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/cpu_temp.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/updates_pacman_icon.sh" />
-      <option value="$PROJECT_DIR$/../.config/qtile/scripts/updates_pacman.sh" />
-      <option value="$PROJECT_DIR$/../.config/qtile/scripts/updates_AUR.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_youtube.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_github.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_games.sh" />
+      <option value="$PROJECT_DIR$/../.config/qtile/scripts/cpu_load.sh" />
       <option value="$PROJECT_DIR$/../qtile_TEST.py" />
+      <option value="$PROJECT_DIR$/../.config/qtile/scripts/updates_AUR.sh" />
+      <option value="$PROJECT_DIR$/../.config/qtile/scripts/updates_pacman.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/config.py" />
     </changedPaths>
   </component>
@@ -228,6 +228,7 @@
     </option>
   </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.6456522" />
       <window_info id="Structure" order="1" weight="0.24891305" />
@@ -275,22 +276,22 @@
     </state>
     <state x="323" y="265" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1612930812747" />
     <state x="323" y="284" key="FileChooserDialogImpl/0.36.1920.1009@0.36.1920.1009" timestamp="1611963294529" />
-    <state width="1016" height="190" key="GridCell.Tab.0.bottom" timestamp="1613400422663">
+    <state width="1016" height="190" key="GridCell.Tab.0.bottom" timestamp="1613408186446">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1016" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1613400422663" />
-    <state width="1016" height="190" key="GridCell.Tab.0.center" timestamp="1613400422663">
+    <state width="1016" height="190" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1613408186446" />
+    <state width="1016" height="190" key="GridCell.Tab.0.center" timestamp="1613408186445">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1016" height="190" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1613400422663" />
-    <state width="1016" height="190" key="GridCell.Tab.0.left" timestamp="1613400422662">
+    <state width="1016" height="190" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1613408186445" />
+    <state width="1016" height="190" key="GridCell.Tab.0.left" timestamp="1613408186445">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1016" height="190" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1613400422662" />
-    <state width="1016" height="190" key="GridCell.Tab.0.right" timestamp="1613400422663">
+    <state width="1016" height="190" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1613408186445" />
+    <state width="1016" height="190" key="GridCell.Tab.0.right" timestamp="1613408186446">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1016" height="190" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1613400422663" />
+    <state width="1016" height="190" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1613408186446" />
     <state width="1016" height="305" key="GridCell.Tab.1.bottom" timestamp="1613263339233">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -438,20 +439,6 @@
     <entry file="file://$PROJECT_DIR$/Shell/Utils/Webgrab_GIT.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/mb_temp.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/gpu_temp.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Shell/Games/Launch-Game_Template.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -532,13 +519,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/cpu_load.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="2" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/mem_load.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -547,6 +527,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_pacman_icon.sh" />
+    <entry file="file://$PROJECT_DIR$/Shell/Utils/Home_GIT.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_games.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_github.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="18" column="58" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_youtube.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="509">
+          <caret line="171" column="34" lean-forward="true" selection-start-line="171" selection-end-line="176" />
         </state>
       </provider>
     </entry>
@@ -578,13 +587,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_pacman_icon.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.config/polybar/config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -592,59 +594,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_AUR.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" column="2" lean-forward="true" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shell/Utils/Home_GIT.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="46" column="17" lean-forward="true" selection-start-line="46" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_games.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="44" column="29" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_github.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="18" column="58" selection-start-line="18" selection-start-column="55" selection-end-line="18" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_youtube.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="509">
-          <caret line="171" column="34" lean-forward="true" selection-start-line="171" selection-end-line="176" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_pacman.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-end-line="13" />
+        <state relative-caret-position="120">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_AUR.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/cpu_load.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/mb_temp.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="8" column="23" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/gpu_temp.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../qtile_TEST.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="45" column="7" selection-start-line="44" selection-end-line="57" selection-end-column="10" />
+        <state relative-caret-position="209">
+          <caret line="53" column="25" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5925">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        <state relative-caret-position="609">
+          <caret line="335" column="102" selection-start-line="335" selection-start-column="94" selection-end-line="335" selection-end-column="102" />
         </state>
       </provider>
     </entry>

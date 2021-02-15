@@ -4,7 +4,7 @@ load=$(top -b -n1 | awk '/^%Cpu/ {print $2 + $4}' | awk -F '.' '{print $1}')
 
 
 if [ $load -ge 0 -a $load -lt 10 ];then
-    echo "$load% ▁ "
+    echo " $load% ▁ "
     
 elif [ $load -ge 10 -a $load -lt 20 ];then
     echo "$load% ▂ "

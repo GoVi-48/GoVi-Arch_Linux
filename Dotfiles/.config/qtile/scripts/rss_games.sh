@@ -4,7 +4,7 @@ export LANG=C.UTF-8
 
 pgrep -x "wineserver" > /dev/null  && exit
 
-LOGS="$HOME/.config/polybar/scripts/Logs/Games"
+LOGS="$HOME/.config/qtile/scripts/Logs/Games"
 
 [ ! -d "$LOGS" ] && mkdir -p "$LOGS"
 [ ! -f "$LOGS/rss_games" ] && echo "0" > "$LOGS"/rss_games
@@ -35,12 +35,12 @@ UPDATES="$(diff -s "${LOGS}/check_entries_games" "${LOGS}/recheck_entries_games"
 echo "$UPDATES" > "${LOGS}/rss_games"
 echo -e "\n$UPDATES Updates\n"
 
-[ "$UPDATES" -eq 1 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
-[ "$UPDATES" -eq 5 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
-[ "$UPDATES" -eq 10 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
-[ "$UPDATES" -eq 15 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
-[ "$UPDATES" -eq 20 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
+[ "$UPDATES" -eq 1 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+[ "$UPDATES" -eq 5 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+[ "$UPDATES" -eq 10 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+[ "$UPDATES" -eq 15 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+[ "$UPDATES" -eq 20 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
 
 # crontab -e
-# */5 * * * * ~/.config/polybar/scripts/rss_games.sh
+# */5 * * * * ~/.config/qtile/scripts/rss_games.sh
 # crontab -l

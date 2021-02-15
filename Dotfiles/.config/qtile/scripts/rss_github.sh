@@ -4,7 +4,7 @@ export LANG=C.UTF-8
 
 pgrep -x "wineserver" > /dev/null  && exit
 
-LOGS="$HOME/.config/polybar/scripts/Logs/Github"
+LOGS="$HOME/.config/qtile/scripts/Logs/Github"
 
 [ ! -d "$LOGS" ] && mkdir -p "$LOGS"
 [ ! -f "$LOGS/rss_github" ] && echo "0" > "$LOGS"/rss_github
@@ -43,12 +43,12 @@ UPDATES="$(diff -s "${LOGS}/check_entries_github" "${LOGS}/recheck_entries_githu
 echo "$UPDATES" > "${LOGS}/rss_github"
 echo -e "\n$UPDATES Updates\n"
 
-[ "$UPDATES" -eq 1 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
-[ "$UPDATES" -eq 5 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
-[ "$UPDATES" -eq 10 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
-[ "$UPDATES" -eq 15 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
-[ "$UPDATES" -eq 20 ] && kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "$UPDATES Updates" 8 && paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
+[ "$UPDATES" -eq 1 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+[ "$UPDATES" -eq 5 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+[ "$UPDATES" -eq 10 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+[ "$UPDATES" -eq 15 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+[ "$UPDATES" -eq 20 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
 
 # crontab -e
-# */5 * * * * ~/.config/polybar/scripts/rss_github.sh
+# */5 * * * * ~/.config/qtile/scripts/rss_github.sh
 # crontab -l

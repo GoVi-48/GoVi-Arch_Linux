@@ -47,14 +47,14 @@ keys = [
     Key([mod, "control"], "k", lazy.layout.shuffle_down()),
     Key([mod, "control"], "j", lazy.layout.shuffle_up()),
 
-    # Window grow Left
+    # Shrink Window
     Key([mod, "control"], "Left",
         lazy.layout.grow_left(),
         lazy.layout.shrink(),
         lazy.layout.decrease(),
         lazy.layout.add()),
 
-    # Window grow Right
+    # Grow Window
     Key([mod, "control"], "Right",
         lazy.layout.grow_right(),
         lazy.layout.grow(),
@@ -169,12 +169,18 @@ extension_defaults = widget_defaults.copy()
 
 cpu_temp = subprocess.getoutput('~/.config/qtile/scripts/cpu_temp.sh | cut -c1-2')
 cpu_temp = int(cpu_temp)
+cold = "0"
+hot = "🔥"
 
 def cpu_icon():
     if cpu_temp < 55:
-        print("text='0'", end='')
-    else:
-        print("text='🔥'", end='')
+        print(cold)
+
+    elif cpu_temp > 55:
+        print(hot)
+
+
+cpu_icon()
 
 
 screens = [
@@ -261,28 +267,29 @@ screens = [
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/email.sh'),
                     update_interval=300, fontsize=12),
 
-                # widget.Spacer(length=2),
 
                 widget.Image(filename='~/.config/qtile/@resources/youtube.svg', margin=8,
                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_youtube_Reset.sh')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_youtube_not.sh'),
                     update_interval=300, fontsize=12),
 
-                # widget.Spacer(length=2),
-
                 widget.Image(filename='~/.config/qtile/@resources/gamepad.png', margin=7,
                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_games_Reset.sh')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_games_not.sh'),
                     update_interval=300, fontsize=12),
 
-                # widget.Spacer(length=2),
 
                 widget.Image(filename='~/.config/qtile/@resources/github.svg', margin=9,
                              mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_github_Reset.sh')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_github_not.sh'),
                     update_interval=300, fontsize=12),
 
-                # widget.Spacer(length=2),
+                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_pacman.sh'),
+                                   update_interval=300),
+
+                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_AUR.sh'),
+                                   update_interval=300),
+
 
                 # ================================= WIDGETS BOTTOM RIGHT ================================= #
                 widget.Spacer(length=bar.STRETCH),
@@ -305,8 +312,7 @@ screens = [
 
                 widget.Spacer(length=10),
 
-                # widget.TextBox(cpu_icon),
-                widget.TextBox(font='GoVi_Icons', text='0'),
+                widget.GenPollText(font='GoVi_Icons', func=lambda: cpu_icon(), update_interval=1),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/cpu_temp.sh'),
                     update_interval=1, foreground='#287BDE'),
 

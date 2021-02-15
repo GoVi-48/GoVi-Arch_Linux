@@ -6,7 +6,7 @@ if ping -c5 google.com > /dev/null 2>&1; then
     notf_ON=~/.config/qtile/scripts/notf_ON
 
     if [ "$UPDATES_AUR" -eq 0 ]; then
-        echo -e "\c"
+        echo " "
 
     elif [ "$UPDATES_AUR" -gt 0 ] && [ -f $notf_ON ]; then
         echo "$UPDATES_AUR AUR"
@@ -17,9 +17,10 @@ if ping -c5 google.com > /dev/null 2>&1; then
         echo "$UPDATES_AUR AUR"
 
     else
-        echo -e "\c"
+        echo " "
 
     fi
+
 else
-    echo -e "\c"
+    echo " "
 fi

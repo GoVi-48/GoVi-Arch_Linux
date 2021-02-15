@@ -167,6 +167,20 @@ widget_defaults = dict(
 extension_defaults = widget_defaults.copy()
 
 
+def updates_pacman():
+    updates_pacman = subprocess.getoutput('pacman -Qu | wc -l | cut -c1-1')
+    updates_pacman = int(updates_pacman)
+    if updates_pacman > 0:
+        return widget.Image(filename='~/.config/qtile/@resources/updates_pacman.svg')
+
+
+def updates_aur():
+    updates_aur = subprocess.getoutput('paru -Qua | wc -l | cut -c1-1')
+    updates_aur = int(updates_aur)
+    if updates_aur > 0:
+        return widget.Image(filename='~/.config/qtile/@resources/updates_AUR.svg')
+
+
 def cpu_icon():
     cpu_temp = subprocess.getoutput('~/.config/qtile/scripts/cpu_temp.sh | cut -c1-2')
     cpu_temp = int(cpu_temp)
@@ -301,9 +315,11 @@ screens = [
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_github_not.sh'),
                     update_interval=300, fontsize=12),
 
+                updates_pacman(),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_pacman.sh'),
                                    update_interval=300),
 
+                # updates_aur(),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_AUR.sh'),
                                    update_interval=300),
 

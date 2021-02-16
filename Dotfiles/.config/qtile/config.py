@@ -321,11 +321,8 @@ screens = [
                 widget.Spacer(length=bar.STRETCH),
 
                 widget.Net(format='{down}/s', interface='enp3s0'),
-
                 widget.Spacer(length=10),
-
                 widget.Image(filename='~/.config/qtile/@resources/arrow_up_down.png'),
-
                 widget.Net(format='{up}/s ', interface='enp3s0'),
 
                 widget.TextBox(font='GoVi_Icons', text='4'),
@@ -401,7 +398,7 @@ floating_layout = layout.Floating(float_rules=[
     {'wmclass': 'ssh-askpass'},  # ssh-askpass
     {'wmclass': 'ulauncher'},
     {'wmclass': 'onboard'},
-    {'wmclass': 'Transmission'}
+    {'wmclass': 'Transmission-gtk'}
 ])
 
 

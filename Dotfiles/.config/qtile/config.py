@@ -167,51 +167,44 @@ widget_defaults = dict(
 extension_defaults = widget_defaults.copy()
 
 
-def updates_pacman():
-    updates_pacman = subprocess.getoutput('pacman -Qu | wc -l | cut -c1-1')
-    updates_pacman = int(updates_pacman)
-    if updates_pacman > 0:
-        return widget.Image(filename='~/.config/qtile/@resources/updates_pacman.svg')
+def updates_pacman_icon():
+    p = subprocess.getoutput('pacman -Qu | wc -l | cut -c1-1')
+    p = int(p)
+    if p > 0:
+        return widget.Image(filename='~/.config/qtile/@resources/updates_pacman.png', mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('alacritty sudo pacman -Syu')})
+    return widget.Image(filename='~/.config/qtile/@resources/updates_0.png')
 
 
-def updates_aur():
-    updates_aur = subprocess.getoutput('paru -Qua | wc -l | cut -c1-1')
-    updates_aur = int(updates_aur)
-    if updates_aur > 0:
-        return widget.Image(filename='~/.config/qtile/@resources/updates_AUR.svg')
+def updates_aur_icon():
+    a = subprocess.getoutput('paru -Qua | wc -l | cut -c1-1')
+    a = int(a)
+    if a > 0:
+        return widget.Image(filename='~/.config/qtile/@resources/updates_aur.png')
+    return widget.Image(filename='~/.config/qtile/@resources/updates_0.png')
 
 
 def cpu_icon():
     cpu_temp = subprocess.getoutput('~/.config/qtile/scripts/cpu_temp.sh | cut -c1-2')
     cpu_temp = int(cpu_temp)
-
     if cpu_temp <= 50:
         return str('0')
-
-    elif cpu_temp >= 51:
-        return str('🔥')
+    return str('🔥')
 
 
 def gpu_icon():
     gpu_temp = subprocess.getoutput('nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits')
     gpu_temp = int(gpu_temp)
-
-    if gpu_temp <= 45:
+    if gpu_temp <= 50:
         return str('1')
-
-    elif gpu_temp >= 46:
-        return str('🔥')
+    return str('🔥')
 
 
 def mb_icon():
     mb_temp = subprocess.getoutput('cat "/sys/devices/platform/it87.2608/hwmon/hwmon2/temp1_input" | cut -c -2')
     mb_temp = int(mb_temp)
-
     if mb_temp <= 30:
         return str('3')
-
-    elif mb_temp >= 31:
-        return str('🔥')
+    return str('🔥')
 
 
 screens = [
@@ -220,8 +213,8 @@ screens = [
             [
                 # ================================= WIDGETS TOP LEFT =================================  #
                 widget.Image(filename='~/.config/qtile/@resources/archlinux.png',
-                            margin=0,
-                            mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('ulauncher')}),
+                             margin=0,
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('ulauncher')}),
 
                 widget.CurrentLayoutIcon(scale=0.7),
 
@@ -242,10 +235,10 @@ screens = [
                 widget.Systray(padding=10),
 
                 widget.Image(filename='~/.config/qtile/@resources/sound-preferences.svg',
-                            mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('pavucontrol')}),
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('pavucontrol')}),
 
                 widget.Image(filename='~/.config/qtile/@resources/nvidia.png',
-                            mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('nvidia-settings')}),
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('nvidia-settings')}),
 
                 widget.Clock(fontsize=18),
 
@@ -257,7 +250,7 @@ screens = [
             [
                 # ================================= WIDGETS BOTTOM LEFT =================================  #
                 widget.Image(filename='~/.config/qtile/@resources/power.png',
-                            mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('kill -9 -1')}),
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('kill -9 -1')}),
 
                 widget.Spacer(length=10),
 
@@ -280,48 +273,44 @@ screens = [
                 widget.Spacer(length=10),
 
                 widget.TextBox(text='/Media:'),
-                widget.GenPollText(
-                    func=lambda: subprocess.getoutput('df -h /Media --o=avail | awk "NR>1" | tr -d " "'),
-                    update_interval=1),
+                widget.GenPollText(func=lambda: subprocess.getoutput('df -h /Media --o=avail | awk "NR>1" | tr -d " "'),
+                                   update_interval=1),
 
                 widget.Spacer(length=20),
 
-                widget.GenPollText(font='Noto Color Emoji',
-                    func=lambda: subprocess.getoutput('~/.config/qtile/scripts/notifications.sh'),
-                    update_interval=1,
-                    mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/notf_switch.sh')}),
+                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/notifications.sh'),
+                                   font='Noto Color Emoji', update_interval=1,
+                                   mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/notf_switch.sh')}),
 
                 widget.Spacer(length=10),
 
                 widget.Image(filename='~/.config/qtile/@resources/gmail.svg', margin=8,
-                            mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('firefox "http://www.gmail.com"')}),
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('firefox "http://www.gmail.com"')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/email.sh'),
-                    update_interval=300, fontsize=12),
-
+                                   update_interval=300, fontsize=12),
 
                 widget.Image(filename='~/.config/qtile/@resources/youtube.svg', margin=8,
-                            mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_youtube_Reset.sh')}),
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_youtube_Reset.sh')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_youtube_not.sh'),
-                    update_interval=300, fontsize=12),
+                                   update_interval=300, fontsize=12),
 
                 widget.Image(filename='~/.config/qtile/@resources/gamepad.png', margin=7,
-                            mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_games_Reset.sh')}),
+                             mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_games_Reset.sh')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_games_not.sh'),
-                    update_interval=300, fontsize=12),
-
+                                   update_interval=300, fontsize=12),
 
                 widget.Image(filename='~/.config/qtile/@resources/github.svg', margin=9,
                              mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_github_Reset.sh')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_github_not.sh'),
-                    update_interval=300, fontsize=12),
+                                   update_interval=300, fontsize=12),
 
-                updates_pacman(),
+                # updates_pacman_icon(),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_pacman.sh'),
-                                   update_interval=300),
+                                   update_interval=10),
 
-                # updates_aur(),
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_AUR.sh'),
-                                   update_interval=300),
+                # updates_aur_icon(),
+                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_aur.sh'),
+                                   update_interval=10),
 
 
                 # ================================= WIDGETS BOTTOM RIGHT ================================= #
@@ -337,28 +326,30 @@ screens = [
 
                 widget.TextBox(font='GoVi_Icons', text='4'),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/mem_load.sh'),
-                    update_interval=1),
+                                   mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('alacritty -e htop')},
+                                   update_interval=1),
 
                 widget.Spacer(length=10),
 
                 widget.TextBox(font='GoVi_Icons', text='5'),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/cpu_load.sh'),
-                    update_interval=1),
+                                   mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('alacritty -e htop')},
+                                   update_interval=1),
 
                 widget.Spacer(length=10),
 
                 widget.GenPollText(font='GoVi_Icons', func=lambda: cpu_icon(),
-                    update_interval=1),
+                                   update_interval=1),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/cpu_temp.sh'),
-                    update_interval=1, foreground='#287BDE'),
+                                   update_interval=1, foreground='#287BDE'),
 
                 widget.TextBox(font='GoVi_Icons', text='1'),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/gpu_temp.sh'),
-                    update_interval=1, foreground='#27AE60'),
+                                   update_interval=1, foreground='#27AE60'),
 
                 widget.TextBox(font='GoVi_Icons', text='3'),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/mb_temp.sh'),
-                    update_interval=1, foreground='#F6FA93'),
+                                   update_interval=1, foreground='#F6FA93'),
 
                 widget.Volume(update_interval=0.2, emoji=True),
                 widget.Volume(update_interval=0.2),
@@ -405,7 +396,8 @@ floating_layout = layout.Floating(float_rules=[
     {'wname': 'pinentry'},  # GPG key password entry
     {'wmclass': 'ssh-askpass'},  # ssh-askpass
     {'wmclass': 'ulauncher'},
-    {'wmclass': 'onboard'}
+    {'wmclass': 'onboard'},
+    {'wmclass': 'Transmission'}
 ])
 
 

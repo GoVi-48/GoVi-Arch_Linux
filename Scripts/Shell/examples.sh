@@ -20,3 +20,6 @@ sed 's/THIS/THAT/g'
 
 # Check if output is a number
 [[ $1 == ?(-)+([0-9]) ]] && echo "$1 is an integer"
+
+
+sensors | awk '$1 ~ /^temp1/ {print substr($0,16,2)}'

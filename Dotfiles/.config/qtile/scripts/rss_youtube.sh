@@ -174,7 +174,7 @@ if [ -f  ~/.config/qtile/scripts/notf_ON ]; then
     [ $UPDATES -eq 10 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
     [ $UPDATES -eq 15 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
     [ $UPDATES -eq 20 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
-fi
+NR > 1 { exit }; 1fi
 
 # crontab -e
 # */5 * * * * ~/.config/qtile/scripts/rss_youtube.sh

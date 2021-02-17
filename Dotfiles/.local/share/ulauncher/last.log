@@ -354,3 +354,11 @@ gi.repository.GLib.GError: g-dbus-error-quark: GDBus.Error:org.freedesktop.DBus.
 2021-02-17 16:33:44,244 | DEBUG | ulauncher.api.shared.action.RunScriptAction: run() | Running a script from /tmp/ulauncher_RunScript_ihit6upf
 2021-02-17 16:33:44,267 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 0 results
 2021-02-17 16:33:45,248 | DEBUG | ulauncher.api.shared.action.RunScriptAction: remove_temp_file() | Deleting a temporary file /tmp/ulauncher_RunScript_ihit6upf
+2021-02-17 18:41:54,260 | DEBUG | ulauncher.utils.display: get_screens() | Found 1 monitor(s)
+2021-02-17 18:41:54,260 | DEBUG | ulauncher.utils.display: get_screens() |   Monitor 0 - X: 0, Y: 0, W: 1920, H: 1080
+2021-02-17 18:41:54,260 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 0 results
+2021-02-17 18:41:54,268 | DEBUG | ulauncher.ui.windows.UlauncherWindow: on_focus_in_event() | Focus in event, grabbing pointer: <enum GDK_GRAB_SUCCESS of type Gdk.GrabStatus>
+2021-02-17 18:41:55,659 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 1 results
+2021-02-17 18:41:56,778 | DEBUG | ulauncher.api.shared.action.RunScriptAction: run() | Running a script from /tmp/ulauncher_RunScript_hyh08qgy
+2021-02-17 18:41:56,783 | DEBUG | ulauncher.ui.windows.UlauncherWindow: show_results() | render 0 results
+2021-02-17 18:41:57,781 | DEBUG | ulauncher.api.shared.action.RunScriptAction: remove_temp_file() | Deleting a temporary file /tmp/ulauncher_RunScript_hyh08qgy

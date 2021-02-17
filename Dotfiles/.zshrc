@@ -27,7 +27,7 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 # Colors
 unset color_prompt force_color_prompt
 autoload -U colors && colors
-PS1="%B%{$fg[red]%}[%{$fg[yellow]%}%n%{$fg[green]%}@%{$fg[blue]%}%M$fg[green]%}:%{$fg[magenta]%}%~%{$fg[red]%}]%{$reset_color%}$%b "
+PS1="%B%{%F{red}[%}%F{yellow}%}%n%{%F{green}%}@%{%F{blue}%}%m%{%F{green}%}:%F{yellow}%}%~%F{red}]%}%{%f%}$%b "
 alias diff='diff --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'

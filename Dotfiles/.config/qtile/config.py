@@ -102,8 +102,8 @@ def window_to_next_group(qtile):
         qtile.currentWindow.togroup(qtile.groups[i + 1].name)
 
 
-# Run "xprop" to see the wm class and name of an X client.
-groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefox"])]),
+# Run "sleep 5 && xprop" to see the wm class and name of an X client.
+groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefox", "lutris"])]),
           Group("2", label="", layout='monadtall', matches=[Match(wm_class=["jetbrains-pycharm-ce-debug"])]),
           Group("3", label="", layout='monadtall'),
           Group("4", label="", layout='monadtall'),
@@ -179,7 +179,7 @@ def updates_aur_icon():
     a = subprocess.getoutput('paru -Qua | wc -l | cut -c1-1')
     a = int(a)
     if a > 0:
-        return widget.Image(filename='~/.config/qtile/@resources/updates_aur.png')
+        return widget.Image(filename='~/.config/qtile/@resources/updates_aur.png', mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('alacritty paru -Syua --skipreview')})
     return widget.Image(filename='~/.config/qtile/@resources/updates_0.png')
 
 
@@ -268,14 +268,14 @@ screens = [
 
                 widget.Spacer(length=10),
 
-                widget.TextBox(text='/Datos:',
+                widget.TextBox(text='/D:',
                                mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('spacefm  /Datos')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('df -h /Datos --o=avail | awk "NR>1" | tr -d " "'),
                                    update_interval=1),
 
                 widget.Spacer(length=10),
 
-                widget.TextBox(text='/Media:',
+                widget.TextBox(text='/M:',
                                mouse_callbacks={'Button1': lambda qtile: qtile.cmd_spawn('spacefm  /Media')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('df -h /Media --o=avail | awk "NR>1" | tr -d " "'),
                                    update_interval=1),
@@ -310,11 +310,13 @@ screens = [
 
                 # updates_pacman_icon(),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_pacman.sh'),
-                                   update_interval=10),
+                                   update_interval=1800),
+
+                widget.Spacer(length=10),
 
                 # updates_aur_icon(),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_aur.sh'),
-                                   update_interval=10),
+                                   update_interval=1800),
 
 
                 # ================================= WIDGETS BOTTOM RIGHT ================================= #
@@ -381,7 +383,7 @@ bring_front_click = True
 cursor_warp = False
 
 floating_layout = layout.Floating(float_rules=[
-    # Run the utility of `xprop` to see the wm class and name of an X client.
+    # Run the utility of `sleep 5 && xprop` to see the wm class and name of an X client.
     {'wmclass': 'confirm'},
     {'wmclass': 'dialog'},
     {'wmclass': 'download'},
@@ -398,7 +400,8 @@ floating_layout = layout.Floating(float_rules=[
     {'wmclass': 'ssh-askpass'},  # ssh-askpass
     {'wmclass': 'ulauncher'},
     {'wmclass': 'onboard'},
-    {'wmclass': 'Transmission-gtk'}
+    {'wmclass': 'Transmission-gtk'},
+    {'wmclass': 'file-roller'},
 ])
 
 
@@ -408,7 +411,7 @@ focus_on_window_activation = "focus"
 wmname = "LG3D"
 
 autostart = [
-        "killall nm-applet & sleep 1 && nm-applet --sm-disable &",
+        "killall nm-applet & sleep 2 && nm-applet --sm-disable &",
 ]
 
 for x in autostart:

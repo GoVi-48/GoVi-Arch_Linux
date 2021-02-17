@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-temp=$(nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits)
+#temp=$(nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader,nounits)
+temp=40
 
 if [ $temp -ge 20 -a $temp -lt 55 ]; then
     echo "${temp}°C "

@@ -1,0 +1,267 @@
+Mono path[0] = '/Media/Games/PC/Valheim/game/valheim_Data/Managed'
+Mono config path = '/Media/Games/PC/Valheim/game/valheim_Data/MonoBleedingEdge/etc'
+Preloaded 'libsteam_api.so'
+Preloaded 'libsteam_api.so.bak'
+Display 0 'BenQ GL2460 24"': 1920x1080 (primary device).
+Desktop is 1920 x 1080 @ 60 Hz
+[Vulkan init] extensions: count=17
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_display, enabled=1
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_display_properties2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_xcb_surface, enabled=0
+[Vulkan init] extensions: name=VK_KHR_xlib_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_acquire_xlib_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+[Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_display_surface_counter, enabled=0
+skipping config: /Media/Games/PC/Valheim/game/MangoHud.conf [ not found ]
+skipping config: /home/govi/.config/MangoHud/valheim.x86_64.conf [ not found ]
+parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
+Vulkan detection: 2
+Initialize engine version: 2019.4.16f1 (e05b6e02d63e)
+[Subsystems] Discovering subsystems at path /Media/Games/PC/Valheim/game/valheim_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+[Vulkan init] extensions: count=17
+[Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_display, enabled=1
+[Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_display_properties2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_physical_device_properties2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_xcb_surface, enabled=0
+[Vulkan init] extensions: name=VK_KHR_xlib_surface, enabled=1
+[Vulkan init] extensions: name=VK_EXT_acquire_xlib_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_report, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
+[Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_display_surface_counter, enabled=0
+skipping config: /Media/Games/PC/Valheim/game/MangoHud.conf [ not found ]
+skipping config: /home/govi/.config/MangoHud/valheim.x86_64.conf [ not found ]
+parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
+[Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
+[Vulkan init] Physical Device 0x1bd2680 [0]: "GeForce GTX 980" deviceType=2 vendorID=10de deviceID=13c0
+[Vulkan init] Selected physical device 0x1bd2680
+[Vulkan init] Graphics queue count=1
+[Vulkan init] extensions: count=107
+[Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=0
+[Vulkan init] extensions: name=VK_KHR_8bit_storage, enabled=0
+[Vulkan init] extensions: name=VK_KHR_bind_memory2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_buffer_device_address, enabled=0
+[Vulkan init] extensions: name=VK_KHR_copy_commands2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_create_renderpass2, enabled=0
+[Vulkan init] extensions: name=VK_KHR_dedicated_allocation, enabled=1
+[Vulkan init] extensions: name=VK_KHR_depth_stencil_resolve, enabled=0
+[Vulkan init] extensions: name=VK_KHR_descriptor_update_template, enabled=1
+[Vulkan init] extensions: name=VK_KHR_device_group, enabled=0
+[Vulkan init] extensions: name=VK_KHR_draw_indirect_count, enabled=0
+[Vulkan init] extensions: name=VK_KHR_driver_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_fence_fd, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_memory_fd, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore, enabled=0
+[Vulkan init] extensions: name=VK_KHR_external_semaphore_fd, enabled=0
+[Vulkan init] extensions: name=VK_KHR_get_memory_requirements2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_image_format_list, enabled=1
+[Vulkan init] extensions: name=VK_KHR_imageless_framebuffer, enabled=0
+[Vulkan init] extensions: name=VK_KHR_maintenance1, enabled=1
+[Vulkan init] extensions: name=VK_KHR_maintenance2, enabled=1
+[Vulkan init] extensions: name=VK_KHR_maintenance3, enabled=0
+[Vulkan init] extensions: name=VK_KHR_multiview, enabled=1
+[Vulkan init] extensions: name=VK_KHR_pipeline_executable_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_push_descriptor, enabled=0
+[Vulkan init] extensions: name=VK_KHR_relaxed_block_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_sampler_mirror_clamp_to_edge, enabled=1
+[Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion, enabled=0
+[Vulkan init] extensions: name=VK_KHR_separate_depth_stencil_layouts, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_atomic_int64, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_clock, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_draw_parameters, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_float16_int8, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_float_controls, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_non_semantic_info, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_subgroup_extended_types, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_terminate_invocation, enabled=0
+[Vulkan init] extensions: name=VK_KHR_spirv_1_4, enabled=0
+[Vulkan init] extensions: name=VK_KHR_storage_buffer_storage_class, enabled=0
+[Vulkan init] extensions: name=VK_KHR_swapchain, enabled=1
+[Vulkan init] extensions: name=VK_KHR_swapchain_mutable_format, enabled=0
+[Vulkan init] extensions: name=VK_KHR_timeline_semaphore, enabled=0
+[Vulkan init] extensions: name=VK_KHR_uniform_buffer_standard_layout, enabled=0
+[Vulkan init] extensions: name=VK_KHR_variable_pointers, enabled=0
+[Vulkan init] extensions: name=VK_KHR_vulkan_memory_model, enabled=0
+[Vulkan init] extensions: name=VK_EXT_4444_formats, enabled=0
+[Vulkan init] extensions: name=VK_EXT_blend_operation_advanced, enabled=0
+[Vulkan init] extensions: name=VK_EXT_buffer_device_address, enabled=0
+[Vulkan init] extensions: name=VK_EXT_calibrated_timestamps, enabled=0
+[Vulkan init] extensions: name=VK_EXT_conditional_rendering, enabled=0
+[Vulkan init] extensions: name=VK_EXT_conservative_rasterization, enabled=0
+[Vulkan init] extensions: name=VK_EXT_custom_border_color, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_clip_enable, enabled=0
+[Vulkan init] extensions: name=VK_EXT_depth_range_unrestricted, enabled=0
+[Vulkan init] extensions: name=VK_EXT_descriptor_indexing, enabled=0
+[Vulkan init] extensions: name=VK_EXT_discard_rectangles, enabled=0
+[Vulkan init] extensions: name=VK_EXT_display_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_extended_dynamic_state, enabled=0
+[Vulkan init] extensions: name=VK_EXT_external_memory_host, enabled=0
+[Vulkan init] extensions: name=VK_EXT_fragment_shader_interlock, enabled=0
+[Vulkan init] extensions: name=VK_EXT_global_priority, enabled=0
+[Vulkan init] extensions: name=VK_EXT_host_query_reset, enabled=0
+[Vulkan init] extensions: name=VK_EXT_image_robustness, enabled=0
+[Vulkan init] extensions: name=VK_EXT_index_type_uint8, enabled=0
+[Vulkan init] extensions: name=VK_EXT_inline_uniform_block, enabled=0
+[Vulkan init] extensions: name=VK_EXT_line_rasterization, enabled=0
+[Vulkan init] extensions: name=VK_EXT_memory_budget, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pci_bus_info, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_cache_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_pipeline_creation_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_post_depth_coverage, enabled=0
+[Vulkan init] extensions: name=VK_EXT_private_data, enabled=0
+[Vulkan init] extensions: name=VK_EXT_robustness2, enabled=0
+[Vulkan init] extensions: name=VK_EXT_sample_locations, enabled=0
+[Vulkan init] extensions: name=VK_EXT_sampler_filter_minmax, enabled=0
+[Vulkan init] extensions: name=VK_EXT_scalar_block_layout, enabled=0
+[Vulkan init] extensions: name=VK_EXT_separate_stencil_usage, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_atomic_float, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_demote_to_helper_invocation, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_image_atomic_int64, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_ballot, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_subgroup_vote, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_viewport_index_layer, enabled=0
+[Vulkan init] extensions: name=VK_EXT_subgroup_size_control, enabled=0
+[Vulkan init] extensions: name=VK_EXT_texel_buffer_alignment, enabled=0
+[Vulkan init] extensions: name=VK_EXT_tooling_info, enabled=0
+[Vulkan init] extensions: name=VK_EXT_transform_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_vertex_attribute_divisor, enabled=0
+[Vulkan init] extensions: name=VK_EXT_ycbcr_image_arrays, enabled=0
+[Vulkan init] extensions: name=VK_NV_coverage_reduction_mode, enabled=0
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation, enabled=0
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation_image_aliasing, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_diagnostic_checkpoints, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_diagnostics_config, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_generated_commands, enabled=0
+[Vulkan init] extensions: name=VK_NV_fill_rectangle, enabled=0
+[Vulkan init] extensions: name=VK_NV_fragment_coverage_to_color, enabled=0
+[Vulkan init] extensions: name=VK_NV_framebuffer_mixed_samples, enabled=0
+[Vulkan init] extensions: name=VK_NV_geometry_shader_passthrough, enabled=0
+[Vulkan init] extensions: name=VK_NV_sample_mask_override_coverage, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_sm_builtins, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_subgroup_partitioned, enabled=0
+[Vulkan init] extensions: name=VK_NV_viewport_array2, enabled=0
+[Vulkan init] extensions: name=VK_NV_viewport_swizzle, enabled=0
+[Vulkan init] extensions: name=VK_NVX_multiview_per_view_attributes, enabled=0
+Vulkan API version 1.1.0 (1.2.155 supported by driver)
+Vulkan vendor=[NVIDIA] id=[10de]
+Vulkan renderer=[GeForce GTX 980] id=[13c0]
+Vulkan device type 2
+Vulkan driverversion=[0x7309c000] uint=[1930018816]
+Vulkan PSO: Cache data successfully loaded [size=1813295,path=/tmp/IronGate/Valheim/vulkan_pso_cache.bin]
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.104 seconds
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+InitializeOrResetSwapChain 1920x1080 hdr=0 samples=1
+MANGOHUD: recreating font image
+MANGOHUD: recreating font image
+UnloadTime: 0.416044 ms
+02/16/2021 18:15:04: Starting to load scene:start
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Couldn't create a Convex Mesh from source mesh "RearBig" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. 
+(Filename:  Line: 91)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+MANGOHUD: recreating font image
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 7f620ffff640 -> priority: 1 
+  Thread -> id: 7f620f7fe640 -> priority: 1 
+MANGOHUD: recreating font image
+UnloadTime: 4.472872 ms
+Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu). 
+(Filename:  Line: 509)
+
+Initializing Google Analytics 0.2. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+02/16/2021 18:15:12: Initializing world generator seed: ( 0 )   menu:True  worldgen version:1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+02/16/2021 18:15:12: Using mountain distance: 1000
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+02/16/2021 18:15:12: Render threading mode:MultiThreaded
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+02/16/2021 18:15:12: Using steam_appid.txt
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+02/16/2021 18:15:12: Using steam APPID:892970
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+02/16/2021 18:15:12: Steam initialized, persona:Goldberg
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+02/16/2021 18:15:12: Missing audio clip in music respawn
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+02/16/2021 18:15:12: Checking for installed DLCs
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+02/16/2021 18:15:12: DLC:beta installed:False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+02/16/2021 18:15:12: Builder started
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+02/16/2021 18:15:12: Loaded localization English
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+02/16/2021 18:15:12: Loaded localization Spanish
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+02/16/2021 18:15:12: ARG 0 ./valheim.x86_64
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+MANGOHUD: recreating font image
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 87161.
+Total: 41.179177 ms (FindLiveObjects: 2.767041 ms CreateObjectMapping: 4.478353 ms MarkObjects: 33.703684 ms  DeleteObjects: 0.229554 ms)
+
+02/16/2021 18:15:14: UI Group status changed Menu = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+02/16/2021 18:15:16: Steam manager on destroy
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Vulkan PSO: data extracted [new size=1830133, old size=1813295, incomplete=0]
+Vulkan PSO: Saved size[1830133] path[/tmp/IronGate/Valheim/vulkan_pso_cache.bin] success=1 headerChanged=0 sizeChanged=1

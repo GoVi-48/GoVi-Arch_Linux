@@ -1,5 +1,7 @@
 #!/bin/bash
 
+zenity --info --text "Reseting RSS Games" 2> /dev/null
+
 pgrep -x liferea || liferea &
 
 touch "$HOME/.config/qtile/scripts/Logs/Games/pass_check_entries_games"

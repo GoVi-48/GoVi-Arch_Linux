@@ -18131,3 +18131,194 @@ RuntimeError: Event loop is closed
 2021-02-16 15:42:25,271 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
 2021-02-16 15:42:25,290 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
 2021-02-16 15:42:25,291 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 16:23:21,103 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 16:23:21,140 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 16:23:21,141 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 16:58:02,175 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.MatchError
+2021-02-16 17:53:22,596 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 17:53:22,630 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 17:53:22,631 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 18:00:49,864 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 18:00:49,900 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 18:00:49,900 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 18:01:20,968 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-16 18:01:21,010 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-16 18:01:21,010 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-16 18:43:27,320 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-16 20:19:56,544 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-16 20:35:51,913 ERROR libqtile manager.py:process_key_event():L375 KB command error kill: No object window in path 'window'
+2021-02-16 20:38:07,639 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 20:38:07,654 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 20:38:07,654 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 20:38:08,805 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-16 20:38:08,839 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-16 20:38:08,839 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-16 20:38:09,330 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-16 20:38:09,359 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-16 20:38:09,359 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-16 20:38:25,472 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-16 20:39:09,422 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 20:39:09,454 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 20:39:09,455 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 20:39:49,544 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-16 20:39:51,738 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 20:39:51,784 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 20:39:51,784 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 20:39:55,621 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 20:39:55,660 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 20:39:55,660 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 20:39:56,051 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 20:39:56,095 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 20:39:56,095 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 21:07:57,948 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-16 21:08:04,540 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 21:08:04,559 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 21:08:04,559 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 21:09:16,243 ERROR libqtile manager.py:handle_exception():L77 parse_markup() failed for b'error: error sending request for url (https://aur.archlinux.org/rpc?arg%5B%5D=arc-gtk-theme-git&arg%5B%5D=balena-etcher&arg%5B%5D=cairo-dock-git&arg%5B%5D=cairo-dock-plug-ins-git&arg%5B%5D=dropbox&arg%5B%5D=easystroke-git&arg%5B%5D=folder-color-switcher&arg%5B%5D=font-manager-git&arg%5B%5D=gamemode-git&arg%5B%5D=kodi-addon-pvr-iptvsimple-git&arg%5B%5D=lib32-mangohud-git&arg%5B%5D=libmpd-git&arg%5B%5D=lightdm-webkit-theme-aether&arg%5B%5D=mangohud-common-git&arg%5B%5D=mangohud-git&arg%5B%5D=mpc-qt-git&arg%5B%5D=nvidia-led&arg%5B%5D=paru-git&arg%5B%5D=picom-jonaburg-git&arg%5B%5D=polybar-git&arg%5B%5D=skypeforlinux-stable-bin&arg%5B%5D=spacefm-git&arg%5B%5D=spotify&arg%5B%5D=teamviewer&arg%5B%5D=timeshift-bin&arg%5B%5D=tiny-media-manager&arg%5B%5D=ttf-ms-fonts&arg%5B%5D=ulauncher&arg%5B%5D=ulauncher-theme-arc-dark-git&arg%5B%5D=vala0.44&arg%5B%5D=windowmaker&arg%5B%5D=yay-git&v=5&type=info): error trying to connect: dns error: failed to lookup address information: Temporary failure in name resolution: error trying to connect: dns error: failed to lookup address information: Temporary failure in name resolution: dns error: failed to lookup address information: Temporary failure in name resolution: failed to lookup address information: Temporary failure in name resolution\n'
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 920, in f
+    func(*args)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 489, in update
+    self.text = text
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 342, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 70, in text
+    attrlist, value, accel_char = pangocffi.parse_markup(value)
+  File "/usr/lib/python3.9/site-packages/libqtile/pangocffi.py", line 180, in parse_markup
+    raise Exception("parse_markup() failed for %s" % value)
+Exception: parse_markup() failed for b'error: error sending request for url (https://aur.archlinux.org/rpc?arg%5B%5D=arc-gtk-theme-git&arg%5B%5D=balena-etcher&arg%5B%5D=cairo-dock-git&arg%5B%5D=cairo-dock-plug-ins-git&arg%5B%5D=dropbox&arg%5B%5D=easystroke-git&arg%5B%5D=folder-color-switcher&arg%5B%5D=font-manager-git&arg%5B%5D=gamemode-git&arg%5B%5D=kodi-addon-pvr-iptvsimple-git&arg%5B%5D=lib32-mangohud-git&arg%5B%5D=libmpd-git&arg%5B%5D=lightdm-webkit-theme-aether&arg%5B%5D=mangohud-common-git&arg%5B%5D=mangohud-git&arg%5B%5D=mpc-qt-git&arg%5B%5D=nvidia-led&arg%5B%5D=paru-git&arg%5B%5D=picom-jonaburg-git&arg%5B%5D=polybar-git&arg%5B%5D=skypeforlinux-stable-bin&arg%5B%5D=spacefm-git&arg%5B%5D=spotify&arg%5B%5D=teamviewer&arg%5B%5D=timeshift-bin&arg%5B%5D=tiny-media-manager&arg%5B%5D=ttf-ms-fonts&arg%5B%5D=ulauncher&arg%5B%5D=ulauncher-theme-arc-dark-git&arg%5B%5D=vala0.44&arg%5B%5D=windowmaker&arg%5B%5D=yay-git&v=5&type=info): error trying to connect: dns error: failed to lookup address information: Temporary failure in name resolution: error trying to connect: dns error: failed to lookup address information: Temporary failure in name resolution: dns error: failed to lookup address information: Temporary failure in name resolution: failed to lookup address information: Temporary failure in name resolution\n'
+2021-02-16 21:14:12,287 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 21:14:12,320 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 21:14:12,320 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 21:14:14,211 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-16 21:14:14,229 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-16 21:14:14,230 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-16 21:14:21,108 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 21:14:21,146 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 21:14:21,146 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 21:15:07,437 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 21:15:07,462 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 21:15:07,463 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 21:15:08,764 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-16 21:15:08,799 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-16 21:15:08,799 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-16 21:17:54,229 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 21:17:54,249 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 21:17:54,249 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 21:24:38,372 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 21:24:38,409 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 21:24:38,410 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 21:26:01,561 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-16 21:26:13,068 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 21:26:13,087 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 21:26:13,087 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 21:26:26,985 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 21:26:27,008 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 21:26:27,009 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 21:26:28,592 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-16 21:26:28,638 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-16 21:26:28,638 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-16 21:54:43,440 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 21:54:43,493 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 21:54:43,493 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 22:00:11,579 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_left: No such command
+2021-02-16 22:00:11,635 ERROR libqtile manager.py:process_key_event():L375 KB command error decrease: No such command
+2021-02-16 22:00:11,635 ERROR libqtile manager.py:process_key_event():L375 KB command error add: No such command
+2021-02-16 22:11:08,502 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-16 22:11:15,366 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 22:11:15,389 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 22:11:15,389 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 22:26:39,087 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-16 22:26:43,835 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-16 22:26:52,868 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 22:26:52,897 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 22:26:52,898 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 22:33:04,596 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-16 22:42:06,138 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 22:42:06,192 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 22:42:06,192 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 23:11:43,465 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-16 23:11:57,452 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 23:11:57,495 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 23:11:57,496 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 23:12:17,844 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-16 23:12:24,508 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 23:12:24,529 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 23:12:24,529 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 23:12:51,536 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-16 23:12:56,413 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 23:12:56,442 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 23:12:56,442 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 23:13:15,628 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-16 23:13:25,765 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 23:13:25,800 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 23:13:25,800 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-16 23:13:55,290 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-16 23:13:57,808 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-16 23:13:57,813 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-16 23:13:57,813 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-17 00:15:08,468 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-17 00:15:08,507 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-17 00:15:08,507 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-17 00:45:35,196 ERROR libqtile xcore.py:_xpoll():L277 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/xcore.py", line 230, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.MatchError
+2021-02-17 00:52:56,056 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-17 00:52:56,075 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-17 00:52:56,075 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-17 16:21:45,119 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-17 16:21:45,129 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-17 16:21:45,129 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-17 16:22:05,064 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-17 16:22:27,264 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-17 16:22:29,110 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-17 16:24:52,546 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-17 16:24:52,559 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-17 16:24:52,559 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-17 16:27:22,657 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-17 16:27:28,335 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-17 16:27:36,654 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-17 16:27:36,687 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-17 16:27:36,687 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-17 16:27:40,832 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-17 16:27:40,862 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-17 16:27:40,862 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-17 16:27:41,378 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-17 16:27:41,403 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-17 16:27:41,403 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-17 16:28:32,724 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-17 16:28:41,693 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-17 16:28:41,695 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-17 16:28:41,695 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-17 16:28:59,974 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-17 16:29:09,221 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-17 16:29:09,223 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-17 16:29:09,223 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command
+2021-02-17 16:29:47,427 WARNING libqtile manager.py:maybe_restart():L269 Restarting Qtile with os.execv(...)
+2021-02-17 16:30:02,331 ERROR libqtile manager.py:process_key_event():L375 KB command error grow_right: No such command
+2021-02-17 16:30:02,333 ERROR libqtile manager.py:process_key_event():L375 KB command error increase_ratio: No such command
+2021-02-17 16:30:02,333 ERROR libqtile manager.py:process_key_event():L375 KB command error delete: No such command

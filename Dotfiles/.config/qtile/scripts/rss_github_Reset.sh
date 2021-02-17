@@ -1,5 +1,7 @@
 #!/bin/bash
 
+zenity --info --text "Reseting RSS Github" 2> /dev/null
+
 pgrep -x liferea || liferea &
 
 touch "$HOME/.config/qtile/scripts/Logs/Github/pass_check_entries_github"

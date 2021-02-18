@@ -27,7 +27,7 @@ bindkey -M menuselect 'j' vi-down-line-or-history
 # Colors
 unset color_prompt force_color_prompt
 autoload -U colors && colors
-PS1="%B%{%F{red}[%}%F{yellow}%}%n%{%F{green}%}@%{%F{blue}%}%m%{%F{green}%}:%F{yellow}%}%~%F{red}]%}%{%f%}$%b "
+PS1="%B%{%F{red}[%}%F{yellow}%}%n%{%F{green}%}@%{%F{blue}%}%m%{%F{green}%}:%F{magenta}%}%~%F{red}]%}%{%f%}$%b "
 alias diff='diff --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
@@ -51,6 +51,7 @@ export PATH=$PATH:$HOME/Scripts/Shell/Polybar/
 export PATH=$PATH:$HOME/Scripts/Shell/Programs/
 export PATH=$PATH:$HOME/Scripts/Shell/Utils/
 export PATH=$PATH:$HOME/Programs/Pycharm/bin/
+export RADV_PERFTEST=aco # AMD
 
 # Environment Games
 # export WINEFSYNC=1

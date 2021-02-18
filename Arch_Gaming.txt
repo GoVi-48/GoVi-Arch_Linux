@@ -17,7 +17,7 @@
 
 
 # Repos
-    vim /etc/pacman.conf
+    sudo nvim /etc/pacman.conf
     # ----------------------------------------------------------------------------- #
     [multilib]
     Include = /etc/pacman.d/mirrorlist
@@ -58,7 +58,7 @@
 
 
 # ACO "AMD Compiler"
-    vim ~/.bashrc
+    nvim ~/.bashrc
     # ----------------------------------------------------------------------------- #
     export RADV_PERFTEST=aco
     # ----------------------------------------------------------------------------- #
@@ -79,9 +79,9 @@
     yay -S mangohud lib32-mangohud
     cp /usr/share/doc/mangohud/MangoHud.conf.example ~/.config/MangoHud/
     cp ~/.config/MangoHud/MangoHud.conf.example ~/.config/MangoHud/MangoHud.conf
-    vim ~/.config/MangoHud/MangoHud.conf
+    nvim ~/.config/MangoHud/MangoHud.conf
     mangohud vkcube
-    vim ~/.bashrc
+    nvim ~/.bashrc
     # ----------------------------------------------------------------------------- #
     export MANGOHUD=1
     export MANGOHUD_DLSYM=1
@@ -91,8 +91,8 @@
 # Vkbasalt
     yay -S vkbasalt
     git clone https://github.com/crosire/reshade-shaders "Escritorio/Reshade-Shaders"
-    vim ~/.config/vkBasalt/vkBasalt.conf
-    vim ~/.bashrc
+    nvim ~/.config/vkBasalt/vkBasalt.conf
+    nvim ~/.bashrc
     # ----------------------------------------------------------------------------- #
     export VKBASALT_CONFIG_FILE="$HOME/.config/vkBasalt/vkBasalt.conf"
     export ENABLE_VKBASALT=1
@@ -107,7 +107,7 @@
     sudo pacman -S steam
     sudo pacman -S ttf-liberation
     # App Ids
-    vim ~/.local/share/Steam/userdata/82768134/760/screenshots.vdf
+    nvim ~/.local/share/Steam/userdata/82768134/760/screenshots.vdf
 
 
 # Retro Games
@@ -176,7 +176,7 @@
     git clone https://github.com/Frogging-Family/wine-tkg-git.git "$HOME/Escritorio/wine-tkg-git"
     cd ~/Escritorio/wine-tkg-git/wine-tkg-git
     makepkg -si
-    # vim ~/Escritorio/wine-tkg-git/wine-tkg-git/customization.cfg
+    # nvim ~/Escritorio/wine-tkg-git/wine-tkg-git/customization.cfg
     # sh non-makepkg-build.sh
 
 

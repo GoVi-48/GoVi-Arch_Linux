@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-temp=$(cat "/sys/devices/platform/it87.2608/hwmon/hwmon2/temp1_input" | cut -c -2)
+temp=$(sensors | awk '$1 ~ /^temp1/ {print substr($0,16,2)}' | awk 'NR==1')
 
 if [ $temp -ge 20 -a $temp -lt 40 ];then
     echo "${temp}°C "

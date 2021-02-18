@@ -41,9 +41,14 @@ fi
 # Autostart
 export PATH=$PATH:$HOME/Scripts/Shell/Autostart/
 
-nvidia_led.sh &
+# nvidia_led.sh &
 
-nvidia-settings --load-config-only &
+# nvidia-settings --load-config-only &
+pgrep -x firewall-applet && killall firewall-applet
+pgrep -x nm-applet && killall nm-applet
+pgrep -x cairo-dock && killall cairo-dock
+pgrep -x easystroke && killall easystroke
+pgrep -x picom && killall picom
 
 picom -cCGb &
 
@@ -53,7 +58,7 @@ set_background.sh &
 
 firewall-applet &
 
-#nm-applet --sm-disable &
+nm-applet --sm-disable &
 
 cairo-dock &
 

@@ -13,3 +13,5 @@ echo "0" > "$HOME/.config/qtile/scripts/Logs/Github/rss_github"
 ~/.config/qtile/scripts/rss_github_not.sh
 
 zenity --info --text "RSS Github Restarted" 2> /dev/null
+
+qtile cmd-obj -o cmd -f restart

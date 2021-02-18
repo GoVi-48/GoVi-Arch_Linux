@@ -9,8 +9,8 @@ show_thumbnail=1
 big_icon_size=64
 
 [Window]
-width=1039
-height=984
+width=1898
+height=990
 maximized=0
 
 [Desktop]
@@ -70,16 +70,16 @@ main_terminal-key=65473
 main_save_tabs-b=1
 main_exit-key=113
 main_exit-keymod=4
-panel1_show-s=////home/govi/.config/qtile
-panel1_show-x=0
+panel1_show-s=////home/govi/Downloads////home/govi/Games/PC/Valheim
+panel1_show-x=1
 panel1_show-key=49
 panel1_show-keymod=4
 panel1_show-b=1
-panel2_show-s=////home/govi/Games/PC/Valheim/Wine
+panel2_show-s=////home/govi/Wine/Scripts/_Launch_Scripts
 panel2_show-x=0
 panel2_show-key=50
 panel2_show-keymod=4
-panel2_show-b=2
+panel2_show-b=1
 panel3_show-s=////home/govi
 panel3_show-x=0
 panel3_show-key=51
@@ -282,9 +282,10 @@ panel1_sort_extra-z=1
 panel1_sort_extra-b=1
 panel1_book_fol-b=1
 panel2_show_toolbox-b=1
-panel2_show_dirtree-b=1
 panel2_show_book-b=2
 panel2_show_sidebar-b=2
+panel2_list_detailed-x=0
+panel2_list_detailed-y=0
 panel2_list_detailed-b=2
 panel2_list_icons-b=2
 panel2_list_compact-b=1

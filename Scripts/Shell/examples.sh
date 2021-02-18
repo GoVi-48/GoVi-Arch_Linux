@@ -10,16 +10,17 @@ awk -v FS="(START|END)" 'NF>1 {print $2}' # Exclude blank lines
 
 sed -n "s/.*START\([^T]*\)END.*/\1/p"
 
-# Extract start with
+# Extract starts with
 grep "^STRING"
 
 awk '$1 ~ /^STRING/'
+
+# Extract starts with and Substract
+awk '$1 ~ /^STRING/ {print substr($0,16,2)}' # Substract 2 characters of string 16
+awk '$1 ~ /^STRING/ {print substr($0,16,2); exit}' # Exit in the first match
 
 # Replace
 sed 's/THIS/THAT/g'
 
 # Check if output is a number
 [[ $1 == ?(-)+([0-9]) ]] && echo "$1 is an integer"
-
-
-sensors | awk '$1 ~ /^temp1/ {print substr($0,16,2)}'

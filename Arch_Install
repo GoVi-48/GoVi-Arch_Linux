@@ -146,17 +146,20 @@ nvim ~/.xinitrc
 # Autostart
 export PATH=$PATH:$HOME/Scripts/Shell/Autostart/
 
-nvidia_led.sh &
+pgrep -x firewall-applet && killall firewall-applet
+pgrep -x nm-applet && killall nm-applet
+pgrep -x cairo-dock && killall cairo-dock
+pgrep -x easystroke && killall easystroke
 
-nvidia-settings --load-config-only &
+# nvidia_led.sh &
+
+# nvidia-settings --load-config-only &
 
 picom -cCGb &
 
 setxkbmap -layout es &
 
-feh --bg-fill --no-fehbg --randomize ~/Pictures/Desktop/* &
-
-polybar.sh &
+set_background.sh &
 
 firewall-applet &
 
@@ -174,16 +177,6 @@ exec qtile
 sudo nvim ~/.xprofile
 # ======================================================================================= #
 -model pc104 -layout es,es,tr -variant ,deadtilde,dvorak -option grp:alt_shift_toggle
-# ======================================================================================= #
-
-sudo nvim /usr/share/xsessions/qtile.desktop
-# ======================================================================================= #
-[Desktop Entry]
-Name=Qtile
-Comment=Qtile Session
-Exec=~/.xinitrc
-Type=Application
-Keywords=wm;tiling
 # ======================================================================================= #
 
 

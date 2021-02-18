@@ -89,6 +89,7 @@ CHECK_ENTRIES(){
     echo -e "\nEl Nuevo Amanecer:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCxwWUF4NiXO6KZlQD0zcu2g" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nEl Relleno Misterios:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCX-F2q3iv0rK7e7W59kThZg" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nJaconor 73:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCM0AdqMFG8_TSL7MJy--RCA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
+    echo -e "\nJC Gigamisterios:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCQ3zNtUFa8nSG1Tncsr-cWQ"| awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nLorena Martín - Resonando Con Tu Esencia:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCq_50owIFPeREuXxnYzMmKA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nLuciernaga1962:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC4Vm2JlEwPZmfbwPD13O5sw"  | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nMartin Laplace:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCw5x89dM0RQTR3gd8bm0zhQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
@@ -174,7 +175,7 @@ if [ -f  ~/.config/qtile/scripts/notf_ON ]; then
     [ $UPDATES -eq 10 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
     [ $UPDATES -eq 15 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
     [ $UPDATES -eq 20 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
-NR > 1 { exit }; 1fi
+fi
 
 # crontab -e
 # */5 * * * * ~/.config/qtile/scripts/rss_youtube.sh

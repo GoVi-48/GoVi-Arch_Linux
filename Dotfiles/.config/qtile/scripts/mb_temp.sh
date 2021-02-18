@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-temp=$(sensors | awk '$1 ~ /^temp1/ {print substr($0,16,2)}' | awk 'NR==1')
+temp=$(sensors | awk '$1 ~ /^temp1/ {print substr($0,16,2); exit}')
 
 if [ $temp -ge 20 -a $temp -lt 40 ];then
     echo "${temp}°C "

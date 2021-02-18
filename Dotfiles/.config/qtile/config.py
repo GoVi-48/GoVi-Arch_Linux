@@ -107,7 +107,7 @@ def window_to_next_group(qtile):
 
 
 # Run "sleep 5 && xprop" to see the wm class and name of an X client.
-groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefox", "lutris"])]),
+groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefox", "lutris", "liferea"])]),
           Group("2", label="", layout='monadtall', matches=[Match(wm_class=["jetbrains-pycharm-ce-debug"])]),
           Group("3", label="", layout='monadtall'),
           Group("4", label="", layout='monadtall'),
@@ -396,7 +396,7 @@ floating_layout = layout.Floating(float_rules=[
     Match(title='pinentry'),  # GPG key password entry
     Match(title='ulauncher'),
     Match(title='onboard'),
-    Match(title='Transmission-gtk'),
+    Match(title='Transmission'),
     Match(title='file-roller'),
 ])
 auto_fullscreen = True

@@ -102,14 +102,15 @@ systemctl enable --now cronie.service
 crontab -e
 # ======================================================================================= #
 MAILTO=""
-*/20 * * * * ~/.config/polybar/scripts/rss_games.sh
-*/30 * * * * ~/.config/polybar/scripts/rss_youtube.sh
-*/40 * * * * ~/.config/polybar/scripts/system_update.sh
-0 */1 * * * ~/.config/polybar/scripts/rss_github.sh
 */5 * * * * ~/Scripts/Shell/Autostart/set_background.sh
-00 00 * * * ~/Scripts/Shell/Utils/Webgrab_GIT.sh > ~/Programas/Webgrab++/webgrab.log
-00 12 * * * ~/Scripts/Shell/Utils/Webgrab_GIT.sh > ~/Programas/Webgrab++/webgrab.log
+*/40 * * * * ~/.config/qtile/scripts/system_update.sh
 
+*/20 * * * * ~/.config/qtile/scripts/rss_games.sh
+*/30 * * * * ~/.config/qtile/scripts/rss_youtube.sh
+0 */1 * * * ~/.config/qtile/scripts/rss_github.sh
+
+00 00 * * * ~/Scripts/Shell/Utils/Webgrab_GIT.sh > ~/Programs/Webgrab++/webgrab.log
+00 12 * * * ~/Scripts/Shell/Utils/Webgrab_GIT.sh > ~/Programs/Webgrab++/webgrab.log
 # ======================================================================================= #
 
 crontab -l

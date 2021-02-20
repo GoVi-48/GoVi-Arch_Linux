@@ -60,6 +60,8 @@ firewall-applet &
 
 nm-applet --sm-disable &
 
+cairo-dock &
+
 easystroke &
 
 imwheel.sh &

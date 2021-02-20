@@ -57,13 +57,6 @@
     pacman -Qs vulkan-radeon
 
 
-# ACO "AMD Compiler"
-    nvim ~/.bashrc
-    # ----------------------------------------------------------------------------- #
-    export RADV_PERFTEST=aco
-    # ----------------------------------------------------------------------------- #
-
-
 # AUR packages (yay)
     git clone https://aur.archlinux.org/yay.git "Escritorio/yay"
     cd ~/Escritorio/yay
@@ -90,7 +83,7 @@
 
 # Vkbasalt
     yay -S vkbasalt
-    git clone https://github.com/crosire/reshade-shaders "Escritorio/Reshade-Shaders"
+    git clone https://github.com/crosire/reshade-shaders "~/Reshade-Shaders"
     nvim ~/.config/vkBasalt/vkBasalt.conf
     nvim ~/.bashrc
     # ----------------------------------------------------------------------------- #
@@ -131,12 +124,8 @@
 
 
 # Winetricks
-    wget -P ~/Escritorio https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
-    chmod +x ~/Escritorio/winetricks
-    cd ~/Escritorio/winetricks
-    winetricks d3dcompiler_43 d3dcompiler_47 d3dx9
-    winetricks --force vcrun2013 vcrun2015 vcrun2017
-    winetricks win10
+    wget -P ~/ https://raw.githubusercontent.com/Winetricks/winetricks/master/src/winetricks
+    chmod +x ~/winetricks
 
 
  # Fonts
@@ -150,25 +139,26 @@
 
 
 # Media Files
+    git clone https://github.com/z0z0z/mf-install.git "$HOME/wine-mf"
     rm ~/.wine && winecfg
-    git clone https://github.com/z0z0z/mf-install.git "$HOME/Escritorio/wine-mf"
-    cd ~/Escritorio/wine-mf
-    mkdir -p ~/Escritorio/wine-pfx_mf && cp ~/.wine/* $_
-    export WINEPREFIX="$HOME/Escritorio/wine-pfx_mf"
+    cd ${WINEPREFIX:-$HOME/.wine}/drive_c/windows/Fonts && for i in /usr/share/fonts/**/*.{ttf,otf}; do ln -s "$i"; done
+    cd ~/wine-mf
+    mkdir -p ~/wine-pfx_mf && cp ~/.wine/* $_
+    export WINEPREFIX="$HOME/wine-pfx_mf"
     ./mf-install.sh
 
 
 # DXVK
     # https://github.com/doitsujin/dxvk/releases
 
-    # v. 1.7.3
-    wget -P ~/Escritorio https://github.com/doitsujin/dxvk/releases/download/v1.7.3/dxvk-1.7.3.tar.gz
-    tar xvzf ~/Escritorio/dxvk-1.7.3.tar.gz -C ~/Escritorio/
-    cd ~/Escritorio/dxvk-1.7.3
-
-    # Install
-    cp -rfv ~/Escritorio/wine-pfx_mf ~/Escritorio/wine-pfx_mf-dxvk-1.7.3
-    export WINEPREFIX=~/Escritorio/wine-pfx_mf-dxvk-1.7.3
+    # v-1.8
+    wget -P ~/ https://github.com/doitsujin/dxvk/releases/download/v1.8/dxvk-1.8.tar.gz
+    tar xvzf ~/dxvk-1.8.tar.gz -C ~/
+    rm ~/.wine && winecfg
+    cd ${WINEPREFIX:-$HOME/.wine}/drive_c/windows/Fonts && for i in /usr/share/fonts/**/*.{ttf,otf}; do ln -s "$i"; done
+    cd ~/dxvk-1.8
+    mkdir -p ~/wine-pfx_dxvk-1.8 && cp ~/.wine/* $_
+    export WINEPREFIX=~/wine-pfx_dxvk-1.8
     ./setup_dxvk.sh install
 
 

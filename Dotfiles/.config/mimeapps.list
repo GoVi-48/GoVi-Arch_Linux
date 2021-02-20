@@ -1,5 +1,5 @@
 [Added Associations]
-application/octet-stream=skypeforlinux-share.desktop;org.kde.kate.desktop;
+application/octet-stream=org.kde.kate.desktop;
 application/x-bittorrent=transmission-qt.desktop;org.kde.kget.desktop;
 application/x-compressed-tar=org.kde.ark.desktop;org.kde.kate.desktop;
 application/x-desktop=Alacritty.desktop;lxshortcut.desktop;alacritty-usercreated-0.desktop;vim.desktop;org.kde.kate.desktop;libreoffice-writer.desktop;okularApplication_txt.desktop;wine-extension-txt.desktop;
@@ -54,9 +54,10 @@ x-scheme-handler/magnet=userapp-transmission-gtk-4418J0.desktop;
 x-scheme-handler/mailto=userapp-Thunderbird-P4BTL0.desktop;
 text/plain=userapp-sudo vim-RDJCY0.desktop;
 application/x-cd-image=org.gnome.FileRoller.desktop;
+application/zip=org.gnome.FileRoller.desktop;
 
 [Default Applications]
-application/octet-stream=skypeforlinux-share.desktop;org.kde.kate.desktop;
+application/octet-stream=org.kde.kate.desktop;
 application/x-bittorrent=transmission-qt.desktop;
 application/x-compressed-tar=org.kde.ark.desktop;
 application/x-desktop=Alacritty.desktop;lxshortcut.desktop;alacritty-usercreated-0.desktop;vim.desktop;org.kde.kate.desktop;
@@ -116,6 +117,7 @@ x-scheme-handler/skype=skypeforlinux.desktop
 x-scheme-handler/tel=skypeforlinux.desktop
 text/plain=userapp-sudo vim-RDJCY0.desktop
 application/x-cd-image=org.gnome.FileRoller.desktop;
+application/zip=org.gnome.FileRoller.desktop;
 
 [Removed Associations]
 application/x-dlc-container=JDownloader.sh.desktop;
@@ -124,3 +126,4 @@ image/vnd.adobe.photoshop=wine-extension-psd.desktop;
 text/x-python=terminator.desktop;
 text/x-python3=org.kde.konsole.desktop;
 application/x-desktop=bash-usercreated-0.desktop;
+application/octet-stream=skypeforlinux-share.desktop;

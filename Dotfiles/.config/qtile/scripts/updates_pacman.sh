@@ -19,3 +19,5 @@ else
 fi
 
 while ! ping -c2 google.com > /dev/null 2>&1; do sleep 10; done
+
+exit

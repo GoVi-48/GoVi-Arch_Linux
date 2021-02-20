@@ -107,14 +107,14 @@ def window_to_next_group(qtile):
 
 
 # Run "sleep 5 && xprop" to see the wm class and name of an X client.
-groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefox", "lutris", "liferea"])]),
+groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefox", "lutris", "liferea",
+                                                                       "epicgameslauncher.exe", "Origin.exe", "Steam"])]),
           Group("2", label="", layout='monadtall', matches=[Match(wm_class=["jetbrains-pycharm-ce-debug"])]),
           Group("3", label="", layout='monadtall'),
-          Group("4", label="", layout='monadtall'),
-          Group("5", label="", layout='monadtall'),
-          Group("6", label="", layout='monadtall'),
-          Group("7", label="", layout='monadtall'),
-          Group("8", label="", layout='floating')]
+          Group("4", label="", layout='monadtall'),
+          Group("5", label="", layout='monadtall'),
+          Group("6", label="", layout='monadtall'),
+          Group("7", label="", layout='floating')]
 
 # Switch Groups
 for i in groups:
@@ -173,7 +173,7 @@ def updates_pacman_icon():
     p = subprocess.getoutput('pacman -Qu | wc -l | cut -c1-1')
     p = int(p)
     if p > 0:
-        return widget.Image(filename='~/.config/qtile/@resources/updates_pacman.png', mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty sudo pacman -Syu')})
+        return widget.Image(filename='~/.config/qtile/@resources/updates_pacman.png')
     return widget.Image(filename='~/.config/qtile/@resources/updates_0.png')
 
 
@@ -181,7 +181,7 @@ def updates_aur_icon():
     a = subprocess.getoutput('paru -Qua | wc -l | cut -c1-1')
     a = int(a)
     if a > 0:
-        return widget.Image(filename='~/.config/qtile/@resources/updates_aur.png', mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty paru -Syua --skipreview')})
+        return widget.Image(filename='~/.config/qtile/@resources/updates_aur.png')
     return widget.Image(filename='~/.config/qtile/@resources/updates_0.png')
 
 
@@ -252,7 +252,7 @@ screens = [
             [
                 # ================================= WIDGETS BOTTOM LEFT =================================  #
                 widget.Image(filename='~/.config/qtile/@resources/power.png',
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('kill -9 -1')}),
+                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('qtile cmd-obj -o cmd -f shutdown')}),
 
                 widget.Spacer(length=10),
 
@@ -310,14 +310,18 @@ screens = [
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_github_not.sh'),
                                    update_interval=300, fontsize=12),
 
+                widget.Spacer(length=10),
+
                 # updates_pacman_icon(),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_pacman.sh'),
+                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e sudo pacman -Syu; qtile cmd-obj -o cmd -f restart')},
                                    update_interval=1800),
 
                 widget.Spacer(length=10),
 
                 # updates_aur_icon(),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_aur.sh'),
+                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e paru -Syua --skipreview; qtile cmd-obj -o cmd -f restart')},
                                    update_interval=1800),
 
 
@@ -398,6 +402,8 @@ floating_layout = layout.Floating(float_rules=[
     Match(title='onboard'),
     Match(title='Transmission'),
     Match(title='file-roller'),
+    Match(title='Epic Games'),
+    Match(title='Origin'),
 ])
 auto_fullscreen = True
 focus_on_window_activation = "smart"

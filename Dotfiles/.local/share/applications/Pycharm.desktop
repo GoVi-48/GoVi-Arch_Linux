@@ -2,10 +2,11 @@
 Categories=Development;IDE;
 Comment[es_ES]=Python IDE for Professional Developers
 Comment=Python IDE for Professional Developers
-Exec="$HOME/Programs/Pycharm/bin/pycharm.sh" %f
+Exec=/home/govi/Programs/Pycharm/bin/pycharm.sh
+MimeType=
 GenericName[es_ES]=
 GenericName=
-Icon=pycharm
+Icon=~/Programs/Pycharm/bin/pycharm.sh
 MimeType=
 Name[es_ES]=PyCharm Community Edition
 Name=PyCharm Community Edition

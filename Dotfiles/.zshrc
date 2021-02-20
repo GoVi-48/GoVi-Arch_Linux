@@ -51,14 +51,13 @@ export PATH=$PATH:$HOME/Scripts/Shell/Polybar/
 export PATH=$PATH:$HOME/Scripts/Shell/Programs/
 export PATH=$PATH:$HOME/Scripts/Shell/Utils/
 export PATH=$PATH:$HOME/Programs/Pycharm/bin/
-export RADV_PERFTEST=aco # AMD
 
 # Environment Games
 # export WINEFSYNC=1
 # export MANGOHUD=1
 # export MANGOHUD_DLSYM=1
 # export ENABLE_VKBASALT=1
-export VKBASALT_CONFIG_FILE="$HOME/.config/vkBasalt/vkBasalt.conf"
+#export VKBASALT_CONFIG_FILE="$HOME/.config/vkBasalt/vkBasalt.conf"
 
 # Load aliases if exist.
 [ -f "$HOME/.config/aliasrc" ] && source "$HOME/.config/aliasrc"
@@ -75,6 +74,7 @@ alias hy="history"
 alias k9="kill -9"
 alias ka="killall"
 alias l="exa -al --color=always --group-directories-first"
+alias lns="ln -sf"
 alias mv="mv -fv"
 alias nv="nvim"
 alias pc="pavucontrol &"

@@ -2,6 +2,7 @@ system:
   game_path: ~/Games/PC
   prefer_system_libs: true
 wine:
+  ShowCrashDialog: true
   esync: false
   fsync: true
   system_winetricks: false

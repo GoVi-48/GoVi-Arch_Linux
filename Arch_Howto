@@ -19,13 +19,18 @@ sudo pacman -S alacritty audacity exa ffmpeg firefox gimp gparted inkscape kdenl
 sudo pacman -S bc extra-cmake-modules fuseiso gnome-themes-extra icoutils jdk-openjdk lm_sensors mono nvidia-led packagekit-qt5 polkit unrar wget zip zenity
 
 # AUR packages
-paru -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke java-8-openjdk liferea mpc-qt picard skype spotify teamviewer timeshift tiny-media-manager
+paru -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke java-8-openjdk liferea mpc-qt picard sgtk-menu skype spotify teamviewer timeshift tiny-media-manager
 
 # Fonts
 ln -s /windows/Windows/Fonts /usr/share/fonts/WindowsFonts
 paru -S font-manager ttf-ms-fonts
 sudo pacman -S cantarell-fonts noto-fonts noto-fonts-extra noto-fonts-emoji ttf-font-awesome ttf-hack ttf-jetbrains-mono ttf-ubuntu-font-family xorg-fonts-misc
 fc-cache --force
+
+# Themes
+sudo ln -s /home/$USER/.gtkrc-2.0 /etc/gtk-2.0/gtkrc
+sudo ln -s /home/$USER/.config/gtk-3.0/settings.ini /etc/gtk-3.0/settings.ini
+lxappearance
 
 # File Manager
 paru -S spacefm ffmpegthumbnailer
@@ -98,6 +103,7 @@ ls -l /
 
 sudo pacman -S cronie
 systemctl enable --now cronie.service
+systemctl status cronie.service
 
 crontab -e
 # ======================================================================================= #
@@ -155,8 +161,10 @@ Defaults editor=/usr/bin/nvim, !env_editor
 # ======================================================================================= #
 
 # Default directory names.
+paru -S xdg-user-dirs-gtk
 sudo nvim /etc/xdg/user-dirs.defaults
 nvim ~/.config/user-dirs.dirs
+xdg-user-dirs-update
 
 # Tuning PulseAudio
 sudo nvim /etc/pulse/daemon.conf

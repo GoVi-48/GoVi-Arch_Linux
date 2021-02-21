@@ -108,7 +108,7 @@ def window_to_next_group(qtile):
 
 # Run "sleep 5 && xprop" to see the wm class and name of an X client.
 groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefox", "lutris", "liferea",
-                                                                       "epicgameslauncher.exe", "Origin.exe", "Steam"])]),
+                                                                       "Steam", "*exe"])]),
           Group("2", label="", layout='monadtall', matches=[Match(wm_class=["jetbrains-pycharm-ce-debug"])]),
           Group("3", label="", layout='monadtall'),
           Group("4", label="", layout='monadtall'),
@@ -216,7 +216,7 @@ screens = [
                 # ================================= WIDGETS TOP LEFT =================================  #
                 widget.Image(filename='~/.config/qtile/@resources/archlinux.png',
                              margin=0,
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('ulauncher')}),
+                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sgtk-menu')}),
 
                 widget.CurrentLayoutIcon(scale=0.7),
 
@@ -310,7 +310,7 @@ screens = [
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_github_not.sh'),
                                    update_interval=300, fontsize=12),
 
-                widget.Spacer(length=10),
+                widget.Spacer(length=20),
 
                 # updates_pacman_icon(),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_pacman.sh'),

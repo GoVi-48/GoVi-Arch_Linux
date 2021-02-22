@@ -13,20 +13,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="323" column="88" lean-forward="true" selection-start-line="323" selection-start-column="88" selection-end-line="323" selection-end-column="124" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_pacman.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="349">
+              <caret line="323" column="129" selection-start-line="323" selection-start-column="129" selection-end-line="323" selection-end-column="129" />
             </state>
           </provider>
         </entry>
@@ -57,8 +48,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///Media/Games/PC/Grounded/Wine/Launch-Grounded.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+            <state relative-caret-position="-96">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_aur_Reset.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_pacman_Reset.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="24">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -136,7 +145,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/../.config/qtile/scripts/email.sh" />
       <option value="$PROJECT_DIR$/../.config/polybar/scripts/email.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/updates_pacman_icon.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/cpu_load.sh" />
@@ -187,6 +195,7 @@
       <option value="$PROJECT_DIR$/../.config/picom/picom.conf" />
       <option value="$PROJECT_DIR$/Shell/Utils/Home_GIT.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/config.py" />
+      <option value="/Media/Games/PC/Grounded/Wine/Launch-Grounded.sh" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -334,20 +343,6 @@
     <state x="1067" y="43" width="836" height="990" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1613591854526" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/cpu_temp.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="62" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/gpu_temp.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/mb_temp.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
@@ -599,9 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shell/Games/Launch-Game_Template.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Gaming.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -616,13 +608,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///Media/Games/PC/Grounded/Wine/Launch-Grounded.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_pacman.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
@@ -630,10 +615,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Shell/Games/Launch-Game_Template.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Media/Games/PC/Grounded/Wine/Launch-Grounded.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="323" column="88" lean-forward="true" selection-start-line="323" selection-start-column="88" selection-end-line="323" selection-end-column="124" />
+        <state relative-caret-position="349">
+          <caret line="323" column="129" selection-start-line="323" selection-start-column="129" selection-end-line="323" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_aur_Reset.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="32" lean-forward="true" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_pacman_Reset.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>

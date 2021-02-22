@@ -1,4 +1,4 @@
 #!/bin/bash
 
-alacritty -e paru -Syua --skipreview &&
+alacritty -e sudo pacman -Syu &&
 qtile cmd-obj -o cmd -f restart

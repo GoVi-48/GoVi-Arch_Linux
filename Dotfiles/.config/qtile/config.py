@@ -314,14 +314,14 @@ screens = [
 
                 # updates_pacman_icon(),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_pacman.sh'),
-                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e sudo pacman -Syu; qtile cmd-obj -o cmd -f restart')},
+                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/updates_pacman_Reset.sh')},
                                    update_interval=1800),
 
                 widget.Spacer(length=10),
 
                 # updates_aur_icon(),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_aur.sh'),
-                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e paru -Syua --skipreview; qtile cmd-obj -o cmd -f restart')},
+                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/updates_aur_Reset.sh')},
                                    update_interval=1800),
 
 

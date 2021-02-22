@@ -51111,3 +51111,504 @@ xcffib.xproto.ValueError
 2021-02-21 21:37:10,616 ERROR libqtile manager.py:process_key_event():L346 KB command error grow_right: No such command
 2021-02-21 21:37:10,617 ERROR libqtile manager.py:process_key_event():L346 KB command error increase_ratio: No such command
 2021-02-21 21:37:10,617 ERROR libqtile manager.py:process_key_event():L346 KB command error delete: No such command
+2021-02-21 23:55:49,494 ERROR libqtile core.py:_xpoll():L305 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/core.py", line 258, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-21 23:55:49,538 ERROR libqtile core.py:_xpoll():L305 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/core.py", line 258, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-22 00:19:38,991 ERROR libqtile core.py:_xpoll():L305 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/core.py", line 258, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-22 00:19:39,025 ERROR libqtile core.py:_xpoll():L305 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/core.py", line 258, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-22 00:28:07,543 ERROR libqtile core.py:__init__():L95 not starting; existing window manager LG3D
+2021-02-22 00:28:07,690 ERROR libqtile core.py:_xpoll():L305 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/core.py", line 258, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-22 00:28:07,694 ERROR libqtile base.py:on_done():L542 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 534, in on_done
+    self.update(result)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 557, in update
+    self.draw()
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 422, in draw
+    self.drawer.draw(offsetx=self.offsetx, width=self.width)
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 414, in draw
+    self.qtile.conn.conn.core.CopyArea(
+  File "/usr/lib/python3.9/site-packages/xcffib/xproto.py", line 3035, in CopyArea
+    return self.send_request(62, buf, is_checked=is_checked)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 556, in invalid
+    raise XcffibException("Invalid connection.")
+xcffib.XcffibException: Invalid connection.
+2021-02-22 00:28:07,695 ERROR libqtile base.py:on_done():L542 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 534, in on_done
+    self.update(result)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 550, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 80, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.9/site-packages/libqtile/pangocffi.py", line 132, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2021-02-22 00:28:07,696 ERROR libqtile base.py:on_done():L542 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 534, in on_done
+    self.update(result)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 550, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 80, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.9/site-packages/libqtile/pangocffi.py", line 132, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2021-02-22 00:28:07,696 ERROR libqtile base.py:on_done():L542 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 534, in on_done
+    self.update(result)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 557, in update
+    self.draw()
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 422, in draw
+    self.drawer.draw(offsetx=self.offsetx, width=self.width)
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 414, in draw
+    self.qtile.conn.conn.core.CopyArea(
+  File "/usr/lib/python3.9/site-packages/xcffib/xproto.py", line 3035, in CopyArea
+    return self.send_request(62, buf, is_checked=is_checked)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 556, in invalid
+    raise XcffibException("Invalid connection.")
+xcffib.XcffibException: Invalid connection.
+2021-02-22 00:28:07,696 ERROR libqtile base.py:on_done():L542 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 534, in on_done
+    self.update(result)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 557, in update
+    self.draw()
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 422, in draw
+    self.drawer.draw(offsetx=self.offsetx, width=self.width)
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 414, in draw
+    self.qtile.conn.conn.core.CopyArea(
+  File "/usr/lib/python3.9/site-packages/xcffib/xproto.py", line 3035, in CopyArea
+    return self.send_request(62, buf, is_checked=is_checked)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 556, in invalid
+    raise XcffibException("Invalid connection.")
+xcffib.XcffibException: Invalid connection.
+2021-02-22 00:28:07,697 ERROR libqtile base.py:on_done():L542 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 534, in on_done
+    self.update(result)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 557, in update
+    self.draw()
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 422, in draw
+    self.drawer.draw(offsetx=self.offsetx, width=self.width)
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 414, in draw
+    self.qtile.conn.conn.core.CopyArea(
+  File "/usr/lib/python3.9/site-packages/xcffib/xproto.py", line 3035, in CopyArea
+    return self.send_request(62, buf, is_checked=is_checked)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 556, in invalid
+    raise XcffibException("Invalid connection.")
+xcffib.XcffibException: Invalid connection.
+2021-02-22 00:28:07,700 WARNING libqtile lifecycle.py:_atexit():L34 Restarting Qtile with os.execv(...)
+2021-02-22 00:28:08,685 ERROR libqtile core.py:__init__():L95 not starting; existing window manager qtile
+2021-02-22 00:28:09,037 ERROR libqtile core.py:_xpoll():L305 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/core.py", line 258, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-22 00:28:09,038 ERROR libqtile core.py:_xpoll():L305 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/core.py", line 258, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-22 00:28:25,990 WARNING libqtile lifecycle.py:_atexit():L38 Qtile will now terminate
+2021-02-22 00:28:51,579 ERROR libqtile core.py:__init__():L95 not starting; existing window manager qtile
+2021-02-22 00:28:52,783 ERROR libqtile core.py:_xpoll():L305 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/core.py", line 258, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-22 00:28:52,783 ERROR libqtile core.py:_xpoll():L305 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/core.py", line 258, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-22 00:29:04,376 ERROR libqtile base.py:on_done():L542 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 534, in on_done
+    self.update(result)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 554, in update
+    self.text = text
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 348, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 71, in text
+    attrlist, value, accel_char = pangocffi.parse_markup(value)
+  File "/usr/lib/python3.9/site-packages/libqtile/pangocffi.py", line 180, in parse_markup
+    raise Exception("parse_markup() failed for %s" % value)
+Exception: parse_markup() failed for b'error: error sending request for url (https://aur.archlinux.org/rpc?arg%5B%5D=arc-gtk-theme-git&arg%5B%5D=balena-etcher&arg%5B%5D=cairo-dock-git&arg%5B%5D=cairo-dock-plug-ins-git&arg%5B%5D=dropbox&arg%5B%5D=easystroke-git&arg%5B%5D=folder-color-switcher&arg%5B%5D=font-manager-git&arg%5B%5D=gamemode-git&arg%5B%5D=gtk2-patched-filechooser-icon-view&arg%5B%5D=kodi-addon-pvr-iptvsimple-git&arg%5B%5D=lib32-mangohud-git&arg%5B%5D=libmpd-git&arg%5B%5D=lightdm-webkit-theme-aether&arg%5B%5D=mangohud-common-git&arg%5B%5D=mangohud-git&arg%5B%5D=mpc-qt-git&arg%5B%5D=paru-git&arg%5B%5D=picom-jonaburg-git&arg%5B%5D=polybar-git&arg%5B%5D=sgtk-menu&arg%5B%5D=skypeforlinux-stable-bin&arg%5B%5D=spacefm-git&arg%5B%5D=spotify&arg%5B%5D=teamviewer&arg%5B%5D=timeshift-bin&arg%5B%5D=tiny-media-manager&arg%5B%5D=ttf-ms-fonts&arg%5B%5D=vala0.44&arg%5B%5D=vkbasalt&arg%5B%5D=windowmaker&arg%5B%5D=xsettingsd-git&arg%5B%5D=yay-git&v=5&type=info): error trying to connect: dns error: failed to lookup address information: Temporary failure in name resolution: error trying to connect: dns error: failed to lookup address information: Temporary failure in name resolution: dns error: failed to lookup address information: Temporary failure in name resolution: failed to lookup address information: Temporary failure in name resolution\n'
+2021-02-22 00:32:36,431 ERROR libqtile manager.py:process_key_event():L346 KB command error grow_right: No such command
+2021-02-22 00:32:36,433 ERROR libqtile manager.py:process_key_event():L346 KB command error increase_ratio: No such command
+2021-02-22 00:32:36,434 ERROR libqtile manager.py:process_key_event():L346 KB command error delete: No such command
+2021-02-22 00:59:56,128 ERROR libqtile manager.py:process_key_event():L346 KB command error grow_right: No such command
+2021-02-22 00:59:56,130 ERROR libqtile manager.py:process_key_event():L346 KB command error increase_ratio: No such command
+2021-02-22 00:59:56,131 ERROR libqtile manager.py:process_key_event():L346 KB command error delete: No such command
+2021-02-22 00:59:56,795 ERROR libqtile manager.py:process_key_event():L346 KB command error grow_right: No such command
+2021-02-22 00:59:56,798 ERROR libqtile manager.py:process_key_event():L346 KB command error increase_ratio: No such command
+2021-02-22 00:59:56,798 ERROR libqtile manager.py:process_key_event():L346 KB command error delete: No such command
+2021-02-22 00:59:57,552 ERROR libqtile manager.py:process_key_event():L346 KB command error grow_right: No such command
+2021-02-22 00:59:57,554 ERROR libqtile manager.py:process_key_event():L346 KB command error increase_ratio: No such command
+2021-02-22 00:59:57,554 ERROR libqtile manager.py:process_key_event():L346 KB command error delete: No such command
+2021-02-22 01:00:04,304 ERROR libqtile manager.py:process_key_event():L346 KB command error grow_left: No such command
+2021-02-22 01:00:04,306 ERROR libqtile manager.py:process_key_event():L346 KB command error decrease: No such command
+2021-02-22 01:00:04,306 ERROR libqtile manager.py:process_key_event():L346 KB command error add: No such command
+2021-02-22 01:00:04,839 ERROR libqtile manager.py:process_key_event():L346 KB command error grow_left: No such command
+2021-02-22 01:00:04,841 ERROR libqtile manager.py:process_key_event():L346 KB command error decrease: No such command
+2021-02-22 01:00:04,841 ERROR libqtile manager.py:process_key_event():L346 KB command error add: No such command
+2021-02-22 01:00:05,483 ERROR libqtile manager.py:process_key_event():L346 KB command error grow_left: No such command
+2021-02-22 01:00:05,485 ERROR libqtile manager.py:process_key_event():L346 KB command error decrease: No such command
+2021-02-22 01:00:05,486 ERROR libqtile manager.py:process_key_event():L346 KB command error add: No such command
+2021-02-22 01:00:11,651 ERROR libqtile manager.py:process_key_event():L346 KB command error grow_right: No such command
+2021-02-22 01:00:11,652 ERROR libqtile manager.py:process_key_event():L346 KB command error grow: No such command
+2021-02-22 01:00:11,652 ERROR libqtile manager.py:process_key_event():L346 KB command error increase_ratio: No such command
+2021-02-22 01:00:11,652 ERROR libqtile manager.py:process_key_event():L346 KB command error delete: No such command
+2021-02-22 01:04:17,095 ERROR libqtile base.py:on_done():L542 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 534, in on_done
+    self.update(result)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 557, in update
+    self.draw()
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 422, in draw
+    self.drawer.draw(offsetx=self.offsetx, width=self.width)
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 414, in draw
+    self.qtile.conn.conn.core.CopyArea(
+  File "/usr/lib/python3.9/site-packages/xcffib/xproto.py", line 3035, in CopyArea
+    return self.send_request(62, buf, is_checked=is_checked)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 556, in invalid
+    raise XcffibException("Invalid connection.")
+xcffib.XcffibException: Invalid connection.
+2021-02-22 01:04:17,096 ERROR libqtile base.py:on_done():L542 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 534, in on_done
+    self.update(result)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 550, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 80, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.9/site-packages/libqtile/pangocffi.py", line 132, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2021-02-22 01:04:17,097 ERROR libqtile base.py:on_done():L542 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 534, in on_done
+    self.update(result)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 557, in update
+    self.draw()
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 422, in draw
+    self.drawer.draw(offsetx=self.offsetx, width=self.width)
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 414, in draw
+    self.qtile.conn.conn.core.CopyArea(
+  File "/usr/lib/python3.9/site-packages/xcffib/xproto.py", line 3035, in CopyArea
+    return self.send_request(62, buf, is_checked=is_checked)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 556, in invalid
+    raise XcffibException("Invalid connection.")
+xcffib.XcffibException: Invalid connection.
+2021-02-22 01:04:17,097 ERROR libqtile base.py:on_done():L542 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 534, in on_done
+    self.update(result)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 550, in update
+    old_width = self.layout.width
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 80, in width
+    return self.layout.get_pixel_size()[0]
+  File "/usr/lib/python3.9/site-packages/libqtile/pangocffi.py", line 132, in get_pixel_size
+    pango.pango_layout_get_pixel_size(self._pointer, width, height)
+TypeError: initializer for ctype 'PangoLayout *' must be a cdata pointer, not NoneType
+2021-02-22 01:04:17,097 ERROR libqtile base.py:on_done():L542 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 534, in on_done
+    self.update(result)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 557, in update
+    self.draw()
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 422, in draw
+    self.drawer.draw(offsetx=self.offsetx, width=self.width)
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 414, in draw
+    self.qtile.conn.conn.core.CopyArea(
+  File "/usr/lib/python3.9/site-packages/xcffib/xproto.py", line 3035, in CopyArea
+    return self.send_request(62, buf, is_checked=is_checked)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 556, in invalid
+    raise XcffibException("Invalid connection.")
+xcffib.XcffibException: Invalid connection.
+2021-02-22 01:04:17,098 ERROR libqtile base.py:on_done():L542 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 534, in on_done
+    self.update(result)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 557, in update
+    self.draw()
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 422, in draw
+    self.drawer.draw(offsetx=self.offsetx, width=self.width)
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 414, in draw
+    self.qtile.conn.conn.core.CopyArea(
+  File "/usr/lib/python3.9/site-packages/xcffib/xproto.py", line 3035, in CopyArea
+    return self.send_request(62, buf, is_checked=is_checked)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 556, in invalid
+    raise XcffibException("Invalid connection.")
+xcffib.XcffibException: Invalid connection.
+2021-02-22 01:04:17,099 WARNING libqtile lifecycle.py:_atexit():L38 Qtile will now terminate
+2021-02-22 01:04:44,538 ERROR libqtile core.py:__init__():L95 not starting; existing window manager qtile
+2021-02-22 01:04:45,773 ERROR libqtile core.py:_xpoll():L305 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/core.py", line 258, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-22 01:04:45,774 ERROR libqtile core.py:_xpoll():L305 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/core.py", line 258, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-22 01:04:57,397 ERROR libqtile base.py:on_done():L542 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 534, in on_done
+    self.update(result)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 554, in update
+    self.text = text
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 348, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 71, in text
+    attrlist, value, accel_char = pangocffi.parse_markup(value)
+  File "/usr/lib/python3.9/site-packages/libqtile/pangocffi.py", line 180, in parse_markup
+    raise Exception("parse_markup() failed for %s" % value)
+Exception: parse_markup() failed for b'error: error sending request for url (https://aur.archlinux.org/rpc?arg%5B%5D=arc-gtk-theme-git&arg%5B%5D=balena-etcher&arg%5B%5D=cairo-dock-git&arg%5B%5D=cairo-dock-plug-ins-git&arg%5B%5D=dropbox&arg%5B%5D=easystroke-git&arg%5B%5D=folder-color-switcher&arg%5B%5D=font-manager-git&arg%5B%5D=gamemode-git&arg%5B%5D=gtk2-patched-filechooser-icon-view&arg%5B%5D=kodi-addon-pvr-iptvsimple-git&arg%5B%5D=lib32-mangohud-git&arg%5B%5D=libmpd-git&arg%5B%5D=lightdm-webkit-theme-aether&arg%5B%5D=mangohud-common-git&arg%5B%5D=mangohud-git&arg%5B%5D=mpc-qt-git&arg%5B%5D=paru-git&arg%5B%5D=picom-jonaburg-git&arg%5B%5D=polybar-git&arg%5B%5D=sgtk-menu&arg%5B%5D=skypeforlinux-stable-bin&arg%5B%5D=spacefm-git&arg%5B%5D=spotify&arg%5B%5D=teamviewer&arg%5B%5D=timeshift-bin&arg%5B%5D=tiny-media-manager&arg%5B%5D=ttf-ms-fonts&arg%5B%5D=vala0.44&arg%5B%5D=vkbasalt&arg%5B%5D=windowmaker&arg%5B%5D=xsettingsd-git&arg%5B%5D=yay-git&v=5&type=info): error trying to connect: dns error: failed to lookup address information: Temporary failure in name resolution: error trying to connect: dns error: failed to lookup address information: Temporary failure in name resolution: dns error: failed to lookup address information: Temporary failure in name resolution: failed to lookup address information: Temporary failure in name resolution\n'
+2021-02-22 01:05:12,182 ERROR libqtile manager.py:process_key_event():L346 KB command error grow_right: No such command
+2021-02-22 01:05:12,197 ERROR libqtile manager.py:process_key_event():L346 KB command error increase_ratio: No such command
+2021-02-22 01:05:12,197 ERROR libqtile manager.py:process_key_event():L346 KB command error delete: No such command
+2021-02-22 01:37:09,602 ERROR libqtile manager.py:process_key_event():L346 KB command error grow_right: No such command
+2021-02-22 01:37:09,609 ERROR libqtile manager.py:process_key_event():L346 KB command error increase_ratio: No such command
+2021-02-22 01:37:09,609 ERROR libqtile manager.py:process_key_event():L346 KB command error delete: No such command
+2021-02-22 01:37:10,583 ERROR libqtile manager.py:process_key_event():L346 KB command error grow_right: No such command
+2021-02-22 01:37:10,585 ERROR libqtile manager.py:process_key_event():L346 KB command error increase_ratio: No such command
+2021-02-22 01:37:10,586 ERROR libqtile manager.py:process_key_event():L346 KB command error delete: No such command
+2021-02-22 01:38:03,649 ERROR libqtile manager.py:process_key_event():L346 KB command error grow_left: No such command
+2021-02-22 01:38:03,651 ERROR libqtile manager.py:process_key_event():L346 KB command error decrease: No such command
+2021-02-22 01:38:03,651 ERROR libqtile manager.py:process_key_event():L346 KB command error add: No such command
+2021-02-22 01:46:38,127 ERROR libqtile manager.py:process_key_event():L346 KB command error grow_left: No such command
+2021-02-22 01:46:38,130 ERROR libqtile manager.py:process_key_event():L346 KB command error decrease: No such command
+2021-02-22 01:46:38,130 ERROR libqtile manager.py:process_key_event():L346 KB command error add: No such command
+2021-02-22 01:53:55,733 ERROR libqtile base.py:_wrapper():L300 got exception from widget timer
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 298, in _wrapper
+    method(*method_args)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 546, in timer_setup
+    future = self.qtile.run_in_executor(self.poll)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 913, in run_in_executor
+    return self._eventloop.run_in_executor(None, func, *args)
+  File "/usr/lib/python3.9/asyncio/base_events.py", line 807, in run_in_executor
+    self._check_default_executor()
+  File "/usr/lib/python3.9/asyncio/base_events.py", line 514, in _check_default_executor
+    raise RuntimeError('Executor shutdown has been called')
+RuntimeError: Executor shutdown has been called
+2021-02-22 01:53:55,734 ERROR libqtile base.py:_wrapper():L300 got exception from widget timer
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 298, in _wrapper
+    method(*method_args)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 546, in timer_setup
+    future = self.qtile.run_in_executor(self.poll)
+  File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 913, in run_in_executor
+    return self._eventloop.run_in_executor(None, func, *args)
+  File "/usr/lib/python3.9/asyncio/base_events.py", line 807, in run_in_executor
+    self._check_default_executor()
+  File "/usr/lib/python3.9/asyncio/base_events.py", line 514, in _check_default_executor
+    raise RuntimeError('Executor shutdown has been called')
+RuntimeError: Executor shutdown has been called
+2021-02-22 01:53:55,751 ERROR libqtile base.py:on_done():L542 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 534, in on_done
+    self.update(result)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 557, in update
+    self.draw()
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 422, in draw
+    self.drawer.draw(offsetx=self.offsetx, width=self.width)
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 414, in draw
+    self.qtile.conn.conn.core.CopyArea(
+  File "/usr/lib/python3.9/site-packages/xcffib/xproto.py", line 3035, in CopyArea
+    return self.send_request(62, buf, is_checked=is_checked)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 391, in send_request
+    seq = self.conn.send_request(flags, xcb_parts + 2, xcb_req)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 569, in wrapper
+    self.invalid()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 556, in invalid
+    raise XcffibException("Invalid connection.")
+xcffib.XcffibException: Invalid connection.
+2021-02-22 01:53:55,753 WARNING libqtile lifecycle.py:_atexit():L38 Qtile will now terminate
+2021-02-22 01:54:22,436 ERROR libqtile core.py:__init__():L95 not starting; existing window manager qtile
+2021-02-22 01:54:23,235 ERROR libqtile core.py:_xpoll():L305 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/core.py", line 258, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-22 01:54:23,236 ERROR libqtile core.py:_xpoll():L305 Got an exception in poll loop
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/backend/x11/core.py", line 258, in _xpoll
+    event = self.conn.conn.poll_for_event()
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 571, in wrapper
+    return f(*args)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 612, in poll_for_event
+    return self.hoist_event(e)
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 686, in hoist_event
+    return self._process_error(ffi.cast("xcb_generic_error_t *", e))
+  File "/usr/lib/python3.9/site-packages/xcffib/__init__.py", line 649, in _process_error
+    raise error(buf)
+xcffib.xproto.ValueError
+2021-02-22 01:54:34,832 ERROR libqtile base.py:on_done():L542 Failed to reschedule.
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 534, in on_done
+    self.update(result)
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 554, in update
+    self.text = text
+  File "/usr/lib/python3.9/site-packages/libqtile/widget/base.py", line 348, in text
+    self.layout.text = self.formatted_text
+  File "/usr/lib/python3.9/site-packages/libqtile/drawer.py", line 71, in text
+    attrlist, value, accel_char = pangocffi.parse_markup(value)
+  File "/usr/lib/python3.9/site-packages/libqtile/pangocffi.py", line 180, in parse_markup
+    raise Exception("parse_markup() failed for %s" % value)
+Exception: parse_markup() failed for b'error: error sending request for url (https://aur.archlinux.org/rpc?arg%5B%5D=arc-gtk-theme-git&arg%5B%5D=balena-etcher&arg%5B%5D=cairo-dock-git&arg%5B%5D=cairo-dock-plug-ins-git&arg%5B%5D=dropbox&arg%5B%5D=easystroke-git&arg%5B%5D=folder-color-switcher&arg%5B%5D=font-manager-git&arg%5B%5D=gamemode-git&arg%5B%5D=gtk2-patched-filechooser-icon-view&arg%5B%5D=kodi-addon-pvr-iptvsimple-git&arg%5B%5D=lib32-mangohud-git&arg%5B%5D=libmpd-git&arg%5B%5D=lightdm-webkit-theme-aether&arg%5B%5D=mangohud-common-git&arg%5B%5D=mangohud-git&arg%5B%5D=mpc-qt-git&arg%5B%5D=paru-git&arg%5B%5D=picom-jonaburg-git&arg%5B%5D=polybar-git&arg%5B%5D=sgtk-menu&arg%5B%5D=skypeforlinux-stable-bin&arg%5B%5D=spacefm-git&arg%5B%5D=spotify&arg%5B%5D=teamviewer&arg%5B%5D=timeshift-bin&arg%5B%5D=tiny-media-manager&arg%5B%5D=ttf-ms-fonts&arg%5B%5D=vala0.44&arg%5B%5D=vkbasalt&arg%5B%5D=windowmaker&arg%5B%5D=xsettingsd-git&arg%5B%5D=yay-git&v=5&type=info): error trying to connect: dns error: failed to lookup address information: Temporary failure in name resolution: error trying to connect: dns error: failed to lookup address information: Temporary failure in name resolution: dns error: failed to lookup address information: Temporary failure in name resolution: failed to lookup address information: Temporary failure in name resolution\n'
+2021-02-22 01:54:44,138 ERROR libqtile manager.py:process_key_event():L346 KB command error grow_right: No such command
+2021-02-22 01:54:44,139 ERROR libqtile manager.py:process_key_event():L346 KB command error increase_ratio: No such command
+2021-02-22 01:54:44,140 ERROR libqtile manager.py:process_key_event():L346 KB command error delete: No such command

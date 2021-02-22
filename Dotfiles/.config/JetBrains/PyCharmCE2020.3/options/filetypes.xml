@@ -9,12 +9,13 @@
       <mapping pattern="config" type="Ini" />
       <mapping pattern="skydrow" type="PLAIN_TEXT" />
       <mapping pattern=".data" type="PLAIN_TEXT" />
+      <mapping ext="cache" type="PLAIN_TEXT" />
       <mapping ext="tmp" type="PLAIN_TEXT" />
-      <mapping ext="log" type="PLAIN_TEXT" />
-      <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping ext="x86_64" type="PLAIN_TEXT" />
       <mapping ext="rc" type="PLAIN_TEXT" />
       <mapping ext="pyo" type="PLAIN_TEXT" />
+      <mapping ext="log" type="PLAIN_TEXT" />
+      <mapping ext="dat" type="PLAIN_TEXT" />
       <mapping pattern=".bashrc" type="Shell Script" />
       <mapping pattern=".zshrc" type="Shell Script" />
       <mapping pattern="attribWin10" type="Shell Script" />

@@ -28,6 +28,7 @@ sudo pacman -S cantarell-fonts noto-fonts noto-fonts-extra noto-fonts-emoji ttf-
 fc-cache --force
 
 # Themes
+sudo  ln -sf ~/.local/share/icons/GoVi /usr/share/icons/
 sudo ln -s /home/$USER/.gtkrc-2.0 /etc/gtk-2.0/gtkrc
 sudo ln -s /home/$USER/.config/gtk-3.0/settings.ini /etc/gtk-3.0/settings.ini
 lxappearance

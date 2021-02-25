@@ -4,18 +4,18 @@ echo ===========================================================================
 echo
 echo -Iniciado Webgrab
 echo
-~/Programas/Webgrab++/.wg++/./run.sh
+~/Programs/Webgrab++/.wg++/./run.sh
 
 echo
 echo -Remplazando xmltv.xml
 echo
-cp -rfv ~/Programas/Webgrab++/.wg++/xmltv.xml ~/Proyectos/Github/GoVi-EPG/
+cp -rfv ~/Programs/Webgrab++/.wg++/xmltv.xml ~/Proyects/Github/GoVi-EPG/
 echo
 echo ====================================================================================
 echo
 echo -Subiendo a Github
 
-cd ~/Proyectos/Github/GoVi-EPG/
+cd ~/Proyects/Github/GoVi-EPG/
 
 # git config --global credential.helper store
 

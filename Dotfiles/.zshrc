@@ -88,6 +88,7 @@ alias sfm="spacefm"
 alias spm="sudo pacman"
 alias sth="sort -h"
 alias snv="sudo -E nvim"
+alias vim="nvim"
 alias wrt="wrestool -x --output=. -t14"
 alias yt="youtube-dl --add-metadata -ic"
 

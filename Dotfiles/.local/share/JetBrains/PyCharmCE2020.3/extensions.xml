@@ -2116,6 +2116,20 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.browserslistrc">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.github.aleksandrsl.intellijbrowserslist" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.brs">
       <plugins>
         <option name="myPlugins">
@@ -3804,6 +3818,20 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.cue">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="dev.monogon.cuelang" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.cup">
       <plugins>
         <option name="myPlugins">
@@ -4884,6 +4912,20 @@
           <set>
             <plugin>
               <option name="myPluginId" value="org.elixir_lang" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.efd">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="ai.expert.studio" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />
@@ -9066,6 +9108,20 @@
             </plugin>
             <plugin>
               <option name="myPluginId" value="org.intellij.sdk.KunpengCompilerPlugin" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.kql">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.elasticsearch4idea" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />
@@ -17780,6 +17836,20 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.thundra">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="io.thundra.intellij-debugger" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.tick">
       <plugins>
         <option name="myPlugins">
@@ -18492,6 +18562,12 @@
       <plugins>
         <option name="myPlugins">
           <set>
+            <plugin>
+              <option name="myPluginId" value="com.misset.OMT" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
             <plugin>
               <option name="myPluginId" value="com.sharedvocabs.plugins.rdfandsparql" />
               <option name="myPluginName" />
@@ -21136,6 +21212,20 @@
         </option>
       </plugins>
     </entry>
+    <entry key="browserslist">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.github.aleksandrsl.intellijbrowserslist" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="bsconfig.json">
       <plugins>
         <option name="myPlugins">
@@ -22519,6 +22609,20 @@
       </plugins>
     </entry>
     <entry key="tsconfig.e2e.json">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="AngularJS" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="tsconfig.editor.json">
       <plugins>
         <option name="myPlugins">
           <set>

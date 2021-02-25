@@ -7,7 +7,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../.xinitrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1488">
+            <state relative-caret-position="793">
               <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
             </state>
           </provider>
@@ -16,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7752">
+            <state relative-caret-position="787">
               <caret line="323" column="129" selection-start-line="323" selection-start-column="129" selection-end-line="323" selection-end-column="129" />
             </state>
           </provider>
@@ -40,20 +40,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Shell/Games/Launch-Game_Template.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
+            <state relative-caret-position="113">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Howto">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../.zshrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="48">
+              <caret line="29" column="108" selection-start-line="29" selection-start-column="108" selection-end-line="29" selection-end-column="108" />
             </state>
           </provider>
         </entry>
@@ -62,7 +62,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Scripts/Shell/Polybar</find>
       <find>Image</find>
       <find>=</find>
       <find>5</find>
@@ -92,10 +91,9 @@
       <find>ulau</find>
       <find>ulaun</find>
       <find>Launch</find>
+      <find>Proyectos</find>
     </findStrings>
     <replaceStrings>
-      <replace>~/.config/polybar/</replace>
-      <replace>vim</replace>
       <replace>1C1C1F</replace>
       <replace>FILEMANAGER</replace>
       <replace>$TERMINAL</replace>
@@ -124,6 +122,8 @@
       <replace>nvim</replace>
       <replace>lambda:</replace>
       <replace>1.8</replace>
+      <replace>Programs</replace>
+      <replace>Proyects</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/Shell/Games/_Launch_Scripts</dir>
@@ -131,9 +131,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/../.config/qtile/scripts/cpu_load.sh" />
-      <option value="$PROJECT_DIR$/../.config/qtile/scripts/updates_AUR.sh" />
-      <option value="$PROJECT_DIR$/../qtile_TEST.py" />
       <option value="$PROJECT_DIR$/../Games/PC/Valheim/Wine/Launch-Valheim.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_github.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_games.sh" />
@@ -141,9 +138,6 @@
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/cpu_temp.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/gpu_temp.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/config.bak.py" />
-      <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_youtube_Reset.sh" />
-      <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_github_Reset.sh" />
-      <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_games_Reset.sh" />
       <option value="$PROJECT_DIR$/../Games/PC/Cyberpunk 2077/Wine/Launch-Cyberpunk_2077.sh" />
       <option value="$PROJECT_DIR$/../Games/PC/Valheim/Launch-Valheim.sh" />
       <option value="$PROJECT_DIR$/../Games/PC/Grounded/Wine/Launch-Grounded.sh" />
@@ -180,8 +174,14 @@
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/updates_aur_Reset.sh" />
       <option value="/Media/Games/PC/Grounded/Wine/Launch-Grounded.sh" />
       <option value="$PROJECT_DIR$/Shell/Games/Launch-Game_Template.sh" />
-      <option value="$PROJECT_DIR$/../.zshrc" />
       <option value="$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Howto" />
+      <option value="$PROJECT_DIR$/Shell/Utils/Webgrab_GIT.sh" />
+      <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_games_Reset.sh" />
+      <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_github_Reset.sh" />
+      <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_youtube_Reset.sh" />
+      <option value="$PROJECT_DIR$/../.config/qtile/scripts/email.sh" />
+      <option value="$PROJECT_DIR$/../.local/share/applications/Pycharm.desktop" />
+      <option value="$PROJECT_DIR$/../.zshrc" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -201,6 +201,7 @@
     </option>
   </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.6456522" />
       <window_info id="Structure" order="1" show_stripe_button="false" weight="0.24891305" />
@@ -328,37 +329,6 @@
     <state x="1067" y="43" width="836" height="990" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1613591854526" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/mb_temp.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="66" selection-start-line="2" selection-start-column="66" selection-end-line="2" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_github.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="653">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_games.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="43" column="2" selection-start-line="43" selection-start-column="2" selection-end-line="43" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_youtube.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="827">
-          <caret line="181" column="12" lean-forward="true" selection-start-line="181" selection-start-column="12" selection-end-line="181" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///usr/share/doc/qtile/CHANGELOG">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../qtile_TEST.py" />
     <entry file="file://$PROJECT_DIR$/../Games/PC/Grounded/Wine/Launch-Grounded.sh">
       <provider selected="true" editor-type-id="text-editor">
@@ -392,13 +362,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_github_Reset.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="19" selection-start-line="16" selection-end-line="17" />
         </state>
       </provider>
     </entry>
@@ -580,24 +543,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.zshrc">
+    <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Howto">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="29" column="108" selection-start-line="29" selection-start-column="108" selection-end-line="29" selection-end-column="108" />
+        <state relative-caret-position="379">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.xinitrc">
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_youtube_Reset.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1488">
-          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+        <state relative-caret-position="264">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_github_Reset.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7752">
-          <caret line="323" column="129" selection-start-line="323" selection-start-column="129" selection-end-line="323" selection-end-column="129" />
+        <state relative-caret-position="24">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_games_Reset.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shell/Utils/Webgrab_GIT.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -615,17 +592,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shell/Games/Launch-Game_Template.sh">
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="787">
+          <caret line="323" column="129" selection-start-line="323" selection-start-column="129" selection-end-line="323" selection-end-column="129" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Howto">
+    <entry file="file://$PROJECT_DIR$/../.local/share/applications/Pycharm.desktop">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="192">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/email.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.xinitrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="793">
+          <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.zshrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="29" column="108" selection-start-line="29" selection-start-column="108" selection-end-line="29" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shell/Games/Launch-Game_Template.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>

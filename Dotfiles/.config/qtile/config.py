@@ -404,6 +404,7 @@ floating_layout = layout.Floating(float_rules=[
     Match(title='file-roller'),
     Match(title='Epic Games'),
     Match(title='Origin'),
+    Match(title='Skype'),
 ])
 auto_fullscreen = True
 focus_on_window_activation = "smart"

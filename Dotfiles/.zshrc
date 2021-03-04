@@ -64,12 +64,12 @@ export PATH=$PATH:$HOME/Programs/Pycharm/bin/
 
 # Aliases
 alias am="alsamixer"
+alias bt="bashtop"
 alias cp="cp -rfv"
 alias d1-p1="zenity --info --text "Complete" && paplay $HOME/.local/share/sounds/cause-and-effect.ogg"
 alias du1="du -d1 -h"
 alias ff="find "." -type f -iname "
 alias fd="find "." -type d -iname "
-alias ht="htop"
 alias hy="history"
 alias k9="kill -9"
 alias ka="killall"

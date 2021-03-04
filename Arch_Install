@@ -110,7 +110,7 @@ reboot
 
 sudo pacman -S xf86-video-amdgpu # AMD
 sudo pacman -S nvidia nvidia-utils nvidia-settings # NVIDIA
-sudo pacman -S alsa-utils feh bashtop lxappearance pavucontrol picom-jonaburg-git qtile xorg xorg-xinit
+sudo pacman -S alsa-utils bashtop feh lxappearance pavucontrol picom-jonaburg-git qtile xorg xorg-xinit
 
 sudo pacman -S lightdm lightdm-webkit2-greeter
 git clone https://aur.archlinux.org/yay-git.git

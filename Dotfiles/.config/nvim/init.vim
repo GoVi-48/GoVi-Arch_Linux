@@ -22,6 +22,7 @@ vmap <C-c> :+y<CR>
 vmap <C-v> :+p<CR>
 nmap W :w!<CR>
 nmap Q :q!<CR>
+nmap X :x!<CR>
 
 let g:airline_theme='one'
 

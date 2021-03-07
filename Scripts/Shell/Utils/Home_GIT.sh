@@ -23,7 +23,7 @@ rsync -arv --exclude={'.directory','baloo','spotify','teamviewer15'} --delete ~/
 
 # Backups
 rsync -arv --delete ~/.password-store/ ~/Backups/Linux/.p-store/
-rsync -arv --delete ~/Pictures/Icons/Themes/GoVi/ ~/Backups/Linux/Themes/GoVi/
+rsync -arv --delete ~/Multimedia/Pictures/Icons/Themes/GoVi/ ~/Backups/Linux/Themes/GoVi/
 rsync -arv --delete /etc/lightdm/ ~/Backups/Linux/Lightdm/
 rsync -arv /etc/fstab ~/Backups/Linux/
 rsync -arv --delete ~/Backups/Linux/ "$GOVI_ARCH_LINUX"/Backups/

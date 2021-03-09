@@ -16,7 +16,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../.config/picom/picom.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1">
+            <state relative-caret-position="11784">
               <caret line="491" column="22" selection-start-line="491" selection-start-column="22" selection-end-line="491" selection-end-column="22" />
             </state>
           </provider>
@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="793">
-              <caret line="419" column="14" selection-start-line="419" selection-start-column="14" selection-end-line="419" selection-end-column="14" />
+            <state relative-caret-position="130">
+              <caret line="342" column="60" lean-forward="true" selection-start-line="342" selection-start-column="60" selection-end-line="342" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -52,13 +52,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shell/Games/Launch-Game_Template.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="888">
+            <state relative-caret-position="793">
               <caret line="37" column="30" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shell/Games/Wine_6.3/Grounded.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="268">
@@ -67,11 +67,19 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Shell/Games/Linux/Valheim.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>padding=0</find>
       <find>pol</find>
       <find>window_to_prev_group</find>
       <find>nvidia</find>
@@ -101,9 +109,9 @@
       <find>${DIR}</find>
       <find>13199544096852541440</find>
       <find>Pictures</find>
+      <find>htop</find>
     </findStrings>
     <replaceStrings>
-      <replace>FILEMANAGER</replace>
       <replace>$TERMINAL</replace>
       <replace>$BROWSER</replace>
       <replace>$FILEMANAGER</replace>
@@ -133,6 +141,7 @@
       <replace>Programs</replace>
       <replace>Proyects</replace>
       <replace>$DIR</replace>
+      <replace>bashtop</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/Shell/Games/_Launch_Scripts</dir>
@@ -140,7 +149,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/../Games/PC/Anno 1800/Wine/Launch-Anno_1800.sh" />
       <option value="$PROJECT_DIR$/../Games/PC/Crysis Remastered/Wine/Launch-Crysis_Remastered.sh" />
       <option value="$PROJECT_DIR$/../Programs/Adobe/Wine/Launch-Photoshop.sh" />
       <option value="$PROJECT_DIR$/../Games/PC/Sekiro - Shadows Die Twice/Wine/Launch-Sekiro.sh" />
@@ -174,7 +182,6 @@
       <option value="$PROJECT_DIR$/Shell/Games/_Create_wine-pfx/Install_DXVK.sh" />
       <option value="$PROJECT_DIR$/../.zshrc" />
       <option value="$PROJECT_DIR$/../.dmrc" />
-      <option value="$PROJECT_DIR$/../.config/qtile/config.py" />
       <option value="$PROJECT_DIR$/../.config/picom/picom.conf" />
       <option value="$PROJECT_DIR$/Shell/Games/Wine_6.2/Grounded.sh" />
       <option value="$PROJECT_DIR$/../Wine/Scripts/Wine_6.3/Grounded.sh" />
@@ -191,6 +198,8 @@
       <option value="$PROJECT_DIR$/Shell/Games/Launch-Game_Template.sh" />
       <option value="$PROJECT_DIR$/Shell/Games/Wine_6.3/Grounded.sh" />
       <option value="$PROJECT_DIR$/Shell/Utils/Home_GIT.sh" />
+      <option value="$PROJECT_DIR$/../.config/qtile/config.py" />
+      <option value="$PROJECT_DIR$/Shell/Games/Linux/Valheim.sh" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -210,6 +219,7 @@
     </option>
   </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.6456522" />
       <window_info id="Structure" order="1" show_stripe_button="false" weight="0.24891305" />
@@ -223,7 +233,7 @@
       <window_info anchor="bottom" id="TODO" order="3" />
       <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.22247972" />
       <window_info anchor="bottom" id="Messages" order="5" weight="0.32874617" />
-      <window_info anchor="bottom" id="Problems View" order="6" weight="0.34707904" />
+      <window_info anchor="bottom" id="Problems View" order="6" weight="0.34646583" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39975992" />
       <window_info anchor="bottom" id="Python Console" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32798165" />
@@ -337,13 +347,6 @@
     <state x="1067" y="43" width="836" height="990" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1613591854526" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Shell/Games/Wine_6.2/Green_Hell.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="691">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.config/xfce4/xfconf/xfce-perchannel-xml/thunar.xml" />
     <entry file="file://$PROJECT_DIR$/Shell/Utils/qtile.bak.sh" />
     <entry file="file:///Media/Games/PC/Green Hell/Wine/Launch-Green_Hell.sh">
@@ -564,10 +567,24 @@
     <entry file="file://$PROJECT_DIR$/Shell/Games/Steam/Resident_Evil_2.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Shell/Utils/Home_GIT.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="25" column="41" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../.xinitrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1488">
           <caret line="62" column="12" selection-start-line="62" selection-start-column="12" selection-end-line="62" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/picom/picom.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11784">
+          <caret line="491" column="22" selection-start-line="491" selection-start-column="22" selection-end-line="491" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -585,38 +602,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shell/Games/Launch-Game_Template.sh">
+    <entry file="file://$PROJECT_DIR$/Shell/Games/Wine_6.3/Grounded.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="888">
-          <caret line="37" column="30" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/picom/picom.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="491" column="22" selection-start-line="491" selection-start-column="22" selection-end-line="491" selection-end-column="22" />
+        <state relative-caret-position="268">
+          <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="342" column="60" lean-forward="true" selection-start-line="342" selection-start-column="60" selection-end-line="342" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shell/Games/Launch-Game_Template.sh">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="793">
-          <caret line="419" column="14" selection-start-line="419" selection-start-column="14" selection-end-line="419" selection-end-column="14" />
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shell/Utils/Home_GIT.sh">
+    <entry file="file://$PROJECT_DIR$/Shell/Games/Linux/Valheim.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shell/Games/Wine_6.3/Grounded.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="29" column="76" selection-start-line="29" selection-start-column="76" selection-end-line="29" selection-end-column="76" />
+        <state relative-caret-position="336">
+          <caret line="14" column="7" selection-start-line="14" selection-start-column="7" selection-end-line="14" selection-end-column="7" />
         </state>
       </provider>
     </entry>

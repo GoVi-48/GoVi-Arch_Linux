@@ -73,8 +73,8 @@ skipping config: /Media/Games/PC/Valheim/game/MangoHud.conf [ not found ]
 skipping config: /home/govi/.config/MangoHud/valheim.x86_64.conf [ not found ]
 parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
-[Vulkan init] Physical Device 0xd40540 [0]: "AMD RADV TAHITI (ACO)" deviceType=2 vendorID=1002 deviceID=6798
-[Vulkan init] Selected physical device 0xd40540
+[Vulkan init] Physical Device 0x21eb480 [0]: "AMD RADV TAHITI (ACO)" deviceType=2 vendorID=1002 deviceID=6798
+[Vulkan init] Selected physical device 0x21eb480
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=107
 [Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=0
@@ -189,1425 +189,1322 @@ Vulkan vendor=[ATI] id=[1002]
 Vulkan renderer=[AMD RADV TAHITI (ACO)] id=[6798]
 Vulkan device type 2
 Vulkan driverversion=[0x05003004] uint=[83898372]
-Vulkan PSO: cache data not found [path=/tmp/IronGate/Valheim/vulkan_pso_cache.bin]
+Vulkan PSO: Cache data successfully loaded [size=948568,path=/tmp/IronGate/Valheim/vulkan_pso_cache.bin]
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.477 seconds
+- Completed reload, in  0.098 seconds
 requesting resize 1920 x 1080
 Using native desktop resolution 1920 x 1080
 requesting fullscreen 1920 x 1080 at 0 Hz
 Desktop is 1920 x 1080 @ 60 Hz
 InitializeOrResetSwapChain 1920x1080 hdr=0 samples=1
 MANGOHUD: recreating font image
-UnloadTime: 0.477045 ms
-03/09/2021 20:32:21: Starting to load scene:start
+UnloadTime: 0.389995 ms
+03/09/2021 20:57:37: Starting to load scene:start
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 7f61516ae640 -> priority: 1 
-  Thread -> id: 7f60e3fff640 -> priority: 1 
-UnloadTime: 4.177251 ms
+  Thread -> id: 7f038f004640 -> priority: 1 
+  Thread -> id: 7f035effd640 -> priority: 1 
+UnloadTime: 3.984244 ms
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu). 
 (Filename:  Line: 509)
 
-03/09/2021 20:32:33: Initializing world generator seed: ( 0 )   menu:True  worldgen version:1
+03/09/2021 20:57:45: Initializing world generator seed: ( 0 )   menu:True  worldgen version:1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:32:33: Using mountain distance: 1000
+03/09/2021 20:57:45: Using mountain distance: 1000
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:32:33: Render threading mode:MultiThreaded
+03/09/2021 20:57:45: Render threading mode:MultiThreaded
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:32:33: Using steam_appid.txt
+03/09/2021 20:57:45: Using steam_appid.txt
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:32:33: Using steam APPID:892970
+03/09/2021 20:57:45: Using steam APPID:892970
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:32:33: Authentication:k_ESteamNetworkingAvailability_Current
+03/09/2021 20:57:45: Authentication:k_ESteamNetworkingAvailability_Current
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:32:33: Steam initialized, persona:Goldberg
+03/09/2021 20:57:45: Steam initialized, persona:Goldberg
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:32:33: Missing audio clip in music respawn
+03/09/2021 20:57:45: Missing audio clip in music respawn
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:32:34: Checking for installed DLCs
+03/09/2021 20:57:45: Checking for installed DLCs
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:32:34: DLC:beta installed:False
+03/09/2021 20:57:45: DLC:beta installed:False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:32:34: Builder started
+03/09/2021 20:57:45: Builder started
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:32:34: Loaded localization English
+03/09/2021 20:57:45: Loaded localization English
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:32:34: Loaded localization Spanish
+03/09/2021 20:57:45: Loaded localization Spanish
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:32:34: ARG 0 ./valheim.x86_64
+03/09/2021 20:57:45: ARG 0 ./valheim.x86_64
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 87216.
-Total: 43.040617 ms (FindLiveObjects: 2.854776 ms CreateObjectMapping: 4.845218 ms MarkObjects: 35.132787 ms  DeleteObjects: 0.207396 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 87839.
+Total: 41.508263 ms (FindLiveObjects: 3.208426 ms CreateObjectMapping: 4.594376 ms MarkObjects: 33.120800 ms  DeleteObjects: 0.584268 ms)
 
-03/09/2021 20:32:37: UI Group status changed Menu = True
+03/09/2021 20:57:47: UI Group status changed Menu = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:32:45: Current res 1920x1080     1920x1080
+03/09/2021 20:57:55: show character selection
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:32:45: UI Group status changed Menu = False
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:33:18: BInding key Crouch
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:34:11: UI Group status changed Menu = True
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:34:13: Current res 1920x1080     1920x1080
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:34:13: UI Group status changed Menu = False
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:34:33: UI Group status changed Menu = True
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:34:34: show character selection
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:34:58: Set hair 1
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:34:59: Set hair 2
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:00: Set hair 3
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:02: Set hair 4
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:03: Set hair 5
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:04: Set hair 6
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:09: Set hair 7
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:15: Set hair 8
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:16: Set hair 9
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:21: Set hair 10
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:24: Set hair 11
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:30: Set hair 12
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:41: Set hair 13
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:46: Set hair 14
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:50: Set hair 15
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:51: Set hair 15
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:52: Set hair 13
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:52: Set hair 12
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:35:53: Set hair 11
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:37:08: Set hair 12
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:37:10: Set hair 13
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:37:13: Set hair 14
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:37:19: Set hair 13
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:37:19: Set hair 12
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:37:20: Set hair 11
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:37:20: Set hair 10
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:37:22: Set hair 11
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:37:55: UI Group status changed SelectCharacter = True
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:38:02: OnCharacterStart
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:38:02: UI Group status changed Panel = False
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:38:38: UI Group status changed Panel = True
+03/09/2021 20:57:59: OnCharacterStart
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 8.789598 ms
-03/09/2021 20:38:48: Loading player profile govi
+UnloadTime: 10.094960 ms
+03/09/2021 20:58:03: Loading player profile govi
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:48: Zonesystem Awake 12286
+03/09/2021 20:58:03: Zonesystem Awake 574
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:48: DungeonDB Awake 12286
+03/09/2021 20:58:03: DungeonDB Awake 574
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:48: Steam initialized, persona:Goldberg
+03/09/2021 20:58:03: Steam initialized, persona:Goldberg
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:48: Initializing world generator seed:nvyvv6S806 ( -466336552 )   menu:False  worldgen version:1
+03/09/2021 20:58:03: Initializing world generator seed:nvyvv6S806 ( -466336552 )   menu:False  worldgen version:1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:48: Using mountain distance: 1000
+03/09/2021 20:58:03: Using mountain distance: 1000
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:48: Found 480 mountain points
+03/09/2021 20:58:03: Found 480 mountain points
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:48: Remaining mountains:61
+03/09/2021 20:58:03: Remaining mountains:61
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:48: Calc time 14,894 ms
+03/09/2021 20:58:03: Calc time 15,467 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:48: Found 8062 lake points
+03/09/2021 20:58:03: Found 8062 lake points
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:49: Remaining lakes:129
+03/09/2021 20:58:05: Remaining lakes:129
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:49: Calc time 1517,179 ms
+03/09/2021 20:58:05: Calc time 1541,51 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:49: Rivers:190
+03/09/2021 20:58:05: Rivers:190
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:49: River buckets 17667
+03/09/2021 20:58:05: River buckets 17667
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:49: River render time 287,04 ms
+03/09/2021 20:58:05: River render time 286,544 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:49: River Calc time 299,426 ms
+03/09/2021 20:58:05: River Calc time 299,197 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:50: River buckets 25829
+03/09/2021 20:58:06: River buckets 25829
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:50: River render time 359,553 ms
+03/09/2021 20:58:06: River render time 356,769 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:50: Placed 1858 streams
+03/09/2021 20:58:06: Placed 1858 streams
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:50: Stream Calc time 890,348 ms
+03/09/2021 20:58:06: Stream Calc time 883,224 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:50: Load world GoViLand
+03/09/2021 20:58:06: Load world GoViLand
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:50:   missing world.dat
+03/09/2021 20:58:06: Loading 31313 zdos , my id -415739505 data version:26
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:50: Audioman already exist, destroying self
+03/09/2021 20:58:06: Loaded 61 dead zdos
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:50: Checking for installed DLCs
+03/09/2021 20:58:06: Removed 0 OLD generated ZDOS
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:50: DLC:beta installed:False
+03/09/2021 20:58:06: Loaded 7125 locations
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-
-Unloading 572 unused Assets to reduce memory usage. Loaded Objects now: 87024.
-Total: 54.299570 ms (FindLiveObjects: 3.524484 ms CreateObjectMapping: 5.195145 ms MarkObjects: 43.420639 ms  DeleteObjects: 2.158894 ms)
-
-03/09/2021 20:38:53: Zonesystem Start 12286
+03/09/2021 20:58:06: Audioman already exist, destroying self
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:53: Generating locations
+03/09/2021 20:58:06: Checking for installed DLCs
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:38:53: Checking for location duplicates
+03/09/2021 20:58:06: DLC:beta installed:False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
 
-03/09/2021 20:39:15: Failed to place all MountainWell1, placed 23 out of 25
+Unloading 514 unused Assets to reduce memory usage. Loaded Objects now: 87022.
+Total: 70.333366 ms (FindLiveObjects: 3.043179 ms CreateObjectMapping: 4.628726 ms MarkObjects: 61.096036 ms  DeleteObjects: 1.564841 ms)
+
+03/09/2021 20:58:09: Zonesystem Start 574
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:18: Failed to place all Runestone_Mountains, placed 86 out of 100
+03/09/2021 20:58:09: DungeonDB Start 574
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:18:  Done generating locations, duration:24786,303 ms
+03/09/2021 20:58:09: Starting respawn
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:18: DungeonDB Start 12286
+03/09/2021 20:58:17: tip:$loadscreen_tip13
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:18: Starting respawn
+03/09/2021 20:58:25: Spawned after 8,019994
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:26: tip:$loadscreen_tip22
+03/09/2021 20:58:25: Minimap: Adding unique location (63.8, 33.2, 7.0)
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:26: Force generaeting hmap (64.0, 0.0, 0.0)
+03/09/2021 20:58:27: Resumed music meadows at 0
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:26: Placed locations in zone 1,0  duration 18,844 ms
+03/09/2021 20:58:35: Current res 1920x1080     1920x1080
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:26: Setting up valkyrie 
+03/09/2021 20:58:35: UI Group status changed MenuRoot = False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:26: Show intro 12294
+requesting resize 1920 x 1080
+resizing window to 1920 x 1080
+Desktop is 1920 x 1080 @ 60 Hz
+InitializeOrResetSwapChain 1920x1080 hdr=0 samples=1
+MANGOHUD: recreating font image
+InitializeOrResetSwapChain 1920x1012 hdr=0 samples=1
+MANGOHUD: recreating font image
+03/09/2021 20:58:44: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-03/09/2021 20:39:26: Show text YOU DIED:Hace mucho tiempo, Odín, el Padre Todopoderoso, unió los mundos. Derrotó a sus enemigos, los envió al décimo mundo y partió las ramas del Árbol del mundo que sostenía la prisión. Dejó que estas tierras vagaran sin rumbo, convirtiéndolas así en un lugar del exilio...
-
 
-
-Durante siglos, ese lugar vivió sumido en un letargo inquietante, pero no llegó a morir. A medida que pasaban las glaciaciones, nacieron y murieron reinos ante los ojos de los dioses.
-
-
-
-Cuando llegó a oídos de Odín que sus enemigos empezaban a recuperar las fuerzas, dirigió la mirada hacia Midgard y envió a las valquirias para que rastrearan los campos de batalla en busca de los guerreros más avezados. Morirían en su mundo, pero renacerían...
+03/09/2021 20:58:52: UI Group status changed MenuRoot = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
+03/09/2021 20:58:53: Current res 1920x1080     1920x1012
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
+03/09/2021 20:58:53: UI Group status changed MenuRoot = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-... ¡en VALHEIM!
+requesting resize 1920 x 1012
+requesting fullscreen 1920 x 1012 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+InitializeOrResetSwapChain 1920x1012 hdr=0 samples=1
+MANGOHUD: recreating font image
+03/09/2021 20:59:00: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:26: World pos (580.4, 190.0, -603.8)   (580.7, 189.4, -603.9)
+03/09/2021 20:59:02: Current res 1920x1080     1920x1012
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:26: Minimap: Adding unique location (63.8, 33.2, 7.0)
+03/09/2021 20:59:02: UI Group status changed MenuRoot = False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:28: Force generaeting hmap (576.0, 0.0, -576.0)
+requesting resize 1600 x 900
+requesting fullscreen 1600 x 900 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+InitializeOrResetSwapChain 1600x900 hdr=0 samples=1
+MANGOHUD: recreating font image
+03/09/2021 20:59:33: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:28: Force generaeting hmap (448.0, 0.0, -704.0)
+03/09/2021 20:59:47: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:28: Placed locations in zone 7,-11  duration 6,741 ms
+03/09/2021 20:59:49: UI Group status changed MenuRoot = False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:28: Placed locations in zone 10,-11  duration 27,762 ms
+03/09/2021 20:59:50: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:29: Force generaeting hmap (448.0, 0.0, -704.0)
+03/09/2021 20:59:53: Current res 1920x1080     1600x900
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:29: Placed locations in zone 10,-12  duration 3,455 ms
+03/09/2021 20:59:53: UI Group status changed MenuRoot = False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:29: Placed locations in zone 8,-6  duration 0,09 ms
+03/09/2021 21:00:22: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:29: Force generaeting hmap (512.0, 0.0, -704.0)
+03/09/2021 21:00:29: Spawned Fish3 x 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:29: Placed locations in zone 8,-11  duration 5,301 ms
+03/09/2021 21:00:36: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: Loading dungeon
+03/09/2021 21:00:37: Current res 1920x1080     1600x900
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: Dungeon loaded 0
+03/09/2021 21:00:37: UI Group status changed MenuRoot = False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: Dungeon load time 0,056 ms
+03/09/2021 21:00:43: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: Available rooms:18
+03/09/2021 21:01:07: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: To place:40
+03/09/2021 21:01:09: Current res 1920x1080     1600x900
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: Connections 4
+03/09/2021 21:01:09: UI Group status changed MenuRoot = False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: placed 14 doors
+03/09/2021 21:01:21: Spawned Boar x 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: Placed 35 rooms
+03/09/2021 21:01:39: BInding key Inventory
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: Placed locations in zone 8,-12  duration 41,954 ms
+03/09/2021 21:01:54: BInding key Map
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: Loading dungeon
+03/09/2021 21:02:15: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: Dungeon loaded 0
+03/09/2021 21:02:29: Spawned Seagal x 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: Dungeon load time 0,049 ms
+03/09/2021 21:02:30: Queue unlock msg:$msg_newitem:$item_torch
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: Available rooms:18
+03/09/2021 21:02:30: Queue unlock msg:$msg_newitem:$item_chest_rags
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: To place:40
+03/09/2021 21:02:30: Queue unlock msg:$msg_newmaterial:$item_resin
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: Connections 4
+03/09/2021 21:02:44: Show text :Primigenio del bosque, rey de las arboladas
+Gobierna a todos los que se encuentran bajo sus pisadas
+Sus raíces llegarán hasta los lugares en los que antaño había ciudades
+Su sangre será su vino, y sus cuerpos su carne
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: placed 7 doors
+03/09/2021 21:02:59: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: Placed 31 rooms
+03/09/2021 21:03:00: Current res 1920x1080     1600x900
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: Placed locations in zone 7,-10  duration 31,097 ms
+03/09/2021 21:03:00: UI Group status changed MenuRoot = False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:30: Placed locations in zone 8,-10  duration 4,104 ms
+03/09/2021 21:03:08: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:31: Placed locations in zone 7,-9  duration 6,277 ms
+03/09/2021 21:03:47: Show text :Hace eones, solía llevar una corona
+Bajo un cielo teñido de sangre roja
+Ahora no queda nadie de quien antaño fue
+Y su espíritu no puede perecer
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Placed locations in zone 7,-7  duration 4,052 ms
+03/09/2021 21:04:06: Queue unlock msg:$msg_newmaterial:$item_wood
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Spawned Deer x 2
+03/09/2021 21:04:06: Queue unlock msg:$msg_newrecipe:$item_club
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Spawned Deer x 2
+03/09/2021 21:04:06: Queue unlock msg:$msg_newrecipe:$item_torch
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Spawned Seagal x 2
+03/09/2021 21:04:15: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Spawned Seagal x 2
+03/09/2021 21:04:17: Current res 1920x1080     1600x900
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Spawned Fish1 x 4
+03/09/2021 21:04:17: UI Group status changed MenuRoot = False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Spawned Fish2 x 4
+03/09/2021 21:04:42: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Spawned Fish3 x 2
+03/09/2021 21:05:30: Spawned Greyling x 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 21:05:31: Show text :Allá donde crece la hierba
+
+Y el cielo de azul todo lo siembra
 
-03/09/2021 20:39:32: Spawned Fish3 x 2
+Siempre habrá un lugar llamado hogar
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Spawned Greydwarf x 4
+03/09/2021 21:05:59: Spawned Seagal x 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Spawned Greydwarf x 4
+03/09/2021 21:05:59: Spawned Greyling x 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Spawned Greydwarf_Shaman x 1
+03/09/2021 21:05:59: Placed locations in zone -2,5  duration 0,607 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Spawned FireFlies x 1
+03/09/2021 21:05:59: Placed locations in zone -1,5  duration 3,96 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Spawned FireFlies x 1
+03/09/2021 21:06:00: Placed locations in zone 2,5  duration 0,58 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Spawned FireFlies x 1
+03/09/2021 21:06:00: Placed locations in zone 4,5  duration 6,971 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Spawned FireFlies x 1
+03/09/2021 21:06:00: Placed locations in zone 5,5  duration 0,758 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Placed locations in zone 8,-13  duration 0,739 ms
+03/09/2021 21:06:03: Spawned Deer x 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Loading dungeon
+03/09/2021 21:06:07: Queue unlock msg:$msg_newmaterial:$item_flint
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Dungeon loaded 0
+03/09/2021 21:06:10: Setting selected recipe 0
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Dungeon load time 0,065 ms
+03/09/2021 21:06:10: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Available rooms:18
+03/09/2021 21:06:10: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: To place:40
+03/09/2021 21:06:20: Setting selected recipe 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Connections 4
+03/09/2021 21:06:27: Setting selected recipe 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: placed 9 doors
+03/09/2021 21:06:27: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Placed 35 rooms
+03/09/2021 21:06:27: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Placed locations in zone 9,-13  duration 29,744 ms
+03/09/2021 21:06:37: Queue unlock msg:$msg_newmaterial:$item_stone
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:32: Placed locations in zone 10,-13  duration 1,391 ms
+03/09/2021 21:06:37: Queue unlock msg:$msg_newrecipe:$item_axe_stone
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:33: Loading dungeon
+03/09/2021 21:06:37: Queue unlock msg:$msg_newrecipe:$item_hammer
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:33: Dungeon loaded 0
+03/09/2021 21:07:08: Setting selected recipe 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:33: Dungeon load time 0,043 ms
+03/09/2021 21:07:08: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:33: Available rooms:18
+03/09/2021 21:07:08: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:33: To place:40
+03/09/2021 21:07:12: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:33: Connections 4
+03/09/2021 21:07:12: Setting selected recipe 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:33: placed 7 doors
+03/09/2021 21:07:28: Setting selected recipe 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:33: Placed 30 rooms
+03/09/2021 21:07:28: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:33: Placed locations in zone 5,-11  duration 28,313 ms
+03/09/2021 21:07:28: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:34: Placed locations in zone 6,-11  duration 10,322 ms
+03/09/2021 21:07:35: Setting selected recipe 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:34: Placed locations in zone 5,-8  duration 12,54 ms
+03/09/2021 21:08:06: Setting selected recipe 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:34: Loading dungeon
+03/09/2021 21:08:06: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:34: Dungeon loaded 0
+03/09/2021 21:08:06: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:34: Dungeon load time 0,046 ms
+03/09/2021 21:08:15: Setting selected recipe 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:34: Available rooms:18
+03/09/2021 21:08:15: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:34: To place:40
+03/09/2021 21:08:15: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:34: Connections 4
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 242 unused Assets to reduce memory usage. Loaded Objects now: 1233814.
+Total: 304.680382 ms (FindLiveObjects: 50.219605 ms CreateObjectMapping: 10.347958 ms MarkObjects: 242.562759 ms  DeleteObjects: 1.549588 ms)
+
+03/09/2021 21:08:22: Spawned Deer x 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:34: placed 7 doors
+03/09/2021 21:08:22: Spawned Seagal x 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:34: Placed 26 rooms
+03/09/2021 21:08:22: Spawned Greyling x 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:34: Placed locations in zone 5,-6  duration 25,815 ms
+03/09/2021 21:08:22: Placed locations in zone -2,6  duration 2,435 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:34: Placed locations in zone 6,-10  duration 16,366 ms
+03/09/2021 21:08:23: Placed locations in zone -1,6  duration 12,93 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:35: Placed locations in zone 6,-8  duration 0,079 ms
+03/09/2021 21:08:23: Placed locations in zone 0,6  duration 3,937 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:35: Loading dungeon
+03/09/2021 21:08:23: Placed locations in zone 1,6  duration 2,525 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:35: Dungeon loaded 0
+03/09/2021 21:08:23: Placed locations in zone 2,6  duration 0,207 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:35: Dungeon load time 0,044 ms
+03/09/2021 21:08:32: Setting selected recipe 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:35: Available rooms:13
+03/09/2021 21:08:32: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:35: To place:30
+03/09/2021 21:08:32: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:35: Placed 12 rooms
+03/09/2021 21:08:39: Setting selected recipe 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:35: Force generaeting hmap (320.0, 0.0, -448.0)
+03/09/2021 21:08:39: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:35: Placed locations in zone 5,-7  duration 135,825 ms
+03/09/2021 21:08:39: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:35: Placed locations in zone 6,-7  duration 0,437 ms
+03/09/2021 21:08:49: Setting selected recipe 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:36: Placed locations in zone 5,-5  duration 11,967 ms
+03/09/2021 21:08:49: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:36: Placed locations in zone 6,-5  duration 2,307 ms
+03/09/2021 21:08:49: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:37: Placed locations in zone 7,-5  duration 2,479 ms
+03/09/2021 21:09:00: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:37: Loading dungeon
+03/09/2021 21:09:02: Current res 1920x1080     1600x900
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:37: Dungeon loaded 0
+03/09/2021 21:09:02: UI Group status changed MenuRoot = False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:37: Dungeon load time 0,045 ms
+03/09/2021 21:09:16: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:37: Available rooms:18
+03/09/2021 21:09:43: Spawned Deer x 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:37: To place:40
+03/09/2021 21:10:06: Setting selected recipe 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:37: Connections 4
+03/09/2021 21:10:06: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:37: placed 6 doors
+03/09/2021 21:10:06: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:37: Placed 25 rooms
+03/09/2021 21:11:09: Setting selected recipe 0
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:39:37: Placed locations in zone 8,-5  duration 28,165 ms
+03/09/2021 21:11:09: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:10: Placed locations in zone 6,-4  duration 4,256 ms
+03/09/2021 21:11:09: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:10: Placed locations in zone 7,-4  duration 6,199 ms
+03/09/2021 21:11:13: Queue unlock msg:$msg_newitem:$item_axe_stone
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:11: Placed locations in zone 9,-4  duration 0,081 ms
+03/09/2021 21:11:13: Setting selected recipe 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:11: Placed locations in zone 12,-4  duration 0,623 ms
+03/09/2021 21:12:02: Setting selected recipe 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:12: Spawned Seagal x 2
+03/09/2021 21:12:02: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:12: Spawned Fish1 x 3
+03/09/2021 21:12:02: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:12: Spawned Greydwarf x 2
+03/09/2021 21:12:04: Setting selected recipe 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:14: Loading dungeon
+03/09/2021 21:12:11: Setting selected recipe 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:14: Dungeon loaded 25
+03/09/2021 21:12:11: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:14: Dungeon load time 12,97 ms
+03/09/2021 21:12:11: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:14: Force generaeting hmap (576.0, 0.0, -320.0)
+03/09/2021 21:12:12: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:14: Force generaeting hmap (640.0, 0.0, -320.0)
+03/09/2021 21:12:41: Queue unlock msg:$msg_newmaterial:$item_beechseeds
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:14: Placed locations in zone 4,-8  duration 8,486 ms
+03/09/2021 21:13:33: Right back item AxeStone
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:14: Placed locations in zone 4,-7  duration 4,099 ms
+03/09/2021 21:13:35: Spawned Deer x 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:15: Placed locations in zone 4,-6  duration 2,293 ms
+03/09/2021 21:13:47: Right back item 
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:15: Placed locations in zone 4,-5  duration 8,139 ms
+03/09/2021 21:13:49: Right back item AxeStone
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:15: Placed locations in zone 4,-4  duration 0,071 ms
+03/09/2021 21:13:53: Right back item 
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:15: Placed locations in zone 7,-3  duration 0,073 ms
+03/09/2021 21:13:59: Right back item AxeStone
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: Loading dungeon
+03/09/2021 21:14:19: Right back item 
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: Dungeon loaded 0
+03/09/2021 21:14:24: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: Dungeon load time 0,047 ms
+03/09/2021 21:14:24: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: Available rooms:18
+03/09/2021 21:14:24: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: To place:40
+03/09/2021 21:14:29: Item is not in this container
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: Connections 4
+03/09/2021 21:14:29: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: placed 5 doors
+03/09/2021 21:14:58: Queue unlock msg:$msg_newitem:$item_raspberries
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: Placed 25 rooms
+03/09/2021 21:14:59: Show text :Hace eones, solía llevar una corona
+Bajo un cielo teñido de sangre roja
+Ahora no queda nadie de quien antaño fue
+Y su espíritu no puede perecer
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: Placed locations in zone 10,-3  duration 18,742 ms
+03/09/2021 21:15:02: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: Spawned Deer x 3
+03/09/2021 21:15:02: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: Spawned Boar x 3
+03/09/2021 21:15:02: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: Spawned Neck x 2
+03/09/2021 21:15:07: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: Spawned Neck x 4
+03/09/2021 21:16:22: Stoped music meadows at 8575668
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: Spawned Neck x 3
+03/09/2021 21:16:45: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: Spawned Seagal x 2
+03/09/2021 21:16:45: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: Spawned Greydwarf x 2
+03/09/2021 21:16:45: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:16: Placed locations in zone 12,-3  duration 1,185 ms
+03/09/2021 21:16:49: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:17: Placed locations in zone 7,-2  duration 5,534 ms
+03/09/2021 21:16:49: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:17: Placed locations in zone 8,-2  duration 8,326 ms
+03/09/2021 21:16:49: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:19: Spawned Deer x 2
+03/09/2021 21:16:55: UI Group status changed root = False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:19: Spawned Boar x 1
+03/09/2021 21:16:55: UI Group status changed Player = False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:19: Spawned Fish2 x 4
+03/09/2021 21:16:57: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:19: Spawned Fish3 x 1
+03/09/2021 21:16:57: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:19: Spawned Fish3 x 1
+03/09/2021 21:17:40: Spawned Greyling x 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:21: Placed locations in zone 6,-1  duration 0,064 ms
+03/09/2021 21:18:05: DiscoverClosestLocation
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:21: Loading dungeon
+03/09/2021 21:18:05: Found location of type Eikthyrnir
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:21: Dungeon loaded 25
+03/09/2021 21:18:11: Right click
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:21: Dungeon load time 10,812 ms
+03/09/2021 21:18:17: clone 42
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:21: Placed locations in zone 8,-1  duration 4,065 ms
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+03/09/2021 21:18:17: Saved 33420 zdos
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:21: Placed locations in zone 11,-1  duration 0,884 ms
+03/09/2021 21:18:17: World saved ( 340,687ms )
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
 
-03/09/2021 20:40:22: Spawned Fish1 x 4
+Unloading 550 unused Assets to reduce memory usage. Loaded Objects now: 1231209.
+Total: 321.697388 ms (FindLiveObjects: 53.273799 ms CreateObjectMapping: 10.561864 ms MarkObjects: 255.214479 ms  DeleteObjects: 2.646820 ms)
+
+03/09/2021 21:18:25: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:22: Spawned Greydwarf x 3
+03/09/2021 21:18:25: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:23: Loading dungeon
+03/09/2021 21:18:25: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:23: Dungeon loaded 12
+03/09/2021 21:18:27: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:23: Dungeon load time 41,383 ms
+03/09/2021 21:18:27: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:23: Loading dungeon
+03/09/2021 21:18:27: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:23: Dungeon loaded 26
+03/09/2021 21:18:37: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:23: Dungeon load time 14,499 ms
+03/09/2021 21:19:43: Spawned Seagal x 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:24: Placed locations in zone 3,-7  duration 27,001 ms
+03/09/2021 21:20:23: Im still nto the owner
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:24: Placed locations in zone 3,-6  duration 0,187 ms
+03/09/2021 21:20:23: Im still nto the owner
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:25: Placed locations in zone 3,-2  duration 2,681 ms
+03/09/2021 21:20:23: Im still nto the owner
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:25: Placed locations in zone 3,-1  duration 10,925 ms
+03/09/2021 21:20:23: Im still nto the owner
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:25: Placed locations in zone 4,0  duration 2,47 ms
+03/09/2021 21:20:23: Im still nto the owner
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:25: Spawned Deer x 1
+03/09/2021 21:20:23: Im still nto the owner
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:25: Spawned Boar x 2
+03/09/2021 21:20:23: Im still nto the owner
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:25: Spawned Boar x 3
+03/09/2021 21:20:23: Im finally the owner
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:25: Spawned Neck x 2
+03/09/2021 21:20:26: Setting selected recipe 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:25: Spawned Greyling x 1
+03/09/2021 21:20:26: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:25: Placed locations in zone 9,0  duration 2,043 ms
+03/09/2021 21:20:26: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:26: Placed locations in zone 11,0  duration 20,539 ms
+03/09/2021 21:20:31: Queue unlock msg:$msg_newitem:$item_hammer
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:27: Placed locations in zone 3,1  duration 8,6 ms
+03/09/2021 21:20:31: Queue unlock msg:$msg_newpiece:$piece_repair
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:27: Placed locations in zone 4,1  duration 8,192 ms
+03/09/2021 21:20:31: Queue unlock msg:$msg_newpiece:$piece_firepit
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:28: Placed locations in zone 7,1  duration 2,671 ms
+03/09/2021 21:20:31: Queue unlock msg:$msg_newpiece:$piece_woodstack
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:28: Placed locations in zone 8,1  duration 1,06 ms
+03/09/2021 21:20:31: Queue unlock msg:$msg_newpiece:$piece_stonepile
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:28: Loading dungeon
+03/09/2021 21:20:31: Queue unlock msg:$msg_newpiece:$piece_cookingstation
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:28: Dungeon loaded 0
+03/09/2021 21:20:31: Queue unlock msg:$msg_newpiece:$piece_workbench
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:28: Dungeon load time 0,064 ms
+03/09/2021 21:20:31: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:28: Available rooms:18
+03/09/2021 21:20:40: Item is not in this container
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:28: To place:40
+03/09/2021 21:20:40: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:28: Connections 4
+03/09/2021 21:20:53: Disabling PlayerBase  character_trigger
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:28: placed 4 doors
+03/09/2021 21:21:45: Disabling PlayerBase  character_trigger
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:28: Placed 29 rooms
+03/09/2021 21:21:53: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:28: Placed locations in zone 10,1  duration 23,567 ms
+03/09/2021 21:21:53: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:28: Placed locations in zone 11,1  duration 3,095 ms
+03/09/2021 21:21:53: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:31: Placed locations in zone 6,2  duration 2,075 ms
+03/09/2021 21:21:58: Disabling PlayerBase  character_trigger
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:31: Placed locations in zone 10,2  duration 4,41 ms
+03/09/2021 21:22:23: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:32: Spawned Deer x 3
+03/09/2021 21:22:23: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:32: Spawned Greyling x 1
+03/09/2021 21:22:23: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:33: Starting descent
+03/09/2021 21:23:15: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:34: Placed locations in zone 2,-2  duration 2,621 ms
+03/09/2021 21:23:15: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:35: Placed locations in zone 2,2  duration 2,643 ms
+03/09/2021 21:23:15: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:35: Placed locations in zone 2,3  duration 6,629 ms
+03/09/2021 21:23:17: Disabling PlayerBase  character_trigger
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:35: Placed locations in zone 4,3  duration 0,062 ms
+03/09/2021 21:23:20: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:35: Placed locations in zone 5,3  duration 3,518 ms
+03/09/2021 21:23:20: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:35: Placed locations in zone 6,3  duration 2,892 ms
+03/09/2021 21:23:20: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:35: Spawned Boar x 3
+03/09/2021 21:23:48: Disabling PlayerBase  character_trigger
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:36: Loading dungeon
+03/09/2021 21:23:51: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:36: Dungeon loaded 0
+03/09/2021 21:23:51: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:36: Dungeon load time 0,046 ms
+03/09/2021 21:23:51: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:36: Available rooms:18
+03/09/2021 21:23:52: Item is not in this container
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:36: To place:40
+03/09/2021 21:23:52: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:36: Connections 4
+03/09/2021 21:24:00: Disabling PlayerBase  character_trigger
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:36: placed 7 doors
+03/09/2021 21:24:02: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:36: Placed 31 rooms
+03/09/2021 21:24:02: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:36: Placed locations in zone 10,3  duration 28,761 ms
+03/09/2021 21:24:02: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:38: Placed locations in zone 1,-1  duration 0,067 ms
+03/09/2021 21:24:11: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:39: Placed locations in zone 1,2  duration 2,48 ms
+03/09/2021 21:24:11: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:43: Force generaeting hmap (384.0, 0.0, 128.0)
+03/09/2021 21:24:11: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:44: Placed locations in zone 4,4  duration 3,192 ms
+03/09/2021 21:24:17: Item is not in this container
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:44: Spawned Deer x 3
+03/09/2021 21:24:17: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:44: Spawned Deer x 2
+03/09/2021 21:24:23: Spawned Greyling x 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:44: Spawned Boar x 2
+03/09/2021 21:25:22: Setting selected recipe 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:44: Spawned Greyling x 1
+03/09/2021 21:25:22: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:44: Spawned Greyling x 1
+03/09/2021 21:25:22: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:53: We are here
+03/09/2021 21:25:23: Spawned Boar x 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:53: We are here
+03/09/2021 21:25:23: Spawned Neck x 4
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:55: Spawned Boar x 1
+03/09/2021 21:25:23: Placed locations in zone 6,5  duration 4,653 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:55: Spawned Seagal x 1
+03/09/2021 21:25:23: Force generaeting hmap (192.0, 0.0, 256.0)
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:55: Spawned Seagal x 2
+03/09/2021 21:25:23: Force generaeting hmap (256.0, 0.0, 256.0)
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:55: Spawned Fish1 x 5
+03/09/2021 21:25:23: Placed locations in zone 6,6  duration 7,785 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:55: Spawned Fish2 x 4
+03/09/2021 21:25:43: Spawned Neck x 3
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:55: Spawned Fish3 x 1
+03/09/2021 21:26:51: Spawned Fish2 x 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:55: Spawned Fish3 x 1
+03/09/2021 21:27:26: Force generaeting hmap (384.0, 0.0, 128.0)
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:40:55: Spawned Greyling x 1
+03/09/2021 21:27:44: Setting selected recipe 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:41:03: Destroying valkyrie
+03/09/2021 21:27:44: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:41:37: UI Group status changed MenuRoot = True
+03/09/2021 21:27:44: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:41:38: Current res 1920x1080     1920x1080
+03/09/2021 21:27:49: Setting selected recipe 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:41:38: UI Group status changed MenuRoot = False
+03/09/2021 21:27:54: Setting selected recipe 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:41:44: Current res 1920x1080     1920x1080
+03/09/2021 21:27:56: Setting selected recipe 0
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:41:44: UI Group status changed MenuRoot = True
+03/09/2021 21:28:04: Drop item $item_axe_stone
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:41:52: UI Group status changed MenuRoot = True
+03/09/2021 21:28:04: drop all 1  1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:41:54: UI Group status changed MenuRoot = False
+03/09/2021 21:28:04: Setting selected recipe 0
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:41:55: UI Group status changed MenuRoot = True
+03/09/2021 21:28:08: Setting selected recipe 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:41:57: Current res 1920x1080     1920x1080
+03/09/2021 21:28:13: Force generaeting hmap (384.0, 0.0, 128.0)
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 1452 unused Assets to reduce memory usage. Loaded Objects now: 1281551.
+Total: 336.800337 ms (FindLiveObjects: 54.871518 ms CreateObjectMapping: 10.718882 ms MarkObjects: 263.275688 ms  DeleteObjects: 7.933728 ms)
 
-03/09/2021 20:41:57: UI Group status changed MenuRoot = False
+03/09/2021 21:28:24: Disabling PlayerBase  character_trigger
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:09: UI Group status changed MenuRoot = True
+03/09/2021 21:28:42: Spawned Greyling x 1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:13: UI Group status changed MenuRoot = True
+03/09/2021 21:29:24: Player -415739505 wants to open TreasureChest_meadows(Clone)   im: -415739505
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:15: Current res 1920x1080     1920x1080
+03/09/2021 21:29:24: Setting selected recipe 2
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:15: UI Group status changed MenuRoot = False
+03/09/2021 21:29:24: UI Group status changed root = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:24: UI Group status changed MenuRoot = True
+03/09/2021 21:29:24: UI Group status changed Player = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:46: UI Group status changed MenuRoot = True
+03/09/2021 21:29:37: UI Group status changed MenuRoot = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:53: UI Group status changed MenuRoot = False
+03/09/2021 21:29:43: UI Group status changed MenuRoot = False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:54: Game - OnApplicationQuit
+03/09/2021 21:29:44: Game - OnApplicationQuit
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:54: ZNet Shutdown
+03/09/2021 21:29:45: ZNet Shutdown
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:54: clone 68
+03/09/2021 21:29:45: clone 43
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:54: Saved 31313 zdos
+03/09/2021 21:29:45: Saved 34369 zdos
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:54: World saved ( 78,229ms )
+03/09/2021 21:29:45: World saved ( 101,407ms )
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:54: Sending disconnect msg
+03/09/2021 21:29:45: Sending disconnect msg
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:56: ZNet OnDestroy
+03/09/2021 21:29:47: Local player destroyed
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:56: Net scene destroyed
+03/09/2021 21:29:47: Steam manager on destroy
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:57: Steam manager on destroy
+03/09/2021 21:29:48: ZNet OnDestroy
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-03/09/2021 20:42:57: Local player destroyed
+03/09/2021 21:29:48: Net scene destroyed
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Vulkan PSO: data extracted [new size=948568, old size=0, incomplete=0]
-Vulkan PSO: Saved size[948568] path[/tmp/IronGate/Valheim/vulkan_pso_cache.bin] success=1 headerChanged=1 sizeChanged=1
+Vulkan PSO: data extracted [new size=1082472, old size=948568, incomplete=0]
+Vulkan PSO: Saved size[1082472] path[/tmp/IronGate/Valheim/vulkan_pso_cache.bin] success=1 headerChanged=0 sizeChanged=1

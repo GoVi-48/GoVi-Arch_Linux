@@ -4,9 +4,8 @@ Preloaded 'libsteam_api.so'
 Preloaded 'libsteam_api.so.bak'
 Display 0 'BenQ GL2460 24"': 1920x1080 (primary device).
 Desktop is 1920 x 1080 @ 60 Hz
-[Vulkan init] extensions: count=17
+[Vulkan init] extensions: count=18
 [Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
-[Vulkan init] extensions: name=VK_KHR_display, enabled=1
 [Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
 [Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
 [Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
@@ -15,23 +14,34 @@ Desktop is 1920 x 1080 @ 60 Hz
 [Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
 [Vulkan init] extensions: name=VK_KHR_surface, enabled=1
 [Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_wayland_surface, enabled=1
 [Vulkan init] extensions: name=VK_KHR_xcb_surface, enabled=0
 [Vulkan init] extensions: name=VK_KHR_xlib_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_display, enabled=1
+[Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
 [Vulkan init] extensions: name=VK_EXT_acquire_xlib_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_display_surface_counter, enabled=0
 [Vulkan init] extensions: name=VK_EXT_debug_report, enabled=0
 [Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
-[Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
-[Vulkan init] extensions: name=VK_EXT_display_surface_counter, enabled=0
+vkBasalt info:  config file: /home/govi/.config/vkBasalt/vkBasalt.conf
+vkBasalt info:  reshadeTexturePath = /home/govi/.config/vkBasalt/Reshade-Shaders/Textures
+vkBasalt info:  reshadeIncludePath = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders
+vkBasalt info:  effects = cas:smaa:clarity:liftgammagain
+vkBasalt info:  casSharpness = 0.5
+vkBasalt info:  smaa = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders/SMAA.fx
+vkBasalt info:  clarity = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders/Clarity.fx
+vkBasalt info:  lumasharpen = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders/LumaSharpen.fx
+vkBasalt info:  liftgammagain = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders/LiftGammaGain.fx
+WARNING: radv is not a conformant vulkan implementation, testing use only.
 skipping config: /Media/Games/PC/Valheim/game/MangoHud.conf [ not found ]
 skipping config: /home/govi/.config/MangoHud/valheim.x86_64.conf [ not found ]
 parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
 Vulkan detection: 2
-Initialize engine version: 2019.4.16f1 (e05b6e02d63e)
+Initialize engine version: 2019.4.20f1 (6dd1c08eedfa)
 [Subsystems] Discovering subsystems at path /Media/Games/PC/Valheim/game/valheim_Data/UnitySubsystems
 GfxDevice: creating device client; threaded=1
-[Vulkan init] extensions: count=17
+[Vulkan init] extensions: count=18
 [Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
-[Vulkan init] extensions: name=VK_KHR_display, enabled=1
 [Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
 [Vulkan init] extensions: name=VK_KHR_external_memory_capabilities, enabled=0
 [Vulkan init] extensions: name=VK_KHR_external_semaphore_capabilities, enabled=0
@@ -40,23 +50,34 @@ GfxDevice: creating device client; threaded=1
 [Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
 [Vulkan init] extensions: name=VK_KHR_surface, enabled=1
 [Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
+[Vulkan init] extensions: name=VK_KHR_wayland_surface, enabled=1
 [Vulkan init] extensions: name=VK_KHR_xcb_surface, enabled=0
 [Vulkan init] extensions: name=VK_KHR_xlib_surface, enabled=1
+[Vulkan init] extensions: name=VK_KHR_display, enabled=1
+[Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
 [Vulkan init] extensions: name=VK_EXT_acquire_xlib_display, enabled=0
+[Vulkan init] extensions: name=VK_EXT_display_surface_counter, enabled=0
 [Vulkan init] extensions: name=VK_EXT_debug_report, enabled=0
 [Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
-[Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
-[Vulkan init] extensions: name=VK_EXT_display_surface_counter, enabled=0
+vkBasalt info:  config file: /home/govi/.config/vkBasalt/vkBasalt.conf
+vkBasalt info:  reshadeTexturePath = /home/govi/.config/vkBasalt/Reshade-Shaders/Textures
+vkBasalt info:  reshadeIncludePath = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders
+vkBasalt info:  effects = cas:smaa:clarity:liftgammagain
+vkBasalt info:  casSharpness = 0.5
+vkBasalt info:  smaa = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders/SMAA.fx
+vkBasalt info:  clarity = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders/Clarity.fx
+vkBasalt info:  lumasharpen = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders/LumaSharpen.fx
+vkBasalt info:  liftgammagain = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders/LiftGammaGain.fx
+WARNING: radv is not a conformant vulkan implementation, testing use only.
 skipping config: /Media/Games/PC/Valheim/game/MangoHud.conf [ not found ]
 skipping config: /home/govi/.config/MangoHud/valheim.x86_64.conf [ not found ]
 parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
-[Vulkan init] Physical Device 0x205b0a0 [0]: "GeForce GTX 980" deviceType=2 vendorID=10de deviceID=13c0
-[Vulkan init] Selected physical device 0x205b0a0
+[Vulkan init] Physical Device 0xd40540 [0]: "AMD RADV TAHITI (ACO)" deviceType=2 vendorID=1002 deviceID=6798
+[Vulkan init] Selected physical device 0xd40540
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=107
 [Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=0
-[Vulkan init] extensions: name=VK_KHR_8bit_storage, enabled=0
 [Vulkan init] extensions: name=VK_KHR_bind_memory2, enabled=0
 [Vulkan init] extensions: name=VK_KHR_buffer_device_address, enabled=0
 [Vulkan init] extensions: name=VK_KHR_copy_commands2, enabled=0
@@ -76,10 +97,10 @@ parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
 [Vulkan init] extensions: name=VK_KHR_get_memory_requirements2, enabled=1
 [Vulkan init] extensions: name=VK_KHR_image_format_list, enabled=1
 [Vulkan init] extensions: name=VK_KHR_imageless_framebuffer, enabled=0
+[Vulkan init] extensions: name=VK_KHR_incremental_present, enabled=0
 [Vulkan init] extensions: name=VK_KHR_maintenance1, enabled=1
 [Vulkan init] extensions: name=VK_KHR_maintenance2, enabled=1
 [Vulkan init] extensions: name=VK_KHR_maintenance3, enabled=0
-[Vulkan init] extensions: name=VK_KHR_multiview, enabled=1
 [Vulkan init] extensions: name=VK_KHR_pipeline_executable_properties, enabled=0
 [Vulkan init] extensions: name=VK_KHR_push_descriptor, enabled=0
 [Vulkan init] extensions: name=VK_KHR_relaxed_block_layout, enabled=0
@@ -89,8 +110,8 @@ parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
 [Vulkan init] extensions: name=VK_KHR_shader_atomic_int64, enabled=0
 [Vulkan init] extensions: name=VK_KHR_shader_clock, enabled=0
 [Vulkan init] extensions: name=VK_KHR_shader_draw_parameters, enabled=0
-[Vulkan init] extensions: name=VK_KHR_shader_float16_int8, enabled=0
 [Vulkan init] extensions: name=VK_KHR_shader_float_controls, enabled=0
+[Vulkan init] extensions: name=VK_KHR_shader_float16_int8, enabled=0
 [Vulkan init] extensions: name=VK_KHR_shader_non_semantic_info, enabled=0
 [Vulkan init] extensions: name=VK_KHR_shader_subgroup_extended_types, enabled=0
 [Vulkan init] extensions: name=VK_KHR_shader_terminate_invocation, enabled=0
@@ -102,162 +123,1491 @@ parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
 [Vulkan init] extensions: name=VK_KHR_uniform_buffer_standard_layout, enabled=0
 [Vulkan init] extensions: name=VK_KHR_variable_pointers, enabled=0
 [Vulkan init] extensions: name=VK_KHR_vulkan_memory_model, enabled=0
-[Vulkan init] extensions: name=VK_EXT_4444_formats, enabled=0
-[Vulkan init] extensions: name=VK_EXT_blend_operation_advanced, enabled=0
+[Vulkan init] extensions: name=VK_KHR_multiview, enabled=1
+[Vulkan init] extensions: name=VK_KHR_8bit_storage, enabled=0
 [Vulkan init] extensions: name=VK_EXT_buffer_device_address, enabled=0
 [Vulkan init] extensions: name=VK_EXT_calibrated_timestamps, enabled=0
 [Vulkan init] extensions: name=VK_EXT_conditional_rendering, enabled=0
-[Vulkan init] extensions: name=VK_EXT_conservative_rasterization, enabled=0
 [Vulkan init] extensions: name=VK_EXT_custom_border_color, enabled=0
+[Vulkan init] extensions: name=VK_EXT_display_control, enabled=0
 [Vulkan init] extensions: name=VK_EXT_depth_clip_enable, enabled=0
 [Vulkan init] extensions: name=VK_EXT_depth_range_unrestricted, enabled=0
 [Vulkan init] extensions: name=VK_EXT_descriptor_indexing, enabled=0
 [Vulkan init] extensions: name=VK_EXT_discard_rectangles, enabled=0
-[Vulkan init] extensions: name=VK_EXT_display_control, enabled=0
 [Vulkan init] extensions: name=VK_EXT_extended_dynamic_state, enabled=0
+[Vulkan init] extensions: name=VK_EXT_external_memory_dma_buf, enabled=0
 [Vulkan init] extensions: name=VK_EXT_external_memory_host, enabled=0
-[Vulkan init] extensions: name=VK_EXT_fragment_shader_interlock, enabled=0
 [Vulkan init] extensions: name=VK_EXT_global_priority, enabled=0
 [Vulkan init] extensions: name=VK_EXT_host_query_reset, enabled=0
 [Vulkan init] extensions: name=VK_EXT_image_robustness, enabled=0
-[Vulkan init] extensions: name=VK_EXT_index_type_uint8, enabled=0
 [Vulkan init] extensions: name=VK_EXT_inline_uniform_block, enabled=0
 [Vulkan init] extensions: name=VK_EXT_line_rasterization, enabled=0
 [Vulkan init] extensions: name=VK_EXT_memory_budget, enabled=0
+[Vulkan init] extensions: name=VK_EXT_memory_priority, enabled=0
 [Vulkan init] extensions: name=VK_EXT_pci_bus_info, enabled=0
 [Vulkan init] extensions: name=VK_EXT_pipeline_creation_cache_control, enabled=0
 [Vulkan init] extensions: name=VK_EXT_pipeline_creation_feedback, enabled=0
-[Vulkan init] extensions: name=VK_EXT_post_depth_coverage, enabled=0
 [Vulkan init] extensions: name=VK_EXT_private_data, enabled=0
+[Vulkan init] extensions: name=VK_EXT_queue_family_foreign, enabled=0
 [Vulkan init] extensions: name=VK_EXT_robustness2, enabled=0
 [Vulkan init] extensions: name=VK_EXT_sample_locations, enabled=0
 [Vulkan init] extensions: name=VK_EXT_sampler_filter_minmax, enabled=0
-[Vulkan init] extensions: name=VK_EXT_scalar_block_layout, enabled=0
-[Vulkan init] extensions: name=VK_EXT_separate_stencil_usage, enabled=0
 [Vulkan init] extensions: name=VK_EXT_shader_atomic_float, enabled=0
 [Vulkan init] extensions: name=VK_EXT_shader_demote_to_helper_invocation, enabled=0
 [Vulkan init] extensions: name=VK_EXT_shader_image_atomic_int64, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_viewport_index_layer, enabled=0
+[Vulkan init] extensions: name=VK_EXT_shader_stencil_export, enabled=0
 [Vulkan init] extensions: name=VK_EXT_shader_subgroup_ballot, enabled=0
 [Vulkan init] extensions: name=VK_EXT_shader_subgroup_vote, enabled=0
-[Vulkan init] extensions: name=VK_EXT_shader_viewport_index_layer, enabled=0
 [Vulkan init] extensions: name=VK_EXT_subgroup_size_control, enabled=0
 [Vulkan init] extensions: name=VK_EXT_texel_buffer_alignment, enabled=0
-[Vulkan init] extensions: name=VK_EXT_tooling_info, enabled=0
 [Vulkan init] extensions: name=VK_EXT_transform_feedback, enabled=0
 [Vulkan init] extensions: name=VK_EXT_vertex_attribute_divisor, enabled=0
 [Vulkan init] extensions: name=VK_EXT_ycbcr_image_arrays, enabled=0
-[Vulkan init] extensions: name=VK_NV_coverage_reduction_mode, enabled=0
-[Vulkan init] extensions: name=VK_NV_dedicated_allocation, enabled=0
-[Vulkan init] extensions: name=VK_NV_dedicated_allocation_image_aliasing, enabled=0
-[Vulkan init] extensions: name=VK_NV_device_diagnostic_checkpoints, enabled=0
-[Vulkan init] extensions: name=VK_NV_device_diagnostics_config, enabled=0
-[Vulkan init] extensions: name=VK_NV_device_generated_commands, enabled=0
-[Vulkan init] extensions: name=VK_NV_fill_rectangle, enabled=0
-[Vulkan init] extensions: name=VK_NV_fragment_coverage_to_color, enabled=0
-[Vulkan init] extensions: name=VK_NV_framebuffer_mixed_samples, enabled=0
-[Vulkan init] extensions: name=VK_NV_geometry_shader_passthrough, enabled=0
-[Vulkan init] extensions: name=VK_NV_sample_mask_override_coverage, enabled=0
-[Vulkan init] extensions: name=VK_NV_shader_sm_builtins, enabled=0
-[Vulkan init] extensions: name=VK_NV_shader_subgroup_partitioned, enabled=0
-[Vulkan init] extensions: name=VK_NV_viewport_array2, enabled=0
-[Vulkan init] extensions: name=VK_NV_viewport_swizzle, enabled=0
-[Vulkan init] extensions: name=VK_NVX_multiview_per_view_attributes, enabled=0
-Vulkan API version 1.1.0 (1.2.155 supported by driver)
-Vulkan vendor=[NVIDIA] id=[10de]
-Vulkan renderer=[GeForce GTX 980] id=[13c0]
+[Vulkan init] extensions: name=VK_AMD_buffer_marker, enabled=0
+[Vulkan init] extensions: name=VK_AMD_device_coherent_memory, enabled=0
+[Vulkan init] extensions: name=VK_AMD_draw_indirect_count, enabled=0
+[Vulkan init] extensions: name=VK_AMD_gcn_shader, enabled=0
+[Vulkan init] extensions: name=VK_AMD_memory_overallocation_behavior, enabled=0
+[Vulkan init] extensions: name=VK_AMD_mixed_attachment_samples, enabled=0
+[Vulkan init] extensions: name=VK_AMD_shader_ballot, enabled=0
+[Vulkan init] extensions: name=VK_AMD_shader_core_properties, enabled=0
+[Vulkan init] extensions: name=VK_AMD_shader_core_properties2, enabled=0
+[Vulkan init] extensions: name=VK_AMD_shader_explicit_vertex_parameter, enabled=0
+[Vulkan init] extensions: name=VK_AMD_shader_image_load_store_lod, enabled=0
+[Vulkan init] extensions: name=VK_AMD_shader_fragment_mask, enabled=0
+[Vulkan init] extensions: name=VK_AMD_shader_info, enabled=0
+[Vulkan init] extensions: name=VK_AMD_shader_trinary_minmax, enabled=0
+[Vulkan init] extensions: name=VK_AMD_texture_gather_bias_lod, enabled=0
+[Vulkan init] extensions: name=VK_GOOGLE_decorate_string, enabled=0
+[Vulkan init] extensions: name=VK_GOOGLE_hlsl_functionality1, enabled=0
+[Vulkan init] extensions: name=VK_GOOGLE_user_type, enabled=0
+[Vulkan init] extensions: name=VK_NV_compute_shader_derivatives, enabled=0
+[Vulkan init] extensions: name=VK_EXT_4444_formats, enabled=0
+Vulkan API version 1.1.0 (1.2.145 supported by driver)
+Vulkan vendor=[ATI] id=[1002]
+Vulkan renderer=[AMD RADV TAHITI (ACO)] id=[6798]
 Vulkan device type 2
-Vulkan driverversion=[0x7309c000] uint=[1930018816]
-Vulkan PSO: Cache data successfully loaded [size=1830133,path=/tmp/IronGate/Valheim/vulkan_pso_cache.bin]
+Vulkan driverversion=[0x05003004] uint=[83898372]
+Vulkan PSO: cache data not found [path=/tmp/IronGate/Valheim/vulkan_pso_cache.bin]
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.111 seconds
+- Completed reload, in  0.477 seconds
 requesting resize 1920 x 1080
 Using native desktop resolution 1920 x 1080
 requesting fullscreen 1920 x 1080 at 0 Hz
 Desktop is 1920 x 1080 @ 60 Hz
 InitializeOrResetSwapChain 1920x1080 hdr=0 samples=1
 MANGOHUD: recreating font image
-UnloadTime: 0.401844 ms
-02/16/2021 18:25:18: Starting to load scene:start
+UnloadTime: 0.477045 ms
+03/09/2021 20:32:21: Starting to load scene:start
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Couldn't create a Convex Mesh from source mesh "RearBig" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. 
-(Filename:  Line: 91)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 7f2d72e2c640 -> priority: 1 
-  Thread -> id: 7f2d21fda640 -> priority: 1 
-UnloadTime: 4.106380 ms
+  Thread -> id: 7f61516ae640 -> priority: 1 
+  Thread -> id: 7f60e3fff640 -> priority: 1 
+UnloadTime: 4.177251 ms
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu). 
 (Filename:  Line: 509)
 
-Initializing Google Analytics 0.2. 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-02/16/2021 18:25:26: Initializing world generator seed: ( 0 )   menu:True  worldgen version:1
+03/09/2021 20:32:33: Initializing world generator seed: ( 0 )   menu:True  worldgen version:1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:25:26: Using mountain distance: 1000
+03/09/2021 20:32:33: Using mountain distance: 1000
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:25:26: Render threading mode:MultiThreaded
+03/09/2021 20:32:33: Render threading mode:MultiThreaded
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:25:26: Using steam_appid.txt
+03/09/2021 20:32:33: Using steam_appid.txt
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:25:26: Using steam APPID:892970
+03/09/2021 20:32:33: Using steam APPID:892970
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:25:26: Steam initialized, persona:Goldberg
+03/09/2021 20:32:33: Authentication:k_ESteamNetworkingAvailability_Current
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:25:26: Missing audio clip in music respawn
+03/09/2021 20:32:33: Steam initialized, persona:Goldberg
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:25:26: Checking for installed DLCs
+03/09/2021 20:32:33: Missing audio clip in music respawn
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:25:26: DLC:beta installed:False
+03/09/2021 20:32:34: Checking for installed DLCs
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:25:26: Builder started
+03/09/2021 20:32:34: DLC:beta installed:False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:25:27: Loaded localization English
+03/09/2021 20:32:34: Builder started
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:25:27: Loaded localization Spanish
+03/09/2021 20:32:34: Loaded localization English
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:25:27: ARG 0 ./valheim.x86_64
+03/09/2021 20:32:34: Loaded localization Spanish
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:32:34: ARG 0 ./valheim.x86_64
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 87161.
-Total: 41.585399 ms (FindLiveObjects: 3.164418 ms CreateObjectMapping: 4.781479 ms MarkObjects: 33.409099 ms  DeleteObjects: 0.229884 ms)
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 87216.
+Total: 43.040617 ms (FindLiveObjects: 2.854776 ms CreateObjectMapping: 4.845218 ms MarkObjects: 35.132787 ms  DeleteObjects: 0.207396 ms)
 
-02/16/2021 18:25:29: UI Group status changed Menu = True
+03/09/2021 20:32:37: UI Group status changed Menu = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:25:32: Steam manager on destroy
+03/09/2021 20:32:45: Current res 1920x1080     1920x1080
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Vulkan PSO: data extracted [new size=1830133, old size=1830133, incomplete=0]
-Vulkan PSO: Pipeline cache has not changed skipping save handle[24b9008]
+03/09/2021 20:32:45: UI Group status changed Menu = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:33:18: BInding key Crouch
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:34:11: UI Group status changed Menu = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:34:13: Current res 1920x1080     1920x1080
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:34:13: UI Group status changed Menu = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:34:33: UI Group status changed Menu = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:34:34: show character selection
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:34:58: Set hair 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:34:59: Set hair 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:00: Set hair 3
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:02: Set hair 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:03: Set hair 5
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:04: Set hair 6
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:09: Set hair 7
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:15: Set hair 8
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:16: Set hair 9
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:21: Set hair 10
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:24: Set hair 11
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:30: Set hair 12
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:41: Set hair 13
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:46: Set hair 14
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:50: Set hair 15
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:51: Set hair 15
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:52: Set hair 13
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:52: Set hair 12
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:35:53: Set hair 11
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:37:08: Set hair 12
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:37:10: Set hair 13
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:37:13: Set hair 14
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:37:19: Set hair 13
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:37:19: Set hair 12
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:37:20: Set hair 11
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:37:20: Set hair 10
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:37:22: Set hair 11
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:37:55: UI Group status changed SelectCharacter = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:02: OnCharacterStart
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:02: UI Group status changed Panel = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:38: UI Group status changed Panel = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.789598 ms
+03/09/2021 20:38:48: Loading player profile govi
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:48: Zonesystem Awake 12286
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:48: DungeonDB Awake 12286
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:48: Steam initialized, persona:Goldberg
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:48: Initializing world generator seed:nvyvv6S806 ( -466336552 )   menu:False  worldgen version:1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:48: Using mountain distance: 1000
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:48: Found 480 mountain points
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:48: Remaining mountains:61
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:48: Calc time 14,894 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:48: Found 8062 lake points
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:49: Remaining lakes:129
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:49: Calc time 1517,179 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:49: Rivers:190
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:49: River buckets 17667
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:49: River render time 287,04 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:49: River Calc time 299,426 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:50: River buckets 25829
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:50: River render time 359,553 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:50: Placed 1858 streams
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:50: Stream Calc time 890,348 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:50: Load world GoViLand
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:50:   missing world.dat
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:50: Audioman already exist, destroying self
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:50: Checking for installed DLCs
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:50: DLC:beta installed:False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+
+Unloading 572 unused Assets to reduce memory usage. Loaded Objects now: 87024.
+Total: 54.299570 ms (FindLiveObjects: 3.524484 ms CreateObjectMapping: 5.195145 ms MarkObjects: 43.420639 ms  DeleteObjects: 2.158894 ms)
+
+03/09/2021 20:38:53: Zonesystem Start 12286
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:53: Generating locations
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:38:53: Checking for location duplicates
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:15: Failed to place all MountainWell1, placed 23 out of 25
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:18: Failed to place all Runestone_Mountains, placed 86 out of 100
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:18:  Done generating locations, duration:24786,303 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:18: DungeonDB Start 12286
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:18: Starting respawn
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:26: tip:$loadscreen_tip22
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:26: Force generaeting hmap (64.0, 0.0, 0.0)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:26: Placed locations in zone 1,0  duration 18,844 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:26: Setting up valkyrie 
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:26: Show intro 12294
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:26: Show text YOU DIED:Hace mucho tiempo, Odín, el Padre Todopoderoso, unió los mundos. Derrotó a sus enemigos, los envió al décimo mundo y partió las ramas del Árbol del mundo que sostenía la prisión. Dejó que estas tierras vagaran sin rumbo, convirtiéndolas así en un lugar del exilio...
+
+
+
+Durante siglos, ese lugar vivió sumido en un letargo inquietante, pero no llegó a morir. A medida que pasaban las glaciaciones, nacieron y murieron reinos ante los ojos de los dioses.
+
+
+
+Cuando llegó a oídos de Odín que sus enemigos empezaban a recuperar las fuerzas, dirigió la mirada hacia Midgard y envió a las valquirias para que rastrearan los campos de batalla en busca de los guerreros más avezados. Morirían en su mundo, pero renacerían...
+
+
+
+... ¡en VALHEIM!
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:26: World pos (580.4, 190.0, -603.8)   (580.7, 189.4, -603.9)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:26: Minimap: Adding unique location (63.8, 33.2, 7.0)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:28: Force generaeting hmap (576.0, 0.0, -576.0)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:28: Force generaeting hmap (448.0, 0.0, -704.0)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:28: Placed locations in zone 7,-11  duration 6,741 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:28: Placed locations in zone 10,-11  duration 27,762 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:29: Force generaeting hmap (448.0, 0.0, -704.0)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:29: Placed locations in zone 10,-12  duration 3,455 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:29: Placed locations in zone 8,-6  duration 0,09 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:29: Force generaeting hmap (512.0, 0.0, -704.0)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:29: Placed locations in zone 8,-11  duration 5,301 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: Dungeon loaded 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: Dungeon load time 0,056 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: Available rooms:18
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: To place:40
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: Connections 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: placed 14 doors
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: Placed 35 rooms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: Placed locations in zone 8,-12  duration 41,954 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: Dungeon loaded 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: Dungeon load time 0,049 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: Available rooms:18
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: To place:40
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: Connections 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: placed 7 doors
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: Placed 31 rooms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: Placed locations in zone 7,-10  duration 31,097 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:30: Placed locations in zone 8,-10  duration 4,104 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:31: Placed locations in zone 7,-9  duration 6,277 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Placed locations in zone 7,-7  duration 4,052 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Spawned Deer x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Spawned Deer x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Spawned Seagal x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Spawned Seagal x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Spawned Fish1 x 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Spawned Fish2 x 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Spawned Fish3 x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Spawned Fish3 x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Spawned Greydwarf x 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Spawned Greydwarf x 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Spawned Greydwarf_Shaman x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Spawned FireFlies x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Spawned FireFlies x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Spawned FireFlies x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Spawned FireFlies x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Placed locations in zone 8,-13  duration 0,739 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Dungeon loaded 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Dungeon load time 0,065 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Available rooms:18
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: To place:40
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Connections 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: placed 9 doors
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Placed 35 rooms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Placed locations in zone 9,-13  duration 29,744 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:32: Placed locations in zone 10,-13  duration 1,391 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:33: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:33: Dungeon loaded 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:33: Dungeon load time 0,043 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:33: Available rooms:18
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:33: To place:40
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:33: Connections 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:33: placed 7 doors
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:33: Placed 30 rooms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:33: Placed locations in zone 5,-11  duration 28,313 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:34: Placed locations in zone 6,-11  duration 10,322 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:34: Placed locations in zone 5,-8  duration 12,54 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:34: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:34: Dungeon loaded 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:34: Dungeon load time 0,046 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:34: Available rooms:18
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:34: To place:40
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:34: Connections 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:34: placed 7 doors
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:34: Placed 26 rooms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:34: Placed locations in zone 5,-6  duration 25,815 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:34: Placed locations in zone 6,-10  duration 16,366 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:35: Placed locations in zone 6,-8  duration 0,079 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:35: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:35: Dungeon loaded 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:35: Dungeon load time 0,044 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:35: Available rooms:13
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:35: To place:30
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:35: Placed 12 rooms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:35: Force generaeting hmap (320.0, 0.0, -448.0)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:35: Placed locations in zone 5,-7  duration 135,825 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:35: Placed locations in zone 6,-7  duration 0,437 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:36: Placed locations in zone 5,-5  duration 11,967 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:36: Placed locations in zone 6,-5  duration 2,307 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:37: Placed locations in zone 7,-5  duration 2,479 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:37: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:37: Dungeon loaded 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:37: Dungeon load time 0,045 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:37: Available rooms:18
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:37: To place:40
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:37: Connections 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:37: placed 6 doors
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:37: Placed 25 rooms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:39:37: Placed locations in zone 8,-5  duration 28,165 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:10: Placed locations in zone 6,-4  duration 4,256 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:10: Placed locations in zone 7,-4  duration 6,199 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:11: Placed locations in zone 9,-4  duration 0,081 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:11: Placed locations in zone 12,-4  duration 0,623 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:12: Spawned Seagal x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:12: Spawned Fish1 x 3
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:12: Spawned Greydwarf x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:14: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:14: Dungeon loaded 25
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:14: Dungeon load time 12,97 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:14: Force generaeting hmap (576.0, 0.0, -320.0)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:14: Force generaeting hmap (640.0, 0.0, -320.0)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:14: Placed locations in zone 4,-8  duration 8,486 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:14: Placed locations in zone 4,-7  duration 4,099 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:15: Placed locations in zone 4,-6  duration 2,293 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:15: Placed locations in zone 4,-5  duration 8,139 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:15: Placed locations in zone 4,-4  duration 0,071 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:15: Placed locations in zone 7,-3  duration 0,073 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: Dungeon loaded 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: Dungeon load time 0,047 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: Available rooms:18
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: To place:40
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: Connections 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: placed 5 doors
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: Placed 25 rooms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: Placed locations in zone 10,-3  duration 18,742 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: Spawned Deer x 3
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: Spawned Boar x 3
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: Spawned Neck x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: Spawned Neck x 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: Spawned Neck x 3
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: Spawned Seagal x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: Spawned Greydwarf x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:16: Placed locations in zone 12,-3  duration 1,185 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:17: Placed locations in zone 7,-2  duration 5,534 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:17: Placed locations in zone 8,-2  duration 8,326 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:19: Spawned Deer x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:19: Spawned Boar x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:19: Spawned Fish2 x 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:19: Spawned Fish3 x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:19: Spawned Fish3 x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:21: Placed locations in zone 6,-1  duration 0,064 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:21: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:21: Dungeon loaded 25
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:21: Dungeon load time 10,812 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:21: Placed locations in zone 8,-1  duration 4,065 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:21: Placed locations in zone 11,-1  duration 0,884 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:22: Spawned Fish1 x 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:22: Spawned Greydwarf x 3
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:23: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:23: Dungeon loaded 12
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:23: Dungeon load time 41,383 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:23: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:23: Dungeon loaded 26
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:23: Dungeon load time 14,499 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:24: Placed locations in zone 3,-7  duration 27,001 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:24: Placed locations in zone 3,-6  duration 0,187 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:25: Placed locations in zone 3,-2  duration 2,681 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:25: Placed locations in zone 3,-1  duration 10,925 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:25: Placed locations in zone 4,0  duration 2,47 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:25: Spawned Deer x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:25: Spawned Boar x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:25: Spawned Boar x 3
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:25: Spawned Neck x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:25: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:25: Placed locations in zone 9,0  duration 2,043 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:26: Placed locations in zone 11,0  duration 20,539 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:27: Placed locations in zone 3,1  duration 8,6 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:27: Placed locations in zone 4,1  duration 8,192 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:28: Placed locations in zone 7,1  duration 2,671 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:28: Placed locations in zone 8,1  duration 1,06 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:28: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:28: Dungeon loaded 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:28: Dungeon load time 0,064 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:28: Available rooms:18
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:28: To place:40
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:28: Connections 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:28: placed 4 doors
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:28: Placed 29 rooms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:28: Placed locations in zone 10,1  duration 23,567 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:28: Placed locations in zone 11,1  duration 3,095 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:31: Placed locations in zone 6,2  duration 2,075 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:31: Placed locations in zone 10,2  duration 4,41 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:32: Spawned Deer x 3
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:32: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:33: Starting descent
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:34: Placed locations in zone 2,-2  duration 2,621 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:35: Placed locations in zone 2,2  duration 2,643 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:35: Placed locations in zone 2,3  duration 6,629 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:35: Placed locations in zone 4,3  duration 0,062 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:35: Placed locations in zone 5,3  duration 3,518 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:35: Placed locations in zone 6,3  duration 2,892 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:35: Spawned Boar x 3
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:36: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:36: Dungeon loaded 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:36: Dungeon load time 0,046 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:36: Available rooms:18
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:36: To place:40
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:36: Connections 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:36: placed 7 doors
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:36: Placed 31 rooms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:36: Placed locations in zone 10,3  duration 28,761 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:38: Placed locations in zone 1,-1  duration 0,067 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:39: Placed locations in zone 1,2  duration 2,48 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:43: Force generaeting hmap (384.0, 0.0, 128.0)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:44: Placed locations in zone 4,4  duration 3,192 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:44: Spawned Deer x 3
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:44: Spawned Deer x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:44: Spawned Boar x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:44: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:44: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:53: We are here
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:53: We are here
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:55: Spawned Boar x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:55: Spawned Seagal x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:55: Spawned Seagal x 2
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:55: Spawned Fish1 x 5
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:55: Spawned Fish2 x 4
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:55: Spawned Fish3 x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:55: Spawned Fish3 x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:40:55: Spawned Greyling x 1
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:41:03: Destroying valkyrie
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:41:37: UI Group status changed MenuRoot = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:41:38: Current res 1920x1080     1920x1080
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:41:38: UI Group status changed MenuRoot = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:41:44: Current res 1920x1080     1920x1080
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:41:44: UI Group status changed MenuRoot = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:41:52: UI Group status changed MenuRoot = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:41:54: UI Group status changed MenuRoot = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:41:55: UI Group status changed MenuRoot = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:41:57: Current res 1920x1080     1920x1080
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:41:57: UI Group status changed MenuRoot = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:09: UI Group status changed MenuRoot = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:13: UI Group status changed MenuRoot = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:15: Current res 1920x1080     1920x1080
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:15: UI Group status changed MenuRoot = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:24: UI Group status changed MenuRoot = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:46: UI Group status changed MenuRoot = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:53: UI Group status changed MenuRoot = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:54: Game - OnApplicationQuit
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:54: ZNet Shutdown
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:54: clone 68
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:54: Saved 31313 zdos
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:54: World saved ( 78,229ms )
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:54: Sending disconnect msg
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:56: ZNet OnDestroy
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:56: Net scene destroyed
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:57: Steam manager on destroy
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+03/09/2021 20:42:57: Local player destroyed
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Vulkan PSO: data extracted [new size=948568, old size=0, incomplete=0]
+Vulkan PSO: Saved size[948568] path[/tmp/IronGate/Valheim/vulkan_pso_cache.bin] success=1 headerChanged=1 sizeChanged=1

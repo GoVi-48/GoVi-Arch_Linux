@@ -51,8 +51,8 @@ skipping config: /Media/Games/PC/Valheim/game/MangoHud.conf [ not found ]
 skipping config: /home/govi/.config/MangoHud/valheim.x86_64.conf [ not found ]
 parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
-[Vulkan init] Physical Device 0x1bd2680 [0]: "GeForce GTX 980" deviceType=2 vendorID=10de deviceID=13c0
-[Vulkan init] Selected physical device 0x1bd2680
+[Vulkan init] Physical Device 0x205b0a0 [0]: "GeForce GTX 980" deviceType=2 vendorID=10de deviceID=13c0
+[Vulkan init] Selected physical device 0x205b0a0
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=107
 [Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=0
@@ -167,18 +167,17 @@ Vulkan vendor=[NVIDIA] id=[10de]
 Vulkan renderer=[GeForce GTX 980] id=[13c0]
 Vulkan device type 2
 Vulkan driverversion=[0x7309c000] uint=[1930018816]
-Vulkan PSO: Cache data successfully loaded [size=1813295,path=/tmp/IronGate/Valheim/vulkan_pso_cache.bin]
+Vulkan PSO: Cache data successfully loaded [size=1830133,path=/tmp/IronGate/Valheim/vulkan_pso_cache.bin]
 Begin MonoManager ReloadAssembly
-- Completed reload, in  0.104 seconds
+- Completed reload, in  0.111 seconds
 requesting resize 1920 x 1080
 Using native desktop resolution 1920 x 1080
 requesting fullscreen 1920 x 1080 at 0 Hz
 Desktop is 1920 x 1080 @ 60 Hz
 InitializeOrResetSwapChain 1920x1080 hdr=0 samples=1
 MANGOHUD: recreating font image
-MANGOHUD: recreating font image
-UnloadTime: 0.416044 ms
-02/16/2021 18:15:04: Starting to load scene:start
+UnloadTime: 0.401844 ms
+02/16/2021 18:25:18: Starting to load scene:start
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
@@ -186,82 +185,79 @@ Couldn't create a Convex Mesh from source mesh "RearBig" within the maximum poly
 (Filename:  Line: 91)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-MANGOHUD: recreating font image
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 7f620ffff640 -> priority: 1 
-  Thread -> id: 7f620f7fe640 -> priority: 1 
-MANGOHUD: recreating font image
-UnloadTime: 4.472872 ms
+  Thread -> id: 7f2d72e2c640 -> priority: 1 
+  Thread -> id: 7f2d21fda640 -> priority: 1 
+UnloadTime: 4.106380 ms
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu). 
 (Filename:  Line: 509)
 
 Initializing Google Analytics 0.2. 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:15:12: Initializing world generator seed: ( 0 )   menu:True  worldgen version:1
+02/16/2021 18:25:26: Initializing world generator seed: ( 0 )   menu:True  worldgen version:1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:15:12: Using mountain distance: 1000
+02/16/2021 18:25:26: Using mountain distance: 1000
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:15:12: Render threading mode:MultiThreaded
+02/16/2021 18:25:26: Render threading mode:MultiThreaded
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:15:12: Using steam_appid.txt
+02/16/2021 18:25:26: Using steam_appid.txt
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:15:12: Using steam APPID:892970
+02/16/2021 18:25:26: Using steam APPID:892970
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:15:12: Steam initialized, persona:Goldberg
+02/16/2021 18:25:26: Steam initialized, persona:Goldberg
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:15:12: Missing audio clip in music respawn
+02/16/2021 18:25:26: Missing audio clip in music respawn
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:15:12: Checking for installed DLCs
+02/16/2021 18:25:26: Checking for installed DLCs
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:15:12: DLC:beta installed:False
+02/16/2021 18:25:26: DLC:beta installed:False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:15:12: Builder started
+02/16/2021 18:25:26: Builder started
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:15:12: Loaded localization English
+02/16/2021 18:25:27: Loaded localization English
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:15:12: Loaded localization Spanish
+02/16/2021 18:25:27: Loaded localization Spanish
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:15:12: ARG 0 ./valheim.x86_64
+02/16/2021 18:25:27: ARG 0 ./valheim.x86_64
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-MANGOHUD: recreating font image
 
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 87161.
-Total: 41.179177 ms (FindLiveObjects: 2.767041 ms CreateObjectMapping: 4.478353 ms MarkObjects: 33.703684 ms  DeleteObjects: 0.229554 ms)
+Total: 41.585399 ms (FindLiveObjects: 3.164418 ms CreateObjectMapping: 4.781479 ms MarkObjects: 33.409099 ms  DeleteObjects: 0.229884 ms)
 
-02/16/2021 18:15:14: UI Group status changed Menu = True
+02/16/2021 18:25:29: UI Group status changed Menu = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-02/16/2021 18:15:16: Steam manager on destroy
+02/16/2021 18:25:32: Steam manager on destroy
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Vulkan PSO: data extracted [new size=1830133, old size=1813295, incomplete=0]
-Vulkan PSO: Saved size[1830133] path[/tmp/IronGate/Valheim/vulkan_pso_cache.bin] success=1 headerChanged=0 sizeChanged=1
+Vulkan PSO: data extracted [new size=1830133, old size=1830133, incomplete=0]
+Vulkan PSO: Pipeline cache has not changed skipping save handle[24b9008]

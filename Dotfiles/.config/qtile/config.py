@@ -335,14 +335,14 @@ screens = [
 
                 widget.TextBox(font='GoVi_Icons', text='4'),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/mem_load.sh'),
-                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e htop')},
+                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')},
                                    update_interval=1),
 
                 widget.Spacer(length=10),
 
                 widget.TextBox(font='GoVi_Icons', text='5'),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/cpu_load.sh'),
-                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e htop')},
+                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')},
                                    update_interval=1),
 
                 widget.Spacer(length=10),

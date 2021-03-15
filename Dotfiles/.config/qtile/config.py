@@ -108,7 +108,7 @@ def window_to_next_group(qtile):
 
 # Run "sleep 5 && xprop" to see the wm class and name of an X client.
 groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefox", "lutris", "liferea",
-                                                                       "Steam", "*exe"])]),
+                                                                       "Steam", "*exe", ])]),
           Group("2", label="", layout='monadtall', matches=[Match(wm_class=["jetbrains-pycharm-ce-debug"])]),
           Group("3", label="", layout='monadtall'),
           Group("4", label="", layout='monadtall'),
@@ -396,8 +396,10 @@ floating_layout = layout.Floating(float_rules=[
     Match(wm_class='makebranch'),  # gitk
     Match(wm_class='maketag'),  # gitk
     Match(wm_class='ssh-askpass'),  # ssh-askpass
-    Match(title='branchdialog'),  # gitk
+    Match(wm_class='pinentry-gtk-2'),  # GPG key password entry
+    Match(wm_class='photoshop.exe'),
     Match(title='pinentry'),  # GPG key password entry
+    Match(title='branchdialog'),  # gitk
     Match(title='ulauncher'),
     Match(title='onboard'),
     Match(title='Transmission'),
@@ -406,6 +408,7 @@ floating_layout = layout.Floating(float_rules=[
     Match(title='Origin'),
     Match(title='Skype'),
 ])
+
 auto_fullscreen = True
 focus_on_window_activation = "smart"
 

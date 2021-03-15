@@ -21,7 +21,7 @@ Icon=Photoshop
 
 #s[Default] Command to launch on click:
 #{Example: nautilus --no-desktop, gedit, etc. You can even enter a shortkey, e.g. <Alt>F1, <Ctrl>c,  <Ctrl>v, etc}
-Exec=/home/govi/Scripts/Shell/Programs/Photoshop_2021.sh
+Exec=\s'/home/govi/Programs/Adobe/Wine/Launch-Photoshop.sh'
 
 
 #X[Extra parameters]

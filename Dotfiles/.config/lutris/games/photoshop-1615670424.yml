@@ -1,0 +1,12 @@
+game:
+  exe: /home/govi/Programs/Adobe/Photoshop 2021/photoshop.exe
+  prefix: ~/Programs/Adobe/Wine/wine-pfx
+system:
+  prefer_system_libs: true
+wine:
+  dxvk: true
+  dxvk_version: v1.7.3L-03f11ba
+  esync: false
+  fsync: true
+  system_winetricks: true
+  version: lutris-6.0-x86_64

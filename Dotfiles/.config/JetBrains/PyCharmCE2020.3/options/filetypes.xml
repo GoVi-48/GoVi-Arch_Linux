@@ -6,6 +6,8 @@
       <mapping pattern="user" type="AUTO_DETECTED" />
       <mapping pattern="Install_DXVK" type="AUTO_DETECTED" />
       <mapping pattern="sudoers" type="AUTO_DETECTED" />
+      <mapping pattern="gtkrc" type="BuildoutCfg" />
+      <mapping pattern="xfce-notify.rc" type="BuildoutCfg" />
       <mapping ext="exe" type="GitExclude file" />
       <mapping pattern="config" type="Ini" />
       <mapping pattern="skydrow" type="PLAIN_TEXT" />

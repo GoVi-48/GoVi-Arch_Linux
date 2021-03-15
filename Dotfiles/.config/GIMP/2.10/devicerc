@@ -3,9 +3,11 @@
 (GimpDeviceInfo "Core Pointer"
     (icon-name "gimp-cursor")
     (name "Core Pointer")
-    (tool-options "GimpMoveOptions"
-        (tool "gimp-move-tool"))
-    (use-fg-bg no)
+    (tool-options "GimpFilterOptions"
+        (tool "gimp-operation-tool")
+        (foreground (color-rgb 0.65760869565217384 0.27288524105294287 0.27288524105294287))
+        (background (color-rgb 0.94117653369903564 0.94117653369903564 0.94117653369903564)))
+    (use-fg-bg yes)
     (use-opacity-paint-mode no)
     (use-brush no)
     (use-dynamics no)

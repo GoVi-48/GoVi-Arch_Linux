@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Wine Internet Explorer
+MimeType=application/xslt+xml;
+Exec=env WINEPREFIX="/home/govi/Programs/Adobe/Wine/wine-pfx" /usr/bin/wine start /ProgIDOpen xslfile %f
+NoDisplay=true
+StartupNotify=true
+Icon=7596_iexplore.0

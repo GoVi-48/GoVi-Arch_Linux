@@ -25,6 +25,7 @@ CHECK_ENTRIES(){
     echo -e "\nBrodie Robertson:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nAverage Linux User:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCZiL6BoryLWxyapUuVYW27g" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nJoe Collins:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCTfabOKD7Yty6sDF4POBVqA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
+    echo -e "\nTechHut:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCjSEJkpGbcZhvo0lr-44X_w" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nThe Linux_Experiment:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC5UAwBUum7CPN5buc-_N1Fw" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nMental Outlaw:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nNikolay Stefanov:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCm21eK86ZmD0FQoNPGqvKlw" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"

@@ -38,6 +38,12 @@ fi
 # xterm -geometry 80x20+494-0 &
 # exec xterm -geometry 80x66+0+0 -name login
 
+# Suspend if inactivity
+pidof -s xautolock >& /dev/null
+if [ $? -ne 0 ]; then
+  xautolock -time 60 -locker "systemctl suspend" &
+fi
+
 # Autostart
 export PATH=$PATH:$HOME/Scripts/Shell/Autostart/
 
@@ -60,7 +66,7 @@ firewall-applet &
 
 nm-applet --sm-disable &
 
-cairo-dock &
+cairo-dock > /dev/null 2>&1&
 
 easystroke &
 

@@ -191,6 +191,18 @@ autologin-user-timeout=0
 autologin-session=qtile
 # ======================================================================================= #
 
+# Sync Time
+sudo nvim /etc/systemd/timesyncd.conf
+# ======================================================================================= #
+[Time]
+NTP=0.arch.pool.ntp.org 1.arch.pool.ntp.org 2.arch.pool.ntp.org 3.arch.pool.ntp.org
+FallbackNTP=0.arch.pool.ntp.org 1.arch.pool.ntp.org 2.arch.pool.ntp.org 3.arch.pool.ntp.org
+# ======================================================================================= #
+
+timedatectl set-ntp true
+timedatectl show-timesync --all
+
+
 # Required for custom Kernels
 sudo pacman -S nvidia-dkms
 

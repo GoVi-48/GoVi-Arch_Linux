@@ -22,5 +22,8 @@ awk '$1 ~ /^STRING/ {print substr($0,16,2); exit}' # Exit in the first match
 # Replace
 sed 's/THIS/THAT/g'
 
+# Rename multiple files
+for i in /DIR/*THIS* ; do mv -v "$i" "${i/\THIS/THAT}" ; done
+
 # Check if output is a number
 [[ $1 == ?(-)+([0-9]) ]] && echo "$1 is an integer"

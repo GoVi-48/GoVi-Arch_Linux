@@ -44,6 +44,10 @@ if [ $? -ne 0 ]; then
   xautolock -time 60 -locker "systemctl suspend" &
 fi
 
+# qt5 Theme
+export QT_QPA_PLATFORMTHEME=gtk2 # same as gtk2
+# export QT_QPA_PLATFORMTHEME=qt5ct # configure separately
+
 # Autostart
 export PATH=$PATH:$HOME/Scripts/Shell/Autostart/
 

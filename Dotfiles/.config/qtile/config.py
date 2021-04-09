@@ -259,28 +259,32 @@ screens = [
                 widget.TextBox(font='GoVi_Icons', text='2',
                                mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('df -h / --o=avail | awk "NR>1" | tr -d " "'),
-                                   update_interval=1),
+                                   update_interval=1,
+                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /')}),
 
                 widget.Spacer(length=10),
 
                 widget.TextBox(font='GoVi_Icons', text='H',
                                mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  ~/')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('df -h /home --o=avail | awk "NR>1" | tr -d " "'),
-                                   update_interval=1),
+                                   update_interval=1,
+                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  ~/')}),
 
                 widget.Spacer(length=10),
 
                 widget.TextBox(text='/D:',
                                mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /Datos')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('df -h /Datos --o=avail | awk "NR>1" | tr -d " "'),
-                                   update_interval=1),
+                                   update_interval=1,
+                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /Datos')}),
 
                 widget.Spacer(length=10),
 
                 widget.TextBox(text='/M:',
                                mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /Media')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('df -h /Media --o=avail | awk "NR>1" | tr -d " "'),
-                                   update_interval=1),
+                                   update_interval=1,
+                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /Media')}),
 
                 widget.Spacer(length=20),
 
@@ -333,14 +337,16 @@ screens = [
                 widget.Image(filename='~/.config/qtile/@resources/arrow_up_down.png'),
                 widget.Net(format='{up}/s ', interface='enp3s0'),
 
-                widget.TextBox(font='GoVi_Icons', text='4'),
+                widget.TextBox(font='GoVi_Icons', text='4',
+                               mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/mem_load.sh'),
                                    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')},
                                    update_interval=1),
 
                 widget.Spacer(length=10),
 
-                widget.TextBox(font='GoVi_Icons', text='5'),
+                widget.TextBox(font='GoVi_Icons', text='5',
+                               mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/cpu_load.sh'),
                                    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')},
                                    update_interval=1),

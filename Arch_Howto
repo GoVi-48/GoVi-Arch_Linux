@@ -15,7 +15,7 @@ Include = /etc/pacman.d/mirrorlist
 sudo pacman -Syu
 
 # Packages
-sudo pacman -S alacritty audacity exa ffmpeg firefox gimp gparted inkscape kdenlive neofetch obs-studio pass sxiv transmission-gtk virtualbox youtube-dl
+sudo pacman -S alacritty audacity exa ffmpeg firefox flameshot gimp gparted inkscape kdenlive neofetch obs-studio pass sxiv transmission-gtk virtualbox youtube-dl
 sudo pacman -S bc extra-cmake-modules fuseiso gnome-themes-extra icoutils jdk-openjdk lm_sensors mono nvidia-led packagekit-qt5 polkit unrar vim wget xautolock zip zenity
 
 # AUR packages

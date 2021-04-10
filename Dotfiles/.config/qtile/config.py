@@ -38,7 +38,13 @@ import os
 mod = "mod4"
 terminal = guess_terminal()
 
+
 keys = [
+
+    # Custom Shortcuts
+    Key([mod], "f", lazy.spawn('flameshot full -d 1 -p /home/govi')),
+    Key([mod], "s", lazy.spawn('spacefm ~/')),
+
     # Switch between windows
     Key([mod], "h", lazy.layout.left(), desc="Move focus to left"),
     Key([mod], "l", lazy.layout.right(), desc="Move focus to right"),

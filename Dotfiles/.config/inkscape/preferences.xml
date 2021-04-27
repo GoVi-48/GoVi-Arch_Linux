@@ -316,7 +316,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -551,11 +551,11 @@
        page="0"
        x="0"
        y="0"
-       w="434"
-       h="487"
+       w="514"
+       h="441"
        visible="1"
        state="2"
-       placement="2" />
+       placement="1" />
     <group
        id="filtereffects" />
     <group
@@ -577,11 +577,11 @@
        align-to="4"
        x="0"
        y="0"
-       w="434"
-       h="472"
+       w="514"
+       h="437"
        visible="1"
        state="2"
-       placement="1" />
+       placement="2" />
     <group
        id="xml"
        panedpos="135"
@@ -631,8 +631,8 @@
        id="object"
        x="0"
        y="0"
-       w="434"
-       h="333"
+       w="514"
+       h="340"
        visible="1"
        state="2"
        placement="1" />
@@ -643,14 +643,14 @@
        path=""
        x="0"
        y="0"
-       w="434"
-       h="483"
+       w="514"
+       h="489"
        visible="1"
        state="2"
-       placement="2">
+       placement="1">
       <group
          id="exportarea"
-         value="drawing" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="95" />
@@ -710,11 +710,11 @@
        maxDepth="20"
        x="0"
        y="0"
-       w="434"
-       h="257"
+       w="514"
+       h="226"
        visible="1"
        state="2"
-       placement="2" />
+       placement="1" />
     <group
        id="extensioneditor" />
     <group
@@ -738,8 +738,8 @@
        id="objects"
        x="0"
        y="0"
-       w="434"
-       h="257"
+       w="514"
+       h="225"
        visible="1"
        state="2"
        placement="2" />
@@ -1079,7 +1079,7 @@
        y="34"
        fullscreen="0"
        id="geometry"
-       maximized="0" />
+       maximized="1" />
     <group
        id="XYfront" />
     <group
@@ -1186,8 +1186,8 @@
      menuIcons_canvas="0"
      iconTheme="breeze"
      gtkTheme="GoVi_gtk-Windows"
-     defaultIconTheme="GoVi_gtk-Icons"
-     defaultTheme="GoVi_gtk-Windows"
+     defaultIconTheme="GoVi"
+     defaultTheme="GoVi"
      id="theme">
     <group
        symbolicErrorColor="3422552319"

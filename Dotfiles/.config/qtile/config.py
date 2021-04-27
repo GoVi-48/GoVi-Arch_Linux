@@ -42,7 +42,7 @@ terminal = guess_terminal()
 keys = [
 
     # Custom Shortcuts
-    Key([mod], "f", lazy.spawn('flameshot full -d 1 -p /home/govi')),
+    Key([mod], "f", lazy.spawn('flameshot full -d 1 -p /home/govi/Multimedia/Pictures/Screenshots/')),
     Key([mod], "s", lazy.spawn('spacefm ~/')),
 
     # Switch between windows

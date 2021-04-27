@@ -30,8 +30,6 @@ CHECK_ENTRIES(){
     echo -e "\nMental Outlaw:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nNikolay Stefanov:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCm21eK86ZmD0FQoNPGqvKlw" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nOldTechBloke:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCCIHOP7e271SIumQgyl6XBQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
-    echo -e "\nChris Titus Tech:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCg6gPGh8HU2U01vaFCAsvmQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
-    echo -e "\nTitus Tech Talk:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCtYg149E_wUGVmjGz-TgyNA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     # END
 
     echo -e "\n${L_BLUE}<==============================================================>"
@@ -43,7 +41,6 @@ CHECK_ENTRIES(){
     echo -e "\nBCC Gaming:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCBw-Dz6wHRkxiXKCLoWqDzA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nel bemoldemarmol:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC2NItvpCsmSkI8LdafCh97g" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nGameProTV:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCXgeThZc7YiGnNkPjfaWdRQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
-    echo -e "\nIGN:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCKy1dAqELo0zrOtPkf0eTMw" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nImKibitz:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCz9qw5nupdzCGwHwQiqs7qA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nInsertMoreCoins:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCq8n2oMl5dVugY_u4pzwoOQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nLoeya:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCARoT-xFUIxso8TDKulWSYA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
@@ -53,7 +50,6 @@ CHECK_ENTRIES(){
     echo -e "\nthatdenverguy:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCN_kkuZ1b1emUHq2Fz3DWuQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nTortilla Squad:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC3C9dOKpyemQCCJqsYt3ySQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nVerox Pivigames:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC7NO1-kIHv6vJTwuKxTNhmA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
-    echo -e "\nWASDCommunity:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC3cbD8JQJtHSCKVVN_hu1kA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     # END
 
     echo -e "\n${L_BLUE}<==============================================================>"
@@ -112,7 +108,6 @@ CHECK_ENTRIES(){
     echo -e "\nGreen Fits:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCvOoVW1ghB0Nxt2duEBGJKw" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nhugo van damme:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC3h8ePFDw-WXLxH3vbAWP-g" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nProfessor Live:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC5zJwsFtEs9WYe3A76p7xIA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
-    echo -e "\nTop Gear:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCjOl2AUblVmg2rA_cRgZkFg" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     # END
 
     echo -e "\n${L_BLUE}<==============================================================>"

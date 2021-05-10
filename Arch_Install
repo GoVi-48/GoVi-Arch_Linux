@@ -94,6 +94,8 @@ grub-mkconfig -o /boot/grub/grub.cfg
 
 useradd -mg wheel govi
 passwd govi
+sudo gpasswd -a govi wheel
+
 EDITOR=nvim visudo
 # ======================================================================================= #
 %wheel ALL=(ALL) ALL

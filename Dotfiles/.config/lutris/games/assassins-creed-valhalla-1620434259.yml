@@ -1,0 +1,15 @@
+game:
+  exe: /home/govi/Games/PC/Assassins Creed Valhalla/ACValhalla.exe
+  prefix: /Media/Games/PC/Assassins Creed Valhalla/Wine/wine-pfx
+  working_dir: /Media/Games/PC/Assassins Creed Valhalla
+system:
+  env:
+    VKD3D_CONFIG: multi_queue
+    VKD3D_DEBUG: none
+    WINEDEBUG: all
+    WINE_LARGE_ADDRESS_AWARE: '1'
+wine:
+  dxvk_version: v1.7.3L-03f11ba
+  overrides:
+    d3d12: n,b
+  version: Proton_tkg_6.8

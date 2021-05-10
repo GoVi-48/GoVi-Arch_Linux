@@ -44,6 +44,7 @@ keys = [
     # Custom Shortcuts
     Key([mod], "f", lazy.spawn('flameshot full -d 1 -p /home/govi/Multimedia/Pictures/Screenshots/')),
     Key([mod], "s", lazy.spawn('spacefm ~/')),
+    Key([mod], "b", lazy.spawn('alacritty -e bashtop')),
 
     # Switch between windows
     Key([mod], "h", lazy.layout.left(), desc="Move focus to left"),
@@ -114,7 +115,7 @@ def window_to_next_group(qtile):
 
 # Run "sleep 5 && xprop" to see the wm class and name of an X client.
 groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefox", "lutris", "liferea",
-                                                                       "Steam", "*exe", ])]),
+                                                                       "Steam", "*.exe", "TelegramDesktop", ])]),
           Group("2", label="", layout='monadtall', matches=[Match(wm_class=["jetbrains-pycharm-ce-debug"])]),
           Group("3", label="", layout='monadtall'),
           Group("4", label="", layout='monadtall'),

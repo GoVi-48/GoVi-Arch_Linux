@@ -39,6 +39,7 @@ CHECK_ENTRIES(){
     echo -e "\nALIENANGE:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCzXR8qGGPRa32ZoMIzt5VSw" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nBaityBait:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCNnNCBgckxzqIh1Txw5cgSg" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nBCC Gaming:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCBw-Dz6wHRkxiXKCLoWqDzA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
+    echo -e "\nBroadbent:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCYIznQtqvzX7th9kj9GEQDQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nel bemoldemarmol:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC2NItvpCsmSkI8LdafCh97g" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nGameProTV:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCXgeThZc7YiGnNkPjfaWdRQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nImKibitz:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCz9qw5nupdzCGwHwQiqs7qA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"

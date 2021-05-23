@@ -35,14 +35,6 @@ UPDATES="$(diff -s "${LOGS}/check_entries_games" "${LOGS}/recheck_entries_games"
 echo "$UPDATES" > "${LOGS}/rss_games"
 echo -e "\n$UPDATES Updates\n"
 
-if [ -f  ~/.config/qtile/scripts/notf_ON ]; then
-    [ $UPDATES -eq 1 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
-    [ $UPDATES -eq 5 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
-    [ $UPDATES -eq 10 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
-    [ $UPDATES -eq 15 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
-    [ $UPDATES -eq 20 ] && zenity --info --text "$UPDATES Updates" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
-fi
-
 # crontab -e
 # */5 * * * * ~/.config/qtile/scripts/rss_games.sh
 # crontab -l

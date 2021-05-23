@@ -8,8 +8,8 @@ if [ "$UPDATES_PACMAN" -eq 0 ]; then
 
 elif [ "$UPDATES_PACMAN" -gt 0 ] && [ -f $notf_ON ]; then
     echo "$UPDATES_PACMAN pacman"
-    zenity --info --text "$UPDATES_PACMAN pacman Updates" 2> /dev/null &
-    paplay $HOME/.local/share/sounds/long-dang.ogg
+    notify-send -i '/home/govi/Multimedia/Pictures/Icons/Themes/GoVi/apps/64/updates-pacman.svg' "Arch Linux" "$UPDATES_PACMAN Updates"  -t 5000 &
+    paplay $HOME/.local/share/sounds/cause-and-effect.ogg
 
 elif [ "$UPDATES_PACMAN" -gt 0 ] && [ ! -f $notf_ON ]; then
     echo "$UPDATES_PACMAN pacman"

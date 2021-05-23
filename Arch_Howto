@@ -16,7 +16,7 @@ sudo pacman -Syu
 
 # Packages
 sudo pacman -S alacritty audacity exa ffmpeg firefox flameshot gimp gparted inkscape kdenlive neofetch obs-studio pass sxiv telegram-desktop transmission-gtk virtualbox youtube-dl
-sudo pacman -S bc extra-cmake-modules fuseiso gnome-themes-extra icoutils jdk-openjdk lm_sensors mono nvidia-led packagekit-qt5 polkit unrar vim wget xautolock zip zenity
+sudo pacman -S bc extra-cmake-modules fuseiso gnome-themes-extra icoutils jdk-openjdk lm_sensors mono libnotify notification-daemon nvidia-led packagekit-qt5 polkit unrar vim wget xautolock zip zenity
 
 # AUR Packages
 paru -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke java-8-openjdk liferea mpc-qt picard sgtk-menu skype spotify teamviewer timeshift tiny-media-manager

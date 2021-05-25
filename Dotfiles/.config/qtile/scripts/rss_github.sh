@@ -44,7 +44,7 @@ echo "$UPDATES" > "${LOGS}/rss_github"
 echo -e "\n$UPDATES Updates\n"
 
 if [ "$UPDATES" -gt 0 ];then
-    notify-send -i '/home/govi/Multimedia/Pictures/Icons/Programs/png/github.png' "Github" "$UPDATES Updates"  -t 5000 &
+    notify-send -i '/home/govi/Multimedia/Pictures/Icons/Programs/png/github.png' "Github" ""$UPDATES" Updates"  -t 5000 &
     paplay $HOME/.local/share/sounds/cause-and-effect.ogg
 fi
 

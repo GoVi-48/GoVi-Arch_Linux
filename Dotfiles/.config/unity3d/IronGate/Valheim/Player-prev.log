@@ -1,6 +1,7 @@
 Mono path[0] = '/Datos/Games/PC/Valheim/game/valheim_Data/Managed'
 Mono config path = '/Datos/Games/PC/Valheim/game/valheim_Data/MonoBleedingEdge/etc'
-Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x2bb6920.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/}ÖR/mono/aot-cache/amd64/BepInEx.Preloader.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x2b5e200.so
 Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/libdl
 Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/libkernel32
 Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/libkernel32.so
@@ -28,7 +29,7 @@ Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Dat
 [Message:   BepInEx] Preloader started
 [Info   :   BepInEx] 1 patcher plugin loaded
 [Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
-Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x7f3cf0a5a010.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x7f50481b6010.so
 [Message:   BepInEx] Preloader finished
 Preloaded 'libsteam_api.so'
 Display 0 'BenQ GL2460 24"': 1920x1080 (primary device).
@@ -58,7 +59,7 @@ New root path: /Datos/Games/PC/Valheim/game/unstripped_corlib
 Search path: /Datos/Games/PC/Valheim/game/unstripped_corlib:/Datos/Games/PC/Valheim/game/valheim_Data/Managed
 Setting config paths; basedir: /Datos/Games/PC/Valheim/game; config: /Datos/Games/PC/Valheim/game/valheim.x86_64.config
 Managed dir: /Datos/Games/PC/Valheim/game/valheim_Data/Managed
-Got image: 0x25d0ed0 
+Got image: 0x25343b0 
 vkBasalt info:  config file: /home/govi/.config/vkBasalt/vkBasalt.conf
 vkBasalt info:  reshadeTexturePath = /home/govi/.config/vkBasalt/Reshade-Shaders/Textures
 vkBasalt info:  reshadeIncludePath = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders
@@ -109,8 +110,8 @@ skipping config: /Datos/Games/PC/Valheim/game/MangoHud.conf [ not found ]
 skipping config: /home/govi/.config/MangoHud/valheim.x86_64.conf [ not found ]
 parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
-[Vulkan init] Physical Device 0x3411f60 [0]: "AMD RADV TAHITI (ACO)" deviceType=2 vendorID=1002 deviceID=6798
-[Vulkan init] Selected physical device 0x3411f60
+[Vulkan init] Physical Device 0x32a2350 [0]: "AMD RADV TAHITI (ACO)" deviceType=2 vendorID=1002 deviceID=6798
+[Vulkan init] Selected physical device 0x32a2350
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=111
 [Vulkan init] extensions: name=VK_KHR_8bit_storage, enabled=0
@@ -229,7 +230,7 @@ Vulkan vendor=[ATI] id=[1002]
 Vulkan renderer=[AMD RADV TAHITI (ACO)] id=[6798]
 Vulkan device type 2
 Vulkan driverversion=[0x05401000] uint=[88084480]
-Vulkan PSO: cache data not found [path=/tmp/IronGate/Valheim/vulkan_pso_cache.bin]
+Vulkan PSO: Cache data successfully loaded [size=1141104,path=/tmp/IronGate/Valheim/vulkan_pso_cache.bin]
 Begin MonoManager ReloadAssembly
 Load DLL: /Datos/Games/PC/Valheim/game/valheim_Data/Managed/UnityEngine.dll
 Base: UnityEngine.dll
@@ -287,7 +288,7 @@ Base: UnityEngine.SharedInternalsModule.dll
 Redirecting to /Datos/Games/PC/Valheim/game/unstripped_corlib/UnityEngine.SharedInternalsModule.dll
 Load DLL: /Datos/Games/PC/Valheim/game/valheim_Data/Managed/UnityEngine.SubsystemsModule.dll
 Base: UnityEngine.SubsystemsModule.dll
-Redirecting to /Datos/Games/- Completed reload, in  0.252 seconds
+Redirecting to /Datos/Games/- Completed reload, in  0.029 seconds
 requesting resize 1600 x 900
 requesting fullscreen 1600 x 900 at 0 Hz
 Desktop is 1920 x 1080 @ 60 Hz
@@ -351,7 +352,7 @@ Base: assembly_simplemeshcombine.dll
 Load DLL: /Datos/Games/PC/Valheim/game/valheim_Data/Managed/assembly_utils.dll
 Base: assembly_utils.dll
 MANGOHUD: recreating font image
-UnloadTime: 0.764193 ms
+UnloadTime: 0.404927 ms
 [Message:   BepInEx] BepInEx 5.4.9.0 - valheim
 [Info   :   BepInEx] Running under Unity vUnknown (post-2017)
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
@@ -389,7 +390,7 @@ UnloadTime: 0.764193 ms
 [Info   :   BepInEx] Loading [GraphicsConfigPlus 1.2.1]
 [Info   :   BepInEx] Loading [Valheim Plus 0.9.7]
 [Info   :   BepInEx] Loading [Valheim Plus 0.9.7]
-Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x48c8420.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x49a9110.so
 [Info   :Valheim Plus] Trying to load the configuration file
 [Info   :Valheim Plus] Trying to load the configuration file
 [Info   : Unity Log] Loading config section AdvancedBuildingMode
@@ -1036,17 +1037,17 @@ Loading config section GameClock
 [Info   :   BepInEx] Loading [Equipment and Quick Slots 2.0.5]
 [Message:   BepInEx] Chainloader startup complete
 [Message:   BepInEx] Chainloader startup complete
-[Info   : Unity Log] 05/11/2021 20:07:29: Starting to load scene:start
+[Info   : Unity Log] 05/11/2021 20:45:56: Starting to load scene:start
 
-05/11/2021 20:07:29: Starting to load scene:start
+05/11/2021 20:45:56: Starting to load scene:start
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 7f3c63fff640 -> priority: 1 
-  Thread -> id: 7f3c637fe640 -> priority: 1 
-UnloadTime: 3.355156 ms
+  Thread -> id: 7f4fd3fff640 -> priority: 1 
+  Thread -> id: 7f4fd37fe640 -> priority: 1 
+UnloadTime: 3.867349 ms
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu). 
 (Filename:  Line: 509)
@@ -1059,9 +1060,9 @@ Version generator started.
 Version generated with enforced mod : 0.150.3@0.9.7 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] 05/11/2021 20:07:41: Valheim version:0.150.3@0.9.7
+[Info   : Unity Log] 05/11/2021 20:46:07: Valheim version:0.150.3@0.9.7
 
-05/11/2021 20:07:41: Valheim version:0.150.3@0.9.7
+05/11/2021 20:46:07: Valheim version:0.150.3@0.9.7
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
@@ -1077,9 +1078,9 @@ Version generator started.
 Version generated with enforced mod : 0.150.3@0.9.7 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] 05/11/2021 20:07:41: Render threading mode:MultiThreaded
+[Info   : Unity Log] 05/11/2021 20:46:07: Render threading mode:MultiThreaded
 
-05/11/2021 20:07:41: Render threading mode:MultiThreaded
+05/11/2021 20:46:07: Render threading mode:MultiThreaded
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
@@ -1091,49 +1092,49 @@ Version generator started.
 Version generated with enforced mod : 0.150.3@0.9.7 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] 05/11/2021 20:07:41: Using steam_appid.txt
+[Info   : Unity Log] 05/11/2021 20:46:07: Using steam_appid.txt
 
-05/11/2021 20:07:41: Using steam_appid.txt
+05/11/2021 20:46:07: Using steam_appid.txt
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] 05/11/2021 20:07:41: Using steam APPID:892970
+[Info   : Unity Log] 05/11/2021 20:46:07: Using steam APPID:892970
 
-05/11/2021 20:07:41: Using steam APPID:892970
+05/11/2021 20:46:07: Using steam APPID:892970
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] 05/11/2021 20:07:41: Authentication:k_ESteamNetworkingAvailability_Current
+[Info   : Unity Log] 05/11/2021 20:46:07: Authentication:k_ESteamNetworkingAvailability_Current
 
-05/11/2021 20:07:41: Authentication:k_ESteamNetworkingAvailability_Current
+05/11/2021 20:46:07: Authentication:k_ESteamNetworkingAvailability_Current
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] 05/11/2021 20:07:41: Steam initialized, persona:Goldberg
+[Info   : Unity Log] 05/11/2021 20:46:07: Steam initialized, persona:Goldberg
 
-05/11/2021 20:07:41: Steam initialized, persona:Goldberg
+05/11/2021 20:46:07: Steam initialized, persona:Goldberg
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Warning: Unity Log] 05/11/2021 20:07:41: Missing audio clip in music respawn
+[Warning: Unity Log] 05/11/2021 20:46:07: Missing audio clip in music respawn
 
-05/11/2021 20:07:41: Missing audio clip in music respawn
+05/11/2021 20:46:07: Missing audio clip in music respawn
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] 05/11/2021 20:07:41: Checking for installed DLCs
+[Info   : Unity Log] 05/11/2021 20:46:07: Checking for installed DLCs
 
-05/11/2021 20:07:41: Checking for installed DLCs
+05/11/2021 20:46:07: Checking for installed DLCs
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] 05/11/2021 20:07:41: DLC:beta installed:False
+[Info   : Unity Log] 05/11/2021 20:46:07: DLC:beta installed:False
 
-05/11/2021 20:07:41: DLC:beta installed:False
+05/11/2021 20:46:07: DLC:beta installed:False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-05/11/2021 20:07:41: Builder started
+05/11/2021 20:46:07: Builder started
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
@@ -1157,15 +1158,15 @@ Version generator started.
 Version generated with enforced mod : 0.150.3@0.9.7 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] 05/11/2021 20:07:41: Loaded localization English
+[Info   : Unity Log] 05/11/2021 20:46:07: Loaded localization English
 
-05/11/2021 20:07:41: Loaded localization English
+05/11/2021 20:46:07: Loaded localization English
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] 05/11/2021 20:07:41: Loaded localization English
+[Info   : Unity Log] 05/11/2021 20:46:07: Loaded localization English
 
-05/11/2021 20:07:41: Loaded localization English
+05/11/2021 20:46:07: Loaded localization English
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
@@ -1373,617 +1374,54 @@ object HelmetDverger, ParticleSystemRenderer HelmetDverger, material Standard (I
 loading cached texture for object_HelmetDverger_MetallicGlossMap 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] CustomTextures SetupObjectDB RunTime 00:00:00.60
-CustomTextures SetupObjectDB RunTime 00:00:00.60 
+[Info   : Unity Log] CustomTextures SetupObjectDB RunTime 00:00:00.65
+CustomTextures SetupObjectDB RunTime 00:00:00.65 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
 
 Unloading 182 unused Assets to reduce memory usage. Loaded Objects now: 93541.
-Total: 72.144587 ms (FindLiveObjects: 3.517762 ms CreateObjectMapping: 5.181505 ms MarkObjects: 62.186986 ms  DeleteObjects: 1.257909 ms)
+Total: 79.258376 ms (FindLiveObjects: 4.031394 ms CreateObjectMapping: 9.178978 ms MarkObjects: 64.817678 ms  DeleteObjects: 1.229935 ms)
 
-[Info   : Unity Log] 05/11/2021 20:07:45: UI Group status changed Menu = True
+[Info   : Unity Log] 05/11/2021 20:46:11: UI Group status changed Menu = True
 
-05/11/2021 20:07:45: UI Group status changed Menu = True
+05/11/2021 20:46:11: UI Group status changed Menu = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] 05/11/2021 20:07:47: show character selection
+[Info   : Unity Log] 05/11/2021 20:46:13: show character selection
 
-05/11/2021 20:07:47: show character selection
+05/11/2021 20:46:13: show character selection
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] 05/11/2021 20:07:48: OnCharacterStart
+[Info   : Unity Log] 05/11/2021 20:46:16: UI Group status changed Menu = True
 
-05/11/2021 20:07:48: OnCharacterStart
+05/11/2021 20:46:16: UI Group status changed Menu = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 11.993893 ms
-[Info   : Unity Log] Version generator started.
-Version generator started. 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[Info   : Unity Log] 05/11/2021 20:46:20: show character selection
 
-[Info   : Unity Log] Version generated with enforced mod : 0.150.3@0.9.7
-Version generated with enforced mod : 0.150.3@0.9.7 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:07:52: Loading player profile govi ii
-
-05/11/2021 20:07:52: Loading player profile govi ii
+05/11/2021 20:46:20: show character selection
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] CustomTextures Reloading ZoneSystem textures _GameMain _Zone
-CustomTextures Reloading ZoneSystem textures _GameMain _Zone 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[Info   : Unity Log] 05/11/2021 20:46:20: UI Group status changed SelectCharacter = True
 
-[Info   : Unity Log] 05/11/2021 20:07:52: Zonesystem Awake 419
-
-05/11/2021 20:07:52: Zonesystem Awake 419
+05/11/2021 20:46:20: UI Group status changed SelectCharacter = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] 05/11/2021 20:07:52: DungeonDB Awake 419
+[Info   : Unity Log] 05/11/2021 20:46:28: UI Group status changed Menu = True
 
-05/11/2021 20:07:52: DungeonDB Awake 419
+05/11/2021 20:46:28: UI Group status changed Menu = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] 05/11/2021 20:07:52: Steam initialized, persona:Goldberg
+[Info   : Unity Log] 05/11/2021 20:46:48: Steam manager on destroy
 
-05/11/2021 20:07:52: Steam initialized, persona:Goldberg
+05/11/2021 20:46:48: Steam manager on destroy
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
 
-[Info   : Unity Log] 05/11/2021 20:07:55: Load world GoViLandII
-
-05/11/2021 20:07:55: Load world GoViLandII
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:07:55: Loading 460862 zdos , my id -277475857 data version:27
-
-05/11/2021 20:07:55: Loading 460862 zdos , my id -277475857 data version:27
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:07:57: Loaded 100000 dead zdos
-
-05/11/2021 20:07:57: Loaded 100000 dead zdos
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:07:57: Removed 0 OLD generated ZDOS
-
-05/11/2021 20:07:57: Removed 0 OLD generated ZDOS
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:07:57: Loaded 7082 locations
-
-05/11/2021 20:07:57: Loaded 7082 locations
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] CustomTextures ZNetScene awake
-CustomTextures ZNetScene awake 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] CustomTextures Checking 1441 prefabs
-CustomTextures Checking 1441 prefabs 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] CustomTextures 
-object ArmorWolfChest, MeshRenderer log, material SilverArmourChest_item (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfChest_MainTex
-object ArmorWolfChest, MeshRenderer log, material SilverArmourChest_item (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfChest_BumpMap
-object ArmorWolfChest, MeshRenderer log, material SilverArmourChest_item (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfChest_MetallicGlossMap
-object ArmorWolfChest, SkinnedMeshRenderer SilverWolfArmor, material SilverArmourChest_mat (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfChest_MainTex
-object ArmorWolfChest, SkinnedMeshRenderer SilverWolfArmor, material SilverArmourChest_mat (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfChest_BumpMap
-object ArmorWolfChest, SkinnedMeshRenderer SilverWolfArmor, material SilverArmourChest_mat (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfChest_MetallicGlossMap
-object ArmorWolfChest, ParticleSystemRenderer ArmorWolfChest, material item_particle (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfChest_MainTex
-object ArmorWolfChest, ParticleSystemRenderer ArmorWolfChest, material Standard (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfChest_MainTex
-object ArmorWolfChest, ParticleSystemRenderer ArmorWolfChest, material Standard (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfChest_BumpMap
-object ArmorWolfChest, ParticleSystemRenderer ArmorWolfChest, material Standard (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfChest_MetallicGlossMap
-armor ArmorWolfChest, Armor ArmorWolfChest, material SilverArmour_Skin_Chest, texture SilverArmour_Skin_n, using armor_ArmorWolfChest_ChestBumpMap for _ChestBumpMap.
-loading cached texture for armor_ArmorWolfChest_ChestBumpMap
-armor ArmorWolfChest, Armor ArmorWolfChest, material SilverArmour_Skin_Chest, texture ArmorWolfChest, using armor_ArmorWolfChest_ChestMetal for _ChestMetal.
-loading cached texture for armor_ArmorWolfChest_ChestMetal
-armor ArmorWolfChest, Armor ArmorWolfChest, material SilverArmour_Skin_Chest, texture SilverArmour_Skin_d, using armor_ArmorWolfChest_ChestTex for _ChestTex.
-loading cached texture for armor_ArmorWolfChest_ChestTex
-object ArmorWolfLegs, MeshRenderer log, material SilverArmourChest_item (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfLegs_MainTex
-object ArmorWolfLegs, MeshRenderer log, material SilverArmourChest_item (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfLegs_BumpMap
-object ArmorWolfLegs, MeshRenderer log, material SilverArmourChest_item (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfLegs_MetallicGlossMap
-object ArmorWolfLegs, SkinnedMeshRenderer Cube.008, material SilverArmourChest_mat (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfLegs_MainTex
-object ArmorWolfLegs, SkinnedMeshRenderer Cube.008, material SilverArmourChest_mat (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfLegs_BumpMap
-object ArmorWolfLegs, SkinnedMeshRenderer Cube.008, material SilverArmourChest_mat (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfLegs_MetallicGlossMap
-object ArmorWolfLegs, ParticleSystemRenderer ArmorWolfLegs, material item_particle (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfLegs_MainTex
-object ArmorWolfLegs, ParticleSystemRenderer ArmorWolfLegs, material Standard (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfLegs_MainTex
-object ArmorWolfLegs, ParticleSystemRenderer ArmorWolfLegs, material Standard (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfLegs_BumpMap
-object ArmorWolfLegs, ParticleSystemRenderer ArmorWolfLegs, material Standard (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfLegs_MetallicGlossMap
-object HelmetDrake, MeshRenderer default, material DragonVisor_Mat (Instance), texture HelmetDrake, using object_HelmetDrake_MainTex for _MainTex.
-loading cached texture for object_HelmetDrake_MainTex
-object HelmetDrake, MeshRenderer default, material DragonVisor_Mat (Instance), texture HelmetDrake, using object_HelmetDrake_BumpMap for _BumpMap.
-loading cached texture for object_HelmetDrake_BumpMap
-object HelmetDrake, MeshRenderer default, material DragonVisor_Mat (Instance), texture HelmetDrake, using object_HelmetDrake_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_HelmetDrake_MetallicGlossMap
-object HelmetDrake, ParticleSystemRenderer HelmetDrake, material item_particle (Instance), texture HelmetDrake, using object_HelmetDrake_MainTex for _MainTex.
-loading cached texture for object_HelmetDrake_MainTex
-object HelmetDrake, ParticleSystemRenderer HelmetDrake, material Standard (Instance), texture HelmetDrake, using object_HelmetDrake_MainTex for _MainTex.
-loading cached texture for object_HelmetDrake_MainTex
-object HelmetDrake, ParticleSystemRenderer HelmetDrake, material Standard (Instance), texture HelmetDrake, using object_HelmetDrake_BumpMap for _BumpMap.
-loading cached texture for object_HelmetDrake_BumpMap
-object HelmetDrake, ParticleSystemRenderer HelmetDrake, material Standard (Instance), texture HelmetDrake, using object_HelmetDrake_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_HelmetDrake_MetallicGlossMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat_stone (Instance), texture HelmetDverger, using object_HelmetDverger_BumpMap for _BumpMap.
-loading cached texture for object_HelmetDverger_BumpMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat_stone (Instance), texture HelmetDverger, using object_HelmetDverger_EmissionMap for _EmissionMap.
-loading cached texture for object_HelmetDverger_EmissionMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat_stone (Instance), texture HelmetDverger, using object_HelmetDverger_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_HelmetDverger_MetallicGlossMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat (Instance), texture dvergerhat_d, using texture_dvergerhat_d_MainTex for _MainTex.
-loading cached texture for texture_dvergerhat_d_MainTex
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat (Instance), texture HelmetDverger, using object_HelmetDverger_BumpMap for _BumpMap.
-loading cached texture for object_HelmetDverger_BumpMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat (Instance), texture HelmetDverger, using object_HelmetDverger_EmissionMap for _EmissionMap.
-loading cached texture for object_HelmetDverger_EmissionMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat (Instance), texture HelmetDverger, using object_HelmetDverger_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_HelmetDverger_MetallicGlossMap
-object HelmetDverger, ParticleSystemRenderer HelmetDverger, material Standard (Instance), texture HelmetDverger, using object_HelmetDverger_BumpMap for _BumpMap.
-loading cached texture for object_HelmetDverger_BumpMap
-object HelmetDverger, ParticleSystemRenderer HelmetDverger, material Standard (Instance), texture HelmetDverger, using object_HelmetDverger_EmissionMap for _EmissionMap.
-loading cached texture for object_HelmetDverger_EmissionMap
-object HelmetDverger, ParticleSystemRenderer HelmetDverger, material Standard (Instance), texture HelmetDverger, using object_HelmetDverger_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_HelmetDverger_MetallicGlossMap
-CustomTextures 
-object ArmorWolfChest, MeshRenderer log, material SilverArmourChest_item (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfChest_MainTex
-object ArmorWolfChest, MeshRenderer log, material SilverArmourChest_item (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfChest_BumpMap
-object ArmorWolfChest, MeshRenderer log, material SilverArmourChest_item (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfChest_MetallicGlossMap
-object ArmorWolfChest, SkinnedMeshRenderer SilverWolfArmor, material SilverArmourChest_mat (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfChest_MainTex
-object ArmorWolfChest, SkinnedMeshRenderer SilverWolfArmor, material SilverArmourChest_mat (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfChest_BumpMap
-object ArmorWolfChest, SkinnedMeshRenderer SilverWolfArmor, material SilverArmourChest_mat (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfChest_MetallicGlossMap
-object ArmorWolfChest, ParticleSystemRenderer ArmorWolfChest, material item_particle (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfChest_MainTex
-object ArmorWolfChest, ParticleSystemRenderer ArmorWolfChest, material Standard (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfChest_MainTex
-object ArmorWolfChest, ParticleSystemRenderer ArmorWolfChest, material Standard (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfChest_BumpMap
-object ArmorWolfChest, ParticleSystemRenderer ArmorWolfChest, material Standard (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfChest_MetallicGlossMap
-armor ArmorWolfChest, Armor ArmorWolfChest, material SilverArmour_Skin_Chest, texture SilverArmour_Skin_n, using armor_ArmorWolfChest_ChestBumpMap for _ChestBumpMap.
-loading cached texture for armor_ArmorWolfChest_ChestBumpMap
-armor ArmorWolfChest, Armor ArmorWolfChest, material SilverArmour_Skin_Chest, texture ArmorWolfChest, using armor_ArmorWolfChest_ChestMetal for _ChestMetal.
-loading cached texture for armor_ArmorWolfChest_ChestMetal
-armor ArmorWolfChest, Armor ArmorWolfChest, material SilverArmour_Skin_Chest, texture SilverArmour_Skin_d, using armor_ArmorWolfChest_ChestTex for _ChestTex.
-loading cached texture for armor_ArmorWolfChest_ChestTex
-object ArmorWolfLegs, MeshRenderer log, material SilverArmourChest_item (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfLegs_MainTex
-object ArmorWolfLegs, MeshRenderer log, material SilverArmourChest_item (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfLegs_BumpMap
-object ArmorWolfLegs, MeshRenderer log, material SilverArmourChest_item (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfLegs_MetallicGlossMap
-object ArmorWolfLegs, SkinnedMeshRenderer Cube.008, material SilverArmourChest_mat (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfLegs_MainTex
-object ArmorWolfLegs, SkinnedMeshRenderer Cube.008, material SilverArmourChest_mat (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfLegs_BumpMap
-object ArmorWolfLegs, SkinnedMeshRenderer Cube.008, material SilverArmourChest_mat (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfLegs_MetallicGlossMap
-object ArmorWolfLegs, ParticleSystemRenderer ArmorWolfLegs, material item_particle (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfLegs_MainTex
-object ArmorWolfLegs, ParticleSystemRenderer ArmorWolfLegs, material Standard (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfLegs_MainTex
-object ArmorWolfLegs, ParticleSystemRenderer ArmorWolfLegs, material Standard (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfLegs_BumpMap
-object ArmorWolfLegs, ParticleSystemRenderer ArmorWolfLegs, material Standard (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfLegs_MetallicGlossMap
-object HelmetDrake, MeshRenderer default, material DragonVisor_Mat (Instance), texture HelmetDrake, using object_HelmetDrake_MainTex for _MainTex.
-loading cached texture for object_HelmetDrake_MainTex
-object HelmetDrake, MeshRenderer default, material DragonVisor_Mat (Instance), texture HelmetDrake, using object_HelmetDrake_BumpMap for _BumpMap.
-loading cached texture for object_HelmetDrake_BumpMap
-object HelmetDrake, MeshRenderer default, material DragonVisor_Mat (Instance), texture HelmetDrake, using object_HelmetDrake_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_HelmetDrake_MetallicGlossMap
-object HelmetDrake, ParticleSystemRenderer HelmetDrake, material item_particle (Instance), texture HelmetDrake, using object_HelmetDrake_MainTex for _MainTex.
-loading cached texture for object_HelmetDrake_MainTex
-object HelmetDrake, ParticleSystemRenderer HelmetDrake, material Standard (Instance), texture HelmetDrake, using object_HelmetDrake_MainTex for _MainTex.
-loading cached texture for object_HelmetDrake_MainTex
-object HelmetDrake, ParticleSystemRenderer HelmetDrake, material Standard (Instance), texture HelmetDrake, using object_HelmetDrake_BumpMap for _BumpMap.
-loading cached texture for object_HelmetDrake_BumpMap
-object HelmetDrake, ParticleSystemRenderer HelmetDrake, material Standard (Instance), texture HelmetDrake, using object_HelmetDrake_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_HelmetDrake_MetallicGlossMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat_stone (Instance), texture HelmetDverger, using object_HelmetDverger_BumpMap for _BumpMap.
-loading cached texture for object_HelmetDverger_BumpMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat_stone (Instance), texture HelmetDverger, using object_HelmetDverger_EmissionMap for _EmissionMap.
-loading cached texture for object_HelmetDverger_EmissionMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat_stone (Instance), texture HelmetDverger, using object_HelmetDverger_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_HelmetDverger_MetallicGlossMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat (Instance), texture dvergerhat_d, using texture_dvergerhat_d_MainTex for _MainTex.
-loading cached texture for texture_dvergerhat_d_MainTex
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat (Instance), texture HelmetDverger, using object_HelmetDverger_BumpMap for _BumpMap.
-loading cached texture for object_HelmetDverger_BumpMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat (Instance), texture HelmetDverger, using object_HelmetDverger_EmissionMap for _EmissionMap.
-loading cached texture for object_HelmetDverger_EmissionMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat (Instance), texture HelmetDverger, using object_HelmetDverger_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_HelmetDverger_MetallicGlossMap
-object HelmetDverger, ParticleSystemRenderer HelmetDverger, material Standard (Instance), texture HelmetDverger, using object_HelmetDverger_BumpMap for _BumpMap.
-loading cached texture for object_HelmetDverger_BumpMap
-object HelmetDverger, ParticleSystemRenderer HelmetDverger, material Standard (Instance), texture HelmetDverger, using object_HelmetDverger_EmissionMap for _EmissionMap.
-loading cached texture for object_HelmetDverger_EmissionMap
-object HelmetDverger, ParticleSystemRenderer HelmetDverger, material Standard (Instance), texture HelmetDverger, using object_HelmetDverger_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_HelmetDverger_MetallicGlossMap 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] CustomTextures ZNetScene RunTime 00:00:00.58
-CustomTextures ZNetScene RunTime 00:00:00.58 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] CustomTextures Reloading Environment textures
-CustomTextures Reloading Environment textures 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] CustomTextures Reloading 9 Environment textures
-CustomTextures Reloading 9 Environment textures 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:07:58: Audioman already exist, destroying self
-
-05/11/2021 20:07:58: Audioman already exist, destroying self
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] Version generator started.
-Version generator started. 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] Version generated with enforced mod : 0.150.3@0.9.7
-Version generated with enforced mod : 0.150.3@0.9.7 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:07:58: Checking for installed DLCs
-
-05/11/2021 20:07:58: Checking for installed DLCs
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:07:58: DLC:beta installed:False
-
-05/11/2021 20:07:58: DLC:beta installed:False
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] CustomTextures Clutter system awake
-CustomTextures Clutter system awake 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] CustomTextures Checking 17 clutters
-CustomTextures Checking 17 clutters 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] CustomTextures Clutter System RunTime 00:00:00.00
-CustomTextures Clutter System RunTime 00:00:00.00 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-
-Unloading 1229 unused Assets to reduce memory usage. Loaded Objects now: 93678.
-Total: 342.885926 ms (FindLiveObjects: 3.410907 ms CreateObjectMapping: 6.805068 ms MarkObjects: 327.874665 ms  DeleteObjects: 4.794650 ms)
-
-[Info   : Unity Log] MaxFPS: -1 to -1
-MaxFPS: -1 to -1 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] CustomTextures Starting ZoneSystem Location prefab replacement
-CustomTextures Starting ZoneSystem Location prefab replacement 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] CustomTextures ZoneSystem Locations RunTime 00:00:00.00
-CustomTextures ZoneSystem Locations RunTime 00:00:00.00 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:01: Zonesystem Start 419
-
-05/11/2021 20:08:01: Zonesystem Start 419
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:01: DungeonDB Start 419
-
-05/11/2021 20:08:01: DungeonDB Start 419
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:09: Starting respawn
-
-05/11/2021 20:08:09: Starting respawn
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:09: tip:$loadscreen_tip15
-
-05/11/2021 20:08:09: tip:$loadscreen_tip15
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:12: Loading terrain comp:18607 bytes
-
-05/11/2021 20:08:12: Loading terrain comp:18607 bytes
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:12: Loading terrain comp:1375 bytes
-
-05/11/2021 20:08:12: Loading terrain comp:1375 bytes
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:12: Loading terrain comp:9943 bytes
-
-05/11/2021 20:08:12: Loading terrain comp:9943 bytes
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:12: Loading terrain comp:508 bytes
-
-05/11/2021 20:08:12: Loading terrain comp:508 bytes
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:12: Loading terrain comp:1693 bytes
-
-05/11/2021 20:08:12: Loading terrain comp:1693 bytes
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:12: Loading terrain comp:92 bytes
-
-05/11/2021 20:08:12: Loading terrain comp:92 bytes
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:12: Loading terrain comp:148 bytes
-
-05/11/2021 20:08:12: Loading terrain comp:148 bytes
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:12: Loading terrain comp:2635 bytes
-
-05/11/2021 20:08:12: Loading terrain comp:2635 bytes
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:12: Loading terrain comp:101 bytes
-
-05/11/2021 20:08:12: Loading terrain comp:101 bytes
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:12: Loading dungeon
-
-05/11/2021 20:08:12: Loading dungeon
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:12: Dungeon loaded 15
-
-05/11/2021 20:08:12: Dungeon loaded 15
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:12: Dungeon load time 11,474 ms
-
-05/11/2021 20:08:12: Dungeon load time 11,474 ms
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:13: Force generaeting hmap (-1792.0, 0.0, 2240.0)
-
-05/11/2021 20:08:13: Force generaeting hmap (-1792.0, 0.0, 2240.0)
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:13: Force generaeting hmap (-1728.0, 0.0, 2304.0)
-
-05/11/2021 20:08:13: Force generaeting hmap (-1728.0, 0.0, 2304.0)
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:13: Force generaeting hmap (-1920.0, 0.0, 2432.0)
-
-05/11/2021 20:08:13: Force generaeting hmap (-1920.0, 0.0, 2432.0)
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:13: Force generaeting hmap (-1792.0, 0.0, 2432.0)
-
-05/11/2021 20:08:13: Force generaeting hmap (-1792.0, 0.0, 2432.0)
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:13: Force generaeting hmap (-1728.0, 0.0, 2432.0)
-
-05/11/2021 20:08:13: Force generaeting hmap (-1728.0, 0.0, 2432.0)
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:13: Force generaeting hmap (-1984.0, 0.0, 2496.0)
-
-05/11/2021 20:08:13: Force generaeting hmap (-1984.0, 0.0, 2496.0)
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:13: Force generaeting hmap (-1920.0, 0.0, 2496.0)
-
-05/11/2021 20:08:13: Force generaeting hmap (-1920.0, 0.0, 2496.0)
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:13: Force generaeting hmap (-1856.0, 0.0, 2496.0)
-
-05/11/2021 20:08:13: Force generaeting hmap (-1856.0, 0.0, 2496.0)
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:13: Force generaeting hmap (-1792.0, 0.0, 2496.0)
-
-05/11/2021 20:08:13: Force generaeting hmap (-1792.0, 0.0, 2496.0)
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:13: Force generaeting hmap (-1728.0, 0.0, 2496.0)
-
-05/11/2021 20:08:13: Force generaeting hmap (-1728.0, 0.0, 2496.0)
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:17: Spawned after 8,019994
-
-05/11/2021 20:08:17: Spawned after 8,019994
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:17: Minimap: Adding unique location (6.5, 55.7, 6.6)
-
-05/11/2021 20:08:17: Minimap: Adding unique location (6.5, 55.7, 6.6)
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:17: Minimap: Adding unique location (1019.2, 57.9, 1163.1)
-
-05/11/2021 20:08:17: Minimap: Adding unique location (1019.2, 57.9, 1163.1)
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:19: Resumed music plains at 0
-
-05/11/2021 20:08:19: Resumed music plains at 0
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:33: Loading terrain comp:148 bytes
-
-05/11/2021 20:08:33: Loading terrain comp:148 bytes
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:33: Loading terrain comp:2635 bytes
-
-05/11/2021 20:08:33: Loading terrain comp:2635 bytes
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:33: Loading terrain comp:101 bytes
-
-05/11/2021 20:08:33: Loading terrain comp:101 bytes
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:58: Stoped music plains at 1698045
-
-05/11/2021 20:08:58: Stoped music plains at 1698045
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:08:58: Resumed music home at 0
-
-05/11/2021 20:08:58: Resumed music home at 0
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] TimeMod Pausing time on menu open.
-TimeMod Pausing time on menu open. 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] TimeMod Created fake scene texture.
-TimeMod Created fake scene texture. 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:09:02: UI Group status changed MenuRoot = False
-
-05/11/2021 20:09:02: UI Group status changed MenuRoot = False
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:09:03: Game - OnApplicationQuit
-
-05/11/2021 20:09:03: Game - OnApplicationQuit
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:09:03: ZNet Shutdown
-
-05/11/2021 20:09:03: ZNet Shutdown
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:09:04: clone 641
-
-05/11/2021 20:09:04: clone 641
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-05/11/2021 20:09:05: Saved 460862 zdos
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-05/11/2021 20:09:05: World saved ( 1175,401ms )
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:09:05: Sending disconnect msg
-
-05/11/2021 20:09:05: Sending disconnect msg
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:09:07: Steam manager on destroy
-
-05/11/2021 20:09:07: Steam manager on destroy
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Warning: Unity Log] 05/11/2021 20:09:07: Local player destroyed
-
-05/11/2021 20:09:07: Local player destroyed
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:09:08: ZNet OnDestroy
-
-05/11/2021 20:09:08: ZNet OnDestroy
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] 05/11/2021 20:09:08: Net scene destroyed
-
-05/11/2021 20:09:08: Net scene destroyed
- 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-Vulkan PSO: data extracted [new size=1141104, old size=0, incomplete=0]
-Vulkan PSO: Saved size[1141104] path[/tmp/IronGate/Valheim/vulkan_pso_cache.bin] success=1 headerChanged=1 sizeChanged=1
+Vulkan PSO: Pipeline cache has not changed skipping save handle[3697790]

@@ -44,10 +44,8 @@ git add .
 git commit -m "Updated"
 git push -u origin master
 
-notify-send -i '/usr/share/icons/GoVi/emblems/22/emblem-information.svg' "Info" "Complete"  -t 5000 &
+notify-send -i '/usr/share/icons/GoVi/emblems/22/emblem-information.svg' "Info" "/home Backup Complete"  -t 5000 &
 paplay $HOME/.local/share/sounds/cause-and-effect.ogg
-
-zenity --info --text "Complete" 2> /dev/null & paplay $HOME/.local/share/sounds/cause-and-effect.ogg
 
 while true; do
     echo -e '\nPress "Enter" to Open Github or "Escape" to Exit\n'

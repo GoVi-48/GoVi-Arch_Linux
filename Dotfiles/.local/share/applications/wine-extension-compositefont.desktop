@@ -2,6 +2,6 @@
 Type=Application
 Name=A Wine application
 MimeType=application/x-wine-extension-compositefont;
-Exec=env WINEPREFIX="/home/govi/.wine" /usr/bin/wine start /ProgIDOpen Windows.CompositeFont %f
+Exec=env WINEPREFIX="/Media/Games/PC/Subnautica/Wine/wine-pfx" /usr/bin/wine start /ProgIDOpen Windows.CompositeFont %f
 NoDisplay=true
 StartupNotify=true

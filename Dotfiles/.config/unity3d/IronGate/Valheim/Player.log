@@ -1,7 +1,6 @@
 Mono path[0] = '/Datos/Games/PC/Valheim/game/valheim_Data/Managed'
 Mono config path = '/Datos/Games/PC/Valheim/game/valheim_Data/MonoBleedingEdge/etc'
-Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/}�R/mono/aot-cache/amd64/BepInEx.Preloader.dll.so
-Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x2b5e200.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x11ac320.so
 Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/libdl
 Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/libkernel32
 Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/libkernel32.so
@@ -21,7 +20,7 @@ Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Dat
 Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/libkernel32
 Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/libkernel32.so
 Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/libkernel32
-﻿[Message:   BepInEx] BepInEx 5.4.9.0 - valheim
+﻿[Message:   BepInEx] BepInEx 5.4.11.0 - valheim
 [Info   :   BepInEx] Running under Unity vUnknown (post-2017)
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
 [Info   :   BepInEx] Supports SRE: True
@@ -29,7 +28,7 @@ Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Dat
 [Message:   BepInEx] Preloader started
 [Info   :   BepInEx] 1 patcher plugin loaded
 [Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
-Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x7f50481b6010.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x7f3a48c18010.so
 [Message:   BepInEx] Preloader finished
 Preloaded 'libsteam_api.so'
 Display 0 'BenQ GL2460 24"': 1920x1080 (primary device).
@@ -59,7 +58,7 @@ New root path: /Datos/Games/PC/Valheim/game/unstripped_corlib
 Search path: /Datos/Games/PC/Valheim/game/unstripped_corlib:/Datos/Games/PC/Valheim/game/valheim_Data/Managed
 Setting config paths; basedir: /Datos/Games/PC/Valheim/game; config: /Datos/Games/PC/Valheim/game/valheim.x86_64.config
 Managed dir: /Datos/Games/PC/Valheim/game/valheim_Data/Managed
-Got image: 0x25343b0 
+Got image: 0xb98b30 
 vkBasalt info:  config file: /home/govi/.config/vkBasalt/vkBasalt.conf
 vkBasalt info:  reshadeTexturePath = /home/govi/.config/vkBasalt/Reshade-Shaders/Textures
 vkBasalt info:  reshadeIncludePath = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders
@@ -74,7 +73,7 @@ skipping config: /Datos/Games/PC/Valheim/game/MangoHud.conf [ not found ]
 skipping config: /home/govi/.config/MangoHud/valheim.x86_64.conf [ not found ]
 parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
 Vulkan detection: 2
-Initialize engine version: 2019.4.20f1 (6dd1c08eedfa)
+Initialize engine version: 2019.4.24f1 (5da6f0345e82)
 [Subsystems] Discovering subsystems at path /Datos/Games/PC/Valheim/game/valheim_Data/UnitySubsystems
 GfxDevice: creating device client; threaded=1
 [Vulkan init] extensions: count=18
@@ -110,8 +109,8 @@ skipping config: /Datos/Games/PC/Valheim/game/MangoHud.conf [ not found ]
 skipping config: /home/govi/.config/MangoHud/valheim.x86_64.conf [ not found ]
 parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
-[Vulkan init] Physical Device 0x32a2350 [0]: "AMD RADV TAHITI (ACO)" deviceType=2 vendorID=1002 deviceID=6798
-[Vulkan init] Selected physical device 0x32a2350
+[Vulkan init] Physical Device 0x1915200 [0]: "AMD RADV TAHITI (ACO)" deviceType=2 vendorID=1002 deviceID=6798
+[Vulkan init] Selected physical device 0x1915200
 [Vulkan init] Graphics queue count=1
 [Vulkan init] extensions: count=111
 [Vulkan init] extensions: name=VK_KHR_8bit_storage, enabled=0
@@ -229,8 +228,8 @@ Vulkan API version 1.1.0 (1.2.168 supported by driver)
 Vulkan vendor=[ATI] id=[1002]
 Vulkan renderer=[AMD RADV TAHITI (ACO)] id=[6798]
 Vulkan device type 2
-Vulkan driverversion=[0x05401000] uint=[88084480]
-Vulkan PSO: Cache data successfully loaded [size=1141104,path=/tmp/IronGate/Valheim/vulkan_pso_cache.bin]
+Vulkan driverversion=[0x05401001] uint=[88084481]
+Vulkan PSO: cache data not found [path=/tmp/IronGate/Valheim/vulkan_pso_cache.bin]
 Begin MonoManager ReloadAssembly
 Load DLL: /Datos/Games/PC/Valheim/game/valheim_Data/Managed/UnityEngine.dll
 Base: UnityEngine.dll
@@ -288,7 +287,7 @@ Base: UnityEngine.SharedInternalsModule.dll
 Redirecting to /Datos/Games/PC/Valheim/game/unstripped_corlib/UnityEngine.SharedInternalsModule.dll
 Load DLL: /Datos/Games/PC/Valheim/game/valheim_Data/Managed/UnityEngine.SubsystemsModule.dll
 Base: UnityEngine.SubsystemsModule.dll
-Redirecting to /Datos/Games/- Completed reload, in  0.029 seconds
+Redirecting to /Datos/Games/- Completed reload, in  0.145 seconds
 requesting resize 1600 x 900
 requesting fullscreen 1600 x 900 at 0 Hz
 Desktop is 1920 x 1080 @ 60 Hz
@@ -352,8 +351,8 @@ Base: assembly_simplemeshcombine.dll
 Load DLL: /Datos/Games/PC/Valheim/game/valheim_Data/Managed/assembly_utils.dll
 Base: assembly_utils.dll
 MANGOHUD: recreating font image
-UnloadTime: 0.404927 ms
-[Message:   BepInEx] BepInEx 5.4.9.0 - valheim
+UnloadTime: 1.310718 ms
+[Message:   BepInEx] BepInEx 5.4.11.0 - valheim
 [Info   :   BepInEx] Running under Unity vUnknown (post-2017)
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
 [Info   :   BepInEx] Supports SRE: True
@@ -362,22 +361,22 @@ UnloadTime: 0.404927 ms
 [Info   :   BepInEx] 1 patcher plugin loaded
 [Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
 [Message:   BepInEx] Preloader finished
-[Info   :   BepInEx] Detected Unity version: v2019.4.20f1
-[Info   :   BepInEx] Detected Unity version: v2019.4.20f1
+[Info   :   BepInEx] Detected Unity version: v2019.4.24f1
+[Info   :   BepInEx] Detected Unity version: v2019.4.24f1
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader ready
 [Message:   BepInEx] Chainloader started
 [Message:   BepInEx] Chainloader started
 [Info   :   BepInEx] 9 plugins to load
 [Info   :   BepInEx] 9 plugins to load
-[Warning:   BepInEx] Plugin [Custom Textures 2.3.0] targets a wrong version of BepInEx (5.4.10.0) and might not work until you update
-[Warning:   BepInEx] Plugin [Custom Textures 2.3.0] targets a wrong version of BepInEx (5.4.10.0) and might not work until you update
-[Warning:   BepInEx] Plugin [Instant Monster Drop 0.3.3] targets a wrong version of BepInEx (5.4.10.0) and might not work until you update
-[Warning:   BepInEx] Plugin [Instant Monster Drop 0.3.3] targets a wrong version of BepInEx (5.4.10.0) and might not work until you update
 [Info   :   BepInEx] Loading [Craft From Containers 2.1.3]
 [Info   :   BepInEx] Loading [Craft From Containers 2.1.3]
 [Info   :   BepInEx] Loading [Custom Textures 2.3.0]
 [Info   :   BepInEx] Loading [Custom Textures 2.3.0]
+[Info   : Unity Log] CustomTextures Directory /Datos/Games/PC/Valheim/game/BepInEx/plugins/CustomTextures does not exist! Creating.
+CustomTextures Directory /Datos/Games/PC/Valheim/game/BepInEx/plugins/CustomTextures does not exist! Creating. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
 [Info   :   BepInEx] Loading [Grass Tweaks 0.1.1]
 [Info   :   BepInEx] Loading [Grass Tweaks 0.1.1]
 [Info   :   BepInEx] Loading [Instant Monster Drop 0.3.3]
@@ -388,1040 +387,1222 @@ UnloadTime: 0.404927 ms
 [Info   :   BepInEx] Loading [CropReplant 2.1.1]
 [Info   :   BepInEx] Loading [GraphicsConfigPlus 1.2.1]
 [Info   :   BepInEx] Loading [GraphicsConfigPlus 1.2.1]
-[Info   :   BepInEx] Loading [Valheim Plus 0.9.7]
-[Info   :   BepInEx] Loading [Valheim Plus 0.9.7]
-Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x49a9110.so
+[Info   :   BepInEx] Loading [Valheim Plus 0.9.8.1]
+[Info   :   BepInEx] Loading [Valheim Plus 0.9.8.1]
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x3185650.so
 [Info   :Valheim Plus] Trying to load the configuration file
 [Info   :Valheim Plus] Trying to load the configuration file
 [Info   : Unity Log] Loading config section AdvancedBuildingMode
 Loading config section AdvancedBuildingMode 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section AdvancedEditingMode
 Loading config section AdvancedEditingMode 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] Loading config section Bed
+Loading config section Bed 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log]  Section not enabled
+ Section not enabled 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Beehive
 Loading config section Beehive 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Building
 Loading config section Building 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key noInvalidPlacementRestriction
  Loading key noInvalidPlacementRestriction 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key noMysticalForcesPreventPlacementRestriction
  Loading key noMysticalForcesPreventPlacementRestriction 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key noWeatherDamage
  Loading key noWeatherDamage 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key maximumPlacementDistance
  Loading key maximumPlacementDistance 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key pieceComfortRadius
  Loading key pieceComfortRadius 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key alwaysDropResources
  Loading key alwaysDropResources 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key alwaysDropExcludedResources
  Loading key alwaysDropExcludedResources 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key enableAreaRepair
  Loading key enableAreaRepair 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key areaRepairRadius
  Loading key areaRepairRadius 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Deconstruct
 Loading config section Deconstruct 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Inventory
 Loading config section Inventory 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key inventoryFillTopToBottom
  Loading key inventoryFillTopToBottom 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key mergeWithExistingStacks
  Loading key mergeWithExistingStacks 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key playerInventoryRows
  Loading key playerInventoryRows 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key woodChestColumns
  Loading key woodChestColumns 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key woodChestRows
  Loading key woodChestRows 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key personalChestColumns
  Loading key personalChestColumns 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key personalChestRows
  Loading key personalChestRows 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key ironChestColumns
  Loading key ironChestColumns 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key ironChestRows
  Loading key ironChestRows 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key cartInventoryColumns
  Loading key cartInventoryColumns 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key cartInventoryRows
  Loading key cartInventoryRows 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key karveInventoryColumns
  Loading key karveInventoryColumns 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key karveInventoryRows
  Loading key karveInventoryRows 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key longboatInventoryColumns
  Loading key longboatInventoryColumns 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key longboatInventoryRows
  Loading key longboatInventoryRows 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Items
 Loading config section Items 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key noTeleportPrevention
  Loading key noTeleportPrevention 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key baseItemWeightReduction
  Loading key baseItemWeightReduction 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key itemStackMultiplier
  Loading key itemStackMultiplier 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key droppedItemOnGroundDurationInSeconds
  Loading key droppedItemOnGroundDurationInSeconds 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Fermenter
 Loading config section Fermenter 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section FireSource
 Loading config section FireSource 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key torches
  Loading key torches 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key fires
  Loading key fires 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key autoFuel
  Loading key autoFuel 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key ignorePrivateAreaCheck
  Loading key ignorePrivateAreaCheck 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key autoRange
  Loading key autoRange 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Food
 Loading config section Food 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Smelter
 Loading config section Smelter 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Furnace
 Loading config section Furnace 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Hotkeys
 Loading config section Hotkeys 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Kiln
 Loading config section Kiln 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Windmill
 Loading config section Windmill 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section SpinningWheel
 Loading config section SpinningWheel 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Map
 Loading config section Map 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Player
 Loading config section Player 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key baseMaximumWeight
  Loading key baseMaximumWeight 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key baseMegingjordBuff
  Loading key baseMegingjordBuff 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key baseAutoPickUpRange
  Loading key baseAutoPickUpRange 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key disableCameraShake
  Loading key disableCameraShake 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key baseUnarmedDamage
  Loading key baseUnarmedDamage 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key cropNotifier
  Loading key cropNotifier 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key restSecondsPerComfortLevel
  Loading key restSecondsPerComfortLevel 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key deathPenaltyMultiplier
  Loading key deathPenaltyMultiplier 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key autoRepair
  Loading key autoRepair 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key guardianBuffDuration
  Loading key guardianBuffDuration 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key guardianBuffCooldown
  Loading key guardianBuffCooldown 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key disableGuardianBuffAnimation
  Loading key disableGuardianBuffAnimation 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key autoEquipShield
  Loading key autoEquipShield 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key skipIntro
  Loading key skipIntro 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key iHaveArrivedOnSpawn
  Loading key iHaveArrivedOnSpawn 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key queueWeaponChanges
  Loading key queueWeaponChanges 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key reequipItemsAfterSwimming
  Loading key reequipItemsAfterSwimming 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key fallDamageScalePercent
  Loading key fallDamageScalePercent 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key maxFallDamage
  Loading key maxFallDamage 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key skipTutorials
  Loading key skipTutorials 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log]  Loading key disableEncumbered
+ Loading key disableEncumbered 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Server
 Loading config section Server 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key maxPlayers
  Loading key maxPlayers 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key disableServerPassword
  Loading key disableServerPassword 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key enforceMod
  Loading key enforceMod 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key serverSyncsConfig
  Loading key serverSyncsConfig 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key serverSyncHotkeys
  Loading key serverSyncHotkeys 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Stamina
 Loading config section Stamina 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section StaminaUsage
 Loading config section StaminaUsage 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key axes
  Loading key axes 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key bows
  Loading key bows 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key blocking
  Loading key blocking 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key clubs
  Loading key clubs 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key knives
  Loading key knives 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key pickaxes
  Loading key pickaxes 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key polearms
  Loading key polearms 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key spears
  Loading key spears 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key swords
  Loading key swords 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key unarmed
  Loading key unarmed 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key hammer
  Loading key hammer 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key hoe
  Loading key hoe 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key cultivator
  Loading key cultivator 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Workbench
 Loading config section Workbench 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key workbenchRange
  Loading key workbenchRange 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log]  Loading key workbenchEnemySpawnRange
+ Loading key workbenchEnemySpawnRange 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key workbenchAttachmentRange
  Loading key workbenchAttachmentRange 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key disableRoofCheck
  Loading key disableRoofCheck 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Time
 Loading config section Time 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Ward
 Loading config section Ward 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section StructuralIntegrity
 Loading config section StructuralIntegrity 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Tameable
 Loading config section Tameable 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Hud
 Loading config section Hud 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key showRequiredItems
  Loading key showRequiredItems 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key experienceGainedNotifications
  Loading key experienceGainedNotifications 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log]  Key chatMessageDistance not defined, using default value
- Key chatMessageDistance not defined, using default value 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key displayStaminaValue
  Loading key displayStaminaValue 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key removeDamageFlash
  Loading key removeDamageFlash 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log]  Loading key displayBowAmmoCounts
+ Loading key displayBowAmmoCounts 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Experience
 Loading config section Experience 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Camera
 Loading config section Camera 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Game
 Loading config section Game 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Wagon
 Loading config section Wagon 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Gathering
 Loading config section Gathering 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Pickable
 Loading config section Pickable 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Durability
 Loading config section Durability 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Armor
 Loading config section Armor 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section FreePlacementRotation
 Loading config section FreePlacementRotation 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section Shields
 Loading config section Shields 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section FirstPerson
 Loading config section FirstPerson 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section GridAlignment
 Loading config section GridAlignment 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section CraftFromChest
 Loading config section CraftFromChest 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section ValheimPlus
 Loading config section ValheimPlus 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key mainMenuLogo
  Loading key mainMenuLogo 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Loading key serverBrowserAdvertisement
  Loading key serverBrowserAdvertisement 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section PlayerProjectile
 Loading config section PlayerProjectile 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section MonsterProjectile
 Loading config section MonsterProjectile 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Loading config section GameClock
 Loading config section GameClock 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log]  Section not enabled
  Section not enabled 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] Loading config section Brightness
+Loading config section Brightness 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log]  Section not enabled
+ Section not enabled 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   :Valheim Plus] Configuration file loaded succesfully.
 [Info   :Valheim Plus] Configuration file loaded succesfully.
-[Info   :Valheim Plus] ValheimPlus [0.9.7] is up to date.
-[Info   :Valheim Plus] ValheimPlus [0.9.7] is up to date.
-[Info   :   BepInEx] Loading [Equipment and Quick Slots 2.0.5]
-[Info   :   BepInEx] Loading [Equipment and Quick Slots 2.0.5]
+[Info   :Valheim Plus] ValheimPlus [0.9.8.1] is up to date.
+[Info   :Valheim Plus] ValheimPlus [0.9.8.1] is up to date.
+[Info   :   BepInEx] Loading [Equipment and Quick Slots 2.0.9]
+[Info   :   BepInEx] Loading [Equipment and Quick Slots 2.0.9]
 [Message:   BepInEx] Chainloader startup complete
 [Message:   BepInEx] Chainloader startup complete
-[Info   : Unity Log] 05/11/2021 20:45:56: Starting to load scene:start
+[Info   : Unity Log] 05/28/2021 16:47:16: Starting to load scene:start
 
-05/11/2021 20:45:56: Starting to load scene:start
+05/28/2021 16:47:16: Starting to load scene:start
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+Couldn't create a Convex Mesh from source mesh "default" within the maximum polygons limit (256). The partial hull will be used. Consider simplifying your mesh. 
+(Filename:  Line: 91)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 1)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 7f4fd3fff640 -> priority: 1 
-  Thread -> id: 7f4fd37fe640 -> priority: 1 
-UnloadTime: 3.867349 ms
+  Thread -> id: 7f39d20f5640 -> priority: 1 
+  Thread -> id: 7f39d18f4640 -> priority: 1 
+UnloadTime: 3.343704 ms
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu). 
-(Filename:  Line: 509)
+(Filename:  Line: 516)
 
 [Info   : Unity Log] Version generator started.
 Version generator started. 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] Version generated with enforced mod : 0.150.3@0.9.7
-Version generated with enforced mod : 0.150.3@0.9.7 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[Info   : Unity Log] Version generated with enforced mod : 0.153.2@0.9.8.1
+Version generated with enforced mod : 0.153.2@0.9.8.1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/11/2021 20:46:07: Valheim version:0.150.3@0.9.7
+[Info   : Unity Log] 05/28/2021 16:47:27: Valheim version:0.153.2@0.9.8.1
 
-05/11/2021 20:46:07: Valheim version:0.150.3@0.9.7
+05/28/2021 16:47:27: Valheim version:0.153.2@0.9.8.1
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] vSyncCount: 1 to 1
 vSyncCount: 1 to 1 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Version generator started.
 Version generator started. 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] Version generated with enforced mod : 0.150.3@0.9.7
-Version generated with enforced mod : 0.150.3@0.9.7 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[Info   : Unity Log] Version generated with enforced mod : 0.153.2@0.9.8.1
+Version generated with enforced mod : 0.153.2@0.9.8.1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/11/2021 20:46:07: Render threading mode:MultiThreaded
+[Info   : Unity Log] 05/28/2021 16:47:27: Render threading mode:MultiThreaded
 
-05/11/2021 20:46:07: Render threading mode:MultiThreaded
+05/28/2021 16:47:27: Render threading mode:MultiThreaded
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Version generator started.
 Version generator started. 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] Version generated with enforced mod : 0.150.3@0.9.7
-Version generated with enforced mod : 0.150.3@0.9.7 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[Info   : Unity Log] Version generated with enforced mod : 0.153.2@0.9.8.1
+Version generated with enforced mod : 0.153.2@0.9.8.1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/11/2021 20:46:07: Using steam_appid.txt
+[Info   : Unity Log] 05/28/2021 16:47:27: Using steam_appid.txt
 
-05/11/2021 20:46:07: Using steam_appid.txt
+05/28/2021 16:47:27: Using steam_appid.txt
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/11/2021 20:46:07: Using steam APPID:892970
+[Info   : Unity Log] 05/28/2021 16:47:27: Using steam APPID:892970
 
-05/11/2021 20:46:07: Using steam APPID:892970
+05/28/2021 16:47:27: Using steam APPID:892970
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/11/2021 20:46:07: Authentication:k_ESteamNetworkingAvailability_Current
+[Info   : Unity Log] 05/28/2021 16:47:27: Authentication:k_ESteamNetworkingAvailability_Current
 
-05/11/2021 20:46:07: Authentication:k_ESteamNetworkingAvailability_Current
+05/28/2021 16:47:27: Authentication:k_ESteamNetworkingAvailability_Current
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/11/2021 20:46:07: Steam initialized, persona:Goldberg
+[Info   : Unity Log] 05/28/2021 16:47:27: Steam initialized, persona:Goldberg
 
-05/11/2021 20:46:07: Steam initialized, persona:Goldberg
+05/28/2021 16:47:27: Steam initialized, persona:Goldberg
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Warning: Unity Log] 05/11/2021 20:46:07: Missing audio clip in music respawn
+[Warning: Unity Log] 05/28/2021 16:47:27: Missing audio clip in music respawn
 
-05/11/2021 20:46:07: Missing audio clip in music respawn
+05/28/2021 16:47:27: Missing audio clip in music respawn
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/11/2021 20:46:07: Checking for installed DLCs
+[Info   : Unity Log] 05/28/2021 16:47:27: Checking for installed DLCs
 
-05/11/2021 20:46:07: Checking for installed DLCs
+05/28/2021 16:47:27: Checking for installed DLCs
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/11/2021 20:46:07: DLC:beta installed:False
+[Info   : Unity Log] 05/28/2021 16:47:27: DLC:beta installed:False
 
-05/11/2021 20:46:07: DLC:beta installed:False
+05/28/2021 16:47:27: DLC:beta installed:False
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-05/11/2021 20:46:07: Builder started
+05/28/2021 16:47:27: Builder started
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] CustomTextures Clutter system awake
 CustomTextures Clutter system awake 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] CustomTextures Checking 17 clutters
 CustomTextures Checking 17 clutters 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] CustomTextures Clutter System RunTime 00:00:00.00
 CustomTextures Clutter System RunTime 00:00:00.00 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] Version generator started.
 Version generator started. 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] Version generated with enforced mod : 0.150.3@0.9.7
-Version generated with enforced mod : 0.150.3@0.9.7 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[Info   : Unity Log] Version generated with enforced mod : 0.153.2@0.9.8.1
+Version generated with enforced mod : 0.153.2@0.9.8.1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/11/2021 20:46:07: Loaded localization English
+[Info   : Unity Log] 05/28/2021 16:47:28: Loaded localization CSV:localization language:English
 
-05/11/2021 20:46:07: Loaded localization English
+05/28/2021 16:47:28: Loaded localization CSV:localization language:English
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/11/2021 20:46:07: Loaded localization English
+[Warning: Unity Log] 05/28/2021 16:47:28: Failed to load language file localization_extra
 
-05/11/2021 20:46:07: Loaded localization English
+05/28/2021 16:47:28: Failed to load language file localization_extra
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:47:28: Loaded localization CSV:localization language:English
+
+05/28/2021 16:47:28: Loaded localization CSV:localization language:English
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Warning: Unity Log] 05/28/2021 16:47:28: Failed to load language file localization_extra
+
+05/28/2021 16:47:28: Failed to load language file localization_extra
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   : Unity Log] CustomTextures SetupObjectDB postfix
 CustomTextures SetupObjectDB postfix 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] CustomTextures Replacing textures for 378 objects
-CustomTextures Replacing textures for 378 objects 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[Info   : Unity Log] CustomTextures Replacing textures for 379 objects
+CustomTextures Replacing textures for 379 objects 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] CustomTextures 
-object ArmorWolfChest, MeshRenderer log, material SilverArmourChest_item (Instance), texture SilverArmourChest_d, using object_ArmorWolfChest_MainTex for _MainTex.
-loading custom texture for object_ArmorWolfChest_MainTex 0 layers
-loading custom texture file for object_ArmorWolfChest_MainTex
-object ArmorWolfChest, MeshRenderer log, material SilverArmourChest_item (Instance), texture SilverArmourChest_n, using object_ArmorWolfChest_BumpMap for _BumpMap.
-loading custom texture for object_ArmorWolfChest_BumpMap 0 layers
-loading custom texture file for object_ArmorWolfChest_BumpMap
-object ArmorWolfChest, MeshRenderer log, material SilverArmourChest_item (Instance), texture SilverArmourChest_m, using object_ArmorWolfChest_MetallicGlossMap for _MetallicGlossMap.
-loading custom texture for object_ArmorWolfChest_MetallicGlossMap 0 layers
-loading custom texture file for object_ArmorWolfChest_MetallicGlossMap
-object ArmorWolfChest, SkinnedMeshRenderer SilverWolfArmor, material SilverArmourChest_mat (Instance), texture SilverArmourChest_d, using object_ArmorWolfChest_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfChest_MainTex
-object ArmorWolfChest, SkinnedMeshRenderer SilverWolfArmor, material SilverArmourChest_mat (Instance), texture SilverArmourChest_n, using object_ArmorWolfChest_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfChest_BumpMap
-object ArmorWolfChest, SkinnedMeshRenderer SilverWolfArmor, material SilverArmourChest_mat (Instance), texture SilverArmourChest_m, using object_ArmorWolfChest_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfChest_MetallicGlossMap
-object ArmorWolfChest, ParticleSystemRenderer ArmorWolfChest, material item_particle (Instance), texture starspark, using object_ArmorWolfChest_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfChest_MainTex
-object ArmorWolfChest, ParticleSystemRenderer ArmorWolfChest, material Standard (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfChest_MainTex
-object ArmorWolfChest, ParticleSystemRenderer ArmorWolfChest, material Standard (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfChest_BumpMap
-object ArmorWolfChest, ParticleSystemRenderer ArmorWolfChest, material Standard (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfChest_MetallicGlossMap
-armor ArmorWolfChest, Armor ArmorWolfChest, material SilverArmour_Skin_Chest, texture SilverArmour_Skin_n, using armor_ArmorWolfChest_ChestBumpMap for _ChestBumpMap.
-loading custom texture for armor_ArmorWolfChest_ChestBumpMap 0 layers
-loading custom texture file for armor_ArmorWolfChest_ChestBumpMap
-armor ArmorWolfChest, Armor ArmorWolfChest, material SilverArmour_Skin_Chest, texture ArmorWolfChest, using armor_ArmorWolfChest_ChestMetal for _ChestMetal.
-loading custom texture for armor_ArmorWolfChest_ChestMetal 0 layers
-loading custom texture file for armor_ArmorWolfChest_ChestMetal
-armor ArmorWolfChest, Armor ArmorWolfChest, material SilverArmour_Skin_Chest, texture SilverArmour_Skin_d, using armor_ArmorWolfChest_ChestTex for _ChestTex.
-loading custom texture for armor_ArmorWolfChest_ChestTex 0 layers
-loading custom texture file for armor_ArmorWolfChest_ChestTex
-object ArmorWolfLegs, MeshRenderer log, material SilverArmourChest_item (Instance), texture SilverArmourChest_d, using object_ArmorWolfLegs_MainTex for _MainTex.
-loading custom texture for object_ArmorWolfLegs_MainTex 0 layers
-loading custom texture file for object_ArmorWolfLegs_MainTex
-object ArmorWolfLegs, MeshRenderer log, material SilverArmourChest_item (Instance), texture SilverArmourChest_n, using object_ArmorWolfLegs_BumpMap for _BumpMap.
-loading custom texture for object_ArmorWolfLegs_BumpMap 0 layers
-loading custom texture file for object_ArmorWolfLegs_BumpMap
-object ArmorWolfLegs, MeshRenderer log, material SilverArmourChest_item (Instance), texture SilverArmourChest_m, using object_ArmorWolfLegs_MetallicGlossMap for _MetallicGlossMap.
-loading custom texture for object_ArmorWolfLegs_MetallicGlossMap 0 layers
-loading custom texture file for object_ArmorWolfLegs_MetallicGlossMap
-object ArmorWolfLegs, SkinnedMeshRenderer Cube.008, material SilverArmourChest_mat (Instance), texture SilverArmourChest_d, using object_ArmorWolfLegs_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfLegs_MainTex
-object ArmorWolfLegs, SkinnedMeshRenderer Cube.008, material SilverArmourChest_mat (Instance), texture SilverArmourChest_n, using object_ArmorWolfLegs_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfLegs_BumpMap
-object ArmorWolfLegs, SkinnedMeshRenderer Cube.008, material SilverArmourChest_mat (Instance), texture SilverArmourChest_m, using object_ArmorWolfLegs_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfLegs_MetallicGlossMap
-object ArmorWolfLegs, ParticleSystemRenderer ArmorWolfLegs, material item_particle (Instance), texture starspark, using object_ArmorWolfLegs_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfLegs_MainTex
-object ArmorWolfLegs, ParticleSystemRenderer ArmorWolfLegs, material Standard (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfLegs_MainTex
-object ArmorWolfLegs, ParticleSystemRenderer ArmorWolfLegs, material Standard (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfLegs_BumpMap
-object ArmorWolfLegs, ParticleSystemRenderer ArmorWolfLegs, material Standard (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfLegs_MetallicGlossMap
-object HelmetDrake, MeshRenderer default, material DragonVisor_Mat (Instance), texture SilverArmourChest_d, using object_HelmetDrake_MainTex for _MainTex.
-loading custom texture for object_HelmetDrake_MainTex 0 layers
-loading custom texture file for object_HelmetDrake_MainTex
-object HelmetDrake, MeshRenderer default, material DragonVisor_Mat (Instance), texture SilverArmourChest_n, using object_HelmetDrake_BumpMap for _BumpMap.
-loading custom texture for object_HelmetDrake_BumpMap 0 layers
-loading custom texture file for object_HelmetDrake_BumpMap
-object HelmetDrake, MeshRenderer default, material DragonVisor_Mat (Instance), texture SilverArmourChest_m, using object_HelmetDrake_MetallicGlossMap for _MetallicGlossMap.
-loading custom texture for object_HelmetDrake_MetallicGlossMap 0 layers
-loading custom texture file for object_HelmetDrake_MetallicGlossMap
-object HelmetDrake, ParticleSystemRenderer HelmetDrake, material item_particle (Instance), texture starspark, using object_HelmetDrake_MainTex for _MainTex.
-loading cached texture for object_HelmetDrake_MainTex
-object HelmetDrake, ParticleSystemRenderer HelmetDrake, material Standard (Instance), texture HelmetDrake, using object_HelmetDrake_MainTex for _MainTex.
-loading cached texture for object_HelmetDrake_MainTex
-object HelmetDrake, ParticleSystemRenderer HelmetDrake, material Standard (Instance), texture HelmetDrake, using object_HelmetDrake_BumpMap for _BumpMap.
-loading cached texture for object_HelmetDrake_BumpMap
-object HelmetDrake, ParticleSystemRenderer HelmetDrake, material Standard (Instance), texture HelmetDrake, using object_HelmetDrake_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_HelmetDrake_MetallicGlossMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat_stone (Instance), texture HelmetDverger, using object_HelmetDverger_BumpMap for _BumpMap.
-loading custom texture for object_HelmetDverger_BumpMap 0 layers
-loading custom texture file for object_HelmetDverger_BumpMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat_stone (Instance), texture HelmetDverger, using object_HelmetDverger_EmissionMap for _EmissionMap.
-loading custom texture for object_HelmetDverger_EmissionMap 0 layers
-loading custom texture file for object_HelmetDverger_EmissionMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat_stone (Instance), texture HelmetDverger, using object_HelmetDverger_MetallicGlossMap for _MetallicGlossMap.
-loading custom texture for object_HelmetDverger_MetallicGlossMap 0 layers
-loading custom texture file for object_HelmetDverger_MetallicGlossMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat (Instance), texture dvergerhat_d, using texture_dvergerhat_d_MainTex for _MainTex.
-loading custom texture for texture_dvergerhat_d_MainTex 0 layers
-loading custom texture file for texture_dvergerhat_d_MainTex
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat (Instance), texture helmet_iron_n, using object_HelmetDverger_BumpMap for _BumpMap.
-loading cached texture for object_HelmetDverger_BumpMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat (Instance), texture HelmetDverger, using object_HelmetDverger_EmissionMap for _EmissionMap.
-loading cached texture for object_HelmetDverger_EmissionMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat (Instance), texture HelmetDverger, using object_HelmetDverger_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_HelmetDverger_MetallicGlossMap
-object HelmetDverger, ParticleSystemRenderer HelmetDverger, material Standard (Instance), texture HelmetDverger, using object_HelmetDverger_BumpMap for _BumpMap.
-loading cached texture for object_HelmetDverger_BumpMap
-object HelmetDverger, ParticleSystemRenderer HelmetDverger, material Standard (Instance), texture HelmetDverger, using object_HelmetDverger_EmissionMap for _EmissionMap.
-loading cached texture for object_HelmetDverger_EmissionMap
-object HelmetDverger, ParticleSystemRenderer HelmetDverger, material Standard (Instance), texture HelmetDverger, using object_HelmetDverger_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_HelmetDverger_MetallicGlossMap
-CustomTextures 
-object ArmorWolfChest, MeshRenderer log, material SilverArmourChest_item (Instance), texture SilverArmourChest_d, using object_ArmorWolfChest_MainTex for _MainTex.
-loading custom texture for object_ArmorWolfChest_MainTex 0 layers
-loading custom texture file for object_ArmorWolfChest_MainTex
-object ArmorWolfChest, MeshRenderer log, material SilverArmourChest_item (Instance), texture SilverArmourChest_n, using object_ArmorWolfChest_BumpMap for _BumpMap.
-loading custom texture for object_ArmorWolfChest_BumpMap 0 layers
-loading custom texture file for object_ArmorWolfChest_BumpMap
-object ArmorWolfChest, MeshRenderer log, material SilverArmourChest_item (Instance), texture SilverArmourChest_m, using object_ArmorWolfChest_MetallicGlossMap for _MetallicGlossMap.
-loading custom texture for object_ArmorWolfChest_MetallicGlossMap 0 layers
-loading custom texture file for object_ArmorWolfChest_MetallicGlossMap
-object ArmorWolfChest, SkinnedMeshRenderer SilverWolfArmor, material SilverArmourChest_mat (Instance), texture SilverArmourChest_d, using object_ArmorWolfChest_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfChest_MainTex
-object ArmorWolfChest, SkinnedMeshRenderer SilverWolfArmor, material SilverArmourChest_mat (Instance), texture SilverArmourChest_n, using object_ArmorWolfChest_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfChest_BumpMap
-object ArmorWolfChest, SkinnedMeshRenderer SilverWolfArmor, material SilverArmourChest_mat (Instance), texture SilverArmourChest_m, using object_ArmorWolfChest_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfChest_MetallicGlossMap
-object ArmorWolfChest, ParticleSystemRenderer ArmorWolfChest, material item_particle (Instance), texture starspark, using object_ArmorWolfChest_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfChest_MainTex
-object ArmorWolfChest, ParticleSystemRenderer ArmorWolfChest, material Standard (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfChest_MainTex
-object ArmorWolfChest, ParticleSystemRenderer ArmorWolfChest, material Standard (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfChest_BumpMap
-object ArmorWolfChest, ParticleSystemRenderer ArmorWolfChest, material Standard (Instance), texture ArmorWolfChest, using object_ArmorWolfChest_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfChest_MetallicGlossMap
-armor ArmorWolfChest, Armor ArmorWolfChest, material SilverArmour_Skin_Chest, texture SilverArmour_Skin_n, using armor_ArmorWolfChest_ChestBumpMap for _ChestBumpMap.
-loading custom texture for armor_ArmorWolfChest_ChestBumpMap 0 layers
-loading custom texture file for armor_ArmorWolfChest_ChestBumpMap
-armor ArmorWolfChest, Armor ArmorWolfChest, material SilverArmour_Skin_Chest, texture ArmorWolfChest, using armor_ArmorWolfChest_ChestMetal for _ChestMetal.
-loading custom texture for armor_ArmorWolfChest_ChestMetal 0 layers
-loading custom texture file for armor_ArmorWolfChest_ChestMetal
-armor ArmorWolfChest, Armor ArmorWolfChest, material SilverArmour_Skin_Chest, texture SilverArmour_Skin_d, using armor_ArmorWolfChest_ChestTex for _ChestTex.
-loading custom texture for armor_ArmorWolfChest_ChestTex 0 layers
-loading custom texture file for armor_ArmorWolfChest_ChestTex
-object ArmorWolfLegs, MeshRenderer log, material SilverArmourChest_item (Instance), texture SilverArmourChest_d, using object_ArmorWolfLegs_MainTex for _MainTex.
-loading custom texture for object_ArmorWolfLegs_MainTex 0 layers
-loading custom texture file for object_ArmorWolfLegs_MainTex
-object ArmorWolfLegs, MeshRenderer log, material SilverArmourChest_item (Instance), texture SilverArmourChest_n, using object_ArmorWolfLegs_BumpMap for _BumpMap.
-loading custom texture for object_ArmorWolfLegs_BumpMap 0 layers
-loading custom texture file for object_ArmorWolfLegs_BumpMap
-object ArmorWolfLegs, MeshRenderer log, material SilverArmourChest_item (Instance), texture SilverArmourChest_m, using object_ArmorWolfLegs_MetallicGlossMap for _MetallicGlossMap.
-loading custom texture for object_ArmorWolfLegs_MetallicGlossMap 0 layers
-loading custom texture file for object_ArmorWolfLegs_MetallicGlossMap
-object ArmorWolfLegs, SkinnedMeshRenderer Cube.008, material SilverArmourChest_mat (Instance), texture SilverArmourChest_d, using object_ArmorWolfLegs_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfLegs_MainTex
-object ArmorWolfLegs, SkinnedMeshRenderer Cube.008, material SilverArmourChest_mat (Instance), texture SilverArmourChest_n, using object_ArmorWolfLegs_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfLegs_BumpMap
-object ArmorWolfLegs, SkinnedMeshRenderer Cube.008, material SilverArmourChest_mat (Instance), texture SilverArmourChest_m, using object_ArmorWolfLegs_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfLegs_MetallicGlossMap
-object ArmorWolfLegs, ParticleSystemRenderer ArmorWolfLegs, material item_particle (Instance), texture starspark, using object_ArmorWolfLegs_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfLegs_MainTex
-object ArmorWolfLegs, ParticleSystemRenderer ArmorWolfLegs, material Standard (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MainTex for _MainTex.
-loading cached texture for object_ArmorWolfLegs_MainTex
-object ArmorWolfLegs, ParticleSystemRenderer ArmorWolfLegs, material Standard (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_BumpMap for _BumpMap.
-loading cached texture for object_ArmorWolfLegs_BumpMap
-object ArmorWolfLegs, ParticleSystemRenderer ArmorWolfLegs, material Standard (Instance), texture ArmorWolfLegs, using object_ArmorWolfLegs_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_ArmorWolfLegs_MetallicGlossMap
-object HelmetDrake, MeshRenderer default, material DragonVisor_Mat (Instance), texture SilverArmourChest_d, using object_HelmetDrake_MainTex for _MainTex.
-loading custom texture for object_HelmetDrake_MainTex 0 layers
-loading custom texture file for object_HelmetDrake_MainTex
-object HelmetDrake, MeshRenderer default, material DragonVisor_Mat (Instance), texture SilverArmourChest_n, using object_HelmetDrake_BumpMap for _BumpMap.
-loading custom texture for object_HelmetDrake_BumpMap 0 layers
-loading custom texture file for object_HelmetDrake_BumpMap
-object HelmetDrake, MeshRenderer default, material DragonVisor_Mat (Instance), texture SilverArmourChest_m, using object_HelmetDrake_MetallicGlossMap for _MetallicGlossMap.
-loading custom texture for object_HelmetDrake_MetallicGlossMap 0 layers
-loading custom texture file for object_HelmetDrake_MetallicGlossMap
-object HelmetDrake, ParticleSystemRenderer HelmetDrake, material item_particle (Instance), texture starspark, using object_HelmetDrake_MainTex for _MainTex.
-loading cached texture for object_HelmetDrake_MainTex
-object HelmetDrake, ParticleSystemRenderer HelmetDrake, material Standard (Instance), texture HelmetDrake, using object_HelmetDrake_MainTex for _MainTex.
-loading cached texture for object_HelmetDrake_MainTex
-object HelmetDrake, ParticleSystemRenderer HelmetDrake, material Standard (Instance), texture HelmetDrake, using object_HelmetDrake_BumpMap for _BumpMap.
-loading cached texture for object_HelmetDrake_BumpMap
-object HelmetDrake, ParticleSystemRenderer HelmetDrake, material Standard (Instance), texture HelmetDrake, using object_HelmetDrake_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_HelmetDrake_MetallicGlossMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat_stone (Instance), texture HelmetDverger, using object_HelmetDverger_BumpMap for _BumpMap.
-loading custom texture for object_HelmetDverger_BumpMap 0 layers
-loading custom texture file for object_HelmetDverger_BumpMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat_stone (Instance), texture HelmetDverger, using object_HelmetDverger_EmissionMap for _EmissionMap.
-loading custom texture for object_HelmetDverger_EmissionMap 0 layers
-loading custom texture file for object_HelmetDverger_EmissionMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat_stone (Instance), texture HelmetDverger, using object_HelmetDverger_MetallicGlossMap for _MetallicGlossMap.
-loading custom texture for object_HelmetDverger_MetallicGlossMap 0 layers
-loading custom texture file for object_HelmetDverger_MetallicGlossMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat (Instance), texture dvergerhat_d, using texture_dvergerhat_d_MainTex for _MainTex.
-loading custom texture for texture_dvergerhat_d_MainTex 0 layers
-loading custom texture file for texture_dvergerhat_d_MainTex
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat (Instance), texture helmet_iron_n, using object_HelmetDverger_BumpMap for _BumpMap.
-loading cached texture for object_HelmetDverger_BumpMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat (Instance), texture HelmetDverger, using object_HelmetDverger_EmissionMap for _EmissionMap.
-loading cached texture for object_HelmetDverger_EmissionMap
-object HelmetDverger, MeshRenderer bronzehelmet, material dvergerhat (Instance), texture HelmetDverger, using object_HelmetDverger_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_HelmetDverger_MetallicGlossMap
-object HelmetDverger, ParticleSystemRenderer HelmetDverger, material Standard (Instance), texture HelmetDverger, using object_HelmetDverger_BumpMap for _BumpMap.
-loading cached texture for object_HelmetDverger_BumpMap
-object HelmetDverger, ParticleSystemRenderer HelmetDverger, material Standard (Instance), texture HelmetDverger, using object_HelmetDverger_EmissionMap for _EmissionMap.
-loading cached texture for object_HelmetDverger_EmissionMap
-object HelmetDverger, ParticleSystemRenderer HelmetDverger, material Standard (Instance), texture HelmetDverger, using object_HelmetDverger_MetallicGlossMap for _MetallicGlossMap.
-loading cached texture for object_HelmetDverger_MetallicGlossMap 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
-
-[Info   : Unity Log] CustomTextures SetupObjectDB RunTime 00:00:00.65
-CustomTextures SetupObjectDB RunTime 00:00:00.65 
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+[Info   : Unity Log] CustomTextures SetupObjectDB RunTime 00:00:00.08
+CustomTextures SetupObjectDB RunTime 00:00:00.08 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 
-Unloading 182 unused Assets to reduce memory usage. Loaded Objects now: 93541.
-Total: 79.258376 ms (FindLiveObjects: 4.031394 ms CreateObjectMapping: 9.178978 ms MarkObjects: 64.817678 ms  DeleteObjects: 1.229935 ms)
+Unloading 176 unused Assets to reduce memory usage. Loaded Objects now: 93859.
+Total: 73.605236 ms (FindLiveObjects: 3.708881 ms CreateObjectMapping: 5.479108 ms MarkObjects: 63.195922 ms  DeleteObjects: 1.220846 ms)
 
-[Info   : Unity Log] 05/11/2021 20:46:11: UI Group status changed Menu = True
+[Info   : Unity Log] 05/28/2021 16:47:31: UI Group status changed Menu = True
 
-05/11/2021 20:46:11: UI Group status changed Menu = True
+05/28/2021 16:47:31: UI Group status changed Menu = True
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/11/2021 20:46:13: show character selection
+[Info   : Unity Log] 05/28/2021 16:47:36: FOund selected Start game
 
-05/11/2021 20:46:13: show character selection
+05/28/2021 16:47:36: FOund selected Start game
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/11/2021 20:46:16: UI Group status changed Menu = True
+[Info   : Unity Log] 05/28/2021 16:47:36: show character selection
 
-05/11/2021 20:46:16: UI Group status changed Menu = True
+05/28/2021 16:47:36: show character selection
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/11/2021 20:46:20: show character selection
+[Info   : Unity Log] 05/28/2021 16:47:38: OnCharacterStart
 
-05/11/2021 20:46:20: show character selection
+05/28/2021 16:47:38: OnCharacterStart
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/11/2021 20:46:20: UI Group status changed SelectCharacter = True
+Unloading 6 Unused Serialized files (Serialized files now loaded: 1)
+UnloadTime: 12.592548 ms
+[Info   : Unity Log] Version generator started.
+Version generator started. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-05/11/2021 20:46:20: UI Group status changed SelectCharacter = True
+[Info   : Unity Log] Version generated with enforced mod : 0.153.2@0.9.8.1
+Version generated with enforced mod : 0.153.2@0.9.8.1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:47:41: Loading player profile govi ii
+
+05/28/2021 16:47:41: Loading player profile govi ii
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/11/2021 20:46:28: UI Group status changed Menu = True
+[Info   : Unity Log] CustomTextures Reloading ZoneSystem textures _GameMain _Zone
+CustomTextures Reloading ZoneSystem textures _GameMain _Zone 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-05/11/2021 20:46:28: UI Group status changed Menu = True
+[Info   : Unity Log] 05/28/2021 16:47:41: Zonesystem Awake 519
+
+05/28/2021 16:47:41: Zonesystem Awake 519
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/11/2021 20:46:48: Steam manager on destroy
+[Info   : Unity Log] 05/28/2021 16:47:41: DungeonDB Awake 519
 
-05/11/2021 20:46:48: Steam manager on destroy
+05/28/2021 16:47:41: DungeonDB Awake 519
  
-(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 35)
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Vulkan PSO: Pipeline cache has not changed skipping save handle[3697790]
+[Info   : Unity Log] 05/28/2021 16:47:41: Steam initialized, persona:Goldberg
+
+05/28/2021 16:47:41: Steam initialized, persona:Goldberg
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] CustomTextures ZNetScene awake
+CustomTextures ZNetScene awake 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] CustomTextures Checking 1441 prefabs
+CustomTextures Checking 1441 prefabs 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] CustomTextures ZNetScene RunTime 00:00:00.39
+CustomTextures ZNetScene RunTime 00:00:00.39 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] CustomTextures Reloading Environment textures
+CustomTextures Reloading Environment textures 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] CustomTextures Reloading 9 Environment textures
+CustomTextures Reloading 9 Environment textures 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:47:45: Audioman already exist, destroying self
+
+05/28/2021 16:47:45: Audioman already exist, destroying self
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] Version generator started.
+Version generator started. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] Version generated with enforced mod : 0.153.2@0.9.8.1
+Version generated with enforced mod : 0.153.2@0.9.8.1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:47:45: Checking for installed DLCs
+
+05/28/2021 16:47:45: Checking for installed DLCs
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:47:45: DLC:beta installed:False
+
+05/28/2021 16:47:45: DLC:beta installed:False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] CustomTextures Clutter system awake
+CustomTextures Clutter system awake 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] CustomTextures Checking 17 clutters
+CustomTextures Checking 17 clutters 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] CustomTextures Clutter System RunTime 00:00:00.00
+CustomTextures Clutter System RunTime 00:00:00.00 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+
+Unloading 1224 unused Assets to reduce memory usage. Loaded Objects now: 93987.
+Total: 87.830796 ms (FindLiveObjects: 3.406406 ms CreateObjectMapping: 5.989516 ms MarkObjects: 73.309259 ms  DeleteObjects: 5.125058 ms)
+
+[Info   : Unity Log] MaxFPS: -1 to -1
+MaxFPS: -1 to -1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] CustomTextures Starting ZoneSystem Location prefab replacement
+CustomTextures Starting ZoneSystem Location prefab replacement 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] CustomTextures ZoneSystem Locations RunTime 00:00:00.00
+CustomTextures ZoneSystem Locations RunTime 00:00:00.00 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:47:48: Zonesystem Start 519
+
+05/28/2021 16:47:48: Zonesystem Start 519
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:47:48: DungeonDB Start 519
+
+05/28/2021 16:47:48: DungeonDB Start 519
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:47:48: Load world GoViLandII
+
+05/28/2021 16:47:48: Load world GoViLandII
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:47:48: Loading 460862 zdos , my id -1963638586 data version:27
+
+05/28/2021 16:47:48: Loading 460862 zdos , my id -1963638586 data version:27
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:47:50: Loaded 100000 dead zdos
+
+05/28/2021 16:47:50: Loaded 100000 dead zdos
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:47:50: Removed 0 OLD generated ZDOS
+
+05/28/2021 16:47:50: Removed 0 OLD generated ZDOS
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:47:50: Loaded 7082 locations
+
+05/28/2021 16:47:50: Loaded 7082 locations
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:47:58: Starting respawn
+
+05/28/2021 16:47:58: Starting respawn
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:47:58: tip:$loadscreen_tip02
+
+05/28/2021 16:47:58: tip:$loadscreen_tip02
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:18607 bytes
+
+05/28/2021 16:48:01: Loading terrain comp:18607 bytes
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:9943 bytes
+
+05/28/2021 16:48:01: Loading terrain comp:9943 bytes
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:1375 bytes
+
+05/28/2021 16:48:01: Loading terrain comp:1375 bytes
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:508 bytes
+
+05/28/2021 16:48:01: Loading terrain comp:508 bytes
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:1693 bytes
+
+05/28/2021 16:48:01: Loading terrain comp:1693 bytes
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:92 bytes
+
+05/28/2021 16:48:01: Loading terrain comp:92 bytes
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:148 bytes
+
+05/28/2021 16:48:01: Loading terrain comp:148 bytes
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:2635 bytes
+
+05/28/2021 16:48:01: Loading terrain comp:2635 bytes
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:101 bytes
+
+05/28/2021 16:48:01: Loading terrain comp:101 bytes
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:01: Loading dungeon
+
+05/28/2021 16:48:01: Loading dungeon
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:01: Dungeon loaded 15
+
+05/28/2021 16:48:01: Dungeon loaded 15
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:01: Dungeon load time 13,545 ms
+
+05/28/2021 16:48:01: Dungeon load time 13,545 ms
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:02: Force generaeting hmap (-1984.0, 0.0, 2496.0)
+
+05/28/2021 16:48:02: Force generaeting hmap (-1984.0, 0.0, 2496.0)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:02: Force generaeting hmap (-1792.0, 0.0, 2496.0)
+
+05/28/2021 16:48:02: Force generaeting hmap (-1792.0, 0.0, 2496.0)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:02: Force generaeting hmap (-1728.0, 0.0, 2496.0)
+
+05/28/2021 16:48:02: Force generaeting hmap (-1728.0, 0.0, 2496.0)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:06: Spawned after 8,019994
+
+05/28/2021 16:48:06: Spawned after 8,019994
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:06: Minimap: Adding unique location (6.5, 55.7, 6.6)
+
+05/28/2021 16:48:06: Minimap: Adding unique location (6.5, 55.7, 6.6)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:06: Minimap: Adding unique location (1019.2, 57.9, 1163.1)
+
+05/28/2021 16:48:06: Minimap: Adding unique location (1019.2, 57.9, 1163.1)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:07: Resumed music home at 0
+
+05/28/2021 16:48:07: Resumed music home at 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] TimeMod Pausing time on menu open.
+TimeMod Pausing time on menu open. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] TimeMod Created fake scene texture.
+TimeMod Created fake scene texture. 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:11: UI Group status changed MenuRoot = False
+
+05/28/2021 16:48:11: UI Group status changed MenuRoot = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:12: Game - OnApplicationQuit
+
+05/28/2021 16:48:12: Game - OnApplicationQuit
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:12: ZNet Shutdown
+
+05/28/2021 16:48:12: ZNet Shutdown
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:13: clone 587
+
+05/28/2021 16:48:13: clone 587
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/28/2021 16:48:14: Saved 460862 zdos
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+05/28/2021 16:48:14: World saved ( 1443,193ms )
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:14: Sending disconnect msg
+
+05/28/2021 16:48:14: Sending disconnect msg
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:16: Steam manager on destroy
+
+05/28/2021 16:48:16: Steam manager on destroy
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:16: FOund selected Button_yes
+
+05/28/2021 16:48:16: FOund selected Button_yes
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:16: ZNet OnDestroy
+
+05/28/2021 16:48:16: ZNet OnDestroy
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 05/28/2021 16:48:16: Net scene destroyed
+
+05/28/2021 16:48:16: Net scene destroyed
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Warning: Unity Log] 05/28/2021 16:48:16: Local player destroyed
+
+05/28/2021 16:48:16: Local player destroyed
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+Vulkan PSO: data extracted [new size=1062784, old size=0, incomplete=0]
+Vulkan PSO: Saved size[1062784] path[/tmp/IronGate/Valheim/vulkan_pso_cache.bin] success=1 headerChanged=1 sizeChanged=1

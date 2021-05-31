@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pgrep -x "wineserver" > /dev/null  && exit
+
 UPDATES_AUR=$(paru -Qua | wc -l)
 notf_ON=~/.config/qtile/scripts/notf_ON
 

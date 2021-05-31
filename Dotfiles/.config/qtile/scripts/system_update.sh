@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pgrep -x "wineserver" > /dev/null  && exit
+
 sudo pacman -Syy > /dev/null 2>&1
 
 paru -Syya

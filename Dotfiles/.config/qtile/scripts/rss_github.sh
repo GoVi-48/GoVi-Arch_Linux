@@ -1,8 +1,8 @@
 #!/bin/bash
 
-export LANG=C.UTF-8
-
 pgrep -x "wineserver" > /dev/null  && exit
+
+export LANG=C.UTF-8
 
 LOGS="$HOME/.config/qtile/scripts/Logs/Github"
 

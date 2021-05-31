@@ -1,5 +1,7 @@
 #!/bin/bash
 
+pgrep -x "wineserver" > /dev/null  && exit
+
 UPDATES_PACMAN=$(pacman -Qu | wc -l)
 notf_ON=~/.config/qtile/scripts/notf_ON
 

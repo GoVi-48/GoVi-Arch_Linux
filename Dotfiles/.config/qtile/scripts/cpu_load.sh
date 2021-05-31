@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 
-load=$(top -b -n1 | awk '/^%Cpu/ {print $2 + $4}' | awk -F '.' '{print $1}')
+pgrep -x "wineserver" > /dev/null  && exit
 
+load=$(top -b -n1 | awk '/^%Cpu/ {print $2 + $4}' | awk -F '.' '{print $1}')
 
 if [ $load -ge 0 -a $load -lt 10 ];then
     echo " $load% ▁ "

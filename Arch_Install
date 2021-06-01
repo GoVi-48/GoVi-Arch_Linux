@@ -116,9 +116,8 @@ sudo pacman -S alsa-utils bashtop feh lxappearance pavucontrol picom-jonaburg-gi
 
 sudo pacman -S lightdm lightdm-webkit2-greeter
 git clone https://aur.archlinux.org/yay-git.git
-cd yay && makepkg -si PKGBUILD
-yay paru
-paru -S lightdm-webkit-theme-aether
+cd yay-git && makepkg -si PKGBUILD
+yay -S lightdm-webkit-theme-aether
 
 systemctl enable lightdm.service
 cp /usr/share/doc/qtile/default_config.py ~/.config/qtile/config.py

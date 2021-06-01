@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Gaming.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3528">
-              <caret line="147" column="4" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="19" />
+            <state relative-caret-position="463">
+              <caret line="182" column="39" selection-start-line="182" selection-start-column="37" selection-end-line="182" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -31,11 +31,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Shell/Games/Launch-Game_Template.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
+            <state relative-caret-position="280">
               <caret line="42" column="71" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Howto">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5304">
+              <caret line="221" column="4" selection-start-line="221" selection-start-column="4" selection-end-line="221" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Install">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="461">
+              <caret line="119" column="8" lean-forward="true" selection-start-line="119" selection-end-line="120" />
             </state>
           </provider>
         </entry>
@@ -44,7 +62,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>cut</find>
       <find>backe</find>
       <find>vim</find>
       <find>lambda qtile:</find>
@@ -74,9 +91,9 @@
       <find>death</find>
       <find>ls -l /</find>
       <find>notif</find>
+      <find>paru</find>
     </findStrings>
     <replaceStrings>
-      <replace>$FILEMANAGER</replace>
       <replace>neovim</replace>
       <replace>paru</replace>
       <replace>firefox</replace>
@@ -106,6 +123,7 @@
       <replace>bashtop</replace>
       <replace>sh winetricks</replace>
       <replace>winetricks</replace>
+      <replace>yay</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/Shell/Games/_Launch_Scripts</dir>
@@ -113,7 +131,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="/Datos/Games/PC/Satisfactory/Wine/Launch_Satisfactory.sh" />
       <option value="$PROJECT_DIR$/Shell/Utils/Game_Backup.sh" />
       <option value="$PROJECT_DIR$/Shell/Utils/Games_Backup.sh" />
       <option value="$PROJECT_DIR$/../Games/PC/Valheim/Launch-Valheim.sh" />
@@ -140,13 +157,11 @@
       <option value="/Media/Games/PC/Satisfactory/Wine/Launch-Satisfactory.sh" />
       <option value="/Media/Games/PC/Red Dead Redemption 2/Wine/Launch-Red_Dead_Redemtion_2.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/config.py" />
-      <option value="$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Install" />
       <option value="$PROJECT_DIR$/Shell/Games/Launch-Game_Template.sh" />
       <option value="/Media/Games/PC/Death Stranding/Wine/Launch-Death_Stranding.sh" />
       <option value="/Media/Games/PC/Assassins Creed Valhalla/Wine/Launch-Assassins_Creed_Valhalla.sh" />
       <option value="$PROJECT_DIR$/Shell/Games/Create-wine-pfx.sh" />
       <option value="$PROJECT_DIR$/../.xinitrc" />
-      <option value="$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Howto" />
       <option value="$PROJECT_DIR$/../.config/picom/picom.conf" />
       <option value="/Datos/Downloads/skin.aeon.govi/addon.xml" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/Rename_when.sh" />
@@ -154,7 +169,6 @@
       <option value="$PROJECT_DIR$/Shell/Utils/rename_when.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/updates_pacman.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_github.sh" />
-      <option value="$PROJECT_DIR$/../.config/qtile/scripts/updates_aur.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/system_update.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/mem_load.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/gpu_temp.sh" />
@@ -164,6 +178,10 @@
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_games.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/mb_temp.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/cpu_load.sh" />
+      <option value="$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Install" />
+      <option value="$PROJECT_DIR$/../.config/qtile/scripts/updates_aur.sh" />
+      <option value="$PROJECT_DIR$/../.config/qtile/scripts/updates_aur_Reset.sh" />
+      <option value="$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Howto" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -192,6 +210,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.6456522" />
       <window_info id="Structure" order="1" show_stripe_button="false" weight="0.24891305" />
@@ -382,13 +401,6 @@
     <entry file="file:///Media/Games/PC/Satisfactory/Save Game/Saved/SaveGames/common/GoVi II_090521-041215.sav">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Install">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="184" column="7" selection-start-line="184" selection-start-column="7" selection-end-line="184" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Media/Games/PC/Death Stranding/Wine/Launch-Death_Stranding.sh" />
     <entry file="file:///Media/Games/PC/Assassins Creed Valhalla/Wine/Launch-Assassins_Creed_Valhalla.sh">
       <provider selected="true" editor-type-id="text-editor">
@@ -398,16 +410,6 @@
       </provider>
     </entry>
     <entry file="file:///Media/Games/PC/Subnautica Below Zero/Wine/Launch-Subnautica_Below_Zero.sh" />
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/notifications.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Howto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="18" column="132" selection-start-line="18" selection-start-column="132" selection-end-line="18" selection-end-column="132" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.xinitrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -424,49 +426,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/notf_switch.sh">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_games_not.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/Rename_when.sh" />
     <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rename_when.sh" />
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_aur_Reset.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="1" selection-start-line="3" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Gaming.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3528">
-          <caret line="147" column="4" selection-start-line="147" selection-start-column="4" selection-end-line="147" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shell/Games/Create-wine-pfx.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="31" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Shell/Utils/rename_when.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="343" column="13" selection-start-line="343" selection-start-column="13" selection-end-line="343" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Shell/Utils/rename_when.sh" />
     <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_pacman.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -475,13 +440,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/rss_github.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_aur.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="3" selection-start-line="3" selection-end-line="3" />
@@ -551,10 +509,65 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/notifications.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/notf_switch.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shell/Games/Create-wine-pfx.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="31" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="343" column="13" selection-start-line="343" selection-start-column="13" selection-end-line="343" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_aur.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_aur_Reset.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Shell/Games/Launch-Game_Template.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
+        <state relative-caret-position="280">
           <caret line="42" column="71" selection-start-line="42" selection-start-column="71" selection-end-line="42" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Gaming.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="463">
+          <caret line="182" column="39" selection-start-line="182" selection-start-column="37" selection-end-line="182" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Howto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5304">
+          <caret line="221" column="4" selection-start-line="221" selection-start-column="4" selection-end-line="221" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Install">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="461">
+          <caret line="119" column="8" lean-forward="true" selection-start-line="119" selection-end-line="120" />
         </state>
       </provider>
     </entry>

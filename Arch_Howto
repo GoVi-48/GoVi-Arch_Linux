@@ -19,11 +19,11 @@ sudo pacman -S alacritty audacity exa ffmpeg firefox flameshot gimp gparted inks
 sudo pacman -S bc extra-cmake-modules fuseiso gnome-themes-extra icoutils jdk-openjdk lm_sensors mono libnotify notification-daemon nvidia-led packagekit-qt5 polkit unrar vim wget xautolock zip zenity
 
 # AUR Packages
-paru -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke java-8-openjdk liferea mpc-qt picard sgtk-menu skype spotify teamviewer timeshift tiny-media-manager
+yay -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke java-8-openjdk liferea mpc-qt picard sgtk-menu skype spotify teamviewer timeshift tiny-media-manager
 
 # Fonts
 ln -s /windows/Windows/Fonts /usr/share/fonts/WindowsFonts
-paru -S font-manager ttf-ms-fonts
+yay -S font-manager ttf-ms-fonts
 sudo pacman -S cantarell-fonts noto-fonts noto-fonts-extra noto-fonts-emoji ttf-font-awesome ttf-hack ttf-jetbrains-mono ttf-ubuntu-font-family xorg-fonts-misc
 fc-cache --force
 
@@ -34,7 +34,7 @@ sudo ln -s /home/$USER/.config/gtk-3.0/settings.ini /etc/gtk-3.0/settings.ini
 lxappearance
 
 # File Manager
-paru -S spacefm ffmpegthumbnailer
+yay -S spacefm ffmpegthumbnailer
 
 # ZSH
 sudo pacman -S zsh zsh-autosuggestions zsh-syntax-highlighting
@@ -55,7 +55,7 @@ sudo firewall-config
 
 # Kodi
 sudo pacman -S kodi
-paru -S kodi-addon-pvr-iptvsimple
+yay -S kodi-addon-pvr-iptvsimple
 
 
 # ============================================================================= # #
@@ -163,7 +163,7 @@ Defaults editor=/usr/bin/nvim, !env_editor
 # ======================================================================================= #
 
 # Default directory names.
-paru -S xdg-user-dirs-gtk
+yay -S xdg-user-dirs-gtk
 sudo nvim /etc/xdg/user-dirs.defaults
 nvim ~/.config/user-dirs.dirs
 xdg-user-dirs-update
@@ -219,5 +219,5 @@ makepkg -si
 sudo grub-mkconfig -o /boot/grub/grub.cfg
 
 # Kernel CK
-paru -S linux-ck linux-ck-headers
+yay -S linux-ck linux-ck-headers
 sudo grub-mkconfig -o /boot/grub/grub.cfg

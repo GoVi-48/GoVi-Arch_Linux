@@ -1,4 +1,4 @@
 #!/bin/bash
 
-alacritty -e paru -Syua --skipreview &&
+alacritty -e yay -Syua &&
 qtile cmd-obj -o cmd -f restart

@@ -6,7 +6,7 @@ BOLD=`tput bold` # Bold
 OFFBOLD=`tput sgr0` # Turn off all attributes
 
 # Notification
-NOTF="kdialog --icon $HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg --passivepopup \"Complete\" 8"
+NOTF='notify-send $HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg "Timeshift" "System Backup Complete"'
 SOUND="paplay $HOME/.local/share/sounds/cause-and-effect.ogg"
 
 function Options(){

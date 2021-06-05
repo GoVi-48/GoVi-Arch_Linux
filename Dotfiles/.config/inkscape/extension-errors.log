@@ -1,18 +1,24 @@
-La extensión Export to PDF via Scribus» no se ha cargado porque no se cumplió una dependencia.
-Dependencia:
-	tipo: executable
-	localización: trayecto
-	cadena: scribus
+Extension "Export to PDF via Scribus" failed to load because a dependency was not met.
+Dependency:
+	type: executable
+	location: path
+	string: scribus
 
-La extensión XFIG Input» no se ha cargado porque no se cumplió una dependencia.
-Dependencia:
-	tipo: executable
-	localización: trayecto
-	cadena: fig2dev
+Extension "XFIG Input" failed to load because a dependency was not met.
+Dependency:
+	type: executable
+	location: path
+	string: fig2dev
 
-La extensión LaTeX (pdflatex)» no se ha cargado porque no se cumplió una dependencia.
-Dependencia:
-	tipo: executable
-	localización: trayecto
-	cadena: pdflatex
+Extension "Optimized PNG" failed to load because a dependency was not met.
+Dependency:
+	type: executable
+	location: path
+	string: optipng
+
+Extension "LaTeX (pdflatex)" failed to load because a dependency was not met.
+Dependency:
+	type: executable
+	location: path
+	string: pdflatex
 

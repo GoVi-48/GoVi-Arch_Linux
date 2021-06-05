@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Epic Games Launcher
+Exec=env WINEPREFIX="/Datos/Games/PC/Subnautica/Wine/wine-pfx" /usr/bin/wine C:\\\\windows\\\\command\\\\start.exe /Unix /Datos/Games/PC/Subnautica/Wine/wine-pfx/dosdevices/c:/users/govi/Start\\ Menu/Programs/Epic\\ Games\\ Launcher.lnk
+Type=Application
+StartupNotify=true
+Comment=Launch the Epic Games Launcher
+Path=/Datos/Games/PC/Subnautica/Wine/wine-pfx/dosdevices/c:/Program Files (x86)/Epic Games/
+Icon=09BE_EpicGamesLauncher.0
+StartupWMClass=epicgameslauncher.exe

@@ -45,6 +45,8 @@ keys = [
     Key([mod], "f", lazy.spawn('flameshot full -d 1 -p /home/govi/Multimedia/Pictures/Screenshots/')),
     Key([mod], "s", lazy.spawn('spacefm ~/')),
     Key([mod], "b", lazy.spawn('alacritty -e bashtop')),
+    Key([mod], "g", lazy.spawn('firefox "http://www.gmail.com"')),
+    Key([mod], "Escape", lazy.window.kill(), desc="Kill focused window"),
 
     # Switch between windows
     Key([mod], "h", lazy.layout.left(), desc="Move focus to left"),

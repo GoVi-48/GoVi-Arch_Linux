@@ -1,6 +1,19 @@
 Mono path[0] = '/Datos/Games/PC/Valheim/game/valheim_Data/Managed'
 Mono config path = '/Datos/Games/PC/Valheim/game/valheim_Data/MonoBleedingEdge/etc'
-Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x11ac320.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/BepInEx.Preloader.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/BepInEx.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/System.Core.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/MonoMod.Utils.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/Mono.Cecil.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/Mono.Cecil.Mdb.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/Mono.Cecil.Pdb.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/Mono.Cecil.Rocks.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/System.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/0Harmony.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/MonoMod.RuntimeDetour.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/Mono.Security.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x2216590.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/data-0x2216590.so
 Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/libdl
 Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/libkernel32
 Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/libkernel32.so
@@ -20,7 +33,10 @@ Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Dat
 Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/libkernel32
 Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/libkernel32.so
 Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/libkernel32
-ï»¿[Message:   BepInEx] BepInEx 5.4.11.0 - valheim
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/HarmonyXInterop.dll.so
+ï»¿Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/System.Configuration.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/System.Xml.dll.so
+[Message:   BepInEx] BepInEx 5.4.11.0 - valheim
 [Info   :   BepInEx] Running under Unity vUnknown (post-2017)
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
 [Info   :   BepInEx] Supports SRE: True
@@ -28,12 +44,13 @@ Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Dat
 [Message:   BepInEx] Preloader started
 [Info   :   BepInEx] 1 patcher plugin loaded
 [Info   :   BepInEx] Patching [UnityEngine.CoreModule] with [BepInEx.Chainloader]
-Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x7f3a48c18010.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x28c19b0.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/data-0x28c19b0.so
 [Message:   BepInEx] Preloader finished
 Preloaded 'libsteam_api.so'
 Display 0 'BenQ GL2460 24"': 1920x1080 (primary device).
 Desktop is 1920 x 1080 @ 60 Hz
-[Vulkan init] extensions: count=18
+[Vulkan init] extensions: count=17
 [Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
 [Vulkan init] extensions: name=VK_KHR_display, enabled=1
 [Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
@@ -44,21 +61,20 @@ Desktop is 1920 x 1080 @ 60 Hz
 [Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
 [Vulkan init] extensions: name=VK_KHR_surface, enabled=1
 [Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
-[Vulkan init] extensions: name=VK_KHR_wayland_surface, enabled=1
 [Vulkan init] extensions: name=VK_KHR_xcb_surface, enabled=0
 [Vulkan init] extensions: name=VK_KHR_xlib_surface, enabled=1
 [Vulkan init] extensions: name=VK_EXT_acquire_xlib_display, enabled=0
 [Vulkan init] extensions: name=VK_EXT_debug_report, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
 [Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
 [Vulkan init] extensions: name=VK_EXT_display_surface_counter, enabled=0
-[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
 Got override: /Datos/Games/PC/Valheim/game/unstripped_corlib
 Current root dir: /Datos/Games/PC/Valheim/game/valheim_Data/Managed
 New root path: /Datos/Games/PC/Valheim/game/unstripped_corlib
 Search path: /Datos/Games/PC/Valheim/game/unstripped_corlib:/Datos/Games/PC/Valheim/game/valheim_Data/Managed
 Setting config paths; basedir: /Datos/Games/PC/Valheim/game; config: /Datos/Games/PC/Valheim/game/valheim.x86_64.config
 Managed dir: /Datos/Games/PC/Valheim/game/valheim_Data/Managed
-Got image: 0xb98b30 
+Got image: 0x1a4e2b0 
 vkBasalt info:  config file: /home/govi/.config/vkBasalt/vkBasalt.conf
 vkBasalt info:  reshadeTexturePath = /home/govi/.config/vkBasalt/Reshade-Shaders/Textures
 vkBasalt info:  reshadeIncludePath = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders
@@ -68,7 +84,6 @@ vkBasalt info:  smaa = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders/SMAA.
 vkBasalt info:  clarity = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders/Clarity.fx
 vkBasalt info:  lumasharpen = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders/LumaSharpen.fx
 vkBasalt info:  liftgammagain = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders/LiftGammaGain.fx
-WARNING: radv is not a conformant vulkan implementation, testing use only.
 skipping config: /Datos/Games/PC/Valheim/game/MangoHud.conf [ not found ]
 skipping config: /home/govi/.config/MangoHud/valheim.x86_64.conf [ not found ]
 parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
@@ -76,7 +91,7 @@ Vulkan detection: 2
 Initialize engine version: 2019.4.24f1 (5da6f0345e82)
 [Subsystems] Discovering subsystems at path /Datos/Games/PC/Valheim/game/valheim_Data/UnitySubsystems
 GfxDevice: creating device client; threaded=1
-[Vulkan init] extensions: count=18
+[Vulkan init] extensions: count=17
 [Vulkan init] extensions: name=VK_KHR_device_group_creation, enabled=0
 [Vulkan init] extensions: name=VK_KHR_display, enabled=1
 [Vulkan init] extensions: name=VK_KHR_external_fence_capabilities, enabled=0
@@ -87,14 +102,13 @@ GfxDevice: creating device client; threaded=1
 [Vulkan init] extensions: name=VK_KHR_get_surface_capabilities2, enabled=0
 [Vulkan init] extensions: name=VK_KHR_surface, enabled=1
 [Vulkan init] extensions: name=VK_KHR_surface_protected_capabilities, enabled=0
-[Vulkan init] extensions: name=VK_KHR_wayland_surface, enabled=1
 [Vulkan init] extensions: name=VK_KHR_xcb_surface, enabled=0
 [Vulkan init] extensions: name=VK_KHR_xlib_surface, enabled=1
 [Vulkan init] extensions: name=VK_EXT_acquire_xlib_display, enabled=0
 [Vulkan init] extensions: name=VK_EXT_debug_report, enabled=0
+[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
 [Vulkan init] extensions: name=VK_EXT_direct_mode_display, enabled=0
 [Vulkan init] extensions: name=VK_EXT_display_surface_counter, enabled=0
-[Vulkan init] extensions: name=VK_EXT_debug_utils, enabled=0
 vkBasalt info:  config file: /home/govi/.config/vkBasalt/vkBasalt.conf
 vkBasalt info:  reshadeTexturePath = /home/govi/.config/vkBasalt/Reshade-Shaders/Textures
 vkBasalt info:  reshadeIncludePath = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders
@@ -104,17 +118,17 @@ vkBasalt info:  smaa = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders/SMAA.
 vkBasalt info:  clarity = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders/Clarity.fx
 vkBasalt info:  lumasharpen = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders/LumaSharpen.fx
 vkBasalt info:  liftgammagain = /home/govi/.config/vkBasalt/Reshade-Shaders/Shaders/LiftGammaGain.fx
-WARNING: radv is not a conformant vulkan implementation, testing use only.
 skipping config: /Datos/Games/PC/Valheim/game/MangoHud.conf [ not found ]
 skipping config: /home/govi/.config/MangoHud/valheim.x86_64.conf [ not found ]
 parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
 [Vulkan init] SelectPhysicalDevice requestedDeviceIndex=-1 xrDevice=(nil)
-[Vulkan init] Physical Device 0x1915200 [0]: "AMD RADV TAHITI (ACO)" deviceType=2 vendorID=1002 deviceID=6798
-[Vulkan init] Selected physical device 0x1915200
+[Vulkan init] Physical Device 0x2a872d0 [0]: "NVIDIA GeForce RTX 2060" deviceType=2 vendorID=10de deviceID=1e89
+[Vulkan init] Selected physical device 0x2a872d0
 [Vulkan init] Graphics queue count=1
-[Vulkan init] extensions: count=111
-[Vulkan init] extensions: name=VK_KHR_8bit_storage, enabled=0
+[Vulkan init] extensions: count=131
 [Vulkan init] extensions: name=VK_KHR_16bit_storage, enabled=0
+[Vulkan init] extensions: name=VK_KHR_8bit_storage, enabled=0
+[Vulkan init] extensions: name=VK_KHR_acceleration_structure, enabled=0
 [Vulkan init] extensions: name=VK_KHR_bind_memory2, enabled=0
 [Vulkan init] extensions: name=VK_KHR_buffer_device_address, enabled=0
 [Vulkan init] extensions: name=VK_KHR_copy_commands2, enabled=0
@@ -132,16 +146,19 @@ parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
 [Vulkan init] extensions: name=VK_KHR_external_memory_fd, enabled=0
 [Vulkan init] extensions: name=VK_KHR_external_semaphore, enabled=0
 [Vulkan init] extensions: name=VK_KHR_external_semaphore_fd, enabled=0
+[Vulkan init] extensions: name=VK_KHR_fragment_shading_rate, enabled=0
 [Vulkan init] extensions: name=VK_KHR_get_memory_requirements2, enabled=1
 [Vulkan init] extensions: name=VK_KHR_image_format_list, enabled=1
 [Vulkan init] extensions: name=VK_KHR_imageless_framebuffer, enabled=0
-[Vulkan init] extensions: name=VK_KHR_incremental_present, enabled=0
 [Vulkan init] extensions: name=VK_KHR_maintenance1, enabled=1
 [Vulkan init] extensions: name=VK_KHR_maintenance2, enabled=1
 [Vulkan init] extensions: name=VK_KHR_maintenance3, enabled=0
 [Vulkan init] extensions: name=VK_KHR_multiview, enabled=1
 [Vulkan init] extensions: name=VK_KHR_pipeline_executable_properties, enabled=0
+[Vulkan init] extensions: name=VK_KHR_pipeline_library, enabled=0
 [Vulkan init] extensions: name=VK_KHR_push_descriptor, enabled=0
+[Vulkan init] extensions: name=VK_KHR_ray_query, enabled=0
+[Vulkan init] extensions: name=VK_KHR_ray_tracing_pipeline, enabled=0
 [Vulkan init] extensions: name=VK_KHR_relaxed_block_layout, enabled=0
 [Vulkan init] extensions: name=VK_KHR_sampler_mirror_clamp_to_edge, enabled=1
 [Vulkan init] extensions: name=VK_KHR_sampler_ycbcr_conversion, enabled=0
@@ -158,6 +175,7 @@ parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
 [Vulkan init] extensions: name=VK_KHR_storage_buffer_storage_class, enabled=0
 [Vulkan init] extensions: name=VK_KHR_swapchain, enabled=1
 [Vulkan init] extensions: name=VK_KHR_swapchain_mutable_format, enabled=0
+[Vulkan init] extensions: name=VK_KHR_synchronization2, enabled=0
 [Vulkan init] extensions: name=VK_KHR_timeline_semaphore, enabled=0
 [Vulkan init] extensions: name=VK_KHR_uniform_buffer_standard_layout, enabled=0
 [Vulkan init] extensions: name=VK_KHR_variable_pointers, enabled=0
@@ -165,9 +183,11 @@ parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
 [Vulkan init] extensions: name=VK_KHR_workgroup_memory_explicit_layout, enabled=0
 [Vulkan init] extensions: name=VK_KHR_zero_initialize_workgroup_memory, enabled=0
 [Vulkan init] extensions: name=VK_EXT_4444_formats, enabled=0
+[Vulkan init] extensions: name=VK_EXT_blend_operation_advanced, enabled=0
 [Vulkan init] extensions: name=VK_EXT_buffer_device_address, enabled=0
 [Vulkan init] extensions: name=VK_EXT_calibrated_timestamps, enabled=0
 [Vulkan init] extensions: name=VK_EXT_conditional_rendering, enabled=0
+[Vulkan init] extensions: name=VK_EXT_conservative_rasterization, enabled=0
 [Vulkan init] extensions: name=VK_EXT_custom_border_color, enabled=0
 [Vulkan init] extensions: name=VK_EXT_depth_clip_enable, enabled=0
 [Vulkan init] extensions: name=VK_EXT_depth_range_unrestricted, enabled=0
@@ -175,62 +195,92 @@ parsing config: /home/govi/.config/MangoHud/MangoHud.conf [ ok ]
 [Vulkan init] extensions: name=VK_EXT_discard_rectangles, enabled=0
 [Vulkan init] extensions: name=VK_EXT_display_control, enabled=0
 [Vulkan init] extensions: name=VK_EXT_extended_dynamic_state, enabled=0
-[Vulkan init] extensions: name=VK_EXT_external_memory_dma_buf, enabled=0
 [Vulkan init] extensions: name=VK_EXT_external_memory_host, enabled=0
+[Vulkan init] extensions: name=VK_EXT_fragment_shader_interlock, enabled=0
 [Vulkan init] extensions: name=VK_EXT_global_priority, enabled=0
 [Vulkan init] extensions: name=VK_EXT_host_query_reset, enabled=0
 [Vulkan init] extensions: name=VK_EXT_image_robustness, enabled=0
+[Vulkan init] extensions: name=VK_EXT_index_type_uint8, enabled=0
 [Vulkan init] extensions: name=VK_EXT_inline_uniform_block, enabled=0
 [Vulkan init] extensions: name=VK_EXT_line_rasterization, enabled=0
 [Vulkan init] extensions: name=VK_EXT_memory_budget, enabled=0
-[Vulkan init] extensions: name=VK_EXT_memory_priority, enabled=0
 [Vulkan init] extensions: name=VK_EXT_pci_bus_info, enabled=0
 [Vulkan init] extensions: name=VK_EXT_pipeline_creation_cache_control, enabled=0
 [Vulkan init] extensions: name=VK_EXT_pipeline_creation_feedback, enabled=0
+[Vulkan init] extensions: name=VK_EXT_post_depth_coverage, enabled=0
 [Vulkan init] extensions: name=VK_EXT_private_data, enabled=0
-[Vulkan init] extensions: name=VK_EXT_queue_family_foreign, enabled=0
 [Vulkan init] extensions: name=VK_EXT_robustness2, enabled=0
 [Vulkan init] extensions: name=VK_EXT_sample_locations, enabled=0
 [Vulkan init] extensions: name=VK_EXT_sampler_filter_minmax, enabled=0
+[Vulkan init] extensions: name=VK_EXT_scalar_block_layout, enabled=0
+[Vulkan init] extensions: name=VK_EXT_separate_stencil_usage, enabled=0
 [Vulkan init] extensions: name=VK_EXT_shader_atomic_float, enabled=0
 [Vulkan init] extensions: name=VK_EXT_shader_demote_to_helper_invocation, enabled=0
 [Vulkan init] extensions: name=VK_EXT_shader_image_atomic_int64, enabled=0
-[Vulkan init] extensions: name=VK_EXT_shader_stencil_export, enabled=0
 [Vulkan init] extensions: name=VK_EXT_shader_subgroup_ballot, enabled=0
 [Vulkan init] extensions: name=VK_EXT_shader_subgroup_vote, enabled=0
 [Vulkan init] extensions: name=VK_EXT_shader_viewport_index_layer, enabled=0
 [Vulkan init] extensions: name=VK_EXT_subgroup_size_control, enabled=0
 [Vulkan init] extensions: name=VK_EXT_texel_buffer_alignment, enabled=0
+[Vulkan init] extensions: name=VK_EXT_tooling_info, enabled=0
 [Vulkan init] extensions: name=VK_EXT_transform_feedback, enabled=0
 [Vulkan init] extensions: name=VK_EXT_vertex_attribute_divisor, enabled=0
 [Vulkan init] extensions: name=VK_EXT_ycbcr_image_arrays, enabled=0
-[Vulkan init] extensions: name=VK_AMD_buffer_marker, enabled=0
-[Vulkan init] extensions: name=VK_AMD_device_coherent_memory, enabled=0
-[Vulkan init] extensions: name=VK_AMD_draw_indirect_count, enabled=0
-[Vulkan init] extensions: name=VK_AMD_gcn_shader, enabled=0
-[Vulkan init] extensions: name=VK_AMD_memory_overallocation_behavior, enabled=0
-[Vulkan init] extensions: name=VK_AMD_mixed_attachment_samples, enabled=0
-[Vulkan init] extensions: name=VK_AMD_shader_ballot, enabled=0
-[Vulkan init] extensions: name=VK_AMD_shader_core_properties, enabled=0
-[Vulkan init] extensions: name=VK_AMD_shader_core_properties2, enabled=0
-[Vulkan init] extensions: name=VK_AMD_shader_explicit_vertex_parameter, enabled=0
-[Vulkan init] extensions: name=VK_AMD_shader_fragment_mask, enabled=0
-[Vulkan init] extensions: name=VK_AMD_shader_image_load_store_lod, enabled=0
-[Vulkan init] extensions: name=VK_AMD_shader_info, enabled=0
-[Vulkan init] extensions: name=VK_AMD_shader_trinary_minmax, enabled=0
-[Vulkan init] extensions: name=VK_AMD_texture_gather_bias_lod, enabled=0
-[Vulkan init] extensions: name=VK_GOOGLE_decorate_string, enabled=0
-[Vulkan init] extensions: name=VK_GOOGLE_hlsl_functionality1, enabled=0
-[Vulkan init] extensions: name=VK_GOOGLE_user_type, enabled=0
+[Vulkan init] extensions: name=VK_NV_clip_space_w_scaling, enabled=0
 [Vulkan init] extensions: name=VK_NV_compute_shader_derivatives, enabled=0
-[Vulkan init] extensions: name=VK_VALVE_mutable_descriptor_type, enabled=0
+[Vulkan init] extensions: name=VK_NV_cooperative_matrix, enabled=0
+[Vulkan init] extensions: name=VK_NV_corner_sampled_image, enabled=0
+[Vulkan init] extensions: name=VK_NV_coverage_reduction_mode, enabled=0
+[Vulkan init] extensions: name=VK_NV_cuda_kernel_launch, enabled=0
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation, enabled=0
+[Vulkan init] extensions: name=VK_NV_dedicated_allocation_image_aliasing, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_diagnostic_checkpoints, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_diagnostics_config, enabled=0
+[Vulkan init] extensions: name=VK_NV_device_generated_commands, enabled=0
+[Vulkan init] extensions: name=VK_NV_fill_rectangle, enabled=0
+[Vulkan init] extensions: name=VK_NV_fragment_coverage_to_color, enabled=0
+[Vulkan init] extensions: name=VK_NV_fragment_shader_barycentric, enabled=0
+[Vulkan init] extensions: name=VK_NV_fragment_shading_rate_enums, enabled=0
+[Vulkan init] extensions: name=VK_NV_framebuffer_mixed_samples, enabled=0
+[Vulkan init] extensions: name=VK_NV_geometry_shader_passthrough, enabled=0
+[Vulkan init] extensions: name=VK_NV_mesh_shader, enabled=0
+[Vulkan init] extensions: name=VK_NV_ray_tracing, enabled=0
+[Vulkan init] extensions: name=VK_NV_representative_fragment_test, enabled=0
+[Vulkan init] extensions: name=VK_NV_sample_mask_override_coverage, enabled=0
+[Vulkan init] extensions: name=VK_NV_scissor_exclusive, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_image_footprint, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_sm_builtins, enabled=0
+[Vulkan init] extensions: name=VK_NV_shader_subgroup_partitioned, enabled=0
+[Vulkan init] extensions: name=VK_NV_shading_rate_image, enabled=0
+[Vulkan init] extensions: name=VK_NV_viewport_array2, enabled=0
+[Vulkan init] extensions: name=VK_NV_viewport_swizzle, enabled=0
+[Vulkan init] extensions: name=VK_NVX_binary_import, enabled=0
+[Vulkan init] extensions: name=VK_NVX_image_view_handle, enabled=0
+[Vulkan init] extensions: name=VK_NVX_multiview_per_view_attributes, enabled=0
 Vulkan API version 1.1.0 (1.2.168 supported by driver)
-Vulkan vendor=[ATI] id=[1002]
-Vulkan renderer=[AMD RADV TAHITI (ACO)] id=[6798]
+Vulkan vendor=[NVIDIA] id=[10de]
+Vulkan renderer=[NVIDIA GeForce RTX 2060] id=[1e89]
 Vulkan device type 2
-Vulkan driverversion=[0x05401001] uint=[88084481]
+Vulkan driverversion=[0x7447c000] uint=[1950859264]
 Vulkan PSO: cache data not found [path=/tmp/IronGate/Valheim/vulkan_pso_cache.bin]
 Begin MonoManager ReloadAssembly
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.AIModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.AndroidJNIModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.AnimationModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.AssetBundleModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.AudioModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.ClothModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.DirectorModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.GridModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.IMGUIModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.InputModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.InputLegacyModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.ParticleSystemModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.PhysicsModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.Physics2DModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.ScreenCaptureModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.SharedInternalsModule.dll.so
 Load DLL: /Datos/Games/PC/Valheim/game/valheim_Data/Managed/UnityEngine.dll
 Base: UnityEngine.dll
 Redirecting to /Datos/Games/PC/Valheim/game/unstripped_corlib/UnityEngine.dll
@@ -287,7 +337,30 @@ Base: UnityEngine.SharedInternalsModule.dll
 Redirecting to /Datos/Games/PC/Valheim/game/unstripped_corlib/UnityEngine.SharedInternalsModule.dll
 Load DLL: /Datos/Games/PC/Valheim/game/valheim_Data/Managed/UnityEngine.SubsystemsModule.dll
 Base: UnityEngine.SubsystemsModule.dll
-Redirecting to /Datos/Games/- Completed reload, in  0.145 seconds
+Redirecting to /Datos/Games/Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.SubsystemsModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.TerrainModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.TextRenderingModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.TilemapModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.UIModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.UIElementsModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.UnityAnalyticsModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.UnityWebRequestModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.UnityWebRequestWWWModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.VFXModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.VRModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.VideoModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.XRModule.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/assembly_steamworks.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/assembly_lux.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/assembly_valheim.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/assembly_guiutils.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.UI.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/assembly_sunshafts.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/assembly_googleanalytics.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/assembly_postprocessing.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/assembly_simplemeshcombine.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/assembly_utils.dll.so
+- Completed reload, in  0.142 seconds
 requesting resize 1600 x 900
 requesting fullscreen 1600 x 900 at 0 Hz
 Desktop is 1920 x 1080 @ 60 Hz
@@ -351,7 +424,7 @@ Base: assembly_simplemeshcombine.dll
 Load DLL: /Datos/Games/PC/Valheim/game/valheim_Data/Managed/assembly_utils.dll
 Base: assembly_utils.dll
 MANGOHUD: recreating font image
-UnloadTime: 1.310718 ms
+UnloadTime: 25.384498 ms
 [Message:   BepInEx] BepInEx 5.4.11.0 - valheim
 [Info   :   BepInEx] Running under Unity vUnknown (post-2017)
 [Info   :   BepInEx] CLR runtime version: 4.0.30319.42000
@@ -371,25 +444,35 @@ UnloadTime: 1.310718 ms
 [Info   :   BepInEx] 9 plugins to load
 [Info   :   BepInEx] Loading [Craft From Containers 2.1.3]
 [Info   :   BepInEx] Loading [Craft From Containers 2.1.3]
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/CraftFromContainers.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/0Harmony20.dll.so
 [Info   :   BepInEx] Loading [Custom Textures 2.3.0]
 [Info   :   BepInEx] Loading [Custom Textures 2.3.0]
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/CustomTextures.dll.so
 [Info   : Unity Log] CustomTextures Directory /Datos/Games/PC/Valheim/game/BepInEx/plugins/CustomTextures does not exist! Creating.
 CustomTextures Directory /Datos/Games/PC/Valheim/game/BepInEx/plugins/CustomTextures does not exist! Creating. 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 [Info   :   BepInEx] Loading [Grass Tweaks 0.1.1]
 [Info   :   BepInEx] Loading [Grass Tweaks 0.1.1]
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/GrassTweaks.dll.so
 [Info   :   BepInEx] Loading [Instant Monster Drop 0.3.3]
 [Info   :   BepInEx] Loading [Instant Monster Drop 0.3.3]
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/InstantMonsterDrop.dll.so
 [Info   :   BepInEx] Loading [Time Mod 0.6.0]
 [Info   :   BepInEx] Loading [Time Mod 0.6.0]
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/TimeMod.dll.so
 [Info   :   BepInEx] Loading [CropReplant 2.1.1]
 [Info   :   BepInEx] Loading [CropReplant 2.1.1]
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/CropReplant.dll.so
 [Info   :   BepInEx] Loading [GraphicsConfigPlus 1.2.1]
 [Info   :   BepInEx] Loading [GraphicsConfigPlus 1.2.1]
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/GraphicsConfigPlus.dll.so
 [Info   :   BepInEx] Loading [Valheim Plus 0.9.8.1]
 [Info   :   BepInEx] Loading [Valheim Plus 0.9.8.1]
-Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x3185650.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/ValheimPlus.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/data-0x41a1410.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/data-0x41a1410.so
 [Info   :Valheim Plus] Trying to load the configuration file
 [Info   :Valheim Plus] Trying to load the configuration file
 [Info   : Unity Log] Loading config section AdvancedBuildingMode
@@ -1056,13 +1139,16 @@ Loading config section Brightness
 [Info   :Valheim Plus] Configuration file loaded succesfully.
 [Info   :Valheim Plus] ValheimPlus [0.9.8.1] is up to date.
 [Info   :Valheim Plus] ValheimPlus [0.9.8.1] is up to date.
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.ImageConversionModule.dll.so
 [Info   :   BepInEx] Loading [Equipment and Quick Slots 2.0.9]
 [Info   :   BepInEx] Loading [Equipment and Quick Slots 2.0.9]
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/EquipmentAndQuickSlots.dll.so
+Fallback handler could not load library /Datos/Games/PC/Valheim/game/valheim_Data/Mono/ñF/mono/aot-cache/amd64/UnityEngine.JSONSerializeModule.dll.so
 [Message:   BepInEx] Chainloader startup complete
 [Message:   BepInEx] Chainloader startup complete
-[Info   : Unity Log] 05/28/2021 16:47:16: Starting to load scene:start
+[Info   : Unity Log] 06/08/2021 20:52:36: Starting to load scene:start
 
-05/28/2021 16:47:16: Starting to load scene:start
+06/08/2021 20:52:36: Starting to load scene:start
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -1071,9 +1157,9 @@ Couldn't create a Convex Mesh from source mesh "default" within the maximum poly
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 1)
 Setting up 2 worker threads for Enlighten.
-  Thread -> id: 7f39d20f5640 -> priority: 1 
-  Thread -> id: 7f39d18f4640 -> priority: 1 
-UnloadTime: 3.343704 ms
+  Thread -> id: 7fc8e0d5b640 -> priority: 1 
+  Thread -> id: 7fc8a0ff0640 -> priority: 1 
+UnloadTime: 3.370600 ms
 [Warning: Unity Log] Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu).
 Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (Amb_MainMenu). 
 (Filename:  Line: 516)
@@ -1086,9 +1172,9 @@ Version generator started.
 Version generated with enforced mod : 0.153.2@0.9.8.1 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:27: Valheim version:0.153.2@0.9.8.1
+[Info   : Unity Log] 06/08/2021 20:53:08: Valheim version:0.153.2@0.9.8.1
 
-05/28/2021 16:47:27: Valheim version:0.153.2@0.9.8.1
+06/08/2021 20:53:08: Valheim version:0.153.2@0.9.8.1
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -1104,9 +1190,9 @@ Version generator started.
 Version generated with enforced mod : 0.153.2@0.9.8.1 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:27: Render threading mode:MultiThreaded
+[Info   : Unity Log] 06/08/2021 20:53:08: Render threading mode:MultiThreaded
 
-05/28/2021 16:47:27: Render threading mode:MultiThreaded
+06/08/2021 20:53:08: Render threading mode:MultiThreaded
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -1118,49 +1204,49 @@ Version generator started.
 Version generated with enforced mod : 0.153.2@0.9.8.1 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:27: Using steam_appid.txt
+[Info   : Unity Log] 06/08/2021 20:53:08: Using steam_appid.txt
 
-05/28/2021 16:47:27: Using steam_appid.txt
+06/08/2021 20:53:08: Using steam_appid.txt
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:27: Using steam APPID:892970
+[Info   : Unity Log] 06/08/2021 20:53:08: Using steam APPID:892970
 
-05/28/2021 16:47:27: Using steam APPID:892970
+06/08/2021 20:53:08: Using steam APPID:892970
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:27: Authentication:k_ESteamNetworkingAvailability_Current
+[Info   : Unity Log] 06/08/2021 20:53:08: Authentication:k_ESteamNetworkingAvailability_Current
 
-05/28/2021 16:47:27: Authentication:k_ESteamNetworkingAvailability_Current
+06/08/2021 20:53:08: Authentication:k_ESteamNetworkingAvailability_Current
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:27: Steam initialized, persona:Goldberg
+[Info   : Unity Log] 06/08/2021 20:53:08: Steam initialized, persona:Goldberg
 
-05/28/2021 16:47:27: Steam initialized, persona:Goldberg
+06/08/2021 20:53:08: Steam initialized, persona:Goldberg
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Warning: Unity Log] 05/28/2021 16:47:27: Missing audio clip in music respawn
+[Warning: Unity Log] 06/08/2021 20:53:08: Missing audio clip in music respawn
 
-05/28/2021 16:47:27: Missing audio clip in music respawn
+06/08/2021 20:53:08: Missing audio clip in music respawn
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:27: Checking for installed DLCs
+[Info   : Unity Log] 06/08/2021 20:53:08: Checking for installed DLCs
 
-05/28/2021 16:47:27: Checking for installed DLCs
+06/08/2021 20:53:08: Checking for installed DLCs
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:27: DLC:beta installed:False
+[Info   : Unity Log] 06/08/2021 20:53:08: DLC:beta installed:False
 
-05/28/2021 16:47:27: DLC:beta installed:False
+06/08/2021 20:53:08: DLC:beta installed:False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-05/28/2021 16:47:27: Builder started
+06/08/2021 20:53:08: Builder started
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -1184,27 +1270,27 @@ Version generator started.
 Version generated with enforced mod : 0.153.2@0.9.8.1 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:28: Loaded localization CSV:localization language:English
+[Info   : Unity Log] 06/08/2021 20:53:09: Loaded localization CSV:localization language:English
 
-05/28/2021 16:47:28: Loaded localization CSV:localization language:English
+06/08/2021 20:53:09: Loaded localization CSV:localization language:English
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Warning: Unity Log] 05/28/2021 16:47:28: Failed to load language file localization_extra
+[Warning: Unity Log] 06/08/2021 20:53:09: Failed to load language file localization_extra
 
-05/28/2021 16:47:28: Failed to load language file localization_extra
+06/08/2021 20:53:09: Failed to load language file localization_extra
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:28: Loaded localization CSV:localization language:English
+[Info   : Unity Log] 06/08/2021 20:53:09: Loaded localization CSV:localization language:English
 
-05/28/2021 16:47:28: Loaded localization CSV:localization language:English
+06/08/2021 20:53:09: Loaded localization CSV:localization language:English
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Warning: Unity Log] 05/28/2021 16:47:28: Failed to load language file localization_extra
+[Warning: Unity Log] 06/08/2021 20:53:09: Failed to load language file localization_extra
 
-05/28/2021 16:47:28: Failed to load language file localization_extra
+06/08/2021 20:53:09: Failed to load language file localization_extra
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -1216,40 +1302,106 @@ CustomTextures SetupObjectDB postfix
 CustomTextures Replacing textures for 379 objects 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] CustomTextures SetupObjectDB RunTime 00:00:00.08
-CustomTextures SetupObjectDB RunTime 00:00:00.08 
+[Info   : Unity Log] CustomTextures SetupObjectDB RunTime 00:00:00.07
+CustomTextures SetupObjectDB RunTime 00:00:00.07 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 
 Unloading 176 unused Assets to reduce memory usage. Loaded Objects now: 93859.
-Total: 73.605236 ms (FindLiveObjects: 3.708881 ms CreateObjectMapping: 5.479108 ms MarkObjects: 63.195922 ms  DeleteObjects: 1.220846 ms)
+Total: 66.181209 ms (FindLiveObjects: 3.528774 ms CreateObjectMapping: 5.298138 ms MarkObjects: 56.159846 ms  DeleteObjects: 1.193965 ms)
 
-[Info   : Unity Log] 05/28/2021 16:47:31: UI Group status changed Menu = True
+[Info   : Unity Log] 06/08/2021 20:53:13: UI Group status changed Menu = True
 
-05/28/2021 16:47:31: UI Group status changed Menu = True
+06/08/2021 20:53:13: UI Group status changed Menu = True
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:36: FOund selected Start game
+[Info   : Unity Log] 06/08/2021 20:53:20: Current res 1920x1080     1600x900
 
-05/28/2021 16:47:36: FOund selected Start game
+06/08/2021 20:53:20: Current res 1920x1080     1600x900
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:36: show character selection
+[Info   : Unity Log] 06/08/2021 20:53:20: UI Group status changed Menu = False
 
-05/28/2021 16:47:36: show character selection
+06/08/2021 20:53:20: UI Group status changed Menu = False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:38: OnCharacterStart
+[Info   : Unity Log] 06/08/2021 20:53:20: FOund selected Settings
 
-05/28/2021 16:47:38: OnCharacterStart
+06/08/2021 20:53:20: FOund selected Settings
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:53:29: FOund selected Ok (1)
+
+06/08/2021 20:53:29: FOund selected Ok (1)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 60 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+InitializeOrResetSwapChain 1920x1080 hdr=0 samples=1
+MANGOHUD: recreating font image
+[Info   : Unity Log] 06/08/2021 20:53:29: UI Group status changed Menu = True
+
+06/08/2021 20:53:29: UI Group status changed Menu = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:53:32: Current res 1920x1080     1920x1080
+
+06/08/2021 20:53:32: Current res 1920x1080     1920x1080
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:53:32: UI Group status changed Menu = False
+
+06/08/2021 20:53:32: UI Group status changed Menu = False
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:53:32: FOund selected Settings
+
+06/08/2021 20:53:32: FOund selected Settings
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:54:02: FOund selected Ok (1)
+
+06/08/2021 20:54:02: FOund selected Ok (1)
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:54:02: UI Group status changed Menu = True
+
+06/08/2021 20:54:02: UI Group status changed Menu = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:54:06: FOund selected Start game
+
+06/08/2021 20:54:06: FOund selected Start game
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:54:06: show character selection
+
+06/08/2021 20:54:06: show character selection
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:54:11: OnCharacterStart
+
+06/08/2021 20:54:11: OnCharacterStart
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 Unloading 6 Unused Serialized files (Serialized files now loaded: 1)
-UnloadTime: 12.592548 ms
+UnloadTime: 10.399967 ms
 [Info   : Unity Log] Version generator started.
 Version generator started. 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
@@ -1258,9 +1410,9 @@ Version generator started.
 Version generated with enforced mod : 0.153.2@0.9.8.1 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:41: Loading player profile govi ii
+[Info   : Unity Log] 06/08/2021 20:54:21: Loading player profile govi ii
 
-05/28/2021 16:47:41: Loading player profile govi ii
+06/08/2021 20:54:21: Loading player profile govi ii
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -1268,21 +1420,21 @@ Version generated with enforced mod : 0.153.2@0.9.8.1
 CustomTextures Reloading ZoneSystem textures _GameMain _Zone 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:41: Zonesystem Awake 519
+[Info   : Unity Log] 06/08/2021 20:54:21: Zonesystem Awake 4159
 
-05/28/2021 16:47:41: Zonesystem Awake 519
+06/08/2021 20:54:21: Zonesystem Awake 4159
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:41: DungeonDB Awake 519
+[Info   : Unity Log] 06/08/2021 20:54:21: DungeonDB Awake 4159
 
-05/28/2021 16:47:41: DungeonDB Awake 519
+06/08/2021 20:54:21: DungeonDB Awake 4159
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:41: Steam initialized, persona:Goldberg
+[Info   : Unity Log] 06/08/2021 20:54:21: Steam initialized, persona:Goldberg
 
-05/28/2021 16:47:41: Steam initialized, persona:Goldberg
+06/08/2021 20:54:21: Steam initialized, persona:Goldberg
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -1306,9 +1458,9 @@ CustomTextures Reloading Environment textures
 CustomTextures Reloading 9 Environment textures 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:45: Audioman already exist, destroying self
+[Info   : Unity Log] 06/08/2021 20:54:25: Audioman already exist, destroying self
 
-05/28/2021 16:47:45: Audioman already exist, destroying self
+06/08/2021 20:54:25: Audioman already exist, destroying self
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -1320,15 +1472,15 @@ Version generator started.
 Version generated with enforced mod : 0.153.2@0.9.8.1 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:45: Checking for installed DLCs
+[Info   : Unity Log] 06/08/2021 20:54:25: Checking for installed DLCs
 
-05/28/2021 16:47:45: Checking for installed DLCs
+06/08/2021 20:54:25: Checking for installed DLCs
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:45: DLC:beta installed:False
+[Info   : Unity Log] 06/08/2021 20:54:25: DLC:beta installed:False
 
-05/28/2021 16:47:45: DLC:beta installed:False
+06/08/2021 20:54:25: DLC:beta installed:False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -1345,8 +1497,8 @@ CustomTextures Clutter System RunTime 00:00:00.00
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
 
-Unloading 1224 unused Assets to reduce memory usage. Loaded Objects now: 93987.
-Total: 87.830796 ms (FindLiveObjects: 3.406406 ms CreateObjectMapping: 5.989516 ms MarkObjects: 73.309259 ms  DeleteObjects: 5.125058 ms)
+Unloading 1224 unused Assets to reduce memory usage. Loaded Objects now: 93991.
+Total: 83.363696 ms (FindLiveObjects: 3.672749 ms CreateObjectMapping: 5.916265 ms MarkObjects: 68.746149 ms  DeleteObjects: 5.024980 ms)
 
 [Info   : Unity Log] MaxFPS: -1 to -1
 MaxFPS: -1 to -1 
@@ -1360,171 +1512,501 @@ CustomTextures Starting ZoneSystem Location prefab replacement
 CustomTextures ZoneSystem Locations RunTime 00:00:00.00 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:48: Zonesystem Start 519
+[Info   : Unity Log] 06/08/2021 20:54:30: Zonesystem Start 4159
 
-05/28/2021 16:47:48: Zonesystem Start 519
+06/08/2021 20:54:30: Zonesystem Start 4159
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:48: DungeonDB Start 519
+[Info   : Unity Log] 06/08/2021 20:54:30: DungeonDB Start 4159
 
-05/28/2021 16:47:48: DungeonDB Start 519
+06/08/2021 20:54:30: DungeonDB Start 4159
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:48: Load world GoViLandII
+[Info   : Unity Log] 06/08/2021 20:54:30: Load world GoViLandII
 
-05/28/2021 16:47:48: Load world GoViLandII
+06/08/2021 20:54:30: Load world GoViLandII
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:48: Loading 460862 zdos , my id -1963638586 data version:27
+[Info   : Unity Log] 06/08/2021 20:54:30: Loading 460862 zdos , my id -1147201815 data version:27
 
-05/28/2021 16:47:48: Loading 460862 zdos , my id -1963638586 data version:27
+06/08/2021 20:54:30: Loading 460862 zdos , my id -1147201815 data version:27
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:50: Loaded 100000 dead zdos
+[Info   : Unity Log] 06/08/2021 20:54:32: Loaded 100000 dead zdos
 
-05/28/2021 16:47:50: Loaded 100000 dead zdos
+06/08/2021 20:54:32: Loaded 100000 dead zdos
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:50: Removed 0 OLD generated ZDOS
+[Info   : Unity Log] 06/08/2021 20:54:32: Removed 0 OLD generated ZDOS
 
-05/28/2021 16:47:50: Removed 0 OLD generated ZDOS
+06/08/2021 20:54:32: Removed 0 OLD generated ZDOS
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:50: Loaded 7082 locations
+[Info   : Unity Log] 06/08/2021 20:54:32: Loaded 7082 locations
 
-05/28/2021 16:47:50: Loaded 7082 locations
+06/08/2021 20:54:32: Loaded 7082 locations
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:58: Starting respawn
+[Info   : Unity Log] 06/08/2021 20:54:32: Starting respawn
 
-05/28/2021 16:47:58: Starting respawn
+06/08/2021 20:54:32: Starting respawn
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:47:58: tip:$loadscreen_tip02
+[Info   : Unity Log] 06/08/2021 20:54:40: tip:$loadscreen_tip01
 
-05/28/2021 16:47:58: tip:$loadscreen_tip02
+06/08/2021 20:54:40: tip:$loadscreen_tip01
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:18607 bytes
+[Info   : Unity Log] 06/08/2021 20:54:43: Loading terrain comp:18607 bytes
 
-05/28/2021 16:48:01: Loading terrain comp:18607 bytes
+06/08/2021 20:54:43: Loading terrain comp:18607 bytes
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:9943 bytes
+[Info   : Unity Log] 06/08/2021 20:54:43: Loading terrain comp:9943 bytes
 
-05/28/2021 16:48:01: Loading terrain comp:9943 bytes
+06/08/2021 20:54:43: Loading terrain comp:9943 bytes
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:1375 bytes
+[Info   : Unity Log] 06/08/2021 20:54:43: Loading terrain comp:1375 bytes
 
-05/28/2021 16:48:01: Loading terrain comp:1375 bytes
+06/08/2021 20:54:43: Loading terrain comp:1375 bytes
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:508 bytes
+[Info   : Unity Log] 06/08/2021 20:54:43: Loading terrain comp:508 bytes
 
-05/28/2021 16:48:01: Loading terrain comp:508 bytes
+06/08/2021 20:54:43: Loading terrain comp:508 bytes
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:1693 bytes
+[Info   : Unity Log] 06/08/2021 20:54:43: Loading terrain comp:1693 bytes
 
-05/28/2021 16:48:01: Loading terrain comp:1693 bytes
+06/08/2021 20:54:43: Loading terrain comp:1693 bytes
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:92 bytes
+[Info   : Unity Log] 06/08/2021 20:54:43: Loading terrain comp:92 bytes
 
-05/28/2021 16:48:01: Loading terrain comp:92 bytes
+06/08/2021 20:54:43: Loading terrain comp:92 bytes
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:148 bytes
+[Info   : Unity Log] 06/08/2021 20:54:43: Loading terrain comp:148 bytes
 
-05/28/2021 16:48:01: Loading terrain comp:148 bytes
+06/08/2021 20:54:43: Loading terrain comp:148 bytes
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:2635 bytes
+[Info   : Unity Log] 06/08/2021 20:54:43: Loading terrain comp:2635 bytes
 
-05/28/2021 16:48:01: Loading terrain comp:2635 bytes
+06/08/2021 20:54:43: Loading terrain comp:2635 bytes
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:01: Loading terrain comp:101 bytes
+[Info   : Unity Log] 06/08/2021 20:54:43: Loading terrain comp:101 bytes
 
-05/28/2021 16:48:01: Loading terrain comp:101 bytes
+06/08/2021 20:54:43: Loading terrain comp:101 bytes
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:01: Loading dungeon
+[Info   : Unity Log] 06/08/2021 20:54:44: Loading dungeon
 
-05/28/2021 16:48:01: Loading dungeon
+06/08/2021 20:54:44: Loading dungeon
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:01: Dungeon loaded 15
+[Info   : Unity Log] 06/08/2021 20:54:44: Dungeon loaded 15
 
-05/28/2021 16:48:01: Dungeon loaded 15
+06/08/2021 20:54:44: Dungeon loaded 15
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:01: Dungeon load time 13,545 ms
+[Info   : Unity Log] 06/08/2021 20:54:44: Dungeon load time 11,119 ms
 
-05/28/2021 16:48:01: Dungeon load time 13,545 ms
+06/08/2021 20:54:44: Dungeon load time 11,119 ms
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:02: Force generaeting hmap (-1984.0, 0.0, 2496.0)
+[Info   : Unity Log] 06/08/2021 20:54:44: Force generaeting hmap (-1984.0, 0.0, 2496.0)
 
-05/28/2021 16:48:02: Force generaeting hmap (-1984.0, 0.0, 2496.0)
+06/08/2021 20:54:44: Force generaeting hmap (-1984.0, 0.0, 2496.0)
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:02: Force generaeting hmap (-1792.0, 0.0, 2496.0)
+[Info   : Unity Log] 06/08/2021 20:54:44: Force generaeting hmap (-1792.0, 0.0, 2496.0)
 
-05/28/2021 16:48:02: Force generaeting hmap (-1792.0, 0.0, 2496.0)
+06/08/2021 20:54:44: Force generaeting hmap (-1792.0, 0.0, 2496.0)
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:02: Force generaeting hmap (-1728.0, 0.0, 2496.0)
+[Info   : Unity Log] 06/08/2021 20:54:44: Force generaeting hmap (-1728.0, 0.0, 2496.0)
 
-05/28/2021 16:48:02: Force generaeting hmap (-1728.0, 0.0, 2496.0)
+06/08/2021 20:54:44: Force generaeting hmap (-1728.0, 0.0, 2496.0)
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:06: Spawned after 8,019994
+[Info   : Unity Log] 06/08/2021 20:54:48: Spawned after 8,019994
 
-05/28/2021 16:48:06: Spawned after 8,019994
+06/08/2021 20:54:48: Spawned after 8,019994
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:06: Minimap: Adding unique location (6.5, 55.7, 6.6)
+[Info   : Unity Log] 06/08/2021 20:54:48: Minimap: Adding unique location (6.5, 55.7, 6.6)
 
-05/28/2021 16:48:06: Minimap: Adding unique location (6.5, 55.7, 6.6)
+06/08/2021 20:54:48: Minimap: Adding unique location (6.5, 55.7, 6.6)
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:06: Minimap: Adding unique location (1019.2, 57.9, 1163.1)
+[Info   : Unity Log] 06/08/2021 20:54:48: Minimap: Adding unique location (1019.2, 57.9, 1163.1)
 
-05/28/2021 16:48:06: Minimap: Adding unique location (1019.2, 57.9, 1163.1)
+06/08/2021 20:54:48: Minimap: Adding unique location (1019.2, 57.9, 1163.1)
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:07: Resumed music home at 0
+[Info   : Unity Log] 06/08/2021 20:54:49: Resumed music home at 0
 
-05/28/2021 16:48:07: Resumed music home at 0
+06/08/2021 20:54:49: Resumed music home at 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:55:03: Stoped music home at 621864
+
+06/08/2021 20:55:03: Stoped music home at 621864
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:55:03: Resumed music plains at 0
+
+06/08/2021 20:55:03: Resumed music plains at 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:55:27: Loading terrain comp:148 bytes
+
+06/08/2021 20:55:27: Loading terrain comp:148 bytes
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:55:27: Loading terrain comp:2635 bytes
+
+06/08/2021 20:55:27: Loading terrain comp:2635 bytes
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:55:27: Loading terrain comp:101 bytes
+
+06/08/2021 20:55:27: Loading terrain comp:101 bytes
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] ----Reload mod----
+----Reload mod---- 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] vSyncCount: 1 to 1
+vSyncCount: 1 to 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] MaxFPS: -1 to -1
+MaxFPS: -1 to -1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] ----Reload mod----
+----Reload mod---- 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] vSyncCount: 1 to 1
+vSyncCount: 1 to 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] MaxFPS: -1 to -1
+MaxFPS: -1 to -1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] ----Reload mod----
+----Reload mod---- 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] vSyncCount: 1 to 1
+vSyncCount: 1 to 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] MaxFPS: -1 to -1
+MaxFPS: -1 to -1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] ----Reload mod----
+----Reload mod---- 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] vSyncCount: 1 to 1
+vSyncCount: 1 to 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] MaxFPS: -1 to -1
+MaxFPS: -1 to -1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] ----Reload mod----
+----Reload mod---- 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] vSyncCount: 1 to 1
+vSyncCount: 1 to 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] MaxFPS: -1 to -1
+MaxFPS: -1 to -1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] ----Reload mod----
+----Reload mod---- 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] vSyncCount: 1 to 1
+vSyncCount: 1 to 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] MaxFPS: -1 to -1
+MaxFPS: -1 to -1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] ----Reload mod----
+----Reload mod---- 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] vSyncCount: 1 to 1
+vSyncCount: 1 to 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] MaxFPS: -1 to -1
+MaxFPS: -1 to -1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] ----Reload mod----
+----Reload mod---- 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] vSyncCount: 1 to 1
+vSyncCount: 1 to 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] MaxFPS: -1 to -1
+MaxFPS: -1 to -1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] ----Reload mod----
+----Reload mod---- 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] vSyncCount: 1 to 1
+vSyncCount: 1 to 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] MaxFPS: -1 to -1
+MaxFPS: -1 to -1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] ----Reload mod----
+----Reload mod---- 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] vSyncCount: 1 to 1
+vSyncCount: 1 to 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] MaxFPS: -1 to -1
+MaxFPS: -1 to -1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] ----Reload mod----
+----Reload mod---- 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] vSyncCount: 1 to 1
+vSyncCount: 1 to 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] MaxFPS: -1 to -1
+MaxFPS: -1 to -1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] ----Reload mod----
+----Reload mod---- 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] vSyncCount: 1 to 1
+vSyncCount: 1 to 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] MaxFPS: -1 to -1
+MaxFPS: -1 to -1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] ----Reload mod----
+----Reload mod---- 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] vSyncCount: 1 to 1
+vSyncCount: 1 to 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] MaxFPS: -1 to -1
+MaxFPS: -1 to -1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] ----Reload mod----
+----Reload mod---- 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] vSyncCount: 1 to 1
+vSyncCount: 1 to 1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] MaxFPS: -1 to -1
+MaxFPS: -1 to -1 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:04: Stoped music plains at 2648085
+
+06/08/2021 20:56:04: Stoped music plains at 2648085
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:04: Resumed music home at 621864
+
+06/08/2021 20:56:04: Resumed music home at 621864
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:04: Stoped music home at 630857
+
+06/08/2021 20:56:04: Stoped music home at 630857
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:04: Resumed music home at 630857
+
+06/08/2021 20:56:04: Resumed music home at 630857
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:06: Stoped music home at 747116
+
+06/08/2021 20:56:06: Stoped music home at 747116
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:06: Resumed music home at 747116
+
+06/08/2021 20:56:06: Resumed music home at 747116
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:12: Setting selected recipe 0
+
+06/08/2021 20:56:12: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:12: UI Group status changed root = True
+
+06/08/2021 20:56:12: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:12: UI Group status changed Player = True
+
+06/08/2021 20:56:12: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:13: Setting selected recipe 0
+
+06/08/2021 20:56:13: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:13: UI Group status changed root = True
+
+06/08/2021 20:56:13: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:13: UI Group status changed Player = True
+
+06/08/2021 20:56:13: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:15: Setting selected recipe 0
+
+06/08/2021 20:56:15: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:15: UI Group status changed root = True
+
+06/08/2021 20:56:15: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:15: UI Group status changed Player = True
+
+06/08/2021 20:56:15: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:18: Setting selected recipe 0
+
+06/08/2021 20:56:18: Setting selected recipe 0
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:18: UI Group status changed root = True
+
+06/08/2021 20:56:18: UI Group status changed root = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:18: UI Group status changed Player = True
+
+06/08/2021 20:56:18: UI Group status changed Player = True
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:27: Stoped music home at 1645934
+
+06/08/2021 20:56:27: Stoped music home at 1645934
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:27: Resumed music home at 1645934
+
+06/08/2021 20:56:27: Resumed music home at 1645934
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:30: Stoped music home at 1767779
+
+06/08/2021 20:56:30: Stoped music home at 1767779
+ 
+(Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
+
+[Info   : Unity Log] 06/08/2021 20:56:30: Resumed music plains at 2648085
+
+06/08/2021 20:56:30: Resumed music plains at 2648085
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
@@ -1536,73 +2018,73 @@ TimeMod Pausing time on menu open.
 TimeMod Created fake scene texture. 
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:11: UI Group status changed MenuRoot = False
+[Info   : Unity Log] 06/08/2021 20:57:00: UI Group status changed MenuRoot = False
 
-05/28/2021 16:48:11: UI Group status changed MenuRoot = False
+06/08/2021 20:57:00: UI Group status changed MenuRoot = False
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:12: Game - OnApplicationQuit
+[Info   : Unity Log] 06/08/2021 20:57:02: Game - OnApplicationQuit
 
-05/28/2021 16:48:12: Game - OnApplicationQuit
+06/08/2021 20:57:02: Game - OnApplicationQuit
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:12: ZNet Shutdown
+[Info   : Unity Log] 06/08/2021 20:57:02: ZNet Shutdown
 
-05/28/2021 16:48:12: ZNet Shutdown
+06/08/2021 20:57:02: ZNet Shutdown
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:13: clone 587
+[Info   : Unity Log] 06/08/2021 20:57:03: clone 536
 
-05/28/2021 16:48:13: clone 587
+06/08/2021 20:57:03: clone 536
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-05/28/2021 16:48:14: Saved 460862 zdos
+06/08/2021 20:57:04: Saved 460862 zdos
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-05/28/2021 16:48:14: World saved ( 1443,193ms )
+06/08/2021 20:57:04: World saved ( 1157,418ms )
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:14: Sending disconnect msg
+[Info   : Unity Log] 06/08/2021 20:57:04: Sending disconnect msg
 
-05/28/2021 16:48:14: Sending disconnect msg
+06/08/2021 20:57:04: Sending disconnect msg
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:16: Steam manager on destroy
+[Warning: Unity Log] 06/08/2021 20:57:06: Local player destroyed
 
-05/28/2021 16:48:16: Steam manager on destroy
+06/08/2021 20:57:06: Local player destroyed
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:16: FOund selected Button_yes
+[Info   : Unity Log] 06/08/2021 20:57:06: Steam manager on destroy
 
-05/28/2021 16:48:16: FOund selected Button_yes
+06/08/2021 20:57:06: Steam manager on destroy
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:16: ZNet OnDestroy
+[Info   : Unity Log] 06/08/2021 20:57:06: FOund selected Button_yes
 
-05/28/2021 16:48:16: ZNet OnDestroy
+06/08/2021 20:57:06: FOund selected Button_yes
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Info   : Unity Log] 05/28/2021 16:48:16: Net scene destroyed
+[Info   : Unity Log] 06/08/2021 20:57:06: ZNet OnDestroy
 
-05/28/2021 16:48:16: Net scene destroyed
+06/08/2021 20:57:06: ZNet OnDestroy
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-[Warning: Unity Log] 05/28/2021 16:48:16: Local player destroyed
+[Info   : Unity Log] 06/08/2021 20:57:06: Net scene destroyed
 
-05/28/2021 16:48:16: Local player destroyed
+06/08/2021 20:57:06: Net scene destroyed
  
 (Filename: ./Runtime/Export/Debug/Debug.bindings.h Line: 39)
 
-Vulkan PSO: data extracted [new size=1062784, old size=0, incomplete=0]
-Vulkan PSO: Saved size[1062784] path[/tmp/IronGate/Valheim/vulkan_pso_cache.bin] success=1 headerChanged=1 sizeChanged=1
+Vulkan PSO: data extracted [new size=3580186, old size=0, incomplete=0]
+Vulkan PSO: Saved size[3580186] path[/tmp/IronGate/Valheim/vulkan_pso_cache.bin] success=1 headerChanged=1 sizeChanged=1

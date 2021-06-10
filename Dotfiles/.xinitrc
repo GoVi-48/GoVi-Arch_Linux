@@ -38,27 +38,26 @@ fi
 # xterm -geometry 80x20+494-0 &
 # exec xterm -geometry 80x66+0+0 -name login
 
+# qt5 Theme
+export QT_QPA_PLATFORMTHEME=gtk2 # same as gtk2
+# export QT_QPA_PLATFORMTHEME=qt5ct # configure separately
+
 # Suspend if inactivity
 pidof -s xautolock >& /dev/null
 if [ $? -ne 0 ]; then
   xautolock -time 60 -locker "systemctl suspend" &
 fi
 
-# qt5 Theme
-export QT_QPA_PLATFORMTHEME=gtk2 # same as gtk2
-# export QT_QPA_PLATFORMTHEME=qt5ct # configure separately
-
 # Autostart
 export PATH=$PATH:$HOME/Scripts/Shell/Autostart/
 
+pgrep -x yad && killall yad
 pgrep -x firewall-applet && killall firewall-applet
 pgrep -x nm-applet && killall nm-applet
 pgrep -x cairo-dock && killall cairo-dock
 pgrep -x easystroke && killall easystroke
 
-# nvidia_led.sh &
-
-# nvidia-settings --load-config-only &
+#nvidia-settings --load-config-only &
 
 picom -cCGb &
 
@@ -66,11 +65,13 @@ setxkbmap -layout es &
 
 set_background.sh &
 
+yad --notification --command='nvidia-settings' --image=$HOME/Multimedia/Pictures/Icons/System/Png/nvidia.png &
+
 firewall-applet &
 
 nm-applet --sm-disable &
 
-cairo-dock > /dev/null 2>&1&
+cairo-dock > /dev/null 2>&1 &
 
 easystroke &
 

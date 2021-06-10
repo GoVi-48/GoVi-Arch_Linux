@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=No Man's Sky
+Exec=env WINEPREFIX="/home/govi/.wine" /usr/bin/wine C:\\\\windows\\\\command\\\\start.exe /Unix /home/govi/.wine/dosdevices/c:/ProgramData/Microsoft/Windows/Start\\ Menu/Programs/No\\ Man\\'s\\ Sky\\ [GOG.com]/No\\ Man\\'s\\ Sky.lnk
+Type=Application
+StartupNotify=true
+Path=/home/govi/.wine/dosdevices/c:/GOG Games/No Man's Sky/Binaries
+Icon=80DA_goggame-1446213994.0
+StartupWMClass=nms.exe

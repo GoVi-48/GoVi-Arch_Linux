@@ -19,7 +19,7 @@ UUID=6124424d-d4c6-45a0-bed1-9c8e1f8c9233	none		swap		defaults	0 0
 UUID=dd05af68-11f5-4b5b-9bd1-08dd2354ca23   /Datos      ext4   defaults    0 0
 
 # /dev/sdc1 (Media)
-UUID=94F0F35BF0F34252                       /Media      ntfs-3g   uid=1000,gid=1000	0 0
+UUID=94F0F35BF0F34252                       /Media      ntfs-3g   uid=govi,gid=1000	0 0
 
 # /dev/sda4 (Windows)
 UUID=2AE63D01E63CCF37                       /Windows    ntfs    defaults    0 0

@@ -35,7 +35,7 @@ rsync -arv --delete ~/.config/vkBasalt/ "$GOVI_ARCH_LINUX"/Gaming/vkBasalt/
 
 # Scripts
 rsync -arv --exclude 'Games' --delete ~/Scripts/ "$GOVI_ARCH_LINUX"/Scripts/
-rsync -arv --delete ~/Scripts/Bash/Games/ "$GOVI_ARCH_LINUX"/Gaming/Scripts/
+rsync -arv --delete ~/Scripts/Shell/Games/ "$GOVI_ARCH_LINUX"/Gaming/Scripts/
 
 # Push to Github
 cd "$GOVI_ARCH_LINUX"

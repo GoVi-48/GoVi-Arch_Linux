@@ -1,1 +1,1 @@
-/home/govi/Scripts/Bash/Games/_Create_wine-pfx/Create-wine-pfx.sh
+/home/govi/Scripts/Shell/Games/_Create_wine-pfx/Create-wine-pfx.sh

@@ -17,22 +17,17 @@ export ENABLE_VKBASALT=0
 # Launch
 gamemoderun steam steam://rungameid/10110539261779378176 & 
 
-# Before Launch
-while ! pgrep -x "$PROCESS" > /dev/null; do sleep 1; done
-    qdbus org.kde.KWin /Compositor suspend
-    killall polybar
-    sleep 5
-    killall cairo-dock
-
 # After Launch
-while pgrep -x "$PROCESS" > /dev/null; do sleep 1; done
-    qdbus org.kde.KWin /Compositor resume
-    $HOME/Scripts/Bash/Polybar/launch.sh
-    cairo-dock > /dev/null 2>&1 &
+while ! pgrep -x "$PROCESS" > /dev/null; do sleep 1; done
+    $COMP_Disabled
     sleep 5
-    killall steam
-    sleep 5
-    killall gamemoded &
-    exit
+    ps -e | awk '/easystroke/ || /cairo-dock/ {print $1}' | xargs kill -9
 
-# ======================================================================== #
+# After Exit
+while pgrep -x "$PROCESS" > /dev/null; do sleep 1; done
+    $COMP_Enabled
+    cairo-dock > /dev/null 2>&1 &
+    easystroke &
+    sleep 10
+    ps -e | awk '/exe/ || /wine/ || /steam/ || /lutris/ || /gamemoded/ {print $1}' | xargs kill -9 &
+    exit

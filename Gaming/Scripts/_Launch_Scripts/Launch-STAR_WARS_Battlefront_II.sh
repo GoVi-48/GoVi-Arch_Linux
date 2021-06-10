@@ -36,7 +36,7 @@ killall cairo-dock
 # After Launch
 while pgrep -x "$PROCESS" >/dev/null; do sleep 1; done
 qdbus org.kde.KWin /Compositor resume
-$HOME/Scripts/Bash/Polybar/launch.sh
+~/.config/polybar/launch.sh
 cairo-dock >/dev/null 2>&1 &
 sleep 5
 killall EpicGamesLaunch

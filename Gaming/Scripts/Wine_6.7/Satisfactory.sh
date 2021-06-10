@@ -1,0 +1,1 @@
+/Media/Games/PC/Satisfactory/Wine/Launch-Satisfactory.sh

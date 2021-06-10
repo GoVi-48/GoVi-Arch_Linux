@@ -8,22 +8,23 @@ COMP_Disabled="killall picom"
 COMP_Enabled="picom -cCGb"
 
 # Game Executable
-EXE="./FactoryGame.exe"
-PROCESS="FactoryGame.exe"
-ARGS="-EpicPortal -NOSPLASH"
+EXE="./game/files/ACValhalla.exe"
+PROCESS="ACValhalla.exe"
+ARGS=""
 
 # Environment
-#export MESA_GL_VERSION_OVERRIDE=4.4COMPAT
-#export PULSE_LATENCY_MSEC=60
 export WINEDEBUG=-all
-export WINEDLLOVERRIDES="mscoree,mshtml="
+export WINEDLLOVERRIDES="d3d12=n,b"
 export WINEFSYNC=1
-export MANGOHUD=1
-#export VKBASALT_CONFIG_FILE="$HOME/.config/vkBasalt/vkBasalt.conf"
-#export ENABLE_VKBASALT=1
+export MANGOHUD=0
+export VKBASALT_CONFIG_FILE="$HOME/.config/vkBasalt/vkBasalt.conf"
+export ENABLE_VKBASALT=0
 export __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
 export __GL_SHADER_DISK_CACHE=1
 export __GL_SHADER_DISK_CACHE_PATH="$DIR"
+export VKD3D_CONFIG="multi_queue"
+export VKD3D_DEBUG="none"
+export WINE_LARGE_ADDRESS_AWARE="1"
 # export __GL_THREADED_OPTIMIZATIONS=1 # NVIDIA
 
 # ======================================================================== #
@@ -55,19 +56,19 @@ WINEPREFIX="$DIR/Wine/wine-pfx/"
 # Launch
 cd "$DIR"
 echo -e "\nLaunching $DIR/$EXE\n" | sed 's/\.\///g'
-gamemoderun WINEPREFIX="$WINEPREFIX" "$WINE" "$EXE" $ARGS &
+gamemoderun WINEPREFIX="$WINEPREFIX" "$WINE" "$EXE" $ARGS
 
-# After Launch
-while ! pgrep -x "$PROCESS" > /dev/null; do sleep 1; done
-    $COMP_Disabled
-    sleep 5
-    ps -e | awk '/easystroke/ || /cairo-dock/ {print $1}' | xargs kill -9
-
-# After Exit
-while pgrep -x "$PROCESS" > /dev/null; do sleep 1; done
-    $COMP_Enabled
-    cairo-dock > /dev/null 2>&1 &
-    easystroke &
-    sleep 10
-    ps -e | awk '/exe/ || /wine/ || /lutris/ || /gamemoded/ {print $1}' | xargs kill -9 &
-    exit
+## After Launch
+#while ! pgrep -x "$PROCESS" > /dev/null; do sleep 1; done
+#    $COMP_Disabled
+#    sleep 5
+#    ps -e | awk '/easystroke/ || /cairo-dock/ {print $1}' | xargs kill -9
+#
+## After Exit
+#while pgrep -x "$PROCESS" > /dev/null; do sleep 1; done
+#    $COMP_Enabled
+#    cairo-dock > /dev/null 2>&1 &
+#    easystroke &
+#    sleep 10
+#    ps -e | awk '/exe/ || /wine/ || /lutris/ || /gamemoded/ {print $1}' | xargs kill -9 &
+#    exit

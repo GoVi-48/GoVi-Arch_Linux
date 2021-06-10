@@ -26,7 +26,7 @@ echo "Launching $HOME/Games/PC/-Emulators/Cemu/$EXE" "$@"
 
 # After Launch
 qdbus org.kde.KWin /Compositor resume
-$HOME/Scripts/Bash/Polybar/launch.sh
+~/.config/polybar/launch.sh
 cairo-dock > /dev/null 2>&1 &
 sleep 5
 killall gamemoded

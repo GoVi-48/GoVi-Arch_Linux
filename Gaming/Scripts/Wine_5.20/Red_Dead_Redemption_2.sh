@@ -1,1 +1,0 @@
-/home/govi/Games/PC/Red Dead Redemption 2/Wine/Launch-Red_Dead_Redemtion_2.sh

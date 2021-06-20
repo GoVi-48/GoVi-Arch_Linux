@@ -14,12 +14,12 @@ WINEPREFIX="$DIR"/wine-pfx
 export WINEPREFIX="$WINEPREFIX"
 
 # Check if dxvk exist
-if [ ! -d "$DIR"/Setups/dxvk-1.8.1 ]; then
-    wget -P  "$DIR"/Setups "https://github.com/doitsujin/dxvk/releases/download/v1.8.1/dxvk-1.8.1.tar.gz"
-    tar xvzf "$DIR"/Setups/dxvk-1.8.1.tar.gz -C "$DIR"/Setups
-    rm -rfv "$DIR"/Setups/dxvk-1.8.1.tar.gz
+if [ ! -d "$DIR"/Setups/dxvk-1.9 ]; then
+    wget -P  "$DIR"/Setups "https://github.com/doitsujin/dxvk/releases/download/v1.9/dxvk-1.9.tar.gz"
+    tar xvzf "$DIR"/Setups/dxvk-1.9.tar.gz -C "$DIR"/Setups
+    rm -rfv "$DIR"/Setups/dxvk-1.9.tar.gz
 fi
 
-sh "$DIR"/Setups/dxvk-1.8.1/setup_dxvk.sh install
+sh "$DIR"/Setups/dxvk-1.9/setup_dxvk.sh install
 
 exit

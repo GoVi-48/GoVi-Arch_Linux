@@ -1,1 +1,0 @@
-/Media/Games/PC/Subnautica Below Zero/Wine/Launch-Subnautica_Below_Zero.sh

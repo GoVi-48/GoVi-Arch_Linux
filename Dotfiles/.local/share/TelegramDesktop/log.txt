@@ -1,41 +1,55 @@
-[2021.06.08 20:35:25] Launched version: 2007004, install beta: [FALSE], alpha: 0, debug mode: [FALSE]
-[2021.06.08 20:35:25] Executable dir: /usr/bin/, name: telegram-desktop
-[2021.06.08 20:35:25] Initial working dir: /home/govi/
-[2021.06.08 20:35:25] Working dir: /home/govi/.local/share/TelegramDesktop/
-[2021.06.08 20:35:25] Command line: telegram-desktop -- %u
-[2021.06.08 20:35:25] Executable path before check: /usr/bin/telegram-desktop
-[2021.06.08 20:35:25] Logs started
-[2021.06.08 20:35:25] Launcher filename: telegramdesktop.desktop
-[2021.06.08 20:35:25] Connecting local socket to /run/user/1000/9433bab4ad22a3e600076d4cd6e83692-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
-[2021.06.08 20:35:25] This is the only instance of Telegram, starting server and app...
-[2021.06.08 20:35:25] Moved logging from '/home/govi/.local/share/TelegramDesktop/log_start0.txt' to '/home/govi/.local/share/TelegramDesktop/log.txt'!
-[2021.06.08 20:35:25] Primary screen DPI: 96
-[2021.06.08 20:35:25] App Info: reading settings...
-[2021.06.08 20:35:25] App Info: reading encrypted settings...
-[2021.06.08 20:35:25] Lang Info: Loaded cached, keys: 3206
-[2021.06.08 20:35:25] Lang Error: Unexpected tag (key 'lng_action_payment_done_for:name')
-[2021.06.08 20:35:25] OpenAL Logging Level: (not set)
-[2021.06.08 20:35:25] Audio Playback Devices: Audio Interno Estéreo analógico;CMI8788 [Oxygen HD Audio] (CMI8786 (Xonar DG)) Estéreo analógico
-[2021.06.08 20:35:25] Audio Playback Default Device: Audio Interno Estéreo analógico
-[2021.06.08 20:35:25] Audio Capture Devices: QuickCam Pro 9000 Multicanal;Monitor of Audio Interno Estéreo analógico;Monitor of CMI8788 [Oxygen HD Audio] (CMI8786 (Xonar DG)) Estéreo analógico
-[2021.06.08 20:35:25] Audio Capture Default Device: QuickCam Pro 9000 Multicanal
-[2021.06.08 20:35:25] Not using D-Bus global menu.
-[2021.06.08 20:35:25] Using Unity launcher counter.
-[2021.06.08 20:35:25] System tray available: [TRUE]
-[2021.06.08 20:35:25] App Info: reading accounts info...
-[2021.06.08 20:35:25] App Info: reading encrypted info...
-[2021.06.08 20:35:25] App Info: reading map...
-[2021.06.08 20:35:25] App Info: reading encrypted map...
-[2021.06.08 20:35:25] App Info: reading encrypted user settings...
-[2021.06.08 20:35:25] App Info: encrypted user settings read.
-[2021.06.08 20:35:25] App Info: reading encrypted mtp data...
-[2021.06.08 20:35:25] MTP Info: read keys, current: 4, to destroy: 0
-[2021.06.08 20:35:25] Map read time: 1
-[2021.06.08 20:35:25] App Info: reading encrypted mtp config...
-[2021.06.08 20:35:25] TCP Error: network - Network unreachable
-[2021.06.08 20:35:25] HTTP Error: network error 99 - Network unreachable
-[2021.06.08 20:35:25] Export Info: Destroy top bar by controller removal.
-[2021.06.08 20:35:25] Using Qt tray icon.
-[2021.06.08 20:35:34] Audio Info: recreating audio device and reattaching the tracks
-[2021.06.08 20:37:05] Audio Info: Closing audio playback device.
-[2021.06.08 20:52:15] Api::Updates prevents quit, sending offline status...
+[2021.06.17 22:46:09] Launched version: 2007004, install beta: [FALSE], alpha: 0, debug mode: [FALSE]
+[2021.06.17 22:46:09] Executable dir: /usr/bin/, name: telegram-desktop
+[2021.06.17 22:46:09] Initial working dir: /home/govi/
+[2021.06.17 22:46:09] Working dir: /home/govi/.local/share/TelegramDesktop/
+[2021.06.17 22:46:09] Command line: telegram-desktop -- %u
+[2021.06.17 22:46:09] Executable path before check: /usr/bin/telegram-desktop
+[2021.06.17 22:46:09] Logs started
+[2021.06.17 22:46:09] Launcher filename: telegramdesktop.desktop
+[2021.06.17 22:46:09] Connecting local socket to /run/user/1000/9433bab4ad22a3e600076d4cd6e83692-{87A94AB0-E370-4cde-98D3-ACC110C5967D}...
+[2021.06.17 22:46:09] This is the only instance of Telegram, starting server and app...
+[2021.06.17 22:46:09] Moved logging from '/home/govi/.local/share/TelegramDesktop/log_start0.txt' to '/home/govi/.local/share/TelegramDesktop/log.txt'!
+[2021.06.17 22:46:09] Primary screen DPI: 96
+[2021.06.17 22:46:09] App Info: reading settings...
+[2021.06.17 22:46:09] App Info: reading encrypted settings...
+[2021.06.17 22:46:09] Lang Info: Loaded cached, keys: 3206
+[2021.06.17 22:46:09] Lang Error: Unexpected tag (key 'lng_action_payment_done_for:name')
+[2021.06.17 22:46:10] OpenAL Logging Level: (not set)
+[2021.06.17 22:46:10] Audio Playback Devices: Audio Interno Estéreo analógico;CMI8788 [Oxygen HD Audio] (CMI8786 (Xonar DG)) Estéreo analógico
+[2021.06.17 22:46:10] Audio Playback Default Device: Audio Interno Estéreo analógico
+[2021.06.17 22:46:10] Audio Capture Devices: QuickCam Pro 9000 Multicanal;Monitor of Audio Interno Estéreo analógico;Monitor of CMI8788 [Oxygen HD Audio] (CMI8786 (Xonar DG)) Estéreo analógico
+[2021.06.17 22:46:10] Audio Capture Default Device: QuickCam Pro 9000 Multicanal
+[2021.06.17 22:46:10] Not using D-Bus global menu.
+[2021.06.17 22:46:10] Using Unity launcher counter.
+[2021.06.17 22:46:10] System tray available: [TRUE]
+[2021.06.17 22:46:10] App Info: reading accounts info...
+[2021.06.17 22:46:10] App Info: reading encrypted info...
+[2021.06.17 22:46:10] App Info: reading map...
+[2021.06.17 22:46:10] App Info: reading encrypted map...
+[2021.06.17 22:46:10] App Info: reading encrypted user settings...
+[2021.06.17 22:46:10] App Info: encrypted user settings read.
+[2021.06.17 22:46:10] App Info: reading encrypted mtp data...
+[2021.06.17 22:46:10] MTP Info: read keys, current: 4, to destroy: 0
+[2021.06.17 22:46:10] Map read time: 2
+[2021.06.17 22:46:10] App Info: reading encrypted mtp config...
+[2021.06.17 22:46:10] TCP Error: network - Network unreachable
+[2021.06.17 22:46:10] HTTP Error: network error 99 - Network unreachable
+[2021.06.17 22:46:10] Export Info: Destroy top bar by controller removal.
+[2021.06.17 22:46:10] Using Qt tray icon.
+[2021.06.17 22:46:10] TCP Error: network - Network unreachable
+[2021.06.17 22:46:10] TCP Error: network - Network unreachable
+[2021.06.17 22:46:10] HTTP Error: network error 99 - Network unreachable
+[2021.06.17 22:46:10] HTTP Error: network error 99 - Network unreachable
+[2021.06.17 22:47:26] TCP Error: network - Network unreachable
+[2021.06.17 22:47:26] HTTP Error: network error 99 - Network unreachable
+[2021.06.17 22:47:27] RPC Error: request 30 got fail with code 400, error USER_ID_INVALID
+[2021.06.17 22:47:31] Audio Info: recreating audio device and reattaching the tracks
+[2021.06.17 22:47:33] Audio Info: Closing audio playback device.
+[2021.06.17 22:47:59] TCP Error: network - Network unreachable
+[2021.06.17 22:47:59] HTTP Error: network error 99 - Network unreachable
+[2021.06.17 22:47:59] TCP Error: network - Network unreachable
+[2021.06.17 22:47:59] TCP Error: network - Network unreachable
+[2021.06.17 22:47:59] HTTP Error: network error 99 - Network unreachable
+[2021.06.17 22:47:59] HTTP Error: network error 99 - Network unreachable
+[2021.06.17 23:44:06] TCP Error: network - Network unreachable
+[2021.06.17 23:44:06] HTTP Error: network error 99 - Network unreachable

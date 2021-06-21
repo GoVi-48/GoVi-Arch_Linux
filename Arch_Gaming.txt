@@ -150,15 +150,14 @@
 
 # DXVK
     # https://github.com/doitsujin/dxvk/releases
-
-    # v-1.8
-    wget -P ~/ https://github.com/doitsujin/dxvk/releases/download/v1.8/dxvk-1.8.tar.gz
-    tar xvzf ~/dxvk-1.8.tar.gz -C ~/
-    rm ~/.wine && winecfg
+    # v-1.9
+    wget -P ~/ https://github.com/doitsujin/dxvk/releases/download/v1.9/dxvk-1.9.tar.gz
+    tar xvzf ~/dxvk-1.9.tar.gz -C ~/
+    rm -fv ~/.wine && winecfg
     cd ${WINEPREFIX:-$HOME/.wine}/drive_c/windows/Fonts && for i in /usr/share/fonts/**/*.{ttf,otf}; do ln -s "$i"; done
-    cd ~/dxvk-1.8
-    mkdir -p ~/wine-pfx_dxvk-1.8 && cp ~/.wine/* $_
-    export WINEPREFIX=~/wine-pfx_dxvk-1.8
+    cd ~/dxvk-1.9
+    mkdir -p ~/wine-pfx_dxvk-1.9 && cp ~/.wine/* $_
+    export WINEPREFIX=~/wine-pfx_dxvk-1.9
     ./setup_dxvk.sh install
 
 
@@ -171,8 +170,18 @@
 
 
 # Create WINEPREFIX
-    WINEPREFIX=~/Wine/.newprefix winecfg
-    WINEPREFIX=~/Wine/.new32prefix WINEARCH="win32" winecfg
+    WINEPREFIX=~/Wine/.newprefix winecfg # 64 bits
+    WINEPREFIX=~/Wine/.new32prefix WINEARCH="win32" winecfg # 32 bits
+
+
+# Create DX12 WINEPREFIX
+    # https://github.com/HansKristian-Work/vkd3d-proton/releases/
+    wget -P ~/ https://github.com/HansKristian-Work/vkd3d-proton/releases/download/v2.3.1/vkd3d-proton-2.3.1.tar.zst
+    tar -xvzf ~/vkd3d-proton-2.3.1.tar.zst
+    rm -fv ~/vkd3d-proton-2.3.1.tar.zst
+    cd ~/vkd3d-proton-2.3.1
+    export WINEPREFIX="/path/wine-pfx"
+    sh setup_vkd3d_proton.sh install
 
 
 # Launch Custom Wine

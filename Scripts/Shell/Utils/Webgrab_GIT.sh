@@ -30,7 +30,8 @@ echo `date +%H:%M` - `date +%d/%m/%Y`
 echo
 echo ====================================================================================
 
-# export DISPLAY=:0 && kate ~/Scripts/Logs/Cron/crontab_Webgrab.log
+# nvim ~/Programs/Webgrab++/webgrab.log
 
-kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Webgrab Updated" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+notify-send -i "$HOME/Programs/Webgrab++/.wg++/WebGrab+Plus.ico" "Webgrab" "Updated" -t 5000 &
+paplay $HOME/.local/share/sounds/cause-and-effect.ogg
 

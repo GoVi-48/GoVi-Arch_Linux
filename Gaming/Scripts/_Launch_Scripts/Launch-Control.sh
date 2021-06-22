@@ -13,7 +13,6 @@ PROCESS="Control_DX12.exe"
 ARGS="-EpicPortal"
 
 # Environment
-export VKD3D_CONFIG=dxr
 export PULSE_LATENCY_MSEC=60
 export WINEDEBUG=-all
 export WINEDLLOVERRIDES="mscoree,mshtml="
@@ -25,6 +24,7 @@ export __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
 export __GL_SHADER_DISK_CACHE=1
 export __GL_SHADER_DISK_CACHE_PATH="$DIR"
 export __GL_THREADED_OPTIMIZATIONS=1 # NVIDIA
+export VKD3D_CONFIG=dxr # Enables NVIDIA DLSS
 
 # ======================================================================== #
 

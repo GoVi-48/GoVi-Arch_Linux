@@ -42,9 +42,10 @@ terminal = guess_terminal()
 keys = [
 
     # Custom Shortcuts
-    Key([mod], "f", lazy.spawn('flameshot full -d 1 -p /home/govi/Multimedia/Pictures/Screenshots/')),
-    Key([mod], "s", lazy.spawn('spacefm ~/')),
-    Key([mod], "b", lazy.spawn('alacritty -e bashtop')),
+    Key([mod], "s", lazy.spawn('flameshot full -d 1 -p /home/govi/Multimedia/Pictures/Screenshots/')),
+    Key([mod], "b", lazy.spawn('firefox')),
+    Key([mod], "f", lazy.spawn('spacefm ~/')),
+    Key([mod], "m", lazy.spawn('alacritty -e bashtop')),
     Key([mod], "g", lazy.spawn('firefox "http://www.gmail.com"')),
     Key([mod], "Escape", lazy.window.kill(), desc="Kill focused window"),
 
@@ -132,7 +133,7 @@ for i in groups:
         Key([mod], i.name, lazy.group[i.name].toscreen()),
 
         # Next group, Previous group
-        Key([mod], "m", lazy.screen.next_group()),
+        Key([mod], "n", lazy.screen.next_group()),
         Key([mod], "p", lazy.screen.prev_group()),
 
         # Switch to & Move focused window to group (mod + shift + number of group)

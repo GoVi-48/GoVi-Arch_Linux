@@ -120,6 +120,7 @@ CHECK_ENTRIES(){
     echo -e "<==============================================================>${NC}"
     echo -e "\nEF - Tech Made Simple:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCX_WM2O-X96URC5n66G-hvw" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nExplainingComputers:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCbiGcwDWZjz05njNPrJU7jA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
+    echo -e "\nJayzTwoCents:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCkWQ0gDrqOCarmUKmppD7GQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nLinus Tech Tips:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Xw-yeJA0Tunw" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nLMG Clips:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCFLFc8Lpbwt4jPtY1_Ai5yA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nMajor Hardware:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCUXW4gT27TOaDzKFyN-1tXQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"

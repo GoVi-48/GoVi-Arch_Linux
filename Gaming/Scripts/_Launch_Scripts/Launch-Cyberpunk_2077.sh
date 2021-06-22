@@ -15,7 +15,7 @@ PROCESS="Cyberpunk2077.exe"
 ARGS=""
 
 # Wine Directories
-WINE="$DIR/Wine/wine64"
+WINE="$DIR/Wine/wine"
 WINEPREFIX="$DIR/Wine/wine-pfx/"
 
 # Environment
@@ -24,6 +24,10 @@ export WINEDLLOVERRIDES="xaudio2_7=n,b,mscoree,mshtml="
 export WINEFSYNC=1
 export MANGOHUD=1
 export ENABLE_VKBASALT=1
+export __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
+export __GL_SHADER_DISK_CACHE=1
+export __GL_SHADER_DISK_CACHE_PATH="$DIR"
+export __GL_THREADED_OPTIMIZATIONS=1
 
 # ======================================================================== #
 

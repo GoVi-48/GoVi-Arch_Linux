@@ -13,8 +13,8 @@ PROCESS="Game.exe"
 ARGS="-vulkan -dx12"
 
 # Environment
-export WINEDEBUG=-all
 export WINEDLLOVERRIDES="mscoree,mshtml="
+export WINEDEBUG=-all
 export WINEFSYNC=1
 export MANGOHUD=1
 export VKBASALT_CONFIG_FILE="$HOME/.config/vkBasalt/vkBasalt.conf"
@@ -22,7 +22,8 @@ export ENABLE_VKBASALT=1
 export __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
 export __GL_SHADER_DISK_CACHE=1
 export __GL_SHADER_DISK_CACHE_PATH="$DIR"
-# export __GL_THREADED_OPTIMIZATIONS=1 # NVIDIA
+export __GL_THREADED_OPTIMIZATIONS=1 # NVIDIA
+# export VKD3D_CONFIG=dxr # Enables NVIDIA DLSS
 
 # ======================================================================== #
 

@@ -44,7 +44,7 @@ keys = [
     # Custom Shortcuts
     Key([mod], "s", lazy.spawn('flameshot full -d 1 -p /home/govi/Multimedia/Pictures/Screenshots/')),
     Key([mod], "b", lazy.spawn('firefox')),
-    Key([mod], "f", lazy.spawn('spacefm ~/')),
+    Key([mod], "f", lazy.spawn('spacefm')),
     Key([mod], "m", lazy.spawn('alacritty -e bashtop')),
     Key([mod], "g", lazy.spawn('firefox "http://www.gmail.com"')),
     Key([mod], "Escape", lazy.window.kill(), desc="Kill focused window"),
@@ -118,8 +118,8 @@ def window_to_next_group(qtile):
 
 # Run "sleep 5 && xprop" to see the wm class and name of an X client.
 groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefox", "lutris", "liferea",
-                                                                       "Steam", "*.exe", "TelegramDesktop", ])]),
-          Group("2", label="", layout='monadtall', matches=[Match(wm_class=["jetbrains-pycharm-ce-debug"])]),
+                                                                       "Steam", "*.exe", ])]),
+          Group("2", label="", layout='monadtall', matches=[Match(wm_class=["jetbrains-pycharm-ce-debug", "TelegramDesktop", ])]),
           Group("3", label="", layout='monadtall'),
           Group("4", label="", layout='monadtall'),
           Group("5", label="", layout='monadtall'),

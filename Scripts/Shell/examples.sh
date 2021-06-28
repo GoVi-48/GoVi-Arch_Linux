@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Extract line with multiple matches
+grep -E "pattern1|pattern2"
 
 # Extract in between
 awk -F "START|END" '{print $2}'

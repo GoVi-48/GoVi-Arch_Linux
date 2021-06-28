@@ -1,1 +1,0 @@
-/Media/Games/PC/Green Hell/Wine/Launch-Green_Hell.sh

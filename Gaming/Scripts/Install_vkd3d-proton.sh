@@ -1,0 +1,1 @@
+/home/govi/Wine/Scripts/_Create_wine-pfx/Install_vkd3d-proton.sh

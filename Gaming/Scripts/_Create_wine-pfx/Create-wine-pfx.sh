@@ -98,6 +98,19 @@ DXVK() {
     done
 }
 
+VKD3D() {
+    while true; do
+        clear && echo
+        read -rp 'Do you want to install "vkd3d-proton"? [y/n] ' -n1 INPUT
+        echo
+        case $INPUT in
+            [yY]*) sh "$DIR"/Install_vkd3d-proton.sh ; break ;;
+            [nN]*) echo -e '\n "vkd3d-proton" will not be installed.\n' ; break ;;
+            *) echo -e '\nInvalid input, type "y" or "n"' >&2; sleep 2 ;;
+        esac
+    done
+}
+
 # Install
 cd "${DIR}/wine-pfx/drive_c/windows/Fonts" && for i in /usr/share/fonts/**/*.{ttf,otf}; do ln -sf "$i"; done >/dev/null 2>&1
 cd ~/
@@ -106,6 +119,7 @@ FONT
 VC_RUN
 EXTRA_LIBS
 DXVK
+VKD3D
 
 [ ! -d "${DIR}/wine-pfx/drive_c/Program Files (x86)/OpenAL" ] &&
     $WINE "$DIR/Setups/oalinst.exe" >/dev/null 2>&1

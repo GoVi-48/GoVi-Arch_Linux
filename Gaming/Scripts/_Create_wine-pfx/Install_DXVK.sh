@@ -7,8 +7,8 @@ UPDATE_dxvk() {
     DOWNLOAD="$(curl -Ls "$(
     curl -s "https://api.github.com/repos/doitsujin/dxvk/releases/latest" |
     awk -F '["]' '/"browser_download_url":/ {print $4}')" -o $DIR/Setups/dxvk-latest.tar.gz)"
-    tar xvzf $DIR/Setups/dxvk-latest.tar.zst -C $DIR/Setups
-    rm -fv $DIR/Setups/dxvk-latest.tar.zst
+    tar xvzf $DIR/Setups/dxvk-latest.tar.gz -C $DIR/Setups
+    rm -fv $DIR/Setups/dxvk-latest.tar.gz
 }
 
 # Check if dxvk exist

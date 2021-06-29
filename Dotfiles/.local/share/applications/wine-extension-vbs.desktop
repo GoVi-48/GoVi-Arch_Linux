@@ -2,7 +2,7 @@
 Type=Application
 Name=wscript
 MimeType=application/x-wine-extension-vbs;
-Exec=env WINEPREFIX="/home/govi/Scripts/Shell/Games/_Create_wine-pfx/wine-pfx" /usr/bin/wine start /ProgIDOpen VBSFile %f
+Exec=env WINEPREFIX="/home/govi/.wine" /usr/bin/wine start /ProgIDOpen VBSFile %f
 NoDisplay=true
 StartupNotify=true
 Icon=B13E_wscript.0

@@ -2,7 +2,7 @@
 
 # Variables
 FONTS=(corefonts)
-VCRUN=(vcrun2010 vcrun2012 vcrun2013 vcrun2019)
+VCRUN=(vcrun2019)
 LIBRARIES=(gdipl msxml3 msxml6 atmlib)
 WIN_VER="win10"
 
@@ -125,6 +125,7 @@ VKD3D
     $WINE "$DIR/Setups/oalinst.exe" >/dev/null 2>&1
 
 # Extras
+#winetricks vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2019
 #winetricks d3dx10 d3dx11_42 d3dx11_43
 #winetricks dotnet48
 #winetricks winegstreamer=disabled

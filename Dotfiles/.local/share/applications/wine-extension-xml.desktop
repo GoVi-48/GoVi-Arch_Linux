@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
-Name=winebrowser
+Name=Wine Internet Explorer
 MimeType=application/xml;
-Exec=env WINEPREFIX="/home/govi/.wine" /usr/bin/wine start /ProgIDOpen xmlfile %f
+Exec=env WINEPREFIX="/home/govi/Wine/Scripts/_Create_wine-pfx/wine-pfx" /usr/bin/wine start /ProgIDOpen xmlfile %f
 NoDisplay=true
 StartupNotify=true
-Icon=7765_winebrowser.0
+Icon=7596_iexplore.0

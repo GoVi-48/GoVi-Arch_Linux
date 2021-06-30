@@ -2,7 +2,7 @@
 Type=Application
 Name=winhlp32
 MimeType=application/winhlp;
-Exec=env WINEPREFIX="/home/govi/.wine" /usr/bin/wine start /ProgIDOpen hlpfile %f
+Exec=env WINEPREFIX="/home/govi/Scripts/Shell/Games/_Create_wine-pfx/wine-pfx" /usr/bin/wine start /ProgIDOpen hlpfile %f
 NoDisplay=true
 StartupNotify=true
 Icon=4137_winhlp32.0

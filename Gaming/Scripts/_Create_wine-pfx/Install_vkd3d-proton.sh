@@ -29,14 +29,14 @@ while true; do
 done
 
 # Export wine-px
-if [ ! pgrep -x "Create-wine-pfx*" ]; then
+if ! pgrep -x "Create-wine-pfx*"; then
     while true; do
         clear && echo
         read -p 'Type wine-pfx path and press Enter: ' INPUT
         if [ -f "${INPUT}/user.reg" ]; then
             export WINEPREFIX="$INPUT" && break
         else
-            clear && echo "This is not a valid wine-pfx" && sleep 3
+            clear && echo "This is not a valid wine-pfx path" && sleep 3
         fi
     done
 else

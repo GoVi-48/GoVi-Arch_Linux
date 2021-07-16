@@ -6083,6 +6083,12 @@
               <option name="myFromCustomRepository" value="false" />
             </plugin>
             <plugin>
+              <option name="myPluginId" value="com.settler.rider.specflow" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+            <plugin>
               <option name="myPluginId" value="gherkin" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
@@ -9634,6 +9640,62 @@
           <set>
             <plugin>
               <option name="myPluginId" value="k-infinity" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.kpcp">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.intellij.sdk.KunpengCompilerPlugin" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.kplp">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="Kunpeng Library" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.kppa">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="Kunpeng Porting Advisor" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.kpplugin">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.huawei.kunpeng.devkit" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />

@@ -1,0 +1,13 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Exec=/Datos/Games/UE5/Engine/Binaries/Linux/UnrealVersionSelector-Linux-Shipping -projectfiles %f
+Path=/Datos/Games/UE5/Engine/Binaries/Linux
+Name=Unreal Engine Generate Project Files
+Icon=ubinary
+Terminal=false
+StartupWMClass=UnrealVersionSelector-Linux-Shipping
+MimeType=application/uproject
+Comment=Created By Unreal Engine

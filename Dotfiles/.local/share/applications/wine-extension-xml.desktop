@@ -2,7 +2,7 @@
 Type=Application
 Name=Wine Internet Explorer
 MimeType=application/xml;
-Exec=env WINEPREFIX="/home/govi/Wine/Scripts/_Create_wine-pfx/wine-pfx" /usr/bin/wine start /ProgIDOpen xmlfile %f
+Exec=env WINEPREFIX="/home/govi/Scripts/Shell/Games/_Create_wine-pfx/wine-pfx" /usr/bin/wine start /ProgIDOpen xmlfile %f
 NoDisplay=true
 StartupNotify=true
 Icon=7596_iexplore.0

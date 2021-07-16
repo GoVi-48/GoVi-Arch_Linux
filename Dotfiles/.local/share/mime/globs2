@@ -5,6 +5,7 @@
 0:application/x-msi:__NOGLOBS__
 0:application/x-shellscript:__NOGLOBS__
 0:application/x-wine-extension-ini:__NOGLOBS__
+0:application/uproject:__NOGLOBS__
 50:application/x-wine-extension-dav:*.dav
 50:application/x-wine-extension-m2p:*.m2p
 50:application/x-wine-extension-dsf:*.dsf
@@ -16,8 +17,8 @@
 50:application/x-wine-extension-mpv2:*.mpv2
 50:application/x-wine-extension-tak:*.tak
 50:application/x-wine-extension-grfx:*.grfx
-50:application/x-wine-extension-264:*.264
 50:application/x-wine-extension-trp:*.trp
+50:application/x-wine-extension-264:*.264
 50:application/x-msi:*.msi
 50:application/x-wine-extension-alac:*.alac
 50:application/x-wine-extension-mpcpl:*.mpcpl
@@ -41,6 +42,7 @@
 50:application/x-wine-extension-ssif:*.ssif
 50:application/x-wine-extension-wtv:*.wtv
 50:video/mpeg:*.mpg
+50:application/uproject:*.uproject
 50:application/x-extension-html:*.html
 50:application/x-wine-extension-compositefont:*.compositefont
 50:video/mpeg:*.m2v
@@ -58,14 +60,14 @@
 50:application/x-wine-extension-m1v:*.m1v
 50:application/x-wine-extension-evo:*.evo
 50:application/x-wine-extension-tps:*.tps
-50:application/x-extension-htm:*.htm
 50:video/mpeg:[0-9][0-9][0-9].vdr
-50:application/x-wine-extension-msp:*.msp
-50:application/x-wine-extension-hdmov:*.hdmov
 50:application/x-wine-extension-mlp:*.mlp
-50:application/xaml+xml:*.xaml
+50:application/x-wine-extension-msp:*.msp
+50:application/x-extension-htm:*.htm
+50:application/x-wine-extension-hdmov:*.hdmov
 50:video/mpeg:*.mp2
 50:application/x-wine-extension-appref-ms:*.appref-ms
 50:application/x-wine-extension-dff:*.dff
 50:application/x-wine-extension-video:*.video
+50:application/xaml+xml:*.xaml
 50:text/x-component:*.htc

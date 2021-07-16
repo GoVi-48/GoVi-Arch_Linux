@@ -1,7 +1,6 @@
 #!/bin/bash
 
 DIR="$(dirname "$(realpath "$0")")"
-DIR_2="$(find -L "${DIR}/Setups" -type d -iname "dxvk-*")"
 
 UPDATE_dxvk() {
     DOWNLOAD="$(curl -Ls "$(
@@ -10,6 +9,8 @@ UPDATE_dxvk() {
     tar xvzf $DIR/Setups/dxvk-latest.tar.gz -C $DIR/Setups
     rm -fv $DIR/Setups/dxvk-latest.tar.gz
 }
+
+DIR_2="$(find -L "${DIR}/Setups" -type d -iname "dxvk-*")"
 
 # Check if dxvk exist
 while true; do

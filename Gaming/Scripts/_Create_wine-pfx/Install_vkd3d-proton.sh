@@ -1,7 +1,6 @@
 #!/bin/bash
 
 DIR="$(dirname "$(realpath "$0")")"
-DIR_2="$(find -L "${DIR}/Setups" -type d -iname "vkd3d-proton*")"
 
 UPDATE_vkd3d() {
     DOWNLOAD="$(curl -Ls "$(
@@ -10,6 +9,8 @@ UPDATE_vkd3d() {
     tar xvf $DIR/Setups/vkd3d-proton-latest.tar.zst -C $DIR/Setups
     rm -fv $DIR/Setups/vkd3d-proton-latest.tar.zst
 }
+
+DIR_2="$(find -L "${DIR}/Setups" -type d -iname "vkd3d-proton*")"
 
 # Check if vkd3d-proton exist
 while true; do

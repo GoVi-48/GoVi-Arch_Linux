@@ -118,7 +118,11 @@ cd ~/
 FONT
 VC_RUN
 EXTRA_LIBS
+notify-send -i '/usr/share/icons/GoVi/emblems/22/emblem-information.svg' "Info" "Instal DXVK?" -t 5000 &
+paplay $HOME/.local/share/sounds/cause-and-effect.ogg
 DXVK
+notify-send -i '/usr/share/icons/GoVi/emblems/22/emblem-information.svg' "Info" "Instal VKD3D?" -t 5000 &
+paplay $HOME/.local/share/sounds/cause-and-effect.ogg
 VKD3D
 
 [ ! -d "${DIR}/wine-pfx/drive_c/Program Files (x86)/OpenAL" ] &&
@@ -137,6 +141,8 @@ winetricks fontsmooth=rgb
 winetricks $WIN_VER
 
 echo -e "\n ALL DONE"
+notify-send -i '/usr/share/icons/GoVi/emblems/22/emblem-information.svg' "Info" "All Done" -t 5000 &
+paplay $HOME/.local/share/sounds/cause-and-effect.ogg
 read -rsn1 -p "$(echo -e "\nPress any key to open wine prefix config...\n")"
 $WINE winecfg &
 exit

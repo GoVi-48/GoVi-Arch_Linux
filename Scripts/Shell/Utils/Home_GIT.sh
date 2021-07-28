@@ -38,11 +38,14 @@ rsync -arv --exclude 'Games' --delete ~/Scripts/ "$GOVI_ARCH_LINUX"/Scripts/
 rsync -arv --delete ~/Scripts/Shell/Games/ "$GOVI_ARCH_LINUX"/Gaming/Scripts/
 
 # Push to Github
+
 cd "$GOVI_ARCH_LINUX"
 echo -e '\nUploading to Github...\n'; sleep 2
 git add .
 git commit -m "Updated"
 git push -u origin master
+Username: GoVi-48
+Password: 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
 
 notify-send -i '/usr/share/icons/GoVi/emblems/22/emblem-information.svg' "Info" "/home Backup Complete" -t 5000 &
 paplay $HOME/.local/share/sounds/cause-and-effect.ogg

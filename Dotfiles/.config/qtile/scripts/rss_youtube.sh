@@ -18,18 +18,10 @@ NC='\033[0m'
 
 CHECK_ENTRIES(){
     echo -e "\n${L_BLUE}<==============================================================>"
-    echo -e "                           Linux"
+    echo -e "                              Art"
     echo -e "<==============================================================>${NC}"
-    echo -e "\nLuke Smith:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
-    echo -e "\nDistrotube:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
-    echo -e "\nBrodie Robertson:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
-    echo -e "\nAverage Linux User:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCZiL6BoryLWxyapUuVYW27g" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
-    echo -e "\nJoe Collins:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCTfabOKD7Yty6sDF4POBVqA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
-    echo -e "\nTechHut:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCjSEJkpGbcZhvo0lr-44X_w" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
-    echo -e "\nThe Linux_Experiment:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC5UAwBUum7CPN5buc-_N1Fw" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
-    echo -e "\nMental Outlaw:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
-    echo -e "\nNikolay Stefanov:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCm21eK86ZmD0FQoNPGqvKlw" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
-    echo -e "\nOldTechBloke:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCCIHOP7e271SIumQgyl6XBQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
+    echo -e "\nUnreal Sensei:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCue7TFlrt9FxXarpsl872Dg" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
+
     # END
 
     echo -e "\n${L_BLUE}<==============================================================>"
@@ -64,6 +56,21 @@ CHECK_ENTRIES(){
     echo -e "\nHarrison Hacks:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCZ4lyVmGC3yfJl1skgdGYvg" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nJG Kings06:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCuUu-Ea-F0FJDjQ-LXADQuw" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     echo -e "\nSimply Austin:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCb4RFFBZEztOW77onViqoDA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
+    # END
+
+    echo -e "\n${L_BLUE}<==============================================================>"
+    echo -e "                           Linux"
+    echo -e "<==============================================================>${NC}"
+    echo -e "\nLuke Smith:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC2eYFnH61tmytImy1mTYvhA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
+    echo -e "\nDistrotube:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCVls1GmFKf6WlTraIb_IaJg" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
+    echo -e "\nBrodie Robertson:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCld68syR8Wi-GY_n4CaoJGA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
+    echo -e "\nAverage Linux User:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCZiL6BoryLWxyapUuVYW27g" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
+    echo -e "\nJoe Collins:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCTfabOKD7Yty6sDF4POBVqA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
+    echo -e "\nTechHut:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCjSEJkpGbcZhvo0lr-44X_w" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
+    echo -e "\nThe Linux_Experiment:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC5UAwBUum7CPN5buc-_N1Fw" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
+    echo -e "\nMental Outlaw:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UC7YOGHUfC1Tb6E4pudI9STA" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
+    echo -e "\nNikolay Stefanov:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCm21eK86ZmD0FQoNPGqvKlw" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
+    echo -e "\nOldTechBloke:\n$(curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=UCCIHOP7e271SIumQgyl6XBQ" | awk -F "<media:title>|</media:title>" 'NF>1 {print $2}')"
     # END
 
     echo -e "\n${L_BLUE}<==============================================================>"

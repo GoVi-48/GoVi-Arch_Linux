@@ -2,8 +2,8 @@
 
 # Variables
 FONTS=(corefonts)
-VCRUN=(vcrun2019)
-LIBRARIES=(gdipl msxml3 msxml6 atmlib)
+VCRUN=(vcrun2010 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2019)
+LIBRARIES=(atmlib gdiplus)
 WIN_VER="win10"
 
 ping -c2 google.com || echo "You need Internet connection to run this script." || exit
@@ -137,6 +137,8 @@ VKD3D
 #winetricks nocrashdialog d3dcompiler_43 d3dcompiler_47 d3dx9
 #winetricks d3d10=disabled d3d10_1=disabled d3d10core=disabled d3d11=disabled
 #winetricks d3d11=native dxgi=native
+#winetricks gdipl msxml3 msxml6 atmlib
+
 winetricks fontsmooth=rgb
 winetricks $WIN_VER
 

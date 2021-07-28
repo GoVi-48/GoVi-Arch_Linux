@@ -77,5 +77,5 @@ easystroke &
 
 imwheel.sh &
 
-exec qtile
+exec qtile start
 

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Wine Internet Explorer
+MimeType=image/gif;
+Exec=env WINEPREFIX="/home/govi/Programs/Adobe/Wine/wine-pfx/" /home/ubuntu/buildbot/runners/wine/lutris-6.13-2-x86_64/bin/wine start /ProgIDOpen giffile %f
+NoDisplay=true
+StartupNotify=true
+Icon=7596_iexplore.0

@@ -19,7 +19,7 @@ sudo pacman -S alacritty audacity exa ffmpeg firefox flameshot gimp gparted inks
 sudo pacman -S bc extra-cmake-modules fuseiso gnome-themes-extra icoutils jdk-openjdk lm_sensors libnotify notification-daemon mono packagekit-qt5 polkit unrar vim wget xautolock yad zip zenity
 
 # AUR Packages
-yay -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord dropbox easystroke java-8-openjdk liferea mpc-qt picard sgtk-menu skype spotify teamviewer timeshift tiny-media-manager
+yay -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord downgrade dropbox easystroke java-8-openjdk liferea mpc-qt picard sgtk-menu skype spotify teamviewer timeshift tiny-media-manager
 
 # Fonts
 ln -s /windows/Windows/Fonts /usr/share/fonts/WindowsFonts
@@ -161,6 +161,10 @@ ALL ALL=(ALL) NOPASSWD: /usr/bin/pacman -Syy
 Defaults env_reset,pwfeedback
 Defaults editor=/usr/bin/nvim, !env_editor
 # ======================================================================================= #
+
+# Prevent package to Update
+sudo nvim /etc/pacman.conf
+IgnorePkg = qtile
 
 # Default directory names.
 yay -S xdg-user-dirs-gtk

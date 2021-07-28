@@ -9,16 +9,16 @@ notf_Updates=~/.config/qtile/scripts/notf_UpdatesP
 if [ "$UPDATES_PACMAN" -eq 0 ]; then
     echo
 
-elif [ "$UPDATES_PACMAN" -gt 0 ] && [ -f $notf_ON ] && [ ! -f $notf_Updates ]; then
+elif [ "$UPDATES_PACMAN" -gt 1 ] && [ -f $notf_ON ] && [ ! -f $notf_Updates ]; then
     echo "$UPDATES_PACMAN pacman"
     notify-send -i '/home/govi/Multimedia/Pictures/Icons/Themes/GoVi/apps/64/updates-pacman.svg' "Arch Linux" "Updates available"  -t 5000 &
     paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
     touch $notf_Updates
 
-elif [ "$UPDATES_PACMAN" -gt 0 ] && [ -f $notf_ON ]; then
+elif [ "$UPDATES_PACMAN" -gt 1 ] && [ -f $notf_ON ]; then
     echo "$UPDATES_PACMAN pacman"
 
-elif [ "$UPDATES_PACMAN" -gt 0 ] && [ ! -f $notf_ON ]; then
+elif [ "$UPDATES_PACMAN" -gt 1 ] && [ ! -f $notf_ON ]; then
     echo "$UPDATES_PACMAN pacman"
 
 else

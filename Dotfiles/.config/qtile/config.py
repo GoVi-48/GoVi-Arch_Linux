@@ -188,7 +188,7 @@ def updates_pacman_icon():
 
 
 def updates_aur_icon():
-    a = subprocess.getoutput('paru -Qua | wc -l | cut -c1-1')
+    a = subprocess.getoutput('yay -Qua | wc -l | cut -c1-1')
     a = int(a)
     if a > 0:
         return widget.Image(filename='~/.config/qtile/@resources/updates_aur.png')

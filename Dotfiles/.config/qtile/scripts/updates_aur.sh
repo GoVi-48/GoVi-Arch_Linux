@@ -15,7 +15,10 @@ elif [ "$UPDATES_AUR" -gt 0 ] && [ -f $notf_ON ] && [ ! -f $notf_Updates ]; then
     paplay "$HOME/.local/share/sounds/cause-and-effect.ogg"
     touch $notf_Updates
 
-elif [ "$UPDATES_AUR" -gt 0 ] && [ ! -f $notf_ON ]; then
+elif [ "$UPDATES_AUR" -gt 0 ] && [ -f $notf_ON ]; then
+    echo "$UPDATES_AUR AUR"
+
+elif [ "$UPDATES_AUR" -gt 1 ] && [ ! -f $notf_ON ]; then
     echo "$UPDATES_AUR AUR"
 
 else

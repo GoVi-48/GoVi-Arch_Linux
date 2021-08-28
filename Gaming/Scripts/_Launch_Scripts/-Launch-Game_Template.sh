@@ -13,6 +13,7 @@ PROCESS="Game.exe"
 ARGS="-vulkan -dx12"
 
 # Environment
+export SDL_VIDEODRIVER=x11
 export WINEDLLOVERRIDES="mscoree,mshtml="
 export WINEDEBUG=-all
 export WINEFSYNC=1

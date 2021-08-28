@@ -5882,6 +5882,20 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.excalidraw.png">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.github.bric3.excalidraw" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.excalidraw.svg">
       <plugins>
         <option name="myPlugins">
@@ -6178,6 +6192,20 @@
           <set>
             <plugin>
               <option name="myPluginId" value="com.fatfractal.plugins.idea.ffdl" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.fidl">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="fuchsia.developer.plugin.fidl" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />
@@ -8734,6 +8762,20 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.jelly">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="Stapler plugin for IntelliJ IDEA" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.jet">
       <plugins>
         <option name="myPlugins">
@@ -10204,6 +10246,34 @@
           <set>
             <plugin>
               <option name="myPluginId" value="rsdeditor" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.lcv">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="leetcode-editor" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.lcvp">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="leetcode-editor-pro" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />
@@ -13490,6 +13560,12 @@
       <plugins>
         <option name="myPlugins">
           <set>
+            <plugin>
+              <option name="myPluginId" value="com.eslgaming.engineering.intellij-pants-plugin" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
             <plugin>
               <option name="myPluginId" value="com.intellij.plugins.pants" />
               <option name="myPluginName" />
@@ -17762,6 +17838,20 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.struct">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="intellij-coretex-plugin" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.stxt">
       <plugins>
         <option name="myPlugins">
@@ -19652,6 +19742,20 @@
             </plugin>
             <plugin>
               <option name="myPluginId" value="com.jetbrains.twig" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.txt">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.rahulrav.baseline-profiles" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />
@@ -21602,6 +21706,20 @@
         </option>
       </plugins>
     </entry>
+    <entry key=".autocp">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.github.pushpavel.autocp" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key=".bash_aliases">
       <plugins>
         <option name="myPlugins">
@@ -21844,6 +21962,34 @@
             </plugin>
             <plugin>
               <option name="myPluginId" value="com.wix.jscs" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key=".lcv">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="leetcode-editor" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key=".lcvp">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="leetcode-editor-pro" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />

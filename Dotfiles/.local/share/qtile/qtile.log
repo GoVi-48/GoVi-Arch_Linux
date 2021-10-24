@@ -41076,3 +41076,6 @@ Traceback (most recent call last):
   File "/usr/lib/python3.9/site-packages/libqtile/core/manager.py", line 524, in current_window
     return self.current_screen.group.current_window
 AttributeError: 'Qtile' object has no attribute 'current_screen'
+2021-10-24 03:00:30,546 ERROR libqtile manager.py:process_key_event():L361 KB command error grow_right: No such command
+2021-10-24 03:00:30,579 ERROR libqtile manager.py:process_key_event():L361 KB command error increase_ratio: No such command
+2021-10-24 03:00:30,579 ERROR libqtile manager.py:process_key_event():L361 KB command error delete: No such command

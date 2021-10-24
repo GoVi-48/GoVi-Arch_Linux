@@ -98,6 +98,48 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*..model">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.tabnine.TabNine" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*..tabnine">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.tabnine.TabNine" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*..tabnine.model">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.tabnine.TabNine" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*..ui5.bind">
       <plugins>
         <option name="myPlugins">
@@ -1591,7 +1633,7 @@
         <option name="myPlugins">
           <set>
             <plugin>
-              <option name="myPluginId" value="edu.vub.ideAT" />
+              <option name="myPluginId" value="edu.vub.soft.at" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />
@@ -3745,6 +3787,12 @@
               <option name="myFromCustomRepository" value="false" />
             </plugin>
             <plugin>
+              <option name="myPluginId" value="Lombook Plugin-uxlog" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+            <plugin>
               <option name="myPluginId" value="com.illuminatedcloud2.intellij" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
@@ -3921,6 +3969,12 @@
               <option name="myFromCustomRepository" value="false" />
             </plugin>
             <plugin>
+              <option name="myPluginId" value="intellij-crystal-lang" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+            <plugin>
               <option name="myPluginId" value="net.kenro.ji.jin.intellij.crystal" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
@@ -4028,6 +4082,12 @@
               <option name="myPluginId" value="com.intellij.css" />
               <option name="myPluginName" value="CSS Support" />
               <option name="myBundled" value="true" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="com.intellij.css" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />
             </plugin>
           </set>
@@ -4530,6 +4590,20 @@
           <set>
             <plugin>
               <option name="myPluginId" value="com.github.nthykier.debpkg" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.debiancontrol">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="de.iserv.iserv-intellij-plugin" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />
@@ -9040,6 +9114,20 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.js.map">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="JavaScriptDebugger" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.js2">
       <plugins>
         <option name="myPlugins">
@@ -11844,6 +11932,20 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.model">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.tabnine.TabNine" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.module">
       <plugins>
         <option name="myPlugins">
@@ -12076,6 +12178,20 @@
           <set>
             <plugin>
               <option name="myPluginId" value="ru.investflow.mql" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.mql">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="ru.jf17.mql-plugin" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />
@@ -13826,6 +13942,20 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.pikchr">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.yanncebron.intellipikchr" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.pilar">
       <plugins>
         <option name="myPlugins">
@@ -15382,6 +15512,20 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.rbi">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.rbl">
       <plugins>
         <option name="myPlugins">
@@ -15422,6 +15566,20 @@
             </plugin>
             <plugin>
               <option name="myPluginId" value="org.jetbrains.plugins.ruby" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.rdcml">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.github.shuaiouke.redlibcommandfile" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />
@@ -18296,6 +18454,34 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.tabnine">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.tabnine.TabNine" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.tabnine.model">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.tabnine.TabNine" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.tac">
       <plugins>
         <option name="myPlugins">
@@ -19338,6 +19524,20 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.trdf">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.sharedvocabs.plugins.rdfandsparql" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.tree">
       <plugins>
         <option name="myPlugins">
@@ -19702,6 +19902,20 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.ttp">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="ren.idea.thinkphp6helper" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.ttslua">
       <plugins>
         <option name="myPlugins">
@@ -19742,6 +19956,20 @@
             </plugin>
             <plugin>
               <option name="myPluginId" value="com.jetbrains.twig" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.twine">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="by.overpass.TwineAndroidPlugin" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />
@@ -20952,6 +21180,34 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*.xpath">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="XPathView" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*.xpath2">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="XPathView" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*.xpl">
       <plugins>
         <option name="myPlugins">
@@ -21616,6 +21872,48 @@
         </option>
       </plugins>
     </entry>
+    <entry key="*constants.txt">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="de.sgalinski.typoscript.enterprise.plugin.id" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*ext_conf_template.txt">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="de.sgalinski.typoscript.enterprise.plugin.id" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*ext_typoscript_setup.txt">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="de.sgalinski.typoscript.enterprise.plugin.id" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
     <entry key="*phar.tar">
       <plugins>
         <option name="myPlugins">
@@ -21670,6 +21968,20 @@
             </plugin>
             <plugin>
               <option name="myPluginId" value="ru.meanmail.plugin.requirements-pro" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="*setup.txt">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="de.sgalinski.typoscript.enterprise.plugin.id" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />
@@ -22474,6 +22786,20 @@
           <set>
             <plugin>
               <option name="myPluginId" value="tk.cofedream.plugin.mybatis" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+          </set>
+        </option>
+      </plugins>
+    </entry>
+    <entry key="Kptfile">
+      <plugins>
+        <option name="myPlugins">
+          <set>
+            <plugin>
+              <option name="myPluginId" value="com.google.gct.core" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />
@@ -23364,6 +23690,12 @@
           <set>
             <plugin>
               <option name="myPluginId" value="Lombook Plugin" />
+              <option name="myPluginName" />
+              <option name="myBundled" value="false" />
+              <option name="myFromCustomRepository" value="false" />
+            </plugin>
+            <plugin>
+              <option name="myPluginId" value="Lombook Plugin-uxlog" />
               <option name="myPluginName" />
               <option name="myBundled" value="false" />
               <option name="myFromCustomRepository" value="false" />

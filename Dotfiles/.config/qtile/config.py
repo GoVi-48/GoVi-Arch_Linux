@@ -48,6 +48,7 @@ keys = [
     Key([mod], "m", lazy.spawn('alacritty -e bashtop')),
     Key([mod], "g", lazy.spawn('firefox "http://www.gmail.com"')),
     Key([mod], "Escape", lazy.window.kill(), desc="Kill focused window"),
+    Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
 
     # Switch between windows
     Key([mod], "h", lazy.layout.left(), desc="Move focus to left"),
@@ -95,7 +96,6 @@ keys = [
 
     # Toggle between different layouts as defined below
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
-    Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
 
     Key([mod, "control"], "r", lazy.restart(), desc="Restart Qtile"),
     Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
@@ -341,11 +341,12 @@ screens = [
 
                 # ================================= WIDGETS BOTTOM RIGHT ================================= #
                 widget.Spacer(length=bar.STRETCH),
-
+                # widget.Net(format='{down}/s', interface='wlp0s20u10'),
                 widget.Net(format='{down}/s', interface='enp3s0'),
                 widget.Spacer(length=10),
                 widget.Image(filename='~/.config/qtile/@resources/arrow_up_down.png'),
                 widget.Net(format='{up}/s ', interface='enp3s0'),
+                # widget.Net(format='{up}/s ', interface='wlp0s20u10'),
 
                 widget.TextBox(font='GoVi_Icons', text='4',
                                mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')}),
@@ -380,12 +381,45 @@ screens = [
                 widget.Volume(update_interval=0.2),
 
                 widget.Image(filename='~/.config/qtile/@resources/calendar.png'),
-                widget.Clock(format='%a %d/%m/%Y '),
+                widget.Clock(format='%a %d/%m/%Y ',
+                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('gsimplecal')}),
             ],
             34),
 
     ),
-]
+
+
+    Screen(
+        top=bar.Bar(
+            [
+                # ================================= WIDGETS TOP LEFT =================================  #
+                widget.Image(filename='~/.config/qtile/@resources/archlinux.png',
+                             margin=0,
+                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sgtk-menu')}),
+
+                widget.CurrentLayoutIcon(scale=0.7),
+
+                widget.GroupBox(font='FontAw4esome',
+                                disable_drag=True,
+                                highlight_method='text',
+                                this_current_screen_border='#86ACE0',
+                                borderwidth=0,
+                                active='#DFDFDF',
+                                inactive='#717171'),
+
+                widget.Prompt(),
+
+                widget.TaskList(borderwidth=2, border='#5C718E', fontsize=14, max_title_width=300),
+
+
+                # ================================= WIDGETS TOP RIGHT =================================  #
+
+                widget.Clock(fontsize=18),
+
+            ],
+            34),
+
+    ), ]
 
 
 # ================================= FLOATING LAYOUTS =================================  #

@@ -2,7 +2,7 @@
 Type=Application
 Name=winebrowser
 MimeType=application/x-extension-html;
-Exec=env WINEPREFIX="/home/govi/Scripts/Shell/Games/_Create_wine-pfx/wine-pfx" /usr/bin/wine start /ProgIDOpen htmlfile %f
+Exec=env WINEPREFIX="/Media/GoVi/Downloads/Valheim/Wine/wine-pfx" /usr/bin/wine start /ProgIDOpen htmlfile %f
 NoDisplay=true
 StartupNotify=true
 Icon=7765_winebrowser.0

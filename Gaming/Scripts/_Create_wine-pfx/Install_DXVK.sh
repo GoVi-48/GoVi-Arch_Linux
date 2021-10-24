@@ -47,6 +47,8 @@ fi
 # Install
 echo -e "\nInstalling dxvk dlls, please wait...\n"
 
+DIR_2="$(find -L "${DIR}/Setups" -type d -iname "dxvk-*")"
+
 sh $DIR_2/setup_dxvk.sh install
 
 exit

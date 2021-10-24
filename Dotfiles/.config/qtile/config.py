@@ -103,7 +103,7 @@ keys = [
 ]
 
 
-# ================================= GROUPS =================================  #
+# ================================= GROUPS ================================= #
 def window_to_prev_group(qtile):
     if qtile.currentWindow is not None:
         i = qtile.groups.index(qtile.currentGroup)
@@ -167,7 +167,7 @@ layouts = [
     layout.Floating(border_width=0)
 ]
 
-# ================================= WIDGETS =================================  #
+# ================================= WIDGETS ================================= #
 widget_defaults = dict(
                 background='#21242B',
                 foreground='#dfdfdf',
@@ -223,7 +223,7 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                # ================================= WIDGETS TOP LEFT =================================  #
+                # ================================= WIDGETS TOP LEFT ================================= #
                 widget.Image(filename='~/.config/qtile/@resources/archlinux.png',
                              margin=0,
                              mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sgtk-menu')}),
@@ -243,7 +243,7 @@ screens = [
                 widget.TaskList(borderwidth=2, border='#5C718E', fontsize=14, max_title_width=300),
 
 
-                # ================================= WIDGETS TOP RIGHT =================================  #
+                # ================================= WIDGETS TOP RIGHT ================================= #
                 widget.Systray(padding=10),
 
                 widget.Image(filename='~/.config/qtile/@resources/sound-preferences.svg',
@@ -260,7 +260,7 @@ screens = [
 
         bottom=bar.Bar(
             [
-                # ================================= WIDGETS BOTTOM LEFT =================================  #
+                # ================================= WIDGETS BOTTOM LEFT ================================= #
                 widget.Image(filename='~/.config/qtile/@resources/power.png',
                              mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('qtile cmd-obj -o cmd -f shutdown')}),
 
@@ -392,7 +392,7 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                # ================================= WIDGETS TOP LEFT =================================  #
+                # ================================= WIDGETS TOP LEFT 2 ================================= #
                 widget.Image(filename='~/.config/qtile/@resources/archlinux.png',
                              margin=0,
                              mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sgtk-menu')}),
@@ -412,9 +412,10 @@ screens = [
                 widget.TaskList(borderwidth=2, border='#5C718E', fontsize=14, max_title_width=300),
 
 
-                # ================================= WIDGETS TOP RIGHT =================================  #
-
-                widget.Clock(fontsize=18),
+                # ================================= WIDGETS TOP RIGHT 2 ================================= #
+                widget.Image(filename='~/.config/qtile/@resources/calendar.png'),
+                widget.Clock(format='%a %d/%m/%Y ',
+                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('gsimplecal')}),                widget.Clock(fontsize=18),
 
             ],
             34),

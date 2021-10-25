@@ -7,8 +7,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="414" column="105" selection-start-line="414" selection-start-column="105" selection-end-line="414" selection-end-column="105" />
+            <state relative-caret-position="463">
+              <caret line="129" column="50" lean-forward="true" selection-start-line="129" selection-start-column="50" selection-end-line="129" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -42,7 +42,11 @@
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Gaming">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="14" selection-start-column="14" selection-end-column="14" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -73,10 +77,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Shell/Utils/Home_GIT.sh">
+        <entry file="file://$PROJECT_DIR$/Shell/Utils/Turn_Screen_on-off.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="192">
+              <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Shell/Autostart/set_background.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -85,7 +98,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Proyectos</find>
       <find>${DIR}</find>
       <find>13199544096852541440</find>
       <find>Pictures</find>
@@ -115,6 +127,7 @@
       <find>fav</find>
       <find>template\-widget</find>
       <find>DIR_2</find>
+      <find>window_to_next_group</find>
     </findStrings>
     <replaceStrings>
       <replace>paru</replace>
@@ -155,10 +168,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="/Media/Games/PC/Red Dead Redemption 2/Wine/Launch-Red_Dead_Redemtion_2.sh" />
-      <option value="/Media/Games/PC/Death Stranding/Wine/Launch-Death_Stranding.sh" />
-      <option value="/Media/Games/PC/Assassins Creed Valhalla/Wine/Launch-Assassins_Creed_Valhalla.sh" />
-      <option value="$PROJECT_DIR$/../.config/picom/picom.conf" />
       <option value="/Datos/Downloads/skin.aeon.govi/addon.xml" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/Rename_when.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/rename_when.sh" />
@@ -205,6 +214,10 @@
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_youtube.sh" />
       <option value="$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Install" />
       <option value="$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Howto" />
+      <option value="$PROJECT_DIR$/../.config/qtile/Turn_Screen_on-off.sh" />
+      <option value="$PROJECT_DIR$/Shell/Utils/Turn_Screen_on-off.sh" />
+      <option value="$PROJECT_DIR$/Shell/Autostart/set_background.sh" />
+      <option value="$PROJECT_DIR$/../.config/alacritty/alacritty.yml" />
       <option value="$PROJECT_DIR$/../.config/qtile/config.py" />
     </changedPaths>
   </component>
@@ -236,6 +249,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.6456522" />
       <window_info id="Structure" order="1" show_stripe_button="false" weight="0.24891305" />
@@ -251,7 +265,7 @@
       <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.22247972" />
       <window_info anchor="bottom" id="Messages" order="5" weight="0.32874617" />
       <window_info anchor="bottom" id="Python Packages" order="6" />
-      <window_info anchor="bottom" id="Problems View" order="7" weight="0.3459596" />
+      <window_info anchor="bottom" id="Problems View" order="7" weight="0.34603658" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39975992" />
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3277439" />
@@ -288,48 +302,6 @@
     <state x="971" y="45" width="932" height="984" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1632945820385" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Media/Games/PC/Grounded/Wine/Launch-Grounded.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Media/Games/PC/Satisfactory/Wine/Launch-Satisfactory.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-403">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/gpu_temp.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Wine/Scripts/_Launch_Scripts/Launch-Horizon_Zero_Down.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Wine/Scripts/_Launch_Scripts/Launch-Control.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///Media/Games/PC/Cyberpunk 2077/Wine/Launch-Cyberpunk_2077.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Media/Games/PC/Anno 1800/Wine/Launch-Anno_1800.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -506,10 +478,35 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Home_GIT_token.sh" />
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/Turn_Screen_on-off.sh" />
+    <entry file="file://$PROJECT_DIR$/../xinitrc.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shell/Utils/Home_GIT.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/alacritty/alacritty.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="152" column="10" selection-start-line="152" selection-start-column="10" selection-end-line="152" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.xinitrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="21" selection-start-line="4" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="414" column="105" selection-start-line="414" selection-start-column="105" selection-end-line="414" selection-end-column="105" />
+        <state relative-caret-position="463">
+          <caret line="129" column="50" lean-forward="true" selection-start-line="129" selection-start-column="50" selection-end-line="129" selection-end-column="50" />
         </state>
       </provider>
     </entry>
@@ -535,7 +532,11 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../Proyects/Github/GoVi-Arch_Linux/Arch_Gaming">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shell/Games/Create-wine-pfx.sh">
       <provider selected="true" editor-type-id="text-editor">
@@ -558,10 +559,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Shell/Utils/Home_GIT.sh">
+    <entry file="file://$PROJECT_DIR$/Shell/Utils/Turn_Screen_on-off.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="192">
+          <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Shell/Autostart/set_background.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>

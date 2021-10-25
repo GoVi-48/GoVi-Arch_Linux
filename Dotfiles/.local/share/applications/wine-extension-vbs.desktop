@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=wscript
-MimeType=application/x-wine-extension-vbs;
-Exec=env WINEPREFIX="/Media/GoVi/Downloads/Valheim/Wine/wine-pfx" /usr/bin/wine start /ProgIDOpen VBSFile %f
-NoDisplay=true
-StartupNotify=true
-Icon=B13E_wscript.0

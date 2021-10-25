@@ -50,6 +50,12 @@ keys = [
     Key([mod], "Escape", lazy.window.kill(), desc="Kill focused window"),
     Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
 
+    # Key([mod], "q", lazy.to_screen(0), desc='Keyboard focus to monitor 1'),
+    # Key([mod], "e", lazy.to_screen(1), desc='Keyboard focus to monitor 2'),
+    Key([mod, "shift"], "f", lazy.window.toggle_fullscreen(), desc='toggle fullscreen'),
+    Key([mod], "e", lazy.next_screen(),),
+    Key([mod], "q", lazy.prev_screen(),),
+
     # Switch between windows
     Key([mod], "h", lazy.layout.left(), desc="Move focus to left"),
     Key([mod], "l", lazy.layout.right(), desc="Move focus to right"),
@@ -104,21 +110,8 @@ keys = [
 
 
 # ================================= GROUPS ================================= #
-def window_to_prev_group(qtile):
-    if qtile.currentWindow is not None:
-        i = qtile.groups.index(qtile.currentGroup)
-        qtile.currentWindow.togroup(qtile.groups[i - 1].name)
-
-
-def window_to_next_group(qtile):
-    if qtile.currentWindow is not None:
-        i = qtile.groups.index(qtile.currentGroup)
-        qtile.currentWindow.togroup(qtile.groups[i + 1].name)
-
-
 # Run "sleep 5 && xprop" to see the wm class and name of an X client.
-groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefox", "lutris", "liferea",
-                                                                       "Steam", "*.exe", ])]),
+groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefox", "lutris", "Steam", "*.exe", ])]),
           Group("2", label="", layout='monadtall', matches=[Match(wm_class=["jetbrains-pycharm-ce-debug", "TelegramDesktop", ])]),
           Group("3", label="", layout='monadtall'),
           Group("4", label="", layout='monadtall'),
@@ -133,8 +126,8 @@ for i in groups:
         Key([mod], i.name, lazy.group[i.name].toscreen()),
 
         # Next group, Previous group
-        Key([mod], "n", lazy.screen.next_group()),
-        Key([mod], "p", lazy.screen.prev_group()),
+        Key([mod], "n", lazy.screen.next_group(skip_managed=True)),
+        Key([mod], "p", lazy.screen.prev_group(skip_managed=True)),
 
         # Switch to & Move focused window to group (mod + shift + number of group)
         Key([mod, "shift"], i.name, lazy.window.togroup(i.name, switch_group=True)),
@@ -413,9 +406,13 @@ screens = [
 
 
                 # ================================= WIDGETS TOP RIGHT 2 ================================= #
+                widget.Image(filename='~/.config/qtile/@resources/sound-preferences.svg',
+                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('pavucontrol')}),
+
                 widget.Image(filename='~/.config/qtile/@resources/calendar.png'),
                 widget.Clock(format='%a %d/%m/%Y ',
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('gsimplecal')}),                widget.Clock(fontsize=18),
+                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('gsimplecal')}),
+                widget.Clock(fontsize=18),
 
             ],
             34),

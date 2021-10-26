@@ -4,8 +4,10 @@
 	<pref name="CameraShake" type="int">1</pref>
 	<pref name="ChromaticAberration" type="int">0</pref>
 	<pref name="ClutterQuality" type="int">2</pref>
+	<pref name="ConsoleBindings" type="string"></pref>
 	<pref name="ContinousMusic" type="int">1</pref>
 	<pref name="DOF" type="int">0</pref>
+	<pref name="GamepadSensitivity" type="float">1</pref>
 	<pref name="GuiScale" type="float">1</pref>
 	<pref name="InvertMouse" type="int">0</pref>
 	<pref name="KeyHints" type="int">0</pref>
@@ -16,6 +18,8 @@
 	<pref name="MouseSensitivity" type="float">3</pref>
 	<pref name="MusicVolume" type="float">0.495506</pref>
 	<pref name="MuteGameInBackground" type="int">0</pref>
+	<pref name="PointLightShadows" type="int">2</pref>
+	<pref name="PointLights" type="int">3</pref>
 	<pref name="QuickPieceSelect" type="int">1</pref>
 	<pref name="SSAO" type="int">1</pref>
 	<pref name="Screenmanager Fullscreen mode" type="int">1</pref>
@@ -37,12 +41,15 @@
 	<pref name="gamepad_enabled" type="int">0</pref>
 	<pref name="key_AltPlace" type="int">304</pref>
 	<pref name="key_Attack" type="int">323</pref>
+	<pref name="key_AutoPickup" type="int">103</pref>
 	<pref name="key_AutoRun" type="int">114</pref>
 	<pref name="key_Backward" type="int">115</pref>
 	<pref name="key_Block" type="int">324</pref>
 	<pref name="key_BuildMenu" type="int">324</pref>
 	<pref name="key_BuildNext" type="int">101</pref>
 	<pref name="key_BuildPrev" type="int">113</pref>
+	<pref name="key_ChatDown" type="int">274</pref>
+	<pref name="key_ChatUp" type="int">273</pref>
 	<pref name="key_Crouch" type="int">308</pref>
 	<pref name="key_Forward" type="int">119</pref>
 	<pref name="key_GPower" type="int">102</pref>
@@ -56,13 +63,15 @@
 	<pref name="key_Remove" type="int">325</pref>
 	<pref name="key_Right" type="int">100</pref>
 	<pref name="key_Run" type="int">304</pref>
+	<pref name="key_ScrollChatDown" type="int">281</pref>
+	<pref name="key_ScrollChatUp" type="int">280</pref>
 	<pref name="key_SecondAttack" type="int">325</pref>
 	<pref name="key_Sit" type="int">306</pref>
 	<pref name="key_ToggleWalk" type="int">118</pref>
 	<pref name="key_Use" type="int">101</pref>
 	<pref name="language" type="string">RW5nbGlzaA==</pref>
 	<pref name="profile" type="string">Z292aSBpaQ==</pref>
-	<pref name="unity.player_session_count" type="string">Mjcw</pref>
-	<pref name="unity.player_sessionid" type="string">MjM4NjY5ODM0MjMyMzc5NjY1Nw==</pref>
+	<pref name="unity.player_session_count" type="string">Mjcz</pref>
+	<pref name="unity.player_sessionid" type="string">NzI3MjA3ODEwNDU0OTM0NjM2Nw==</pref>
 	<pref name="world" type="string">R29WaUxhbmRJSQ==</pref>
 </unity_prefs>

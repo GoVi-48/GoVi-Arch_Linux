@@ -116,7 +116,7 @@ groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefo
           Group("3", label="", layout='monadtall'),
           Group("4", label="", layout='monadtall'),
           Group("5", label="", layout='monadtall'),
-          Group("6", label="", layout='monadtall'),
+          Group("6", label="", layout='max'),
           Group("7", label="", layout='floating')]
 
 # Switch Groups

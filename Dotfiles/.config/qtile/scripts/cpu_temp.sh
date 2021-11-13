@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pgrep -x "wineserver" > /dev/null  && exit
+#pgrep -x "wineserver" > /dev/null  && exit
 
 temp=$(sensors | awk '$1 ~ /^Package/ {print substr($0,17,2)}')
 

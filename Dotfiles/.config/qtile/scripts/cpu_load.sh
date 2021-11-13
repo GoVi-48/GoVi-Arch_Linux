@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pgrep -x "wineserver" > /dev/null  && exit
+#pgrep -x "wineserver" > /dev/null  && exit
 
 load=$(top -b -n1 | awk '/^%Cpu/ {print $2 + $4}' | awk -F '.' '{print $1}')
 

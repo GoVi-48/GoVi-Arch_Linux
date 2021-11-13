@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=NoxPlayer
+MimeType=application/vnd.android.package-archive;
+Exec=env WINEPREFIX="/home/govi/.wine" wine start /ProgIDOpen Nox.apk %f
+NoDisplay=true
+StartupNotify=true
+Icon=F8BF_Nox.0

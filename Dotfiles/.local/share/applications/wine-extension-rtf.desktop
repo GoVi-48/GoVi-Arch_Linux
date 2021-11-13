@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=wordpad
+MimeType=application/rtf;
+Exec=env WINEPREFIX="/home/govi/Programs/Kodi/Wine/wine-pfx" wine start /ProgIDOpen rtffile %f
+NoDisplay=true
+StartupNotify=true
+Icon=3365_wordpad.0

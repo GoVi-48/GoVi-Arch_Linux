@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pgrep -x "wineserver" > /dev/null  && exit
+#pgrep -x "wineserver" > /dev/null  && exit
 
 free -h |
 awk '/^Mem:/ {print $3}' |

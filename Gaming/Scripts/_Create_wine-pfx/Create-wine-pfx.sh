@@ -2,7 +2,7 @@
 
 # Variables
 FONTS=(corefonts)
-VCRUN=(vcrun2019)
+VCRUN=()
 LIBRARIES=()
 WIN_VER="win10"
 

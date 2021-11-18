@@ -10,6 +10,8 @@
       <mapping pattern="xfce-notify.rc" type="BuildoutCfg" />
       <mapping pattern="gtkrc" type="BuildoutCfg" />
       <mapping ext="exe" type="GitExclude file" />
+      <mapping pattern="config" type="Ini" />
+      <mapping ext="sav" type="Ini" />
       <mapping pattern="skydrow" type="PLAIN_TEXT" />
       <mapping pattern=".data" type="PLAIN_TEXT" />
       <mapping pattern=".mtab.fuseiso" type="PLAIN_TEXT" />
@@ -32,11 +34,9 @@
       <mapping pattern="WebGrab++.config.xml" type="XML" />
       <mapping pattern="gh" type="XML" />
       <mapping pattern="ls_YT" type="XML" />
-      <mapping ext="sav" type="Ini" />
       <mapping pattern="Arch Install" type="Bash" />
       <mapping pattern="Arch Install.txt" type="Bash" />
       <mapping pattern="Howto Arch" type="Bash" />
-      <mapping pattern="config" type="Ini" />
       <mapping pattern="rss_games_2" type="Bash" />
     </extensionMap>
   </component>

@@ -2,7 +2,7 @@
 Type=Application
 Name=wscript
 MimeType=application/x-wine-extension-vbs;
-Exec=env WINEPREFIX="/home/govi/Programs/Kodi/Wine/wine-pfx" wine start /ProgIDOpen VBSFile %f
+Exec=env WINEPREFIX="/home/govi/Programs/Adobe/Wine/wine-pfx/" /home/ubuntu/buildbot/runners/wine/lutris-ge-6.16-1-x86_64/bin/wine start /ProgIDOpen VBSFile %f
 NoDisplay=true
 StartupNotify=true
-Icon=2905_wscript.0
+Icon=B13E_wscript.0

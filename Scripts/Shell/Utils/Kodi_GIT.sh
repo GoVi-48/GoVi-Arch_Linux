@@ -6,11 +6,9 @@ cp -rfv ~/.kodi ~/Backups/Kodi/Backups/Builds/Current
 
 cd ~/Backups/Kodi/Backups/Builds/Current/.kodi/
 
-zip -r $HOME/Escritorio/Kodi-GoVi_Build.zip "addons" "media" "userdata" 
+zip -r $HOME/Kodi-GoVi_Build.zip "addons" "media" "userdata" 
 
-mv ~/Escritorio/Kodi-GoVi_Build.zip ~/Dropbox
-
-kdialog --icon "$HOME/.local/share/icons/GoVi-Ic/emblems/22/emblem-information.svg" --passivepopup "Complete" 8 && paplay $HOME/.local/share/sounds/cause-and-effect.ogg
+mv ~/Kodi-GoVi_Build.zip ~/Shared/Dropbox
 
 while true; do
     echo -e '\nPress "Enter" to Upload to Dropbox or "Escape" to Exit\n'

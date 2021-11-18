@@ -2,7 +2,7 @@
 Type=Application
 Name=winebrowser
 MimeType=application/pdf;
-Exec=env WINEPREFIX="/home/govi/Programs/Kodi/Wine/wine-pfx" wine start /ProgIDOpen pdffile %f
+Exec=env WINEPREFIX="/home/govi/Programs/Adobe/Wine/wine-pfx/" /home/ubuntu/buildbot/runners/wine/lutris-ge-6.16-1-x86_64/bin/wine start /ProgIDOpen pdffile %f
 NoDisplay=true
 StartupNotify=true
-Icon=81F5_winebrowser.0
+Icon=7765_winebrowser.0

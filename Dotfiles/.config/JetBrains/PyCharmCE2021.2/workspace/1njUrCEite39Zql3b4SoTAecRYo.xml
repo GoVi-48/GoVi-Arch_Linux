@@ -4,10 +4,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
+            <state relative-caret-position="10008">
               <caret line="417" column="16" selection-start-line="417" selection-start-column="16" selection-end-line="417" selection-end-column="16" />
             </state>
           </provider>
@@ -31,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../.xinitrc">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
@@ -141,7 +141,6 @@
       <option value="$PROJECT_DIR$/Shell/Games/Create-wine-pfx.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/updates_pacman.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/updates_aur.sh" />
-      <option value="$PROJECT_DIR$/../.config/qtile/scripts/email.sh" />
       <option value="$PROJECT_DIR$/Shell/Games/Install_DXVK.sh" />
       <option value="/Media/GoVi/Downloads/Valheim/Wine/Launch-Valheim.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/rss_youtube_Reset.sh" />
@@ -165,6 +164,7 @@
       <option value="$PROJECT_DIR$/../.kodi/.GoVi/skin.aeon.govi/shortcuts/movies.DATA.xml" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/mem_load.sh" />
       <option value="$PROJECT_DIR$/../.kodi/addons/skin.aeon.govi/shortcuts/overrides.xml" />
+      <option value="$PROJECT_DIR$/../.config/qtile/scripts/email.sh" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -210,7 +210,7 @@
       <window_info anchor="bottom" id="Run" order="4" visible="true" weight="0.22247972" />
       <window_info anchor="bottom" id="Messages" order="5" weight="0.32874617" />
       <window_info anchor="bottom" id="Python Packages" order="6" />
-      <window_info anchor="bottom" id="Problems View" order="7" weight="0.34634387" />
+      <window_info anchor="bottom" id="Problems View" order="7" weight="0.34603658" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.39975992" />
       <window_info anchor="bottom" id="Python Console" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.3277439" />
@@ -247,13 +247,6 @@
     <state x="971" y="45" width="932" height="984" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1632945820385" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_pacman.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="11" selection-start-line="20" selection-end-line="21" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_aur.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -319,13 +312,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../.kodi/.GoVi/skin.aeon.govi/1080p/Includes_Widgets.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/email.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="27" column="55" lean-forward="true" selection-start-line="27" selection-start-column="55" selection-end-line="27" selection-end-column="55" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Shell/Games/Install_DXVK.sh">
       <provider selected="true" editor-type-id="text-editor">
@@ -413,9 +399,7 @@
     <entry file="file://$PROJECT_DIR$/../.kodi/addons/skin.aeon.govi/shortcuts/mainmenu.DATA.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.kodi/userdata/Super Favourites/S/favourites.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../.kodi/userdata/Super Favourites/S/favourites.xml" />
     <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/mb_temp.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
@@ -444,9 +428,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.kodi/userdata/Super Favourites/Super Favourites/PELICULAS en la Cola/favourites.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../.kodi/userdata/Super Favourites/Super Favourites/PELICULAS en la Cola/favourites.xml" />
     <entry file="file://$PROJECT_DIR$/../.kodi/.GoVi/skin.aeon.govi/shortcuts/movies.DATA.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="576">
@@ -522,9 +504,12 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/notifications.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
+        <state relative-caret-position="10008">
           <caret line="417" column="16" selection-start-line="417" selection-start-column="16" selection-end-line="417" selection-end-column="16" />
         </state>
       </provider>
@@ -540,6 +525,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="984">
           <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/email.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="47" column="64" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
         </state>
       </provider>
     </entry>

@@ -2,7 +2,7 @@
 Type=Application
 Name=Wine Installer
 MimeType=application/x-wine-extension-msp;
-Exec=env WINEPREFIX="/home/govi/Programs/Kodi/Wine/wine-pfx" wine start /ProgIDOpen Msi.Patch %f
+Exec=env WINEPREFIX="/home/govi/Programs/Adobe/Wine/wine-pfx/" /home/ubuntu/buildbot/runners/wine/lutris-ge-6.16-1-x86_64/bin/wine start /ProgIDOpen Msi.Patch %f
 NoDisplay=true
 StartupNotify=true
-Icon=D23E_msiexec.0
+Icon=2402_msiexec.0

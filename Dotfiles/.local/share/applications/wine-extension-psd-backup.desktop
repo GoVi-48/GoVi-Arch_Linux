@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Adobe Photoshop 2022
+MimeType=application/x-wine-extension-psd-backup;
+Exec=env WINEPREFIX="/home/govi/Programs/Adobe/Wine/wine-pfx/" /home/ubuntu/buildbot/runners/wine/lutris-ge-6.16-1-x86_64/bin/wine start /ProgIDOpen Photoshop.Image.23 %f
+NoDisplay=true
+StartupNotify=true
+Icon=2992_photoshop.0

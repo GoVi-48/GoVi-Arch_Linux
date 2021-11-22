@@ -31,7 +31,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../.xinitrc">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="24">
@@ -40,12 +40,28 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../Programs/Webgrab++/.wg++/WebGrab++.config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-144">
+              <caret line="36" selection-start-line="36" selection-end-line="65" selection-end-column="105" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../Downloads/Spain_movistarplus.es/movistarplus.es.channels.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1645">
+              <caret line="76" column="34" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>htop</find>
-      <find>ferm</find>
       <find>phot</find>
       <find>-</find>
       <find>fire</find>
@@ -74,6 +90,8 @@
       <find>favourites</find>
       <find>Favourites\+Plus</find>
       <find>Cola</find>
+      <find>DAZN</find>
+      <find>vigo</find>
     </findStrings>
     <replaceStrings>
       <replace>'</replace>
@@ -114,7 +132,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Shell/Utils/rename_when.sh" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/system_update.sh" />
       <option value="/Media/Games/PC/Subnautica - Below Zero/Wine/Launch-Subnautica_Below_Zero.sh" />
       <option value="$PROJECT_DIR$/Shell/Games/_Create_wine-pfx/Install_DXVK.sh" />
@@ -165,6 +182,7 @@
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/mem_load.sh" />
       <option value="$PROJECT_DIR$/../.kodi/addons/skin.aeon.govi/shortcuts/overrides.xml" />
       <option value="$PROJECT_DIR$/../.config/qtile/scripts/email.sh" />
+      <option value="$PROJECT_DIR$/../Programs/Webgrab++/.wg++/WebGrab++.config.xml" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -195,6 +213,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.6456522" />
       <window_info id="Structure" order="1" show_stripe_button="false" weight="0.24891305" />
@@ -247,25 +266,6 @@
     <state x="971" y="45" width="932" height="984" key="dock-window-1/0.0.1920.1080@0.0.1920.1080" timestamp="1632945820385" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/updates_aur.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Wine/Scripts/_Create_wine-pfx/Install_vkd3d-proton.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="29" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../.kodi/.GoVi/skin.aeon.govi/1080p/View_50_List.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11664" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.kodi/.GoVi/skin.aeon.govi/1080p/Variables_Widgets.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12159" />
@@ -507,6 +507,13 @@
     <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/notifications.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/email.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="47" column="64" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../.config/qtile/config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="10008">
@@ -528,17 +535,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.config/qtile/scripts/email.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="47" column="64" selection-start-line="47" selection-start-column="64" selection-end-line="47" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../.xinitrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Downloads/Spain_movistarplus.es/movistarplus.es.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3159" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Downloads/Spain_movistarplus.es/movistarplus.es.channels.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1645">
+          <caret line="76" column="34" selection-start-line="76" selection-start-column="32" selection-end-line="76" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Programs/Webgrab++/.wg++/WebGrab++.config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-144">
+          <caret line="36" selection-start-line="36" selection-end-line="65" selection-end-column="105" />
         </state>
       </provider>
     </entry>

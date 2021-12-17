@@ -95,9 +95,10 @@ sudo mkdir -p /Windows
 sudo chown govi:wheel /Datos/
 sudo chown govi:wheel /Media/
 sudo chown govi:wheel /Windows/
-#chmod +rwx /home/*
+# Repair in case goes read only
+    # chmod +rwx /home/*
+    # sudo ntfsfix /dev/sdc1
 ls -l /
-
 
 # ============================================================================= #
                             # Crontab Jobs #

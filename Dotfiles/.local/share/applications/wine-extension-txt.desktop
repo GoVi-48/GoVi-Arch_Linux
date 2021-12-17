@@ -2,7 +2,7 @@
 Type=Application
 Name=notepad
 MimeType=text/plain;
-Exec=env WINEPREFIX="/home/govi/Programs/Adobe/Wine/wine-pfx/" /home/ubuntu/buildbot/runners/wine/lutris-ge-6.16-1-x86_64/bin/wine start /ProgIDOpen txtfile %f
+Exec=env WINEPREFIX="/home/govi/Scripts/Shell/Games/_Create_wine-pfx/wine-pfx" wine start /ProgIDOpen txtfile %f
 NoDisplay=true
 StartupNotify=true
-Icon=1E64_notepad.0
+Icon=2E40_notepad.0

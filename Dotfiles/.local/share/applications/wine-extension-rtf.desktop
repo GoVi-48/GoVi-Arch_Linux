@@ -2,7 +2,7 @@
 Type=Application
 Name=wordpad
 MimeType=application/rtf;
-Exec=env WINEPREFIX="/home/govi/Programs/Adobe/Wine/wine-pfx/" /home/ubuntu/buildbot/runners/wine/lutris-ge-6.16-1-x86_64/bin/wine start /ProgIDOpen rtffile %f
+Exec=env WINEPREFIX="/home/govi/Scripts/Shell/Games/_Create_wine-pfx/wine-pfx" wine start /ProgIDOpen rtffile %f
 NoDisplay=true
 StartupNotify=true
-Icon=97C1_wordpad.0
+Icon=3365_wordpad.0

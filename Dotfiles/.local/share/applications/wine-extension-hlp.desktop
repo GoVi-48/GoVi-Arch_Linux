@@ -2,7 +2,7 @@
 Type=Application
 Name=winhlp32
 MimeType=application/winhlp;
-Exec=env WINEPREFIX="/home/govi/Programs/Adobe/Wine/wine-pfx/" /home/ubuntu/buildbot/runners/wine/lutris-ge-6.16-1-x86_64/bin/wine start /ProgIDOpen hlpfile %f
+Exec=env WINEPREFIX="/home/govi/Scripts/Shell/Games/_Create_wine-pfx/wine-pfx" wine start /ProgIDOpen hlpfile %f
 NoDisplay=true
 StartupNotify=true
-Icon=4137_winhlp32.0
+Icon=C06E_winhlp32.0

@@ -257,6 +257,9 @@ screens = [
                 widget.Image(filename='~/.config/qtile/@resources/power.png',
                              mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('qtile cmd-obj -o cmd -f shutdown')}),
 
+                widget.Image(filename='~/Multimedia/Pictures/Icons/Themes/GoVi/panel/system-restart-panel.svg',
+                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.xinitrc')}),
+
                 widget.Spacer(length=10),
 
                 widget.TextBox(font='GoVi_Icons', text='2',
@@ -373,7 +376,8 @@ screens = [
                 widget.Volume(update_interval=0.2, emoji=True),
                 widget.Volume(update_interval=0.2),
 
-                widget.Image(filename='~/.config/qtile/@resources/calendar.png'),
+                widget.Image(filename='~/.config/qtile/@resources/calendar.png',
+                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('gsimplecal')}),
                 widget.Clock(format='%a %d/%m/%Y ',
                              mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('gsimplecal')}),
             ],
@@ -415,6 +419,9 @@ screens = [
                 # ================================= WIDGETS BOTTOM LEFT 2 ================================= #
                 widget.Image(filename='~/.config/qtile/@resources/power.png',
                              mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('qtile cmd-obj -o cmd -f shutdown')}),
+
+                widget.Image(filename='~/Multimedia/Pictures/Icons/Themes/GoVi/panel/system-restart-panel.svg',
+                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.xinitrc')}),
 
                 widget.Spacer(length=20),
 
@@ -471,7 +478,8 @@ screens = [
                 widget.Volume(update_interval=0.2, emoji=True),
                 widget.Volume(update_interval=0.2),
 
-                widget.Image(filename='~/.config/qtile/@resources/calendar.png'),
+                widget.Image(filename='~/.config/qtile/@resources/calendar.png',
+                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('gsimplecal')}),
                 widget.Clock(format='%a %d/%m/%Y ',
                              mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('gsimplecal')}),
             ],

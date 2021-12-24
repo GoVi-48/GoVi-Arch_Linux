@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=A Wine application
+MimeType=application/x-wine-extension-ccx;
+Exec=env WINEPREFIX="/home/govi/Programs/Adobe/Wine/wine-pfx-PS" wine start /ProgIDOpen Adobe.UnifiedPluginInstallerAgent.1 %f
+NoDisplay=true
+StartupNotify=true

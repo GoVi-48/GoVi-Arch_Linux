@@ -2,7 +2,7 @@
 Type=Application
 Name=notepad
 MimeType=text/plain;
-Exec=env WINEPREFIX="/home/govi/Scripts/Shell/Games/_Create_wine-pfx/wine-pfx" wine start /ProgIDOpen txtfile %f
+Exec=env WINEPREFIX="/Datos/Programs/Adobe/Wine/wine-pfx-SP/" /usr/bin/wine start /ProgIDOpen txtfile %f
 NoDisplay=true
 StartupNotify=true
-Icon=2E40_notepad.0
+Icon=1E64_notepad.0

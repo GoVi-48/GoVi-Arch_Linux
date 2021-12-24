@@ -2,7 +2,7 @@
 Type=Application
 Name=Wine Installer
 MimeType=application/x-wine-extension-msp;
-Exec=env WINEPREFIX="/home/govi/Scripts/Shell/Games/_Create_wine-pfx/wine-pfx" wine start /ProgIDOpen Msi.Patch %f
+Exec=env WINEPREFIX="/Datos/Programs/Adobe/Wine/wine-pfx-SP/" /usr/bin/wine start /ProgIDOpen Msi.Patch %f
 NoDisplay=true
 StartupNotify=true
-Icon=D23E_msiexec.0
+Icon=2402_msiexec.0

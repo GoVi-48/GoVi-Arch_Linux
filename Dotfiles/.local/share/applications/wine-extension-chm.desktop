@@ -2,7 +2,7 @@
 Type=Application
 Name=hh
 MimeType=application/vnd.ms-htmlhelp;
-Exec=env WINEPREFIX="/home/govi/Scripts/Shell/Games/_Create_wine-pfx/wine-pfx" wine start /ProgIDOpen chm.file %f
+Exec=env WINEPREFIX="/Datos/Programs/Adobe/Wine/wine-pfx-SP/" /usr/bin/wine start /ProgIDOpen chm.file %f
 NoDisplay=true
 StartupNotify=true
-Icon=D15F_hh.0
+Icon=A35F_hh.0

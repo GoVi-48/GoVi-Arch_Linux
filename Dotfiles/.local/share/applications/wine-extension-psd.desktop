@@ -1,8 +1,8 @@
 [Desktop Entry]
 Type=Application
-Name=Adobe Photoshop CC 2019
+Name=Adobe Photoshop 2021
 MimeType=image/vnd.adobe.photoshop;
-Exec=env WINEPREFIX="/home/govi/Programs/Adobe/Wine/wine-pfx" wine start /ProgIDOpen Photoshop.Image.20 %f
+Exec=env WINEPREFIX="/Datos/Programs/Adobe/Wine/wine-pfx-PS" wine start /ProgIDOpen Photoshop.Image.22 %f
 NoDisplay=true
 StartupNotify=true
-Icon=0B5E_Photoshop.0
+Icon=A018_photoshop.0

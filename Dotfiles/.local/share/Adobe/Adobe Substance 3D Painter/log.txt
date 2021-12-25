@@ -1,0 +1,583 @@
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" projectName:  "Adobe Substance 3D Painter"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" softwareVersion:  "7.4.1"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" softwareVersionName:  "Substance Edition"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" buildNumber:  1418
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" sourcesVersion:  "7c8c2fc4fdff1f8e3d4000066a023321898b6277"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" osVersion:  "arch unknown"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" cpuModel:  "Intel(R) Core(TM) i5-4670K CPU @ 3.40GHz"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" ram:  "15883 MB"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" swap:  "4094 MB"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" "kernel-version: 5.15.11-zen1-1-zen #1 ZEN SMP PREEMPT Wed, 22 Dec 2021 09:23:53 +0000"
+[INFO] <Qt> "[DBG INFO][Main]" "Substance 3D Painter launched with the following command line arguments: "
+[INFO] <Qt> "[DBG INFO][Main]" "%F"
+[WARN] <Main> The current paging file maximum size is too low: 4094 MB (minimum: 16384 MB).
+   Substance 3D Painter can exceed virtual memory limits when doing a high resolution computation.
+   See https://www.adobe.com/go/painter-crash-low-virtual-memory
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" Vram amount: Computed with GL_NVX_gpu_memory_info
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" glVendor:  "NVIDIA Corporation"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" glRenderer:  "NVIDIA GeForce RTX 2060/PCIe/SSE2"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" glVersion:  "4.5.0 NVIDIA 495.46"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" glslVersion:  "4.50 NVIDIA"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" vram:  "6144 MB"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" "Number of detected GPU devices: 1"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" "Device[0] driver-desc: NVIDIA GeForce RTX 2060/PCIe/SSE2"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" "Device[0] driver-vendorid: 0x10de"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" "Device[0] driver-deviceid: 0x0000"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" "Device[0] driver-version: 495.46"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" "Device[0] driver-supported: 1"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" "Device[0] driver-minversion: 410.73"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" "Device[0] driver-minname: 410.73 Linux"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" "Device[0] driver-minurl: https://www.nvidia.com/Download/index.aspx?lang=en-us"
+[INFO] <Qt> "[DBG INFO][RunTimeInfo]" "Device[0] driver-outdated: 0"
+[INFO] <Qt> "[DBG INFO][OpenGL Helpers]" OpenGL max version  4 . 50
+[INFO] <Qt> "[DBG INFO][OpenGL Helpers]" Max texture image units  32
+[INFO] <Qt> "[DBG INFO][OpenGL Helpers]" GLSL max version  450
+[INFO] <Qt> "[DBG INFO][OpenGL Helpers]" Feature: Bindless textures
+[INFO] <Qt> "[DBG INFO][Iray Service]" Iray dso path:  "/opt/Adobe/Adobe_Substance_3D_Painter/PlugIns/iray"
+[WARN] <Qt> "[DBG WARNING][Iray Service]" MDL search dir path not found '/home/govi/Documents/mdl'
+[WARN] <Qt> "[DBG WARNING][Iray Service]" Fail to add Path: /home/govi/Documents/mdl
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///quad.fbx"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt://'"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : Normals found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : No Binormals found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : No Tangents found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : No Vertex Colors found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : UV found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Entering post processing pipeline"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: RemoveVCProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: RemoveVCProcess finished. Data structure cleanup has been done."
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: FindDegeneratesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: FindDegeneratesProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenUVCoordsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenUVCoordsProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: PretransformVerticesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: PretransformVerticesProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Removed 2 nodes and 0 animation channels (2 output nodes)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Kept 0 lights and 0 cameras"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Moved 1 meshes to WCS (number of output meshes: 1)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: TriangulateProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: TriangulateProcess finished. All polygons have been triangulated."
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: SortByPTypeProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: SortByPTypeProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: SplitMeshByUDIMProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: SplitMeshByUDIMProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Generate spatially-sorted vertex cache"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenVertexNormalsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Skipping one or more lines with the same contents"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenVertexNormalsProcess finished. Normals are already there"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: CalcTangentsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: CalcTangentsProcess finished. Tangents have been calculated"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: JoinVerticesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Mesh 0 (Plane) | Verts in: 6 out: 4 | ~33.3333%"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: JoinVerticesProcess finished | Verts in: 6 out: 4 | ~33.3%"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Leaving post processing pipeline"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///quad.fbx successfully loaded in 20 ms"
+[INFO] <Resources List Model> Icons memory budget set to 100MB.
+[WARN] <Qt> QObject::connect: signal not found in QItemSelectionModel
+[INFO] <Qt> "[DBG INFO][License]" License server started on port 55099
+[INFO] <Qt> "[DBG INFO][License]" DELAY SET TO 3600
+[INFO] <Qt> "[DBG INFO][License]" Hardware id = lin-gen-bfwqX1Wn3Up9isuZJ9uZdB1rSBk=
+[INFO] <Qt> "[DBG INFO][License]" License path used: 
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_axis_translate.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_axis_translate.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_axis_collision.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_axis_collision.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_axis_rotate_quarter.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_axis_rotate_quarter.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_axis_rotate_collision.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_axis_rotate_collision.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_axis_scale.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_axis_scale.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_axis_collision.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_axis_collision.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_double_axis_LX.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_double_axis_LX.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_double_axis_collision.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_double_axis_collision.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_double_axis_LY.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_double_axis_LY.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_double_axis_collision.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_double_axis_collision.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_axis_center.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_axis_center.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_projection_surface.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_projection_surface.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_projection_surface_collision.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_projection_surface_collision.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_axis_symmetry.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_axis_symmetry.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_axis_symmetry_collision.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_axis_symmetry_collision.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_axis_translate.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_axis_translate.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_axis_collision.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_axis_collision.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_double_axis_LX.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_double_axis_LX.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_double_axis_collision.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_double_axis_collision.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_double_axis_LY.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_double_axis_LY.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///gizmo/gizmo_double_axis_collision.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt:///gizmo/'"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///gizmo/gizmo_double_axis_collision.obj successfully loaded in 0 ms"
+[INFO] <Qt> "[DBG INFO][Automatic unwrap]" "Automatic UV unwrapping build version: 0.8.0+13.8a923eb4, runtime version: 0.8.0+13.8a923eb4"
+[INFO] <Python> Python environment:
+Version             : 3.7.6 (default, Feb 19 2020, 13:29:31) 
+[GCC 7.3.1 20180303 (Red Hat 7.3.1-5)]
+API version         : 1013
+Encoding            : utf-8
+File system encoding: utf-8
+Modules search path : ['/home/govi', '/opt/Adobe/Adobe_Substance_3D_Painter/resources/pythonsdk/lib/python37.zip', '/opt/Adobe/Adobe_Substance_3D_Painter/resources/pythonsdk/lib/python3.7', '/opt/Adobe/Adobe_Substance_3D_Painter/resources/pythonsdk/lib/python3.7/lib-dynload', '/opt/Adobe/Adobe_Substance_3D_Painter/resources/pythonsdk/lib/python3.7/site-packages']
+Directory prefix    : /opt/Adobe/Adobe_Substance_3D_Painter/resources/pythonsdk
+PATH                : /home/govi/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/opt/android-sdk/emulator:/opt/android-sdk/tools:/opt/android-sdk/tools/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin:/home/govi/Scripts/Shell/Autostart/
+
+[INFO] <Python> substance_painter package:
+Version             : 0.2.3
+
+[INFO] <Python> Plugins:
+Version             :0.0.1
+Plugins search path :['/home/govi/Documents/Adobe/Adobe Substance 3D Painter/python', '/opt/Adobe/Adobe_Substance_3D_Painter/resources/python']
+Loaded plugins      :{'painter_plugins_ui': <module 'painter_plugins_ui' from '/opt/Adobe/Adobe_Substance_3D_Painter/resources/python/startup/painter_plugins_ui.py'>}
+[INFO] <Qt> "[DBG INFO][Plugins]" "Loading plugin autosave"
+[INFO] <Qt> "[DBG INFO][Plugins]" "Enable plugin autosave located at file:///home/govi/Documents/Adobe/Adobe Substance 3D Painter/plugins/autosave/main.qml"
+[INFO] <Qt> "[DBG INFO][Plugins]" "Loading plugin dcc-live-link"
+[INFO] <Qt> "[DBG INFO][Plugins]" "Enable plugin dcc-live-link located at file:///home/govi/Documents/Adobe/Adobe Substance 3D Painter/plugins/dcc-live-link/main.qml"
+[INFO] <Qt> "[DBG INFO][Plugins]" "Loading plugin photoshop-export"
+[INFO] <Qt> "[DBG INFO][Plugins]" "Enable plugin photoshop-export located at file:///home/govi/Documents/Adobe/Adobe Substance 3D Painter/plugins/photoshop-export/main.qml"
+[INFO] <Qt> "[DBG INFO][Plugins]" "Loading plugin resources-updater"
+[INFO] <Plugin - resources-updater> No project open, resources updater discarded
+[INFO] <Qt> "[DBG INFO][Plugins]" "Enable plugin resources-updater located at file:///home/govi/Documents/Adobe/Adobe Substance 3D Painter/plugins/resources-updater/main.qml"
+[WARN] <Qt> QFSFileEngine::open: No file name specified
+[INFO] <Qt> "[DBG INFO][Plugins]" "Loading plugin "
+[WARN] <Qt> QFSFileEngine::open: No file name specified
+[INFO] <Qt> "[DBG INFO][Plugins]" "Enable plugin  located at qrc:/plugins/pythonjsonserver.qml"
+[INFO] <Qt> "[DBG INFO][Plugins]" "Reloading plugin "
+[WARN] <Qt> QFSFileEngine::open: No file name specified
+[INFO] <Qt> "[DBG INFO][Plugins]" "Enable plugin  located at qrc:/plugins/pythonjsonserver.qml"
+[INFO] <Qt> "[DBG INFO][Google Analytics]" "Log event Global>Version>Adobe Substance 3D Painter.7.4.1>0"
+[INFO] <Qt> "[DBG INFO][Google Analytics]" "Log event Global>ReleaseName>Substance Edition>0"
+[INFO] <Qt> "[DBG INFO][Google Analytics]" "Log event Global>Application>Start>0"
+[INFO] <Qt> "[DBG INFO][Google Analytics]" "Log event Global>OSVersion>arch unknown>0"
+[INFO] <Qt> "[DBG INFO][Google Analytics]" "Log event Global>LicenceType>>0"
+[INFO] <Qt> "[DBG INFO][Google Analytics]" "Log event GPU>Vendor>NVIDIA Corporation>0"
+[INFO] <Qt> "[DBG INFO][Google Analytics]" "Log event GPU>Renderer>NVIDIA GeForce RTX 2060/PCIe/SSE2>0"
+[INFO] <Qt> "[DBG INFO][Google Analytics]" "Log event GPU>Memory>>6144"
+[INFO] <Qt> "[DBG INFO][Google Analytics]" "Log event GPU>Memory_String>6144 MB>0"
+[INFO] <Qt> "[DBG INFO][Application Status]" "Global temporary directory set to /tmp/SubstancePainter-Tmp-YwBUUW: 934.07 MB/7.76 GB."
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[WARN] <Qt> "[DBG WARNING][Signal Slot]" "Alg::connectSlotsByName: No matching signal for applicationStarted()"
+[WARN] <Qt> "[DBG WARNING][Signal Slot]" "Alg::connectSlotsByName: No matching signal for projectOpened()"
+[WARN] <Qt> "[DBG WARNING][Signal Slot]" "Alg::connectSlotsByName: No matching signal for statusChanged()"
+[WARN] <Qt> "[DBG WARNING][Signal Slot]" "Alg::connectSlotsByName: No matching signal for ManageLicense()"
+[WARN] <Qt> "[DBG WARNING][Signal Slot]" "Alg::connectSlotsByName: No matching signal for applicationStarted()"
+[WARN] <Qt> "[DBG WARNING][Signal Slot]" "Alg::connectSlotsByName: No matching signal for projectOpened()"
+[WARN] <Qt> "[DBG WARNING][Signal Slot]" "Alg::connectSlotsByName: No matching signal for uiShouldDisplayNodesDialog(QString)"
+[WARN] <Qt> "[DBG WARNING][Signal Slot]" "Alg::connectSlotsByName: No matching signal for uiShouldDisplayLicenseKeyDialog(QString)"
+[WARN] <Qt> "[DBG WARNING][Signal Slot]" "Alg::connectSlotsByName: No matching signal for uiShouldDisplayWarning(QString)"
+[WARN] <Qt> "[DBG WARNING][Signal Slot]" "Alg::connectSlotsByName: No matching signal for uiShouldDisplayLicenseAvailableToInstall(QString)"
+[WARN] <Qt> "[DBG WARNING][Signal Slot]" "Alg::connectSlotsByName: No matching signal for uiShouldDisplayLicenseNeedUpdate(QString)"
+[WARN] <Qt> "[DBG WARNING][Signal Slot]" "Alg::connectSlotsByName: No matching signal for uiShouldQuit(QString)"
+[WARN] <Qt> "[DBG WARNING][Signal Slot]" "Alg::connectSlotsByName: No matching signal for ManageLicense()"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 72 ms for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[WARN] <Qt> QMetaObject::connectSlotsByName: No matching signal for on_mode_currentIndexChanged(int)
+[WARN] <Qt> QMetaObject::connectSlotsByName: No matching signal for on_resetShader_clicked()
+[WARN] <Qt> QMetaObject::connectSlotsByName: No matching signal for on_can_undo_changed(bool)
+[WARN] <Qt> QMetaObject::connectSlotsByName: No matching signal for on_can_redo_changed(bool)
+[WARN] <Qt> "[DBG WARNING][Signal Slot]" "Alg::connectSlotsByName: No matching signal for set_shader_requested(Object,Object,ResourceShader*)"
+[WARN] <Qt> "[DBG WARNING][Signal Slot]" "Alg::connectSlotsByName: No matching signal for reset_shader_data_requested(Object)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///half-sphere.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt://'"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Entering post processing pipeline"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: RemoveVCProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: RemoveVCProcess finished. Data structure cleanup has been done."
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: FindDegeneratesProcess begin"
+[WARN] <Qt> "[DBG WARNING][Assimp]" "Warn,  T0: Found 56 degenerated primitives"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: FindDegeneratesProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenUVCoordsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenUVCoordsProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: PretransformVerticesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: PretransformVerticesProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Removed 2 nodes and 0 animation channels (2 output nodes)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Kept 0 lights and 0 cameras"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Moved 1 meshes to WCS (number of output meshes: 1)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: TriangulateProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: TriangulateProcess finished. There was nothing to be done."
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: SortByPTypeProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Points: 0X, Lines: 1X, Triangles: 1, Polygons: 0 (Meshes, X = removed)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: SortByPTypeProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: SplitMeshByUDIMProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: SplitMeshByUDIMProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Generate spatially-sorted vertex cache"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenVertexNormalsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Skipping one or more lines with the same contents"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenVertexNormalsProcess finished. Normals are already there"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: CalcTangentsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: CalcTangentsProcess finished. Tangents have been calculated"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: JoinVerticesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Mesh 0 (SurfSphere_Mesh) | Verts in: 3480 out: 668 | ~80.8046%"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: JoinVerticesProcess finished | Verts in: 3480 out: 668 | ~80.8%"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Leaving post processing pipeline"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///half-sphere.obj successfully loaded in 7 ms"
+[INFO] <Qt> "[DBG INFO][SVT pool factory]" Create SVT pool with the following configuration:
+[INFO] <Qt> "[DBG INFO][SVT pool factory]" "- sparse enabled: 1"
+[INFO] <Qt> "[DBG INFO][SVT pool factory]" "- budget: RAM:3970MB, VRAM:1536MB"
+[INFO] <Qt> "[DBG INFO][SVT pool factory]" "- location: /tmp/SubstancePainter-Tmp-YwBUUW/svt-cache.KdCJjm"
+[WARN] <Qt> QMetaObject::connectSlotsByName: No matching signal for on_stampBlendingComboBox_activated(int)
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///plane_stroke_preview.fbx"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt://'"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : Normals found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : Binormals found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : Tangents found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : No Vertex Colors found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : UV found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: ScenePreprocessor: Adding default material 'DefaultMaterial'"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Entering post processing pipeline"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: RemoveVCProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: RemoveVCProcess finished. Data structure cleanup has been done."
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: FindDegeneratesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: FindDegeneratesProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenUVCoordsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenUVCoordsProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: PretransformVerticesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: PretransformVerticesProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Removed 2 nodes and 0 animation channels (2 output nodes)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Kept 0 lights and 0 cameras"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Moved 1 meshes to WCS (number of output meshes: 1)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: TriangulateProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: TriangulateProcess finished. There was nothing to be done."
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: SortByPTypeProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: SortByPTypeProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Generate spatially-sorted vertex cache"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenVertexNormalsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Skipping one or more lines with the same contents"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenVertexNormalsProcess finished. Normals are already there"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: CalcTangentsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: CalcTangentsProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: JoinVerticesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Mesh 0 (plane_preview_stroke) | Verts in: 420 out: 142 | ~66.1905%"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: JoinVerticesProcess finished | Verts in: 420 out: 142 | ~66.2%"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Leaving post processing pipeline"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///plane_stroke_preview.fbx successfully loaded in 23 ms"
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "Result surfaces (RAM&VRAM)"   64 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "Source surfaces (RAM&VRAM)"   64 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "VRAM Surfaces (Results&Sources)"   128 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "VRAM Mesh buffers"   32 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "RAM Stamps"   16 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "Substance Render on the fly"   1024 MB
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///thumbnail_sphere.obj"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt://'"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Entering post processing pipeline"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: RemoveVCProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: RemoveVCProcess finished. Data structure cleanup has been done."
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: FindDegeneratesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: FindDegeneratesProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenUVCoordsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenUVCoordsProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: PretransformVerticesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: PretransformVerticesProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Removed 3 nodes and 0 animation channels (3 output nodes)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Kept 0 lights and 0 cameras"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Moved 1 meshes to WCS (number of output meshes: 1)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: TriangulateProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: TriangulateProcess finished. All polygons have been triangulated."
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: SortByPTypeProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: SortByPTypeProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Generate spatially-sorted vertex cache"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenVertexNormalsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Skipping one or more lines with the same contents"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenVertexNormalsProcess finished. Normals are already there"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: CalcTangentsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: CalcTangentsProcess finished. Tangents have been calculated"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: JoinVerticesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Mesh 0 (thumbnail_sphere) | Verts in: 32512 out: 8383 | ~74.2157%"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: JoinVerticesProcess finished | Verts in: 32512 out: 8383 | ~74.2%"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Leaving post processing pipeline"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///thumbnail_sphere.obj successfully loaded in 95 ms"
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "Result surfaces (RAM&VRAM)"   64 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "Source surfaces (RAM&VRAM)"   64 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "VRAM Surfaces (Results&Sources)"   128 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "VRAM Mesh buffers"   32 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "RAM Stamps"   16 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "Substance Render on the fly"   1024 MB
+[WARN] <Qt> QMetaObject::connectSlotsByName: No matching signal for on_stampBlendingComboBox_activated(int)
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///plane_stroke_preview.fbx"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt://'"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : Normals found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : Binormals found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : Tangents found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : No Vertex Colors found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : UV found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: ScenePreprocessor: Adding default material 'DefaultMaterial'"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Entering post processing pipeline"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: RemoveVCProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: RemoveVCProcess finished. Data structure cleanup has been done."
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: FindDegeneratesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: FindDegeneratesProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenUVCoordsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenUVCoordsProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: PretransformVerticesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: PretransformVerticesProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Removed 2 nodes and 0 animation channels (2 output nodes)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Kept 0 lights and 0 cameras"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Moved 1 meshes to WCS (number of output meshes: 1)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: TriangulateProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: TriangulateProcess finished. There was nothing to be done."
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: SortByPTypeProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: SortByPTypeProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Generate spatially-sorted vertex cache"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenVertexNormalsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Skipping one or more lines with the same contents"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenVertexNormalsProcess finished. Normals are already there"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: CalcTangentsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: CalcTangentsProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: JoinVerticesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Mesh 0 (plane_preview_stroke) | Verts in: 420 out: 142 | ~66.1905%"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: JoinVerticesProcess finished | Verts in: 420 out: 142 | ~66.2%"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Leaving post processing pipeline"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///plane_stroke_preview.fbx successfully loaded in 21 ms"
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "Result surfaces (RAM&VRAM)"   64 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "Source surfaces (RAM&VRAM)"   64 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "VRAM Surfaces (Results&Sources)"   128 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "VRAM Mesh buffers"   32 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "RAM Stamps"   16 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "Substance Render on the fly"   1024 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "Result surfaces (RAM&VRAM)"   64 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "Source surfaces (RAM&VRAM)"   64 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "VRAM Surfaces (Results&Sources)"   128 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "VRAM Mesh buffers"   32 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "RAM Stamps"   16 MB
+[INFO] <Qt> "[DBG INFO][EngineIntegration]" "Substance Render on the fly"   1024 MB
+[WARN] <Qt> "[DBG WARNING][Signal Slot]" "Alg::connectSlotsByName: No matching signal for create_shader_requested(ViewerSettings*,IRayService_*,QVariantMap)"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 3088 ms for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Resource Import ]" 
+ Loaded 1543 files in 2932.73ms
+  Alg::AbrResource (Loaded 1 files in 323.714 ms):
+    Mean/Median:     323.714ms / 323.714ms
+    Min/Max:          323.714ms / 323.714ms
+    Samples:
+      0: 323.714ms    0.111: 323.714ms    0.222: 323.714ms    0.333: 323.714ms    0.444: 323.714ms
+      0.556: 323.714ms    0.667: 323.714ms    0.778: 323.714ms    0.889: 323.714ms    1: 323.714ms
+
+  Alg::ResourceExportPreset (Loaded 31 files in 21.3502 ms):
+    Mean/Median:     0.688718ms / 0.356349ms
+    Min/Max:          0.244156ms / 5.93003ms
+    Samples:
+      0: 0.244156ms    0.111: 0.289575ms    0.222: 0.301172ms    0.333: 0.318204ms    0.444: 0.351218ms
+      0.556: 0.380032ms    0.667: 0.44384ms    0.778: 0.461774ms    0.889: 0.916326ms    1: 5.93003ms
+
+  Alg::ResourceImage (Loaded 167 files in 550.524 ms):
+    Mean/Median:     3.29655ms / 0.504034ms
+    Min/Max:          0.061189ms / 41.1927ms
+    Samples:
+      0: 0.061189ms    0.111: 0.082133ms    0.222: 0.137785ms    0.333: 0.460663ms    0.444: 0.494476ms
+      0.556: 0.514631ms    0.667: 0.5437ms    0.778: 1.02707ms    0.889: 12.2374ms    1: 41.1927ms
+
+  Alg::ResourceLayersPreset (Loaded 122 files in 387.028 ms):
+    Mean/Median:     3.17236ms / 2.45066ms
+    Min/Max:          1.14427ms / 30.4159ms
+    Samples:
+      0: 1.14427ms    0.111: 1.64909ms    0.222: 1.94478ms    0.333: 2.16449ms    0.444: 2.3744ms
+      0.556: 2.67926ms    0.667: 2.97679ms    0.778: 3.68163ms    0.889: 4.59655ms    1: 30.4159ms
+
+  Alg::ResourceParticles (Loaded 20 files in 3.68954 ms):
+    Mean/Median:     0.184477ms / 0.210043ms
+    Min/Max:          0.05798ms / 0.247499ms
+    Samples:
+      0: 0.05798ms    0.111: 0.089161ms    0.222: 0.165714ms    0.333: 0.174929ms    0.444: 0.197982ms
+      0.556: 0.214732ms    0.667: 0.21961ms    0.778: 0.225384ms    0.889: 0.234145ms    1: 0.247499ms
+
+  Alg::ResourcePreset (Loaded 208 files in 360.478 ms):
+    Mean/Median:     1.73307ms / 0.702748ms
+    Min/Max:          0.484866ms / 12.6625ms
+    Samples:
+      0: 0.484866ms    0.111: 0.560254ms    0.222: 0.607383ms    0.333: 0.635798ms    0.444: 0.675491ms
+      0.556: 0.724586ms    0.667: 0.902312ms    0.778: 2.13697ms    0.889: 4.92696ms    1: 12.6625ms
+
+  Alg::ResourceShader (Loaded 16 files in 1.58295 ms):
+    Mean/Median:     0.0989346ms / 0.075902ms
+    Min/Max:          0.066988ms / 0.206457ms
+    Samples:
+      0: 0.066988ms    0.111: 0.071023ms    0.222: 0.072175ms    0.333: 0.072768ms    0.444: 0.075495ms
+      0.556: 0.075902ms    0.667: 0.089545ms    0.778: 0.110239ms    0.889: 0.140761ms    1: 0.206457ms
+
+  Alg::ResourceSubstancePackage (Loaded 912 files in 1195.97 ms):
+    Mean/Median:     1.31137ms / 0.207886ms
+    Min/Max:          0.050926ms / 114.157ms
+    Samples:
+      0: 0.050926ms    0.111: 0.057083ms    0.222: 0.065436ms    0.333: 0.113222ms    0.444: 0.201595ms
+      0.556: 0.215102ms    0.667: 0.300295ms    0.778: 0.564896ms    0.889: 3.8126ms    1: 114.157ms
+
+  Alg::SmartMask (Loaded 66 files in 88.3963 ms):
+    Mean/Median:     1.33934ms / 1.19668ms
+    Min/Max:          0.71082ms / 9.69965ms
+    Samples:
+      0: 0.71082ms    0.111: 0.921343ms    0.222: 1.05693ms    0.333: 1.11171ms    0.444: 1.17083ms
+      0.556: 1.22647ms    0.667: 1.29655ms    0.778: 1.36559ms    0.889: 1.54138ms    1: 9.69965ms
+
+
+[INFO] <Qt> "[DBG INFO][ShadowLightRays]" Finished generating light rays
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 7 ms for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 65 ms for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Load qt:///plane_stroke_preview.fbx"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Assimp 3.1.202510665 amd64 gcc shared singlethreaded"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Found a matching importer for this file format"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Import root directory is 'qt://'"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : Normals found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : Binormals found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : Tangents found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : No Vertex Colors found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: [FBX] : UV found"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: ScenePreprocessor: Adding default material 'DefaultMaterial'"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Entering post processing pipeline"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: RemoveVCProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: RemoveVCProcess finished. Data structure cleanup has been done."
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: FindDegeneratesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: FindDegeneratesProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenUVCoordsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenUVCoordsProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: PretransformVerticesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: PretransformVerticesProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Removed 2 nodes and 0 animation channels (2 output nodes)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Kept 0 lights and 0 cameras"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Moved 1 meshes to WCS (number of output meshes: 1)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: TriangulateProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: TriangulateProcess finished. There was nothing to be done."
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: SortByPTypeProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Points: 0X, Lines: 0X, Triangles: 1, Polygons: 0 (Meshes, X = removed)"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: SortByPTypeProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Generate spatially-sorted vertex cache"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenVertexNormalsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Skipping one or more lines with the same contents"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: GenVertexNormalsProcess finished. Normals are already there"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: CalcTangentsProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: CalcTangentsProcess finished"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: JoinVerticesProcess begin"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Debug, T0: Mesh 0 (plane_preview_stroke) | Verts in: 420 out: 142 | ~66.1905%"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: JoinVerticesProcess finished | Verts in: 420 out: 142 | ~66.2%"
+[INFO] <Qt> "[DBG INFO][Assimp]" "Info,  T0: Leaving post processing pipeline"
+[INFO] <Qt> "[DBG INFO][Scene 3D]" "3D scene qt:///plane_stroke_preview.fbx successfully loaded in 20 ms"
+[INFO] <Qt> "[DBG INFO][ShadowLightRays]" Finished generating light rays
+[INFO] <Qt> "[DBG INFO][GenericMaterial]" "Creation of the shader preview-material-shader successful"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 10 ms for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 60 ms for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 8 ms for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 101 ms for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 6 ms for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 85 ms for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 12 ms for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 61 ms for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 21 ms for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 116 ms for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 9 ms for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 70 ms for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 7 ms for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 76 ms for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 10 ms for:  "/home/govi/Documents/Adobe/Adobe Substance 3D Painter/assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling started for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Library agent]" Resources crawling duration: 104 ms for:  "/opt/Adobe/Adobe_Substance_3D_Painter/resources/starter_assets"
+[INFO] <Qt> "[DBG INFO][Plugins]" "Unloading plugin resources-updater"
+[INFO] <Qt> "[DBG INFO][Plugins]" "Disable plugin resources-updater located at file:///home/govi/Documents/Adobe/Adobe Substance 3D Painter/plugins/resources-updater/main.qml"
+[INFO] <Qt> "[DBG INFO][Plugins]" "Unloading plugin photoshop-export"
+[INFO] <Qt> "[DBG INFO][Plugins]" "Disable plugin photoshop-export located at file:///home/govi/Documents/Adobe/Adobe Substance 3D Painter/plugins/photoshop-export/main.qml"
+[INFO] <Qt> "[DBG INFO][Plugins]" "Unloading plugin dcc-live-link"
+[INFO] <Qt> "[DBG INFO][Plugins]" "Disable plugin dcc-live-link located at file:///home/govi/Documents/Adobe/Adobe Substance 3D Painter/plugins/dcc-live-link/main.qml"
+[INFO] <Qt> "[DBG INFO][Plugins]" "Unloading plugin autosave"
+[INFO] <Qt> "[DBG INFO][Plugins]" "Disable plugin autosave located at file:///home/govi/Documents/Adobe/Adobe Substance 3D Painter/plugins/autosave/main.qml"
+[INFO] <Qt> "[DBG INFO][Plugins]" "Unloading plugin "
+[INFO] <Qt> "[DBG INFO][Plugins]" "Disable plugin  located at qrc:/plugins/pythonjsonserver.qml"
+[INFO] <Qt> "[DBG INFO][Google Analytics]" "Log event Global>Application>Stop>2456"

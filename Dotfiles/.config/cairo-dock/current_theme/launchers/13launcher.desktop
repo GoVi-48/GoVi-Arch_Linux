@@ -21,7 +21,7 @@ Icon=/home/govi/Multimedia/Pictures/Icons/Themes/GoVi/apps/64/Adobe_Substance_3D
 
 #s[Default] Command to launch on click:
 #{Example: nautilus --no-desktop, gedit, etc. You can even enter a shortkey, e.g. <Alt>F1, <Ctrl>c,  <Ctrl>v, etc}
-Exec=~/Programs/Adobe/Wine/Launch-Substance_Painter.sh
+Exec=\s'/home/govi/Programs/Adobe/Wine/Launch-Substance_Painter.sh'
 
 
 #X[Extra parameters]

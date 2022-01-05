@@ -42,19 +42,20 @@ terminal = guess_terminal()
 keys = [
 
     # Custom Shortcuts
+    Key([mod, "control"], "q", lazy.spawn('sh -c ~/.config/rofi/powermenu/powermenu.sh')),
+    Key([mod], "l", lazy.spawn('sh -c /home/govi/.config/rofi/launchers/colorful/launcher.sh')),
     Key([mod], "s", lazy.spawn('flameshot full -d 1 -p /home/govi/Multimedia/Pictures/Screenshots/')),
     Key([mod], "b", lazy.spawn('firefox')),
     Key([mod], "f", lazy.spawn('spacefm')),
     Key([mod], "m", lazy.spawn('alacritty -e bashtop')),
     Key([mod], "g", lazy.spawn('firefox "http://www.gmail.com"')),
-    Key([mod], "Escape", lazy.window.kill(), desc="Kill focused window"),
-    Key([mod], "w", lazy.window.kill(), desc="Kill focused window"),
-
+    Key([mod], "Escape", lazy.window.kill()),
+    Key([mod], "w", lazy.window.kill()),
     # Key([mod], "q", lazy.to_screen(0), desc='Keyboard focus to monitor 1'),
     # Key([mod], "e", lazy.to_screen(1), desc='Keyboard focus to monitor 2'),
-    Key([mod, "shift"], "f", lazy.window.toggle_fullscreen(), desc='toggle fullscreen'),
     Key([mod], "e", lazy.next_screen(),),
     Key([mod], "q", lazy.prev_screen(),),
+    Key([mod, "shift"], "f", lazy.window.toggle_fullscreen(), desc='toggle fullscreen'),
 
     # Switch between windows
     Key([mod], "h", lazy.layout.left(), desc="Move focus to left"),
@@ -104,7 +105,7 @@ keys = [
     Key([mod], "Tab", lazy.next_layout(), desc="Toggle between layouts"),
 
     Key([mod, "control"], "r", lazy.restart(), desc="Restart Qtile"),
-    Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
+    # Key([mod, "control"], "q", lazy.shutdown(), desc="Shutdown Qtile"),
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
 ]
 
@@ -112,7 +113,7 @@ keys = [
 # ================================= GROUPS ================================= #
 # Run "sleep 5 && xprop" to see the wm class and name of an X client.
 groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefox", "lutris", "Steam", "*.exe", ])]),
-          Group("2", label="", layout='monadtall', matches=[Match(wm_class=["jetbrains-pycharm-ce-debug", "TelegramDesktop", ])]),
+          Group("2", label="", layout='monadtall', matches=[Match(wm_class=["jetbrains-pycharm-ce-debug", ])]),
           Group("3", label="", layout='monadtall'),
           Group("4", label="", layout='monadtall'),
           Group("5", label="", layout='monadtall'),
@@ -162,7 +163,7 @@ layouts = [
 
 # ================================= WIDGETS ================================= #
 widget_defaults = dict(
-                background='#21242B',
+                background='#21242B00',
                 foreground='#dfdfdf',
                 font='Source Code Pro',
                 fontsize=15,
@@ -216,10 +217,10 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                # ================================= WIDGETS TOP LEFT ================================= #
+                # ================================= WIDGETS TOP LEFT ==========ts/======================= #
                 widget.Image(filename='~/.config/qtile/@resources/archlinux.png',
                              margin=0,
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sgtk-menu')}),
+                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/rofi/launchers/colorful/launcher.sh')}),
 
                 widget.CurrentLayoutIcon(scale=0.7),
 
@@ -254,11 +255,11 @@ screens = [
         bottom=bar.Bar(
             [
                 # ================================= WIDGETS BOTTOM LEFT ================================= #
-                widget.Image(filename='~/.config/qtile/@resources/power.png',
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('qtile cmd-obj -o cmd -f shutdown')}),
+                widget.Image(filename='~/.config/qtile/@resources/power-button.png',
+                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/rofi/powermenu/powermenu.sh')}),
 
                 widget.Image(filename='~/Multimedia/Pictures/Icons/Themes/GoVi/panel/system-restart-panel.svg',
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.xinitrc')}),
+                             mouse_callbacks={'Button1': lazy.restart()}),
 
                 widget.Spacer(length=10),
 
@@ -300,20 +301,12 @@ screens = [
 
                 widget.Spacer(length=20),
 
-                widget.Image(filename='~/.config/qtile/@resources/gmail.svg', margin=8,
+                widget.Image(filename='~/.config/qtile/@resources/gmail.png', margin=8,
                              mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('firefox "http://www.gmail.com"')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/email.sh'),
                                    update_interval=300, fontsize=12),
 
-                # widget.Image(filename='~/.config/qtile/@resources/youtube.svg', margin=8,
-                #              mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_youtube_Reset.sh')}),
-                # widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_youtube_not.sh'),
-                #                    update_interval=300, fontsize=12),
-
-                # widget.Image(filename='~/.config/qtile/@resources/gamepad.png', margin=7,
-                #              mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_games_Reset.sh')}),
-                # widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_games_not.sh'),
-                #                    update_interval=300, fontsize=12),
+                widget.Spacer(length=10),
 
                 widget.Image(filename='~/.config/qtile/@resources/github.svg', margin=9,
                              mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_github_Reset.sh')}),
@@ -392,7 +385,7 @@ screens = [
                 # ================================= WIDGETS TOP LEFT 2 ================================= #
                 widget.Image(filename='~/.config/qtile/@resources/archlinux.png',
                              margin=0,
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sgtk-menu')}),
+                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/rofi/launchers/colorful/launcher.sh')}),
 
                 widget.CurrentLayoutIcon(scale=0.7),
 
@@ -431,7 +424,7 @@ screens = [
 
                 widget.Spacer(length=10),
 
-                widget.Image(filename='~/.config/qtile/@resources/gmail.svg', margin=8,
+                widget.Image(filename='~/.config/qtile/@resources/gmail.png', margin=8,
                              mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('firefox "http://www.gmail.com"')}),
                 widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/email.sh'),
                                    update_interval=300, fontsize=12),

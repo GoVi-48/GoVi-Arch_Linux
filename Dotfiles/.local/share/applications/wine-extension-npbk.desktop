@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=MultiPlayerManager
-MimeType=application/x-wine-extension-npbk;
-Exec=env WINEPREFIX="/home/govi/.wine" wine start /ProgIDOpen Nox.npbk %f
-NoDisplay=true
-StartupNotify=true
-Icon=DA35_MultiPlayerManager.0

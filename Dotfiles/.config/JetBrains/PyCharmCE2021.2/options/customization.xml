@@ -1,15 +1,5 @@
 <application>
   <component name="com.intellij.ide.ui.customization.CustomActionsSchema">
-    <group value="SearchEverywhere" is_action="true" action_type="-1" position="11">
-      <path value="root" />
-      <path value="Main Toolbar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="ToolbarRunGroup" is_group="true" action_type="-1" position="7">
-      <path value="root" />
-      <path value="Main Toolbar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
     <group value="Forward" is_action="true" action_type="-1" position="6">
       <path value="root" />
       <path value="Main Toolbar" />
@@ -18,12 +8,6 @@
     <group value="Back" is_action="true" action_type="-1" position="5">
       <path value="root" />
       <path value="Main Toolbar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="ShowSettings" is_action="true" action_type="-1" position="1">
-      <path value="root" />
-      <path value="Main Toolbar" />
-      <path value="MainToolBarSettings" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="NewElement" is_action="true" action_type="1" position="0">
@@ -119,6 +103,11 @@
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="RevealIn" is_action="true" action_type="1" position="24">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="CopyReferencePopupGroup" is_group="true" action_type="1" position="25">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />

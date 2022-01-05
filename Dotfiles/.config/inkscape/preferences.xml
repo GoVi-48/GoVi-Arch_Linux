@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <inkscape
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   version="1"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   version="1">
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd">
   <group
      id="window">
     <group
@@ -105,11 +105,14 @@
     <sodipodi:namedview
        id="base"
        pagecolor="#ffffff"
+       pageopacity="0.0"
+       pagecheckerboard="0"
        bordercolor="#666666"
        borderopacity="1.0"
        objecttolerance="10.0"
        gridtolerance="10.0"
        guidetolerance="10.0"
+       pageshadow="2"
        inkscape:pageopacity="0.0"
        inkscape:pageshadow="2"
        inkscape:window-width="640"
@@ -211,7 +214,9 @@
        tracebackground="0"
        usepressure="1"
        usetilt="0"
-       keep_selected="1">
+       keep_selected="1"
+       abs_width="1"
+       unit="mm">
       <group
          id="preset">
         <group
@@ -316,7 +321,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -584,11 +589,11 @@
        placement="2" />
     <group
        id="xml"
+       h="370"
+       w="344"
        panedpos="135"
        x="0"
        y="0"
-       w="344"
-       h="370"
        visible="0"
        state="2"
        placement="2" />
@@ -660,7 +665,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/govi/Escritorio"
+       path="/home/govi/Themes/GoVi/apps/64"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -708,10 +713,10 @@
     <group
        id="layers"
        maxDepth="20"
-       x="0"
-       y="0"
        w="514"
        h="226"
+       x="0"
+       y="0"
        visible="1"
        state="2"
        placement="1" />
@@ -1031,8 +1036,8 @@
     <group
        id="rendering" />
     <group
-       value="2"
-       id="defaultwindowsize" />
+       id="defaultwindowsize"
+       value="2" />
     <group
        unitType="1"
        id="font" />
@@ -1077,9 +1082,9 @@
        height="1012"
        x="0"
        y="34"
+       maximized="1"
        fullscreen="0"
-       id="geometry"
-       maximized="1" />
+       id="geometry" />
     <group
        id="XYfront" />
     <group
@@ -1179,7 +1184,7 @@
   <group
      symbolicDefaultColors="1"
      symbolicIcons="1"
-     darkTheme="1"
+     darkTheme="0"
      preferDarkTheme="1"
      menuIcons_objects="0"
      menuIcons_layers="0"
@@ -1188,7 +1193,9 @@
      gtkTheme="GoVi_gtk-Windows"
      defaultIconTheme="GoVi"
      defaultTheme="GoVi"
-     id="theme">
+     id="theme"
+     defaultPreferDarkTheme="1"
+     defaultGtkTheme="GoVi">
     <group
        symbolicErrorColor="3422552319"
        symbolicWarningColor="4118348031"

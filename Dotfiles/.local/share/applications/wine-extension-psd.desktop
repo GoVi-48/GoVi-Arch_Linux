@@ -1,8 +1,0 @@
-[Desktop Entry]
-Type=Application
-Name=Adobe Photoshop 2021
-MimeType=image/vnd.adobe.photoshop;
-Exec=env WINEPREFIX="/Datos/Programs/Adobe/Wine/wine-pfx-PS" wine start /ProgIDOpen Photoshop.Image.22 %f
-NoDisplay=true
-StartupNotify=true
-Icon=A018_photoshop.0

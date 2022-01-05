@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# ID usuario
-# GoVi_48 alexpeed48@gmail.com
-# Tricomas48
-
 # Colors
 export tput init
 BOLD=`tput bold` # Bold

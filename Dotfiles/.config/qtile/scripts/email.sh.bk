@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+while ! ping -c2 google.com > /dev/null 2>&1; do sleep 10; done
+
+#pgrep -x "wineserver" > /dev/null  && exit
+
+username_1="email_1@gmail.com"
+password_1=""
+username_2="email_2@gmail.com"
+password_2=""
+
+emailcount_1="$(curl -u $username_1:$password_1 --silent 'https://mail.google.com/mail/feed/atom' | awk -F '<fullcount>|</fullcount>' '{print $2}')"
+emailcount_2="$(curl -u $username_2:$password_2 --silent 'https://mail.google.com/mail/feed/atom' | awk -F '<fullcount>|</fullcount>' '{print $2}')"
+
+emailcount=$((emailcount_1 + emailcount_2))
+
+[[ "$emailcount" == 0 ]] && echo
+
+[[ "$emailcount" > 0 ]] && echo "$emailcount"
+
+exit

@@ -1,5 +1,13 @@
 #!/bin/bash
 
+# String Contains
+[[ "$OUTPUT"=~"string.*" ]] && "Do This"
+
+awk '/STRING/' ./file
+
+# Print line
+awk 'NR==3' file # Print line nº3
+
 # Extract line with multiple matches
 grep -E "pattern1|pattern2"
 
@@ -29,3 +37,9 @@ for i in /DIR/*THIS* ; do mv -v "$i" "${i/\THIS/THAT}" ; done
 
 # Check if output is a number
 [[ $1 == ?(-)+([0-9]) ]] && echo "$1 is an integer"
+
+# Find and delete zip files
+find "DIR/" -name "*.z*" -delete
+
+# Compare files
+cmp -- "FILE_1" "FILE_2"

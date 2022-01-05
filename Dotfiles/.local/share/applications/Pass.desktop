@@ -1,13 +1,14 @@
 [Desktop Entry]
-Comment=
-Exec=~/Scripts/Bash/Utils/Pass.sh
-Icon=/home/govi/Imágenes/Icons/System/Png/lock.png
 Name=Pass
+Categories=Utilities;
+Icon=/home/govi/Themes/GoVi/apps/64/pass.png
+Exec=sh -c ~/Scripts/Shell/Utils/Pass.sh
+MimeType=application/pgp-encrypted;
 NoDisplay=false
-Path[$e]=
 StartupNotify=true
 Terminal=true
 TerminalOptions=
 Type=Application
 X-KDE-SubstituteUID=false
 X-KDE-Username=
+Comment=

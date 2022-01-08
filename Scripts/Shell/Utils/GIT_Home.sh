@@ -38,6 +38,11 @@ rsync -arv --delete ~/.config/vkBasalt/ "$GOVI_ARCH_LINUX"/Gaming/vkBasalt/
 rsync -arv --exclude 'Games' --delete ~/Scripts/ "$GOVI_ARCH_LINUX"/Scripts/
 rsync -arv --delete ~/Scripts/Shell/Games/ "$GOVI_ARCH_LINUX"/Gaming/Scripts/
 
+# Git token
+TOKEN="$(awk 'NR==3' ~/.git_token)"
+git remote remove origin
+git remote add origin https://$TOKEN@github.com/GoVi-48/GoVi-Proyects.git
+
 # Push to Github
 cd "$GOVI_ARCH_LINUX"
 echo -e '\nUploading to Github...\n'; sleep 2

@@ -212,269 +212,216 @@ def mb_icon():
         return str('3')
     return str('🔥')
 
+# ================================= WIDGETS GLOBAL ================================= #
+Spacer_10 = widget.Spacer(length=10)
 
+Spacer_20 = widget.Spacer(length=20)
+
+Startup_Menu = widget.Image(
+    filename='~/.config/qtile/@resources/archlinux.png',
+    margin=0,
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/rofi/launchers/colorful/launcher.sh')})
+
+Layout = widget.CurrentLayoutIcon(scale=0.7)
+
+GroupBox = widget.GroupBox(
+    font='FontAw4esome', disable_drag=True,
+    highlight_method='text', this_current_screen_border='#86ACE0',
+    borderwidth=0, active='#DFDFDF', inactive='#717171')
+
+Prompt = widget.Prompt()
+
+TaskList = widget.TaskList(
+    borderwidth=2, border='#5C718E',
+    fontsize=14, max_title_width=300)
+
+Systray = widget.Systray(padding=10)
+
+Sound = widget.Image(
+    filename='~/.config/qtile/@resources/sound-preferences.svg',
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('pavucontrol')})
+
+Clock = widget.Clock(fontsize=18)
+
+Power = widget.Image(
+    filename='~/.config/qtile/@resources/power-button.png',
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/rofi/powermenu/powermenu.sh')})
+
+Restart_qtile = widget.Image(
+    filename='~/Multimedia/Pictures/Icons/Themes/GoVi/panel/system-restart-panel.svg',
+    mouse_callbacks={'Button1': lazy.restart()})
+
+Root_ico = widget.TextBox(
+    font='GoVi_Icons', text='2',
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /')})
+Root = widget.GenPollText(
+    func=lambda: subprocess.getoutput('df -h / --o=avail | awk "NR>1" | tr -d " "'),
+    update_interval=1,
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /')})
+
+Home_ico =  widget.TextBox(
+    font='GoVi_Icons', text='H',
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  ~/')})
+Home = widget.GenPollText(
+    func=lambda: subprocess.getoutput('df -h /home --o=avail | awk "NR>1" | tr -d " "'),
+    update_interval=1,
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  ~/')})
+
+Hdd_1_ico = widget.TextBox(
+    text='/D:',
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /Datos')})
+Hdd_1 = widget.GenPollText(
+    func=lambda: subprocess.getoutput('df -h /Datos --o=avail | awk "NR>1" | tr -d " "'),
+    update_interval=1,
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /Datos')})
+
+Hdd_2_ico = widget.TextBox(
+    text='/M:',
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /Media')})
+Hdd_2 = widget.GenPollText(
+    func=lambda: subprocess.getoutput('df -h /Media --o=avail | awk "NR>1" | tr -d " "'),
+    update_interval=1,
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /Media')})
+
+Notifications = widget.GenPollText(
+    func=lambda: subprocess.getoutput('~/.config/qtile/scripts/notifications.sh'),
+    font='Noto Color Emoji', update_interval=1,
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/notf_switch.sh')})
+
+Firefox = widget.Image(
+    filename='~/.config/qtile/@resources/firefox.png', margin=8,
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('firefox')})
+
+Gmail_ico = widget.Image(
+    filename='~/.config/qtile/@resources/gmail.png', margin=8,
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('firefox "http://www.gmail.com"')})
+Gmail = widget.GenPollText(
+    func=lambda: subprocess.getoutput('~/.config/qtile/scripts/email.sh'),
+    update_interval=300, fontsize=12)
+
+Github_ico = widget.Image(
+    filename='~/.config/qtile/@resources/github.svg', margin=9,
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_github_Reset.sh')})
+Github = widget.GenPollText(
+    func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_github_not.sh'),
+    update_interval=300, fontsize=12)
+
+Upd_pac = widget.GenPollText(
+    func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_pacman.sh'),
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/updates_pacman_Reset.sh')},
+    update_interval=1800)
+
+Upd_Aur = widget.GenPollText(
+    func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_aur.sh'),
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/updates_aur_Reset.sh')},
+    update_interval=1800)
+
+Net_et_D = widget.Net(format='{down}/s', interface='enp3s0')
+
+Net_wl_D = widget.Net(format='{down}/s', interface='wlp0s20u10')
+
+Net_ico = widget.Image(filename='~/.config/qtile/@resources/arrow_up_down.png')
+
+Net_et_U = widget.Net(format='{up}/s ', interface='enp3s0')
+
+Net_wl_U = widget.Net(format='{up}/s ', interface='wlp0s20u10')
+
+Mem_Load_ico = widget.TextBox(
+    font='GoVi_Icons', text='4',
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')})
+Mem_Load = widget.GenPollText(
+    func=lambda: subprocess.getoutput('~/.config/qtile/scripts/mem_load.sh'),
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')},
+    update_interval=1)
+
+Cpu_Load_ico = widget.TextBox(
+    font='GoVi_Icons', text='5',
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')})
+Cpu_Load = widget.GenPollText(
+    func=lambda: subprocess.getoutput('~/.config/qtile/scripts/cpu_load.sh'),
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')},
+    update_interval=1)
+
+Cpu_Temp_ico = widget.GenPollText(
+    font='GoVi_Icons', func=lambda: cpu_icon(),
+    update_interval=1)
+Cpu_Temp = widget.GenPollText(
+    func=lambda: subprocess.getoutput('~/.config/qtile/scripts/cpu_temp.sh'),
+    update_interval=1, foreground='#287BDE')
+
+Gpu_Temp_ico = widget.TextBox(
+    font='GoVi_Icons', text='1')
+Gpu_Temp = widget.GenPollText(
+    func=lambda: subprocess.getoutput('~/.config/qtile/scripts/gpu_temp.sh'),
+    update_interval=1, foreground='#27AE60')
+
+Mb_Temp_ico = widget.TextBox(
+    font='GoVi_Icons', text='3')
+Mb_Temp = widget.GenPollText(
+    func=lambda: subprocess.getoutput('~/.config/qtile/scripts/mb_temp.sh'),
+    update_interval=1, foreground='#F6FA93')
+
+Volume_ico = widget.Volume(update_interval=0.2, emoji=True)
+
+Volume = widget.Volume(update_interval=0.2)
+
+Calendar_ico = widget.Image(
+    filename='~/.config/qtile/@resources/calendar.png',
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('gsimplecal')})
+Calendar = widget.Clock(
+    format='%a %d/%m/%Y ',
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('gsimplecal')})
+
+
+# ================================= SCREENS ================================= #
 screens = [
     Screen(
         top=bar.Bar(
             [
-                # ================================= WIDGETS TOP LEFT ==========ts/======================= #
-                widget.Image(filename='~/.config/qtile/@resources/archlinux.png',
-                             margin=0,
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/rofi/launchers/colorful/launcher.sh')}),
-
-                widget.CurrentLayoutIcon(scale=0.7),
-
-                widget.GroupBox(font='FontAw4esome',
-                                disable_drag=True,
-                                highlight_method='text',
-                                this_current_screen_border='#86ACE0',
-                                borderwidth=0,
-                                active='#DFDFDF',
-                                inactive='#717171'),
-
-                widget.Prompt(),
-
-                widget.TaskList(borderwidth=2, border='#5C718E', fontsize=14, max_title_width=300),
-
-
-                # ================================= WIDGETS TOP RIGHT ================================= #
-                widget.Systray(padding=10),
-
-                widget.Image(filename='~/.config/qtile/@resources/sound-preferences.svg',
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('pavucontrol')}),
-
-                # widget.Image(filename='~/.config/qtile/@resources/nvidia.png',
-                #              mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('nvidia-settings')}),
-
-                widget.Clock(fontsize=18),
-
+                Startup_Menu, Layout, GroupBox, Prompt, TaskList, # WIDGETS TOP LEFT
+                Systray, Sound, Clock, # WIDGETS TOP RIGHT
             ],
             34),
-
 
         bottom=bar.Bar(
             [
-                # ================================= WIDGETS BOTTOM LEFT ================================= #
-                widget.Image(filename='~/.config/qtile/@resources/power-button.png',
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/rofi/powermenu/powermenu.sh')}),
+                Power, Restart_qtile, Spacer_20, # WIDGETS BOTTOM LEFT
+                Root_ico, Root, Spacer_10, Home_ico, Home, Spacer_10, Hdd_1_ico, Hdd_1, Spacer_10, Hdd_2_ico, Hdd_2, Spacer_20, # WIDGETS BOTTOM LEFT
+                Notifications, Spacer_10, Firefox, Spacer_10, Gmail_ico, Gmail, Spacer_10, Github_ico, Github, # WIDGETS BOTTOM LEFT
 
-                widget.Image(filename='~/Multimedia/Pictures/Icons/Themes/GoVi/panel/system-restart-panel.svg',
-                             mouse_callbacks={'Button1': lazy.restart()}),
-
-                widget.Spacer(length=10),
-
-                widget.TextBox(font='GoVi_Icons', text='2',
-                               mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /')}),
-                widget.GenPollText(func=lambda: subprocess.getoutput('df -h / --o=avail | awk "NR>1" | tr -d " "'),
-                                   update_interval=1,
-                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /')}),
-
-                widget.Spacer(length=10),
-
-                widget.TextBox(font='GoVi_Icons', text='H',
-                               mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  ~/')}),
-                widget.GenPollText(func=lambda: subprocess.getoutput('df -h /home --o=avail | awk "NR>1" | tr -d " "'),
-                                   update_interval=1,
-                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  ~/')}),
-
-                widget.Spacer(length=10),
-
-                widget.TextBox(text='/D:',
-                               mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /Datos')}),
-                widget.GenPollText(func=lambda: subprocess.getoutput('df -h /Datos --o=avail | awk "NR>1" | tr -d " "'),
-                                   update_interval=1,
-                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /Datos')}),
-
-                widget.Spacer(length=10),
-
-                widget.TextBox(text='/M:',
-                               mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /Media')}),
-                widget.GenPollText(func=lambda: subprocess.getoutput('df -h /Media --o=avail | awk "NR>1" | tr -d " "'),
-                                   update_interval=1,
-                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('spacefm  /Media')}),
-
-                widget.Spacer(length=20),
-
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/notifications.sh'),
-                                   font='Noto Color Emoji', update_interval=1,
-                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/notf_switch.sh')}),
-
-                widget.Spacer(length=20),
-
-                widget.Image(filename='~/.config/qtile/@resources/gmail.png', margin=8,
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('firefox "http://www.gmail.com"')}),
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/email.sh'),
-                                   update_interval=300, fontsize=12),
-
-                widget.Spacer(length=10),
-
-                widget.Image(filename='~/.config/qtile/@resources/github.svg', margin=9,
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_github_Reset.sh')}),
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_github_not.sh'),
-                                   update_interval=300, fontsize=12),
-
-                widget.Spacer(length=20),
-
-                # updates_pacman_icon(),
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_pacman.sh'),
-                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/updates_pacman_Reset.sh')},
-                                   update_interval=1800),
-
-                widget.Spacer(length=10),
-
-                # updates_aur_icon(),
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_aur.sh'),
-                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/updates_aur_Reset.sh')},
-                                   update_interval=1800),
-
-
-                # ================================= WIDGETS BOTTOM RIGHT ================================= #
-                widget.Spacer(length=bar.STRETCH),
-                # widget.Net(format='{down}/s', interface='wlp0s20u10'),
-                widget.Net(format='{down}/s', interface='enp3s0'),
-                widget.Spacer(length=10),
-                widget.Image(filename='~/.config/qtile/@resources/arrow_up_down.png'),
-                widget.Net(format='{up}/s ', interface='enp3s0'),
-                # widget.Net(format='{up}/s ', interface='wlp0s20u10'),
-
-                widget.TextBox(font='GoVi_Icons', text='4',
-                               mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')}),
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/mem_load.sh'),
-                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')},
-                                   update_interval=1),
-
-                widget.Spacer(length=10),
-
-                widget.TextBox(font='GoVi_Icons', text='5',
-                               mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')}),
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/cpu_load.sh'),
-                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')},
-                                   update_interval=1),
-
-                widget.Spacer(length=10),
-
-                widget.GenPollText(font='GoVi_Icons', func=lambda: cpu_icon(),
-                                   update_interval=1),
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/cpu_temp.sh'),
-                                   update_interval=1, foreground='#287BDE'),
-
-                widget.TextBox(font='GoVi_Icons', text='1'),
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/gpu_temp.sh'),
-                                   update_interval=1, foreground='#27AE60'),
-
-                widget.TextBox(font='GoVi_Icons', text='3'),
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/mb_temp.sh'),
-                                   update_interval=1, foreground='#F6FA93'),
-
-                widget.Volume(update_interval=0.2, emoji=True),
-                widget.Volume(update_interval=0.2),
-
-                widget.Image(filename='~/.config/qtile/@resources/calendar.png',
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('gsimplecal')}),
-                widget.Clock(format='%a %d/%m/%Y ',
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('gsimplecal')}),
+                widget.Spacer(length=bar.STRETCH), # WIDGETS BOTTOM RIGHT
+                Net_et_D, Net_ico, Net_et_U, # WIDGETS BOTTOM RIGHT-2
+                Mem_Load_ico, Mem_Load, Spacer_10, Cpu_Load_ico, Cpu_Load, Spacer_10, # WIDGETS BOTTOM RIGHT
+                Cpu_Temp_ico, Cpu_Temp, Gpu_Temp_ico, Gpu_Temp, Mb_Temp_ico, Mb_Temp, Spacer_10, # WIDGETS BOTTOM RIGHT
+                Volume_ico, Volume, Calendar_ico, Calendar, # WIDGETS BOTTOM RIGHT
             ],
             34),
-
     ),
-
 
     Screen(
         top=bar.Bar(
             [
-                # ================================= WIDGETS TOP LEFT 2 ================================= #
-                widget.Image(filename='~/.config/qtile/@resources/archlinux.png',
-                             margin=0,
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/rofi/launchers/colorful/launcher.sh')}),
-
-                widget.CurrentLayoutIcon(scale=0.7),
-
-                widget.GroupBox(font='FontAw4esome',
-                                disable_drag=True,
-                                highlight_method='text',
-                                this_current_screen_border='#86ACE0',
-                                borderwidth=0,
-                                active='#DFDFDF',
-                                inactive='#717171'),
-
-                widget.Prompt(),
-
-                widget.TaskList(borderwidth=2, border='#5C718E', fontsize=14, max_title_width=300),
-
-
-                # ================================= WIDGETS TOP RIGHT 2 ================================= #
-                widget.Clock(fontsize=18),
+                Startup_Menu, Layout,
+                widget.GroupBox(
+                    font='FontAw4esome', disable_drag=True,
+                    highlight_method='text', this_current_screen_border='#86ACE0',
+                    borderwidth=0, active='#DFDFDF', inactive='#717171'),
+                Prompt,
+                widget.TaskList(borderwidth=2, border='#5C718E', fontsize=14, max_title_width=300), # WIDGETS TOP LEFT-2
+                Clock, # WIDGETS TOP RIGHT-2
             ],
             34),
 
         bottom=bar.Bar(
             [
-                # ================================= WIDGETS BOTTOM LEFT 2 ================================= #
-                widget.Image(filename='~/.config/qtile/@resources/power.png',
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('qtile cmd-obj -o cmd -f shutdown')}),
+                Power, Restart_qtile, Spacer_20, # WIDGETS BOTTOM LEFT-2
+                Notifications, Spacer_10, Firefox, Spacer_10, Gmail_ico, Gmail, Spacer_10, Github_ico, Github, # WIDGETS BOTTOM LEFT-2
 
-                widget.Image(filename='~/Multimedia/Pictures/Icons/Themes/GoVi/panel/system-restart-panel.svg',
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.xinitrc')}),
-
-                widget.Spacer(length=20),
-
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/notifications.sh'),
-                                   font='Noto Color Emoji', update_interval=1,
-                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/notf_switch.sh')}),
-
-                widget.Spacer(length=10),
-
-                widget.Image(filename='~/.config/qtile/@resources/gmail.png', margin=8,
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('firefox "http://www.gmail.com"')}),
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/email.sh'),
-                                   update_interval=300, fontsize=12),
-
-
-                # ================================= WIDGETS BOTTOM RIGHT 2 ================================= #
-                widget.Spacer(length=bar.STRETCH),
-                # widget.Net(format='{down}/s', interface='wlp0s20u10'),
-                widget.Net(format='{down}/s', interface='enp3s0'),
-                widget.Spacer(length=10),
-                widget.Image(filename='~/.config/qtile/@resources/arrow_up_down.png'),
-                widget.Net(format='{up}/s ', interface='enp3s0'),
-                # widget.Net(format='{up}/s ', interface='wlp0s20u10'),
-
-                widget.TextBox(font='GoVi_Icons', text='4',
-                               mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')}),
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/mem_load.sh'),
-                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')},
-                                   update_interval=1),
-
-                widget.Spacer(length=10),
-
-                widget.TextBox(font='GoVi_Icons', text='5',
-                               mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')}),
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/cpu_load.sh'),
-                                   mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')},
-                                   update_interval=1),
-
-                widget.Spacer(length=10),
-
-                widget.GenPollText(font='GoVi_Icons', func=lambda: cpu_icon(),
-                                   update_interval=1),
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/cpu_temp.sh'),
-                                   update_interval=1, foreground='#287BDE'),
-
-                widget.TextBox(font='GoVi_Icons', text='1'),
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/gpu_temp.sh'),
-                                   update_interval=1, foreground='#27AE60'),
-
-                widget.TextBox(font='GoVi_Icons', text='3'),
-                widget.GenPollText(func=lambda: subprocess.getoutput('~/.config/qtile/scripts/mb_temp.sh'),
-                                   update_interval=1, foreground='#F6FA93'),
-
-                widget.Volume(update_interval=0.2, emoji=True),
-                widget.Volume(update_interval=0.2),
-
-                widget.Image(filename='~/.config/qtile/@resources/calendar.png',
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('gsimplecal')}),
-                widget.Clock(format='%a %d/%m/%Y ',
-                             mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('gsimplecal')}),
+                widget.Spacer(length=bar.STRETCH), # WIDGETS BOTTOM RIGHT-2
+                Net_et_D, Net_ico, Net_et_U, # WIDGETS BOTTOM RIGHT-2
+                Mem_Load_ico, Mem_Load, Spacer_10, Cpu_Load_ico, Cpu_Load, Spacer_20, # WIDGETS BOTTOM RIGHT-2
+                Cpu_Temp_ico, Cpu_Temp, Spacer_10, Gpu_Temp_ico, Gpu_Temp, Spacer_10, Mb_Temp_ico, Mb_Temp, # WIDGETS BOTTOM RIGHT-2
+                Volume_ico, Volume, Calendar_ico, Calendar, # WIDGETS BOTTOM RIGHT-2
             ],
             34),
     ), ]

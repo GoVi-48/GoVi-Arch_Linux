@@ -96,7 +96,7 @@ alias yt="youtube-dl --add-metadata -ic"
 alias gcl="git clone"
 alias ga="git add"
 alias gcm="git commit -m"
-alias gpm="git push -u origin master"
+alias gpm="git push -u origin main"
 
 # System Info
 neofetch

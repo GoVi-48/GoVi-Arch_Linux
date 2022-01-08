@@ -9,18 +9,19 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/Details/Elements" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
-      <ExtraDataItem name="GUI/GroupDefinitions/" value="n=GLOBAL,m=812c16ab-9023-438a-8600-a512776db37c,m=b33be627-2d7c-44b3-a70f-db756cece2ce,m=47b334f4-57c8-4eb6-983b-5c65a2459dae,m=26bb8a2d-9a88-447f-91f0-3d6f6b36a8b1"/>
       <ExtraDataItem name="GUI/HideDescriptionForWizards" value="NewVM"/>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=Android 7.1"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="2614,45,655,706"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=Android 9"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="0,34,1920,1012"/>
       <ExtraDataItem name="GUI/MaxGuestResolution" value="1366,768"/>
-      <ExtraDataItem name="GUI/RecentFolderCD" value="/home/govi/Downloads"/>
-      <ExtraDataItem name="GUI/RecentFolderHD" value="/Datos/Virtual Machines/Windows 10 LTSC_x64"/>
-      <ExtraDataItem name="GUI/RecentListCD" value="/home/govi/Downloads/oreo_x86_64_k4.14_build_16-18-05-23-m17.3.0.iso,/home/govi/Downloads/Bliss-v11.14--OFFICIAL-20210507-2246_x86_64_k-google-5.10.32-lts-pledge-xanmod_m-20.1.10_pie-x86_dgc-p9.0-11.13_ld-p9.0-x86_dg-_dh-blueprint_pie-x86_w45_2020_mg-p9.0-x86.iso,/home/govi/Downloads/BlissOS-14.3-x86_64-202106181339_k-google-5.4.112-lts-ax86_m-r_emugapps_cros-hd_gearlock.iso,/Media/GoVi/Sistema/Programas/Windows/Microsoft/Windows 10 LTSC_x64.iso,/home/govi/Downloads/android-x86_64-7.1-r5-k419.iso"/>
-      <ExtraDataItem name="GUI/RecentListHD" value="/Datos/Virtual Machines/Windows 10 LTSC_x64/Windows 10 LTSC_x64_1.vdi,/Datos/Virtual Machines/Android 8/Android 8_1.vdi,/Datos/Virtual Machines/Windows 10 LTSC_x64.vdi"/>
+      <ExtraDataItem name="GUI/RecentFolderCD" value="/home/govi"/>
+      <ExtraDataItem name="GUI/RecentFolderFD" value="/home/govi"/>
+      <ExtraDataItem name="GUI/RecentFolderHD" value="/home/govi/Downloads/andr-9.0-r2-VB-64bit/64bit"/>
+      <ExtraDataItem name="GUI/RecentListCD" value="--,/home/govi/Downloads/android-x86_64-9.0-r2.iso,/home/govi/Downloads/android-x86_64-8.1-r6.iso,/home/govi/Downloads/oreo_x86_64_k4.14_build_16-18-05-23-m17.3.0.iso,/home/govi/Downloads/Bliss-v11.14--OFFICIAL-20210507-2246_x86_64_k-google-5.10.32-lts-pledge-xanmod_m-20.1.10_pie-x86_dgc-p9.0-11.13_ld-p9.0-x86_dg-_dh-blueprint_pie-x86_w45_2020_mg-p9.0-x86.iso"/>
+      <ExtraDataItem name="GUI/RecentListFD" value="--"/>
+      <ExtraDataItem name="GUI/RecentListHD" value="/home/govi/Downloads/andr-9.0-r2-VB-64bit/64bit/Android 9.0-R2 (64bit).vdi,/Datos/Virtual Machines/Windows 10 LTSC_x64/Windows 10 LTSC_x64_1.vdi,/Datos/Virtual Machines/Android 8/Android 8_1.vdi,/Datos/Virtual Machines/Windows 10 LTSC_x64.vdi"/>
       <ExtraDataItem name="GUI/SnapshotManager/Details/Expanded" value="true"/>
-      <ExtraDataItem name="GUI/SplitterSizes" value="231,423"/>
-      <ExtraDataItem name="GUI/SuppressMessages" value="confirmInputCapture,remindAboutAutoCapture,remindAboutMouseIntegration,confirmGoingScale,confirmPowerOffMachine,confirmGoingFullscreen,confirmResetMachine"/>
+      <ExtraDataItem name="GUI/SplitterSizes" value="678,1241"/>
+      <ExtraDataItem name="GUI/SuppressMessages" value="confirmResetMachine,remindAboutAutoCapture,remindAboutMouseIntegration,confirmInputCapture,confirmPowerOffMachine,confirmGoingScale"/>
       <ExtraDataItem name="GUI/Toolbar" value="false"/>
       <ExtraDataItem name="GUI/Tools/LastItemsSelected" value="Welcome,Details"/>
       <ExtraDataItem name="GUI/UpdateCheckCount" value="3"/>
@@ -30,15 +31,12 @@
       <ExtraDataItem name="HostOnly/vboxnet0/IPNetMask" value="255.255.255.0"/>
     </ExtraData>
     <MachineRegistry>
-      <MachineEntry uuid="{812c16ab-9023-438a-8600-a512776db37c}" src="/Datos/Virtual Machines/Android 8/Android 8.vbox"/>
-      <MachineEntry uuid="{b33be627-2d7c-44b3-a70f-db756cece2ce}" src="/Datos/Virtual Machines/Android 7.1/Android 7.1.vbox"/>
       <MachineEntry uuid="{47b334f4-57c8-4eb6-983b-5c65a2459dae}" src="/Datos/Virtual Machines/Windows 10 LTSC/Windows 10 LTSC.vbox"/>
-      <MachineEntry uuid="{26bb8a2d-9a88-447f-91f0-3d6f6b36a8b1}" src="/Datos/Virtual Machines/Bliss/Bliss.vbox"/>
-      <MachineEntry uuid="{655c47ff-4154-4278-9859-cb5e3299f6d1}" src="/home/govi/.Genymobile/Genymotion/Google Pixel/Google Pixel.vbox"/>
+      <MachineEntry uuid="{c3852840-502b-430f-afc0-9002465881db}" src="/Datos/Virtual Machines/Android 9/Android 9.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>
-        <DHCPServer networkName="HostInterfaceNetworking-vboxnet0" IPAddress="192.168.56.100" networkMask="255.255.255.0" lowerIP="192.168.56.101" upperIP="192.168.56.254" enabled="0"/>
+        <DHCPServer networkName="HostInterfaceNetworking-vboxnet0" IPAddress="192.168.56.100" networkMask="255.255.255.0" lowerIP="192.168.56.101" upperIP="192.168.56.254" enabled="1"/>
       </DHCPServers>
     </NetserviceRegistry>
     <SystemProperties defaultMachineFolder="/Datos/Virtual Machines" defaultHardDiskFormat="VDI" VRDEAuthLibrary="VBoxAuth" webServiceAuthLibrary="VBoxAuth" LogHistoryCount="3" proxyMode="0" exclusiveHwVirt="true"/>

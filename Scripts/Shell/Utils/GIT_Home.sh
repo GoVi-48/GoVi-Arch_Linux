@@ -40,11 +40,11 @@ rsync -arv --delete ~/Scripts/Shell/Games/ "$GOVI_ARCH_LINUX"/Gaming/Scripts/
 
 # Git token
 TOKEN="$(awk 'NR==3' ~/.git_token)"
+cd "$GOVI_ARCH_LINUX"
 git remote remove origin
-git remote add origin https://$TOKEN@github.com/GoVi-48/GoVi-Arch_Linux.git
+git remote add origin https://${TOKEN}@github.com/GoVi-48/GoVi-Arch_Linux.git
 
 # Push to Github
-cd "$GOVI_ARCH_LINUX"
 echo -e '\nUploading to Github...\n'; sleep 2
 git add .
 git commit -m "Updated"

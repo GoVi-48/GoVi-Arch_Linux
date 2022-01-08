@@ -62,15 +62,15 @@ while true; do
     esac
 done
 
-# Git token
-TOKEN="$(awk 'NR==3' ~/.git_token)"
-git remote remove origin
-git remote add origin https://$TOKEN@github.com/GoVi-48/GoVi-Proyects.git
-
 # Checking if are Updates to push
 cd "$REPO"
 GIT_SYNC="$(git diff --stat)"
 [[ "$GIT_SYNC(wc -L)" == 0 ]] && echo 'Nothing to Update' && exit
+
+# Git token
+TOKEN="$(awk 'NR==3' ~/.git_token)"
+git remote remove origin
+git remote add origin https://$TOKEN@github.com/GoVi-48/GoVi-Proyects.git
 
 # Push to Github
 echo -e '\nUploading to Github...\n'; sleep 2

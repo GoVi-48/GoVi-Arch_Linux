@@ -416,10 +416,10 @@ screens = [
                 Notifications, Spacer_10, Firefox, Spacer_10, Gmail_ico, Gmail, Spacer_10, Github_ico, Github,
 
                 widget.Spacer(length=bar.STRETCH), # WIDGETS BOTTOM RIGHT
-                Net_et_D, Net_ico, Net_et_U,
+                Net_et_D, Net_ico, Net_et_U, Spacer_10,
                 Mem_Load_ico, Mem_Load, Spacer_10, Cpu_icon, Cpu_Load, Spacer_10,
-                Cpu_Temp_ico, Cpu_Temp, Gpu_Temp_ico, Gpu_Temp, Mb_Temp_ico, Mb_Temp, Spacer_10, # WIDGETS BOTTOM RIGHT
-                Volume_ico, Volume, Calendar_ico, Calendar, # WIDGETS BOTTOM RIGHT
+                Cpu_Temp_ico, Cpu_Temp, Gpu_Temp_ico, Gpu_Temp, Mb_Temp_ico, Mb_Temp, Spacer_10,
+                Volume_ico, Volume, Calendar_ico, Calendar,
             ],
             34),
     ),
@@ -444,9 +444,9 @@ screens = [
                 Notifications, Spacer_10, Firefox, Spacer_10, Gmail_ico, Gmail, Spacer_10, Github_ico, Github,
 
                 widget.Spacer(length=bar.STRETCH), # WIDGETS BOTTOM RIGHT-2
-                Net_et_D, Net_ico, Net_et_U,
+                Net_et_D, Net_ico, Net_et_U, Spacer_10,
                 Mem_Load_ico, Mem_Load, Spacer_10, Cpu_icon, Cpu_Load, Spacer_20,
-                Cpu_Temp_ico, Cpu_Temp, Spacer_10, Gpu_Temp_ico, Gpu_Temp, Spacer_10, Mb_Temp_ico, Mb_Temp,
+                Cpu_Temp_ico, Cpu_Temp, Gpu_Temp_ico, Gpu_Temp, Mb_Temp_ico, Mb_Temp, Spacer_10,
                 Volume_ico, Volume, Calendar_ico, Calendar,
             ],
             34),

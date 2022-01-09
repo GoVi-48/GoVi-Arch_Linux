@@ -47,7 +47,7 @@ keys = [
     Key([mod], "s", lazy.spawn('flameshot full -d 1 -p /home/govi/Multimedia/Pictures/Screenshots/')),
     Key([mod], "b", lazy.spawn('firefox')),
     Key([mod], "f", lazy.spawn('spacefm')),
-    Key([mod], "m", lazy.spawn('alacritty -e bashtop')),
+    Key([mod], "m", lazy.spawn('sh -c bashtop')),
     Key([mod], "g", lazy.spawn('firefox "http://www.gmail.com"')),
     Key([mod], "Escape", lazy.window.kill()),
     Key([mod], "w", lazy.window.kill()),
@@ -189,6 +189,30 @@ def updates_aur_icon():
     return widget.Image(filename='~/.config/qtile/@resources/updates_0.png')
 
 
+def cpu_load_icon():
+    while True:
+        cpu_load = subprocess.getoutput('~/.config/qtile/scripts/cpu_load.sh | cut -c1-2')
+        cpu_load = int(cpu_load)
+        if cpu_load <= 20:
+            return widget.Image(
+                filename='~/.config/qtile/@resources/cpu_load_1.png')
+        elif cpu_load >> 20 and cpu_load << 40:
+            return widget.Image(
+                filename='~/.config/qtile/@resources/cpu_load_2.png')
+        elif cpu_load >= 40 and cpu_load << 60:
+            return widget.Image(
+                filename='~/.config/qtile/@resources/cpu_load_3.png')
+        elif cpu_load >= 60 and cpu_load << 80:
+            return widget.Image(
+                filename='~/.config/qtile/@resources/cpu_load_4.png')
+        elif cpu_load >= 80 and cpu_load << 90:
+            return widget.Image(
+                filename='~/.config/qtile/@resources/cpu_load_5.png')
+        elif cpu_load >= 90:
+            return widget.Image(
+                filename='~/.config/qtile/@resources/cpu_load_6.png')
+
+
 def cpu_icon():
     cpu_temp = subprocess.getoutput('~/.config/qtile/scripts/cpu_temp.sh | cut -c1-2')
     cpu_temp = int(cpu_temp)
@@ -211,6 +235,7 @@ def mb_icon():
     if mb_temp <= 30:
         return str('3')
     return str('🔥')
+
 
 # ================================= WIDGETS GLOBAL ================================= #
 Spacer_10 = widget.Spacer(length=10)
@@ -328,19 +353,20 @@ Net_wl_U = widget.Net(format='{up}/s ', interface='wlp0s20u10')
 
 Mem_Load_ico = widget.TextBox(
     font='GoVi_Icons', text='4',
-    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')})
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c bashtop')})
 Mem_Load = widget.GenPollText(
     func=lambda: subprocess.getoutput('~/.config/qtile/scripts/mem_load.sh'),
-    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')},
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c bashtop')},
     update_interval=1)
 
-Cpu_Load_ico = widget.TextBox(
+Cpu_icon = widget.TextBox(
     font='GoVi_Icons', text='5',
-    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')})
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c bashtop')})
 Cpu_Load = widget.GenPollText(
     func=lambda: subprocess.getoutput('~/.config/qtile/scripts/cpu_load.sh'),
-    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('alacritty -e bashtop')},
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c bashtop')},
     update_interval=1)
+Cpu_Load_icon = cpu_load_icon()
 
 Cpu_Temp_ico = widget.GenPollText(
     font='GoVi_Icons', func=lambda: cpu_icon(),
@@ -386,12 +412,12 @@ screens = [
         bottom=bar.Bar(
             [
                 Power, Restart_qtile, Spacer_20, # WIDGETS BOTTOM LEFT
-                Root_ico, Root, Spacer_10, Home_ico, Home, Spacer_10, Hdd_1_ico, Hdd_1, Spacer_10, Hdd_2_ico, Hdd_2, Spacer_20, # WIDGETS BOTTOM LEFT
-                Notifications, Spacer_10, Firefox, Spacer_10, Gmail_ico, Gmail, Spacer_10, Github_ico, Github, # WIDGETS BOTTOM LEFT
+                Root_ico, Root, Spacer_10, Home_ico, Home, Spacer_10, Hdd_1_ico, Hdd_1, Spacer_10, Hdd_2_ico, Hdd_2, Spacer_20,
+                Notifications, Spacer_10, Firefox, Spacer_10, Gmail_ico, Gmail, Spacer_10, Github_ico, Github,
 
                 widget.Spacer(length=bar.STRETCH), # WIDGETS BOTTOM RIGHT
-                Net_et_D, Net_ico, Net_et_U, # WIDGETS BOTTOM RIGHT-2
-                Mem_Load_ico, Mem_Load, Spacer_10, Cpu_Load_ico, Cpu_Load, Spacer_10, # WIDGETS BOTTOM RIGHT
+                Net_et_D, Net_ico, Net_et_U,
+                Mem_Load_ico, Mem_Load, Spacer_10, Cpu_icon, Cpu_Load, Spacer_10,
                 Cpu_Temp_ico, Cpu_Temp, Gpu_Temp_ico, Gpu_Temp, Mb_Temp_ico, Mb_Temp, Spacer_10, # WIDGETS BOTTOM RIGHT
                 Volume_ico, Volume, Calendar_ico, Calendar, # WIDGETS BOTTOM RIGHT
             ],
@@ -415,13 +441,13 @@ screens = [
         bottom=bar.Bar(
             [
                 Power, Restart_qtile, Spacer_20, # WIDGETS BOTTOM LEFT-2
-                Notifications, Spacer_10, Firefox, Spacer_10, Gmail_ico, Gmail, Spacer_10, Github_ico, Github, # WIDGETS BOTTOM LEFT-2
+                Notifications, Spacer_10, Firefox, Spacer_10, Gmail_ico, Gmail, Spacer_10, Github_ico, Github,
 
                 widget.Spacer(length=bar.STRETCH), # WIDGETS BOTTOM RIGHT-2
-                Net_et_D, Net_ico, Net_et_U, # WIDGETS BOTTOM RIGHT-2
-                Mem_Load_ico, Mem_Load, Spacer_10, Cpu_Load_ico, Cpu_Load, Spacer_20, # WIDGETS BOTTOM RIGHT-2
-                Cpu_Temp_ico, Cpu_Temp, Spacer_10, Gpu_Temp_ico, Gpu_Temp, Spacer_10, Mb_Temp_ico, Mb_Temp, # WIDGETS BOTTOM RIGHT-2
-                Volume_ico, Volume, Calendar_ico, Calendar, # WIDGETS BOTTOM RIGHT-2
+                Net_et_D, Net_ico, Net_et_U,
+                Mem_Load_ico, Mem_Load, Spacer_10, Cpu_icon, Cpu_Load, Spacer_20,
+                Cpu_Temp_ico, Cpu_Temp, Spacer_10, Gpu_Temp_ico, Gpu_Temp, Spacer_10, Mb_Temp_ico, Mb_Temp,
+                Volume_ico, Volume, Calendar_ico, Calendar,
             ],
             34),
     ), ]

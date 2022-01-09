@@ -27,6 +27,7 @@ rsync -arv --delete ~/Multimedia/Pictures/Icons/Themes/GoVi/ ~/Backups/Linux/The
 rsync -arv --delete /etc/lightdm/ ~/Backups/Linux/Lightdm/
 rsync -arv /etc/fstab ~/Backups/Linux/
 rsync -arv /etc/X11/xorg.conf ~/Backups/Linux/
+rsync -arv ~/.config/qtile/config.py ~/Backups/Linux/
 rsync -arv --delete ~/Backups/Linux/ "$GOVI_ARCH_LINUX"/Backups/
 
 # Gaming

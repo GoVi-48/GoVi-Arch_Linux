@@ -2,9 +2,8 @@
 Name=GIT-Home
 Comment=
 Categories=Scripts;
-Exec=alacritty -e "/home/govi/Scripts/Shell/Utils/GIT_Home.sh"
-Icon=/home/govi/Multimedia/Pictures/Icons/System/Png/Confidential_documents.png
+Exec=sh -c ~/Scripts/Shell/Utils/GIT_Home.sh
+Icon=Confidential_documents
 StartupNotify=true
-Terminal=1
-TerminalOptions=
+Terminal=true
 Type=Application

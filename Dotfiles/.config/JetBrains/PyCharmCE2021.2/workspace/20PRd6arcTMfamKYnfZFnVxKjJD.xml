@@ -1,38 +1,11 @@
 <project version="4">
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="-1">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/.config/qtile/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="418" selection-start-line="418" selection-end-line="418" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.config/qtile/config.py.bk">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5184">
-              <caret line="216" column="8" selection-start-line="216" selection-end-line="219" selection-end-column="112" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.config/qtile/scripts/email.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Home.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="84">
+              <caret line="193" column="87" lean-forward="true" selection-start-line="193" selection-start-column="41" selection-end-line="193" selection-end-column="87" />
             </state>
           </provider>
         </entry>
@@ -40,7 +13,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Proyects.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
+            <state relative-caret-position="1776">
               <caret line="74" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
@@ -49,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Scripts/Shell/Utils/Pass.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2424">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="4608">
+              <caret line="192" selection-start-line="192" selection-end-line="192" />
             </state>
           </provider>
         </entry>
@@ -58,17 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Scripts/Shell/Utils/Pass.sh.bk">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="768">
-              <caret line="32" column="11" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.zshrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="696">
-              <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+            <state relative-caret-position="336">
+              <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
             </state>
           </provider>
         </entry>
@@ -78,17 +42,19 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.config/qtile/scripts/cpu_load.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="744">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>menu</find>
-      <find>mouse</find>
-      <find>xp</find>
-      <find>foreground</find>
-      <find>1</find>
-      <find>.5%</find>
-      <find>shutdown</find>
       <find>bg-alt</find>
       <find>\-O</find>
       <find>\.txt</find>
@@ -109,6 +75,16 @@
       <find>read</find>
       <find>Volume</find>
       <find>\\</find>
+      <find>nPress</find>
+      <find>Continue</find>
+      <find>OUTPUT</find>
+      <find>alacritty \-e</find>
+      <find>\$load</find>
+      <find>\&lt;\=</find>
+      <find>cpu_load</find>
+      <find>str</find>
+      <find>time</find>
+      <find>cpu_icon</find>
     </findStrings>
     <replaceStrings>
       <replace>2</replace>
@@ -133,6 +109,12 @@
       <replace>OUTPUT</replace>
       <replace>clear; echo; pass</replace>
       <replace>[</replace>
+      <replace>CONTINUE</replace>
+      <replace>INPUT</replace>
+      <replace>\$LOAD</replace>
+      <replace>&gt;=</replace>
+      <replace>CPU_LOAD</replace>
+      <replace>sh -c</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/.config/rofi/powermenu</dir>
@@ -141,7 +123,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="/Media/GoVi/Documentos/.GoVi-Docs/.GoVi-Docs/Tiendas/pixmanía.txt" />
       <option value="$USER_HOME$/Scripts/Shell/Utils/Home_GIT.sh" />
       <option value="/Media/GoVi/Proyects/Github/GoVi-Proyects/.gitignore" />
       <option value="$USER_HOME$/Scripts/Shell/Utils/Proyects_GIT.sh" />
@@ -188,10 +169,11 @@
       <option value="$USER_HOME$/Documents/.GoVi-Docs/Games/Vain Glory.txt" />
       <option value="$USER_HOME$/Documents/.GoVi-Docs/Games/romulation.txt" />
       <option value="$USER_HOME$/.zshrc" />
-      <option value="$USER_HOME$/Scripts/Shell/Utils/Pass.sh" />
-      <option value="$USER_HOME$/.config/qtile/config.py" />
       <option value="$USER_HOME$/Scripts/Shell/Utils/GIT_Proyects.sh" />
       <option value="$USER_HOME$/Scripts/Shell/Utils/GIT_Home.sh" />
+      <option value="$USER_HOME$/Scripts/Shell/Utils/Pass.sh" />
+      <option value="$USER_HOME$/.config/qtile/scripts/cpu_load.sh" />
+      <option value="$USER_HOME$/.config/qtile/config.py" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -238,7 +220,7 @@
       <window_info anchor="bottom" id="Messages" order="4" weight="0.32874617" />
       <window_info anchor="bottom" id="Python Packages" order="5" />
       <window_info anchor="bottom" id="Event Log" order="6" weight="0.32977644" />
-      <window_info anchor="bottom" id="Problems View" order="7" weight="0.32954544" />
+      <window_info anchor="bottom" id="Problems View" order="7" weight="0.32977644" />
       <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32977644" />
       <window_info anchor="bottom" id="Services" order="10" show_stripe_button="false" />
@@ -260,10 +242,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="209" y="376" width="640" height="320" key="#Notifications/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1641198004778" />
-    <state x="94" y="318" width="607" height="423" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1641607275598">
+    <state x="92" y="316" width="611" height="425" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1641632761640">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="94" y="318" width="607" height="423" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1641607275598" />
+    <state x="92" y="316" width="611" height="425" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1641632761640" />
     <state x="780" y="236" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1641412644877">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -294,8 +276,6 @@
     <state x="193" y="259" width="672" height="687" key="search.everywhere.popup/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1641105714650" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/.GoVi-Docs/Foros/Insert More Coins.txt" />
-    <entry file="file://$USER_HOME$/Documents/.GoVi-Docs/Foros/FOROXD.txt" />
     <entry file="file://$USER_HOME$/Documents/.GoVi-Docs/Foros/Crea tu Web.txt" />
     <entry file="file://$USER_HOME$/Documents/.GoVi-Docs/Foros/taringa.txt" />
     <entry file="file://$USER_HOME$/Documents/.GoVi-Docs/Foros/foro F1.txt" />
@@ -384,17 +364,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.config/qtile/config.py">
+    <entry file="file://$USER_HOME$/.config/qtile/config.py.bk" />
+    <entry file="file://$USER_HOME$/.zshrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="418" selection-start-line="418" selection-end-line="418" />
+        <state relative-caret-position="696">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.config/qtile/config.py.bk">
+    <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Home.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5184">
-          <caret line="216" column="8" selection-start-line="216" selection-end-line="219" selection-end-column="112" />
+        <state relative-caret-position="384">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
@@ -405,41 +386,46 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Proyects.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1776">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Scripts/Shell/Utils/Pass.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2424">
-          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        <state relative-caret-position="4608">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Scripts/Shell/Utils/Pass.sh.bk">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="32" column="11" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.zshrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+        <state relative-caret-position="336">
+          <caret line="14" column="92" selection-start-line="14" selection-start-column="92" selection-end-line="14" selection-end-column="92" />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/Scripts/Shell/examples.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Proyects.sh">
+    <entry file="file://$USER_HOME$/.config/qtile/scripts/rss_youtube.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="624">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        <state relative-caret-position="-3908" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.config/qtile/scripts/cpu_load.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Home.sh">
+    <entry file="file://$USER_HOME$/.config/qtile/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="84">
+          <caret line="193" column="87" lean-forward="true" selection-start-line="193" selection-start-column="41" selection-end-line="193" selection-end-column="87" />
         </state>
       </provider>
     </entry>

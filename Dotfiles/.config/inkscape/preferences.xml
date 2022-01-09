@@ -130,14 +130,15 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="554.028"
-         height="755.222"
-         ry="59.0019"
-         rx="99.9888" />
+         width="885.867"
+         height="197.119"
+         ry="0"
+         rx="0" />
       <eventcontext
          id="3dbox"
          style="stroke:none;stroke-linejoin:round;"
-         usecurrent="1">
+         usecurrent="1"
+         persp="perspective136">
         <side
            id="XYfront"
            style="fill:#8686bf;stroke:none;stroke-linejoin:round;"
@@ -321,7 +322,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -553,7 +554,7 @@
        id="toolbox" />
     <group
        id="fillstroke"
-       page="0"
+       page="2"
        x="0"
        y="0"
        w="514"
@@ -578,7 +579,7 @@
        placement="4" />
     <group
        id="align"
-       sel-as-groups="0"
+       sel-as-groups="1"
        align-to="4"
        x="0"
        y="0"
@@ -623,7 +624,7 @@
     <group
        id="preferences"
        state="1"
-       page="25"
+       page="42"
        x="622"
        y="231"
        w="1049"
@@ -655,10 +656,13 @@
        placement="1">
       <group
          id="exportarea"
-         value="page" />
+         value="selection" />
       <group
          id="defaultxdpi"
-         value="95" />
+         value="27.7423" />
+      <group
+         id="hideexceptselected"
+         value="0" />
     </group>
     <group
        id="save_as"
@@ -1044,6 +1048,13 @@
     <group
        id="middlemousezoom"
        value="1" />
+    <group
+       id="boot"
+       theme="system">
+      <group
+         id="shown"
+         ver1.1.1="1" />
+    </group>
   </group>
   <group
      id="extensions"
@@ -1075,7 +1086,7 @@
      org.inkscape.effect.filter.Invert.opacify="0" />
   <group
      id="desktop"
-     style="fill:#000000;stroke-width:3.528;-inkscape-font-specification:Hack;font-family:Hack;font-size:200px;fill-opacity:0.65168542"
+     style="fill:#000000;stroke-width:1.44;-inkscape-font-specification:Hack;font-family:Hack;font-size:200px"
      xrayactive="0">
     <group
        width="1920"
@@ -1183,19 +1194,19 @@
      language="" />
   <group
      symbolicDefaultColors="1"
-     symbolicIcons="1"
-     darkTheme="0"
+     symbolicIcons="0"
+     darkTheme="1"
      preferDarkTheme="1"
      menuIcons_objects="0"
      menuIcons_layers="0"
      menuIcons_canvas="0"
-     iconTheme="breeze"
-     gtkTheme="GoVi_gtk-Windows"
      defaultIconTheme="GoVi"
      defaultTheme="GoVi"
      id="theme"
      defaultPreferDarkTheme="1"
-     defaultGtkTheme="GoVi">
+     defaultGtkTheme="GoVi"
+     symbolicDefaultBaseColors="1"
+     symbolicDefaultHighColors="1">
     <group
        symbolicErrorColor="3422552319"
        symbolicWarningColor="4118348031"
@@ -1203,4 +1214,7 @@
        symbolicBaseColor="4143314175"
        id="breeze" />
   </group>
+  <group
+     id="live_effects"
+     flattening="0" />
 </inkscape>

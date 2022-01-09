@@ -2,8 +2,8 @@
 Name=GIT-Kodi
 Comment=
 Categories=Scripts;
-Exec=alacritty -e "/home/govi/Scripts/Shell/Utils/GIT_Kodi.sh"
-Icon=/home/govi/Themes/GoVi/apps/64/Kodi.png
+Exec=sh -c ~/Scripts/Shell/Utils/GIT_Kodi.sh
+Icon=Kodi
 StartupNotify=true
 Terminal=1
 TerminalOptions=

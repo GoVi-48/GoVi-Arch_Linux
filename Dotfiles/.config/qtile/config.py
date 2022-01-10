@@ -47,7 +47,7 @@ keys = [
     Key([mod], "s", lazy.spawn('flameshot full -d 1 -p /home/govi/Multimedia/Pictures/Screenshots/')),
     Key([mod], "b", lazy.spawn('firefox')),
     Key([mod], "f", lazy.spawn('spacefm')),
-    Key([mod], "m", lazy.spawn('sh -c bashtop')),
+    Key([mod], "m", lazy.spawn(terminal + " -e bashtop")),
     Key([mod], "g", lazy.spawn('firefox "http://www.gmail.com"')),
     Key([mod], "Escape", lazy.window.kill()),
     Key([mod], "w", lazy.window.kill()),
@@ -353,18 +353,18 @@ Net_wl_U = widget.Net(format='{up}/s ', interface='wlp0s20u10')
 
 Mem_Load_ico = widget.TextBox(
     font='GoVi_Icons', text='4',
-    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c bashtop')})
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn(terminal + " -e bashtop")})
 Mem_Load = widget.GenPollText(
     func=lambda: subprocess.getoutput('~/.config/qtile/scripts/mem_load.sh'),
-    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c bashtop')},
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn(terminal + " -e bashtop")},
     update_interval=1)
 
 Cpu_icon = widget.TextBox(
     font='GoVi_Icons', text='5',
-    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c bashtop')})
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn(terminal + " -e bashtop")})
 Cpu_Load = widget.GenPollText(
     func=lambda: subprocess.getoutput('~/.config/qtile/scripts/cpu_load.sh'),
-    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c bashtop')},
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn(terminal + " -e bashtop")},
     update_interval=1)
 Cpu_Load_icon = cpu_load_icon()
 

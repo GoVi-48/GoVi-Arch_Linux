@@ -99,15 +99,15 @@ case $chosen in
 			msg
         fi
         ;;
-    $reboot)
-		ans=$(confirm_exit &)
-		if [[ $ans == "yes" || $ans == "YES" || $ans == "y" || $ans == "Y" ]]; then
-			systemctl reboot
-		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
-			exit 0
-        else
-			msg
-        fi
+    $reboot) systemctl reboot
+#		ans=$(confirm_exit &)
+#		if [[ $ans == "yes" || $ans == "YES" || $ans == "y" || $ans == "Y" ]]; then
+#			systemctl reboot
+#		elif [[ $ans == "no" || $ans == "NO" || $ans == "n" || $ans == "N" ]]; then
+#			exit 0
+#        else
+#			msg
+#        fi
         ;;
     $lock)
 		if [[ -f /usr/bin/i3lock ]]; then

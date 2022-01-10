@@ -4,8 +4,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/.config/qtile/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="421" column="59" selection-start-line="421" selection-start-column="59" selection-end-line="421" selection-end-column="59" />
+            <state relative-caret-position="456">
+              <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -19,11 +19,37 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.config/rofi/powermenu/powermenu.sh">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1488">
+              <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.config/rofi/powermenu/card_square.rasi">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1368">
+              <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.zshrc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>\-O</find>
       <find>\.txt</find>
       <find>github.svg</find>
       <find>\&quot;r\&quot;</find>
@@ -53,6 +79,7 @@
       <find>time</find>
       <find>cpu_icon</find>
       <find>cut</find>
+      <find>bashtop</find>
     </findStrings>
     <replaceStrings>
       <replace>2</replace>
@@ -99,11 +126,9 @@
       <option value="$USER_HOME$/Proyects/Github/GoVi-Arch_Linux/Arch_Howto" />
       <option value="$USER_HOME$/.git_token" />
       <option value="$USER_HOME$/.config/picom/picom.conf" />
-      <option value="$USER_HOME$/.config/rofi/powermenu/powermenu.sh" />
       <option value="$USER_HOME$/.config/rofi/launchers/colorful/style_7.rasi" />
       <option value="$USER_HOME$/.config/rofi/launchers/colorful/launcher.sh" />
       <option value="$USER_HOME$/.config/qtile/scripts/email.sh" />
-      <option value="$USER_HOME$/.config/rofi/powermenu/card_square.rasi" />
       <option value="$USER_HOME$/Scripts/Shell/examples.sh" />
       <option value="$USER_HOME$/.local/share/applications/Adobe_Photoshop.desktop" />
       <option value="$USER_HOME$/.local/share/applications/Adobe_Substance_3D_Painter.desktop" />
@@ -141,6 +166,8 @@
       <option value="$USER_HOME$/Scripts/Shell/Utils/GIT_Home.sh" />
       <option value="$USER_HOME$/Scripts/Shell/Utils/Pass.sh" />
       <option value="$USER_HOME$/.config/qtile/scripts/cpu_load.sh" />
+      <option value="$USER_HOME$/.config/rofi/powermenu/powermenu.sh" />
+      <option value="$USER_HOME$/.config/rofi/powermenu/card_square.rasi" />
       <option value="$USER_HOME$/.config/qtile/config.py" />
     </changedPaths>
   </component>
@@ -244,7 +271,6 @@
     <state x="193" y="259" width="672" height="687" key="search.everywhere.popup/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1641105714650" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/.GoVi-Docs/Foros/Crea tu Web.txt" />
     <entry file="file://$USER_HOME$/Documents/.GoVi-Docs/Foros/taringa.txt" />
     <entry file="file://$USER_HOME$/Documents/.GoVi-Docs/Foros/foro F1.txt" />
     <entry file="file://$USER_HOME$/Documents/.GoVi-Docs/Foros/f1classics.txt" />
@@ -308,20 +334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.config/rofi/powermenu/powermenu.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="87" column="18" selection-start-line="87" selection-start-column="10" selection-end-line="87" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.config/rofi/powermenu/card_square.rasi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1488">
-          <caret line="62" column="50" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.config/rofi/applets/menu/apps.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -333,13 +345,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.config/qtile/config.py.bk" />
-    <entry file="file://$USER_HOME$/.zshrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="696">
-          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Home.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
@@ -383,17 +388,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.config/qtile/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="421" column="59" selection-start-line="421" selection-start-column="59" selection-end-line="421" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Proyects.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1776">
           <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.config/rofi/powermenu/card_square.rasi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.config/rofi/powermenu/powermenu.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1488">
+          <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.bashrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2262" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.zshrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="29" column="62" selection-start-line="29" selection-start-column="62" selection-end-line="29" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.config/qtile/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
         </state>
       </provider>
     </entry>

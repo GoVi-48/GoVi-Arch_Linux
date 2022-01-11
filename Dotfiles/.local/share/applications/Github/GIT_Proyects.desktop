@@ -2,9 +2,8 @@
 Name=GIT-Proyects
 Comment=
 Categories=Scripts;
-Exec=sh -c /Scripts/Shell/Utils/GIT_Proyects.sh
+Exec=sh -c ~/Scripts/Shell/Utils/GIT_Proyects.sh
 Icon=proyects
 StartupNotify=true
-Terminal=1
-TerminalOptions=
+Terminal=true
 Type=Application

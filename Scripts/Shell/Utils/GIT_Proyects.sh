@@ -5,10 +5,10 @@ REPO="/Media/GoVi/Proyects/Github/GoVi-Proyects"
 
 # Move to Repository
 [ ! -d "$REPO"/Blender ] &&
-    mv "/Media/GoVi/Proyects/Blender" "/Media/GoVi/Proyects/Github/GoVi-Proyects/Blender"
+    mv "/Media/GoVi/Proyects/Blender" "$REPO/Blender"
 
 [ ! -d "$REPO"/Substance_Painter ] &&
-    mv "/Media/GoVi/Proyects/Substance_Painter" "/Media/GoVi/Proyects/Github/GoVi-Proyects/Substance_Painter"
+    mv "/Media/GoVi/Proyects/Substance_Painter" "$REPO/Substance_Painter"
 
 # Menu
 while true; do
@@ -29,30 +29,25 @@ while true; do
 # Compress if files differ
     read -rsn1 INPUT
     case $INPUT in
-        1) cd "$REPO/Blender/Characters.blend.zips"
-           [ -f "./Characters.blend.zip" ] && echo 'File already exist' && sleep 3 && break
-           cd ../Characters && zip -s 48m -u -r "Characters.blend.zip" "Characters.blend"
+        1) cd "$REPO/Blender/Characters"
+           zip -s 48m -u -r "Characters.blend.zip" "Characters.blend"
            mv *.z* "$REPO/Blender/Characters.blend.zips"
            ;;
-        2) cd "$REPO/Blender/Trees.blend.zips"
-           [ -f "./Trees.blend.zip" ] && echo 'File already exist' && sleep 3 && break
-           cd ../Trees && zip -s 48m -u -r "Trees.blend.zip" "Trees.blend"
+        2) cd "$REPO/Blender/Trees"
+           zip -s 48m -u -r "Trees.blend.zip" "Trees.blend"
            mv *.z* "$REPO/Blender/Trees.blend.zips"
            ;;
-        3) cd "$REPO/Substance_Painter/Troll.spp.zips"
-           [ -f "./Troll.spp.zip" ] && echo 'File already exist' && sleep 3 && break
-           cd ../Characters/Troll && zip -s 48m -u -r "Troll.spp.zip" "Troll.spp"
+        3) cd "$REPO/Substance_Painter/Characters/Troll"
+           zip -s 48m -u -r "Troll.spp.zip" "Troll.spp"
            mv *.z* "$REPO/Substance_Painter/Troll.spp.zips"
            ;;
-        4) cd "$REPO/Substance_Painter/Library/materials.zips"
-           [ -f "./materials.zip" ] && echo 'File already exist' && sleep 3 && break
-           cd .. && zip -s 48m -u -r "materials.zip" "materials"
+        4) cd "$REPO/Substance_Painter/Library"
+           zip -s 48m -u -r "materials.zip" "materials"
            mv *.z* "$REPO/Substance_Painter/Library/materials.zips"
            mv ./materials.zips/smart-materials.zips .
            ;;
-        5) cd "$REPO/Substance_Painter/Library/smart-materials.zips"
-           [ -f "./smart-materials.zip" ] && echo 'File already exist' && sleep 3 && break
-           cd .. && zip -s 48m -u -r "smart-materials.zip" "smart-materials"
+        5) cd "$REPO/Substance_Painter/Library"
+           zip -s 48m -u -r "smart-materials.zip" "smart-materials"
            mv *.z* "$REPO/Substance_Painter/Library/smart-materials.zips"
            mv ./smart-materials.zips/materials.zips .
            ;;
@@ -65,7 +60,7 @@ done
 # Checking if are Updates to push
 cd "$REPO"
 GIT_SYNC="$(git diff --stat)"
-[[ "$GIT_SYNC(wc -L)" == 0 ]] && echo 'Nothing to Update' && exit
+[[ "$GIT_SYNC(wc -L)" == 0 ]] && echo 'Nothing to Update' && sleep 4 && exit
 
 # Git token
 TOKEN="$(awk 'NR==3' ~/.git_token)"
@@ -83,8 +78,8 @@ notify-send -i '/usr/share/icons/GoVi/emblems/22/emblem-information.svg' "Info" 
 paplay $HOME/.local/share/sounds/cause-and-effect.ogg
 
 # Move to Source
-mv "/Media/GoVi/Proyects/Github/GoVi-Proyects/Blender" "/Media/GoVi/Proyects/Blender"
-mv "/Media/GoVi/Proyects/Github/GoVi-Proyects/Substance_Painter" "/Media/GoVi/Proyects/Substance_Painter"
+mv "$REPO/Blender" "/Media/GoVi/Proyects/Blender"
+mv "$REPO/Substance_Painter" "/Media/GoVi/Proyects/Substance_Painter"
 
 # Open Github
 while true; do

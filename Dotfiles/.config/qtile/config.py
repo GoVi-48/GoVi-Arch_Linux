@@ -336,7 +336,7 @@ Upd_pac = widget.GenPollText(
     mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/updates_pacman_Reset.sh')},
     update_interval=1800)
 
-Upd_Aur = widget.GenPollText(
+Upd_aur = widget.GenPollText(
     func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_aur.sh'),
     mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/updates_aur_Reset.sh')},
     update_interval=1800)
@@ -413,7 +413,7 @@ screens = [
             [
                 Power, Restart_qtile, Spacer_20, # WIDGETS BOTTOM LEFT
                 Root_ico, Root, Spacer_10, Home_ico, Home, Spacer_10, Hdd_1_ico, Hdd_1, Spacer_10, Hdd_2_ico, Hdd_2, Spacer_20,
-                Notifications, Spacer_10, Firefox, Spacer_10, Gmail_ico, Gmail, Spacer_10, Github_ico, Github,
+                Notifications, Spacer_10, Firefox, Spacer_10, Gmail_ico, Gmail, Spacer_10, Github_ico, Github, Spacer_20, Upd_pac, Spacer_10, Upd_aur,
 
                 widget.Spacer(length=bar.STRETCH), # WIDGETS BOTTOM RIGHT
                 Net_et_D, Net_ico, Net_et_U, Spacer_10,
@@ -441,7 +441,7 @@ screens = [
         bottom=bar.Bar(
             [
                 Power, Restart_qtile, Spacer_20, # WIDGETS BOTTOM LEFT-2
-                Notifications, Spacer_10, Firefox, Spacer_10, Gmail_ico, Gmail, Spacer_10, Github_ico, Github,
+                Notifications, Spacer_10, Firefox, Spacer_10, Gmail_ico, Gmail, Spacer_10, Github_ico, Github, Spacer_20, Upd_pac, Spacer_10, Upd_aur,
 
                 widget.Spacer(length=bar.STRETCH), # WIDGETS BOTTOM RIGHT-2
                 Net_et_D, Net_ico, Net_et_U, Spacer_10,

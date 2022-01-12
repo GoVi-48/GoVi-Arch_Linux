@@ -1,5 +1,7 @@
 #!/bin/bash
 
+while ! ping -c2 google.com > /dev/null 2>&1; do sleep 10; done
+
 pgrep -x "wineserver" > /dev/null  && exit
 
 UPDATES_PACMAN=$(pacman -Qu | wc -l)
@@ -24,7 +26,5 @@ elif [ "$UPDATES_PACMAN" -gt 1 ] && [ ! -f $notf_ON ]; then
 else
     echo
 fi
-
-while ! ping -c2 google.com > /dev/null 2>&1; do sleep 10; done
 
 exit

@@ -4,17 +4,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.config/qtile/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2424">
+            <state relative-caret-position="10248">
               <caret line="427" column="20" selection-start-line="427" selection-start-column="20" selection-end-line="427" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Proyects.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="816">
-              <caret line="46" column="11" selection-start-line="46" selection-end-line="47" />
+            <state relative-caret-position="180">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
             </state>
           </provider>
         </entry>
@@ -29,46 +29,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.config/rofi/powermenu/powermenu.sh">
+        <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Home.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2424">
-              <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.config/rofi/powermenu/card_square.rasi">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.config/rofi/powermenu/styles/cocoa.rasi">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.config/qtile/scripts/updates_pacman_Reset.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$USER_HOME$/.config/qtile/scripts/updates_aur_Reset.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+            <state relative-caret-position="292">
+              <caret line="53" column="8" selection-start-line="53" selection-end-line="54" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -77,7 +41,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>\&quot;c\&quot;</find>
       <find>MENU_3</find>
       <find>echo</find>
       <find>clear</find>
@@ -107,9 +70,9 @@
       <find>ala</find>
       <find>Upd_Aur</find>
       <find>8 \$UPDATES_PACMAN</find>
+      <find>&quot;$</find>
     </findStrings>
     <replaceStrings>
-      <replace>fg</replace>
       <replace>bg</replace>
       <replace>-u -r</replace>
       <replace>*.z*</replace>
@@ -139,6 +102,7 @@
       <replace>terminal + &quot; -e bashtop&quot;</replace>
       <replace>Upd_aur</replace>
       <replace>\$UPDATES_PACMAN</replace>
+      <replace>NOTIFY</replace>
     </replaceStrings>
     <dirStrings>
       <dir>$USER_HOME$/.config/rofi/powermenu</dir>
@@ -193,11 +157,11 @@
       <option value="$USER_HOME$/.config/rofi/powermenu/styles/colors.rasi" />
       <option value="$USER_HOME$/.config/rofi/powermenu/styles/cocoa.rasi" />
       <option value="$USER_HOME$/Launchers/Github/GIT_Proyects.desktop" />
-      <option value="$USER_HOME$/Scripts/Shell/Utils/GIT_Proyects.sh" />
       <option value="$USER_HOME$/.config/qtile/scripts/updates_pacman.sh" />
       <option value="$USER_HOME$/.config/qtile/config.py" />
       <option value="$USER_HOME$/.config/qtile/scripts/updates_pacman_Reset.sh" />
       <option value="$USER_HOME$/.config/qtile/scripts/updates_aur_Reset.sh" />
+      <option value="$USER_HOME$/Scripts/Shell/Utils/GIT_Proyects.sh" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -289,10 +253,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="968" y="42" width="938" height="990" key="dock-window-1/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1641246807314" />
-    <state x="880" y="208" width="704" height="612" key="find.popup" timestamp="1641539055432">
+    <state x="880" y="208" width="704" height="612" key="find.popup" timestamp="1642047213556">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="880" y="208" width="704" height="612" key="find.popup/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1641539055432" />
+    <state x="880" y="208" width="704" height="612" key="find.popup/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1642047213556" />
     <state x="193" y="259" width="672" height="687" key="search.everywhere.popup" timestamp="1641105714650">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -363,13 +327,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.config/qtile/config.py.bk" />
-    <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Home.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.config/qtile/scripts/email.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
@@ -444,48 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Scripts/Shell/Utils/Pass.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.config/rofi/powermenu/powermenu.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2424">
-          <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.config/rofi/powermenu/card_square.rasi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1368">
-          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.config/rofi/powermenu/styles/cocoa.rasi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Proyects.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="46" column="11" selection-start-line="46" selection-end-line="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.config/qtile/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2424">
-          <caret line="427" column="20" selection-start-line="427" selection-start-column="20" selection-end-line="427" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.zshrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -498,10 +413,10 @@
         <state relative-caret-position="-2232" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.config/qtile/scripts/updates_pacman_Reset.sh">
+    <entry file="file://$USER_HOME$/.config/qtile/config.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        <state relative-caret-position="10248">
+          <caret line="427" column="20" selection-start-line="427" selection-start-column="20" selection-end-line="427" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -509,6 +424,55 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.config/qtile/scripts/updates_pacman_Reset.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.config/rofi/powermenu/styles/cocoa.rasi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="46" selection-start-line="2" selection-start-column="46" selection-end-line="2" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.config/rofi/powermenu/card_square.rasi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="838">
+          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.config/rofi/powermenu/powermenu.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="838">
+          <caret line="101" column="29" selection-start-line="101" selection-start-column="29" selection-end-line="101" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Shell/Utils/Pass.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Home.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="53" column="8" selection-start-line="53" selection-end-line="54" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Proyects.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
         </state>
       </provider>
     </entry>

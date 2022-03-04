@@ -10,7 +10,7 @@ COMP_Disabled="killall picom"
 COMP_Enabled="picom -cCGb"
 
 # Game Executable
-EXE='"./run.sh" "valheim.x86_64"'
+EXE="start_game_bepinex.sh"
 PROCESS="valheim.x86_64"
 ARGS="-vulkan"
 
@@ -21,13 +21,13 @@ export ENABLE_VKBASALT=1
 export __GL_SHADER_DISK_CACHE_SKIP_CLEANUP=1
 export __GL_SHADER_DISK_CACHE=1
 export __GL_SHADER_DISK_CACHE_PATH="$DIR"
-#export __GL_THREADED_OPTIMIZATIONS=1 # NVIDIA
+export __GL_THREADED_OPTIMIZATIONS=1 # NVIDIA
 
 # ========================================================================
 
 # Launch
-cd "$DIR/game/"
-gamemoderun  "./steam-runtime/run.sh" "./valheim.x86_64" &
+cd "$DIR"
+gamemoderun sh "$EXE" &
 echo -e "\nLaunching $DIR/$EXE\n" | sed 's/\.\///g'
 
 # After Launch

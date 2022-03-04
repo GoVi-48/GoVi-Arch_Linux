@@ -21,9 +21,11 @@ while true; do
     echo
     echo ' 1) Update Characters.blend'
     echo ' 2) Update Trees.blend'
-    echo ' 3) Update Troll.spp'
-    echo ' 4) Update Substance materials'
-    echo ' 5) Update Substance smart-materials'
+    echo ' 3) Update Male.spp'
+    echo ' 4) Update Troll.spp'
+    echo ' 5) Update Goblin_Warrior.spp'
+    echo ' 6) Update Substance materials'
+    echo ' 7) Update Substance smart-materials'
     echo ' U) Upload to Github'
     echo ' Q) Quit'
     echo
@@ -35,26 +37,36 @@ while true; do
     case $INPUT in
         1) cd "$REPO/Blender/Characters"
         zip -s 48m -u -r -v "Characters.blend.zip" "Characters.blend"
-        mv *.z* "$REPO/Blender/Characters.blend.zips" &&
+        mv *.z* "$REPO/Blender/Characters/Characters.blend.zips" &&
         NOTIFY
         ;;
         2) cd "$REPO/Blender/Trees"
         zip -s 48m -u -r -v "Trees.blend.zip" "Trees.blend"
-        mv *.z* "$REPO/Blender/Trees.blend.zips"
+        mv *.z* "$REPO/Blender/Trees/Trees.blend.zips"
         NOTIFY
         ;;
-        3) cd "$REPO/Substance_Painter/Characters/Troll"
+        3) cd "$REPO/Substance_Painter/Characters/Male"
+        zip -s 48m -u -r -v "Male.spp.zip" "Male.spp"
+        mv *.z* "$REPO/Substance_Painter/Characters/Male.spp.zips"
+        NOTIFY
+        ;;
+        4) cd "$REPO/Substance_Painter/Characters/Troll"
         zip -s 48m -u -r -v "Troll.spp.zip" "Troll.spp"
-        mv *.z* "$REPO/Substance_Painter/Troll.spp.zips"
+        mv *.z* "$REPO/Substance_Painter/Characters/Troll.spp.zips"
         NOTIFY
         ;;
-        4) cd "$REPO/Substance_Painter/Library"
+        5) cd "$REPO/Substance_Painter/Characters/Goblin_Warrior"
+        zip -s 48m -u -r -v "Goblin_Warrior.zip" "Goblin_Warrior.spp"
+        mv *.z* "$REPO/Substance_Painter/Characters/Goblin_Warrior.zips"
+        NOTIFY
+        ;;
+        6) cd "$REPO/Substance_Painter/Library"
         zip -s 48m -u -r -v "materials.zip" "materials"
         mv *.z* "$REPO/Substance_Painter/Library/materials.zips"
         mv ./materials.zips/smart-materials.zips .
         NOTIFY
         ;;
-        5) cd "$REPO/Substance_Painter/Library"
+        7) cd "$REPO/Substance_Painter/Library"
         zip -s 48m -u -r -v "smart-materials.zip" "smart-materials"
         mv *.z* "$REPO/Substance_Painter/Library/smart-materials.zips"
         mv ./smart-materials.zips/materials.zips .
@@ -99,12 +111,10 @@ while true; do
         exit
     elif [[ $INPUT = $'\e' ]]; then
         exit
-    elif
-        sleep 10
+    else
+        sleep 10 &&
         firefox "https://github.com/GoVi-48/GoVi-Proyects"
         exit
-    else
-        echo "Invalid Key"
     fi
 done
 

@@ -404,18 +404,23 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                Startup_Menu, Layout, GroupBox, Prompt, TaskList, # WIDGETS TOP LEFT
-                Systray, Sound, Clock, # WIDGETS TOP RIGHT
+                # WIDGETS TOP LEFT
+                Startup_Menu, Layout, GroupBox, Prompt, TaskList,
+
+                # WIDGETS TOP RIGHT
+                Systray, Sound, Clock,
             ],
             34),
 
         bottom=bar.Bar(
             [
-                Power, Restart_qtile, Spacer_20, # WIDGETS BOTTOM LEFT
+                # WIDGETS BOTTOM LEFT
+                Power, Restart_qtile, Spacer_20,
                 Root_ico, Root, Spacer_10, Home_ico, Home, Spacer_10, Hdd_1_ico, Hdd_1, Spacer_10, Hdd_2_ico, Hdd_2, Spacer_20,
                 Notifications, Spacer_10, Firefox, Spacer_10, Gmail_ico, Gmail, Spacer_10, Github_ico, Github, Spacer_20, Upd_pac, Spacer_10, Upd_aur,
 
-                widget.Spacer(length=bar.STRETCH), # WIDGETS BOTTOM RIGHT
+                # WIDGETS BOTTOM RIGHT
+                widget.Spacer(length=bar.STRETCH),
                 Net_et_D, Net_ico, Net_et_U, Spacer_10,
                 Mem_Load_ico, Mem_Load, Spacer_10, Cpu_icon, Cpu_Load, Spacer_10,
                 Cpu_Temp_ico, Cpu_Temp, Gpu_Temp_ico, Gpu_Temp, Mb_Temp_ico, Mb_Temp, Spacer_10,
@@ -427,23 +432,29 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                Startup_Menu, Layout,
+                # WIDGETS TOP LEFT-2
+                Startup_Menu,
+                widget.CurrentLayoutIcon(scale=0.7),
                 widget.GroupBox(
                     font='FontAw4esome', disable_drag=True,
                     highlight_method='text', this_current_screen_border='#86ACE0',
                     borderwidth=0, active='#DFDFDF', inactive='#717171'),
                 Prompt,
-                widget.TaskList(borderwidth=2, border='#5C718E', fontsize=14, max_title_width=300), # WIDGETS TOP LEFT-2
-                Clock, # WIDGETS TOP RIGHT-2
+                widget.TaskList(borderwidth=2, border='#5C718E', fontsize=14, max_title_width=300),
+
+                # WIDGETS TOP RIGHT-2
+                Clock,
             ],
             34),
 
         bottom=bar.Bar(
             [
-                Power, Restart_qtile, Spacer_20, # WIDGETS BOTTOM LEFT-2
+                # WIDGETS BOTTOM LEFT-2
+                Power, Restart_qtile, Spacer_20,
                 Notifications, Spacer_10, Firefox, Spacer_10, Gmail_ico, Gmail, Spacer_10, Github_ico, Github, Spacer_20, Upd_pac, Spacer_10, Upd_aur,
 
-                widget.Spacer(length=bar.STRETCH), # WIDGETS BOTTOM RIGHT-2
+                # WIDGETS BOTTOM RIGHT-2
+                widget.Spacer(length=bar.STRETCH),
                 Net_et_D, Net_ico, Net_et_U, Spacer_10,
                 Mem_Load_ico, Mem_Load, Spacer_10, Cpu_icon, Cpu_Load, Spacer_20,
                 Cpu_Temp_ico, Cpu_Temp, Gpu_Temp_ico, Gpu_Temp, Mb_Temp_ico, Mb_Temp, Spacer_10,
@@ -478,10 +489,8 @@ floating_layout = layout.Floating(float_rules=[
     Match(wm_class='maketag'),  # gitk
     Match(wm_class='ssh-askpass'),  # ssh-askpass
     Match(wm_class='pinentry-gtk-2'),  # GPG key password entry
-    Match(wm_class='photoshop.exe'),
     Match(title='pinentry'),  # GPG key password entry
     Match(title='branchdialog'),  # gitk
-    Match(title='ulauncher'),
     Match(title='onboard'),
     Match(title='Transmission'),
     Match(title='file-roller'),

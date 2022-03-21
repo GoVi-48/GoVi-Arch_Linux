@@ -1,5 +1,4 @@
 #!/bin/sh
-
 xrandr --setprovideroutputsource modesetting NVIDIA-0
 xrandr --output HDMI-0 --mode 1920x1080 --rate 60 --pos 0x0 --output VGA-1-1 --mode 1366x768 --rate 59.79 --right-of HDMI-0
 

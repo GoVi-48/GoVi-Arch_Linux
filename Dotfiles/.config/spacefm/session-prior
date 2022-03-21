@@ -1,8 +1,8 @@
-# Archivo de sesión de SpaceFM
+# SpaceFM Session File
 
-# NO EDITE ESTE ARCHIVO, PUES LOS CAMBIOS SE SOBREESCRIBIRÁN
+# THIS FILE IS NOT DESIGNED TO BE EDITED - it will be read and OVERWRITTEN
 
-# Si elimina todos los archivos session*, SpaceFM se restablecerá a la configuración predeterminada.
+# If you delete all session* files, SpaceFM will be reset to factory defaults.
 
 [General]
 show_thumbnail=1
@@ -70,8 +70,8 @@ main_terminal-key=65473
 main_save_tabs-b=1
 main_exit-key=113
 main_exit-keymod=4
-panel1_show-s=////home/govi/Downloads////home/govi/Proyects/Blender/Characters////home/govi/Proyects/Github/GoVi-Arch_Linux
-panel1_show-x=2
+panel1_show-s=////home/govi/Downloads/yngol-helmet/source////home/govi/Proyects////home/govi/Scripts/Shell/Autostart////home/govi
+panel1_show-x=3
 panel1_show-key=49
 panel1_show-keymod=4
 panel1_show-b=1
@@ -80,8 +80,8 @@ panel2_show-x=0
 panel2_show-key=50
 panel2_show-keymod=4
 panel2_show-b=2
-panel3_show-s=////Media/GoVi/Downloads////home/govi/Proyects/Github/GoVi-Proyects////Windows
-panel3_show-x=2
+panel3_show-s=////Media/GoVi/Downloads////home/govi/Proyects/Github/GoVi-Proyects
+panel3_show-x=1
 panel3_show-key=51
 panel3_show-keymod=4
 panel3_show-b=1
@@ -100,7 +100,6 @@ main_full-b=2
 main_tool-child=cstm_6e0fc862
 root_bar-b=1
 view_thumb-b=1
-view_dirsize-b=1
 plug_cverb-b=1
 main_help-key=65470
 main_help-b=1
@@ -268,6 +267,7 @@ prop_info-keymod=8
 prop_perm-key=112
 prop_perm-keymod=4
 panel1_show_toolbox-b=1
+panel1_show_dirtree-b=1
 panel1_show_book-b=1
 panel1_show_sidebar-b=2
 panel1_list_detailed-x=0
@@ -325,6 +325,7 @@ panel2_sort_extra-b=1
 panel2_book_fol-b=1
 panel3_show_toolbox-b=1
 panel3_show_devmon-b=2
+panel3_show_dirtree-b=1
 panel3_show_book-b=1
 panel3_show_sidebar-b=2
 panel3_list_detailed-x=0
@@ -378,13 +379,14 @@ panel4_book_fol-b=1
 book_single-b=1
 dev_newtab-b=1
 dev_single-b=1
+view_dirsize-b=1
 su_command-s=/bin/su
 gsu_command-s=/bin/su
 editor-s=nvim %F
 editor-b=2
 book_new-key=100
 book_new-keymod=4
-config_version-s=40
+config_version-s=38
 cstm_265ae2e2-x=3
 cstm_265ae2e2-y=
 cstm_265ae2e2-z=/home/govi

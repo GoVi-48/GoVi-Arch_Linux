@@ -4,8 +4,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.config/qtile/config.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="363" column="41" selection-start-line="363" selection-start-column="41" selection-end-line="363" selection-end-column="41" />
+            <state relative-caret-position="846">
+              <caret line="348" selection-start-line="348" selection-end-line="348" />
             </state>
           </provider>
         </entry>
@@ -13,7 +13,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Proyects.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
+            <state relative-caret-position="2040">
               <caret line="85" selection-start-line="85" selection-end-line="85" />
             </state>
           </provider>
@@ -22,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Home.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
+            <state relative-caret-position="1272">
               <caret line="53" column="8" selection-start-line="53" selection-end-line="54" selection-end-column="53" />
             </state>
           </provider>
@@ -49,17 +49,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/Proyects/Github/GoVi-Arch_Linux/Arch_Install">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="115" column="70" selection-start-line="115" selection-start-column="70" selection-end-line="115" selection-end-column="70" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///etc/fstab">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="1" column="8" selection-end-line="16" selection-end-column="61" />
+            <state relative-caret-position="816">
+              <caret line="115" column="26" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -68,10 +59,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>MENU_3</find>
-      <find>echo</find>
-      <find>clear</find>
-      <find>= \&quot;\&quot; \]\]\; then</find>
       <find>\-</find>
       <find>vim</find>
       <find>&quot;\$</find>
@@ -98,6 +85,10 @@
       <find>Upd_Aur</find>
       <find>8 \$UPDATES_PACMAN</find>
       <find>&quot;$</find>
+      <find>rsync</find>
+      <find>amixer</find>
+      <find>alsa</find>
+      <find>pulse</find>
     </findStrings>
     <replaceStrings>
       <replace>bg</replace>
@@ -138,8 +129,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$USER_HOME$/.config/qtile/scripts/email.sh" />
-      <option value="$USER_HOME$/.local/share/applications/Adobe_Photoshop.desktop" />
       <option value="$USER_HOME$/.local/share/applications/Adobe_Substance_3D_Painter.desktop" />
       <option value="$USER_HOME$/Launchers/jdownloader.desktop" />
       <option value="$USER_HOME$/Launchers/Pass.desktop" />
@@ -189,6 +178,8 @@
       <option value="/Media/Games/PC/ELDEN RING/Wine/Launch-Elden_Ring.sh" />
       <option value="$USER_HOME$/.config/qtile/config.py" />
       <option value="$USER_HOME$/Proyects/Github/GoVi-Arch_Linux/Arch_Install" />
+      <option value="$USER_HOME$/.xinitrc" />
+      <option value="$USER_HOME$/Proyects/Github/GoVi-Arch_Linux/Arch_Howto" />
     </changedPaths>
   </component>
   <component name="IgnoredFileRootStore">
@@ -219,7 +210,6 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" show_stripe_button="false" weight="0.27767086" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -257,10 +247,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="209" y="376" width="640" height="320" key="#Notifications/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1641198004778" />
-    <state x="92" y="316" width="611" height="425" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1641632761640">
+    <state x="90" y="314" width="762" height="427" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1647863190863">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="92" y="316" width="611" height="425" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1641632761640" />
+    <state x="90" y="314" width="762" height="427" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1647863190863" />
     <state x="780" y="236" key="#com.intellij.ide.ui.customization.CustomizableActionsPanel.FindAvailableActionsDialog" timestamp="1641412644877">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -295,10 +285,6 @@
     <state x="193" y="259" width="672" height="687" key="search.everywhere.popup/0.0.1920.1080/1920.0.1366.768@0.0.1920.1080" timestamp="1641105714650" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Documents/.GoVi-Docs/Games/nexusmods.txt" />
-    <entry file="file://$USER_HOME$/Documents/.GoVi-Docs/Games/IWMW3.txt" />
-    <entry file="file://$USER_HOME$/Documents/.GoVi-Docs/Games/pleasuredometracker.txt" />
-    <entry file="file://$USER_HOME$/Documents/.GoVi-Docs/Games/Java arguments.txt" />
     <entry file="file://$USER_HOME$/Documents/.GoVi-Docs/Games/Loadout.txt" />
     <entry file="file://$USER_HOME$/Documents/.GoVi-Docs/Games/Razer.txt" />
     <entry file="file://$USER_HOME$/Documents/.GoVi-Docs/Games/Hyperspin.txt" />
@@ -348,13 +334,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.config/qtile/config.py.bk" />
-    <entry file="file://$USER_HOME$/.config/qtile/scripts/email.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Scripts/Shell/Utils/Pass.sh.bk">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -462,24 +441,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.git_token">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="16" selection-start-line="2" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.config/qtile/scripts/updates_pacman.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
           <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Home.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="53" column="8" selection-start-line="53" selection-end-line="54" selection-end-column="53" />
         </state>
       </provider>
     </entry>
@@ -490,31 +455,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Proyects.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///Media/Games/PC/ELDEN RING/Wine/Launch-Elden_Ring.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.gitconfig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.config/qtile/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="363" column="41" selection-start-line="363" selection-start-column="41" selection-end-line="363" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -525,10 +469,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Proyects/Github/GoVi-Arch_Linux/Arch_Install">
+    <entry file="file://$USER_HOME$/.config/qtile/scripts/email.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="115" column="70" selection-start-line="115" selection-start-column="70" selection-end-line="115" selection-end-column="70" />
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Shell/Autostart/set_background.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.config/qtile/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="846">
+          <caret line="348" selection-start-line="348" selection-end-line="348" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Proyects.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Scripts/Shell/Utils/GIT_Home.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1272">
+          <caret line="53" column="8" selection-start-line="53" selection-end-line="54" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.git_token">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" column="16" selection-start-line="2" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.gitconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Proyects/Github/GoVi-Arch_Linux/Arch_Gaming">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1176">
+          <caret line="49" column="274" selection-start-line="49" selection-start-column="270" selection-end-line="49" selection-end-column="274" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.xinitrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2016">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Proyects/Github/GoVi-Arch_Linux/Arch_Howto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="912">
+          <caret line="209" lean-forward="true" selection-start-line="209" selection-end-line="209" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Proyects/Github/GoVi-Arch_Linux/Arch_Install">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="115" column="26" selection-start-line="115" selection-start-column="26" selection-end-line="115" selection-end-column="26" />
         </state>
       </provider>
     </entry>

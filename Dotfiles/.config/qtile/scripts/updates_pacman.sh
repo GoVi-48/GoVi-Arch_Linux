@@ -2,7 +2,7 @@
 
 while ! ping -c2 google.com > /dev/null 2>&1; do sleep 10; done
 
-pgrep -x "wineserver" > /dev/null  && exit
+#pgrep -x "wineserver" > /dev/null  && exit
 
 UPDATES_PACMAN=$(pacman -Qu | wc -l)
 notf_ON=~/.config/qtile/scripts/notf_ON

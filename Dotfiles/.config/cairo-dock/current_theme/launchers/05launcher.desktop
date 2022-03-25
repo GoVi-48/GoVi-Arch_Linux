@@ -14,14 +14,14 @@ Container=_MainDock_
 sep_display=
 
 #s[Default] Launcher's name:
-Name=MPC-qt
+Name=Spotify
 
 #S+[Default] Image's name or path:
-Icon=mpv
+Icon=
 
 #s[Default] Command to launch on click:
 #{Example: nautilus --no-desktop, gedit, etc. You can even enter a shortkey, e.g. <Alt>F1, <Ctrl>c,  <Ctrl>v, etc}
-Exec=mpc-qt %U
+Exec=spotify
 
 
 #X[Extra parameters]
@@ -43,8 +43,8 @@ Terminal=false
 ShowOnViewport=0
 
 #f[0;100] Order you want for this launcher among the others:
-Order=7.7871170043945312
+Order=7.7914705276489258
 
 Icon Type=0
 Type=Application
-Origin=/usr/share/applications/mpc-qt.desktop
+Origin=/usr/share/applications/spotify.desktop

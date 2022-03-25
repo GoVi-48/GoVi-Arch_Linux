@@ -15,14 +15,14 @@ Include = /etc/pacman.d/mirrorlist
 sudo pacman -Syu
 
 # Packages
-sudo pacman -S alacritty audacity exa ffmpeg firefox flameshot gimp gparted inkscape kdenlive neofetch obs-studio pass rofi sxiv telegram-desktop transmission-gtk virtualbox youtube-dl
+sudo pacman -S alacritty audacity exa ffmpeg firefox flameshot gimp gparted inkscape kdenlive neofetch obs-studio pass rsync rofi sxiv telegram-desktop transmission-gtk virtualbox youtube-dl
 sudo pacman -S bc extra-cmake-modules fuseiso gnome-themes-extra gsimplecal icoutils jdk-openjdk lm_sensors libnotify notification-daemon mono packagekit-qt5 polkit unrar vim wget xautolock yad zip zenity
 
 # AUR Packages
 yay -S balena-etcher cairo-dock-git cairo-dock-plug-ins-git discord downgrade dropbox easystroke java-8-openjdk liferea mpc-qt picard skype spotify teamviewer timeshift tiny-media-manager
 
 # Fonts
-ln -s /windows/Windows/Fonts /usr/share/fonts/WindowsFonts
+sudo ln -s /windows/Windows/Fonts /usr/share/fonts/WindowsFonts
 yay -S font-manager ttf-ms-fonts
 sudo pacman -S cantarell-fonts noto-fonts noto-fonts-extra noto-fonts-emoji ttf-font-awesome ttf-hack ttf-jetbrains-mono ttf-ubuntu-font-family xorg-fonts-misc
 fc-cache --force
@@ -185,6 +185,14 @@ nice-level = -11
 realtime-scheduling = yes
 realtime-priority = 5
 # ======================================================================================= #
+
+# Set Default sound card
+alsamixer
+# Pres F6 to Select your Sound Card.
+# Asus Xonar DG: Analog Outp to Multichannel.
+# Exit.
+sudo alsactl store
+# * Set in pavucontrol: Configuration >> CMI8788... >> Analog Surround 5.1 Output
 
 # Autologin
 sudo groupadd -r autologin

@@ -220,6 +220,14 @@ timedatectl set-ntp true
 timedatectl show-timesync --all
 
 
+# Notify Daemon
+sudo nvim /usr/share/dbus-1/services/org.freedesktop.Notifications.service
+# ======================================================================================= #
+[D-BUS Service]
+Name=org.freedesktop.Notifications
+Exec=/usr/lib/notification-daemon-1.0/notification-daemon
+# ======================================================================================= #
+
 # Required for custom Kernels (Nvidia)
 sudo pacman -S nvidia-dkms
 

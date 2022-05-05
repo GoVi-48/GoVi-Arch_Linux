@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Github Repository
-REPO="/Media/GoVi/Proyects/Github/GoVi-Proyects"
+REPO="/Media/GoVi/Proyects/Github/Blender-Proyects"
 NOTIFY(){
     notify-send -i '/usr/share/icons/GoVi/emblems/22/emblem-information.svg' "Info" "Complete" -t 5000 &
     paplay $HOME/.local/share/sounds/cause-and-effect.ogg
@@ -9,11 +9,10 @@ NOTIFY(){
 
 # Move to Repository
 [ ! -d "$REPO"/Blender ] &&
-    mv "/Media/GoVi/Proyects/Blender" "$REPO/Blender"
-
-[ ! -d "$REPO"/Substance_Painter ] &&
-    mv "/Media/GoVi/Proyects/Substance_Painter" "$REPO/Substance_Painter"
-
+    mv "/Media/GoVi/Proyects/Blender" "$REPO"
+[ ! -d "$REPO"/Blender ] &&[ ! -d "$REPO"/Blender ] &&
+    mv "/Media/GoVi/Proyects/Blender" "$REPO"
+    mv "/Media/GoVi/Proyects/Blender" "$REPO"
 # Menu
 while true; do
     clear && echo
@@ -21,11 +20,6 @@ while true; do
     echo
     echo ' 1) Update Characters.blend'
     echo ' 2) Update Trees.blend'
-    echo ' 3) Update Male.spp'
-    echo ' 4) Update Troll.spp'
-    echo ' 5) Update Goblin_Warrior.spp'
-    echo ' 6) Update Substance materials'
-    echo ' 7) Update Substance smart-materials'
     echo ' U) Upload to Github'
     echo ' Q) Quit'
     echo
@@ -45,33 +39,6 @@ while true; do
         mv *.z* "$REPO/Blender/Trees/Trees.blend.zips"
         NOTIFY
         ;;
-        3) cd "$REPO/Substance_Painter/Characters/Male"
-        zip -s 48m -u -r -v "Male.spp.zip" "Male.spp"
-        mv *.z* "$REPO/Substance_Painter/Characters/Male.spp.zips"
-        NOTIFY
-        ;;
-        4) cd "$REPO/Substance_Painter/Characters/Troll"
-        zip -s 48m -u -r -v "Troll.spp.zip" "Troll.spp"
-        mv *.z* "$REPO/Substance_Painter/Characters/Troll.spp.zips"
-        NOTIFY
-        ;;
-        5) cd "$REPO/Substance_Painter/Characters/Goblin_Warrior"
-        zip -s 48m -u -r -v "Goblin_Warrior.zip" "Goblin_Warrior.spp"
-        mv *.z* "$REPO/Substance_Painter/Characters/Goblin_Warrior.zips"
-        NOTIFY
-        ;;
-        6) cd "$REPO/Substance_Painter/Library"
-        zip -s 48m -u -r -v "materials.zip" "materials"
-        mv *.z* "$REPO/Substance_Painter/Library/materials.zips"
-        mv ./materials.zips/smart-materials.zips .
-        NOTIFY
-        ;;
-        7) cd "$REPO/Substance_Painter/Library"
-        zip -s 48m -u -r -v "smart-materials.zip" "smart-materials"
-        mv *.z* "$REPO/Substance_Painter/Library/smart-materials.zips"
-        mv ./smart-materials.zips/materials.zips .
-        NOTIFY
-        ;;
         U|u) break;;
         Q|q) exit;;
         *) echo -e " \"$INPUT\" is an invalid option" && sleep 2;;
@@ -87,7 +54,7 @@ GIT_SYNC="$(git diff --stat)"
 # Git token
 TOKEN="$(awk 'NR==3' ~/.git_token)"
 git remote remove origin
-git remote add origin https://$TOKEN@github.com/GoVi-48/GoVi-Proyects.git
+git remote add origin https://$TOKEN@github.com/GoVi-48/Blender-Proyects.git
 
 # Push to Github
 git add .
@@ -98,7 +65,6 @@ NOTIFY
 
 # Move to Source
 mv "$REPO/Blender" "/Media/GoVi/Proyects/Blender"
-mv "$REPO/Substance_Painter" "/Media/GoVi/Proyects/Substance_Painter"
 
 # Open Github
 while true; do
@@ -107,7 +73,7 @@ while true; do
     if [[ $INPUT = "" ]]; then
         echo "Opening Github..."
         sleep 2
-        firefox "https://github.com/GoVi-48/GoVi-Proyects"
+        firefox "https://github.com/GoVi-48/Blender-Proyects"
         exit
     elif [[ $INPUT = $'\e' ]]; then
         exit

@@ -7,6 +7,7 @@ yay -Yc
 
 # Clean packages
 sudo pacman -Rns $(pacman -Qtdq)
+ES
 
 # Clean files
 sudo rm -rfv /var/lib/systemd/coredump/*

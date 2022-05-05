@@ -8,11 +8,11 @@ UUID=439b70cb-da7d-40be-a390-5098ee154298	/home     	ext4      	rw,relatime	0 2
 UUID=013ec4e1-9251-48da-b841-614f166c56b2	none      	swap      	defaults  	0 0
 
 # /dev/sdb1
-UUID=dd05af68-11f5-4b5b-9bd1-08dd2354ca23	/Datos	ext4	defaults	0	0
+UUID=dd05af68-11f5-4b5b-9bd1-08dd2354ca23	/Datos		ext4		defaults	0	0
 
-# /dev/sdc1
-UUID=94F0F35BF0F34252	/Media	ntfs	uid=govi,gid=1000	0	0
+# /dev/sdc1					
+UUID=94F0F35BF0F34252				/Media		ntfs		uid=govi,gid=1000	0	0
 
 # /dev/sda3
-UUID=A64615164614E937	/Windows	ntfs	defaults	0	0
+UUID=A64615164614E937				/Windows	ntfs		defaults	0	0
 

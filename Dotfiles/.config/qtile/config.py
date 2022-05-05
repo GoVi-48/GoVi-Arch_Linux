@@ -398,6 +398,13 @@ Calendar = widget.Clock(
     format='%a %d/%m/%Y ',
     mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('gsimplecal')})
 
+Weather_ico = widget.OpenWeather(
+    location='Vigo', format='{icon}',
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('firefox https://weather.com/es-ES/weather/today/l/330a88c0517ec4510b8f636d3d95551e0fa57ece1950cf4664d2115d5cb1db7e')})
+
+Weather_temp = widget.GenPollText(
+    func=lambda: subprocess.getoutput('~/Scripts/Shell/Utils/Weather.sh'),
+    update_interval=1800)
 
 # ================================= SCREENS ================================= #
 screens = [
@@ -408,7 +415,7 @@ screens = [
                 Startup_Menu, Layout, GroupBox, Prompt, TaskList,
 
                 # WIDGETS TOP RIGHT
-                Systray, Sound, Clock,
+                Systray, Sound, Calendar_ico, Calendar,
             ],
             34),
 
@@ -423,8 +430,8 @@ screens = [
                 widget.Spacer(length=bar.STRETCH),
                 Net_et_D, Net_ico, Net_et_U, Spacer_10,
                 Mem_Load_ico, Mem_Load, Spacer_10, Cpu_icon, Cpu_Load, Spacer_10,
-                Cpu_Temp_ico, Cpu_Temp, Gpu_Temp_ico, Gpu_Temp, Mb_Temp_ico, Mb_Temp, Spacer_10,
-                Volume_ico, Volume, Calendar_ico, Calendar,
+                Cpu_Temp_ico, Cpu_Temp, Gpu_Temp_ico, Gpu_Temp, Mb_Temp_ico, Mb_Temp,
+                Weather_ico, Weather_temp, Volume_ico, Volume, Spacer_10, Clock,
             ],
             34),
     ),
@@ -443,7 +450,7 @@ screens = [
                 widget.TaskList(borderwidth=2, border='#5C718E', fontsize=14, max_title_width=300),
 
                 # WIDGETS TOP RIGHT-2
-                Clock,
+                Calendar_ico, Calendar,
             ],
             34),
 
@@ -458,7 +465,7 @@ screens = [
                 Net_et_D, Net_ico, Net_et_U, Spacer_10,
                 Mem_Load_ico, Mem_Load, Spacer_10, Cpu_icon, Cpu_Load, Spacer_20,
                 Cpu_Temp_ico, Cpu_Temp, Gpu_Temp_ico, Gpu_Temp, Mb_Temp_ico, Mb_Temp, Spacer_10,
-                Volume_ico, Volume, Calendar_ico, Calendar,
+                Volume_ico, Volume, Spacer_10, Clock,
             ],
             34),
     ), ]

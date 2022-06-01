@@ -59,7 +59,7 @@ es_ES.UTF-8 UTF-8
 nvim /etc/environment
 # ======================================================================================= #
 en_US.UTF-8
-es_ES.UTF-8
+#es_ES.UTF-8
 # ======================================================================================= #
 
 locale-gen
@@ -163,14 +163,28 @@ EndSection
 Section "Device"
         Identifier "nvidia"
         Driver "nvidia"
-        BusID "PCI:1:0:0"
-        Option "TripleBuffer" "True"
-        Option "MetaModes" "nvidia-auto-select +0+0 { ForceFullCompositionPipeline = On }"
+	BusID "PCI:1:0:0"
+	Option "TripleBuffer" "True"
+	Option "MetaModes" "nvidia-auto-select +0+0 { ForceFullCompositionPipeline = On }"
 EndSection
 
 Section "Screen"
         Identifier "nvidia"
         Device "nvidia"
+EndSection
+
+# Monitor 2
+Section "Device"
+        Identifier "intel"
+        Driver "modesetting"
+        BusID "PCI:0:2:0"
+        Option "AccelMethod" "sna"
+        Option "TearFree" "true"
+EndSection
+
+Section "Screen"
+        Identifier "intel"
+        Device "intel"
 EndSection
 # ======================================================================================= #
 

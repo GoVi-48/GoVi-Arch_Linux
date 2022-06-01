@@ -9,7 +9,7 @@ notf_ON=~/.config/qtile/scripts/notf_ON
 notf_Updates=~/.config/qtile/scripts/notf_UpdatesP
 
 if [ "$UPDATES_PACMAN" -eq 0 ]; then
-    echo
+    echo ""
 
 elif [ "$UPDATES_PACMAN" -gt 1 ] && [ -f $notf_ON ] && [ ! -f $notf_Updates ]; then
     echo "$UPDATES_PACMAN pacman"
@@ -24,7 +24,7 @@ elif [ "$UPDATES_PACMAN" -gt 1 ] && [ ! -f $notf_ON ]; then
     echo "$UPDATES_PACMAN pacman"
 
 else
-    echo
+    echo ""
 fi
 
 exit

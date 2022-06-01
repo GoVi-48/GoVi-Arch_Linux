@@ -81,4 +81,4 @@ imwheel.sh &
 
 paplay --volume=40000 "$HOME/Themes/GoVi/audio/tribal-flute-2306.wav" &
 
-exec qtile start
+exec qtile start -b wayland

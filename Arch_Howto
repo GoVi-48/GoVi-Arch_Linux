@@ -96,9 +96,12 @@ sudo chown govi:wheel /Datos/
 sudo chown govi:wheel /Media/
 sudo chown govi:wheel /Windows/
 # Repair in case goes read only
-    # chmod +rwx /home/*
+    # sudo chmod +rwx /home/*
     # sudo ntfsfix /dev/sdc1
 ls -l /
+
+# Permissions
+sudo  mount -o remount,rwx /dev/sdc1 /Media
 
 # ============================================================================= #
                             # Crontab Jobs #
@@ -141,6 +144,7 @@ sudo nvim ~/.imwheelrc
     Shift_L,   Down, Shift_L|Button5, 4
     Control_L, Up,   Control_L|Button4
     Control_L, Down, Control_L|Button5
+
 # ======================================================================================= #
 
 # Gestures KDE
@@ -172,9 +176,6 @@ yay -S xdg-user-dirs-gtk
 sudo nvim /etc/xdg/user-dirs.defaults
 nvim ~/.config/user-dirs.dirs
 xdg-user-dirs-update
-
-# Permissions
-sudo  mount -o remount,rwx /dev/sdc1 /Media
 
 # Tuning PulseAudio
 sudo nvim /etc/pulse/daemon.conf

@@ -45,10 +45,10 @@ keys = [
     Key([mod, "control"], "q", lazy.spawn('sh -c ~/.config/rofi/powermenu/powermenu.sh')),
     Key([mod], "l", lazy.spawn('sh -c /home/govi/.config/rofi/launchers/colorful/launcher.sh')),
     Key([mod], "s", lazy.spawn('flameshot full -d 1 -p /home/govi/Multimedia/Pictures/Screenshots/')),
-    Key([mod], "b", lazy.spawn('firefox')),
+    Key([mod], "b", lazy.spawn('brave')),
     Key([mod], "f", lazy.spawn('spacefm')),
     Key([mod], "m", lazy.spawn(terminal + " -e bashtop")),
-    Key([mod], "g", lazy.spawn('firefox "http://www.gmail.com"')),
+    Key([mod], "g", lazy.spawn('brave "http://www.gmail.com"')),
     Key([mod], "Escape", lazy.window.kill()),
     Key([mod], "w", lazy.window.kill()),
     # Key([mod], "q", lazy.to_screen(0), desc='Keyboard focus to monitor 1'),
@@ -112,11 +112,11 @@ keys = [
 
 # ================================= GROUPS ================================= #
 # Run "sleep 5 && xprop" to see the wm class and name of an X client.
-groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["firefox", "lutris", "Steam", "*.exe", ])]),
-          Group("2", label="", layout='monadtall', matches=[Match(wm_class=["jetbrains-pycharm-ce-debug", ])]),
+groups = [Group("1", label="", layout='max', matches=[Match(wm_class=["brave", "firefox", "lutris", "Steam", "*.exe", ])]),
+          Group("2", label="", layout='max', matches=[Match(wm_class=["jetbrains-pycharm-ce-debug", "blender",])]),
           Group("3", label="", layout='monadtall'),
           Group("4", label="", layout='monadtall'),
-          Group("5", label="", layout='monadtall'),
+          Group("5", label="", layout='max', matches=[Match(wm_class=["liferea",])]),
           Group("6", label="", layout='max'),
           Group("7", label="", layout='floating')]
 
@@ -173,22 +173,6 @@ widget_defaults = dict(
 extension_defaults = widget_defaults.copy()
 
 
-def updates_pacman_icon():
-    p = subprocess.getoutput('pacman -Qu | wc -l | cut -c1-1')
-    p = int(p)
-    if p > 0:
-        return widget.Image(filename='~/.config/qtile/@resources/updates_pacman.png')
-    return widget.Image(filename='~/.config/qtile/@resources/updates_0.png')
-
-
-def updates_aur_icon():
-    a = subprocess.getoutput('yay -Qua | wc -l | cut -c1-1')
-    a = int(a)
-    if a > 0:
-        return widget.Image(filename='~/.config/qtile/@resources/updates_aur.png')
-    return widget.Image(filename='~/.config/qtile/@resources/updates_0.png')
-
-
 def cpu_load_icon():
     while True:
         cpu_load = subprocess.getoutput('~/.config/qtile/scripts/cpu_load.sh | cut -c1-2')
@@ -216,7 +200,7 @@ def cpu_load_icon():
 def cpu_icon():
     cpu_temp = subprocess.getoutput('~/.config/qtile/scripts/cpu_temp.sh | cut -c1-2')
     cpu_temp = int(cpu_temp)
-    if cpu_temp <= 50:
+    if cpu_temp <= 60:
         return str('0')
     return str('🔥')
 
@@ -313,16 +297,9 @@ Notifications = widget.GenPollText(
     font='Noto Color Emoji', update_interval=1,
     mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/notf_switch.sh')})
 
-Firefox = widget.Image(
-    filename='~/.config/qtile/@resources/firefox.png', margin=8,
-    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('firefox')})
-
-Gmail_ico = widget.Image(
-    filename='~/.config/qtile/@resources/gmail.png', margin=8,
-    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('firefox "http://www.gmail.com"')})
-Gmail = widget.GenPollText(
-    func=lambda: subprocess.getoutput('~/.config/qtile/scripts/email.sh'),
-    update_interval=300, fontsize=12)
+Brave = widget.Image(
+    filename='~/.config/qtile/@resources/brave.png', margin=8,
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('brave')})
 
 Github_ico = widget.Image(
     filename='~/.config/qtile/@resources/github.svg', margin=9,
@@ -331,7 +308,14 @@ Github = widget.GenPollText(
     func=lambda: subprocess.getoutput('~/.config/qtile/scripts/rss_github_not.sh'),
     update_interval=300, fontsize=12)
 
-Upd_pac = widget.GenPollText(
+Gmail_ico = widget.Image(
+    filename='~/.config/qtile/@resources/gmail.png', margin=8,
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('brave "http://www.gmail.com"')})
+Gmail = widget.GenPollText(
+    func=lambda: subprocess.getoutput('~/.config/qtile/scripts/email.sh'),
+    update_interval=300, fontsize=12)
+
+Upd_pacman = widget.GenPollText(
     func=lambda: subprocess.getoutput('~/.config/qtile/scripts/updates_pacman.sh'),
     mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/updates_pacman_Reset.sh')},
     update_interval=1800)
@@ -398,12 +382,14 @@ Calendar = widget.Clock(
     format='%a %d/%m/%Y ',
     mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('gsimplecal')})
 
-Weather_ico = widget.OpenWeather(
-    location='Vigo', format='{icon}',
-    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('firefox https://weather.com/es-ES/weather/today/l/330a88c0517ec4510b8f636d3d95551e0fa57ece1950cf4664d2115d5cb1db7e')})
-
+Weather_ico = widget.GenPollText(
+    font='Noto Color Emoji',
+    func=lambda: subprocess.getoutput('~/Scripts/Shell/Utils/Weather_ico.sh'),
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('brave https://darksky.net/forecast/42.2207,-8.7325/ca12/en')},
+    update_interval=1800)
 Weather_temp = widget.GenPollText(
-    func=lambda: subprocess.getoutput('~/Scripts/Shell/Utils/Weather.sh'),
+    func=lambda: subprocess.getoutput('~/Scripts/Shell/Utils/Weather_temp.sh'),
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('brave https://darksky.net/forecast/42.2207,-8.7325/ca12/en')},
     update_interval=1800)
 
 # ================================= SCREENS ================================= #
@@ -424,7 +410,7 @@ screens = [
                 # WIDGETS BOTTOM LEFT
                 Power, Restart_qtile, Spacer_20,
                 Root_ico, Root, Spacer_10, Home_ico, Home, Spacer_10, Hdd_1_ico, Hdd_1, Spacer_10, Hdd_2_ico, Hdd_2, Spacer_20,
-                Notifications, Spacer_10, Firefox, Spacer_10, Gmail_ico, Gmail, Spacer_10, Github_ico, Github, Spacer_20, Upd_pac, Spacer_10, Upd_aur,
+                Notifications, Brave, Github_ico, Github, Gmail_ico, Gmail, Spacer_10, Upd_pacman, Upd_aur,
 
                 # WIDGETS BOTTOM RIGHT
                 widget.Spacer(length=bar.STRETCH),
@@ -458,7 +444,7 @@ screens = [
             [
                 # WIDGETS BOTTOM LEFT-2
                 Power, Restart_qtile, Spacer_20,
-                Notifications, Spacer_10, Firefox, Spacer_10, Gmail_ico, Gmail, Spacer_10, Github_ico, Github, Spacer_20, Upd_pac, Spacer_10, Upd_aur,
+                Notifications, Brave, Github_ico, Github, Gmail_ico, Gmail, Upd_pacman, Upd_aur,
 
                 # WIDGETS BOTTOM RIGHT-2
                 widget.Spacer(length=bar.STRETCH),

@@ -73,13 +73,13 @@ while true; do
     if [[ $INPUT = "" ]]; then
         echo "Opening Github..."
         sleep 2
-        firefox "https://github.com/GoVi-48/Blender-Proyects"
+        brave "https://github.com/GoVi-48/Blender-Proyects"
         exit
     elif [[ $INPUT = $'\e' ]]; then
         exit
     else
         sleep 10 &&
-        firefox "https://github.com/GoVi-48/GoVi-Proyects"
+        brave "https://github.com/GoVi-48/GoVi-Proyects"
         exit
     fi
 done

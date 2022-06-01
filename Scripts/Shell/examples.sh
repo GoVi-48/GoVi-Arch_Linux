@@ -24,6 +24,7 @@ sed -n "s/.*START\([^T]*\)END.*/\1/p"
 grep "^STRING"
 
 awk '$1 ~ /^STRING/'
+awk '/^STRING/{print}'
 
 # Extract starts with and Substract
 awk '$1 ~ /^STRING/ {print substr($0,16,2)}' # Substract 2 characters of string 16

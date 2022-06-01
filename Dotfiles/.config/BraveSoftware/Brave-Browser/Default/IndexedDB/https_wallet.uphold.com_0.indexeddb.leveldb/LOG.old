@@ -1,0 +1,18 @@
+2022/05/30-02:50:28.044 8563c Creating DB /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_wallet.uphold.com_0.indexeddb.leveldb since it was missing.
+2022/05/30-02:50:28.059 8563c Reusing MANIFEST /home/govi/.config/BraveSoftware/Brave-Browser/Default/IndexedDB/https_wallet.uphold.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/05/30-02:50:28.207 8563c Level-0 table #5: started
+2022/05/30-02:50:28.211 8563c Level-0 table #5: 1230 bytes OK
+2022/05/30-02:50:28.214 8563c Delete type=0 #3
+2022/05/30-02:50:28.214 8563c Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)
+2022/05/30-02:52:25.887 8666a Level-0 table #7: started
+2022/05/30-02:52:25.889 8666a Level-0 table #7: 6804 bytes OK
+2022/05/30-02:52:25.890 8666a Delete type=0 #4
+2022/05/30-02:52:25.891 8666a Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2022/05/30-02:52:25.891 8666a Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x000\x009\x007\x002\x003\x000\x000\x004\x000\x006\x001\x00:\x00w\x00e\x00b\x00:\x00c\x00b\x00d\x00e\x007\x006\x003\x00a\x00d\x009\x00c\x004\x00d\x00f\x00e\x001\x002\x00e\x007\x008\x007\x004' @ 108 : 1
+2022/05/30-02:52:25.891 8666a Compacting 1@1 + 1@2 files
+2022/05/30-02:52:25.892 8666a Generated table #8@1: 44 keys, 2648 bytes
+2022/05/30-02:52:25.892 8666a Compacted 1@1 + 1@2 files => 2648 bytes
+2022/05/30-02:52:25.894 8666a compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/05/30-02:52:25.894 8666a Delete type=2 #5
+2022/05/30-02:52:25.894 8666a Delete type=2 #7
+2022/05/30-02:52:25.894 8666a Manual compaction at level-1 from '\x00\x03\x01\x02\x013\x00[\x00D\x00E\x00F\x00A\x00U\x00L\x00T\x00]\x00!\x001\x00:\x001\x000\x009\x007\x002\x003\x000\x000\x004\x000\x006\x001\x00:\x00w\x00e\x00b\x00:\x00c\x00b\x00d\x00e\x007\x006\x003\x00a\x00d\x009\x00c\x004\x00d\x00f\x00e\x001\x002\x00e\x007\x008\x007\x004' @ 108 : 1 .. (end); will stop at (end)

@@ -15,7 +15,7 @@ rsync -arv ~/.xinitrc "$GOVI_ARCH_LINUX"/Dotfiles/
 rsync -arv ~/.zshrc "$GOVI_ARCH_LINUX"/Dotfiles/
 
 # ~/.config/
-rsync -arv --exclude={'.directory','discord','email.sh','skypeforlinux','spotify','teamviewer','vivaldi','docs_config','startup.blend'} --delete ~/.config/ "$GOVI_ARCH_LINUX"/Dotfiles/.config/
+rsync -arv --exclude={'.directory','discord','email.sh','skypeforlinux','spotify','teamviewer','vivaldi','BraveSoftware','docs_config','startup.blend'} --delete ~/.config/ "$GOVI_ARCH_LINUX"/Dotfiles/.config/
 
 # ~/.local/share/
 mkdir -p "$GOVI_ARCH_LINUX"/Dotfiles/.local/share/
@@ -60,7 +60,7 @@ while true; do
         if [[ $INPUT = "" ]]; then
             echo "Opening Github..."
             sleep 2
-            firefox https://github.com/GoVi-48/GoVi-Arch_Linux
+            brave https://github.com/GoVi-48/GoVi-Arch_Linux
             exit
 
         elif [[ $INPUT = $'\e' ]]; then

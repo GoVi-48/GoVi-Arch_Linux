@@ -301,6 +301,10 @@ Brave = widget.Image(
     filename='~/.config/qtile/@resources/brave.png', margin=8,
     mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('brave')})
 
+Blender = widget.Image(
+    filename='~/.config/qtile/@resources/blender.png', margin=8,
+    mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('blender')})
+
 Github_ico = widget.Image(
     filename='~/.config/qtile/@resources/github.svg', margin=9,
     mouse_callbacks={'Button1': lambda: qtile.cmd_spawn('sh -c ~/.config/qtile/scripts/rss_github_Reset.sh')})
@@ -410,7 +414,7 @@ screens = [
                 # WIDGETS BOTTOM LEFT
                 Power, Restart_qtile, Spacer_20,
                 Root_ico, Root, Spacer_10, Home_ico, Home, Spacer_10, Hdd_1_ico, Hdd_1, Spacer_10, Hdd_2_ico, Hdd_2, Spacer_20,
-                Notifications, Brave, Github_ico, Github, Gmail_ico, Gmail, Spacer_10, Upd_pacman, Upd_aur,
+                Notifications, Brave, Blender, Github_ico, Github, Gmail_ico, Gmail, Spacer_10, Upd_pacman, Upd_aur,
 
                 # WIDGETS BOTTOM RIGHT
                 widget.Spacer(length=bar.STRETCH),
@@ -444,7 +448,7 @@ screens = [
             [
                 # WIDGETS BOTTOM LEFT-2
                 Power, Restart_qtile, Spacer_20,
-                Notifications, Brave, Github_ico, Github, Gmail_ico, Gmail, Upd_pacman, Upd_aur,
+                Notifications, Brave, Blender, Github_ico, Github, Gmail_ico, Gmail, Upd_pacman, Upd_aur,
 
                 # WIDGETS BOTTOM RIGHT-2
                 widget.Spacer(length=bar.STRETCH),
